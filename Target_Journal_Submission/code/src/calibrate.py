@@ -185,8 +185,10 @@ class PredTransport(Transport):
 # Round 3: source-side self-calibration. The training cohorts are themselves "sites": rehearse deployment of the
 # hybrid from the other training cohorts to each training cohort j (out-of-fold source scores, no target data),
 # record realised FPR for a grid of nominal levels, and pick the nominal level whose mean realised FPR equals alpha.
-def self_calibrate(s_src, y_src, g_src, alpha, k=5, prior=(0.01, 10), use_pool=True, R=10, seed=0,
-                   grid=np.array([0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12])):
+def self_calibrate(s_src, y_src, g_src, alpha, k=5, prior=(0.01, 10), use_pool=True, R=10, seed=0, grid=None):
+    # Round 4 fix: the nominal-level grid scales with alpha (the round-3 grid 0.02-0.12 was absolute and capped the
+    # level at 0.12, which made alpha=0.20 unreachable).
+    grid = alpha * np.linspace(0.2, 1.8, 17) if grid is None else grid
     rng = np.random.default_rng(seed); real = []
     for j in np.unique(g_src):
         src, tgt = g_src != j, g_src == j
