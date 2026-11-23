@@ -122,3 +122,57 @@ def metrics2(xml):
 if __name__ == "__main__" and sys.argv[1] == "ft2":
     for pm in sys.argv[2:]:
         print(pm, json.dumps(metrics2(fulltext(pm)), ensure_ascii=False))
+
+# ---------------------------------------------------------------------------
+# Curated per-paper values (manually extracted from Europe PMC full-text XML main text,
+# figure captions and Data Availability; "NA" = not reported in main text, "UNVERIFIED" =
+# could not be confirmed from main text / probably in Supplementary Information).
+# Run: python3 benchmark_imeta.py build
+# ---------------------------------------------------------------------------
+CURATED = "/home/user/p_C1_14/Target_Journal_Submission/code/scripts/benchmark_curated.json"
+
+def build():
+    import csv, statistics
+    cur = json.load(open(CURATED))
+    pm = {x["pmid"]: x for x in json.load(open(f"{OUT}/pubmed.json"))}
+    rows = []
+    for c in cur:
+        p = pm[c["pmid"]]
+        m = metrics2(fulltext(p["pmcid"]))
+        title = re.sub(r"\.$", "", p["title"])
+        rows.append(dict(title=title, year=p["year"], doi=p["doi"], pmid=c["pmid"], pmcid=p["pmcid"],
+            article_type="Letter" if "Letter" in p["pubtypes"] else "ResearchArticle",
+            jats_article_type=c.get("jats", ""), title_words=len(title.split()),
+            problem_type=c["problem_type"], real_world_setting=c["setting"], datasets=c["datasets"],
+            n_cohorts_or_datasets=c["n_coh"], n_baselines_compared=c["n_base"], n_seeds_or_repeats=c["n_seeds"],
+            statistical_tests_used=c["stats"], ablation=c["ablation"], robustness_or_cross_dataset_test=c["cross"],
+            real_world_or_deployment_evidence=c["realworld"], code_available=c["code"],
+            main_text_word_count_estimate=f"~{m['main_words']} (approximate; JATS body text excl. captions/back matter)",
+            n_figures=m["n_fig"], n_tables=m["n_tab"], n_references=m["n_ref"],
+            claimed_novelty=c["novelty"], evaluation_metrics=c["metrics"],
+            received_accepted_jats="; ".join(f"{k}={v}" for k, v in m["history"].items()) or "NA",
+            _words=m["main_words"]))
+    cols = [k for k in rows[0] if not k.startswith("_")]
+    with open("/home/user/p_C1_14/Target_Journal_Submission/journal_selection/journal_benchmark.csv", "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
+    # summary statistics
+    def num(v):
+        mm = re.match(r"~?\s*(\d[\d,]*)", str(v)); return float(mm.group(1).replace(",", "")) if mm else None
+    def q(xs):
+        xs = sorted(x for x in xs if x is not None)
+        if not xs: return "NA"
+        qs = statistics.quantiles(xs, n=4, method="inclusive") if len(xs) > 1 else [xs[0]] * 3
+        return f"median {statistics.median(xs):g} (IQR {qs[0]:g}-{qs[2]:g}; n={len(xs)})"
+    yes = lambda k, rs: f"{sum(r[k].lower().startswith('yes') for r in rs)}/{len(rs)}"
+    for lab, rs in [("ALL", rows), ("Letter", [r for r in rows if r["article_type"] == "Letter"]),
+                    ("ResearchArticle", [r for r in rows if r["article_type"] != "Letter"])]:
+        print(lab, len(rs))
+        for k in ["n_cohorts_or_datasets", "n_baselines_compared", "n_seeds_or_repeats"]:
+            print(" ", k, q([num(r[k]) for r in rs]))
+        print("  words", q([r["_words"] for r in rs]), "figs", q([r["n_figures"] for r in rs]),
+              "tables", q([r["n_tables"] for r in rs]), "refs", q([r["n_references"] for r in rs]), "title_words", q([r["title_words"] for r in rs]))
+        for k in ["ablation", "robustness_or_cross_dataset_test", "real_world_or_deployment_evidence", "code_available"]:
+            print(" ", k, yes(k, rs))
+
+if __name__ == "__main__" and sys.argv[1] == "build":
+    build()
