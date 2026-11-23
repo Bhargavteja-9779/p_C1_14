@@ -84,3 +84,15 @@ Verdict:
   its application + evaluation for microbiome diagnostics, not the bound itself.
 - Candidate frozen method set for the final protocol: source (status quo), local_q, EM, contam_quantile(pi_max),
   conformal-n and PAC-n local controls; LASSO + RF.
+
+### Round 3 novelty check (2026-11-23, web search)
+- Bashari, Sesia & Romano 2025 (ICML, PMLR v267; arXiv 2502.04807): conformal calibration on a contaminated reference
+  set gives conservative type-I control under non-adversarial contamination; they add active cleaning with a small
+  labelling budget. => our label-free contam_quantile is a close relative (we add the explicit pi_max rank correction,
+  which makes validity hold without their non-adversarial condition). Method novelty: LOW.
+- Blanchard, Lee & Scott 2010 (JMLR): semi-supervised novelty detection reduced to NP classification with a mixture
+  of nominal + novel data; mixture-proportion estimation. Related foundation.
+=> The method side is a principled application of known tools. A realistic contribution claim for an iMeta Letter is:
+   (1) first systematic evidence that microbiome classifier cut-offs drift across sites, hidden by AUROC-only LOSO;
+   (2) a deployment recipe with guarantees (label-free pi_max-bounded pool quantile; >= 20 local controls with
+   conformal/PAC) shown to restore target specificity across 3 diseases; (3) harms per 1,000 screened.
