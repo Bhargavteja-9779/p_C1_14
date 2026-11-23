@@ -41,6 +41,7 @@ def run_job(disease, train, target, model, mode, seed, reps):
     tr, te = np.isin(g, train), g == target
     P = Pipeline(model, mode, seed).fit(X[tr], y[tr], g[tr])
     s_src, y_src = P.oof, P.y
+    tau2 = T.between_site_tau2(s_src, y_src, P.g, ALPHA, seed=seed)
     dens = (T._Dens(s_src[y_src == 0]), T._Dens(s_src[y_src == 1]))
     Xt, yt = X[te], y[te]
     st_full = P.score(Xt, pool_idx=np.arange(len(yt)))
@@ -67,11 +68,13 @@ def run_job(disease, train, target, model, mode, seed, reps):
                 th["M2_em_prior"], pi_em = T.em_prior(s_src, y_src, ALPHA, u, dens=dens, return_pi=True)
                 alarm_mix = float(np.clip((above - pi_em * sens_src) / max(1 - pi_em, 1e-6), 0, 1))
                 th["M3_known_prev"] = T.known_prev(s_src, y_src, ALPHA, u, pi_act)
+                th["M8_shrink_pool"] = T.shrink(th["M0_source"], tau2, u, ALPHA, seed=r)
                 th["M7_pred_alignment"] = T.prediction_alignment(s_src, y_src, ALPHA, u)
                 th["M4_site_shift"], par = T.site_shift(s_src, y_src, ALPHA, u, dens=dens, return_params=True)
                 for n in N_CONF:
                     if pi == 0.0 and n <= len(c0):  # labelled controls drawn from the pool controls
                         th[f"M5_conformal_n{n}"] = T.conformal_controls(ALPHA, st[c0[:n]])
+                        th[f"M8_shrink_ctrl_n{n}"] = T.shrink(th["M0_source"], tau2, st[c0[:n]], ALPHA, seed=r)
                 th["Oracle"] = float(np.quantile(st[e0], 1 - ALPHA))
             for k, t in th.items():
                 rows.append((disease, target, model, mode, seed, r, pi, pi_act, k, t,

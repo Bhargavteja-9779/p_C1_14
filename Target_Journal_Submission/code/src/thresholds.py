@@ -95,3 +95,26 @@ def prediction_alignment(s_src, y_src, alpha, u, **kw):
     t_src = np.quantile(s_src[y_src == 0], 1 - alpha)
     q = np.mean(s_src < t_src)
     return float(np.quantile(u, q))
+
+
+def between_site_tau2(s_src, y_src, g_src, alpha, B=200, seed=0):
+    """Between-site variance of the (1-alpha) control quantile, from leave-one-cohort-out OOF scores of the training
+    cohorts: var(q_c) minus the mean bootstrap sampling variance of q_c (method of moments, floored at 0)."""
+    rng = np.random.default_rng(seed); q, v = [], []
+    for c in np.unique(g_src):
+        x = s_src[(g_src == c) & (y_src == 0)]
+        if len(x) < 5: continue
+        q.append(np.quantile(x, 1 - alpha))
+        v.append(np.var([np.quantile(rng.choice(x, len(x)), 1 - alpha) for _ in range(B)]))
+    return float(max(np.var(q, ddof=1) - np.mean(v), 0.0)) if len(q) >= 3 else 0.0
+
+
+def shrink(t_src, tau2, x, alpha, B=200, seed=0, conformal=False):
+    """M8: empirical-Bayes threshold. Local estimate t_loc from sample x (unlabeled pool or labelled controls),
+    its sampling variance by bootstrap; posterior mean t = t_src + w (t_loc - t_src), w = tau2 / (tau2 + var_loc)."""
+    rng = np.random.default_rng(seed); x = np.asarray(x)
+    t_loc = conformal_controls(alpha, x) if conformal else np.quantile(x, 1 - alpha)
+    if not np.isfinite(t_loc): t_loc = x.max()
+    var = np.var([np.quantile(rng.choice(x, len(x)), 1 - alpha) for _ in range(B)])
+    w = tau2 / (tau2 + var) if tau2 + var > 0 else 0.0
+    return float(t_src + w * (t_loc - t_src))

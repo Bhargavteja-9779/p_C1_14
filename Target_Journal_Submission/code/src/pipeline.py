@@ -48,7 +48,7 @@ class Pipeline:
         for a, b in folds:  # inner leave-one-cohort-out; preprocessing statistics are from the full training set
             oof[b] = make(self.model, self.seed).fit(Z[a], y[a]).predict_proba(Z[b])[:, 1]
         self.m = make(self.model, self.seed).fit(Z, y)
-        self.oof, self.y = logit(oof), y
+        self.oof, self.y, self.g = logit(oof), y, g
         return self
 
     def score(self, Xt, pool_idx=None):
