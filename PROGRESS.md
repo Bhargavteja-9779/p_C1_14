@@ -1,18 +1,28 @@
 # PROGRESS (resume file)
 
-Any agent continuing this work: read this file first, then `git log`. Work happens on branch
-`claude/dreamy-clarke-rldxev`. All deliverables live in `Target_Journal_Submission/`.
+Any agent continuing this work: read this file first, then `git log`. Work happened on branch
+`claude/dreamy-clarke-rldxev` up to commit 1777afd; from 2026-11-23 (session 2) work continues on
+`claude/affectionate-euler-dyczzb`. All deliverables live in `Target_Journal_Submission/`.
 Commit + push after every phase (auto-save).
 
 ## Environment notes
 - 4 CPU, 15 GB RAM, no GPU. Python 3.13. ScienceDirect HTML blocked (403); Crossref, OpenAlex, arXiv, UCI, PhysioNet, Zenodo, HF reachable.
 
+## Rebuilding the environment (fresh container)
+1. `pip install scikit-learn pandas pyreadr scipy matplotlib`
+2. `curl -L -o /tmp/claude-0/eh/eh.sqlite3 https://experimenthub.bioconductor.org/metadata/experimenthub.sqlite3`
+3. sampleMetadata: `curl -L https://raw.githubusercontent.com/waldronlab/curatedMetagenomicData/devel/data/sampleMetadata.rda`
+   -> pyreadr -> `data_cache/sampleMetadata.csv` (22588 x 141).
+4. `cd data_cache && python3 ../Target_Journal_Submission/code/scripts/fetch_cmd.py <studies>` (MetaCardis via
+   `2022-10-19.MetaCardis_2020_a.relative_abundance`). Takes ~3 min.
+
 ## Phase log
 - [x] Phase -1: repo skeleton created (2026-11-23)
-- [ ] STEP 0: journal landscape + 72-day evidence
-- [ ] STEP 1: benchmark 25 papers, level profile, style notes
-- [ ] STEP 2: real-life problem discovery
-- [ ] STEP 3: novelty map + scorecard
+- [x] STEP 0: journal landscape + 72-day evidence
+- [x] STEP 1: benchmark 25 papers, level profile, style notes
+- [x] STEP 2: real-life problem discovery
+- [ ] STEP 3: novelty map + scorecard (session 1 agent output lost; re-run in session 2)
+- [x] Data lock (code/experiments/data_lock.md)
 - [ ] Protocol pre-registration
 - [ ] First working version
 - [ ] Novelty escalation loop (D6)
