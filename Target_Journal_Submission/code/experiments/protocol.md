@@ -1,8 +1,8 @@
 # Pre-registered analysis protocol (frozen before any locked-cohort analysis)
 
-Status: DRAFT written 2026-11-23 after development rounds 1-8 (experiments/novelty_escalation_log.md).
+Status: FROZEN 2026-11-23 after development rounds 1-8 (user approved freeze) (experiments/novelty_escalation_log.md).
 Becomes FROZEN at the commit that adds the line "FROZEN: yes" below; the final runner refuses to run otherwise.
-FROZEN: no
+FROZEN: yes
 
 ## 1. Question
 When a gut-microbiome disease classifier is deployed at a new site, does its decision threshold keep the intended
