@@ -172,6 +172,34 @@ class PredTransport(Transport):
         a, b = D[:, 0], np.exp(np.clip(D[:, 1], -3, 3))
         fpr = lambda t: self.S0((t - a) / b).mean()
         lo, hi = x[0] + np.exp(x[1]) * self.s0.min() - 20, x[0] + np.exp(x[1]) * self.s0.max() + 20
-        t = optimize.brentq(lambda t: fpr(t) - alpha, lo, hi)
+        al = np.atleast_1d(alpha); t = np.array([optimize.brentq(lambda t: fpr(t) - aa, lo, hi) for aa in al])
         pi = (1 / (1 + np.exp(-x[2])) if free_pi else pi_fixed)
-        return t, (x[0], np.exp(x[1]), pi)
+        self.last_fit = (x[0], np.exp(x[1]), pi)
+        return (t if np.ndim(alpha) else t[0]), (x[0], np.exp(x[1]), pi)
+    def gof_pvalue(self, c):
+        """KS p-value of labelled local controls against the transported source control CDF at the last fit."""
+        a, b, _ = self.last_fit
+        return stats.kstest(c, lambda t: 1 - self.S0((np.asarray(t) - a) / b)).pvalue
+
+
+# Round 3: source-side self-calibration. The training cohorts are themselves "sites": rehearse deployment of the
+# hybrid from the other training cohorts to each training cohort j (out-of-fold source scores, no target data),
+# record realised FPR for a grid of nominal levels, and pick the nominal level whose mean realised FPR equals alpha.
+def self_calibrate(s_src, y_src, g_src, alpha, k=5, prior=(0.01, 10), use_pool=True, R=10, seed=0,
+                   grid=np.array([0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.11, 0.12])):
+    rng = np.random.default_rng(seed); real = []
+    for j in np.unique(g_src):
+        src, tgt = g_src != j, g_src == j
+        if len(np.unique(y_src[src])) < 2: continue
+        c_all = s_src[tgt & (y_src == 0)]
+        if len(c_all) < k + 8: continue
+        T = PredTransport(s_src[src], y_src[src], n_draw=200, seed=seed)
+        for _ in range(R):
+            p = rng.permutation(len(c_all)); lab = c_all[p[:k]]; rest = c_all[p[k:]]
+            h = len(rest) // 2; pool, ev = rest[:h], rest[h:]
+            t, _ = T.predictive(grid, c=lab if k else None, u=pool if use_pool else None, prior=prior)
+            real.append([(ev >= tt).mean() for tt in t])
+    m = np.mean(real, 0)                       # mean realised FPR per nominal level (increasing in level)
+    if m[0] > alpha: return grid[0]
+    if m[-1] < alpha: return grid[-1]
+    return float(np.interp(alpha, m, grid))
