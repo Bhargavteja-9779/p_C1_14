@@ -58,5 +58,7 @@ Commit + push after every phase (auto-save).
 - Round 3 direction: guarantees that matter per deployment (high-probability, not in-expectation) - (i) PAC/
   training-conditional local-control threshold, (ii) label-free contamination-bounded quantile of the unlabeled pool
   using only an upper bound on prevalence (known in screening), with DKW correction; (iii) hybrid.
-- 2026-11-23 PAUSED at user request (after DEV round 3 + novelty check), before protocol freeze. Locked test cohorts
+- 2026-11-23 PAUSED at user request before protocol freeze; user chose ONE MORE METHOD ROUND (round 4).
   NOT touched. Open decision: (a) freeze current recipe and run locked tests once, or (b) one more method round.
+- Round 4 DONE: verified-positive recalibration (labels from routine colonoscopy of test-positives + prevalence bound)
+  matches the fully-labelled oracle on DEV for pi <= 0.10. Locked test cohorts still untouched. Next decision: freeze.

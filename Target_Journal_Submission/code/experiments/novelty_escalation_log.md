@@ -96,3 +96,33 @@ Verdict:
    (1) first systematic evidence that microbiome classifier cut-offs drift across sites, hidden by AUROC-only LOSO;
    (2) a deployment recipe with guarantees (label-free pi_max-bounded pool quantile; >= 20 local controls with
    conformal/PAC) shown to restore target specificity across 3 diseases; (3) harms per 1,000 screened.
+
+## Round 4 (2026-11-23) - explore_v4.py, R = 300; full table explore_v4.log
+Idea (deployment fact): in screening every test-positive is referred to colonoscopy, so labels ABOVE the referral
+threshold arrive for free; labels below it never do (one-sided / verification-biased feedback).
+verified_positive(): during a burn-in, refer pool samples above a liberal t0 (contam quantile at 2*alpha or 3*alpha,
+or min(source, that)); count false positives EXACTLY among verified referrals; contamination by unverified cases
+only enters the denominator via the prevalence bound pi_max. Threshold = smallest t >= t0 with
+(FP(t)+1)/(m0_lo+1) <= alpha. Reference 'oracle_pool' = conformal threshold with ALL pool labels known.
+Prevalence bound used: pi_max = max(0.05, true pi).
+
+Mean FPR / sens (LASSO; RF same pattern); burn-in referral fraction in brackets:
+| true pi | source | local_q | contam | oracle_pool | vp_2a | vp_3a | vp_src |
+|---|---|---|---|---|---|---|---|
+| 0 | .159/.50 | .137/.51 | .071/.40 | .078/.42 | .078/.42 [.17] | .078/.42 [.27] | .078/.42 [.23] |
+| .05 | .159/.50 | .119/.48 | .059/.37 | .078/.42 | .078/.42 [.18] | .078/.42 [.27] | .078/.42 [.24] |
+| .10 | .159/.50 | .101/.45 | .042/.33 | .078/.42 | .075/.41 [.17] | .077/.41 [.26] | .076/.41 [.24] |
+| .30 | .159/.50 | .041/.32 | .008/.16 | .078/.42 | .032/.31 [.13] | .061/.39 [.20] | .061/.40 [.28] |
+
+Verdict:
+- **verified_positive WORKS**: equals the fully-labelled oracle for pi <= 0.10 in every DEV cohort (per-cohort FPR
+  0.062-0.101 at pi = .05), never exceeds target, and does not degrade with prevalence like contam/local_q.
+  At pi = 0.30 (e.g. adenoma, symptomatic clinics) a more liberal burn-in (3*alpha) is needed.
+- Costs: one burn-in batch with 17-27% referrals instead of 10%. Sensitivity gap vs source (.42 vs .50) is the price
+  of honesty on DEV pools of 12-32 controls (even the oracle sits at FPR .078 by rank rounding) - must re-measure with
+  larger pools (YachidaS 251 controls is locked; use bootstrapped deployment streams in final experiments).
+- Prior art to position against: apple tasting / one-sided feedback (Helmbold, Littlestone & Long 2000), selective
+  labels (Lakkaraju 2017), verification bias in diagnostic accuracy (Begg & Greenes 1983). Novelty claim: a
+  finite-sample FPR-valid re-thresholding rule that uses only routinely verified positives + a prevalence bound,
+  evaluated for microbiome diagnostics. To check in a targeted search before freezing.
+- Next: sequential version (monthly batches, threshold updated as verified referrals accrue) and harm per 1,000.

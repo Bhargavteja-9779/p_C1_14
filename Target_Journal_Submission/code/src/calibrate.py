@@ -97,3 +97,20 @@ def contam_quantile(u, alpha, pi_max):
     Holds for ANY case score distribution (no transport assumption)."""
     u = np.sort(u); m = len(u); q = (1 - alpha) * (1 - pi_max) + pi_max
     k = int(np.ceil((m + 1) * q)); return u[k - 1] if k <= m else np.inf
+
+# ---------- Round 4: verified-positive recalibration (one-sided feedback from routine follow-up) ----------
+def verified_positive(u, lab, alpha, pi_max, t0):
+    """Deployment pool u (m unlabeled scores). Samples with u >= t0 were referred (colonoscopy) so their labels `lab`
+    are observed; labels below t0 are never used. Count false positives exactly above t0; bound the number of
+    controls from below: m0 >= m - C1 - max(0, floor(pi_max*m) - C1)  (C1 = verified cases).
+    Return smallest candidate t >= t0 with (FP(t) + 1) / (m0_lo + 1) <= alpha; FP(t) = #verified controls >= t.
+    Returns (t, n_referred_burn_in)."""
+    u = np.asarray(u); m = len(u); ref = u >= t0
+    c1 = int(lab[ref].sum()); fn_bound = max(0, int(np.floor(pi_max * m)) - c1)
+    m0_lo = m - c1 - fn_bound
+    ctrl_sc = np.sort(u[ref & (lab == 0)])                      # verified control scores (ascending)
+    cands = np.concatenate([[t0], np.sort(u[ref]) + 1e-9])
+    for t in np.sort(cands):
+        fp = len(ctrl_sc) - np.searchsorted(ctrl_sc, t, side="left")
+        if (fp + 1) / (m0_lo + 1) <= alpha: return t, int(ref.sum())
+    return np.inf, int(ref.sum())
