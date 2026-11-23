@@ -1,0 +1,40 @@
+A. Cohort characteristics (controls)
+task                 cohort country        platform  controls  cases  median_reads_M  median_age  median_BMI                                        control_disease
+ CRC             FengQ_2015     AUT   IlluminaHiSeq        61     46            50.8        68.0        29.0 healthy:16,fatty_liver;hypertension:13,hypertension:11
+ CRC            GuptaA_2019     IND IlluminaNextSeq        30     30             9.3        40.0        22.0                                             healthy:30
+ CRC        HanniganGD_2017     USA   IlluminaHiSeq        28     27             6.7        54.0        25.2                                             healthy:28
+ CRC         ThomasAM_2018a     ITA   IlluminaHiSeq        24     29            98.7        67.5        25.0       healthy:14,hypercholesterolemia:5,hypertension:3
+ CRC         ThomasAM_2018b     ITA   IlluminaHiSeq        28     32            38.2        58.0        24.2                                             healthy:28
+ CRC        ThomasAM_2019_c     JPN   IlluminaHiSeq        40     40            43.7        66.0        22.8                                             healthy:40
+ CRC         VogtmannE_2016     USA   IlluminaHiSeq        52     52            67.6        63.0        24.0                                             healthy:52
+ CRC           WirbelJ_2018     DEU   IlluminaHiSeq        65     60            35.9        58.0        24.6                                             healthy:65
+ CRC          YachidaS_2019     JPN   IlluminaHiSeq       251    258            44.2        63.0        22.4                               healthy:246,few_polyps:5
+ CRC               YuJ_2015     CHN   IlluminaHiSeq        54     74            59.1        63.0        22.8                                      healthy:38,T2D:16
+ CRC           ZellerG_2014     FRA   IlluminaHiSeq        61     53            64.9        63.0        24.0                                             healthy:61
+ IBD        HMP_2019_ibdmdb     USA   IlluminaHiSeq        27    103            30.8        21.0        23.2                                             healthy:27
+ IBD            HallAB_2017     USA   IlluminaMiSeq        12     20            29.5         NaN         NaN                                             healthy:12
+ IBD            IjazUZ_2017     GBR   IlluminaHiSeq        38     12             4.4        39.0         NaN                                             healthy:38
+ IBD         NielsenHB_2014     ESP   IlluminaHiSeq        59     82            56.9        41.0        23.9                                             healthy:59
+ T2D        KarlssonFH_2013     SWE   IlluminaHiSeq        43     53            26.4        70.0        25.7                                             healthy:43
+ T2D      MetaCardis_2020_a     DEU       IonProton       642    550            21.0        48.0        37.0                              MS:365,healthy:234,IGT:43
+ T2D              QinJ_2012     CHN   IlluminaHiSeq       174    170            36.3        42.0        23.7                                            healthy:174
+ T2D SankaranarayananK_2015     USA   IlluminaHiSeq        18     19            45.7        47.0        32.5                                             healthy:18
+B. log10 depth ratio (target/training controls) vs shift: rho=-0.02 P=0.9 (n=32)
+B. log10 depth ratio (target/training controls) vs fpr: rho=0.06 P=0.73 (n=32)
+B. log10 depth ratio vs |FPR-0.10|: rho=0.20 P=0.27
+C. MetaCardis lasso controls=healthy (n=234): status-quo FPR=0.021
+C. MetaCardis lasso controls=MS (n=365): status-quo FPR=0.074
+C. MetaCardis lasso controls=IGT (n=43): status-quo FPR=0.047
+C. MetaCardis lasso healthy-only conformal n=20: mean FPR=0.092, P(FPR>0.15)=0.195
+C. MetaCardis rf controls=healthy (n=234): status-quo FPR=0.004
+C. MetaCardis rf controls=MS (n=365): status-quo FPR=0.025
+C. MetaCardis rf controls=IGT (n=43): status-quo FPR=0.070
+C. MetaCardis rf healthy-only conformal n=20: mean FPR=0.102, P(FPR>0.15)=0.235
+E. Yachida adenoma carriers (n=67) lasso: positivity status-quo=0.284, conformal n=20 mean=0.131
+D. percentile-norm (20 local controls) + training threshold lasso YachidaS_2019: mean FPR=0.102 P(FPR>0.15)=0.160 sens=0.119
+D. percentile-norm (20 local controls) + training threshold lasso YuJ_2015: mean FPR=0.093 P(FPR>0.15)=0.160 sens=0.244
+D. percentile-norm (20 local controls) + training threshold lasso ThomasAM_2019_c: mean FPR=0.123 P(FPR>0.15)=0.220 sens=0.187
+E. Yachida adenoma carriers (n=67) rf: positivity status-quo=0.239, conformal n=20 mean=0.114
+D. percentile-norm (20 local controls) + training threshold rf YachidaS_2019: mean FPR=0.028 P(FPR>0.15)=0.000 sens=0.070
+D. percentile-norm (20 local controls) + training threshold rf YuJ_2015: mean FPR=0.036 P(FPR>0.15)=0.020 sens=0.228
+D. percentile-norm (20 local controls) + training threshold rf ThomasAM_2019_c: mean FPR=0.002 P(FPR>0.15)=0.000 sens=0.137
