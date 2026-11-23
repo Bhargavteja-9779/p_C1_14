@@ -46,53 +46,61 @@ def fig1(model, name):
     save(fig, name)
 fig1("lasso", "Figure1_fpr_by_cohort"); fig1("rf", "FigureS1_fpr_by_cohort_rf")
 
-# ---------- Figure 2: methods compared, pooled across tasks/models (alpha=0.10) ----------
+# ---------- Figure 2: methods compared (alpha=0.10) ----------
 a = 0.10; c = cm[cm.alpha == a]; dd = d[d.alpha == a]
-meth = [("source", "Training threshold\n(status quo)"), ("cohortstd", "Feature\nstandardisation"), ("em", "Prevalence EM"),
-        ("pool_q", "Unlabelled-pool\nquantile"), ("site_shift", "Site-shift\nmixture"), ("anchor_locscale_n20", "Median/IQR anchor\n(20 controls)"),
-        ("conformal_n10", "Conformal\n(10 controls)"), ("conformal_n20", "Conformal\n(20 controls)"), ("tong95_n30", "95%-confidence\n(30 controls)")]
-fig, axs = plt.subplots(1, 3, figsize=(7.2, 3.4), gridspec_kw=dict(width_ratios=[1.5, 1, 1]), sharey=True)
+mm = pd.read_csv(os.path.join(HERE, "mismatch_rows.csv.gz")); mm = mm[mm.cal != mm.deploy]
+mm_c = mm.groupby(["setting", "model", "cal", "deploy"]).fpr.mean().values
+meth = [("source", "Training threshold\n(status quo)"), ("cohortstd", "Feature standardisation\n+ training threshold"),
+        ("pool_q", "Unlabelled-pool quantile\n(case-control mix)"), ("site_shift", "Site-shift mixture\n(unlabelled)"),
+        ("anchor_locscale_n20", "Median/IQR anchor\n(20 local controls)"), ("OTHER", "20 controls from\nanother site*"),
+        ("conformal_n20", "20 controls from\nthe same site"), ("tong95_n30", "95%-confidence rule\n(29-30 same-site controls)")]
+fig, axs = plt.subplots(1, 3, figsize=(7.2, 3.6), gridspec_kw=dict(width_ratios=[1.5, 1, 1]), sharey=True)
 rng = np.random.default_rng(0)
 for i, (k, l) in enumerate(meth):
-    v = c[c.key == k].fpr.values
-    axs[0].scatter(v, i + rng.uniform(-0.18, 0.18, len(v)), s=10, color=AQUA if k.startswith(("conformal", "tong")) else BLUE, alpha=0.8, lw=0)
+    if k == "OTHER": v = mm_c; pv = (mm.fpr > 1.5 * a).mean(); sv = np.nan
+    else: v = c[c.key == k].fpr.values; pv = (dd[dd.key == k].fpr > 1.5 * a).mean(); sv = c[c.key == k].sens.mean()
+    col = AQUA if k in ("conformal_n20", "tong95_n30") else (ORANGE if k == "OTHER" else BLUE)
+    axs[0].scatter(v, i + rng.uniform(-0.18, 0.18, len(v)), s=10, color=col, alpha=0.85, lw=0)
     axs[0].plot([np.median(v)] * 2, [i - 0.3, i + 0.3], color=INK, lw=1.5)
-    p = (dd[dd.key == k].fpr > 1.5 * a).mean(); axs[1].barh(i, p, color=AQUA if k.startswith(("conformal", "tong")) else BLUE, height=0.6)
-    axs[1].text(p + 0.01, i, f"{p:.2f}", va="center", fontsize=7, color=INK2)
-    s = c[c.key == k].sens.mean(); axs[2].barh(i, s, color=AQUA if k.startswith(("conformal", "tong")) else BLUE, height=0.6)
-    axs[2].text(s + 0.01, i, f"{s:.2f}", va="center", fontsize=7, color=INK2)
+    axs[1].barh(i, pv, color=col, height=0.6); axs[1].text(pv + 0.01, i, f"{pv:.2f}", va="center", fontsize=7, color=INK2)
+    if sv == sv: axs[2].barh(i, sv, color=col, height=0.6); axs[2].text(sv + 0.01, i, f"{sv:.2f}", va="center", fontsize=7, color=INK2)
+    else: axs[2].text(0.01, i, "n/a", va="center", fontsize=7, color=INK2)
 axs[0].axvspan(0.05, 0.15, color=GRID, alpha=0.6, lw=0, zorder=0); axs[0].axvline(a, color=INK2, ls="--", lw=1)
 axs[0].set_yticks(range(len(meth)), [l for _, l in meth]); axs[0].invert_yaxis()
-axs[0].set_xlabel("Cohort-mean realised FPR\n(each dot = cohort × model; bar = median)")
-axs[1].set_xlabel("Share of single-site splits\nwith FPR > 0.15"); axs[2].set_xlabel("Mean sensitivity")
+axs[0].set_xlabel("Cohort-mean realised FPR\n(dot = cohort x model; bar = median)")
+axs[1].set_xlabel("Share of single calibrations\nwith FPR > 0.15"); axs[2].set_xlabel("Mean sensitivity")
 axs[1].set_xlim(0, 0.85); axs[2].set_xlim(0, 0.8)
 for ax, t in zip(axs, "abc"): ax.set_title(t, loc="left", fontweight="bold", fontsize=9); ax.grid(axis="y", visible=False)
-fig.text(0.0, -0.04, "Blue: no labelled local data. Aqua: uses n labelled local controls. Target FPR 0.10. Local-control methods only where the cohort has enough controls.", fontsize=6.5, color=INK2)
+fig.text(0.0, -0.05, "Blue: no labelled local data. Orange: labelled controls from a different centre/cohort (*MetaCardis centres and external CRC cohorts only; dot = site pair).\nGreen: labelled controls from the deployment site. Target FPR 0.10. Same-site methods shown only for cohorts with enough controls.", fontsize=6.3, color=INK2)
 fig.tight_layout(); save(fig, "Figure2_methods")
 
-# ---------- Figure 3: CRC screening consequence + how many local controls ----------
-fig, axs = plt.subplots(1, 2, figsize=(7.2, 3.1))
-p = 0.005; h = cm[(cm.task == "CRC") & (cm.alpha == 0.10) & (cm.model == "lasso")]
-coh = ["ThomasAM_2019_c", "YuJ_2015", "YachidaS_2019"]; mk = [("source", "Status quo", BLUE, "o"), ("cohortstd", "Feature standardisation", ORANGE, "s"), ("conformal_n20", "20 local controls", AQUA, "D")]
+# ---------- Figure 3: CRC screening consequence with uncertainty + control budget ----------
+from scipy import stats as st_
+fig, axs = plt.subplots(1, 2, figsize=(7.2, 3.2))
+p = 0.005; h = dd[(dd.task == "CRC") & (dd.model == "lasso")]
+coh = ["ThomasAM_2019_c", "YuJ_2015", "YachidaS_2019"]; mk = [("source", "Training threshold", BLUE, "o", -0.12), ("conformal_n20", "20 same-site controls", AQUA, "D", 0.12)]
 for j, s in enumerate(coh):
-    for k, l, col, m in mk:
-        q = h[(h.cohort == s) & (h.key == k)].iloc[0]
-        axs[0].scatter(1000 * (1 - p) * q.fpr, 1000 * p * (1 - q.sens), color=col, marker=m, s=40, ec=INK if m == "D" else "white", lw=0.6, zorder=3, label=l if j == 0 else None)
-    xs = [1000 * (1 - p) * h[(h.cohort == s) & (h.key == k)].fpr.iloc[0] for k, *_ in mk]; ys = [1000 * p * (1 - h[(h.cohort == s) & (h.key == k)].sens.iloc[0]) for k, *_ in mk]
-    axs[0].plot(xs, ys, color=GRID, lw=1, zorder=1); axs[0].annotate(lab(s), (xs[0], ys[0]), xytext=(4, 4), textcoords="offset points", fontsize=6.5, color=INK2)
-axs[0].set_xlabel("Unnecessary colonoscopies per 1,000 screened"); axs[0].set_ylabel("Missed cancers per 1,000 screened")
-axs[0].legend(fontsize=6.5, loc="upper right"); axs[0].set_title("a  External CRC cohorts (LASSO, prevalence 0.5%)", loc="left", fontsize=8, fontweight="bold")
-# panel b: n controls vs per-split exceedance and sensitivity (pooled over feasible pairs, alpha=0.10)
-ks = [("conformal_n10", 10), ("conformal_n20", 20), ("conformal_n30", 30), ("tong95_n30", 30), ("tong95_n50", 50)]
-rows = []
-for k, n in ks:
-    q = dd[dd.key == k]; rows.append((k, n, (q.fpr > 0.15).mean(), q.fpr.mean(), q.sens.mean()))
-r = pd.DataFrame(rows, columns=["k", "n", "exceed", "fpr", "sens"])
-cf = r[r.k.str.startswith("conformal")]; tg = r[r.k.str.startswith("tong")]
-axs[1].plot(cf.n, cf.exceed, color=AQUA, marker="D", lw=2, ms=6, mec=INK, mew=0.6, label="Conformal (mean FPR ≤ 0.10)")
-axs[1].plot(tg.n, tg.exceed, color=BLUE, marker="o", lw=2, ms=6, label="95%-confidence rule")
-for _, q in r.iterrows(): axs[1].annotate(f"sens {q.sens:.2f}", (q.n, q.exceed), xytext=(5, 3), textcoords="offset points", fontsize=6.5, color=INK2)
-axs[1].set_xlabel("Labelled local controls (n)"); axs[1].set_ylabel("Share of splits with FPR > 0.15"); axs[1].set_ylim(0, 0.3); axs[1].set_xlim(5, 58)
-axs[1].legend(fontsize=6.5, loc="upper right"); axs[1].set_title("b  Local-control budget (all feasible cohorts)", loc="left", fontsize=8, fontweight="bold")
+    for k, l, col, m, off in mk:
+        q = h[(h.cohort == s) & (h.key == k)]; fp = 1000 * (1 - p) * q.fpr; mi = 1000 * p * (1 - q.sens)
+        y0 = j + off
+        axs[0].errorbar(fp.mean(), y0, xerr=[[fp.mean() - fp.quantile(.025)], [fp.quantile(.975) - fp.mean()]], fmt=m, color=col, ms=6, mec=INK if m == "D" else "white", mew=0.6, elinewidth=1.5, capsize=0, label=l if j == 0 else None)
+        axs[0].text(410, y0, f"{mi.mean():.1f}", va="center", fontsize=6.5, color=INK2)
+axs[0].text(410, -0.45, "missed\ncancers", fontsize=6.5, color=INK2, va="bottom", ha="left")
+axs[0].set_yticks(range(3), [lab(s) for s in coh]); axs[0].set_xlim(0, 450); axs[0].set_ylim(2.45, -0.75)
+axs[0].set_xlabel("Unnecessary colonoscopies per 1,000 screened\n(mean and 95% range over calibration/evaluation splits)")
+axs[0].legend(fontsize=6.5, loc="upper center", bbox_to_anchor=(0.45, -0.28), ncol=2); axs[0].grid(axis="y", visible=False)
+axs[0].set_title("a  External CRC, LASSO, prevalence 0.5%", loc="left", fontsize=8, fontweight="bold")
+ns = np.arange(9, 300, 10); lo, hi, md = [], [], []
+for n in ns:
+    k = int(np.ceil((n + 1) * 0.9)); b = st_.beta(n + 1 - k, k); lo.append(b.ppf(.025)); hi.append(b.ppf(.975)); md.append(b.mean())
+axs[1].fill_between(ns, lo, hi, color=AQUA, alpha=0.25, lw=0, label="Theory: 95% range of a single site's FPR")
+axs[1].plot(ns, md, color=AQUA, lw=2, label="Theory: expected FPR")
+e = pd.read_csv(os.path.join(HERE, "control_budget_emp.csv"))
+for n, q in e.groupby("n"):
+    axs[1].errorbar(n, q.mean_FPR.mean(), yerr=[[q.mean_FPR.mean() - q.q025.mean()], [q.q975.mean() - q.mean_FPR.mean()]], fmt="o", color=BLUE, ms=5, capsize=0, label="Observed (MetaCardis, Yachida, Qin)" if n == 19 else None)
+axs[1].axhspan(0.05, 0.15, color=GRID, alpha=0.6, lw=0, zorder=0); axs[1].axhline(0.10, color=INK2, ls="--", lw=1)
+axs[1].set_xscale("log"); axs[1].set_xticks([9, 19, 49, 99, 199, 299], ["9", "19", "49", "99", "199", "299"])
+axs[1].set_xlabel("Labelled same-site controls (n)"); axs[1].set_ylabel("Realised FPR"); axs[1].set_ylim(0, 0.32)
+axs[1].legend(fontsize=6.3, loc="upper center", bbox_to_anchor=(0.5, -0.28), ncol=1); axs[1].set_title("b  How many local controls?", loc="left", fontsize=8, fontweight="bold")
 fig.tight_layout(); save(fig, "Figure3_consequence")
 print("ok")

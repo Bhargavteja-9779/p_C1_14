@@ -1,0 +1,30 @@
+Theory (alpha=0.10, exchangeable local controls):
+  n  mean_FPR  q025  q975  P_gt_015  P_in_005_015
+  9       0.1 0.003 0.336     0.232         0.399
+ 19       0.1 0.013 0.260     0.198         0.556
+ 29       0.1 0.022 0.228     0.168         0.656
+ 49       0.1 0.034 0.196     0.123         0.780
+ 99       0.1 0.050 0.166     0.060         0.914
+199       0.1 0.062 0.145     0.016         0.982
+299       0.1 0.069 0.136     0.005         0.995
+
+Empirical (large cohorts; includes evaluation-half sampling noise):
+                       file  n  mean_FPR  q025  q975  P_gt_015
+   T2D_MetaCardis_2020_a_rf 19     0.100 0.009 0.283     0.214
+   T2D_MetaCardis_2020_a_rf 49     0.098 0.028 0.198     0.130
+   T2D_MetaCardis_2020_a_rf 79     0.101 0.039 0.181     0.096
+T2D_MetaCardis_2020_a_lasso 19     0.102 0.009 0.251     0.200
+T2D_MetaCardis_2020_a_lasso 49     0.101 0.028 0.217     0.140
+T2D_MetaCardis_2020_a_lasso 79     0.099 0.040 0.181     0.098
+    CRC_YachidaS_2019_lasso 19     0.094 0.008 0.266     0.188
+    CRC_YachidaS_2019_lasso 49     0.095 0.020 0.211     0.140
+    CRC_YachidaS_2019_lasso 79     0.098 0.032 0.190     0.118
+       CRC_YachidaS_2019_rf 19     0.099 0.008 0.290     0.208
+       CRC_YachidaS_2019_rf 49     0.101 0.032 0.206     0.168
+       CRC_YachidaS_2019_rf 79     0.100 0.032 0.190     0.158
+        T2D_QinJ_2012_lasso 19     0.096 0.005 0.259     0.200
+        T2D_QinJ_2012_lasso 49     0.101 0.023 0.218     0.142
+        T2D_QinJ_2012_lasso 79     0.101 0.023 0.195     0.124
+           T2D_QinJ_2012_rf 19     0.096 0.000 0.253     0.182
+           T2D_QinJ_2012_rf 49     0.101 0.023 0.224     0.140
+           T2D_QinJ_2012_rf 79     0.099 0.023 0.195     0.108
