@@ -104,3 +104,18 @@ Findings (honest):
 CANDIDATE METHOD (to be frozen after round 4 robustness): hyb_sc_k = predictive location-scale transport, k labelled
 local controls + unlabelled pool, Beta prevalence prior (deployment prevalence, strength 10), source-side
 self-calibration of the nominal level.
+
+## Round 4 (2026-11-23) — robustness, dev/explore_v4.csv.gz (4a with grid bug kept as explore_v4_absgrid.*)
+Semi-synthetic known truth, 8 dev cohorts x 3 classifiers (LASSO, RF, HGB), 30 draws, pool prevalence 0-0.01.
+Bug found in 4a: self-calibration grid was absolute (0.02-0.12), so alpha=0.20 was unreachable (FPR 0.135). Fixed:
+grid = alpha x [0.2, 1.8]. alpha=0.10 results identical before/after (the grid covered the chosen levels).
+Mean |FPR-alpha| (violation rate P(FPR > 1.5 alpha)):
+- alpha 0.05: hyb_sc_5 0.031 (0.13); hyb_sc_10 0.030; conf_5/conf_10 no threshold; conf_20 0.035 (0.22); local_q 0.025 (0.30)
+- alpha 0.10: hyb_sc_5 0.041 (0.08); hyb_sc_10 0.040 (0.07); conf_10 0.065 (0.19); conf_20 0.048 (0.16); local_q 0.032 (0.16)
+- alpha 0.20: hyb_sc_5 0.045 (0.035); hyb_sc_10 0.044 (0.03); conf_10 0.092 (0.15); conf_20 0.068 (0.11); local_q 0.040 (0.045)
+By classifier (alpha 0.10, k=10): hyb_sc 0.031-0.045 vs conformal 0.062-0.068 for every classifier.
+Prior misspecification (prior mean 0.001-0.20; pool prevalence 0-0.20): realised FPR changes < 0.01 across priors;
+FPR falls 0.086 -> 0.052 as pool prevalence rises to 0.20 (conservative, safe direction).
+Honest note: the local quantile has equal or lower MAE when the pool is (nearly) all controls, but 2-4x more
+violations at alpha 0.05-0.10 and collapses at higher pool prevalence. Expect this pattern in the locked test.
+DECISION: freeze method and protocol (experiments/protocol.md); run the locked test once.

@@ -1,6 +1,6 @@
-# Frozen analysis protocol (DRAFT — becomes FROZEN when committed with the tag line "STATUS: FROZEN")
+# Frozen analysis protocol
 
-STATUS: DRAFT (awaiting round-4b robustness check on development cohorts)
+STATUS: FROZEN (2026-11-23, after dev rounds 1-4; no change to method or endpoints after this line is committed)
 
 ## Method (final candidate, chosen on development cohorts only; see novelty_escalation_log.md rounds 1-4)
 "Self-calibrated score transport" (code: src/calibrate.py — PredTransport.predictive + self_calibrate):
@@ -33,3 +33,7 @@ Secondary: violation rate P(FPR > 1.5 alpha); sensitivity; mean FPR (bias); real
 equivalence" (smallest k for conformal matching hyb_sc_5 error); per-1,000-screened excess colonoscopies and missed
 cancers (CRC; prevalence 0.6%) vs an ideal threshold; GoF-flag rate and error in flagged vs unflagged runs.
 Analyses not listed here will be labelled exploratory.
+
+## Expectations stated before unlocking (from dev rounds 1-4)
+Hybrid beats conformal at equal k on error and violations; hybrid ~ local quantile on error when the pool is nearly
+all controls, with fewer violations; hybrid conservative when the pool has many cases. Any departure is reported.
