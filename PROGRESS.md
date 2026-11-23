@@ -83,3 +83,6 @@ Commit + push after every phase (auto-save).
   group-conditional on MetaCardis). Runner + analysis extended; DEV dry run OK. Still FROZEN: no.
 - Working title: "Gut-microbiome cancer tests mistake chronic disease for cancer: routine colonoscopy outcomes restore
   fair, site-specific cut-offs".
+- LOCKED ANALYSIS DONE (once, after freeze): H1 supported pooled (and CRC); H2 supported; H3 partly (HF, T2D; not CAD/IGT);
+  H4 supported. See code/experiments/final/RESULTS_locked.md. Round 9 mechanism (DEV, post-freeze, labelled exploratory).
+  Next: figures, manuscript, SI, cover letter, submission zip.
