@@ -10,7 +10,7 @@ In 2024 iMeta short-format papers were indexed as "Journal Article" (e.g. the pe
 | Seeds / repeats | reported by 7/25 | rarely | 1 study with 100x5-fold | **>= 10 seeds + 1,000 resamples per scenario** |
 | Ablation | 12% | 0% | 3/14 | **yes, every component** |
 | Cross-dataset / external test | 52% | 5/11 | 8/14 | **yes: leave-one-cohort-out + locked external diseases** |
-| Code available | 92% | - | - | **yes, full pipeline + run_all.py** |
+| Code available | 92% | - | - | **on request (author decision 2026-11-23); full pipeline kept in repo** |
 | Real-world / deployment evidence | rare | - | - | **yes: outcomes per 1,000 screened at realistic prevalence** |
 | Statistics | mostly simple tests (Wilcoxon, AUC CIs) | | | **paired bootstrap CIs, permutation, Holm correction, effect sizes** |
 

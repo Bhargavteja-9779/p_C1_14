@@ -44,3 +44,5 @@ Commit + push after every phase (auto-save).
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
 - 2026-11-23 (session 2): container reset; data cache rebuilt; STEP 3 novelty search re-run (previous run never committed);
   dev round 1 (code/experiments/dev/explore_v1.py) running on the 8 DEV CRC cohorts only.
+- 2026-11-23 AUTHOR DECISIONS (fixed, do not change): code available on request; no funding; no competing interests.
+  Wording in Target_Journal_Submission/manuscript/back_matter.md — use verbatim.
