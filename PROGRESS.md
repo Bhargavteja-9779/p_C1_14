@@ -58,3 +58,5 @@ Commit + push after every phase (auto-save).
 - Round 3 direction: guarantees that matter per deployment (high-probability, not in-expectation) - (i) PAC/
   training-conditional local-control threshold, (ii) label-free contamination-bounded quantile of the unlabeled pool
   using only an upper bound on prevalence (known in screening), with DKW correction; (iii) hybrid.
+- 2026-11-23 PAUSED at user request (after DEV round 3 + novelty check), before protocol freeze. Locked test cohorts
+  NOT touched. Open decision: (a) freeze current recipe and run locked tests once, or (b) one more method round.
