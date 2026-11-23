@@ -184,3 +184,35 @@ Results (LASSO+RF, pi = .01/.05; mean FPR / P(FPR > .12)):
   delay (fewer verified FPs -> weaker alarm). Stated limitation.
 Decision: frozen candidate = SequentialRecalibrator (vp + drift alarm), added to protocol (section 4.6, sensitivity
 analyses f-j). Runner and analysis updated; DEV dry run passes.
+
+## Round 7 (2026-11-23) - NEW ANGLE: CRC microbiome tests mistake chronic disease for cancer
+explore_v7_comorb.py / explore_v7b_confound.py (DEV CRC model; 11 extra NON-locked cohorts downloaded:
+JieZ_2017, QinN_2014, LiJ_2017, ChengpingW_2017, ZhuF_2020, LoombaR_2017, LiJ_2014, VilaAV_2018, HMP_2019_t2d,
+NagySzakalD_2017, XieH_2016). Positivity at the source 90%-specificity threshold, within cohort (condition vs own
+healthy controls), LASSO: cirrhosis 52% vs 8% (6.6x); ACVD 52% vs 19% (2.8x); hypertension 26% vs 7% (3.6x);
+fatty liver 20% vs 6% (3.5x); ME/CFS 18% vs 10%; asthma/migraine ~1.6x; schizophrenia 5% vs 3%; T2D 30% (LiJ_2014,
+n_ctrl = 10). RF same direction everywhere.
+Confounding: score difference (logit) disease - control adjusted for age + BMI + sex: ACVD +0.87 (0.62-1.12),
+cirrhosis +1.30 (0.99-1.60), hypertension +0.33 (0.07-0.60), ME/CFS +0.39 (0.12-0.67); fatty liver, asthma,
+schizophrenia n.s. => not explained by age/BMI/sex.
+Control augmentation (Thomas 2019; other conditions added as negatives in training) lowers positivity overall but the
+disparity persists (ACVD 13% vs 2%).
+Prior art: Wirbel 2019 (multi-study CRC models more disease-specific), Thomas 2019 (control augmentation), Duvallet
+2017 (shared non-specific dysbiosis), Tito 2024 Nat Med (calprotectin/BMI dominate). Not found: false-alarm burden by
+comorbidity in screening terms, or a deployment-time fix per group.
+
+## Round 8 (2026-11-23) - explore_v8_groupcal.py: comorbidity-conditional sequential recalibration
+Sites = comorbidity cohorts, screened population = healthy + condition share w (ACVD .20, cirrhosis .05,
+hypertension .40, fatty liver .25, ME/CFS .05) + CRC 1%; B = 200/month, 18 months, R = 100.
+Months 7-18, LASSO (RF same): pooled recalibration hits overall FPR (.085-.092) but comorbid FPR .19-.52 and
+P(comorbid FPR > .12) = 99-100%, healthy pushed to .03-.08. Group-conditional: healthy .08-.09, comorbid .08-.09,
+P(>.12) 1-4% (cirrhosis 12-15%: only ~10 comorbid tests/month).
+Trade-off: comorbid-group sensitivity (proxy from OOF CRC case scores) falls (e.g. ACVD .31 -> .23; cirrhosis .50 -> .20)
+while healthy sensitivity rises. Proxy likely overstates the loss (CRC patients with comorbidity probably score higher).
+Equal false-alarm burden vs equal sensitivity is a policy choice; the method makes it explicit and controllable.
+
+=> NEW STORY (stronger): "where and whom you screen" decides a microbiome test's false-alarm rate; pooled
+recalibration hides a 2-6x excess false-alarm burden in people with common chronic diseases; routine colonoscopy
+outcomes allow per-site, per-group recalibration with guarantees.
+Locked confirmation of the comorbidity effect (never touched): MetaCardis_2020_a (CAD, HF, T2D, IGT vs controls),
+QinJ_2012 and KarlssonFH_2013 (T2D), IBD cohorts (IBD as comorbidity).
