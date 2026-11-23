@@ -1,6 +1,6 @@
 # Pre-registered analysis protocol (frozen before any locked-cohort analysis)
 
-Status: DRAFT written 2026-11-23 after development rounds 1-6 (experiments/novelty_escalation_log.md).
+Status: DRAFT written 2026-11-23 after development rounds 1-8 (experiments/novelty_escalation_log.md).
 Becomes FROZEN at the commit that adds the line "FROZEN: yes" below; the final runner refuses to run otherwise.
 FROZEN: no
 
@@ -56,6 +56,23 @@ True FPR(t) = share of the site's control scores >= t; true sensitivity likewise
 (a) alpha in {0.05, 0.20}; (b) pi_max misspecified (pi = 0.10, pi_max = 0.05); (c) one-month follow-up delay
 (labels of month k referrals available only after month k+1); (d) batch size B in {50, 200}; (e) burn-in at
 (1 - 3*alpha) quantile (vp).
+
+## 8b. Part B - comorbidity confirmation (locked cohorts, data_lock.md addendum)
+CRC models (LASSO, RF) trained on all 8 DEV CRC cohorts; threshold = source 90%-specificity (out-of-fold).
+Scored: MetaCardis_2020_a (CAD, HF, T2D, IGT, controls), QinJ_2012 and KarlssonFH_2013 (T2D, controls; Karlsson IGT),
+IBD cohorts (IBD, controls). One sample per subject, adults.
+- H3 (primary for Part B): within each cohort, CRC-test score of each condition group exceeds that cohort's controls
+  after adjustment for age, BMI and sex where available (OLS on logit score; condition coefficient > 0, one-sided,
+  Holm-corrected across the condition x cohort tests, LASSO model primary, RF secondary).
+- Reported: positivity rate per group, ratio to own controls (95% CI by bootstrap), crude and adjusted coefficients.
+
+## 8c. Part C - group-conditional recalibration (locked: MetaCardis_2020_a)
+Site = MetaCardis; screened population = its controls + condition groups with shares CAD .10, T2D .15, HF .03, IGT .15
+(remaining controls), CRC cases 1% drawn from DEV out-of-fold CRC case scores (sensitivity proxy).
+B = 200/month, 18 months, R = 200. Methods: source, pooled SequentialRecalibrator, group-conditional
+SequentialRecalibrator (one per group; group known from records).
+- H4: P(group FPR > 0.12, months 7-18) is lower for group-conditional than pooled in the worst-off group
+  (descriptive with bootstrap CI over streams; also mean FPR per group, overall FPR, sensitivity proxy per group).
 
 ## 9. Not allowed after freezing
 Changing models, hyper-parameters, methods, burn-in rule, endpoints or cohorts. Any extra analysis is labelled

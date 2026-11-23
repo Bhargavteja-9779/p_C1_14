@@ -98,3 +98,78 @@ if __name__ == "__main__":
     pd.DataFrame(rows).to_csv(os.path.join(OUT, "sequential.csv.gz"), index=False)
     pd.DataFrame(rows1).to_csv(os.path.join(OUT, "oneshot.csv.gz"), index=False)
     json.dump(dict(seed=SEED, R=R, T=T, dry=DRY), open(os.path.join(OUT, "run_info.json"), "w"))
+
+
+# ---------------- Part B and C (comorbidity) ----------------
+def comorbidity_parts():
+    import statsmodels.api as sm
+    from src.data import CACHE
+    from src.models import preprocess_fit, preprocess_apply, logit
+    meta = pd.read_csv(os.path.join(CACHE, "sampleMetadata.csv"), low_memory=False).drop_duplicates("sample_id").set_index("sample_id")
+    X, y, g, M = load("CRC", DEV_CRC); cols = X.columns; idx = np.arange(len(y))
+    cohorts = ["JieZ_2017", "QinN_2014"] if DRY else ["MetaCardis_2020_a", "QinJ_2012", "KarlssonFH_2013", "NielsenHB_2014",
+                                                      "HallAB_2017", "IjazUZ_2017", "HMP_2019_ibdmdb"]
+    rowsB, fits, scored = [], [], {}
+    for model in MODELS:
+        s_src, y_src, _, m = train_and_score(X.values, y, g, idx, idx[:1], model, seed=SEED)
+        p = preprocess_fit(X.values); t = C.source_threshold(s_src, y_src, 0.10)
+        for c in cohorts:
+            a = pd.read_csv(os.path.join(CACHE, "ra", f"{c}.csv"), index_col=0); a.index = [i.split("|")[-1] for i in a.index]
+            a = a.groupby(level=0).sum().T; md = meta.loc[meta.index.intersection(a.index)]
+            md = md[(md.study_name == c) & (md.body_site == "stool") & md.age_category.isin(["adult", "senior"])]
+            md = md.assign(_d=pd.to_numeric(md.get("days_from_first_collection"), errors="coerce").fillna(0)).sort_values("_d")
+            md = md[~md.subject_id.duplicated()]
+            sc = logit(m.predict_proba(preprocess_apply(a.loc[md.index].reindex(columns=cols, fill_value=0).fillna(0).values, p))[:, 1])
+            md = md.assign(score=sc, pos=sc >= t); scored[(model, c)] = (md, s_src, y_src)
+            ctrl = md[md.study_condition == "control"]
+            for cond in [k for k in md.study_condition.unique() if k != "control" and (md.study_condition == k).sum() >= 10]:
+                grp = md[md.study_condition == cond]
+                boot = [grp.pos.sample(frac=1, replace=True, random_state=b).mean() / max(ctrl.pos.sample(frac=1, replace=True, random_state=b).mean(), 1e-9) for b in range(1000)]
+                rowsB.append(dict(model=model, cohort=c, condition=cond, n=len(grp), n_ctrl=len(ctrl), pos=grp.pos.mean(),
+                                  pos_ctrl=ctrl.pos.mean(), ratio=grp.pos.mean() / max(ctrl.pos.mean(), 1e-9),
+                                  ratio_lo=np.percentile(boot, 2.5), ratio_hi=np.percentile(boot, 97.5)))
+                d = pd.concat([grp, ctrl])[["score", "study_condition", "age", "BMI", "gender"]].copy()
+                d["dis"] = (d.study_condition == cond).astype(float); d["male"] = (d.gender == "male").astype(float)
+                covs = [k for k in ["age", "BMI", "male"] if d[k].notna().mean() > 0.8 and d[k].nunique() > 1]
+                d = d.dropna(subset=covs)
+                for spec, cv in [("crude", []), ("adjusted", covs)]:
+                    r = sm.OLS(d.score, sm.add_constant(d[["dis"] + cv].astype(float))).fit()
+                    fits.append(dict(model=model, cohort=c, condition=cond, spec=spec, covs="+".join(cv), n=len(d),
+                                     beta=r.params["dis"], lo=r.conf_int().loc["dis", 0], hi=r.conf_int().loc["dis", 1],
+                                     p_one_sided=r.pvalues["dis"] / 2 if r.params["dis"] > 0 else 1 - r.pvalues["dis"] / 2))
+    F = pd.DataFrame(fits)
+    adj = F[F.spec == "adjusted"].copy()
+    for model in MODELS:   # Holm correction within model
+        q = adj[adj.model == model].sort_values("p_one_sided"); k = len(q)
+        holm = np.minimum(1, np.maximum.accumulate([(k - i) * pv for i, pv in enumerate(q.p_one_sided)]))
+        adj.loc[q.index, "p_holm"] = holm
+    pd.DataFrame(rowsB).to_csv(os.path.join(OUT, "partB_positivity.csv"), index=False)
+    F.to_csv(os.path.join(OUT, "partB_regression.csv"), index=False); adj.to_csv(os.path.join(OUT, "partB_adjusted_holm.csv"), index=False)
+    # Part C
+    site = "JieZ_2017" if DRY else "MetaCardis_2020_a"
+    shares = {"ACVD": 0.20} if DRY else {"CAD": 0.10, "T2D": 0.15, "HF": 0.03, "IGT": 0.15}
+    rng = np.random.default_rng(SEED + 1); rowsC = []; B, TT = 200, 18
+    for model in MODELS:
+        md, s_src, y_src = scored[(model, site)]; case_sc = s_src[y_src == 1]
+        pops = {"control": md[md.study_condition == "control"].score.values}
+        pops.update({k: md[md.study_condition == k].score.values for k in shares})
+        names = list(pops); w = np.array([1 - sum(shares.values())] + [shares[k] for k in shares])
+        for r in range(R):
+            pooled = C.SequentialRecalibrator(s_src, y_src, 0.10, 0.05)
+            grp = {k: C.SequentialRecalibrator(s_src, y_src, 0.10, 0.05) for k in names}; t_src = C.source_threshold(s_src, y_src, 0.10)
+            for month in range(1, TT + 1):
+                for meth in ["source", "pooled", "group"]:
+                    for k in names:
+                        t = t_src if meth == "source" else pooled.t if meth == "pooled" else grp[k].t
+                        rowsC.append(dict(model=model, rep=r, month=month, method=meth, group=k, share=w[names.index(k)],
+                                          fpr=(pops[k] >= t).mean(), sens_proxy=(case_sc >= t).mean()))
+                gi = rng.choice(len(names), B, p=w); yc = rng.random(B) < 0.01
+                u = np.array([rng.choice(case_sc) if yc[i] else rng.choice(pops[names[gi[i]]]) for i in range(B)])
+                pooled.update(u, yc.astype(int))
+                for j, k in enumerate(names):
+                    sel = gi == j
+                    if sel.any(): grp[k].update(u[sel], yc[sel].astype(int))
+    pd.DataFrame(rowsC).to_csv(os.path.join(OUT, "partC_groupcal.csv.gz"), index=False)
+
+if __name__ == "__main__":
+    comorbidity_parts(); print("parts B/C done")

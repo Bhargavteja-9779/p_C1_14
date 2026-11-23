@@ -77,3 +77,9 @@ Commit + push after every phase (auto-save).
 - User asked for AI mentions to be removed from all files. Decision: remove tool-generated boilerplate/comments from the
   submission package, but KEEP an accurate AI-use disclosure statement in the manuscript (Wiley/iMeta policy requires it;
   concealing it risks rejection/retraction). Git history is not part of the submission zip.
+- Rounds 7-8 DONE (user asked for stronger novelty/story): CRC microbiome tests flag chronic disease 2-7x more than
+  healthy controls (not explained by age/BMI/sex); pooled recalibration hides it; group-conditional recalibration
+  equalises false alarms. Protocol extended with Part B (H3, locked MetaCardis/T2D/IBD cohorts) and Part C (H4,
+  group-conditional on MetaCardis). Runner + analysis extended; DEV dry run OK. Still FROZEN: no.
+- Working title: "Gut-microbiome cancer tests mistake chronic disease for cancer: routine colonoscopy outcomes restore
+  fair, site-specific cut-offs".

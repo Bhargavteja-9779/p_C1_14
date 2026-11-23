@@ -48,3 +48,15 @@ p(f"H2 pooled: sens(vp) - sens(oracle) = {(us.vp - us.oracle).mean():+.3f}, 95% 
 p("\n##### one-shot analysis (mean FPR / sens)\n" + O.groupby(["disease", "pi", "method"])[["fpr", "sens"]].mean().round(3).unstack("method").to_string())
 p("\n##### per-site primary endpoint (vp vs source vs local_q)\n" + unit[["source", "local_q", "contam", "vp", "oracle"]].round(3).to_string())
 open(os.path.join(D, "summary.txt"), "w").write("\n".join(out))
+
+# ---------------- Part B / C ----------------
+if os.path.exists(os.path.join(D, "partB_positivity.csv")):
+    pB = pd.read_csv(os.path.join(D, "partB_positivity.csv")); aB = pd.read_csv(os.path.join(D, "partB_adjusted_holm.csv"))
+    p("\n##### Part B positivity vs own controls\n" + pB.round(3).to_string())
+    p("\n##### Part B adjusted coefficients (H3; Holm within model)\n" + aB.round(4).to_string())
+    pC = pd.read_csv(os.path.join(D, "partC_groupcal.csv.gz")); q = pC[pC.month >= 7].assign(over=lambda x: x.fpr > 0.12)
+    p("\n##### Part C months 7-18: FPR / P(FPR>0.12) / sensitivity proxy per group\n" +
+      q.groupby(["model", "group", "method"]).agg(fpr=("fpr", "mean"), p_over=("over", "mean"), sens=("sens_proxy", "mean")).round(3).unstack("method").to_string())
+    ov = q.assign(wf=q.fpr * q.share).groupby(["model", "method", "rep", "month"]).wf.sum().groupby(["model", "method"]).mean()
+    p("\n##### Part C overall FPR\n" + ov.round(3).to_string())
+    open(os.path.join(D, "summary.txt"), "w").write("\n".join(out))
