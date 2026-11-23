@@ -114,3 +114,16 @@ def verified_positive(u, lab, alpha, pi_max, t0):
         fp = len(ctrl_sc) - np.searchsorted(ctrl_sc, t, side="left")
         if (fp + 1) / (m0_lo + 1) <= alpha: return t, int(ref.sum())
     return np.inf, int(ref.sum())
+
+def verified_positive_seq(u, tau, lab, alpha, pi_max):
+    """Sequential/general form. Sample i was referred iff u_i >= tau_i (its threshold at test time); its label is
+    known only then. For candidate t: FP_ub(t) = #verified controls with u >= t + #UNverified samples with u >= t
+    (unverified ones are counted as possible false positives -> valid upper bound whatever the past thresholds).
+    m0_lo = m - C1 - max(0, floor(pi_max*m) - C1). Return smallest t with (FP_ub(t)+1)/(m0_lo+1) <= alpha."""
+    u, tau, lab = map(np.asarray, (u, tau, lab)); m = len(u); ver = u >= tau
+    c1 = int(lab[ver].sum()); m0_lo = m - c1 - max(0, int(np.floor(pi_max * m)) - c1)
+    bad = np.sort(u[~(ver & (lab == 1))])                         # everything not a verified case
+    k = int(np.floor(alpha * (m0_lo + 1) - 1))                    # max allowed FP_ub
+    if k < 0: return np.inf
+    if k >= len(bad): return -np.inf
+    return bad[len(bad) - k - 1] + 1e-9                           # leaves exactly k 'bad' samples >= t

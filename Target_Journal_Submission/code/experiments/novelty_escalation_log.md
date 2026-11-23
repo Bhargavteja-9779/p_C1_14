@@ -138,3 +138,33 @@ Verdict:
 - Threats to state: colonoscopy is an imperfect reference (missed lesions); follow-up window definition; burn-in
   over-referral must fit endoscopy capacity.
 Rating (provisional): method novelty 3.5/5 (new combination with a guarantee, simple), framing 4/5.
+
+## Round 5 (2026-11-23) - explore_v5.py: sequential deployment simulation; full output explore_v5.log
+Design: each held-out DEV cohort = the site's population; true FPR/sensitivity of any threshold computed exactly on
+all its controls/cases (removes evaluation noise). 12 monthly batches of B = 100 tests drawn with replacement at
+prevalence pi in {0.01, 0.05, 0.10}; R = 100 streams per cohort. Thresholds updated monthly on the cumulative pool.
+vp = verified_positive_seq (burn-in month at the source 70% control quantile; vp2 = 80% quantile); unverified samples
+above a candidate t counted as possible false positives -> valid whatever the history of thresholds.
+oracle = 90% quantile of the site's true control scores (FPR .111 by discreteness of small cohorts).
+
+LASSO, months 7-12: mean FPR / P(monthly FPR > 0.12) / sens / referral rate
+| pi | source | local_q | contam | vp / vp2 | oracle |
+|---|---|---|---|---|---|
+| .01 | .160/.50/.51/.16 | .109/.22/.48/.11 | .104/.15/.47/.11 | .082/.002/.48/.09 | .111/.13/.50/.12 |
+| .05 | .160/.50/.51/.18 | .094/.08/.46/.11 | .088/.04/.46/.11 | .086/.003/.48/.11 | .111/.13/.50/.13 |
+| .10 | .160/.50/.51/.20 | .073/.004/.43/.11 | .065/.001/.40/.10 | .085/.004/.48/.13 | .111/.13/.50/.15 |
+RF: same pattern (vp months 7-12 FPR .081-.086, P(>.12) .001-.009, sens .50).
+Burn-in month: vp FPR .345 / referral .35; vp2 FPR .274 / referral .28 (one month only); from month 2 both identical.
+Harms per 1,000 screened, 12-month average, LASSO pi = .01: unnecessary referrals (FP) source 158, local_q 113,
+contam 108, vp 103, vp2 97, oracle 110; missed cancers 4.95 / 5.17 / 5.26 / 5.06 / 5.14 / 5.01.
+
+Verdict: **sequential verified-positive recalibration is the frozen candidate (vp2: 2*alpha burn-in)**.
+- Only method whose per-month FPR almost never exceeds 0.12 at every prevalence (<= 0.4% of site-months after
+  month 6 vs 22% local_q, 15% contam, 50% source at pi = .01), in every cohort (per-cohort FPR .079-.091).
+- Sensitivity within ~0.02 of the oracle (gap from round 3-4 was a small-pool artefact).
+- vs status quo (source cut-off, LASSO): ~55-60 fewer unnecessary colonoscopies per 1,000 screened per year at
+  essentially unchanged missed cancers (+0.2 per 1,000).
+- Price: one burn-in month with ~28% referrals; needs referral outcomes within one month (follow-up delay is a
+  sensitivity analysis for the final protocol).
+Limitations: cohort-as-population resampling uses <= 65 control scores per site (discrete), case-control cohorts
+stand in for screening populations, colonoscopy treated as perfect reference.

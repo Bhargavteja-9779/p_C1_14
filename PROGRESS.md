@@ -62,3 +62,6 @@ Commit + push after every phase (auto-save).
   NOT touched. Open decision: (a) freeze current recipe and run locked tests once, or (b) one more method round.
 - Round 4 DONE: verified-positive recalibration (labels from routine colonoscopy of test-positives + prevalence bound)
   matches the fully-labelled oracle on DEV for pi <= 0.10. Locked test cohorts still untouched. Next decision: freeze.
+- Round 5 DONE: sequential verified-positive recalibration (vp2) holds monthly FPR <= 0.12 in >99.6% of site-months
+  after month 6, sens within 0.02 of oracle; ~55-60 fewer unnecessary colonoscopies /1,000 vs source cut-off (LASSO).
+  Next: write pre-registered protocol (experiments/protocol.md), then run locked tests ONCE after user confirmation.
