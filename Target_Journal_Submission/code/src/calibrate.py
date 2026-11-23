@@ -16,8 +16,11 @@ def local_controls_conformal(alpha, c):
     c = np.sort(c); n = len(c); k = int(np.ceil((n + 1) * (1 - alpha)))
     return c[k - 1] if k <= n else np.inf
 
-def _kde(x, bw=None):
-    return stats.gaussian_kde(x, bw_method=bw)
+def _kde(x, bw=None, n_grid=2048):
+    """Gaussian KDE tabulated on a wide grid; returns a fast vectorised density (linear interpolation, 0 outside)."""
+    k = stats.gaussian_kde(x, bw_method=bw); h = np.sqrt(k.covariance[0, 0])
+    grid = np.linspace(x.min() - 8 * h - 10, x.max() + 8 * h + 10, n_grid); dens = k(grid)
+    return lambda z: np.interp(z, grid, dens, left=0.0, right=0.0)
 
 def em_label_shift(s_src, y_src, alpha, u=None, **kw):
     """Saerens et al. (2002) EM prior adjustment: class-conditional score densities assumed equal to source;

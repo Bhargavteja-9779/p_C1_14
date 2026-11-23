@@ -5,7 +5,7 @@ from src.data import load, DEV_CRC
 from src.models import train_and_score
 from src import calibrate as C
 from sklearn.metrics import roc_auc_score
-alpha = 0.10; R = 100; rng = np.random.default_rng(1)
+alpha = 0.10; R = 30; rng = np.random.default_rng(1)
 X, y, g, M = load("CRC", DEV_CRC); X = X.values
 rows = []
 for model in ["lasso", "rf"]:
