@@ -54,3 +54,22 @@ def site_shift(s_src, y_src, alpha, u=None, return_params=False, **kw):
     a, lb, lp = best.x; b = np.exp(lb)
     t = a + b * t_src
     return (t, dict(a=a, b=b, pi=1 / (1 + np.exp(-lp)))) if return_params else t
+
+def tong_threshold(alpha, c, delta=0.05):
+    """Neyman-Pearson umbrella order statistic (Tong, Feng & Li 2018): P(FPR > alpha) <= delta. inf if n too small."""
+    from scipy.stats import binom
+    c = np.sort(c); n = len(c)
+    for k in range(1, n + 1):  # violation prob for k-th order statistic = P(Bin(n,1-alpha) >= k)
+        if binom.sf(k - 1, n, 1 - alpha) <= delta: return c[k - 1]
+    return np.inf
+
+def control_anchored(s_src, y_src, alpha, c, scale=False):
+    """Transport source control quantile to the site via robust location (median) [and scale (IQR)] of n local controls."""
+    s0 = s_src[y_src == 0]; t_src = np.quantile(s0, 1 - alpha)
+    if not scale: return t_src + np.median(c) - np.median(s0)
+    iqr = lambda x: np.subtract(*np.quantile(x, [0.75, 0.25])) + 1e-9
+    return np.median(c) + (t_src - np.median(s0)) * iqr(c) / iqr(s0)
+
+def pool_quantile_bounded(alpha, u, pi_max):
+    """(1-beta) quantile of unlabeled pool with beta = alpha*(1-pi_max): FPR <= alpha whenever prevalence <= pi_max."""
+    return np.quantile(u, 1 - alpha * (1 - pi_max))

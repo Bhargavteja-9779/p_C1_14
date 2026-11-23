@@ -27,3 +27,30 @@ Decision -> Round 2: frame as evidence + deployment protocol. Test (a) conformal
 across n local controls in {10, 20, 29, 50}; (b) local quantile with prevalence-bound correction t = quantile at
 1 - alpha(1-pi_max); (c) a hybrid that shrinks the source threshold toward local controls (borrowing strength for small n);
 (d) batch-correction baselines (MMUPHin-style location/scale per cohort) before the source threshold.
+
+## Round 2 (2026-11-23) — explore_v2.py, R=100, natural-prevalence pool, alpha=0.10
+Calibration = random half of target controls (first n used); evaluation = other half of controls + all cases.
+Per-cohort mean realised FPR across the 8 dev cohorts (n=10 local controls where applicable):
+
+| method | LASSO FPR range (sd) | LASSO sens | RF FPR range (sd) | RF sens |
+|---|---|---|---|---|
+| source threshold (status quo) | 0.00–0.37 (0.141) | 0.505 | 0.00–0.37 (0.132) | 0.484 |
+| cohort-wise feature standardisation + source thr. (batch-correction baseline) | 0.03–0.19 (0.049) | 0.491 | 0.00–0.35 (0.112) | 0.468 |
+| control-anchored location shift (median of 10 controls) | 0.01–0.18 (0.052) | 0.454 | 0.00–0.31 (0.111) | 0.483 |
+| control-anchored location+scale | 0.07–0.23 (0.045) | 0.508 | 0.09–0.24 (0.046) | 0.580 |
+| unlabeled pool quantile, natural prevalence (~50%) | 0.00–0.04 | 0.166 | 0.00–0.05 | 0.164 |
+| conformal order statistic, 10 local controls | **0.07–0.10 (0.008)** | 0.415 | **0.08–0.11 (0.013)** | 0.478 |
+| Tong 95%-confidence rule | needs n>=29; infeasible in most dev cohorts (inf threshold) | | | |
+
+Findings
+- Conformal with only 10 local controls removes between-site drift (per-cohort mean FPR sd 0.141 -> 0.008),
+  at a sensitivity cost of ~0.09 (LASSO) / ~0.01 (RF) versus the status quo. Per-split FPR still varies (finite-n),
+  which is what the Tong/high-confidence version addresses at n>=29.
+- Batch standardisation and location/scale anchoring reduce but do not remove drift — important baselines that
+  pre-empt "doesn't batch correction solve this?".
+- Label-free pool quantile is only valid at low prevalence (prevalence bound), confirmed again.
+Caveat: small dev cohorts (24–65 controls) limit n; "n=20/all" buckets in the log mix cohort sizes.
+
+Decision: freeze protocol around (i) drift evidence (source thr.), (ii) local-control conformal + high-confidence rule
+as the recommended deployment step, (iii) baselines: batch standardisation, anchoring, EM, pool quantile, site-shift
+mixture (negative). Next: write protocol.md (pre-registration), then run once on locked cohorts.

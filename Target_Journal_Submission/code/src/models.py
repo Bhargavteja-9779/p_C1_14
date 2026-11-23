@@ -29,3 +29,16 @@ def train_and_score(X, y, groups, tr, te, name, seed=0):
         m = make(name, seed).fit(Ztr[a], ytr[a]); oof[b] = m.predict_proba(Ztr[b])[:, 1]
     m = make(name, seed).fit(Ztr, ytr)
     return logit(oof), ytr, logit(m.predict_proba(Zte)[:, 1]), m
+
+def train_and_score_cohortstd(X, y, groups, tr, te, name, seed=0):
+    """Batch-correction baseline: features standardised within each cohort (target: on its own unlabeled samples)."""
+    p = preprocess_fit(X[tr]); L = lambda A: np.log10(A[:, p["keep"]] / 100 + 1e-5)
+    Z = np.zeros((len(y), p["keep"].sum()))
+    for gg in np.unique(groups[tr | te]):
+        i = (groups == gg) & (tr | te); A = L(X[i]); Z[i] = (A - A.mean(0)) / (A.std(0) + 1e-3)
+    Ztr, Zte, ytr, gtr = Z[tr], Z[te], y[tr], groups[tr]
+    oof = np.zeros(len(ytr))
+    for a, b in GroupKFold(len(np.unique(gtr))).split(Ztr, ytr, gtr):
+        oof[b] = make(name, seed).fit(Ztr[a], ytr[a]).predict_proba(Ztr[b])[:, 1]
+    m = make(name, seed).fit(Ztr, ytr)
+    return logit(oof), ytr, logit(m.predict_proba(Zte)[:, 1]), m

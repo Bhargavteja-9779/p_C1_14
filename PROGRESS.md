@@ -22,7 +22,7 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
 - [x] STEP 1: benchmark 25 papers, level profile, style notes
 - [x] STEP 2: real-life problem discovery
 - [x] Data lock (code/experiments/data_lock.md)
-- [ ] STEP 3: novelty map + scorecard
+- [x] STEP 3: novelty map + scorecard
 - [ ] Protocol pre-registration
 - [ ] First working version
 - [ ] Novelty escalation loop (D6)
@@ -48,4 +48,4 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
   out-of-fold controls. Realised specificity per held-out cohort: LASSO 0.79-1.00, RF 0.72-1.00; overdispersion vs binomial
   chi2 p=0.004 (LASSO), p=2e-7 (RF). => threshold drift is real, not sampling noise. Mean AUC LASSO 0.78, RF 0.82.
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
-- 2026-11-23 (session 2): container was fresh; rebuilt data cache (recipe above). STEP 3 background agent from session 1 left no files -> re-running. Dev exploration round 1 (explore_v1.py, R=30 splits) running.
+- 2026-11-23 (session 2): container was fresh; rebuilt data cache (recipe above). STEP 3 background agent from session 1 left no files -> re-running. Dev rounds 1-2 done (see code/experiments/novelty_escalation_log.md). STEP 3 done. NEXT: write protocol pre-registration, then locked-cohort run.
