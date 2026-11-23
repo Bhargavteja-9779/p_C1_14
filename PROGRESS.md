@@ -22,3 +22,9 @@ Commit + push after every phase (auto-save).
 - [ ] Final package
 
 ## Decisions (with reasons)
+- 2026-11-23 STEP 0 (in progress): Measured received->accepted days from Crossref assertions (Springer/T&F/Wiley/IET) and
+  PubMed history (Elsevier/OUP/biomed). ~95 hand-picked journals + automatic screen of 1378 non-Elsevier journals
+  (OpenAlex 2yr citedness>4.5) + PubMed screen of Elsevier/IEEE journals. Raw files in journal_selection/raw/.
+  Key finding: nearly no Q1 journal has p75<=72 for full research articles. Letters/short reports inflate speed.
+  Research-only checks: Critical Care 66/85 (fail), iMeta research article 56/86 (fail), iMeta Letter 33/52 (pass),
+  Ophthalmology & Therapy 52/70 (pass, but likely Q2 + clinical scope).
