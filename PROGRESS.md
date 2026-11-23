@@ -65,3 +65,5 @@ Commit + push after every phase (auto-save).
 - Round 5 DONE: sequential verified-positive recalibration (vp2) holds monthly FPR <= 0.12 in >99.6% of site-months
   after month 6, sens within 0.02 of oracle; ~55-60 fewer unnecessary colonoscopies /1,000 vs source cut-off (LASSO).
   Next: write pre-registered protocol (experiments/protocol.md), then run locked tests ONCE after user confirmation.
+- Protocol DRAFT written (code/experiments/protocol.md, "FROZEN: no"). Final runner experiments/final/run_final.py
+  (refuses unless FROZEN: yes) + analyze_final.py; dry run on DEV cohorts OK (~30 s). Awaiting user go-ahead to freeze.
