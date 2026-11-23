@@ -1,0 +1,200 @@
+
+=== alpha=0.1: per task/model (cohort-mean FPR sd, max |dev|, share within [0.5a,1.5a], P(split FPR>1.5a), sens) ===
+SD of cohort-mean FPR
+task                   CRC           IBD           T2D        adenoma       
+model                lasso     rf  lasso     rf  lasso     rf   lasso     rf
+key                                                                         
+anchor_loc_n10       0.079  0.022  0.076  0.109  0.050  0.076   0.039  0.024
+anchor_loc_n20       0.085  0.029    NaN    NaN  0.060  0.071   0.029  0.034
+anchor_loc_n30         NaN    NaN    NaN    NaN  0.086  0.032   0.028  0.035
+anchor_locscale_n10  0.021  0.016  0.041  0.150  0.018  0.041   0.029  0.043
+anchor_locscale_n20  0.027  0.014    NaN    NaN  0.024  0.055   0.044  0.062
+anchor_locscale_n30    NaN    NaN    NaN    NaN  0.018  0.002   0.044  0.068
+cohortstd            0.072  0.105  0.077  0.080  0.098  0.082   0.055  0.063
+conformal_n10        0.010  0.009  0.005  0.003  0.008  0.013   0.010  0.008
+conformal_n20        0.000  0.014    NaN    NaN  0.004  0.005   0.008  0.008
+conformal_n30          NaN    NaN    NaN    NaN  0.001  0.001   0.006  0.005
+em                   0.243  0.241  0.434  0.467  0.224  0.331   0.371  0.346
+pool_q               0.013  0.009  0.020  0.024  0.109  0.089   0.041  0.042
+site_shift           0.119  0.041  0.055  0.053  0.052  0.090   0.025  0.035
+source               0.085  0.092  0.172  0.151  0.258  0.338   0.088  0.062
+tong95_n30             NaN    NaN    NaN    NaN  0.001  0.002   0.005  0.001
+tong95_n50             NaN    NaN    NaN    NaN  0.001  0.002     NaN    NaN
+Mean sensitivity
+task                   CRC           IBD           T2D        adenoma       
+model                lasso     rf  lasso     rf  lasso     rf   lasso     rf
+key                                                                         
+anchor_loc_n10       0.600  0.546  0.484  0.461  0.398  0.236   0.286  0.082
+anchor_loc_n20       0.602  0.549  0.493  0.430  0.390  0.227   0.296  0.078
+anchor_loc_n30       0.441  0.387    NaN    NaN  0.382  0.244   0.297  0.078
+anchor_locscale_n10  0.640  0.568  0.494  0.597  0.249  0.304   0.259  0.209
+anchor_locscale_n20  0.633  0.546  0.411  0.545  0.214  0.278   0.217  0.191
+anchor_locscale_n30  0.512  0.405    NaN    NaN  0.176  0.178   0.206  0.185
+cohortstd            0.524  0.526  0.505  0.465  0.270  0.115   0.223  0.033
+conformal_n10        0.461  0.416  0.372  0.373  0.220  0.191   0.193  0.113
+conformal_n20        0.521  0.467  0.241  0.263  0.228  0.192   0.174  0.139
+conformal_n30        0.344  0.328    NaN    NaN  0.220  0.165   0.183  0.141
+em                   0.681  0.731  0.509  0.698  0.738  0.248   0.481  0.716
+pool_q               0.144  0.145  0.182  0.183  0.114  0.110   0.145  0.118
+site_shift           0.534  0.555  0.353  0.332  0.149  0.172   0.225  0.142
+source               0.672  0.626  0.587  0.494  0.382  0.272   0.270  0.036
+tong95_n30           0.173  0.176    NaN    NaN  0.093  0.056   0.044  0.054
+tong95_n50           0.198  0.205    NaN    NaN  0.109  0.069   0.068  0.039
+Pooled over all cohort x model pairs
+                     pairs  within  max_dev   sens  p_over   p_le
+key                                                              
+anchor_loc_n10          28   0.429    0.189  0.358   0.389  0.448
+anchor_loc_n20          20   0.400    0.191  0.368   0.449  0.342
+anchor_loc_n30          12   0.500    0.194  0.267   0.373  0.357
+anchor_locscale_n10     28   0.429    0.236  0.389   0.476  0.396
+anchor_locscale_n20     20   0.500    0.228  0.360   0.427  0.398
+anchor_locscale_n30     12   0.833    0.118  0.233   0.290  0.492
+cohortstd               32   0.281    0.221  0.308   0.323  0.508
+conformal_n10           28   1.000    0.023  0.272   0.210  0.670
+conformal_n20           20   1.000    0.018  0.283   0.191  0.634
+conformal_n30           12   1.000    0.011  0.201   0.186  0.600
+em                      32   0.156    0.900  0.593   0.675  0.288
+pool_q                  32   0.281    0.144  0.142   0.081  0.840
+site_shift              32   0.656    0.155  0.285   0.231  0.583
+source                  32   0.312    0.626  0.386   0.384  0.496
+tong95_n30              12   0.000    0.073  0.078   0.017  0.941
+tong95_n50               8   0.000    0.064  0.108   0.008  0.944
+
+=== alpha=0.05: per task/model (cohort-mean FPR sd, max |dev|, share within [0.5a,1.5a], P(split FPR>1.5a), sens) ===
+SD of cohort-mean FPR
+task                   CRC           IBD           T2D        adenoma       
+model                lasso     rf  lasso     rf  lasso     rf   lasso     rf
+key                                                                         
+anchor_loc_n10       0.075  0.001  0.111  0.080  0.049  0.069   0.046  0.018
+anchor_loc_n20       0.084  0.004    NaN    NaN  0.053  0.066   0.029  0.023
+anchor_loc_n30         NaN    NaN    NaN    NaN  0.073  0.047   0.030  0.024
+anchor_locscale_n10  0.011  0.016  0.097  0.137  0.005  0.044   0.024  0.054
+anchor_locscale_n20  0.018  0.020    NaN    NaN  0.004  0.063   0.027  0.075
+anchor_locscale_n30    NaN    NaN    NaN    NaN  0.006  0.014   0.029  0.076
+cohortstd            0.052  0.045  0.040  0.055  0.091  0.079   0.063  0.040
+conformal_n10        0.000  0.000  0.000  0.000  0.000  0.000   0.000  0.000
+conformal_n20        0.002  0.002    NaN    NaN  0.005  0.003   0.005  0.001
+conformal_n30          NaN    NaN    NaN    NaN  0.005  0.001   0.003  0.002
+em                   0.278  0.310  0.484  0.485  0.222  0.344   0.406  0.316
+pool_q               0.010  0.000  0.007  0.017  0.097  0.100   0.029  0.026
+site_shift           0.090  0.034  0.050  0.029  0.057  0.100   0.029  0.033
+source               0.119  0.047  0.028  0.099  0.230  0.309   0.080  0.017
+tong95_n30             NaN    NaN    NaN    NaN  0.000  0.000   0.000  0.000
+tong95_n50             NaN    NaN    NaN    NaN  0.000  0.000     NaN    NaN
+Mean sensitivity
+task                   CRC           IBD           T2D        adenoma       
+model                lasso     rf  lasso     rf  lasso     rf   lasso     rf
+key                                                                         
+anchor_loc_n10       0.524  0.431  0.422  0.356  0.326  0.136   0.207  0.035
+anchor_loc_n20       0.527  0.441  0.475  0.329  0.325  0.131   0.209  0.036
+anchor_loc_n30       0.334  0.275    NaN    NaN  0.321  0.164   0.202  0.036
+anchor_locscale_n10  0.578  0.447  0.419  0.535  0.156  0.225   0.180  0.163
+anchor_locscale_n20  0.564  0.424  0.385  0.490  0.133  0.201   0.132  0.145
+anchor_locscale_n30  0.421  0.294    NaN    NaN  0.096  0.102   0.117  0.137
+cohortstd            0.437  0.437  0.417  0.363  0.180  0.099   0.168  0.015
+conformal_n10        0.000  0.000  0.000  0.000  0.000  0.000   0.000  0.000
+conformal_n20        0.361  0.305  0.128  0.186  0.146  0.120   0.078  0.077
+conformal_n30        0.161  0.177    NaN    NaN  0.085  0.057   0.045  0.053
+em                   0.638  0.636  0.370  0.655  0.785  0.210   0.448  0.744
+pool_q               0.074  0.078  0.098  0.098  0.056  0.053   0.070  0.071
+site_shift           0.478  0.452  0.215  0.262  0.074  0.090   0.144  0.100
+source               0.563  0.485  0.406  0.434  0.304  0.214   0.219  0.015
+tong95_n30           0.000  0.000    NaN    NaN  0.000  0.000   0.000  0.000
+tong95_n50           0.000  0.000    NaN    NaN  0.000  0.000   0.000  0.000
+Pooled over all cohort x model pairs
+                     pairs  within  max_dev   sens  p_over   p_le
+key                                                              
+anchor_loc_n10          28   0.286    0.177  0.278   0.424  0.451
+anchor_loc_n20          20   0.350    0.181  0.291   0.515  0.357
+anchor_loc_n30          12   0.333    0.176  0.191   0.515  0.319
+anchor_locscale_n10     28   0.250    0.221  0.314   0.492  0.402
+anchor_locscale_n20     20   0.400    0.222  0.283   0.466  0.421
+anchor_locscale_n30     12   0.667    0.140  0.156   0.372  0.472
+cohortstd               32   0.125    0.229  0.243   0.401  0.500
+conformal_n10           28   0.000    0.050  0.000   0.000  1.000
+conformal_n20           20   1.000    0.012  0.179   0.213  0.677
+conformal_n30           12   1.000    0.025  0.076   0.104  0.780
+em                      32   0.125    0.950  0.558   0.659  0.325
+pool_q                  32   0.281    0.171  0.075   0.092  0.822
+site_shift              32   0.344    0.172  0.205   0.269  0.578
+source                  32   0.312    0.608  0.304   0.381  0.505
+tong95_n30              12   0.000    0.050  0.000   0.000  1.000
+tong95_n50               8   0.000    0.050  0.000   0.000  1.000
+
+SUCCESS CRITERION: conformal_n20 within-band share = 1.000 (need >=0.90); source outside-band share = 0.688 (drift claim needs >=0.30)
+SD by task (mean over models): conformal_n20 {'CRC': 0.007, 'IBD': nan, 'T2D': 0.005, 'adenoma': 0.008} | source {'CRC': 0.089, 'IBD': 0.161, 'T2D': 0.298, 'adenoma': 0.075}
+overdispersion source a=0.1 CRC lasso: chi2=29.5 df=3 p=1.8e-06
+overdispersion source a=0.1 CRC rf: chi2=43.6 df=3 p=1.8e-09
+overdispersion source a=0.1 IBD lasso: chi2=30.0 df=4 p=4.9e-06
+overdispersion source a=0.1 IBD rf: chi2=18.6 df=4 p=0.00096
+overdispersion source a=0.1 T2D lasso: chi2=495.9 df=4 p=5.1e-106
+overdispersion source a=0.1 T2D rf: chi2=823.5 df=4 p=6.1e-177
+overdispersion source a=0.1 adenoma lasso: chi2=21.4 df=5 p=0.00069
+overdispersion source a=0.1 adenoma rf: chi2=23.7 df=5 p=0.00025
+overdispersion source a=0.05 CRC lasso: chi2=81.4 df=3 p=1.5e-17
+overdispersion source a=0.05 CRC rf: chi2=28.5 df=3 p=2.9e-06
+overdispersion source a=0.05 IBD lasso: chi2=1.2 df=4 p=0.88
+overdispersion source a=0.05 IBD rf: chi2=22.1 df=4 p=0.00019
+overdispersion source a=0.05 T2D lasso: chi2=846.7 df=4 p=6e-182
+overdispersion source a=0.05 T2D rf: chi2=1404.8 df=4 p=6.4e-303
+overdispersion source a=0.05 adenoma lasso: chi2=32.9 df=5 p=4e-06
+overdispersion source a=0.05 adenoma rf: chi2=9.7 df=5 p=0.084
+bootstrap SD(conformal_n20)-SD(source) lasso: -0.161 95% CI [-0.232, -0.048] over 10 cohorts
+bootstrap SD(conformal_n20)-SD(source) rf: -0.218 95% CI [-0.323, -0.061] over 10 cohorts
+
+CRC harm per 1,000 screened, p=0.005
+                      fp_per_1000                                 missed_per_1000                                
+key                     cohortstd conformal_n20 source tong95_n50       cohortstd conformal_n20 source tong95_n50
+model cohort                                                                                                     
+lasso ThomasAM_2019_c       150.5          98.8  279.6        NaN             2.2           2.4    1.4        NaN
+      YachidaS_2019         168.9          98.7  174.5       42.7             2.7           3.3    2.3        4.0
+      YuJ_2015               36.5          98.9  111.8        NaN             2.2           1.5    1.3        NaN
+rf    ThomasAM_2019_c       209.2         112.4  308.2        NaN             2.2           2.5    1.6        NaN
+      YachidaS_2019         180.9          90.7  193.4       37.5             2.5           3.4    2.5        4.0
+      YuJ_2015               16.6          86.2  127.0        NaN             2.4           2.0    1.5        NaN
+
+CRC harm per 1,000 screened, p=0.01
+                      fp_per_1000                                 missed_per_1000                                
+key                     cohortstd conformal_n20 source tong95_n50       cohortstd conformal_n20 source tong95_n50
+model cohort                                                                                                     
+lasso ThomasAM_2019_c       149.7          98.3  278.2        NaN             4.5           4.7    2.8        NaN
+      YachidaS_2019         168.0          98.2  173.6       42.5             5.5           6.7    4.5        8.0
+      YuJ_2015               36.3          98.4  111.3        NaN             4.3           3.0    2.6        NaN
+rf    ThomasAM_2019_c       208.1         111.9  306.7        NaN             4.5           5.0    3.2        NaN
+      YachidaS_2019         180.0          90.2  192.4       37.3             5.0           6.9    5.0        8.0
+      YuJ_2015               16.5          85.8  126.3        NaN             4.7           4.1    3.0        NaN
+
+AUC per cohort
+       task                  cohort  model   n0   n1    auc  auc_cohortstd
+0       CRC           YachidaS_2019  lasso  251  258  0.731          0.711
+1       CRC           YachidaS_2019     rf  251  258  0.696          0.711
+2       CRC                YuJ_2015  lasso   54   74  0.859          0.855
+3       CRC                YuJ_2015     rf   54   74  0.854          0.849
+4       CRC         ThomasAM_2019_c  lasso   40   40  0.832          0.797
+5       CRC         ThomasAM_2019_c     rf   40   40  0.795          0.801
+6       IBD         HMP_2019_ibdmdb  lasso   27  103  0.725          0.755
+7       IBD         HMP_2019_ibdmdb     rf   27  103  0.712          0.695
+8       IBD             HallAB_2017  lasso   12   20  0.700          0.717
+9       IBD             HallAB_2017     rf   12   20  0.658          0.796
+10      IBD             IjazUZ_2017  lasso   38   12  0.853          0.807
+11      IBD             IjazUZ_2017     rf   38   12  0.820          0.851
+12      IBD          NielsenHB_2014  lasso   59   82  0.696          0.718
+13      IBD          NielsenHB_2014     rf   59   82  0.668          0.728
+14      T2D         KarlssonFH_2013  lasso   43   53  0.624          0.607
+15      T2D         KarlssonFH_2013     rf   43   53  0.692          0.626
+16      T2D       MetaCardis_2020_a  lasso  642  550  0.636          0.640
+17      T2D       MetaCardis_2020_a     rf  642  550  0.644          0.634
+18      T2D               QinJ_2012  lasso  174  170  0.627          0.594
+19      T2D               QinJ_2012     rf  174  170  0.580          0.587
+20      T2D  SankaranarayananK_2015  lasso   18   19  0.576          0.482
+21      T2D  SankaranarayananK_2015     rf   18   19  0.576          0.573
+22  adenoma              FengQ_2015  lasso   61   47  0.604          0.608
+23  adenoma              FengQ_2015     rf   61   47  0.558          0.607
+24  adenoma         HanniganGD_2017  lasso   28   26  0.596          0.607
+25  adenoma         HanniganGD_2017     rf   28   26  0.570          0.532
+26  adenoma          ThomasAM_2018a  lasso   24   27  0.650          0.636
+27  adenoma          ThomasAM_2018a     rf   24   27  0.535          0.627
+28  adenoma           YachidaS_2019  lasso  251   67  0.595          0.600
+29  adenoma           YachidaS_2019     rf  251   67  0.562          0.572
+30  adenoma            ZellerG_2014  lasso   61   42  0.591          0.577
+31  adenoma            ZellerG_2014     rf   61   42  0.543          0.604

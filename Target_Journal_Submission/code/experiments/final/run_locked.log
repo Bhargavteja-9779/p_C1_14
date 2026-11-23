@@ -1,0 +1,46 @@
+CRC YachidaS_2019 lasso 0.731
+CRC YachidaS_2019 rf 0.696
+CRC YuJ_2015 lasso 0.859
+CRC YuJ_2015 rf 0.854
+CRC ThomasAM_2019_c lasso 0.833
+CRC ThomasAM_2019_c rf 0.795
+IBD HMP_2019_ibdmdb lasso 0.725
+IBD HMP_2019_ibdmdb rf 0.712
+IBD HallAB_2017 lasso 0.7
+IBD HallAB_2017 rf 0.658
+IBD IjazUZ_2017 lasso 0.853
+IBD IjazUZ_2017 rf 0.82
+IBD NielsenHB_2014 lasso 0.696
+IBD NielsenHB_2014 rf 0.668
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+T2D KarlssonFH_2013 lasso 0.624
+T2D KarlssonFH_2013 rf 0.692
+T2D MetaCardis_2020_a lasso 0.636
+T2D MetaCardis_2020_a rf 0.644
+T2D QinJ_2012 lasso 0.627
+T2D QinJ_2012 rf 0.58
+T2D SankaranarayananK_2015 lasso 0.576
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+T2D SankaranarayananK_2015 rf 0.576
+adenoma FengQ_2015 lasso 0.604
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+adenoma FengQ_2015 rf 0.558
+adenoma HanniganGD_2017 lasso 0.596
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+adenoma HanniganGD_2017 rf 0.57
+adenoma ThomasAM_2018a lasso 0.65
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+adenoma ThomasAM_2018a rf 0.535
+adenoma YachidaS_2019 lasso 0.595
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+adenoma YachidaS_2019 rf 0.562
+adenoma ZellerG_2014 lasso 0.591
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/final/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+adenoma ZellerG_2014 rf 0.543

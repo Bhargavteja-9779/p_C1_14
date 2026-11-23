@@ -23,10 +23,9 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
 - [x] STEP 2: real-life problem discovery
 - [x] Data lock (code/experiments/data_lock.md)
 - [x] STEP 3: novelty map + scorecard
-- [ ] Protocol pre-registration
-- [ ] First working version
-- [ ] Novelty escalation loop (D6)
-- [ ] Final experiments
+- [x] Protocol pre-registration (code/experiments/protocol.md, commit ea2f3f7)
+- [x] First working version / D6 rounds 1-2 (dev only)
+- [x] Final experiments: locked run done (code/experiments/final/results_locked.md) - success criterion MET
 - [ ] Manuscript
 - [ ] Reviews 1-11
 - [ ] Final package
@@ -49,3 +48,4 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
   chi2 p=0.004 (LASSO), p=2e-7 (RF). => threshold drift is real, not sampling noise. Mean AUC LASSO 0.78, RF 0.82.
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
 - 2026-11-23 (session 2): container was fresh; rebuilt data cache (recipe above). STEP 3 background agent from session 1 left no files -> re-running. Dev rounds 1-2 done (see code/experiments/novelty_escalation_log.md). STEP 3 done. NEXT: write protocol pre-registration, then locked-cohort run.
+- 2026-11-23 Locked run done, no deviations. Status quo out-of-band in 69% of pairs; conformal n=20 in band 100%. NEXT: figures + manuscript (Short Communication, <=3000 words, <=3 figs).
