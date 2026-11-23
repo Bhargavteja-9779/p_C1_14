@@ -21,7 +21,7 @@ Commit + push after every phase (auto-save).
 - [x] STEP 0: journal landscape + 72-day evidence
 - [x] STEP 1: benchmark 25 papers, level profile, style notes
 - [x] STEP 2: real-life problem discovery
-- [ ] STEP 3: novelty map + scorecard (session 1 agent output lost; re-run in session 2)
+- [x] STEP 3: novelty map + scorecard (journal_selection/novelty_map.csv, 75 items; novelty_search_log.md)
 - [x] Data lock (code/experiments/data_lock.md)
 - [ ] Protocol pre-registration
 - [ ] First working version
@@ -48,3 +48,13 @@ Commit + push after every phase (auto-save).
   out-of-fold controls. Realised specificity per held-out cohort: LASSO 0.79-1.00, RF 0.72-1.00; overdispersion vs binomial
   chi2 p=0.004 (LASSO), p=2e-7 (RF). => threshold drift is real, not sampling noise. Mean AUC LASSO 0.78, RF 0.82.
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
+- 2026-11-23 (session 2) STEP 3 DONE. Closest prior art: SACSIM (Qiu et al. 2026 Biometrics, NP rule adapted with
+  unlabeled target), Zhang et al. 2013 ICML (target+conditional shift, location-scale), MLLS/Saerens, Godau 2023/2025
+  (prevalence-shift threshold re-setting, imaging), CaDC 2023 (sepsis), Tong 2018 NP umbrella (= our conformal baseline).
+  No systematic microbiome threshold-drift report found -> framing novelty 4/5; site-shift mixture 2.5/5 as a method.
+- DEV round 1: label-free site-shift v1 fails at low prevalence. Round 2: location-scale transport from few controls
+  fails; conformal local-control threshold is the only one on target in every cohort, but P(FPR>0.15) ~ 0.2.
+  See code/experiments/novelty_escalation_log.md.
+- Round 3 direction: guarantees that matter per deployment (high-probability, not in-expectation) - (i) PAC/
+  training-conditional local-control threshold, (ii) label-free contamination-bounded quantile of the unlabeled pool
+  using only an upper bound on prevalence (known in screening), with DKW correction; (iii) hybrid.
