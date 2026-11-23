@@ -59,4 +59,5 @@ in every disease task. The drift claim holds if `source` has cohort-mean FPR out
 Both outcomes are reported whatever they are.
 
 ## Deviations
-(none yet)
+Recorded after peer-review round 1 (2026-11-23); see Supporting Information, "Deviations from the protocol" (items 1-4).
+No locked result was re-run or changed; all additional analyses are labelled post hoc.
