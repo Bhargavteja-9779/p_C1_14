@@ -216,3 +216,17 @@ recalibration hides a 2-6x excess false-alarm burden in people with common chron
 outcomes allow per-site, per-group recalibration with guarantees.
 Locked confirmation of the comorbidity effect (never touched): MetaCardis_2020_a (CAD, HF, T2D, IGT vs controls),
 QinJ_2012 and KarlssonFH_2013 (T2D), IBD cohorts (IBD as comorbidity).
+
+## Round 9 (2026-11-23, after freeze; DEV cohorts only -> any locked use is POST HOC) - mechanism
+explore_v9_mechanism.py, explore_v9b_axes.py. Score gap (condition - own controls) decomposed into species
+contributions (LASSO coefficient x mean z-score shift). The CRC model's species explain the full adjusted gap.
+Top drivers across 7 conditions: Streptococcus oralis, Lachnoclostridium, Fusobacterium nucleatum, Veillonella
+parvula, Peptostreptococcus, Gemella morbillorum, Lactobacillus salivarius (enriched; oral-origin, and several are
+the hallmark CRC markers) and depletion of Dialister CAG357, Bacteroides intestinalis, Eubacterium eligens, Roseburia.
+Two routes to a false alarm: oral-taxa enrichment explains 78% (ACVD), 83% (cirrhosis), ~100% (fatty liver) of the gap;
+commensal depletion explains 81% (hypertension), 56% (asthma); 'other enriched' 77% (ME/CFS).
+Specificity-constrained signature (drop CRC species whose shift is shared with >= K of the other DEV conditions,
+leave-one-condition-out): K = 4: 8 species dropped, CRC AUC .763 -> .748, disparity barely changes (mean comorbid
+positivity .212 -> .213); K = 2: 32 dropped, AUC .721, sensitivity .474 -> .429, disparity reduced but not removed.
+=> Training-side fixes cannot remove the excess without losing cancer detection, because the hallmark CRC species are
+themselves shared with chronic disease. This motivates the deployment-side (group-conditional) fix.
