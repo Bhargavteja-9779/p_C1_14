@@ -80,3 +80,20 @@ def ctrl_robust_transport(s_src, y_src, alpha, c, **kw):
 def ctrl_normal(alpha, c, **kw):
     """Source-free parametric baseline: mean + z_{1-alpha} * sd of local controls."""
     return np.mean(c) + stats.norm.ppf(1 - alpha) * np.std(c, ddof=1)
+
+# ---------- Round 3: per-deployment guarantees ----------
+def pac_controls(c, beta=0.15, delta=0.10):
+    """Training-conditional (PAC) threshold from n labelled local controls: smallest order statistic c_(k) with
+    P(FPR > beta) <= delta. FPR(c_(k)) = 1 - F0(c_(k)), F0(c_(k)) ~ Beta(k, n-k+1); need P(Bin(n, 1-beta) >= k) <= delta."""
+    c = np.sort(c); n = len(c)
+    for k in range(1, n + 1):
+        if stats.binom.sf(k - 1, n, 1 - beta) <= delta: return c[k - 1]
+    return np.inf
+
+def contam_quantile(u, alpha, pi_max):
+    """Label-free threshold from an unlabeled pool that may contain cases at prevalence <= pi_max.
+    F_u = (1-pi)F0 + pi F1 >= (1-pi_max)F0 ... => F0(t) >= (F_u(t) - pi_max)/(1 - pi_max). Choose t with
+    (F_u(t) - pi_max)/(1 - pi_max) >= 1 - alpha, using the conformal (m+1) order-statistic rank.
+    Holds for ANY case score distribution (no transport assumption)."""
+    u = np.sort(u); m = len(u); q = (1 - alpha) * (1 - pi_max) + pi_max
+    k = int(np.ceil((m + 1) * q)); return u[k - 1] if k <= m else np.inf

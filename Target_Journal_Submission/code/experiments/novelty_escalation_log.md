@@ -54,3 +54,33 @@ Verdict:
   at alpha = 0.10 (n >= (1-alpha)/alpha).
 - So far no new threshold method beats the simple guarantee-backed baseline. A method contribution needs a different
   angle (see the decision in PROGRESS.md).
+
+## Round 3 (2026-11-23) - explore_v3.py, R = 300; full table explore_v3.log
+New methods:
+- pac_controls: order-statistic threshold from n labelled controls with P(FPR > 0.15) <= 0.10 (binomial/Beta bound).
+- contam_quantile (label-free): conformal rank of the unlabeled pool at level (1-alpha)(1-pi_max)+pi_max. Needs only an
+  upper bound pi_max on prevalence; valid for ANY case-score distribution (no transport/shape assumption).
+Pool = half of the held-out cohort's controls (m = 12-32) + cases drawn at true prevalence pi.
+
+Mean FPR / P(FPR > 0.15) / sens (LASSO; RF similar):
+| true pi | source | local_q (assumes pi = 0) | contam pi_max=.02 | .05 | .10 |
+|---|---|---|---|---|---|
+| 0 | .160/.49/.51 | .140/.40/.51 | .082/.19/.42 | .074/.15/.41 | .070/.14/.40 |
+| .01 | .160/.49/.51 | .136/.39/.50 | .078/.18/.41 | .072/.15/.40 | .067/.13/.39 |
+| .05 | .160/.49/.51 | .121/.32/.48 | .062/.12/.38 | .060/.12/.38 | .055/.10/.36 |
+| .10 | .160/.49/.51 | .104/.25/.46 | .049/.08/.34 | .048/.08/.34 | .045/.07/.33 |
+Labelled controls: conf_n20 .095/.25/.52; pac_n20 .051/.09/.43; pac_n10 impossible (n too small).
+
+Verdict:
+- **contam_quantile WORKS as a label-free method**: mean FPR <= target in every setting, even when true pi > pi_max
+  (cases mostly score high, so contamination only makes it more conservative), and it matches the labelled
+  'conf_all' (same pool, labelled) at pi = 0. Price: conservative -> sensitivity ~0.40 vs ~0.50 for source, mainly
+  because DEV pools are tiny (m = 12-32 -> rank rounding). Must show convergence to target as m grows (screening
+  sites accumulate hundreds of tests/month) - simulate with larger cohorts / bootstrap pools in final experiments.
+- CAVEAT on P(FPR > 0.15): evaluation halves have only 12-33 controls, so realised FPR is itself noisy. Needs an
+  oracle noise floor (threshold set on the true held-out controls) before per-deployment claims are made.
+- Novelty check needed: "conformal with contaminated calibration / reference data" (outlier-detection literature,
+  PU learning, mixture proportion estimation bounds) may already contain this bound. If so, the contribution is
+  its application + evaluation for microbiome diagnostics, not the bound itself.
+- Candidate frozen method set for the final protocol: source (status quo), local_q, EM, contam_quantile(pi_max),
+  conformal-n and PAC-n local controls; LASSO + RF.
