@@ -43,4 +43,5 @@ for model in ["lasso"]:
                                      ci_lo=r.conf_int().loc["dis", 0], ci_hi=r.conf_int().loc["dis", 1], p=r.pvalues["dis"]))
 r = pd.DataFrame(rows).pivot_table(index=["cohort", "group"], columns="aug", values="pos")
 print("Positivity at 90%-spec threshold, without / with control augmentation\n", r.round(3).to_string())
-print("\nScore difference (logit) disease - control, crude vs adjusted for age/BMI/sex\n", pd.DataFrame(fits).round(3).to_string())
+F = pd.DataFrame(fits); F.to_csv(os.path.join(os.path.dirname(__file__), "explore_v7b_fits.csv"), index=False)
+print("\nScore difference (logit) disease - control, crude vs adjusted for age/BMI/sex\n", F.round(3).to_string())
