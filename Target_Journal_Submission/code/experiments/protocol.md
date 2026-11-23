@@ -1,6 +1,6 @@
 # Pre-registered analysis protocol (frozen before any locked-cohort analysis)
 
-Status: DRAFT written 2026-11-23 after development rounds 1-5 (experiments/novelty_escalation_log.md).
+Status: DRAFT written 2026-11-23 after development rounds 1-6 (experiments/novelty_escalation_log.md).
 Becomes FROZEN at the commit that adds the line "FROZEN: yes" below; the final runner refuses to run otherwise.
 FROZEN: no
 
@@ -28,8 +28,10 @@ Scores on the logit scale. Source out-of-fold scores by LOCO inside the training
 3. em: Saerens EM prior adjustment (one-shot analysis only).
 4. contam: label-free prevalence-bounded conformal quantile, contam_quantile(pool, alpha, pi_max).
 5. conf20: conformal threshold from 20 labelled local controls (one-shot analysis only).
-6. **vp2 (proposed)**: verified_positive_seq; burn-in month at the source (1 - 2*alpha) control quantile; afterwards
-   the current threshold; only labels of referred samples are used; pi_max as below.
+6. **vp (proposed)**: SequentialRecalibrator (src/calibrate.py) = verified_positive_seq with burn-in month at the source
+   (1 - 2*alpha) control quantile, then the current threshold; only outcomes of referred and attending samples are
+   used; drift alarm restarts the pool when the newest month's verified false positives exceed Binomial(m0, alpha)
+   (one-sided p < 0.01); pi_max as below.
 7. oracle: (1 - alpha) quantile of the site's true control scores (reference, not deployable).
 
 ## 5. Primary simulation (sequential deployment)

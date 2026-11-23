@@ -34,25 +34,29 @@ def site_scores():
                 items.append((disease, site, model, s_src, y_src, st, y[te])); print(disease, site, model, flush=True)
     np.savez(f, items=np.array(items, dtype=object)); return items
 
-def simulate(s_src, y_src, P0, P1, pi, rng, alpha=0.10, pim=None, B=100, delay=0, burn=2):
-    pim = max(0.05, pi) if pim is None else pim
-    tfpr = lambda t: (P0 >= t).mean(); tsens = lambda t: (P1 >= t).mean()
+def simulate(s_src, y_src, P0, P1, pi, rng, alpha=0.10, pim=None, B=100, delay=0, burn=2, smooth=False,
+             adh=1.0, miss=0.0, drift=0.0, months=None):
+    """One deployment stream. smooth: KDE-smoothed site population; adh: colonoscopy attendance; miss: share of
+    cancers missed at colonoscopy (observed as control); drift: logit shift of all scores from month 7."""
+    T_ = months or T; pim = max(0.05, pi) if pim is None else pim
+    bw = lambda P: 1.06 * P.std() * len(P) ** -0.2
+    draw = lambda P, n: rng.choice(P, n) + (rng.normal(0, bw(P), n) if smooth else 0)
+    Q0, Q1 = (draw(P0, 20000), draw(P1, 20000)) if smooth else (P0, P1)
     t_src = C.source_threshold(s_src, y_src, alpha)
-    th = dict(source=t_src, local_q=t_src, contam=t_src, oracle=np.quantile(P0, 1 - alpha),
-              vp=np.quantile(s_src[y_src == 0], 1 - min(burn * alpha, 0.9)))
-    U, L, TAU, out = [], [], [], []
-    for month in range(1, T + 1):
-        y_new = (rng.random(B) < pi).astype(int); u_new = np.where(y_new == 1, rng.choice(P1, B), rng.choice(P0, B))
+    rec = C.SequentialRecalibrator(s_src, y_src, alpha, pim, burn=burn, delay=delay)
+    th = dict(source=t_src, local_q=t_src, contam=t_src, oracle=np.quantile(Q0, 1 - alpha), vp=rec.t)
+    U, out = [], []
+    for month in range(1, T_ + 1):
+        sh = drift if month > 6 else 0.0
+        if sh: th["oracle"] = np.quantile(Q0 + sh, 1 - alpha)
+        y_new = (rng.random(B) < pi).astype(int); u_new = np.where(y_new == 1, draw(P1, B), draw(P0, B)) + sh
         for k, t in th.items():
-            out.append(dict(month=month, method=k, fpr=tfpr(t), sens=tsens(t), refer=(u_new >= t).mean()))
-        TAU.extend([th["vp"]] * B); U.extend(u_new); L.extend(y_new)
-        u, lab, tau = np.array(U), np.array(L), np.array(TAU)
+            out.append(dict(month=month, method=k, fpr=((Q0 + sh) >= t).mean(), sens=((Q1 + sh) >= t).mean(),
+                            refer=(u_new >= t).mean()))
+        lab_obs = np.where((y_new == 1) & (rng.random(B) < miss), 0, y_new)
+        th["vp"] = rec.update(u_new, lab_obs, rng.random(B) < adh)
+        U.extend(u_new); u = np.array(U)
         th["local_q"] = np.quantile(u, 1 - alpha); th["contam"] = C.contam_quantile(u, alpha, pim)
-        if delay:   # labels of the last `delay` months not yet available: treat those samples as unverified
-            known = np.arange(len(u)) < len(u) - delay * B
-            th["vp"] = C.verified_positive_seq(u, np.where(known, tau, np.inf), lab, alpha, pim)
-        else:
-            th["vp"] = C.verified_positive_seq(u, tau, lab, alpha, pim)
     return out
 
 def oneshot(s_src, y_src, st, yt, rng, alpha=0.10, reps=None):
@@ -75,7 +79,9 @@ if __name__ == "__main__":
     items = site_scores(); rng = np.random.default_rng(SEED)
     SETTINGS = [("primary", {})] + [(f"alpha{a}", dict(alpha=a)) for a in (0.05, 0.20)] + \
                [("pimax_miss", dict(pim=0.05)), ("delay1", dict(delay=1)), ("B50", dict(B=50)), ("B200", dict(B=200)),
-                ("burn3", dict(burn=3))]
+                ("burn3", dict(burn=3)), ("smooth", dict(smooth=True)), ("adherence70", dict(adh=0.7)),
+                ("miss5", dict(miss=0.05)), ("drift", dict(drift=0.5, months=18)),
+                ("combined", dict(smooth=True, adh=0.7, miss=0.05, delay=1, drift=0.5, months=18))]
     rows, rows1 = [], []
     for disease, site, model, s_src, y_src, st, yt in items:
         P0, P1 = st[yt == 0], st[yt == 1]

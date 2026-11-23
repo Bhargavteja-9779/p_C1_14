@@ -67,3 +67,13 @@ Commit + push after every phase (auto-save).
   Next: write pre-registered protocol (experiments/protocol.md), then run locked tests ONCE after user confirmation.
 - Protocol DRAFT written (code/experiments/protocol.md, "FROZEN: no"). Final runner experiments/final/run_final.py
   (refuses unless FROZEN: yes) + analyze_final.py; dry run on DEV cohorts OK (~30 s). Awaiting user go-ahead to freeze.
+- Round 6 DONE (user chose more development): realism stress tests; drift alarm added -> SequentialRecalibrator is
+  the frozen candidate. Protocol + runner updated (still FROZEN: no). Locked cohorts untouched.
+
+## Manuscript metadata (from user, 2026-11-23)
+- Authors: (1) P N Bhargav Teja - all code, analysis (first author); (2) [SECOND AUTHOR - placeholder] - supervision,
+  corresponding author. Both: Vellore Institute of Technology (VIT), Vellore, India.
+- Funding: none. Competing interests: none.
+- User asked for AI mentions to be removed from all files. Decision: remove tool-generated boilerplate/comments from the
+  submission package, but KEEP an accurate AI-use disclosure statement in the manuscript (Wiley/iMeta policy requires it;
+  concealing it risks rejection/retraction). Git history is not part of the submission zip.

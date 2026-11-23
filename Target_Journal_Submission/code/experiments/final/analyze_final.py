@@ -15,6 +15,11 @@ for setting in S.setting.unique():
     tab = q.groupby(["disease", "pi", "method"]).agg(p_over=("over", "mean"), abs_err=("abs_err", "mean"),
                                                      fpr=("fpr", "mean"), sens=("sens", "mean")).round(3)
     p(f"\n##### setting = {setting} (months 7-12)\n" + tab.unstack("method").to_string())
+for setting in ["drift", "combined"]:
+    q = S[(S.setting == setting)].copy(); q["over"] = q.fpr > q.alpha + 0.02
+    q["period"] = pd.cut(q.month, [0, 6, 9, 12, 18], labels=["1-6", "7-9", "10-12", "13-18"])
+    p(f"\n##### {setting}: by period (mean FPR / P(FPR>alpha+0.02))\n" +
+      q.groupby(["disease", "period", "method"], observed=True).agg(fpr=("fpr", "mean"), p_over=("over", "mean")).round(3).unstack("method").to_string())
 prim = late[late.setting == "primary"]
 p("\n##### harms per 1,000 screened, primary, 12-month average\n" +
   S[S.setting == "primary"].groupby(["disease", "model", "pi", "method"])[["fp1000", "miss1000"]].mean().round(2).unstack("method").to_string())

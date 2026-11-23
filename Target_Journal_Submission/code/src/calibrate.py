@@ -127,3 +127,25 @@ def verified_positive_seq(u, tau, lab, alpha, pi_max):
     if k < 0: return np.inf
     if k >= len(bad): return -np.inf
     return bad[len(bad) - k - 1] + 1e-9                           # leaves exactly k 'bad' samples >= t
+
+class SequentialRecalibrator:
+    """Proposed method (frozen candidate): sequential verified-positive recalibration with a drift alarm.
+    Month 1 uses a liberal burn-in threshold. After each month, only outcomes of referred AND attending samples are
+    used. If the newest month with outcomes shows more verified false positives than Binomial(m0, alpha) allows
+    (one-sided p < alarm_p), the pool is restarted from that month."""
+    def __init__(self, s_src, y_src, alpha=0.10, pi_max=0.05, burn=2, alarm_p=0.01, delay=0):
+        self.alpha, self.pi_max, self.alarm_p, self.delay = alpha, pi_max, alarm_p, delay
+        self.t = np.quantile(s_src[y_src == 0], 1 - min(burn * alpha, 0.9))
+        self.U, self.L, self.TAU, self.start, self.alarms = [], [], [], 0, 0
+    def update(self, u_new, lab_new, attended=None):
+        attended = np.ones(len(u_new), bool) if attended is None else attended
+        self.U.append(np.asarray(u_new)); self.L.append(np.asarray(lab_new)); self.TAU.append(np.where(attended, self.t, np.inf))
+        j = len(self.U) - 1 - self.delay
+        if j >= self.start + 1:
+            ver = self.U[j] >= self.TAU[j]; fp = int((ver & (self.L[j] == 0)).sum()); n = len(self.U[j])
+            m0 = n - int(np.floor(self.pi_max * n))
+            if stats.binom.sf(fp - 1, m0, self.alpha) < self.alarm_p: self.start = j; self.alarms += 1
+        lo, hi = self.start, len(self.U)
+        tau = np.concatenate([self.TAU[i] if i < hi - self.delay else np.full(len(self.U[i]), np.inf) for i in range(lo, hi)])
+        self.t = verified_positive_seq(np.concatenate(self.U[lo:hi]), tau, np.concatenate(self.L[lo:hi]), self.alpha, self.pi_max)
+        return self.t

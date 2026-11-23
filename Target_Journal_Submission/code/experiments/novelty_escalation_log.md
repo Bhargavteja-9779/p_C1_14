@@ -168,3 +168,19 @@ Verdict: **sequential verified-positive recalibration is the frozen candidate (v
   sensitivity analysis for the final protocol).
 Limitations: cohort-as-population resampling uses <= 65 control scores per site (discrete), case-control cohorts
 stand in for screening populations, colonoscopy treated as perfect reference.
+
+## Round 6 (2026-11-23) - explore_v6.py: realism stress tests (18 months, R = 60); full output explore_v6.log
+Scenarios: KDE-smoothed site population; colonoscopy attendance 70%; colonoscopy misses 5% of cancers; 1-month
+follow-up delay; drift (+0.5 logit for all scores from month 7); all combined. Variants: cumulative pool (vp),
+6-month window (vp_win6), drift alarm (vp_alarm: restart pool when the newest month's exact verified FP count
+exceeds Binomial(m0, alpha) at p < 0.01).
+Results (LASSO+RF, pi = .01/.05; mean FPR / P(FPR > .12)):
+- attendance 70%, miss 5%, delay 1: no degradation (months 10-18 FPR .078-.085, P(>.12) <= .003).
+- smoothed populations: FPR .095-.099; P(>.12) 3-8% in months 4-9 falling to <= 0.5% by months 13-18. The near-zero
+  exceedance in round 5 was partly an artefact of discrete <= 65-score populations.
+- drift: cumulative vp too slow (months 8-9 .26, months 13-18 .13-.14); window recovers only by months 13-18;
+  **vp_alarm recovers in 1-2 months (months 8-9 .09, then .08-.09)** and is identical to vp without drift.
+- combined: vp_alarm months 8-9 .18, 10-12 .11, 13-18 .10 with P(>.12) .23 - slower recovery with low attendance +
+  delay (fewer verified FPs -> weaker alarm). Stated limitation.
+Decision: frozen candidate = SequentialRecalibrator (vp + drift alarm), added to protocol (section 4.6, sensitivity
+analyses f-j). Runner and analysis updated; DEV dry run passes.
