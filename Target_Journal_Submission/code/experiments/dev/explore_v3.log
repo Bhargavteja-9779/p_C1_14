@@ -1,0 +1,16 @@
+lasso ThomasAM_2018a done {'a_lf': 0.063, 'a_sc_5': 0.075, 'a_sc_10': 0.071, 'a_sc_20': 0.068, 'a_sc_40': 0.078}
+lasso HanniganGD_2017 done {'a_lf': 0.093, 'a_sc_5': 0.094, 'a_sc_10': 0.101, 'a_sc_20': np.float64(0.12), 'a_sc_40': 0.083}
+lasso GuptaA_2019 done {'a_lf': 0.067, 'a_sc_5': 0.075, 'a_sc_10': 0.079, 'a_sc_20': 0.077, 'a_sc_40': 0.077}
+lasso FengQ_2015 done {'a_lf': 0.067, 'a_sc_5': 0.069, 'a_sc_10': 0.07, 'a_sc_20': 0.082, 'a_sc_40': 0.068}
+lasso ThomasAM_2018b done {'a_lf': 0.078, 'a_sc_5': 0.09, 'a_sc_10': 0.096, 'a_sc_20': 0.087, 'a_sc_40': 0.07}
+lasso VogtmannE_2016 done {'a_lf': 0.091, 'a_sc_5': 0.093, 'a_sc_10': 0.085, 'a_sc_20': 0.087, 'a_sc_40': 0.092}
+lasso WirbelJ_2018 done {'a_lf': 0.061, 'a_sc_5': 0.057, 'a_sc_10': 0.065, 'a_sc_20': 0.094, 'a_sc_40': 0.063}
+lasso ZellerG_2014 done {'a_lf': 0.077, 'a_sc_5': 0.07, 'a_sc_10': 0.081, 'a_sc_20': 0.07, 'a_sc_40': 0.104}
+rf FengQ_2015 done {'a_lf': 0.087, 'a_sc_5': 0.084, 'a_sc_10': 0.092, 'a_sc_20': 0.109, 'a_sc_40': 0.101}
+rf GuptaA_2019 done {'a_lf': 0.079, 'a_sc_5': 0.091, 'a_sc_10': 0.09, 'a_sc_20': 0.113, 'a_sc_40': 0.112}
+rf ThomasAM_2018a done {'a_lf': 0.097, 'a_sc_5': 0.092, 'a_sc_10': 0.09, 'a_sc_20': 0.084, 'a_sc_40': 0.105}
+rf HanniganGD_2017 done {'a_lf': 0.081, 'a_sc_5': 0.083, 'a_sc_10': 0.083, 'a_sc_20': 0.097, 'a_sc_40': 0.095}
+rf ThomasAM_2018b done {'a_lf': 0.08, 'a_sc_5': 0.086, 'a_sc_10': 0.079, 'a_sc_20': 0.073, 'a_sc_40': 0.106}
+rf VogtmannE_2016 done {'a_lf': 0.067, 'a_sc_5': 0.062, 'a_sc_10': 0.06, 'a_sc_20': 0.078, 'a_sc_40': np.float64(0.12)}
+rf WirbelJ_2018 done {'a_lf': 0.045, 'a_sc_5': 0.056, 'a_sc_10': 0.063, 'a_sc_20': 0.069, 'a_sc_40': 0.068}
+rf ZellerG_2014 done {'a_lf': 0.036, 'a_sc_5': 0.042, 'a_sc_10': 0.041, 'a_sc_20': 0.039, 'a_sc_40': 0.066}

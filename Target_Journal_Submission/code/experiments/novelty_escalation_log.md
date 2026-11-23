@@ -70,3 +70,37 @@ Decision for round 3:
   method-vs-method differences per split.
 - Method: reduce misspecification bias — conformal-style finite-sample correction for the hybrid, or a more flexible
   (monotone) transport; plus the goodness-of-fit diagnostic with fallback to conformal.
+
+## Round 3 (2026-11-23) — dev/explore_v3.py, results dev/explore_v3.csv.gz, dev/explore_v3_selfcal.csv
+New: (1) source-side SELF-CALIBRATION — rehearse deployment among the training cohorts (their out-of-fold scores;
+no target data), choose the nominal level whose mean realised FPR equals alpha (chosen levels 0.036-0.12, mostly
+0.06-0.09); "hyb_sc_k", label-free "lf_sc". (2) GoF (KS) gate with conformal fallback "hyb_gof_k" (flags 4-10%).
+(3) SEMI-SYNTHETIC benchmark with known truth: each held-out dev cohort's real control/case score KDEs are the truth;
+k labelled controls + pool of 60 controls (+cases) drawn from them; FPR/sensitivity exact. All 8 cohorts, k up to 40.
+
+Semi-synthetic, controls-only pool (screening-like), mean |FPR-0.10| / mean FPR / P(FPR>0.15):
+- hyb_sc: k=5 0.038/0.091/0.09; k=10 0.036/0.090/0.09; k=20 0.033/0.095/0.09; k=40 0.032/0.097/0.11
+- conformal: k=5 no threshold; k=10 0.066/0.090/0.20; k=20 0.049/0.093/0.16; k=40 0.037/0.097/0.13
+- label-free: local_q 0.032/0.114/0.17; lf_sc 0.042/0.089/0.10; source 0.102/0.135/0.38
+Cohort-cluster bootstrap (16 model x cohort clusters), paired differences hyb_sc minus comparator:
+- hyb_sc_5 vs conf_40: MAE +0.002 [-0.006, 0.012], violations -0.036 [-0.085, 0.033] -> 5 labelled controls match
+  conformal with 40 (8x fewer).  At pi=0.05: MAE +0.008 [0.000, 0.017], violations -0.071 [-0.120, -0.016].
+- hyb_sc_10 vs conf_10: MAE -0.030 [-0.037, -0.021], violations -0.110 [-0.159, -0.041].
+- hyb_sc_5 vs hyb_prior_5: violations -0.10 [-0.14, -0.07] (self-calibration removes the upward FPR bias).
+Real splits (noisy, 6-14 clusters): hyb_sc_5 vs local_q MAE -0.015 [-0.027, -0.004], violations -0.17 [-0.21, -0.12];
+hyb_sc_5 vs conf_20 MAE -0.003 [-0.014, 0.015], violations -0.077 [-0.12, -0.03]; vs source MAE -0.040 [-0.075, -0.007].
+
+Findings (honest):
+1. Self-calibration fixes the residual bias: mean FPR 0.090-0.097 at target 0.10 for every k, violation rate ~0.09.
+2. Headline: with 5 labelled local controls the method matches conformal with 40 on error, with fewer violations.
+3. Labelled controls add only a small gain over the self-calibrated label-free variant (MAE -0.004 to -0.006),
+   so the method is mainly "self-calibrated transport + prevalence prior", and labels are a cheap anchor.
+4. With a nearly pure control pool, the naive local quantile is competitive on MAE (semi-synthetic) but violates the
+   target ~2x more often and collapses as prevalence rises (FPR 0.009, sensitivity 0.21 at case-control prevalence).
+5. Limitation: with case-control-like pools (~50% cases) all prior-based variants are conservative (FPR 0.02-0.04,
+   lower sensitivity) because the prior is set for screening (1%). The direction is safe; must be stated.
+6. GoF gate adds nothing over hyb_sc on average -> keep it as a reported diagnostic, not part of the method.
+
+CANDIDATE METHOD (to be frozen after round 4 robustness): hyb_sc_k = predictive location-scale transport, k labelled
+local controls + unlabelled pool, Beta prevalence prior (deployment prevalence, strength 10), source-side
+self-calibration of the nominal level.
