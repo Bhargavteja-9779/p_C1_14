@@ -126,3 +126,15 @@ Verdict:
   finite-sample FPR-valid re-thresholding rule that uses only routinely verified positives + a prevalence bound,
   evaluated for microbiome diagnostics. To check in a targeted search before freezing.
 - Next: sequential version (monthly batches, threshold updated as verified referrals accrue) and harm per 1,000.
+
+### Round 4 novelty check (2026-11-23, web search)
+- No method found that re-sets a diagnostic cut-off at a new site from routinely verified positives with a finite-sample
+  FPR guarantee. Closest: apple tasting theory (Helmbold et al. 2000; Raman et al. 2023, arXiv 2310.19064) - regret
+  bounds, no calibrated threshold / FPR guarantee; verification-bias correction literature (Begg & Greenes; Alonzo &
+  Pepe; de Groot et al. 2008 BMC Med Res Methodol 8:75) - corrects sensitivity/specificity estimates, not thresholds.
+- Why verification bias does not break our rule: the FP count above t only needs labels of referred samples (all
+  verified). Unverified negatives enter only via the denominator, bounded with pi_max. Sensitivity is NOT estimated
+  by the rule (it would be biased); report it only from held-out evaluation.
+- Threats to state: colonoscopy is an imperfect reference (missed lesions); follow-up window definition; burn-in
+  over-referral must fit endoscopy capacity.
+Rating (provisional): method novelty 3.5/5 (new combination with a guarantee, simple), framing 4/5.
