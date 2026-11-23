@@ -51,3 +51,17 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
 - 2026-11-23 Locked run done, no deviations. Status quo out-of-band in 69% of pairs; conformal n=20 in band 100%. NEXT: figures + manuscript (Short Communication, <=3000 words, <=3 figs).
 - 2026-11-23 Manuscript v1 drafted. Post-hoc: AUROC does not predict FPR error (rho -0.18); control-score shift does (rho 0.80). NEXT: Reviews 1-11 (independent reviewer agents), citation audit, final package.
 - 2026-11-23 Review round 1 done -> manuscript v2. Key change: recommendation ~100 same-site controls (20 fixes mean only); other-site controls fail; pool quantile valid at screening prevalence. NEXT: review round 2 on v2.
+
+## RESUME HERE (handoff written 2026-11-23, end of session 2)
+State: manuscript v2 done after review round 1 (commit ddb3b9d+). Branch `claude/kind-ramanujan-tiui92`.
+1. Fresh container: run the "Rebuilding the data cache" recipe above (≈5 min), plus `pip install -r Target_Journal_Submission/code/requirements.txt`.
+   data_cache/ is NOT in git; all locked results (locked_rows.csv.gz, scores/*.npz, *.txt) ARE in git, so figures/tables
+   can be rebuilt without re-running the locked run: `cd Target_Journal_Submission/code/experiments/final && python3 make_figures.py && python3 make_si_tables.py`.
+   Do NOT re-run run_locked.py (pre-registered, run once).
+2. Key files: manuscript/manuscript.md (v2), supporting_information.md, si_tables.md, figures/; reviews/ (round-1 reports,
+   round1_response.md); code/experiments/protocol.md (+Deviations); code/experiments/final/*.py (post-hoc scripts listed in SI).
+3. NEXT: review round 2 on v2 (fresh editor/statistics/domain reviewers + citation re-check), then rounds up to 11,
+   then final package (docx/LaTeX per iMeta, graphical abstract image, cover letter, Zenodo).
+4. Open items (limitations / needs authors): MMUPHin/ConQuR/DEBIAS-M, SIAMCAT pipeline, boosting model, 2nd profiler,
+   CD/UC split, temporal drift, FIT benchmark; placeholders (authors, contributions, COI, funding, AI statement, GitHub/Zenodo);
+   iMeta JIF/quartile unverified in JCR.
