@@ -1,0 +1,6 @@
+8e0fc01e8436a9416e8be5e4c2e2e517fa1e5fba898bc374fbe09134b4db2088  protocol.md
+989f787b1454592cf32874b588be2a59e25de11dd43126ee3032f82c9f6d0719  ../src/calibrate.py
+887b45c9beef9a2607e26637942d1e68a792c00d08f3dd2fb937fd6ce3403cbe  ../src/models.py
+f1ff492afcbc9dcb7c965f8bcd504f08ddee8c76a5a73651f7c887faaa5d97b4  ../src/data.py
+53b0afd2c98e2f201af225780b18aea810595a11b8c45f50e18b14144d4fb130  final/run_final.py
+a76fcef39bdf3ffd351b4481e0fcd80b5f861d850dec73bce66a94d02bf65dbe  final/analyze_final.py

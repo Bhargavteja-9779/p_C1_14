@@ -86,3 +86,7 @@ Commit + push after every phase (auto-save).
 - LOCKED ANALYSIS DONE (once, after freeze): H1 supported pooled (and CRC); H2 supported; H3 partly (HF, T2D; not CAD/IGT);
   H4 supported. See code/experiments/final/RESULTS_locked.md. Round 9 mechanism (DEV, post-freeze, labelled exploratory).
   Next: figures, manuscript, SI, cover letter, submission zip.
+- 2026-11-23 MANUSCRIPT + PACKAGE DONE: manuscript/manuscript.md (1,747-word Letter), SI_methods.md, SI_tables.md,
+  cover_letter.md; figures in code/figures/out; submission_package/ + iMeta_submission_package.zip.
+  Remaining for authors: placeholders (second author, email, ORCID, GitHub URL, date), graphical abstract image,
+  guideline check, final read. See submission_package/SUBMISSION_CHECKLIST.md.

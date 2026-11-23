@@ -1,0 +1,13 @@
+                     JieZ_2017  QinN_2014  LiJ_2017  LoombaR_2017  NagySzakalD_2017  XieH_2016  ZhuF_2020
+commensal_depletion     -0.100      0.131     0.271        -0.003             0.091      0.105     -0.115
+oral                     0.642      1.018     0.042         0.213             0.004      0.048      0.070
+other_enriched           0.285      0.080     0.020        -0.001             0.315      0.036      0.202
+total                    0.827      1.229     0.333         0.209             0.411      0.190      0.158
+
+share of gap:
+                      JieZ_2017  QinN_2014  LiJ_2017  LoombaR_2017  NagySzakalD_2017  XieH_2016  ZhuF_2020
+oral                      0.78       0.83      0.13          1.02              0.01       0.25       0.45
+commensal_depletion      -0.12       0.11      0.81         -0.01              0.22       0.56      -0.73
+other_enriched            0.34       0.07      0.06         -0.01              0.77       0.19       1.28
+
+oral taxa in CRC model: ['g__Fusobacterium', 'g__Peptostreptococcus', 'g__Porphyromonas', 'g__Solobacterium', 's__Actinomyces_graevenitzii', 's__Dialister_pneumosintes', 's__Fusobacterium_nucleatum', 's__Gemella_morbillorum', 's__Lactobacillus_salivarius', 's__Solobacterium_moorei', 's__Streptococcus_oralis', 's__Veillonella_atypica', 's__Veillonella_parvula']

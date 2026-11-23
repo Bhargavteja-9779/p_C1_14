@@ -15,6 +15,9 @@ Cohort roles were fixed before any method was developed (data lock, Table S1):
   (FengQ_2015, HanniganGD_2017, ThomasAM_2018a, YachidaS_2019, ZellerG_2014; controls partly shared with CRC
   development). The locked analysis was run once, after the protocol was frozen (commit-time file hashes are provided
   with the code).
+- Pilot (motivating analysis, before the data lock): fixed LASSO and random forest models across all 11 CRC cohorts
+  (leave-one-cohort-out) with the cut-off at 90% specificity on training out-of-fold controls; realised specificity
+  per held-out cohort was compared with Binomial(n0, 0.10) by a chi-square overdispersion test.
 
 ## S2. Classifiers
 Features: species present in more than 5% of training samples; log10(abundance/100 + 10^-5); z-scored with training
@@ -54,7 +57,19 @@ Pre-specified sensitivity analyses: alpha in {0.05, 0.20}; misspecified pi_max; 
 {50, 200}; liberal burn-in at 1 - 3 alpha; kernel-smoothed site populations; 70% colonoscopy attendance; 5% of cancers
 missed at colonoscopy; a +0.5 logit shift of all scores from month 7; all combined.
 
-## S5. Endpoints and statistics
+## S5. Species-level decomposition and specificity-constrained signatures (exploratory; development cohorts)
+For the LASSO CRC model trained on all development CRC cohorts, the score difference between a condition group and the
+same cohort's controls was decomposed as the sum over species of coefficient x (mean z-scored abundance in the
+condition group - mean in controls). Species were grouped as oral-origin taxa with positive coefficients (genera or
+species typical of the oral cavity, e.g. Streptococcus, Veillonella, Fusobacterium, Gemella, Peptostreptococcus,
+Porphyromonas, Solobacterium, Lactobacillus salivarius, Actinomyces), commensals with negative coefficients
+(depleted), and other enriched taxa. Specificity-constrained signatures removed CRC-model species whose standardised
+shift had the same sign as their coefficient (|shift| > 0.2) in at least K of the other development conditions
+(leave-one-condition-out), and were re-evaluated for CRC AUROC (leave-one-cohort-out) and positivity in the held-out
+condition. Control augmentation added the other conditions' samples as negatives during training. This analysis was
+performed after the protocol was frozen and is reported as exploratory.
+
+## S6. Endpoints and statistics
 Primary endpoint: share of site-months (months 7-12) with true FPR > alpha + 0.02. Secondary: mean |FPR - alpha|,
 sensitivity, unnecessary referrals and missed cases per 1,000 screened, burn-in referral rate. Comparisons are paired
 by site and model (one-sided Wilcoxon signed-rank tests; 95% confidence intervals from a cluster bootstrap over sites,
@@ -64,6 +79,6 @@ each condition group is compared with that cohort's own controls by linear regre
 age, BMI and sex where recorded; one-sided p values are Holm-corrected within model. Positivity ratios have bootstrap
 95% confidence intervals (1,000 resamples).
 
-## S6. Software and reproducibility
+## S7. Software and reproducibility
 Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. All code, the frozen protocol, the development log and
 file hashes are available in the code repository (see Data Availability Statement).

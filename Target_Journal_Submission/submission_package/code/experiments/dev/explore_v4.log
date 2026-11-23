@@ -1,0 +1,122 @@
+                          fpr  abs_err   sens  refer
+model pi   method                                   
+lasso 0.00 contam       0.071    0.070  0.402    NaN
+           local_q      0.137    0.085  0.506    NaN
+           oracle_pool  0.078    0.070  0.416    NaN
+           source       0.159    0.126  0.504    NaN
+           vp_2a        0.078    0.070  0.416    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.171
+           vp_3a        0.078    0.070  0.416    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.271
+           vp_src       0.078    0.070  0.416    NaN
+           vp_src_burn    NaN      NaN    NaN  0.225
+      0.01 contam       0.069    0.070  0.398    NaN
+           local_q      0.134    0.084  0.500    NaN
+           oracle_pool  0.078    0.070  0.416    NaN
+           source       0.159    0.126  0.504    NaN
+           vp_2a        0.078    0.070  0.416    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.174
+           vp_3a        0.078    0.070  0.416    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.271
+           vp_src       0.078    0.070  0.416    NaN
+           vp_src_burn    NaN      NaN    NaN  0.229
+      0.05 contam       0.059    0.073  0.374    NaN
+           local_q      0.119    0.079  0.481    NaN
+           oracle_pool  0.078    0.070  0.416    NaN
+           source       0.159    0.126  0.504    NaN
+           vp_2a        0.078    0.070  0.416    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.178
+           vp_3a        0.078    0.070  0.416    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.270
+           vp_src       0.078    0.070  0.416    NaN
+           vp_src_burn    NaN      NaN    NaN  0.240
+      0.10 contam       0.042    0.077  0.326    NaN
+           local_q      0.101    0.076  0.449    NaN
+           oracle_pool  0.078    0.070  0.416    NaN
+           source       0.159    0.126  0.504    NaN
+           vp_2a        0.075    0.070  0.410    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.165
+           vp_3a        0.077    0.070  0.414    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.260
+           vp_src       0.076    0.070  0.413    NaN
+           vp_src_burn    NaN      NaN    NaN  0.243
+      0.30 contam       0.008    0.095  0.162    NaN
+           local_q      0.041    0.081  0.324    NaN
+           oracle_pool  0.078    0.070  0.416    NaN
+           source       0.159    0.126  0.504    NaN
+           vp_2a        0.032    0.080  0.308    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.126
+           vp_3a        0.061    0.069  0.385    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.198
+           vp_src       0.061    0.069  0.397    NaN
+           vp_src_burn    NaN      NaN    NaN  0.276
+rf    0.00 contam       0.070    0.072  0.472    NaN
+           local_q      0.139    0.083  0.555    NaN
+           oracle_pool  0.079    0.071  0.477    NaN
+           source       0.089    0.106  0.484    NaN
+           vp_2a        0.079    0.071  0.477    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.171
+           vp_3a        0.079    0.071  0.477    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.271
+           vp_src       0.079    0.071  0.477    NaN
+           vp_src_burn    NaN      NaN    NaN  0.199
+      0.01 contam       0.068    0.073  0.464    NaN
+           local_q      0.133    0.081  0.549    NaN
+           oracle_pool  0.079    0.071  0.477    NaN
+           source       0.089    0.106  0.484    NaN
+           vp_2a        0.079    0.071  0.477    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.173
+           vp_3a        0.079    0.071  0.477    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.271
+           vp_src       0.079    0.071  0.477    NaN
+           vp_src_burn    NaN      NaN    NaN  0.202
+      0.05 contam       0.056    0.076  0.420    NaN
+           local_q      0.117    0.077  0.531    NaN
+           oracle_pool  0.079    0.071  0.477    NaN
+           source       0.089    0.106  0.484    NaN
+           vp_2a        0.079    0.071  0.476    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.177
+           vp_3a        0.079    0.071  0.477    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.271
+           vp_src       0.079    0.071  0.477    NaN
+           vp_src_burn    NaN      NaN    NaN  0.209
+      0.10 contam       0.037    0.083  0.359    NaN
+           local_q      0.096    0.078  0.502    NaN
+           oracle_pool  0.079    0.071  0.477    NaN
+           source       0.089    0.106  0.484    NaN
+           vp_2a        0.075    0.071  0.471    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.165
+           vp_3a        0.078    0.071  0.476    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.260
+           vp_src       0.076    0.071  0.474    NaN
+           vp_src_burn    NaN      NaN    NaN  0.206
+      0.30 contam       0.008    0.095  0.160    NaN
+           local_q      0.033    0.088  0.343    NaN
+           oracle_pool  0.079    0.071  0.477    NaN
+           source       0.089    0.106  0.484    NaN
+           vp_2a        0.023    0.087  0.326    NaN
+           vp_2a_burn     NaN      NaN    NaN  0.127
+           vp_3a        0.050    0.077  0.428    NaN
+           vp_3a_burn     NaN      NaN    NaN  0.198
+           vp_src       0.045    0.079  0.429    NaN
+           vp_src_burn    NaN      NaN    NaN  0.225
+
+per-cohort mean FPR, pi=0.05
+ method                 contam  local_q  oracle_pool  source  vp_2a  vp_3a  vp_src
+model cohort                                                                     
+lasso FengQ_2015        0.065    0.103        0.101   0.053  0.100  0.101   0.100
+      GuptaA_2019       0.055    0.127        0.067   0.364  0.067  0.067   0.067
+      HanniganGD_2017   0.054    0.141        0.067   0.000  0.067  0.067   0.067
+      ThomasAM_2018a    0.066    0.138        0.075   0.244  0.075  0.075   0.075
+      ThomasAM_2018b    0.049    0.133        0.062   0.037  0.062  0.062   0.062
+      VogtmannE_2016    0.057    0.113        0.074   0.253  0.075  0.075   0.075
+      WirbelJ_2018      0.061    0.101        0.085   0.044  0.085  0.085   0.085
+      ZellerG_2014      0.065    0.100        0.096   0.280  0.095  0.096   0.096
+rf    FengQ_2015        0.061    0.098        0.098   0.000  0.098  0.098   0.098
+      GuptaA_2019       0.040    0.128        0.066   0.000  0.065  0.066   0.065
+      HanniganGD_2017   0.064    0.145        0.070   0.000  0.070  0.070   0.070
+      ThomasAM_2018a    0.066    0.151        0.077   0.168  0.076  0.077   0.077
+      ThomasAM_2018b    0.040    0.108        0.065   0.000  0.064  0.065   0.064
+      VogtmannE_2016    0.054    0.112        0.074   0.137  0.075  0.074   0.075
+      WirbelJ_2018      0.064    0.096        0.090   0.047  0.089  0.090   0.089
+      ZellerG_2014      0.056    0.100        0.092   0.357  0.092  0.092   0.092
