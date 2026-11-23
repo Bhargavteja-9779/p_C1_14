@@ -23,3 +23,35 @@ lasso ZellerG_2014 0.81
 /home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
   a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
 rf FengQ_2015 0.81
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf GuptaA_2019 0.9
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf HanniganGD_2017 0.603
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf ThomasAM_2018a 0.816
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf ThomasAM_2018b 0.821
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf VogtmannE_2016 0.749
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf WirbelJ_2018 0.836
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf ZellerG_2014 0.776
+              fpr                              abs_err                                sens                             
+method     ctrl10     em local_q  shift source  ctrl10     em local_q  shift source ctrl10     em local_q  shift source
+model pi                                                                                                               
+lasso 0.0   0.089  0.179   0.141  0.278  0.161   0.082  0.117   0.088  0.209  0.130  0.420  0.546   0.507  0.618  0.504
+      0.05  0.089  0.170   0.114  0.247  0.161   0.082  0.116   0.078  0.182  0.130  0.420  0.536   0.474  0.590  0.504
+      0.2   0.089  0.178   0.061  0.193  0.161   0.082  0.133   0.075  0.136  0.130  0.420  0.530   0.378  0.541  0.504
+      nat   0.089  0.262   0.011  0.116  0.161   0.082  0.230   0.091  0.079  0.130  0.420  0.547   0.230  0.461  0.504
+rf    0.0   0.091  0.144   0.139  0.362  0.089   0.081  0.092   0.080  0.280  0.107  0.482  0.550   0.552  0.730  0.484
+      0.05  0.091  0.133   0.110  0.287  0.089   0.081  0.095   0.073  0.224  0.107  0.482  0.533   0.521  0.685  0.484
+      0.2   0.091  0.135   0.048  0.188  0.089   0.081  0.108   0.081  0.159  0.107  0.482  0.524   0.409  0.614  0.484
+      nat   0.091  0.187   0.016  0.108  0.089   0.081  0.153   0.091  0.119  0.107  0.482  0.567   0.226  0.499  0.484
