@@ -15,3 +15,11 @@ lasso ThomasAM_2018a 0.764
 lasso ThomasAM_2018b 0.746
 /home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
   a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+lasso VogtmannE_2016 0.705
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+lasso WirbelJ_2018 0.842
+lasso ZellerG_2014 0.81
+/home/user/p_C1_14/Target_Journal_Submission/code/experiments/dev/../../src/calibrate.py:46: RuntimeWarning: overflow encountered in exp
+  a, lb, lp = p; b = np.exp(lb); pi = 1 / (1 + np.exp(-lp))
+rf FengQ_2015 0.81
