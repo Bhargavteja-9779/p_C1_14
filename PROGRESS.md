@@ -11,16 +11,32 @@ Commit + push after every phase (auto-save).
   `2022-10-19.MetaCardis_2020_a.relative_abundance`). Takes ~3 min.
 - 4 CPU, 15 GB RAM, no GPU. Python 3.13. ScienceDirect HTML blocked (403); Crossref, OpenAlex, arXiv, UCI, PhysioNet, Zenodo, HF reachable.
 
+## >>> RESUME HERE (handoff 2026-11-23, end of session 2) <<<
+State: locked final test PARTIALLY run. Training phase finished: all 48 score files are committed in
+code/experiments/final/scores_*.npz (16 tasks x 3 models). Evaluation phase was stopped by hand before writing
+any result; NO locked-test results have been seen by anyone, so the frozen protocol is still intact.
+To resume (new container):
+1. Rebuild data cache (see Environment notes) — needed only because final_test.py imports the loader; scores are
+   cached, so no retraining happens (get_scores skips existing .npz).
+2. pip install pyreadr scikit-learn scipy pandas joblib
+3. cd Target_Journal_Submission/code && python3 experiments/final_test.py > experiments/final_test.log 2>&1
+   (~1.5 h on 4 CPUs; writes experiments/final/final_results.csv.gz and final_selfcal.csv). Commit + push.
+4. Analyse ONLY the pre-specified endpoints in experiments/protocol.md first (primary: syn, alpha 0.10, k=10,
+   pool pi 0.01; hyb_sc_10 vs conf_10 and vs local_q; task-cluster bootstrap CI). Then secondary endpoints, clinical
+   per-1,000 numbers (CRC prevalence 0.6%), then manuscript (iMeta Short Communication; back matter fixed in
+   manuscript/back_matter.md).
+Do NOT change src/calibrate.py or protocol.md before the locked results are analysed.
+
 ## Phase log
 - [x] Phase -1: repo skeleton created (2026-11-23)
 - [x] STEP 0: journal landscape + 72-day evidence
 - [x] STEP 1: benchmark 25 papers, level profile, style notes
 - [x] STEP 2: real-life problem discovery
-- [ ] STEP 3: novelty map + scorecard
-- [ ] Protocol pre-registration
-- [ ] First working version
-- [ ] Novelty escalation loop (D6)
-- [ ] Final experiments
+- [x] STEP 3: novelty map + scorecard
+- [x] Protocol pre-registration (FROZEN at commit e5b25cb: code/experiments/protocol.md)
+- [x] First working version
+- [x] Novelty escalation loop (D6) — dev rounds 1-4, code/experiments/novelty_escalation_log.md
+- [ ] Final experiments  <-- IN PROGRESS (see RESUME HERE)
 - [ ] Manuscript
 - [ ] Reviews 1-11
 - [ ] Final package
