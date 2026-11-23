@@ -26,7 +26,7 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
 - [x] Protocol pre-registration (code/experiments/protocol.md, commit ea2f3f7)
 - [x] First working version / D6 rounds 1-2 (dev only)
 - [x] Final experiments: locked run done (code/experiments/final/results_locked.md) - success criterion MET
-- [ ] Manuscript
+- [x] Manuscript draft v1 (manuscript/manuscript.md, 1,7xx words; supporting_information.md; si_tables.md; figures/)
 - [ ] Reviews 1-11
 - [ ] Final package
 
@@ -49,3 +49,4 @@ python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated s
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
 - 2026-11-23 (session 2): container was fresh; rebuilt data cache (recipe above). STEP 3 background agent from session 1 left no files -> re-running. Dev rounds 1-2 done (see code/experiments/novelty_escalation_log.md). STEP 3 done. NEXT: write protocol pre-registration, then locked-cohort run.
 - 2026-11-23 Locked run done, no deviations. Status quo out-of-band in 69% of pairs; conformal n=20 in band 100%. NEXT: figures + manuscript (Short Communication, <=3000 words, <=3 figs).
+- 2026-11-23 Manuscript v1 drafted. Post-hoc: AUROC does not predict FPR error (rho -0.18); control-score shift does (rho 0.80). NEXT: Reviews 1-11 (independent reviewer agents), citation audit, final package.

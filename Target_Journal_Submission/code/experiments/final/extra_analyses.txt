@@ -1,0 +1,3 @@
+AUROC vs |FPR-0.10| (32 cohort x model): Spearman rho=-0.18, P=0.31
+LASSO vs RF realised FPR across 16 held-out cohorts: rho=0.69, P=0.0029
+Shift of median control score (target - training, logit) vs realised FPR: rho=0.80, P=3e-08
