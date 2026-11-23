@@ -57,3 +57,26 @@ def site_shift(s_src, y_src, alpha, u=None, return_params=False, **kw):
     a, lb, lp = best.x; b = np.exp(lb)
     t = a + b * t_src
     return (t, dict(a=a, b=b, pi=1 / (1 + np.exp(-lp)))) if return_params else t
+
+# ---------- Round 2: control-anchored transport (few labelled local controls) ----------
+def ctrl_moment_transport(s_src, y_src, alpha, c, **kw):
+    """Location-scale map of the source control score distribution onto n local controls (mean/sd matching).
+    t = a + b * t_src with b = sd(c)/sd(src0), a = mean(c) - b*mean(src0)."""
+    s0 = s_src[y_src == 0]; t_src = np.quantile(s0, 1 - alpha)
+    b = np.std(c, ddof=1) / np.std(s0, ddof=1) if len(c) > 2 else 1.0
+    return np.mean(c) + b * (t_src - np.mean(s0))
+
+def ctrl_shift_transport(s_src, y_src, alpha, c, **kw):
+    """Location-only map (b = 1): t = t_src + mean(c) - mean(src0)."""
+    s0 = s_src[y_src == 0]; return np.quantile(s0, 1 - alpha) + np.mean(c) - np.mean(s0)
+
+def ctrl_robust_transport(s_src, y_src, alpha, c, **kw):
+    """Median / MAD location-scale map."""
+    s0 = s_src[y_src == 0]; t_src = np.quantile(s0, 1 - alpha)
+    mad = lambda x: np.median(np.abs(x - np.median(x)))
+    b = mad(c) / mad(s0) if len(c) > 3 and mad(c) > 0 else 1.0
+    return np.median(c) + b * (t_src - np.median(s0))
+
+def ctrl_normal(alpha, c, **kw):
+    """Source-free parametric baseline: mean + z_{1-alpha} * sd of local controls."""
+    return np.mean(c) + stats.norm.ppf(1 - alpha) * np.std(c, ddof=1)

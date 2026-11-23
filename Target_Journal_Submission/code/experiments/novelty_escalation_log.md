@@ -34,3 +34,23 @@ Verdict:
   labelled local controls to fit a location-scale map of the source control score distribution (a, b by ML / quantile
   matching), threshold = a + b * t_src; optionally add the unlabelled pool with prevalence constrained small.
   Hypothesis: lower variance than the order statistic at the same n -> FPR closer to target and higher sensitivity.
+
+## Round 2 (2026-11-23) - explore_v2.py, R = 200 draws of n local controls per held-out cohort
+Methods with n labelled local controls: conformal order statistic (baseline with finite-sample E[FPR] <= alpha),
+normal (mean + z*sd of controls, no source info), and control-anchored transport of the source control distribution:
+shift (location only), moment (mean/sd), robust (median/MAD). Full table: explore_v2.log.
+
+Key numbers (n = 10; mean FPR / mean |err| / P(FPR > 0.15) / sens):
+- LASSO: conformal .090/.080/.22/.42; shift .098/.068/.22/.45; moment .134/.089/.35/.49; source .159/.127/.48/.51
+- RF:    conformal .090/.078/.21/.48; shift .085/.089/.23/.46; moment .146/.093/.44/.56; source .089/.104/.21/.48
+
+Verdict:
+- **Location-scale transport FAILS**: moment/robust are anti-conservative (FPR 0.13-0.21) - estimating scale from
+  5-20 controls is too noisy, and the source score shape does not transfer (per-cohort FPR of 'shift' ranges
+  0.00-0.27). The score-distribution *shape* changes across cohorts, not only location/scale.
+- Location-only shift helps LASSO a little on average (|err| .068 vs .080) but has large per-cohort bias -> not robust.
+- The conformal order statistic stays the only method that hits target in every cohort (per-cohort mean FPR
+  0.076-0.103). With n = 5 it cannot reach alpha = 0.10 at all (k > n -> threshold = +inf), so n >= 9 is required
+  at alpha = 0.10 (n >= (1-alpha)/alpha).
+- So far no new threshold method beats the simple guarantee-backed baseline. A method contribution needs a different
+  angle (see the decision in PROGRESS.md).
