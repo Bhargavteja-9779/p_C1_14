@@ -1,0 +1,46 @@
+             setting model             cal          deploy  mean_fpr  p_gt_015  same_site
+External CRC cohorts lasso ThomasAM_2019_c ThomasAM_2019_c     0.095     0.180       True
+External CRC cohorts lasso ThomasAM_2019_c   YachidaS_2019     0.061     0.000      False
+External CRC cohorts lasso ThomasAM_2019_c        YuJ_2015     0.019     0.000      False
+External CRC cohorts lasso   YachidaS_2019 ThomasAM_2019_c     0.164     0.545      False
+External CRC cohorts lasso   YachidaS_2019   YachidaS_2019     0.098     0.210       True
+External CRC cohorts lasso   YachidaS_2019        YuJ_2015     0.041     0.090      False
+External CRC cohorts lasso        YuJ_2015 ThomasAM_2019_c     0.279     1.000      False
+External CRC cohorts lasso        YuJ_2015   YachidaS_2019     0.168     0.865      False
+External CRC cohorts lasso        YuJ_2015        YuJ_2015     0.090     0.155       True
+External CRC cohorts    rf ThomasAM_2019_c ThomasAM_2019_c     0.095     0.175       True
+External CRC cohorts    rf ThomasAM_2019_c   YachidaS_2019     0.081     0.030      False
+External CRC cohorts    rf ThomasAM_2019_c        YuJ_2015     0.041     0.000      False
+External CRC cohorts    rf   YachidaS_2019 ThomasAM_2019_c     0.110     0.275      False
+External CRC cohorts    rf   YachidaS_2019   YachidaS_2019     0.095     0.180       True
+External CRC cohorts    rf   YachidaS_2019        YuJ_2015     0.059     0.025      False
+External CRC cohorts    rf        YuJ_2015 ThomasAM_2019_c     0.175     0.515      False
+External CRC cohorts    rf        YuJ_2015   YachidaS_2019     0.134     0.270      False
+External CRC cohorts    rf        YuJ_2015        YuJ_2015     0.093     0.170       True
+  MetaCardis centres lasso      Copenhagen      Copenhagen     0.088     0.140       True
+  MetaCardis centres lasso      Copenhagen         Leipzig     0.233     0.735      False
+  MetaCardis centres lasso      Copenhagen           Paris     0.180     0.565      False
+  MetaCardis centres lasso         Leipzig      Copenhagen     0.024     0.000      False
+  MetaCardis centres lasso         Leipzig         Leipzig     0.097     0.180       True
+  MetaCardis centres lasso         Leipzig           Paris     0.060     0.045      False
+  MetaCardis centres lasso           Paris      Copenhagen     0.044     0.005      False
+  MetaCardis centres lasso           Paris         Leipzig     0.138     0.490      False
+  MetaCardis centres lasso           Paris           Paris     0.087     0.150       True
+  MetaCardis centres    rf      Copenhagen      Copenhagen     0.091     0.185       True
+  MetaCardis centres    rf      Copenhagen         Leipzig     0.151     0.480      False
+  MetaCardis centres    rf      Copenhagen           Paris     0.154     0.580      False
+  MetaCardis centres    rf         Leipzig      Copenhagen     0.052     0.035      False
+  MetaCardis centres    rf         Leipzig         Leipzig     0.101     0.190       True
+  MetaCardis centres    rf         Leipzig           Paris     0.089     0.115      False
+  MetaCardis centres    rf           Paris      Copenhagen     0.047     0.030      False
+  MetaCardis centres    rf           Paris         Leipzig     0.088     0.205      False
+  MetaCardis centres    rf           Paris           Paris     0.096     0.185       True
+
+Summary (mean over pairs):
+                               mean_fpr               p_gt_015              
+                                   mean    min    max     mean    min    max
+setting              same_site                                              
+External CRC cohorts False        0.111  0.019  0.279    0.301  0.000  1.000
+                     True         0.094  0.090  0.098    0.178  0.155  0.210
+MetaCardis centres   False        0.105  0.024  0.233    0.274  0.000  0.735
+                     True         0.093  0.087  0.101    0.172  0.140  0.190
