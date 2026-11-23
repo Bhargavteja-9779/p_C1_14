@@ -46,3 +46,21 @@ Commit + push after every phase (auto-save).
   dev round 1 (code/experiments/dev/explore_v1.py) running on the 8 DEV CRC cohorts only.
 - 2026-11-23 AUTHOR DECISIONS (fixed, do not change): code available on request; no funding; no competing interests.
   Wording in Target_Journal_Submission/manuscript/back_matter.md — use verbatim.
+- 2026-11-23 AUTHOR DECISION: round 2 direction = HYBRID (few labelled local controls + unlabelled pool). Author asked
+  for maximal strengthening against desk rejection. Desk-rejection-proofing plan (all on DEV cohorts until frozen):
+  1. Hybrid v2 = location-scale transport of source control/case score shapes, (a, b) anchored by k labelled local
+     controls, unlabelled pool adds information, soft Beta prior on deployment prevalence (mean 0.01, strength 10),
+     threshold from the posterior-predictive (Laplace-averaged) FPR, not plug-in. Simulation: plug-in biased
+     (FPR 0.15-0.19 at target 0.10 with k=5-10); predictive + prior error 0.02-0.04; misspecified prevalence errs
+     conservative (lower FPR) = clinically safe direction.
+  2. Baselines (all): source threshold, local quantile, Saerens EM, UPA alignment (Roschewitz 2023), free 2-comp GMM,
+     site-shift v1, label-free+prior, conformal k controls, plain quantile k controls, predictive controls-only.
+  3. Headline metric: "labelled controls saved" at equal FPR error vs conformal; plus MAE, violation rate P(FPR>0.15),
+     sensitivity; clinical: extra colonoscopies / missed cancers per 1,000 screened.
+  4. Diagnostic + abstain rule: goodness-of-fit of labelled controls to the transported source shape; abstain/fall back
+     to conformal when it fails.
+  5. Identifiability proposition (pool-only location-scale + prior shift is unidentifiable; >=2 labelled controls fix it)
+     + formal simulation study with known truth.
+  6. Robustness: targets alpha in {0.05, 0.10, 0.20}; classifiers LASSO, RF (+ one more); prevalence misspecification.
+  7. Generalisation on LOCKED sets once, after freeze: 3 external CRC cohorts, IBD, T2D, adenoma.
+  8. Practical guidance: number of labelled controls needed for +/-0.03 FPR.
