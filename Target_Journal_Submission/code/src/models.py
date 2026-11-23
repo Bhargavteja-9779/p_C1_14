@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
 from sklearn.model_selection import StratifiedKFold, GroupKFold
 
 def preprocess_fit(Xtr, prev_min=0.05):
@@ -14,6 +14,7 @@ def preprocess_apply(X, p):
 def make(name, seed=0):
     if name == "lasso": return LogisticRegression(l1_ratio=1, C=0.1, solver="liblinear", class_weight="balanced", random_state=seed)
     if name == "rf": return RandomForestClassifier(500, min_samples_leaf=2, n_jobs=4, random_state=seed, class_weight="balanced_subsample")
+    if name == "hgb": return HistGradientBoostingClassifier(max_iter=200, learning_rate=0.05, max_leaf_nodes=15, l2_regularization=1.0, class_weight="balanced", random_state=seed)
     raise ValueError(name)
 
 def logit(p): p = np.clip(p, 1e-4, 1 - 1e-4); return np.log(p / (1 - p))
