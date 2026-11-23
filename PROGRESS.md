@@ -1,17 +1,27 @@
 # PROGRESS (resume file)
 
 Any agent continuing this work: read this file first, then `git log`. Work happens on branch
-`claude/dreamy-clarke-rldxev`. All deliverables live in `Target_Journal_Submission/`.
+`claude/kind-ramanujan-tiui92` (earlier: `claude/dreamy-clarke-rldxev`, same history). All deliverables live in `Target_Journal_Submission/`.
 Commit + push after every phase (auto-save).
 
 ## Environment notes
 - 4 CPU, 15 GB RAM, no GPU. Python 3.13. ScienceDirect HTML blocked (403); Crossref, OpenAlex, arXiv, UCI, PhysioNet, Zenodo, HF reachable.
 
+## Rebuilding the data cache in a fresh container
+```
+pip install scikit-learn pandas scipy pyreadr matplotlib statsmodels
+mkdir -p /tmp/claude-0/eh && curl -o /tmp/claude-0/eh/eh.sqlite3 https://experimenthub.bioconductor.org/metadata/experimenthub.sqlite3
+mkdir data_cache && cd data_cache
+curl -L -o sm.rda https://raw.githubusercontent.com/waldronlab/curatedMetagenomicData/devel/data/sampleMetadata.rda  # -> sampleMetadata.csv via pyreadr
+python ../Target_Journal_Submission/code/scripts/fetch_cmd.py <comma-separated studies; MetaCardis as 2022-10-19.MetaCardis_2020_a.relative_abundance>
+```
+
 ## Phase log
 - [x] Phase -1: repo skeleton created (2026-11-23)
-- [ ] STEP 0: journal landscape + 72-day evidence
-- [ ] STEP 1: benchmark 25 papers, level profile, style notes
-- [ ] STEP 2: real-life problem discovery
+- [x] STEP 0: journal landscape + 72-day evidence
+- [x] STEP 1: benchmark 25 papers, level profile, style notes
+- [x] STEP 2: real-life problem discovery
+- [x] Data lock (code/experiments/data_lock.md)
 - [ ] STEP 3: novelty map + scorecard
 - [ ] Protocol pre-registration
 - [ ] First working version
@@ -38,3 +48,4 @@ Commit + push after every phase (auto-save).
   out-of-fold controls. Realised specificity per held-out cohort: LASSO 0.79-1.00, RF 0.72-1.00; overdispersion vs binomial
   chi2 p=0.004 (LASSO), p=2e-7 (RF). => threshold drift is real, not sampling noise. Mean AUC LASSO 0.78, RF 0.82.
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
+- 2026-11-23 (session 2): container was fresh; rebuilt data cache (recipe above). STEP 3 background agent from session 1 left no files -> re-running. Dev exploration round 1 (explore_v1.py, R=30 splits) running.
