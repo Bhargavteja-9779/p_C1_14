@@ -14,18 +14,18 @@
   },
   {
    "id": "R2.2_atlas_rerun_dedup",
-   "status": "running",
+   "status": "done",
    "attempts": 1
   },
   {
    "id": "R2.3_heterogeneity_tau_I2_PI",
-   "status": "pending",
+   "status": "done",
    "attempts": 0
   },
   {
    "id": "R2.4_nonrandom_split_burnin",
-   "status": "pending",
-   "attempts": 0
+   "status": "running",
+   "attempts": 1
   },
   {
    "id": "R2.5_cluster_inference",
@@ -34,12 +34,13 @@
   },
   {
    "id": "R2.6_icc_text_and_asspecified_A4",
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 0,
+   "note": "analysis done; text pending in v4"
   },
   {
    "id": "R2.7_foldmodel_scoring_check",
-   "status": "pending",
+   "status": "done",
    "attempts": 0
   },
   {
