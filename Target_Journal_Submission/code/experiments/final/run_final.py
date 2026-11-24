@@ -7,7 +7,10 @@ from src.models import train_and_score, train_and_score_featstd
 from src import calibrate as C
 from sklearn.metrics import roc_auc_score
 model = sys.argv[1]; R = 200; rng = np.random.default_rng(2026)
+SMOKE = os.environ.get("SMOKE") == "1"  # dev-only crash test: one dev cohort, R=2, no locked data read
 def tasks():
+    if SMOKE:
+        X, y, g, _ = load("CRC", DEV_CRC); yield "CRC", "ZellerG_2014", X.values, y, g, g != "ZellerG_2014", g == "ZellerG_2014"; return
     X, y, g, _ = load("CRC", DEV_CRC + LOCKED_CRC)
     for s in LOCKED_CRC: yield "CRC", s, X.values, y, g, np.isin(g, DEV_CRC), g == s
     for dis in ["IBD", "T2D", "adenoma"]:
@@ -17,6 +20,7 @@ rows = []
 for dis, s, X, y, g, tr, te in tasks():
     s_src, y_src, st, _ = train_and_score(X, y, g, tr, te, model)
     f_src, fy_src, scorer = train_and_score_featstd(X, y, g, tr, te, model)
+    if SMOKE: R = 2
     yt = y[te]; auc = roc_auc_score(yt, st); i0, i1 = np.where(yt == 0)[0], np.where(yt == 1)[0]
     for r in range(R):
         p0, p1 = rng.permutation(i0), rng.permutation(i1)
@@ -37,5 +41,5 @@ for dis, s, X, y, g, tr, te in tasks():
                 rows.append(dict(disease=dis, cohort=s, model=model, auc=auc, rep=r, pi=pi, alpha=alpha, method="featstd",
                                  n_pool=len(pool), fpr=(scorer(pool, e0) >= tf).mean(), sens=(scorer(pool, e1) >= tf).mean(), abstain=False))
     print(model, dis, s, "auc", round(auc, 3), "n0", len(i0), "n1", len(i1), flush=True)
-    pd.DataFrame(rows).to_csv(os.path.join(os.path.dirname(__file__), f"final_{model}.csv"), index=False)
+    pd.DataFrame(rows).to_csv(os.path.join(os.path.dirname(__file__), f"{'smoke' if SMOKE else 'final'}_{model}.csv"), index=False)
 print("FINISHED", flush=True)
