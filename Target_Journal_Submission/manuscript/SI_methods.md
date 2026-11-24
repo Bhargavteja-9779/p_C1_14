@@ -2,7 +2,7 @@
 
 ## S1. Data
 We used species-level relative-abundance profiles from curatedMetagenomicData (Bioconductor; MetaPhlAn3; release
-2021-03-31; MetaCardis_2020_a from release 2022-10-19), downloaded through ExperimentHub. We kept stool samples from
+2021-03-31; LeeKA_2022 from release 2022-04-13; MetaCardis_2020_a from release 2022-10-19), downloaded through ExperimentHub. We kept stool samples from
 adults and, for longitudinal cohorts, the first sample per subject. Table S1 lists all cohorts, sample sizes and roles.
 
 Cohort roles were fixed before any method was developed (data lock, Table S1):
@@ -33,7 +33,7 @@ within the training cohorts (5-fold stratified when fewer than three cohorts wer
 The intended false-positive rate (FPR) is alpha = 0.10 (90% specificity).
 1. Source threshold (status quo): the (1 - alpha) quantile of out-of-fold source control scores.
 2. Local quantile: the (1 - alpha) quantile of unlabelled scores collected at the new site.
-3. Prior adjustment (EM; Saerens et al. 2002).
+3. Prior adjustment (EM; Saerens et al. 2002 [S1]).
 4. Prevalence-bounded quantile: with an upper bound pi_max on disease prevalence, the unlabelled score distribution
    satisfies F_u = (1 - pi) F_0 + pi F_1, so F_0(t) >= (F_u(t) - pi_max)/(1 - pi_max). The threshold is the
    ceil((m + 1) q)-th order statistic of the m pooled scores with q = (1 - alpha)(1 - pi_max) + pi_max.
@@ -56,9 +56,10 @@ Each test cohort stands in for the population of a screening site. Each month, B
 analysis) are drawn with replacement at disease prevalence pi; thresholds are updated monthly for 12 months (18 with
 drift). Because the site population is known, the true FPR and sensitivity of any threshold are computed exactly.
 Settings: pi in {0.01, 0.05, 0.10} (adenoma {0.10, 0.30}); pi_max = max(0.05, pi); 200 streams per site and model.
-Pre-specified sensitivity analyses: alpha in {0.05, 0.20}; misspecified pi_max; one-month follow-up delay; B in
-{50, 200}; liberal burn-in at 1 - 3 alpha; kernel-smoothed site populations; 70% colonoscopy attendance; 5% of cancers
-missed at colonoscopy; a +0.5 logit shift of all scores from month 7; all combined.
+Pre-specified sensitivity analyses (protocol section 8): alpha in {0.05, 0.20}; misspecified pi_max; one-month follow-up
+delay; B in {50, 200}; liberal burn-in at 1 - 3 alpha. Further settings fixed in the frozen analysis code before the
+locked run but not listed in the protocol text: kernel-smoothed site populations; 70% colonoscopy attendance; 5% of
+cancers missed at colonoscopy; a +0.5 logit shift of all scores from month 7; all combined.
 
 ## S5. Species-level decomposition and specificity-constrained signatures (exploratory; development cohorts)
 For the LASSO CRC model trained on all development CRC cohorts, the score difference between a condition group and the
@@ -85,7 +86,7 @@ age, BMI and sex where recorded; one-sided p values are Holm-corrected within mo
 ## S6b. Medication addendum (pre-specified before analysis; protocol_addendum_drugs.md)
 After the locked analysis and the exploratory mechanism analysis, we wrote and committed a second protocol before any
 medication-stratified score was computed. Prediction from the mechanism: proton-pump inhibitor (PPI) users, whose guts
-carry more oral taxa, receive higher CRC-test scores. Development check (direction only): VincentC_2016, LeeKA_2022,
+carry more oral taxa [S2], receive higher CRC-test scores. Development check (direction only): VincentC_2016, LeeKA_2022,
 JieZ_2017. Confirmatory test: MetaCardis_2020_a (1,831 adults; 295 PPI users), CRC-test logit score regressed on PPI,
 condition group, sex and other recorded drugs (metformin, statin, aspirin, beta-blocker); age and BMI were not
 sufficiently recorded. H5: PPI coefficient > 0 (LASSO primary). H6: PPI raises the oral-taxa component of the score.
@@ -121,7 +122,7 @@ verification pattern, including one that depends on the scores. QED.
 argument and the Beta distribution of F0(S_(m0-k)), P(FPR(t*) > alpha) <= delta conditional on m0 (training-conditional
 guarantee). Applying the rule separately within pre-defined patient groups gives the same guarantee within each group.
 For the drift alarm, the restart time is chosen from the data, so the guarantee is not formally proven after a restart;
-it is supported empirically (Table S2, drift settings). A numerical check in the package test suite (4,000 simulated sites,
+it is supported empirically (Table S2, drift settings). Related label-free threshold adaptation under prevalence shift is described in [S3]. A numerical check in the package test suite (4,000 simulated sites,
 random site shifts, 70% attendance, arbitrary prior cut-off) gave a mean FPR of 0.092 for alpha = 0.10.
 
 ## S7b. Post hoc analyses (after the locked analysis; reported as exploratory)
@@ -130,20 +131,28 @@ scores), colonoscopy-negative controls and CRC cases with vs without recorded T2
 hypercholesterolaemia; OLS on logit score and logistic regression on positivity with site fixed effects, age, BMI, sex
 (Table S8). P2: MetaCardis condition effects adjusted for sex, country (Denmark, France, Germany) and recorded drugs; age
 and BMI (recorded for 72%) in a complete-case sensitivity analysis; species decomposition in the locked cohort (Table S9).
-P3: prospective-style evaluation without resampling at held-out sites with >= 100 controls: controls streamed once in random
-order (50 per month), cases inserted at prevalence 1% or 5%, FPR measured on controls not yet seen (300 random orders;
-Table S10). P4: downward drift (-0.5 logit from month 7) and the primary endpoint restricted to sites with >= 40 controls,
-aggregated per cohort (Table S2c). D10 (development): label-free site-wise standardisation (Table S7).
+P3b: evaluation without resampling at held-out cohorts with >= 100 controls (Yachida 2019 CRC and adenoma tests;
+MetaCardis and Qin 2012 T2D test): controls streamed once in random order (25 per month, 200 random orders), cases
+inserted at prevalence 1% or 5%, FPR measured on controls not yet seen; and MetaCardis controls streamed country by
+country (T2D test, 5% prevalence, all six orders x 50, both classifiers), FPR on not-yet-seen controls of the current
+country (all current-country controls when fewer than 20 remained) (Table S10). P4: downward drift (-0.5 logit from month 7) and the primary endpoint restricted to sites with >= 40 controls,
+aggregated per cohort (Table S2c). D10 (development): label-free site-wise standardisation (Table S7). P5: CRC-specific audit of the fixed cut-off at all
+11 CRC cohorts (exact Clopper-Pearson CIs, chi-square test against Binomial(n, 0.10), DerSimonian-Laird tau; Table S12).
+P6: CRC-only deployment simulation at the 11 CRC cohorts (1% prevalence, 100 streams; Table S13). P7: per-group label-free
+recalibration at MetaCardis (Table S11). P8: decomposition of each CRC cohort's control-score shift into species
+contributions and Spearman correlation of cohort FPR with shift components and control covariates (Table S14). P9: net
+benefit per 1,000 screened, NB = detected cancers - w x false-positive referrals for w = 1/20, 1/50, 1/100 (Table S15).
 
 ## S7c. Code changes after the freeze (disclosure)
 After the locked analysis, two functions were added to src/calibrate.py: a high-confidence option (argument delta) for
 the verified-positive rule and a high-confidence prevalence-bounded quantile (contam_quantile_hc). Existing functions
 were not changed in behaviour (delta defaults to None, which reproduces the frozen rule), so all locked results are
-unchanged; the file therefore no longer matches its frozen SHA-256 in protocol_freeze_hashes.txt. The frozen version is
+unchanged; the file therefore no longer matches its frozen SHA-256 in protocol_freeze_hashes.txt (current SHA-256:
+697b946ea734059f0019b94a50bf7c79268dd51cd125ae7b1e851793d9a4fd59). The frozen version is
 recoverable from the freeze commit. High-confidence results are post hoc.
 
 ## S8. Software and reproducibility
-Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. The proposed rule is released as the open-source Python
+Python 3.13, scikit-learn 1.9.1, NumPy, SciPy, pandas, statsmodels. The proposed rule is released as the open-source Python
 package `cutoffguard` (functions for site audits, sequential and per-group recalibration, and a command-line tool). All code, the frozen protocol, the development log and
 file hashes are available in the code repository (see Data Availability Statement).
 
@@ -151,8 +160,5 @@ file hashes are available in the code repository (see Data Availability Statemen
 ## Supporting Information references
 S1. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Comput. 2002;14:21–41. https://doi.org/10.1162/089976602753284446
 S2. Jackson MA, Goodrich JK, Maxan ME, et al. Proton pump inhibitors alter the composition of the gut microbiota. Gut. 2016;65:749–756. https://doi.org/10.1136/gutjnl-2015-310861
-S3. Zeller G, Tap J, Voigt AY, et al. Potential of fecal microbiota for early-stage detection of colorectal cancer. Mol Syst Biol. 2014;10:766. https://doi.org/10.15252/msb.20145645
-S4. Pasolli E, Truong DT, Malik F, Waldron L, Segata N. Machine learning meta-analysis of large metagenomic datasets: tools and biological insights. PLoS Comput Biol. 2016;12:e1004977. https://doi.org/10.1371/journal.pcbi.1004977
-S5. Godau P, et al. Deployment of image analysis algorithms under prevalence shifts. MICCAI 2023, LNCS. https://doi.org/10.1007/978-3-031-43898-1_38
-S6. Sung H, Ferlay J, Siegel RL, et al. Global cancer statistics 2020: GLOBOCAN estimates. CA Cancer J Clin. 2021;71:209–249. https://doi.org/10.3322/caac.21660
-Original cohort publications are listed by PMID in Table S1.
+S3. Godau P, et al. Deployment of image analysis algorithms under prevalence shifts. MICCAI 2023, LNCS. https://doi.org/10.1007/978-3-031-43898-1_38
+Original cohort publications are given by their PMID in the curatedMetagenomicData sample metadata (column PMID).

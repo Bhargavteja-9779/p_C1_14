@@ -6,8 +6,8 @@ H = os.path.dirname(os.path.abspath(__file__)); E = os.path.join(H, "..", "exper
 R = os.path.join(E, "final", "results"); DV = os.path.join(E, "dev"); AD = os.path.join(E, "addendum_results")
 OUT = os.path.join(H, "out"); os.makedirs(OUT, exist_ok=True)
 COL = dict(vp="#2a78d6", vp_hc="#2a78d6", source="#eb6834", local_q="#1baf7a", contam="#6250d6", oracle="#8a8985")
-LAB = dict(vp="Verified-positive (proposed)", vp_hc="Verified-positive, high-confidence", source="Source cut-off (status quo)",
-           local_q="Local quantile", contam="Prevalence-bounded quantile", oracle="Oracle")
+LAB = dict(vp="Colonoscopy-feedback cut-off", vp_hc="Colonoscopy-feedback, strict", source="Fixed cut-off (published cohorts)",
+           local_q="Local quantile", contam="Prevalence-bounded local cut-off", oracle="Oracle")
 MK = dict(vp="o", vp_hc="o", source="s", local_q="^", contam="D")
 LS = dict(vp="-", vp_hc="--", source="--", local_q=":", contam="-.")
 INK, INK2, GRID, BG = "#0b0b0b", "#52514e", "#e4e3df", "#f4f3ef"
@@ -31,7 +31,7 @@ bx(-0.4, 7.2, 4.8, 2.3, "Development\n8 CRC cohorts\n11 other-condition\n+ 2 med
 bx(5.4, 7.2, 5.0, 2.3, "Locked test, run once\n3 CRC + 13 other sites;\nMetaCardis for\npatient groups", COL["vp"])
 bx(-0.4, 3.9, 4.8, 2.5, "Fixed classifiers\nLASSO, random forest\ncut-off: 90% specificity\non source controls", INK2)
 bx(5.4, 3.9, 5.0, 2.5, "Realised specificity\nper site and per\npatient group\n(conditions, drugs)", COL["source"])
-bx(-0.4, 0.2, 10.8, 2.8, "Simulated deployments, 4 cut-off rules:\nsource | local quantile | prevalence-bounded |\nverified-positive (colonoscopy results\nof test-positives)", COL["vp"], fs=5.6)
+bx(-0.4, 0.2, 10.8, 2.8, "Simulated deployments, 4 cut-offs:\nfixed | local quantile | prevalence-bounded |\ncolonoscopy-feedback (results of\ntest-positives)", COL["vp"], fs=5.6)
 arr(4.4, 8.35, 5.4, 8.35); arr(2.0, 7.2, 2.0, 6.4); arr(4.4, 5.15, 5.4, 5.15); arr(7.9, 3.9, 7.9, 3.0)
 title_ax = ax
 # 1B CRC audit
@@ -75,7 +75,7 @@ ax.axhline(len(rows) - 7.5, color=GRID, lw=0.8)
 ax.text(0.02, len(rows) - 7.2, "development (open)", transform=ax.get_yaxis_transform(), ha="left", fontsize=5.6, color=INK2)
 ax.text(0.98, 3.6, "locked / CRC cohorts (filled)", transform=ax.get_yaxis_transform(), ha="right", fontsize=5.6, color=INK)
 ax.set_xlabel("CRC-test score vs same-cohort controls (logit, 95% CI)"); grid(ax, "x")
-title(ax, "Which patients are over-flagged (fully adjusted)")
+title(ax, "Which patients are over-flagged (adjusted where recorded)")
 # 1D
 ax = fig.add_subplot(gs[1, 1]); panel(ax, "D")
 A = pd.read_csv(os.path.join(DV, "explore_v9b_axes.csv"), index_col=0)
@@ -88,7 +88,7 @@ bars = [("Liver cirrhosis (dev)", A.loc["oral", "QinN_2014"], A.loc["commensal_d
         ("Metformin vs none in T2D\n(locked, exploratory)", L.loc[mk_, "oral"], L.loc[mk_, "depletion"], L.loc[mk_, "other"])][::-1]
 yy = np.arange(len(bars)); pos = np.zeros(len(bars)); neg = np.zeros(len(bars))
 for j, (lab, c) in enumerate([("Oral-origin taxa enriched", COL["source"]), ("Commensal fermenters depleted", COL["vp"]),
-                              ("Other taxa (e.g. Enterobacterales)", "#b9b8b2")]):
+                              ("Other enriched taxa", "#b9b8b2")]):
     v = np.array([b[j + 1] for b in bars])
     ax.barh(yy, v, 0.6, left=np.where(v >= 0, pos, neg), color=c, edgecolor="white", lw=0.8, label=lab)
     pos += np.clip(v, 0, None); neg += np.clip(v, None, 0)
@@ -110,7 +110,7 @@ def traj(ax, q, months, ymax, methods=("source", "local_q", "contam", "vp")):
 sub = gs[0, 0].subgridspec(2, 1, height_ratios=[2.2, 1], hspace=0.12)
 ax = fig.add_subplot(sub[0]); panel(ax, "A")
 cd = pd.read_csv(os.path.join(AD, "posthoc_crc_deploy.csv.gz")); traj(ax, cd, 12, 0.36); ax.set_xlabel(""); ax.tick_params(labelbottom=False)
-title(ax, "11 CRC sites, 1% prevalence (8 development, 3 locked)")
+title(ax, "11 CRC cohorts, 1% prevalence (8 development, 3 locked)")
 ax.legend(loc="upper right", bbox_to_anchor=(1, 0.95), fontsize=5.6, handlelength=2.4); ax.text(1.4, 0.335, "burn-in", fontsize=6, color=INK2)
 ax2 = fig.add_subplot(sub[1], sharex=ax)
 for mth in ["source", "contam", "vp", "oracle"]:
@@ -121,13 +121,13 @@ ax2.text(12.3, cd[cd.method == "oracle"].sens.mean(), "oracle", fontsize=5.5, co
 ax = fig.add_subplot(gs[0, 1]); panel(ax, "B")
 traj(ax, S[(S.setting == "drift") & (S.pi == 0.01)], 18, 0.5)
 ax.axvspan(6.5, 18.5, color=GRID, alpha=0.35, lw=0); ax.text(7, 0.46, "all scores shift +0.5 logit", fontsize=6, color=INK2)
-title(ax, "Upward drift: only the drift alarm recovers")
+title(ax, "Upward drift: the restart recovers fastest")
 ax = fig.add_subplot(gs[1, 0]); panel(ax, "C")
 Cg = pd.read_csv(os.path.join(R, "partC_groupcal.csv.gz")); Cg = Cg[(Cg.month >= 7) & (Cg.model == "lasso")]
 grp = ["control", "IGT", "CAD", "T2D", "HF"]; gl = ["No\ncondition", "Pre-\ndiabetes", "Coronary\ndisease", "Type 2\ndiabetes", "Heart\nfailure"]
 x = np.arange(len(grp))
-for mth, c, lab, off in [("source", COL["source"], "Source cut-off", -0.27), ("pooled", "#b9b8b2", "Recalibrated, pooled", 0),
-                          ("group", COL["vp"], "Recalibrated per group", 0.27)]:
+for mth, c, lab, off in [("source", COL["source"], "Fixed cut-off", -0.27), ("pooled", "#b9b8b2", "Recalibrated, everyone together", 0),
+                          ("group", COL["vp"], "Recalibrated within groups", 0.27)]:
     ax.bar(x + off, [Cg[(Cg.method == mth) & (Cg.group == g)].fpr.mean() for g in grp], 0.25, color=c, edgecolor="white", lw=0.8, label=lab)
 ax.axhline(0.10, color=INK2, lw=0.8, ls=(0, (1, 1))); ax.set_xticks(x, gl, fontsize=6.2); ax.set_ylabel("True false-positive rate (months 7-18)")
 title(ax, "CRC test at MetaCardis, by condition"); ax.legend(fontsize=5.8, loc="upper left"); grid(ax)
@@ -135,16 +135,16 @@ ax = fig.add_subplot(gs[1, 1]); panel(ax, "D")
 St = pd.read_csv(os.path.join(AD, "posthoc_stream_v2.csv.gz")); St = St[St.month >= 3]; St["over"] = St.fpr_future > 0.12
 St["kind"] = St.tag.str.split("|").str[0]
 mets = ["source", "local_q", "contam", "contam_hc", "vp", "vp_hc"]
-names = ["Source", "Local\nquantile", "Prev.-\nbounded", "Prev.-b.\nhigh-conf.", "Verified-\npositive", "Verified-p.\nhigh-conf."]
+names = ["Fixed", "Local\nquantile", "Prev.-\nbounded", "Prev.-b.\nstrict", "Colonoscopy\nfeedback", "Feedback\nstrict"]
 xx = np.arange(len(mets)); w = 0.38
 for kind, off, lab, alpha_ in [("random", -w / 2, "Random order (3 large sites)", 1.0), ("country", w / 2, "MetaCardis, country by country", 0.45)]:
     q = St[St.kind == kind]; ov = [q[q.method == m].over.mean() for m in mets]
     bb = ax.bar(xx + off, ov, w, color=[COL["vp"] if m.startswith("vp") else COL[m.replace("_hc", "")] for m in mets], alpha=alpha_, edgecolor="white", lw=0.6, label=lab)
     for i, m in enumerate(mets):
         if m.endswith("_hc"): bb[i].set_hatch("////")
-ax.set_xticks(xx, names, fontsize=5.4); ax.set_ylim(0, 0.45); ax.set_ylabel("Months with false-positive rate > 12%")
+ax.set_xticks(xx, names, fontsize=5.0); ax.set_ylim(0, 0.45); ax.set_ylabel("Months with false-positive rate > 12%")
 from matplotlib.patches import Patch
-ax.legend(handles=[Patch(fc="#8a8985", label="Random order, 3 large sites (left bar)"), Patch(fc="#8a8985", alpha=0.45, label="MetaCardis, country by country (right bar)")],
+ax.legend(handles=[Patch(fc="#8a8985", label="Random order, 3 cohorts / 4 tests (left bar)"), Patch(fc="#8a8985", alpha=0.45, label="MetaCardis, country by country (right bar)")],
           fontsize=5.6, loc="upper right"); grid(ax)
 title(ax, "Real samples, no resampling (post hoc)")
 fig.savefig(os.path.join(OUT, "Figure2.pdf"), bbox_inches="tight"); fig.savefig(os.path.join(OUT, "Figure2.png"), dpi=200, bbox_inches="tight")

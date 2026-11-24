@@ -85,28 +85,28 @@
 
 ## Table S3. Locked comorbidity confirmation: CRC-test positivity vs the same cohort's controls
 
-| model   | cohort            | condition   |   n |   n_ctrl |   pos |   pos_ctrl | ratio (95% CI)             |
-|:--------|:------------------|:------------|----:|---------:|------:|-----------:|:---------------------------|
-| lasso   | MetaCardis_2020_a | IGT         | 275 |      642 | 0.116 |      0.103 | 1.13 (0.72-1.67)           |
-| lasso   | MetaCardis_2020_a | T2D         | 550 |      642 | 0.175 |      0.103 | 1.70 (1.28-2.25)           |
-| lasso   | MetaCardis_2020_a | CAD         | 269 |      642 | 0.141 |      0.103 | 1.37 (0.92-1.99)           |
-| lasso   | MetaCardis_2020_a | HF          |  95 |      642 | 0.232 |      0.103 | 2.25 (1.44-3.38)           |
-| lasso   | QinJ_2012         | T2D         | 169 |      173 | 0.302 |      0.156 | 1.93 (1.31-2.90)           |
-| lasso   | KarlssonFH_2013   | IGT         |  49 |       43 | 0.102 |      0.023 | 4.39 (0.88-999.00)         |
-| lasso   | KarlssonFH_2013   | T2D         |  53 |       43 | 0.019 |      0.023 | 0.81 (0.00-999.00)         |
-| lasso   | NielsenHB_2014    | IBD         |  82 |       59 | 0.256 |      0.119 | 2.16 (1.11-6.48)           |
-| lasso   | HallAB_2017       | IBD         |  20 |       12 | 0.25  |      0.167 | 1.50 (0.40-999.00)         |
-| lasso   | HMP_2019_ibdmdb   | IBD         |  57 |       14 | 0.351 |      0.071 | 4.91 (1.39-999.00)         |
-| rf      | MetaCardis_2020_a | IGT         | 275 |      642 | 0.084 |      0.073 | 1.14 (0.68-1.80)           |
-| rf      | MetaCardis_2020_a | T2D         | 550 |      642 | 0.225 |      0.073 | 3.08 (2.25-4.36)           |
-| rf      | MetaCardis_2020_a | CAD         | 269 |      642 | 0.082 |      0.073 | 1.12 (0.62-1.81)           |
-| rf      | MetaCardis_2020_a | HF          |  95 |      642 | 0.168 |      0.073 | 2.30 (1.30-3.78)           |
-| rf      | QinJ_2012         | T2D         | 169 |      173 | 0.396 |      0.243 | 1.63 (1.19-2.29)           |
-| rf      | KarlssonFH_2013   | IGT         |  49 |       43 | 0.061 |      0     | n/a (no control positives) |
-| rf      | KarlssonFH_2013   | T2D         |  53 |       43 | 0     |      0     | n/a (no control positives) |
-| rf      | NielsenHB_2014    | IBD         |  82 |       59 | 0.232 |      0.017 | 13.67 (3.96-999.00)        |
-| rf      | HallAB_2017       | IBD         |  20 |       12 | 0.15  |      0.083 | 1.80 (0.20-999.00)         |
-| rf      | HMP_2019_ibdmdb   | IBD         |  57 |       14 | 0.263 |      0.143 | 1.84 (0.66-999.00)         |
+| model   | cohort            | condition   |   n |   n_ctrl |   pos |   pos_ctrl | ratio (95% CI)                       |
+|:--------|:------------------|:------------|----:|---------:|------:|-----------:|:-------------------------------------|
+| lasso   | MetaCardis_2020_a | IGT         | 275 |      642 | 0.116 |      0.103 | 1.13 (0.72-1.67)                     |
+| lasso   | MetaCardis_2020_a | T2D         | 550 |      642 | 0.175 |      0.103 | 1.70 (1.28-2.25)                     |
+| lasso   | MetaCardis_2020_a | CAD         | 269 |      642 | 0.141 |      0.103 | 1.37 (0.92-1.99)                     |
+| lasso   | MetaCardis_2020_a | HF          |  95 |      642 | 0.232 |      0.103 | 2.25 (1.44-3.38)                     |
+| lasso   | QinJ_2012         | T2D         | 169 |      173 | 0.302 |      0.156 | 1.93 (1.31-2.90)                     |
+| lasso   | KarlssonFH_2013   | IGT         |  49 |       43 | 0.102 |      0.023 | 4.39 (upper bound not estimable)     |
+| lasso   | KarlssonFH_2013   | T2D         |  53 |       43 | 0.019 |      0.023 | 0.81 (upper bound not estimable)     |
+| lasso   | NielsenHB_2014    | IBD         |  82 |       59 | 0.256 |      0.119 | 2.16 (1.11-6.48)                     |
+| lasso   | HallAB_2017       | IBD         |  20 |       12 | 0.25  |      0.167 | 1.50 (upper bound not estimable)     |
+| lasso   | HMP_2019_ibdmdb   | IBD         |  57 |       14 | 0.351 |      0.071 | 4.91 (upper bound not estimable)     |
+| rf      | MetaCardis_2020_a | IGT         | 275 |      642 | 0.084 |      0.073 | 1.14 (0.68-1.80)                     |
+| rf      | MetaCardis_2020_a | T2D         | 550 |      642 | 0.225 |      0.073 | 3.08 (2.25-4.36)                     |
+| rf      | MetaCardis_2020_a | CAD         | 269 |      642 | 0.082 |      0.073 | 1.12 (0.62-1.81)                     |
+| rf      | MetaCardis_2020_a | HF          |  95 |      642 | 0.168 |      0.073 | 2.30 (1.30-3.78)                     |
+| rf      | QinJ_2012         | T2D         | 169 |      173 | 0.396 |      0.243 | 1.63 (1.19-2.29)                     |
+| rf      | KarlssonFH_2013   | IGT         |  49 |       43 | 0.061 |      0     | not estimable (no control positives) |
+| rf      | KarlssonFH_2013   | T2D         |  53 |       43 | 0     |      0     | not estimable (no control positives) |
+| rf      | NielsenHB_2014    | IBD         |  82 |       59 | 0.232 |      0.017 | 13.67 (upper bound not estimable)    |
+| rf      | HallAB_2017       | IBD         |  20 |       12 | 0.15  |      0.083 | 1.80 (upper bound not estimable)     |
+| rf      | HMP_2019_ibdmdb   | IBD         |  57 |       14 | 0.263 |      0.143 | 1.84 (upper bound not estimable)     |
 
 ### Table S3b. Adjusted CRC-score difference (logit), one-sided p, Holm-adjusted within model
 
@@ -154,11 +154,12 @@
 
 ## Table S4. Specificity-constrained signatures (exploratory, development). K = minimum number of other conditions sharing a species' shift for it to be removed (None = full model).
 
-|   K |   n_drop |   crc_auc |   crc_sens_oof |   pos_dis |   pos_ctrl |
-|----:|---------:|----------:|---------------:|----------:|-----------:|
-|   2 |   31.857 |     0.721 |          0.43  |     0.133 |      0.044 |
-|   3 |   15.571 |     0.741 |          0.466 |     0.189 |      0.057 |
-|   4 |    8.143 |     0.747 |          0.477 |     0.213 |      0.058 |
+| K                 |   n_drop |   crc_auc |   crc_sens_oof |   pos_dis |   pos_ctrl |
+|:------------------|---------:|----------:|---------------:|----------:|-----------:|
+| 2.0               |   31.857 |     0.721 |          0.43  |     0.133 |      0.044 |
+| 3.0               |   15.571 |     0.741 |          0.466 |     0.189 |      0.057 |
+| 4.0               |    8.143 |     0.747 |          0.477 |     0.213 |      0.058 |
+| None (full model) |    0     |     0.763 |          0.474 |     0.212 |      0.045 |
 
 ### Table S4b. Top 20 species contributing to the CRC-score gap across seven development conditions
 
@@ -486,3 +487,150 @@ mean FPR (>=40 controls): {'contam': 0.083, 'local_q': 0.093, 'oracle': 0.107, '
 | rf      | T2D     | vp_group        | 0.092 |            0.077 |        0.419 |
 | rf      | control | labelfree_group | 0.09  |            0     |        0.571 |
 | rf      | control | vp_group        | 0.093 |            0     |        0.579 |
+
+## Table S12. Realised false-positive rate of the fixed cut-off per site (post hoc P5 for CRC; exact 95% CI; chi-square test against Binomial(n, 0.10))
+
+### CRC cohorts
+
+| model   | site            | role               |   n_controls |   fp |   fpr |   ci_lo |   ci_hi |   sens |   p_binom |
+|:--------|:----------------|:-------------------|-------------:|-----:|------:|--------:|--------:|-------:|----------:|
+| lasso   | FengQ_2015      | development (LOCO) |           61 |    3 | 0.049 |   0.01  |   0.137 |  0.587 |     0.281 |
+| lasso   | GuptaA_2019     | development (LOCO) |           30 |   11 | 0.367 |   0.199 |   0.561 |  0.733 |     0     |
+| lasso   | HanniganGD_2017 | development (LOCO) |           28 |    0 | 0     |   0     |   0.123 |  0.111 |     0.107 |
+| lasso   | ThomasAM_2018a  | development (LOCO) |           24 |    6 | 0.25  |   0.098 |   0.467 |  0.517 |     0.028 |
+| lasso   | ThomasAM_2018b  | development (LOCO) |           28 |    1 | 0.036 |   0.001 |   0.183 |  0.375 |     0.357 |
+| lasso   | VogtmannE_2016  | development (LOCO) |           52 |   13 | 0.25  |   0.14  |   0.389 |  0.5   |     0.001 |
+| lasso   | WirbelJ_2018    | development (LOCO) |           65 |    3 | 0.046 |   0.01  |   0.129 |  0.483 |     0.211 |
+| lasso   | ZellerG_2014    | development (LOCO) |           61 |   17 | 0.279 |   0.171 |   0.408 |  0.736 |     0     |
+| lasso   | YachidaS_2019   | locked             |          251 |   44 | 0.175 |   0.13  |   0.228 |  0.547 |     0     |
+| lasso   | YuJ_2015        | locked             |           54 |    6 | 0.111 |   0.042 |   0.226 |  0.743 |     0.819 |
+| lasso   | ThomasAM_2019_c | locked             |           40 |   11 | 0.275 |   0.146 |   0.439 |  0.725 |     0.001 |
+| rf      | FengQ_2015      | development (LOCO) |           61 |    0 | 0     |   0     |   0.059 |  0.457 |     0.004 |
+| rf      | GuptaA_2019     | development (LOCO) |           30 |    0 | 0     |   0     |   0.116 |  0.633 |     0.068 |
+| rf      | HanniganGD_2017 | development (LOCO) |           28 |    0 | 0     |   0     |   0.123 |  0.037 |     0.107 |
+| rf      | ThomasAM_2018a  | development (LOCO) |           24 |    4 | 0.167 |   0.047 |   0.374 |  0.552 |     0.294 |
+| rf      | ThomasAM_2018b  | development (LOCO) |           28 |    0 | 0     |   0     |   0.123 |  0.406 |     0.107 |
+| rf      | VogtmannE_2016  | development (LOCO) |           52 |    7 | 0.135 |   0.056 |   0.258 |  0.5   |     0.358 |
+| rf      | WirbelJ_2018    | development (LOCO) |           65 |    3 | 0.046 |   0.01  |   0.129 |  0.533 |     0.211 |
+| rf      | ZellerG_2014    | development (LOCO) |           61 |   22 | 0.361 |   0.242 |   0.494 |  0.755 |     0     |
+| rf      | YachidaS_2019   | locked             |          251 |   50 | 0.199 |   0.152 |   0.254 |  0.496 |     0     |
+| rf      | YuJ_2015        | locked             |           54 |    8 | 0.148 |   0.066 |   0.271 |  0.703 |     0.251 |
+| rf      | ThomasAM_2019_c | locked             |           40 |    9 | 0.225 |   0.108 |   0.385 |  0.65  |     0.015 |
+
+Summary (11 CRC cohorts): 
+
+| model   |   sites |   fpr_min |   fpr_max |   n_over_012 |   n_ci_excludes_010 |    chi2 |   p_overdispersion |   tau_logit |     I2 |
+|:--------|--------:|----------:|----------:|-------------:|--------------------:|--------:|-------------------:|------------:|-------:|
+| lasso   |      11 |         0 |    0.3667 |            6 |                   5 | 102.084 |                  0 |      0.5795 | 0.7148 |
+| rf      |      11 |         0 |    0.3607 |            6 |                   4 | 102.136 |                  0 |      0.6485 | 0.7191 |
+
+### Other held-out sites (IBD, T2D, adenoma; source cut-off; locked run)
+
+| disease   | site                   | model   |   fpr |   sens |
+|:----------|:-----------------------|:--------|------:|-------:|
+| IBD       | HMP_2019_ibdmdb        | lasso   | 0.407 |  0.728 |
+| IBD       | HMP_2019_ibdmdb        | rf      | 0.222 |  0.369 |
+| IBD       | HallAB_2017            | lasso   | 0.083 |  0.6   |
+| IBD       | HallAB_2017            | rf      | 0.25  |  0.55  |
+| IBD       | IjazUZ_2017            | lasso   | 0.053 |  0.75  |
+| IBD       | IjazUZ_2017            | rf      | 0.053 |  0.75  |
+| IBD       | NielsenHB_2014         | lasso   | 0.068 |  0.268 |
+| IBD       | NielsenHB_2014         | rf      | 0.017 |  0.159 |
+| T2D       | KarlssonFH_2013        | lasso   | 0.047 |  0.245 |
+| T2D       | KarlssonFH_2013        | rf      | 0     |  0.019 |
+| T2D       | MetaCardis_2020_a      | lasso   | 0.053 |  0.144 |
+| T2D       | MetaCardis_2020_a      | rf      | 0.023 |  0.064 |
+| T2D       | QinJ_2012              | lasso   | 0.592 |  0.771 |
+| T2D       | QinJ_2012              | rf      | 0.747 |  0.824 |
+| T2D       | SankaranarayananK_2015 | lasso   | 0.333 |  0.368 |
+| T2D       | SankaranarayananK_2015 | rf      | 0.278 |  0.053 |
+| adenoma   | FengQ_2015             | lasso   | 0.262 |  0.489 |
+| adenoma   | FengQ_2015             | rf      | 0     |  0.021 |
+| adenoma   | HanniganGD_2017        | lasso   | 0.071 |  0.154 |
+| adenoma   | HanniganGD_2017        | rf      | 0     |  0     |
+| adenoma   | ThomasAM_2018a         | lasso   | 0.042 |  0.259 |
+| adenoma   | ThomasAM_2018a         | rf      | 0     |  0     |
+| adenoma   | YachidaS_2019          | lasso   | 0.124 |  0.209 |
+| adenoma   | YachidaS_2019          | rf      | 0.251 |  0.224 |
+| adenoma   | ZellerG_2014           | lasso   | 0.066 |  0.238 |
+| adenoma   | ZellerG_2014           | rf      | 0     |  0     |
+
+## Table S13. CRC-only deployment simulation at 11 CRC cohorts (post hoc P6; 1% prevalence; months 7-12)
+
+| role        | method   |   FPR |   share_over_012 |   Sens |
+|:------------|:---------|------:|-----------------:|-------:|
+| development | contam   | 0.104 |            0.151 |  0.485 |
+| development | local_q  | 0.109 |            0.228 |  0.491 |
+| development | oracle   | 0.111 |            0.125 |  0.512 |
+| development | source   | 0.124 |            0.438 |  0.495 |
+| development | vp       | 0.082 |            0.003 |  0.488 |
+| locked      | contam   | 0.099 |            0.071 |  0.509 |
+| locked      | local_q  | 0.104 |            0.143 |  0.518 |
+| locked      | oracle   | 0.105 |            0     |  0.53  |
+| locked      | source   | 0.189 |            0.833 |  0.644 |
+| locked      | vp       | 0.087 |            0.004 |  0.514 |
+
+## Table S14. Why cohorts differ: decomposition of the control-score shift per CRC cohort and cohort covariates (post hoc P8; LASSO). Reference = training controls (in-sample), so absolute shifts are biased upward; ranks are informative.
+
+| site            | role        |   fpr |   shift_total |   shift_oral |   shift_depletion |   shift_other |   shannon |   depth_M | kit    | country   |   age |
+|:----------------|:------------|------:|--------------:|-------------:|------------------:|--------------:|----------:|----------:|:-------|:----------|------:|
+| GuptaA_2019     | development | 0.367 |         1.286 |       -0.148 |             1.709 |        -0.274 |     2.95  |     9.257 | Qiagen | IND       |  40   |
+| ZellerG_2014    | development | 0.279 |         0.761 |        0.294 |            -0.306 |         0.773 |     3.491 |    64.904 | Gnome  | FRA       |  63   |
+| ThomasAM_2019_c | locked      | 0.275 |         0.915 |        0.395 |             0.464 |         0.056 |     3.256 |    43.66  | nan    | JPN       |  66   |
+| ThomasAM_2018a  | development | 0.25  |         0.879 |       -0.096 |             0.854 |         0.121 |     3.266 |    98.68  | Qiagen | ITA       |  67.5 |
+| VogtmannE_2016  | development | 0.25  |         0.789 |        0.046 |             0.097 |         0.646 |     3.405 |    67.637 | Gnome  | USA       |  63   |
+| YachidaS_2019   | locked      | 0.175 |         0.82  |        0.294 |             0.48  |         0.047 |     3.29  |    44.165 | nan    | JPN       |  63   |
+| YuJ_2015        | locked      | 0.111 |         0.59  |        0.236 |            -0.05  |         0.404 |     3.347 |    59.099 | Qiagen | CHN       |  63   |
+| FengQ_2015      | development | 0.049 |         0.166 |        0.159 |            -0.023 |         0.031 |     3.399 |    50.836 | MoBio  | AUT       |  68   |
+| WirbelJ_2018    | development | 0.046 |         0.269 |       -0.114 |             0.276 |         0.107 |     3.434 |    35.922 | Gnome  | DEU       |  58   |
+| ThomasAM_2018b  | development | 0.036 |        -0.113 |        0.037 |            -0.332 |         0.181 |     3.509 |    38.21  | Gnome  | ITA       |  58   |
+| HanniganGD_2017 | development | 0     |        -0.66  |       -0.141 |             0.374 |        -0.892 |     3.223 |     6.656 | MoBio  | USA       |  54   |
+
+```
+ correlation with site FPR (11 sites):
+  shift_total      rho = +0.88  p = 0.000
+  shift_oral       rho = +0.29  p = 0.384
+  shift_depletion  rho = +0.38  p = 0.252
+  shift_other      rho = +0.22  p = 0.509
+  shannon          rho = -0.26  p = 0.432
+  depth_M          rho = +0.37  p = 0.264
+  age              rho = +0.18  p = 0.587
+
+```
+
+## Table S15. Net benefit per 1,000 screened (post hoc P9): detected cancers - w x false-positive referrals; 1% prevalence; 12-month averages
+
+| sites            | method   |   false_pos_per1000 |   cancers_detected_per1000 |   NB_w1/20 |   NB_w1/50 |   NB_w1/100 |
+|:-----------------|:---------|--------------------:|---------------------------:|-----------:|-----------:|------------:|
+| locked CRC sites | contam   |              104.5  |                       5.2  |      -0.02 |       3.11 |        4.16 |
+| locked CRC sites | local_q  |              109.99 |                       5.31 |      -0.19 |       3.11 |        4.21 |
+| locked CRC sites | oracle   |              103.85 |                       5.3  |       0.11 |       3.22 |        4.26 |
+| locked CRC sites | source   |              187.07 |                       6.44 |      -2.91 |       2.7  |        4.57 |
+| locked CRC sites | vp       |              103.68 |                       5.33 |       0.14 |       3.26 |        4.29 |
+| 11 CRC sites     | contam   |              103.95 |                       4.94 |      -0.25 |       2.86 |        3.9  |
+| 11 CRC sites     | local_q  |              109.25 |                       5.03 |      -0.43 |       2.85 |        3.94 |
+| 11 CRC sites     | oracle   |              108.59 |                       5.17 |      -0.26 |       3    |        4.08 |
+| 11 CRC sites     | source   |              140.32 |                       5.35 |      -1.66 |       2.55 |        3.95 |
+| 11 CRC sites     | vp       |               95.09 |                       5.06 |       0.31 |       3.16 |        4.11 |
+
+Break-even (fixed vs colonoscopy-feedback): 75 false-positive colonoscopies per additional cancer (locked CRC sites); 156 (11 CRC cohorts).
+
+### Table S9c. Top 15 species contributions to the metformin vs non-user score gap within T2D (MetaCardis, LASSO; exploratory)
+
+| species                         |   contribution |
+|:--------------------------------|---------------:|
+| g__Lachnoclostridium            |          0.097 |
+| s__Eubacterium_eligens          |          0.091 |
+| s__Streptococcus_salivarius     |          0.055 |
+| s__Firmicutes_bacterium_CAG_110 |          0.052 |
+| o__Enterobacterales             |          0.037 |
+| s__Bacteroides_nordii           |          0.03  |
+| s__Eubacterium_sp_CAG_251       |          0.027 |
+| p__Actinobacteria               |          0.027 |
+| f__Morganellaceae               |          0.023 |
+| s__Bacteroides_salyersiae       |          0.019 |
+| g__Flavonifractor               |          0.019 |
+| s__Roseburia_sp_CAG_303         |          0.016 |
+| g__Escherichia                  |          0.015 |
+| s__Bacteroides_sp_CAG_530       |          0.015 |
+| f__Fusobacteriaceae             |          0.015 |

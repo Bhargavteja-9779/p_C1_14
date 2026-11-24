@@ -39,7 +39,7 @@ d.columns = [c if isinstance(c, str) else (c[1] or c[0]) for c in d.columns]
 out.append("### Table S2b. Primary setting by disease and prevalence (mean true FPR, months 7-12)\n\n" + d.to_markdown(index=False))
 # S3 Part B
 pB = pd.read_csv(os.path.join(R, "partB_positivity.csv")).round(3); aB = pd.read_csv(os.path.join(R, "partB_adjusted_holm.csv")).round(4)
-pB["ratio (95% CI)"] = pB.apply(lambda r: f"{r.ratio:.2f} ({r.ratio_lo:.2f}-{min(r.ratio_hi, 999):.2f})" if r.pos_ctrl > 0 else "n/a (no control positives)", axis=1)
+pB["ratio (95% CI)"] = pB.apply(lambda r: (f"{r.ratio:.2f} ({r.ratio_lo:.2f}-{r.ratio_hi:.2f})" if r.ratio_hi < 999 else f"{r.ratio:.2f} (upper bound not estimable)") if r.pos_ctrl > 0 else "not estimable (no control positives)", axis=1)
 out.append("## Table S3. Locked comorbidity confirmation: CRC-test positivity vs the same cohort's controls\n\n" +
            pB[["model", "cohort", "condition", "n", "n_ctrl", "pos", "pos_ctrl", "ratio (95% CI)"]].to_markdown(index=False))
 out.append("### Table S3b. Adjusted CRC-score difference (logit), one-sided p, Holm-adjusted within model\n\n" +
@@ -47,7 +47,7 @@ out.append("### Table S3b. Adjusted CRC-score difference (logit), one-sided p, H
 dv = pd.read_csv(os.path.join(DV, "explore_v7b_fits.csv")).round(3)
 out.append("### Table S3c. Development cohorts: crude and adjusted CRC-score difference (LASSO)\n\n" + dv.to_markdown(index=False))
 # S4 constrained signature
-cs = pd.read_csv(os.path.join(DV, "explore_v9_constrained.csv")).round(3)
+cs = pd.read_csv(os.path.join(DV, "explore_v9_constrained.csv")).round(3); cs["K"] = cs.K.fillna("None (full model)").astype(str)
 out.append("## Table S4. Specificity-constrained signatures (exploratory, development). K = minimum number of other conditions sharing a "
            "species' shift for it to be removed (None = full model).\n\n" +
            cs.groupby("K")[["n_drop", "crc_auc", "crc_sens_oof", "pos_dis", "pos_ctrl"]].mean().round(3).reset_index().to_markdown(index=False))
@@ -87,5 +87,23 @@ out.append("### Table S2d. Primary endpoint at sites with >= 40 controls, per co
 gq = pd.read_csv(os.path.join(AD, "posthoc_group_labelfree.csv.gz")); gq = gq[gq.month >= 7].assign(over=lambda x: x.fpr > 0.12)
 out.append("## Table S11. Per-group recalibration at MetaCardis with the label-free prevalence-bounded rule vs the verified-positive rule (post hoc P7; months 7-18)\n\n" +
            gq.groupby(["model", "group", "method"]).agg(FPR=("fpr", "mean"), share_over_012=("over", "mean"), Sens_proxy=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
+au = pd.read_csv(os.path.join(AD, "posthoc_crc_audit_sites.csv")).round(3); su = pd.read_csv(os.path.join(AD, "posthoc_crc_audit_summary.csv")).round(4)
+Sq = pd.read_csv(os.path.join(R, "sequential.csv.gz")); src = Sq[(Sq.setting == "primary") & (Sq.method == "source") & (Sq.month == 1) & (Sq.disease != "CRC")]
+nc = src.groupby(["disease", "site", "model"]).agg(fpr=("fpr", "first"), sens=("sens", "first")).round(3).reset_index()
+out.append("## Table S12. Realised false-positive rate of the fixed cut-off per site (post hoc P5 for CRC; exact 95% CI; chi-square test against Binomial(n, 0.10))\n\n"
+           "### CRC cohorts\n\n" + au.to_markdown(index=False) + "\n\nSummary (11 CRC cohorts): \n\n" + su.to_markdown(index=False) +
+           "\n\n### Other held-out sites (IBD, T2D, adenoma; source cut-off; locked run)\n\n" + nc.to_markdown(index=False))
+cdp = pd.read_csv(os.path.join(AD, "posthoc_crc_deploy.csv.gz")); cdp = cdp[cdp.month >= 7].assign(over=lambda x: x.fpr > 0.12)
+out.append("## Table S13. CRC-only deployment simulation at 11 CRC cohorts (post hoc P6; 1% prevalence; months 7-12)\n\n" +
+           cdp.groupby(["role", "method"]).agg(FPR=("fpr", "mean"), share_over_012=("over", "mean"), Sens=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
+out.append("## Table S14. Why cohorts differ: decomposition of the control-score shift per CRC cohort and cohort covariates (post hoc P8; LASSO). "
+           "Reference = training controls (in-sample), so absolute shifts are biased upward; ranks are informative.\n\n" +
+           pd.read_csv(os.path.join(AD, "posthoc_site_explain.csv")).round(3).to_markdown(index=False) + "\n\n```\n" +
+           open(os.path.join(E, "posthoc_site_explain.log")).read().split("Spearman")[1] + "\n```")
+out.append("## Table S15. Net benefit per 1,000 screened (post hoc P9): detected cancers - w x false-positive referrals; 1% prevalence; 12-month averages\n\n" +
+           pd.read_csv(os.path.join(AD, "posthoc_net_benefit.csv")).round(2).to_markdown(index=False) +
+           "\n\nBreak-even (fixed vs colonoscopy-feedback): 75 false-positive colonoscopies per additional cancer (locked CRC sites); 156 (11 CRC cohorts).")
+mt = pd.read_csv(os.path.join(AD, "metformin_species_contrib.csv")); mt.columns = ["species", "contribution"]
+out.append("### Table S9c. Top 15 species contributions to the metformin vs non-user score gap within T2D (MetaCardis, LASSO; exploratory)\n\n" + mt.head(15).round(3).to_markdown(index=False))
 open(os.path.join(H, "..", "..", "manuscript", "SI_tables.md"), "w").write("# Supporting Information — Tables\n\n" + "\n\n".join(out) + "\n")
 print("ok")
