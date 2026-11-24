@@ -9,7 +9,7 @@ cd "$W/clone"; echo "commit $(git rev-parse HEAD)"; echo "python $(python3 --ver
 cd Target_Journal_Submission/code/experiments/atlas/v4; mkdir ref; mv results/* ref/
 for s in dedup.py atlas_v4.py analyse_atlas_v4.py hypotheses_v4.py taxa_v4.py deploy_v4.py summarise_v4.py \
          control_augmentation_v4.py h2h_v4.py holm_v4.py counts_v4.py r3_posthoc.py neardup_check.py dedup095_sensitivity.py \
-         holm_v5.py r6_posthoc.py make_figures_v7.py make_graphical_abstract.py make_si_v4.py; do
+         holm_v5.py r6_posthoc.py r7_posthoc.py make_figures_v8.py make_graphical_abstract.py make_si_v4.py; do
   t0=$(date +%s); python3 -W ignore "$s" > /dev/null; echo "ran $s ($(( $(date +%s) - t0 )) s)"; done
 python3 - <<'PY'
 import os, json, pandas as pd, numpy as np
@@ -25,4 +25,4 @@ for f in sorted(os.listdir("ref")):
     print(("same     " if same else "DIFFERENT"), f); bad += (not same)
 print("files differing:", bad)
 PY
-cd "$W/clone" && python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v8.md | head -2
+cd "$W/clone" && python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v9.md | head -2
