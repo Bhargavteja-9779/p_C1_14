@@ -1,0 +1,33 @@
+lasso age recorded 0.719 BMI recorded 0.715
+rf age recorded 0.719 BMI recorded 0.715
+    model                                      spec condition    beta      lo      hi       p
+0   lasso                                       sex       CAD  0.0089 -0.1127  0.1306  0.8854
+1   lasso                                       sex        HF  0.3271  0.1439  0.5103  0.0005
+2   lasso                                       sex       IGT  0.0537 -0.0663  0.1738  0.3802
+3   lasso                                       sex       T2D  0.3624  0.2633  0.4616  0.0000
+4   lasso                                 sex+drugs       CAD -0.0687 -0.2399  0.1025  0.4312
+5   lasso                                 sex+drugs        HF  0.1955 -0.0193  0.4102  0.0744
+6   lasso                                 sex+drugs       IGT  0.0761 -0.0435  0.1958  0.2120
+7   lasso                                 sex+drugs       T2D  0.0634 -0.0663  0.1930  0.3381
+8   lasso  complete-case age+BMI+sex+drugs (n=1310)       CAD -0.1325 -0.3522  0.0871  0.2368
+9   lasso  complete-case age+BMI+sex+drugs (n=1310)        HF  0.1275 -0.2673  0.5224  0.5264
+10  lasso  complete-case age+BMI+sex+drugs (n=1310)       IGT -0.0271 -0.1646  0.1104  0.6990
+11  lasso  complete-case age+BMI+sex+drugs (n=1310)       T2D  0.0014 -0.1446  0.1474  0.9852
+12     rf                                       sex       CAD  0.0648 -0.0229  0.1524  0.1475
+13     rf                                       sex        HF  0.1914  0.0594  0.3233  0.0045
+14     rf                                       sex       IGT  0.0487 -0.0378  0.1352  0.2694
+15     rf                                       sex       T2D  0.3377  0.2662  0.4091  0.0000
+16     rf                                 sex+drugs       CAD  0.0191 -0.1032  0.1415  0.7592
+17     rf                                 sex+drugs        HF  0.1025 -0.0511  0.2560  0.1907
+18     rf                                 sex+drugs       IGT  0.0607 -0.0248  0.1462  0.1641
+19     rf                                 sex+drugs       T2D  0.0726 -0.0201  0.1653  0.1247
+20     rf  complete-case age+BMI+sex+drugs (n=1310)       CAD  0.0441 -0.1215  0.2097  0.6014
+21     rf  complete-case age+BMI+sex+drugs (n=1310)        HF  0.2377 -0.0600  0.5354  0.1174
+22     rf  complete-case age+BMI+sex+drugs (n=1310)       IGT  0.0417 -0.0620  0.1453  0.4304
+23     rf  complete-case age+BMI+sex+drugs (n=1310)       T2D  0.0275 -0.0826  0.1375  0.6246
+                            condition  total   oral  depletion  other
+0                                  HF  0.325  0.050      0.080  0.195
+1                                 T2D  0.371  0.023      0.191  0.157
+2                                 CAD  0.014  0.062     -0.085  0.037
+3                                 IGT  0.054  0.038      0.012  0.005
+4  metformin users vs non-users (T2D)  0.464 -0.034      0.318  0.180
