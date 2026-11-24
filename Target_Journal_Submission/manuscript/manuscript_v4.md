@@ -192,7 +192,12 @@ differently. We used two standard classifiers with fixed settings, not the best 
 MMUPHin, ConQuR or DEBIAS-M, which need batch labels with cases or retraining; our batch-correction comparator was a
 simple label-free alignment. The strict subset was chosen after seeing the first results. Only two studies had
 sub-sites, and only three locked case–control cohorts were large enough for the contaminated burn-in at N = 100. Our
-non-random splits used accession order as a stand-in for time, because collection dates were not available. In real
+non-random splits used accession order as a stand-in for time, because collection dates were not available. We
+reported 11 P values from population-level tests. After Holm correction across all 11, three remain below 0.05: the
+burn-in versus the training cut-off in the strict set (adjusted P = 0.0098) and under within-site non-random splits
+(0.022), and the post hoc T2D non-westernised difference (0.0035). The seven-population locked comparisons (burn-in
+versus training cut-off, 0.19; versus feature alignment, 0.13) and the CRC non-westernised difference (0.13) rest on
+bootstrap intervals alone and should be read as supportive. In real
 screening, positive results are confirmed later, which would let a site refine its cut-off with labels; we did not
 test this. Every way of fixing the cut-off that we tried, including those that failed, is listed in Table S3 and in the
 repository's variant ledger.
