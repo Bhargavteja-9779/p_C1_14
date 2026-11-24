@@ -1,5 +1,5 @@
 ---
-title: "Gut microbiome colorectal cancer classifiers lose specificity across sites and patient groups, and local recalibration restores it"
+title: "Microbiome colorectal cancer classifiers lose specificity across sites and patients; local recalibration restores it"
 ---
 
 **Article type:** Letter (Short Communication)

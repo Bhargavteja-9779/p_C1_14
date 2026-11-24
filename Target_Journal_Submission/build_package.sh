@@ -15,7 +15,7 @@ pandoc $SC/si_build.md -o ../$PK/Supporting_Information.docx
 pandoc cover_letter.md -o ../$PK/Cover_Letter.docx
 cp manuscript.md ../$PK/Manuscript.md; cd ..
 C=$PK/code; mkdir -p $C/src $C/scripts $C/pilot $C/experiments/dev $C/experiments/final/results $C/experiments/addendum_results $C/figures
-cp code/src/*.py $C/src/; cp code/pilot/pilot_threshold_transfer.py $C/pilot/
+cp code/src/*.py $C/src/; cp code/pilot/pilot_threshold_transfer.py code/pilot/pilot_threshold_transfer.log $C/pilot/
 cp code/figures/make_figures.py code/figures/make_si_tables.py code/figures/make_graphical_abstract.py $C/figures/
 cp code/experiments/{protocol.md,data_lock.md,protocol_freeze_hashes.txt,protocol_addendum_drugs.md,addendum_drugs.py,addendum_metformin_explore.py,addendum_results_dev.log,addendum_results_confirm.log,addendum_metformin_explore.log,posthoc_*.py,posthoc_*.log} $C/experiments/
 cp code/experiments/novelty_escalation_log.md $C/experiments/development_log.md

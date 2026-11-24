@@ -5,7 +5,7 @@ The Editors
 
 Dear Editors,
 
-We submit our manuscript, **"Gut microbiome colorectal cancer classifiers lose specificity across sites and patient groups, and local recalibration restores it"**, for consideration as a Letter in *iMeta*.
+We submit our manuscript, **"Microbiome colorectal cancer classifiers lose specificity across sites and patients; local recalibration restores it"**, for consideration as a Letter in *iMeta*.
 
 Stool metagenomic classifiers for colorectal cancer are validated by AUROC, but a test in use works at one cut-off. Earlier work showed that CRC signatures can fire in other diseases (Wirbel et al. 2021; Thomas et al. 2019). Our Letter asks what this means for the specificity a fixed cut-off actually delivers, and how to restore it without a new labelled study.
 
