@@ -363,30 +363,57 @@
 | IGT                                |   0.054 |  0.038 |       0.012 |   0.005 |
 | metformin users vs non-users (T2D) |   0.464 | -0.034 |       0.318 |   0.18  |
 
-## Table S10. Prospective-style evaluation without resampling (post hoc P3; months >= 3; FPR on not-yet-seen controls)
+## Table S10. Evaluation without resampling (post hoc P3b; 25 per month; months >= 3; FPR on not-yet-seen controls). Random order per site, and MetaCardis controls entering country by country (all 6 orders). *_hc = high-confidence (delta = 0.10).
 
-| site              |   pi | method   |   FPR |   share_over_012 |
-|:------------------|-----:|:---------|------:|-----------------:|
-| MetaCardis_2020_a | 0.01 | contam   | 0.093 |            0.15  |
-| MetaCardis_2020_a | 0.01 | local_q  | 0.103 |            0.242 |
-| MetaCardis_2020_a | 0.01 | source   | 0.038 |            0.001 |
-| MetaCardis_2020_a | 0.01 | vp       | 0.093 |            0.162 |
-| MetaCardis_2020_a | 0.01 | vp_hc    | 0.073 |            0.045 |
-| MetaCardis_2020_a | 0.05 | contam   | 0.088 |            0.116 |
-| MetaCardis_2020_a | 0.05 | local_q  | 0.098 |            0.202 |
-| MetaCardis_2020_a | 0.05 | source   | 0.038 |            0.001 |
-| MetaCardis_2020_a | 0.05 | vp       | 0.096 |            0.197 |
-| MetaCardis_2020_a | 0.05 | vp_hc    | 0.075 |            0.05  |
-| YachidaS_2019     | 0.01 | contam   | 0.088 |            0.185 |
-| YachidaS_2019     | 0.01 | local_q  | 0.105 |            0.298 |
-| YachidaS_2019     | 0.01 | source   | 0.186 |            0.83  |
-| YachidaS_2019     | 0.01 | vp       | 0.089 |            0.192 |
-| YachidaS_2019     | 0.01 | vp_hc    | 0.061 |            0.055 |
-| YachidaS_2019     | 0.05 | contam   | 0.084 |            0.157 |
-| YachidaS_2019     | 0.05 | local_q  | 0.098 |            0.244 |
-| YachidaS_2019     | 0.05 | source   | 0.186 |            0.818 |
-| YachidaS_2019     | 0.05 | vp       | 0.094 |            0.226 |
-| YachidaS_2019     | 0.05 | vp_hc    | 0.062 |            0.058 |
+| site              |   pi | method    |   FPR |   share_over_012 |
+|:------------------|-----:|:----------|------:|-----------------:|
+| MetaCardis_2020_a | 0.01 | contam    | 0.091 |            0.138 |
+| MetaCardis_2020_a | 0.01 | contam_hc | 0.069 |            0.031 |
+| MetaCardis_2020_a | 0.01 | local_q   | 0.103 |            0.249 |
+| MetaCardis_2020_a | 0.01 | source    | 0.038 |            0.001 |
+| MetaCardis_2020_a | 0.01 | vp        | 0.091 |            0.147 |
+| MetaCardis_2020_a | 0.01 | vp_hc     | 0.069 |            0.035 |
+| MetaCardis_2020_a | 0.05 | contam    | 0.087 |            0.115 |
+| MetaCardis_2020_a | 0.05 | contam_hc | 0.066 |            0.026 |
+| MetaCardis_2020_a | 0.05 | local_q   | 0.098 |            0.2   |
+| MetaCardis_2020_a | 0.05 | source    | 0.038 |            0.001 |
+| MetaCardis_2020_a | 0.05 | vp        | 0.094 |            0.174 |
+| MetaCardis_2020_a | 0.05 | vp_hc     | 0.072 |            0.048 |
+| QinJ_2012         | 0.01 | contam    | 0.086 |            0.241 |
+| QinJ_2012         | 0.01 | contam_hc | 0.051 |            0.064 |
+| QinJ_2012         | 0.01 | local_q   | 0.111 |            0.434 |
+| QinJ_2012         | 0.01 | source    | 0.67  |            1     |
+| QinJ_2012         | 0.01 | vp        | 0.088 |            0.257 |
+| QinJ_2012         | 0.01 | vp_hc     | 0.051 |            0.066 |
+| QinJ_2012         | 0.05 | contam    | 0.084 |            0.257 |
+| QinJ_2012         | 0.05 | contam_hc | 0.047 |            0.049 |
+| QinJ_2012         | 0.05 | local_q   | 0.107 |            0.418 |
+| QinJ_2012         | 0.05 | source    | 0.669 |            1     |
+| QinJ_2012         | 0.05 | vp        | 0.092 |            0.306 |
+| QinJ_2012         | 0.05 | vp_hc     | 0.05  |            0.072 |
+| YachidaS_2019     | 0.01 | contam    | 0.087 |            0.17  |
+| YachidaS_2019     | 0.01 | contam_hc | 0.056 |            0.037 |
+| YachidaS_2019     | 0.01 | local_q   | 0.106 |            0.305 |
+| YachidaS_2019     | 0.01 | source    | 0.186 |            0.858 |
+| YachidaS_2019     | 0.01 | vp        | 0.089 |            0.186 |
+| YachidaS_2019     | 0.01 | vp_hc     | 0.057 |            0.041 |
+| YachidaS_2019     | 0.05 | contam    | 0.082 |            0.147 |
+| YachidaS_2019     | 0.05 | contam_hc | 0.05  |            0.028 |
+| YachidaS_2019     | 0.05 | local_q   | 0.099 |            0.268 |
+| YachidaS_2019     | 0.05 | source    | 0.187 |            0.844 |
+| YachidaS_2019     | 0.05 | vp        | 0.091 |            0.214 |
+| YachidaS_2019     | 0.05 | vp_hc     | 0.057 |            0.048 |
+
+Country-ordered MetaCardis (T2D test):
+
+| method    |   FPR |   share_over_012 |
+|:----------|------:|-----------------:|
+| contam    | 0.091 |            0.268 |
+| contam_hc | 0.068 |            0.121 |
+| local_q   | 0.101 |            0.344 |
+| source    | 0.038 |            0.014 |
+| vp        | 0.092 |            0.265 |
+| vp_hc     | 0.073 |            0.167 |
 
 ### Table S2c. Downward drift (-0.5 logit from month 7; post hoc P4): mean FPR and sensitivity by period
 

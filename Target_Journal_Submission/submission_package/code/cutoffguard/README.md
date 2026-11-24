@@ -9,6 +9,8 @@ programme already observes: the verified outcomes (e.g. colonoscopy results) of 
 - High-confidence option (`delta`): P(FPR > alpha) <= delta instead of a bound on the expected FPR.
 - `Recalibrator`: monthly updates with a liberal burn-in and a drift alarm.
 - `GroupRecalibrator`: per-group FPR control (e.g. people with and without chronic disease).
+- `prevalence_bounded_threshold`: label-free local cut-off from unlabelled scores and a prevalence bound (with the same
+  high-confidence option) - sufficient at stable, well-sampled sites.
 - `audit_sites`: realised FPR of a fixed cut-off per site with exact binomial tests.
 
 ```

@@ -44,3 +44,13 @@ def test_high_confidence():
         t = verified_positive_threshold(s, s >= np.quantile(s, 0.7), y, 0.10, 0.05, delta=0.10)
         fpr.append(norm.sf(t - mu))
     assert np.mean(np.array(fpr) > 0.10) <= 0.10 + 0.02
+
+def test_prevalence_bounded():
+    from scipy.stats import norm
+    from cutoffguard import prevalence_bounded_threshold
+    rng = np.random.default_rng(5); fpr = []
+    for _ in range(3000):
+        mu = rng.normal(0, 1); y = (rng.random(300) < 0.03).astype(int)
+        s = np.where(y == 1, rng.normal(mu + 1.5, 1, 300), rng.normal(mu, 1, 300))
+        fpr.append(norm.sf(prevalence_bounded_threshold(s, 0.10, 0.05) - mu))
+    assert np.mean(fpr) <= 0.10 + 0.005

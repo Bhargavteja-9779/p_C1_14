@@ -274,3 +274,13 @@ deployment regardless of cause.
 LASSO: mean |FPR-0.10| 0.127 (pooled z) -> 0.038 (site-wise z), share of sites > 0.12: 0.50 -> 0.25, max 0.37 -> 0.19;
 AUC .763 -> .769. RF: site-wise z did not help (0.102 -> 0.084; max 0.39); site-wise rank 0.048. => batch correction
 reduces but does not remove cut-off drift; complementary to recalibration.
+
+## Post hoc P5 (2026-11-24): CRC-specific specificity audit, 11 CRC cohorts (posthoc_crc_audit.py)
+8 development cohorts (LOCO scores) + 3 locked sites; fixed source cut-off only (no method choice). Realised FPR
+0.00-0.37 (LASSO and RF); 6/11 sites > 0.12 in each model; exact 95% CI excludes 0.10 in 5 (LASSO) / 4 (RF) sites;
+overdispersion vs Binomial(n0, 0.10): chi2 = 102 on 11 df, p < 1e-15 (both models); between-site SD of logit FPR
+tau = 0.58 (LASSO) / 0.65 (RF), I2 = 0.71-0.72.
+## Post hoc P6: CRC-only deployment simulation over the 11 CRC sites (posthoc_crc_deploy.py; 1% prevalence)
+Months 7-12, mean FPR / share > 0.12 / sensitivity: source .142/.545/.535; local_q .108/.205/.499; prevalence-bounded
+.103/.130/.492; verified-positive .083/.003/.495; oracle .110/.091/.517. Locked CRC sites only: source .189/.833/.644;
+prevalence-bounded .099/.071/.509; verified-positive .087/.004/.514. Caveat: small cohorts resampled with replacement.

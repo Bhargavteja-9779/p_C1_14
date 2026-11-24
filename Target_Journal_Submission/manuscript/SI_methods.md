@@ -135,6 +135,13 @@ order (50 per month), cases inserted at prevalence 1% or 5%, FPR measured on con
 Table S10). P4: downward drift (-0.5 logit from month 7) and the primary endpoint restricted to sites with >= 40 controls,
 aggregated per cohort (Table S2c). D10 (development): label-free site-wise standardisation (Table S7).
 
+## S7c. Code changes after the freeze (disclosure)
+After the locked analysis, two functions were added to src/calibrate.py: a high-confidence option (argument delta) for
+the verified-positive rule and a high-confidence prevalence-bounded quantile (contam_quantile_hc). Existing functions
+were not changed in behaviour (delta defaults to None, which reproduces the frozen rule), so all locked results are
+unchanged; the file therefore no longer matches its frozen SHA-256 in protocol_freeze_hashes.txt. The frozen version is
+recoverable from the freeze commit. High-confidence results are post hoc.
+
 ## S8. Software and reproducibility
 Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. The proposed rule is released as the open-source Python
 package `cutoffguard` (functions for site audits, sequential and per-group recalibration, and a command-line tool). All code, the frozen protocol, the development log and

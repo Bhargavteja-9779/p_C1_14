@@ -57,6 +57,15 @@ class GroupRecalibrator:
             if sel.any(): rec.update(s[sel], v[sel], l[sel])
         return {k: rec.cutoff for k, rec in self.r.items()}
 
+def prevalence_bounded_threshold(scores, alpha=0.10, pi_max=0.05, delta=None):
+    """Label-free cut-off from unlabelled scores of tested people, valid for any disease-score distribution when
+    prevalence <= pi_max. delta=None: expected FPR <= alpha; delta: P(FPR > alpha) <= delta (binomial bound)."""
+    u = np.sort(np.asarray(scores, float)); m = len(u); q = (1 - alpha) * (1 - pi_max) + pi_max
+    if delta is None:
+        k = int(np.ceil((m + 1) * q)); return float(u[k - 1]) if k <= m else np.inf
+    rs = np.arange(1, m + 1); ok = rs[stats.binom.sf(rs - 1, m, q) <= delta]
+    return float(u[ok.min() - 1]) if len(ok) else np.inf
+
 def audit_sites(scores, labels, sites, cutoff, alpha=0.10):
     """Realised false-positive rate of a fixed cut-off at each site with an exact binomial test against alpha."""
     s, y, g = map(np.asarray, (scores, labels, sites)); out = []

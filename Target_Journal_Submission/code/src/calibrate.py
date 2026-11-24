@@ -152,3 +152,11 @@ class SequentialRecalibrator:
         tau = np.concatenate([self.TAU[i] if i < hi - self.delay else np.full(len(self.U[i]), np.inf) for i in range(lo, hi)])
         self.t = verified_positive_seq(np.concatenate(self.U[lo:hi]), tau, np.concatenate(self.L[lo:hi]), self.alpha, self.pi_max, self.delta)
         return self.t
+
+
+def contam_quantile_hc(u, alpha, pi_max, delta=0.10):
+    """High-confidence prevalence-bounded quantile (post hoc comparator): rank r chosen so that, under the prevalence
+    bound, P(FPR > alpha) <= delta (binomial order-statistic bound on the pool at level q)."""
+    u = np.sort(u); m = len(u); q = (1 - alpha) * (1 - pi_max) + pi_max
+    rs = np.arange(1, m + 1); ok = rs[stats.binom.sf(rs - 1, m, q) <= delta]
+    return u[ok.min() - 1] if len(ok) else np.inf

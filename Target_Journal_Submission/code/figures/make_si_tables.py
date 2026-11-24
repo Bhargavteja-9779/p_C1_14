@@ -72,9 +72,13 @@ out.append("## Table S9. MetaCardis condition effects with progressive adjustmen
            pd.read_csv(os.path.join(AD, "posthoc_metacardis_drugadjusted.csv")).round(4).to_markdown(index=False))
 out.append("### Table S9b. Species decomposition of score gaps in MetaCardis (LASSO, logit)\n\n" +
            pd.read_csv(os.path.join(AD, "posthoc_metacardis_decomposition.csv")).round(3).to_markdown(index=False))
-St = pd.read_csv(os.path.join(AD, "posthoc_stream_noreplacement.csv.gz")); St = St[St.month >= 3]; St["over"] = St.fpr_future > 0.12
-out.append("## Table S10. Prospective-style evaluation without resampling (post hoc P3; months >= 3; FPR on not-yet-seen controls)\n\n" +
-           St.groupby(["site", "pi", "method"]).agg(FPR=("fpr_future", "mean"), share_over_012=("over", "mean")).round(3).reset_index().to_markdown(index=False))
+St = pd.read_csv(os.path.join(AD, "posthoc_stream_v2.csv.gz")); St = St[St.month >= 3]; St["over"] = St.fpr_future > 0.12
+St["kind"] = St.tag.str.split("|").str[0]; St["site"] = St.tag.str.split("|").str[2]
+out.append("## Table S10. Evaluation without resampling (post hoc P3b; 25 per month; months >= 3; FPR on not-yet-seen controls). "
+           "Random order per site, and MetaCardis controls entering country by country (all 6 orders). *_hc = high-confidence (delta = 0.10).\n\n" +
+           St[St.kind == "random"].groupby(["site", "pi", "method"]).agg(FPR=("fpr_future", "mean"), share_over_012=("over", "mean")).round(3).reset_index().to_markdown(index=False)
+           + "\n\nCountry-ordered MetaCardis (T2D test):\n\n" +
+           St[St.kind == "country"].groupby(["method"]).agg(FPR=("fpr_future", "mean"), share_over_012=("over", "mean")).round(3).reset_index().to_markdown(index=False))
 dd = pd.read_csv(os.path.join(AD, "posthoc_drift_down.csv.gz")); dd["per"] = pd.cut(dd.month, [0, 6, 9, 12, 18], labels=["1-6", "7-9", "10-12", "13-18"])
 out.append("### Table S2c. Downward drift (-0.5 logit from month 7; post hoc P4): mean FPR and sensitivity by period\n\n" +
            dd.groupby(["per", "method"], observed=True).agg(FPR=("fpr", "mean"), Sens=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
