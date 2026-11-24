@@ -65,3 +65,46 @@ State: manuscript v2 done after review round 1 (commit ddb3b9d+). Branch `claude
 4. Open items (limitations / needs authors): MMUPHin/ConQuR/DEBIAS-M, SIAMCAT pipeline, boosting model, 2nd profiler,
    CD/UC split, temporal drift, FIT benchmark; placeholders (authors, contributions, COI, funding, AI statement, GitHub/Zenodo);
    iMeta JIF/quartile unverified in JCR.
+
+
+## RESUME HERE (handoff written 2026-11-24, session 3, branch `claude/beautiful-goldberg-37nqmw`)
+This branch MERGES both earlier lines (kind-ramanujan manuscript v2; quirky-mayer RECHECK with the leakage fix:
+ThomasAM_2019_c duplicates YachidaS_2019 and is removed everywhere). The paper was REFRAMED (novelty escalation round 3).
+
+### New story (manuscript: Target_Journal_Submission/manuscript/manuscript_v3.md, figures_v3/)
+"The false-positive rate of a gut-microbiome test belongs to the population, not to the test."
+1. Atlas: CRC/IBD/T2D classifiers (LASSO, RF; cut-off = 90th pct of LOCO training-control scores) applied to 8,329 healthy
+   adults, 60 cohorts, 28 countries never seen in training. FPR 0-56% (LASSO CRC), 0-87% (RF CRC); 61-69% of populations
+   outside 0.05-0.15; pooled FPR looks fine (0.05/0.12/0.14).
+2. Cohort effect: ICC 0.20-0.42, unchanged by age/sex/BMI/depth/diversity (A4 confirmed). A2 (shared propensity) and
+   A3 (non-westernised over-flagged by CRC test) FALSIFIED - reported.
+3. Fixes that fail (dev + locked): healthy-context residual, pooled atlas reference, composition-matched reference,
+   control augmentation (Wirbel 2021; post hoc, locked: 0.066 vs 0.070, P=0.69).
+4. Label-free burn-in self-calibration (k = ceil((N+1)(1-alpha(1-pi_max)))) + PAC variant: LOCKED pre-stated criterion MET
+   (N=100: P(FPR>.15)=0.085, error -54% vs status quo, PAC P(FPR>.10)=0.045). Exact beta-binomial law matches observed.
+Key files: code/experiments/atlas/{protocol_atlas.md, protocol_deploy.md, atlas_split.md, results_locked_v3.md,
+novelty_escalation_r3.md (all ideas tried, scorecard 24/30), atlas_run.py, analyse_a4.py, deploy_eval.py,
+summarise_deploy.py, control_augmentation.py, make_figures_v3.py, dev/explore_r1.py, dev/explore_r2.py, results/}.
+Do NOT re-run deploy_eval.py locked (pre-registered, run once). Prior-art positioning: Wirbel 2021 Genome Biol (control
+augmentation, >2-fold FPR), Hiseni 2026 Gut Microbes (6 countries), Bashari ICML 2025, refineR/kosmic - all in refs.
+
+### Journal
+iMeta Short Communication primary. User (2026-11-24): "any Frontiers journal also fine" -> Frontiers in Microbiology
+(median 59 d / P75 79 d) is the full-length fallback (journal_selection/selected_journal.md).
+
+### Rebuild data in a fresh container
+pip install scikit-learn==1.9.1 pandas scipy matplotlib pyreadr statsmodels; run the recipe above for sampleMetadata +
+ExperimentHub sqlite; then fetch the case-control cohorts listed above PLUS the healthy cohorts in
+code/experiments/atlas/healthy_studies.txt (BedarfJR_2017, PehrssonE_2016 are missing from the 2021-03-31 release - fine).
+export CMD_CACHE=<repo>/data_cache. Then `cd code/experiments/atlas && python3 -W ignore atlas_run.py && python3 covars.py`
+regenerates results/atlas_rows.csv.gz (gitignored? no - committed) as needed.
+
+### NEXT
+1. Review round 2 on manuscript_v3 was LAUNCHED but NOT received (editor, statistics, domain reviewers) - re-run them.
+   Anticipated issues: small-n cohorts inflating spread (estimate random-effects tau / compare with binomial noise);
+   non-general-population "controls" (VincentC_2016 hospital, RaymondF_2016 antibiotics, LokmerA_2019, FerrettiP_2018
+   mothers) -> sensitivity analysis on strict general-population subset; possible duplicated subjects across cohorts;
+   taxa driving over-flagging (atlas_coefs.csv).
+2. Supporting Information v3 (started: results/tableS1_cohorts.md); Tables S2 (ICC), S3 (dev fix attempts), S4
+   (deploy summary), S5 (earlier case-control analysis summary), S6 (control augmentation).
+3. Further review rounds, citation audit of v3, final package (iMeta docx, cover letter, graphical abstract).
