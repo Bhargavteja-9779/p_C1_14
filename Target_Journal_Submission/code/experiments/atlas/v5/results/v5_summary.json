@@ -1,0 +1,91 @@
+{
+ "H1_strict": {
+  "tests": 28,
+  "I2_ge_050": 28,
+  "I2_median": 0.9365117458546425,
+  "I2_range": [
+   0.6365108156532268,
+   0.9671061995719715
+  ],
+  "auroc65_tests": 16,
+  "auroc65_I2_ge_050": 16
+ },
+ "H2_strict_lasso": {
+  "var_test": 0.36615459635805986,
+  "var_pop": 0.30580816404017297,
+  "var_resid": 1.090484841756894,
+  "pop_share": 0.1735133366042938,
+  "test_share": 0.2077534650734154,
+  "units": 489,
+  "populations": 36
+ },
+ "H2_strict_rf": {
+  "var_test": 1.185313733557121,
+  "var_pop": 0.1946428276185972,
+  "var_resid": 1.2173684752905412,
+  "pop_share": 0.07493972640536925,
+  "test_share": 0.4563594147499448,
+  "units": 489,
+  "populations": 36
+ },
+ "H1_full": {
+  "tests": 28,
+  "I2_ge_050": 28,
+  "I2_median": 0.9169082009249967,
+  "I2_range": [
+   0.7124995792423351,
+   0.9586211401034198
+  ],
+  "auroc65_tests": 16,
+  "auroc65_I2_ge_050": 16
+ },
+ "H2_full_lasso": {
+  "var_test": 0.3285831422851994,
+  "var_pop": 0.27429225872591473,
+  "var_resid": 1.0582239641156275,
+  "pop_share": 0.16512694212304768,
+  "test_share": 0.19781064828721343,
+  "units": 739,
+  "populations": 55
+ },
+ "H2_full_rf": {
+  "var_test": 1.2340383148145855,
+  "var_pop": 0.2685980486965438,
+  "var_resid": 1.1318736561257796,
+  "pop_share": 0.1019537017109399,
+  "test_share": 0.4684128379153639,
+  "units": 739,
+  "populations": 55
+ },
+ "H3": {
+  "tests_decomposed": 14,
+  "taxa_in_ge4_tests": 0,
+  "taxa_in_ge3_tests": 2,
+  "top": {
+   "s__Ruminococcus_torques": 3,
+   "s__Bacteroides_vulgatus": 3,
+   "g__Parasutterella": 2,
+   "g__Veillonella": 2,
+   "k__Bacteria": 2,
+   "o__Proteobacteria_unclassified": 2,
+   "s__Collinsella_stercoris": 2,
+   "s__Enterobacter_cloacae_complex": 2,
+   "s__Alistipes_putredinis": 2,
+   "s__Bacteroides_xylanisolvens": 2,
+   "g__Bacteroides": 2,
+   "f__Tannerellaceae": 2
+  }
+ },
+ "H4": {
+  "tests": 28,
+  "tests_burn_better": 28,
+  "share": 1.0,
+  "mean_src": 0.10075646547579843,
+  "mean_burn": 0.038239921146154744,
+  "wilcoxon_tests_p": 7.450580596923828e-09
+ },
+ "expl_auroc_vs_tau": {
+  "spearman": -0.059660645867542425,
+  "p": 0.7629799320040598
+ }
+}

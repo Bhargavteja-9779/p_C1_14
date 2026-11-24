@@ -4,7 +4,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.jo
 from common_v4 import *                      # load, controls, populations, split, STRICT_DROP_STUDIES, DISEASES, ...
 from src.pipeline import make, logit, _log
 from sklearn.model_selection import GroupKFold
-OUT5 = os.path.join(HERE, "results"); os.makedirs(OUT5, exist_ok=True)
+HERE5 = os.path.dirname(os.path.abspath(__file__)); OUT5 = os.path.join(HERE5, "results"); os.makedirs(OUT5, exist_ok=True)
 A = 0.10
 
 def feature_icc(L_list):
