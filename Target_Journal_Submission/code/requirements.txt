@@ -3,3 +3,5 @@ pandas
 scipy
 matplotlib
 pyreadr
+statsmodels
+tabulate
