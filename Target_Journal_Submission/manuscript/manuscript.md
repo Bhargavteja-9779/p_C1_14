@@ -121,12 +121,12 @@ abstract) are available online.
 9. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Comput. 2002;14:21-41. https://doi.org/10.1162/089976602753284446
 10. Alexandari A, Kundaje A, Shrikumar A. Maximum likelihood with bias-corrected calibration is hard-to-beat at label shift adaptation. ICML 2020. https://doi.org/10.48550/arxiv.1901.06852
 11. Brummer N, Garcia-Romero D. Generative modelling for unsupervised score calibration. ICASSP 2014. https://doi.org/10.1109/icassp.2014.6853884
-12. Zheng [[initials]], et al. High AUROC can mask decision failure in sepsis transcriptomic classifiers. PLoS One. 2026. https://doi.org/10.1371/journal.pone.0357585
+12. Zheng H, Chen W. High AUROC can mask decision failure in sepsis transcriptomic classifiers: preprocessing stability outweighs post hoc calibration across cohorts. PLoS One. 2026;21:e0357585. https://doi.org/10.1371/journal.pone.0357585
 13. Wilks SS. Determination of sample sizes for setting tolerance limits. Ann Math Stat. 1941;12:91-96. https://doi.org/10.1214/aoms/1177731788
 14. Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction. Found Trends Mach Learn. 2023;16:494-591. https://doi.org/10.1561/2200000101
 15. Van Calster B, et al. Calibration: the Achilles heel of predictive analytics. BMC Med. 2019;17:230. https://doi.org/10.1186/s12916-019-1466-7
-16. Qiu [[initials]], Zhao, Zheng. Shift-adjusted Neyman-Pearson classifiers via single index modeling. Biometrics. 2026. https://doi.org/10.1093/biomtc/ujag138
-17. Zhang [[initials]], et al. CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction. Front Microbiol. 2026. https://doi.org/10.3389/fmicb.2026.1971707
+16. Qiu J, Zhao YQ, Zheng Y. Shift-adjusted Neyman-Pearson classifiers via single index modeling (SACSIM). Biometrics. 2026;82:ujag138. https://doi.org/10.1093/biomtc/ujag138
+17. Zhang Y, et al. CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction. Front Microbiol. 2026;17:1971707. https://doi.org/10.3389/fmicb.2026.1971707
 18. Sung H, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2021;71:209-249. https://doi.org/10.3322/caac.21660
 19. Baxter NT, et al. Microbiota-based model improves the sensitivity of fecal immunochemical test for detecting colonic lesions. Genome Med. 2016;8:37. https://doi.org/10.1186/s13073-016-0290-3
 20. Steyerberg EW, et al. Validation and updating of predictive logistic regression models: a study on sample size and shrinkage. Stat Med. 2004;23:2567-2586. https://doi.org/10.1002/sim.1844
