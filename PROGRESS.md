@@ -17,7 +17,7 @@ Commit + push after every phase (auto-save).
 - [x] First working version (src/calibrate.py; dev rounds 1-4)
 - [x] Novelty escalation loop (D6) rounds 1-4 (experiments/novelty_escalation_log.md); RF round 3 confirmation running
 - [ ] Final experiments
-- [ ] Manuscript
+- [~] Manuscript (draft v0.1 with placeholders; manuscript/manuscript.md)
 - [ ] Reviews 1-11
 - [ ] Final package
 
