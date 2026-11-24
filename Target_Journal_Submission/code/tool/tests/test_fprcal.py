@@ -47,7 +47,8 @@ def test_verify():
 
 def test_plan_monotone():
     p = plan(); assert [r["N"] for r in p] == sorted(r["N"] for r in p)
-    q = [r["expected_P(FPR>0.15)"] for r in p if r["N"] >= 50]  # small N: rank rounding makes it non-monotone; assert all(a >= b for a, b in zip(q, q[1:]))
+    # small N: rank rounding makes it non-monotone, so check from N = 50
+    q = [r["expected_P(FPR>0.15)"] for r in p if r["N"] >= 50]; assert all(a >= b for a, b in zip(q, q[1:]))
 
 
 def test_atlas():
