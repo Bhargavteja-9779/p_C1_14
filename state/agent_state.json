@@ -3,9 +3,9 @@
  "branch": "claude/trusting-mayer-1ipvjz",
  "cycle": 4,
  "pivots_used": 1,
- "phase": "REVIEW_ROUND_6",
- "step": "round 6 reviewers on v7",
- "last_action": "2026-11-24 v7 written after round 5",
+ "phase": "REVIEW_ROUND_7",
+ "step": "round 7 reviewers on v8",
+ "last_action": "2026-11-24 v8 written after round 6",
  "cycle_history": {
   "1": "case-control threshold transfer, CRC LOSO, conformal local-control threshold (manuscript v1/v2, branch kind-ramanujan)",
   "2": "RECHECK: journal re-verified, leakage bug ThomasAM_2019_c==YachidaS fixed, 85-paper prior-art map (branch quirky-mayer)",

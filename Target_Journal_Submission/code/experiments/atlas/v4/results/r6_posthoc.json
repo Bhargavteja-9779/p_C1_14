@@ -1,0 +1,21 @@
+{
+ "family_size": 34,
+ "surviving": [
+  "stress/NX1_pooled/N50/BURN_minus_SRC_mad",
+  "strict:lasso:A3_T2D_nonwest_minus_west_posthoc",
+  "random/all_full/N100/BURN_minus_SRC_mad",
+  "stress/accession/N50/BURN_minus_SRC_mad",
+  "stress/accession/N100/BURN_minus_SRC_mad",
+  "random/all_full/N100/BURN_minus_ALIGN_mad",
+  "within-site N100 (post hoc)",
+  "random/all_strict/N100/BURN_minus_SRC_mad",
+  "random/all_strict/N100/ALIGN_minus_SRC_mad",
+  "random/all_full/N100/ALIGN_minus_SRC_mad"
+ ],
+ "A5_pop": {
+  "populations": 8,
+  "mean_diff": 0.32942708333333337,
+  "pops_local_better": 8,
+  "wilcoxon_p": 0.0078125
+ }
+}

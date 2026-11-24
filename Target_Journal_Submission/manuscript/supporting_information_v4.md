@@ -1,7 +1,7 @@
 # Supporting Information (v4)
 
-Tables S1–S13 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
-Figure S1 is `figures_v6/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
+Tables S1–S14 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
+Figure S1 is `figures_v7/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
 
 ## S1. Methods
 
@@ -103,8 +103,8 @@ labelled controls.
 ### Statistics and inference
 Units that share a population are not independent. Confidence intervals therefore come from a population-cluster
 bootstrap (2,000 resamples of distinct evaluation populations). Tests are Wilcoxon signed-rank tests on population
-means. We report the number of distinct populations behind every comparison. Holm correction was applied across the 12
-population-level P values reported in the main text (Table S10). Under random splits, the share of burn-ins with
+means. We report the number of distinct populations behind every comparison. Holm correction was applied across all 34
+population-level P values computed, reported or not (Table S10). Under random splits, the share of burn-ins with
 FPR > 0.15 follows a beta-binomial law whatever the data. This only checks the implementation; it is not evidence about
 exchangeability.
 

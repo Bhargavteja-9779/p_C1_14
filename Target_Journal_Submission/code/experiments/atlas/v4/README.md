@@ -1,4 +1,4 @@
-# v4 analysis (manuscript v4) — how to reproduce
+# v4 analysis pipeline (manuscripts v4–v8) — how to reproduce
 
 Plan written before running: `protocol_v4.md` (deviations D1–D4 at its end). All outputs land in `results/`.
 Every script that writes results refuses to run if its output already exists, so committed results are never
@@ -26,12 +26,14 @@ export CMD_CACHE=$PWD/data_cache
 | counts | `counts_v4.py` | counts_v4.json | <1 min |
 | post hoc (review round 3) | `r3_posthoc.py` | r3_posthoc.json, r3_a5_fair.csv | 1 min |
 | post hoc (review round 5) | `neardup_check.py`, `dedup095_sensitivity.py`, `holm_v5.py` | neardup_check.csv, dedup095_sensitivity.json, holm_v5.csv | 10 min |
-| figures (manuscript v7, current) | `make_figures_v6.py`, `make_graphical_abstract.py` | ../../../../manuscript/figures_v6/, ga_inband.json | <1 min |
+| post hoc (review round 6) | `r6_posthoc.py` | holm_v6.csv, r6_posthoc.json | <1 s |
+| figures (manuscript v8, current) | `make_figures_v7.py`, `make_graphical_abstract.py` | ../../../../manuscript/figures_v7/ | <1 min |
+| figures (manuscript v7, superseded) | `make_figures_v6.py` | ../../../../manuscript/figures_v6/ | <1 min |
 | figures (manuscript v5/v6, superseded) | `make_figures_v5.py` | ../../../../manuscript/figures_v5/ | <1 min |
 | figures (manuscript v4, superseded) | `make_figures_v4.py` | ../../../../manuscript/figures_v4/ | <1 min |
 | SI tables | `make_si_v4.py` | ../../../../manuscript/si_tables_v4.md | <1 min |
 
-Then from the repository root: `python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v7.md` (current version)
+Then from the repository root: `python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v8.md` (current version)
 checks that every number in the manuscript matches a value in the result files.
 
 ## Software

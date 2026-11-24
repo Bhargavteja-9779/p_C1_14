@@ -78,6 +78,12 @@
   },
   {
    "id": "R6_review_round_6",
+   "status": "done",
+   "attempts": 1,
+   "note": "7/8/7.5 minor; 3 MAJOR fixed in v8"
+  },
+  {
+   "id": "R7_review_round_7",
    "status": "running",
    "attempts": 1
   }

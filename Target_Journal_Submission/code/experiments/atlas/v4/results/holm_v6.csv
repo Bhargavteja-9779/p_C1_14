@@ -1,0 +1,35 @@
+test,p,holm
+stress/NX1_pooled/N50/BURN_minus_SRC_mad,0.00014960765838623047,0.005086660385131836
+strict:lasso:A3_T2D_nonwest_minus_west_posthoc,0.0003166279364157,0.0104487219017181
+random/all_full/N100/BURN_minus_SRC_mad,0.00048828125,0.015625
+stress/accession/N50/BURN_minus_SRC_mad,0.0004944801330566406,0.015625
+stress/accession/N100/BURN_minus_SRC_mad,0.000732421875,0.02197265625
+random/all_full/N100/BURN_minus_ALIGN_mad,0.000732421875,0.02197265625
+within-site N100 (post hoc),0.000732421875,0.02197265625
+random/all_strict/N100/BURN_minus_SRC_mad,0.0009765625,0.0263671875
+random/all_strict/N100/ALIGN_minus_SRC_mad,0.0009765625,0.0263671875
+random/all_full/N100/ALIGN_minus_SRC_mad,0.001708984375,0.042724609375
+stress/NX1_pooled/N100/BURN_minus_SRC_mad,0.00244140625,0.05859375
+stress/covariate/N50/BURN_minus_SRC_mad,0.0029296875,0.0673828125
+random/all_strict/N100/BURN_minus_ALIGN_mad,0.0029296875,0.0673828125
+"A5 local vs country reference (post hoc, by population)",0.0078125,0.1640625
+full:lasso:A3_T2D_nonwest_minus_west_posthoc,0.0089474995338193,0.178949990676386
+random/locked_full/N100/BURN_minus_ALIGN_mad,0.015625,0.296875
+stress/covariate/N100/BURN_minus_SRC_mad,0.015625,0.296875
+strict:lasso:A3_CRC_nonwest_minus_west,0.0162523016623631,0.296875
+random/locked_full/N100/BURN_minus_SRC_mad,0.03125,0.5
+h2h:burn_vs_aug_N50,0.0546875,0.8203125
+random/locked_full/N100/ALIGN_minus_SRC_mad,0.078125,1.0
+h2h:burn_vs_aug_N100,0.21875,1.0
+strict:rf:A3_T2D_nonwest_minus_west_posthoc,0.3699604045197732,1.0
+full:lasso:A3_CRC_nonwest_minus_west,0.3789885392233226,1.0
+strict:lasso:A3_IBD_nonwest_minus_west_posthoc,0.5600045867195844,1.0
+stress/neighbour/N100/BURN_minus_SRC_mad,0.5703125,1.0
+h2h:aug_vs_noaug_all_locked,0.5792817249894142,1.0
+full:rf:A3_IBD_nonwest_minus_west_posthoc,0.6490376106815465,1.0
+strict:rf:A3_IBD_nonwest_minus_west_posthoc,0.6680027179476349,1.0
+strict:rf:A3_CRC_nonwest_minus_west,0.7074914418494711,1.0
+stress/neighbour/N50/BURN_minus_SRC_mad,0.76953125,1.0
+full:lasso:A3_IBD_nonwest_minus_west_posthoc,0.774733466027592,1.0
+full:rf:A3_T2D_nonwest_minus_west_posthoc,0.8220738366312337,1.0
+full:rf:A3_CRC_nonwest_minus_west,0.9610916515339518,1.0

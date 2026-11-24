@@ -459,21 +459,43 @@ Population-level shifts and oral-taxa share:
 | False    | rf      | A5_T2D_local100_inband_share      |   1.000 | nan     | 11       | nan     | nan     |
 | False    | rf      | A5_T2D_country_ref_inband_share   |   0.250 | nan     | 36       | nan     | nan     |
 
-## Table S10. Holm correction over the 12 population-level P values reported in the main text (family defined after the results)
-| test                                                                |     p |   holm |
-|:--------------------------------------------------------------------|------:|-------:|
-| T2D LASSO non-west strict (post hoc)                                | 0.000 |  0.004 |
-| BURN-SRC within-site non-random N100 (post hoc grouping)            | 0.001 |  0.008 |
-| BURN-SRC strict N100 random split (training cut-off miscalibration) | 0.001 |  0.010 |
-| BURN-SRC pre-stated pooled non-random (incl. cross-site) N100       | 0.002 |  0.022 |
-| BURN-ALIGN locked N100                                              | 0.016 |  0.125 |
-| A3 CRC LASSO strict                                                 | 0.016 |  0.125 |
-| BURN-SRC locked N100 (pop Wilcoxon)                                 | 0.031 |  0.188 |
-| BURN vs augmentation N100                                           | 0.219 |  1.000 |
-| A3 CRC LASSO full                                                   | 0.379 |  1.000 |
-| BURN-SRC neighbour N100                                             | 0.570 |  1.000 |
-| augmentation vs none                                                | 0.579 |  1.000 |
-| A3 CRC RF strict                                                    | 0.707 |  1.000 |
+## Table S10. Holm correction over all 34 population-level P values computed in v4 and post hoc analyses (reported or not)
+| test                                                    |     p |   holm |
+|:--------------------------------------------------------|------:|-------:|
+| stress/NX1_pooled/N50/BURN_minus_SRC_mad                | 0.000 |  0.005 |
+| strict:lasso:A3_T2D_nonwest_minus_west_posthoc          | 0.000 |  0.010 |
+| random/all_full/N100/BURN_minus_SRC_mad                 | 0.000 |  0.016 |
+| stress/accession/N50/BURN_minus_SRC_mad                 | 0.000 |  0.016 |
+| stress/accession/N100/BURN_minus_SRC_mad                | 0.001 |  0.022 |
+| random/all_full/N100/BURN_minus_ALIGN_mad               | 0.001 |  0.022 |
+| within-site N100 (post hoc)                             | 0.001 |  0.022 |
+| random/all_strict/N100/BURN_minus_SRC_mad               | 0.001 |  0.026 |
+| random/all_strict/N100/ALIGN_minus_SRC_mad              | 0.001 |  0.026 |
+| random/all_full/N100/ALIGN_minus_SRC_mad                | 0.002 |  0.043 |
+| stress/NX1_pooled/N100/BURN_minus_SRC_mad               | 0.002 |  0.059 |
+| stress/covariate/N50/BURN_minus_SRC_mad                 | 0.003 |  0.067 |
+| random/all_strict/N100/BURN_minus_ALIGN_mad             | 0.003 |  0.067 |
+| A5 local vs country reference (post hoc, by population) | 0.008 |  0.164 |
+| full:lasso:A3_T2D_nonwest_minus_west_posthoc            | 0.009 |  0.179 |
+| random/locked_full/N100/BURN_minus_ALIGN_mad            | 0.016 |  0.297 |
+| stress/covariate/N100/BURN_minus_SRC_mad                | 0.016 |  0.297 |
+| strict:lasso:A3_CRC_nonwest_minus_west                  | 0.016 |  0.297 |
+| random/locked_full/N100/BURN_minus_SRC_mad              | 0.031 |  0.500 |
+| h2h:burn_vs_aug_N50                                     | 0.055 |  0.820 |
+| random/locked_full/N100/ALIGN_minus_SRC_mad             | 0.078 |  1.000 |
+| h2h:burn_vs_aug_N100                                    | 0.219 |  1.000 |
+| strict:rf:A3_T2D_nonwest_minus_west_posthoc             | 0.370 |  1.000 |
+| full:lasso:A3_CRC_nonwest_minus_west                    | 0.379 |  1.000 |
+| strict:lasso:A3_IBD_nonwest_minus_west_posthoc          | 0.560 |  1.000 |
+| stress/neighbour/N100/BURN_minus_SRC_mad                | 0.570 |  1.000 |
+| h2h:aug_vs_noaug_all_locked                             | 0.579 |  1.000 |
+| full:rf:A3_IBD_nonwest_minus_west_posthoc               | 0.649 |  1.000 |
+| strict:rf:A3_IBD_nonwest_minus_west_posthoc             | 0.668 |  1.000 |
+| strict:rf:A3_CRC_nonwest_minus_west                     | 0.707 |  1.000 |
+| stress/neighbour/N50/BURN_minus_SRC_mad                 | 0.770 |  1.000 |
+| full:lasso:A3_IBD_nonwest_minus_west_posthoc            | 0.775 |  1.000 |
+| full:rf:A3_T2D_nonwest_minus_west_posthoc               | 0.822 |  1.000 |
+| full:rf:A3_CRC_nonwest_minus_west                       | 0.961 |  1.000 |
 
 ## Table S11. Contaminated burn-in in locked case–control cohorts
 |   N |    pi |   pimax | method   |   units |   pops |   fpr |   p15 |   sens |
@@ -772,4 +794,27 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
    "err": 0.1
   }
  ]
+}
+
+## Table S14. Post hoc (review round 6): local-vs-country reference by population, and Holm summary
+{
+ "family_size": 34,
+ "surviving": [
+  "stress/NX1_pooled/N50/BURN_minus_SRC_mad",
+  "strict:lasso:A3_T2D_nonwest_minus_west_posthoc",
+  "random/all_full/N100/BURN_minus_SRC_mad",
+  "stress/accession/N50/BURN_minus_SRC_mad",
+  "stress/accession/N100/BURN_minus_SRC_mad",
+  "random/all_full/N100/BURN_minus_ALIGN_mad",
+  "within-site N100 (post hoc)",
+  "random/all_strict/N100/BURN_minus_SRC_mad",
+  "random/all_strict/N100/ALIGN_minus_SRC_mad",
+  "random/all_full/N100/ALIGN_minus_SRC_mad"
+ ],
+ "A5_pop": {
+  "populations": 8,
+  "mean_diff": 0.32942708333333337,
+  "pops_local_better": 8,
+  "wilcoxon_p": 0.0078125
+ }
 }

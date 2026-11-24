@@ -25,7 +25,7 @@ c = json.load(open(R("counts_v4.json"))); dup = pd.read_csv(R("duplicates.csv"))
 D = dup.groupby(["sa", "sb"]).agg(pairs=("r", "size"), removed=("removed", lambda x: x.notna().sum()), min_r=("r", "min")).reset_index()
 het = pd.read_csv(R("heterogeneity_v4.csv"))[["strict", "disease", "model", "populations", "people", "pooled", "tau", "I2", "pi_lo", "pi_hi", "p10", "p90", "n100_pops", "n100_min", "n100_max", "oob_obs", "oob_exp", "pooled_raw", "pooled_raw_folds"]]
 cov = pd.read_csv(R("covariates_v4.csv"))[["strict", "disease", "model", "people", "pops_used", "pops_available", "icc_raw", "icc_spec", "between_var_change_spec", "icc_ext", "between_var_change_ext"]]
-hyp = pd.read_csv(R("hypotheses_v4.csv")); tab = pd.read_csv(R("summary_v4_table.csv")); hol = pd.read_csv(R("holm_v5.csv"))
+hyp = pd.read_csv(R("hypotheses_v4.csv")); tab = pd.read_csv(R("summary_v4_table.csv")); hol = pd.read_csv(R("holm_v6.csv"))
 ca = pd.read_csv(R("control_augmentation_v4.csv")); ca["err"] = (ca.fpr - .10).abs()
 CA = ca.groupby(["disease", "model", "aug"]).agg(populations=("pop", "size"), mean_abs_err=("err", "mean"), max_fpr=("fpr", "max")).reset_index()
 tt = pd.read_csv(R("taxa_top_v4.csv")); ts = pd.read_csv(R("taxa_shift_v4.csv"))
@@ -72,7 +72,7 @@ Population-level shifts and oral-taxa share:
 ## Table S9. Pre-specified atlas hypotheses A1–A3, A5 (protocol_atlas.md), de-duplicated data
 {md(hyp)}
 
-## Table S10. Holm correction over the 12 population-level P values reported in the main text (family defined after the results)
+## Table S10. Holm correction over all 34 population-level P values computed in v4 and post hoc analyses (reported or not)
 {md(hol)}
 
 ## Table S11. Contaminated burn-in in locked case–control cohorts
@@ -86,5 +86,8 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
 
 ## Table S13. Post hoc (review round 5): de-duplication at r > 0.95 (same rules), strict-set heterogeneity and augmentation
 {json.dumps(json.load(open(R("dedup095_sensitivity.json"))), indent=1)}
+
+## Table S14. Post hoc (review round 6): local-vs-country reference by population, and Holm summary
+{json.dumps(json.load(open(R("r6_posthoc.json"))), indent=1)}
 """
 open(os.path.join(MS, "si_tables_v4.md"), "w").write(out); print("written", len(out))
