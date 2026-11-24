@@ -42,7 +42,7 @@ reference, composition-matched reference all falsified; control augmentation gav
 ## Commands
 - Status: `python3 scripts/status.py`
 - Rebuild data (fresh container, ~3 min): `scripts/rebuild_cache.sh`
-- Atlas rerun: `cd Target_Journal_Submission/code/experiments/atlas && CMD_CACHE=$PWD/../../../../data_cache python3 -W ignore atlas_run.py`
+- Reproduce v4: see Target_Journal_Submission/code/experiments/atlas/v4/README.md (run order)
 - Supervisor (local machine only): start `nohup scripts/supervisor.sh &`; stop `touch state/STOP`; logs `logs/supervisor.log`.
   Remove autostart: nothing installed (cloud container is ephemeral).
 - Move account: everything is pushed to GitHub; in the new session paste BOOTSTRAP_PROMPT.txt.
