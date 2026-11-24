@@ -1,7 +1,7 @@
 # Supporting Information (v4)
 
-Tables S1–S12 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
-Figure S1 is `figures_v5/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
+Tables S1–S13 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
+Figure S1 is `figures_v6/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
 
 ## S1. Methods
 
@@ -33,9 +33,10 @@ person, excluding every cohort used to train that classifier.
 **De-duplication (P0).** All profiles used anywhere (training cases and controls, healthy populations) were compared
 across cohorts. Pairs with log-profile Pearson r > 0.99 were treated as one person. The copy in the case–control study
 was kept. If both copies were in healthy-only cohorts, the copy in the smaller cohort was removed. A cohort that lost at
-least 50% of its people was dropped. Result: 119 samples removed (ThomasAM_2019_c = YachidaS_2019, all 80; DhakanDB_2019
+least 50% of its people was dropped. Result (r > 0.99): 119 samples removed (ThomasAM_2019_c = YachidaS_2019, all 80; DhakanDB_2019
 copies of GuptaA_2019; JieZ_2017 copies of QinJ_2012), ThomasAM_2019_c dropped (Table S7). No duplicates were found
-between case–control cohorts.
+between case–control cohorts. Post hoc, a threshold of r > 0.95 removed 8 more samples and changed no reported result
+(Table S13; the distribution of best cross-cohort matches has no clean gap, most samples at r = 0.85–0.90).
 
 **Strict set (primary; P1).** Person level: disease recorded as healthy, not on antibiotics, not pregnant or lactating,
 no family role recorded (mothers in mother–infant studies). Study level: 20 cohorts whose controls are not general
@@ -102,7 +103,7 @@ labelled controls.
 ### Statistics and inference
 Units that share a population are not independent. Confidence intervals therefore come from a population-cluster
 bootstrap (2,000 resamples of distinct evaluation populations). Tests are Wilcoxon signed-rank tests on population
-means. We report the number of distinct populations behind every comparison. Holm correction was applied across the 11
+means. We report the number of distinct populations behind every comparison. Holm correction was applied across the 12
 population-level P values reported in the main text (Table S10). Under random splits, the share of burn-ins with
 FPR > 0.15 follows a beta-binomial law whatever the data. This only checks the implementation; it is not evidence about
 exchangeability.

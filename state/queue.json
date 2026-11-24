@@ -72,6 +72,12 @@
   },
   {
    "id": "R5_review_round_5",
+   "status": "done",
+   "attempts": 1,
+   "note": "stats 7 minor; novelty 8 minor; editor 7.5 minor"
+  },
+  {
+   "id": "R6_review_round_6",
    "status": "running",
    "attempts": 1
   }

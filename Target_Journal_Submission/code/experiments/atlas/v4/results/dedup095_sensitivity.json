@@ -1,0 +1,116 @@
+{
+ "threshold": 0.95,
+ "extra_removed": 8,
+ "pairs": {
+  "CosteaPI_2017~WirbelJ_2018": 6,
+  "LeChatelierE_2013~MetaCardis_2020_a": 4,
+  "DhakanDB_2019~GuptaA_2019": 2,
+  "JieZ_2017~QinJ_2012": 2,
+  "AsnicarF_2021~XieH_2016": 1
+ },
+ "heterogeneity_strict": {
+  "CRC_lasso": {
+   "populations": 32,
+   "I2": 0.8039438702458661,
+   "pi_lo": 0.013394303857135872,
+   "pi_hi": 0.21834504893430487
+  },
+  "CRC_rf": {
+   "populations": 32,
+   "I2": 0.7057649552848297,
+   "pi_lo": 0.01610873360907105,
+   "pi_hi": 0.14410904946629208
+  },
+  "IBD_lasso": {
+   "populations": 35,
+   "I2": 0.9530743589247241,
+   "pi_lo": 0.01114281661321342,
+   "pi_hi": 0.6302346261143515
+  },
+  "IBD_rf": {
+   "populations": 35,
+   "I2": 0.9532887616907819,
+   "pi_lo": 0.004830316390255265,
+   "pi_hi": 0.6460472223349413
+  },
+  "T2D_lasso": {
+   "populations": 34,
+   "I2": 0.9441551326147589,
+   "pi_lo": 0.01835963967808453,
+   "pi_hi": 0.5434890658511622
+  },
+  "T2D_rf": {
+   "populations": 34,
+   "I2": 0.9111917711422564,
+   "pi_lo": 0.007919762199098785,
+   "pi_hi": 0.3431821277570792
+  }
+ },
+ "augmentation_IBD_T2D_mean_abs_err": "{('IBD', 'lasso', False): 0.1024, ('IBD', 'lasso', True): 0.0671, ('IBD', 'rf', False): 0.1026, ('IBD', 'rf', True): 0.0587, ('T2D', 'lasso', False): 0.1135, ('T2D', 'lasso', True): 0.0834, ('T2D', 'rf', False): 0.0591, ('T2D', 'rf', True): 0.0991}",
+ "GuptaA": [
+  {
+   "disease": "IBD",
+   "model": "lasso",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.621,
+   "err": 0.521
+  },
+  {
+   "disease": "IBD",
+   "model": "lasso",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.034,
+   "err": 0.066
+  },
+  {
+   "disease": "IBD",
+   "model": "rf",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.759,
+   "err": 0.659
+  },
+  {
+   "disease": "IBD",
+   "model": "rf",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.103,
+   "err": 0.003
+  },
+  {
+   "disease": "T2D",
+   "model": "lasso",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.103,
+   "err": 0.003
+  },
+  {
+   "disease": "T2D",
+   "model": "lasso",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.069,
+   "err": 0.031
+  },
+  {
+   "disease": "T2D",
+   "model": "rf",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.034,
+   "err": 0.066
+  },
+  {
+   "disease": "T2D",
+   "model": "rf",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.0,
+   "err": 0.1
+  }
+ ]
+}

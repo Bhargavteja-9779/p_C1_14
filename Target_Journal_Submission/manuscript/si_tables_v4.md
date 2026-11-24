@@ -459,20 +459,21 @@ Population-level shifts and oral-taxa share:
 | False    | rf      | A5_T2D_local100_inband_share      |   1.000 | nan     | 11       | nan     | nan     |
 | False    | rf      | A5_T2D_country_ref_inband_share   |   0.250 | nan     | 36       | nan     | nan     |
 
-## Table S10. Holm correction over the 11 population-level P values reported in the main text
-| test                                 |     p |   holm |
-|:-------------------------------------|------:|-------:|
-| T2D LASSO non-west strict (post hoc) | 0.000 |  0.003 |
-| BURN-SRC strict N100                 | 0.001 |  0.010 |
-| BURN-SRC NX1 pooled N100             | 0.002 |  0.022 |
-| BURN-ALIGN locked N100               | 0.016 |  0.125 |
-| A3 CRC LASSO strict                  | 0.016 |  0.125 |
-| BURN-SRC locked N100 (pop Wilcoxon)  | 0.031 |  0.188 |
-| BURN vs augmentation N100            | 0.219 |  1.000 |
-| A3 CRC LASSO full                    | 0.379 |  1.000 |
-| BURN-SRC neighbour N100              | 0.570 |  1.000 |
-| augmentation vs none                 | 0.579 |  1.000 |
-| A3 CRC RF strict                     | 0.707 |  1.000 |
+## Table S10. Holm correction over the 12 population-level P values reported in the main text (family defined after the results)
+| test                                                                |     p |   holm |
+|:--------------------------------------------------------------------|------:|-------:|
+| T2D LASSO non-west strict (post hoc)                                | 0.000 |  0.004 |
+| BURN-SRC within-site non-random N100 (post hoc grouping)            | 0.001 |  0.008 |
+| BURN-SRC strict N100 random split (training cut-off miscalibration) | 0.001 |  0.010 |
+| BURN-SRC pre-stated pooled non-random (incl. cross-site) N100       | 0.002 |  0.022 |
+| BURN-ALIGN locked N100                                              | 0.016 |  0.125 |
+| A3 CRC LASSO strict                                                 | 0.016 |  0.125 |
+| BURN-SRC locked N100 (pop Wilcoxon)                                 | 0.031 |  0.188 |
+| BURN vs augmentation N100                                           | 0.219 |  1.000 |
+| A3 CRC LASSO full                                                   | 0.379 |  1.000 |
+| BURN-SRC neighbour N100                                             | 0.570 |  1.000 |
+| augmentation vs none                                                | 0.579 |  1.000 |
+| A3 CRC RF strict                                                    | 0.707 |  1.000 |
 
 ## Table S11. Contaminated burn-in in locked case–control cohorts
 |   N |    pi |   pimax | method   |   units |   pops |   fpr |   p15 |   sens |
@@ -654,3 +655,121 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
 | T2D       | rf      | XieH_2016          |                  0.750 |         0.308 |            0.000 |
 | T2D       | rf      | YachidaS_2019      |                  0.775 |       nan     |          nan     |
 | T2D       | rf      | ZeeviD_2015        |                  0.920 |       nan     |          nan     |
+
+## Table S13. Post hoc (review round 5): de-duplication at r > 0.95 (same rules), strict-set heterogeneity and augmentation
+{
+ "threshold": 0.95,
+ "extra_removed": 8,
+ "pairs": {
+  "CosteaPI_2017~WirbelJ_2018": 6,
+  "LeChatelierE_2013~MetaCardis_2020_a": 4,
+  "DhakanDB_2019~GuptaA_2019": 2,
+  "JieZ_2017~QinJ_2012": 2,
+  "AsnicarF_2021~XieH_2016": 1
+ },
+ "heterogeneity_strict": {
+  "CRC_lasso": {
+   "populations": 32,
+   "I2": 0.8039438702458661,
+   "pi_lo": 0.013394303857135872,
+   "pi_hi": 0.21834504893430487
+  },
+  "CRC_rf": {
+   "populations": 32,
+   "I2": 0.7057649552848297,
+   "pi_lo": 0.01610873360907105,
+   "pi_hi": 0.14410904946629208
+  },
+  "IBD_lasso": {
+   "populations": 35,
+   "I2": 0.9530743589247241,
+   "pi_lo": 0.01114281661321342,
+   "pi_hi": 0.6302346261143515
+  },
+  "IBD_rf": {
+   "populations": 35,
+   "I2": 0.9532887616907819,
+   "pi_lo": 0.004830316390255265,
+   "pi_hi": 0.6460472223349413
+  },
+  "T2D_lasso": {
+   "populations": 34,
+   "I2": 0.9441551326147589,
+   "pi_lo": 0.01835963967808453,
+   "pi_hi": 0.5434890658511622
+  },
+  "T2D_rf": {
+   "populations": 34,
+   "I2": 0.9111917711422564,
+   "pi_lo": 0.007919762199098785,
+   "pi_hi": 0.3431821277570792
+  }
+ },
+ "augmentation_IBD_T2D_mean_abs_err": "{('IBD', 'lasso', False): 0.1024, ('IBD', 'lasso', True): 0.0671, ('IBD', 'rf', False): 0.1026, ('IBD', 'rf', True): 0.0587, ('T2D', 'lasso', False): 0.1135, ('T2D', 'lasso', True): 0.0834, ('T2D', 'rf', False): 0.0591, ('T2D', 'rf', True): 0.0991}",
+ "GuptaA": [
+  {
+   "disease": "IBD",
+   "model": "lasso",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.621,
+   "err": 0.521
+  },
+  {
+   "disease": "IBD",
+   "model": "lasso",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.034,
+   "err": 0.066
+  },
+  {
+   "disease": "IBD",
+   "model": "rf",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.759,
+   "err": 0.659
+  },
+  {
+   "disease": "IBD",
+   "model": "rf",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.103,
+   "err": 0.003
+  },
+  {
+   "disease": "T2D",
+   "model": "lasso",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.103,
+   "err": 0.003
+  },
+  {
+   "disease": "T2D",
+   "model": "lasso",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.069,
+   "err": 0.031
+  },
+  {
+   "disease": "T2D",
+   "model": "rf",
+   "aug": false,
+   "pop": "GuptaA_2019",
+   "fpr": 0.034,
+   "err": 0.066
+  },
+  {
+   "disease": "T2D",
+   "model": "rf",
+   "aug": true,
+   "pop": "GuptaA_2019",
+   "fpr": 0.0,
+   "err": 0.1
+  }
+ ]
+}

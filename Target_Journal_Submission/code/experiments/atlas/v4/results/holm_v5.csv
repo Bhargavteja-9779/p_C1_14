@@ -1,0 +1,13 @@
+test,p,holm
+T2D LASSO non-west strict (post hoc),0.0003166279364157,0.0037995352369884
+BURN-SRC within-site non-random N100 (post hoc grouping),0.000732421875,0.008056640625
+BURN-SRC strict N100 random split (training cut-off miscalibration),0.0009765625,0.009765625
+BURN-SRC pre-stated pooled non-random (incl. cross-site) N100,0.00244140625,0.02197265625
+BURN-ALIGN locked N100,0.015625,0.125
+A3 CRC LASSO strict,0.0162523016623631,0.125
+BURN-SRC locked N100 (pop Wilcoxon),0.03125,0.1875
+BURN vs augmentation N100,0.21875,1.0
+A3 CRC LASSO full,0.3789885392233226,1.0
+BURN-SRC neighbour N100,0.5703125,1.0
+augmentation vs none,0.5792817249894142,1.0
+A3 CRC RF strict,0.7074914418494711,1.0

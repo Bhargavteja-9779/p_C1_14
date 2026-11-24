@@ -1,0 +1,8 @@
+== dedup.py
+== atlas_v4.py
+== analyse_atlas_v4.py
+== deploy_v4.py
+== summarise_v4.py
+heterogeneity max abs diff 0.0
+v3 criterion True H-NX1 True H-NX2 True
+excluded identical True
