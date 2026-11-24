@@ -1,7 +1,7 @@
 # PROGRESS (resume file)
 
 Any agent continuing this work: read this file first, then `git log`. Work happens on branch
-`claude/dreamy-clarke-rldxev`. All deliverables live in `Target_Journal_Submission/`.
+`claude/zen-planck-p60lrt` (earlier: `claude/dreamy-clarke-rldxev`, same history up to 1777afd). All deliverables live in `Target_Journal_Submission/`.
 Commit + push after every phase (auto-save).
 
 ## Environment notes
@@ -9,10 +9,10 @@ Commit + push after every phase (auto-save).
 
 ## Phase log
 - [x] Phase -1: repo skeleton created (2026-11-23)
-- [ ] STEP 0: journal landscape + 72-day evidence
-- [ ] STEP 1: benchmark 25 papers, level profile, style notes
-- [ ] STEP 2: real-life problem discovery
-- [ ] STEP 3: novelty map + scorecard
+- [x] STEP 0: journal landscape + 72-day evidence
+- [x] STEP 1: benchmark 25 papers, level profile, style notes
+- [x] STEP 2: real-life problem discovery
+- [ ] STEP 3: novelty map + scorecard (re-launched 2026-11-24; earlier background run was lost uncommitted)
 - [ ] Protocol pre-registration
 - [ ] First working version
 - [ ] Novelty escalation loop (D6)
@@ -38,3 +38,10 @@ Commit + push after every phase (auto-save).
   out-of-fold controls. Realised specificity per held-out cohort: LASSO 0.79-1.00, RF 0.72-1.00; overdispersion vs binomial
   chi2 p=0.004 (LASSO), p=2e-7 (RF). => threshold drift is real, not sampling noise. Mean AUC LASSO 0.78, RF 0.82.
 - STEP 3 running (background agent writing novelty_map.csv + novelty_search_log.md).
+
+## Session 2 (2026-11-24) resume notes
+- Container was fresh: data_cache/ rebuilt. Metadata = curatedMetagenomicData `devel` data/sampleMetadata.rda
+  (raw.githubusercontent.com; 22,588 x 141). ExperimentHub sqlite -> /tmp/claude-0/eh/eh.sqlite3.
+  Rebuild: `pip install scikit-learn scipy pandas pyreadr matplotlib`; then in data_cache/: `python3 ../fetch_cmd.py <studies>`
+  (MetaCardis via title `2022-10-19.MetaCardis_2020_a.relative_abundance`).
+- Round 1 dev exploration (code/experiments/dev/explore_v1.py) re-run (its log was empty in the commit).
