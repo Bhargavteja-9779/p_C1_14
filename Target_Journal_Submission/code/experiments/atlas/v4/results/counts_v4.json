@@ -1,0 +1,72 @@
+{
+ "strict": {
+  "people_any": 6525,
+  "populations_any": 36,
+  "countries": 20,
+  "non_westernised": 9,
+  "per_classifier": {
+   "CRC_lasso": {
+    "people": 6157,
+    "pops": 32
+   },
+   "CRC_rf": {
+    "people": 6157,
+    "pops": 32
+   },
+   "IBD_lasso": {
+    "people": 6466,
+    "pops": 35
+   },
+   "IBD_rf": {
+    "people": 6466,
+    "pops": 35
+   },
+   "T2D_lasso": {
+    "people": 6309,
+    "pops": 34
+   },
+   "T2D_rf": {
+    "people": 6309,
+    "pops": 34
+   }
+  }
+ },
+ "full": {
+  "people_any": 8160,
+  "populations_any": 55,
+  "countries": 27,
+  "non_westernised": 12,
+  "per_classifier": {
+   "CRC_lasso": {
+    "people": 7508,
+    "pops": 45
+   },
+   "CRC_rf": {
+    "people": 7508,
+    "pops": 45
+   },
+   "IBD_lasso": {
+    "people": 8076,
+    "pops": 53
+   },
+   "IBD_rf": {
+    "people": 8076,
+    "pops": 53
+   },
+   "T2D_lasso": {
+    "people": 7302,
+    "pops": 52
+   },
+   "T2D_rf": {
+    "people": 7302,
+    "pops": 52
+   }
+  }
+ },
+ "dedup": {
+  "excluded_samples": 119,
+  "dropped": [
+   "ThomasAM_2019_c"
+  ]
+ }
+}
