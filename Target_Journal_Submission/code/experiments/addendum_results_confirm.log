@@ -1,0 +1,30 @@
+    model             cohort     outcome         term     n  n_ppi    beta      lo      hi  p_one_sided                                       covs
+0   lasso  MetaCardis_2020_a       score          ppi  1831    295  0.0382 -0.0701  0.1465       0.2444  male+metformin+statin+aspirin+betablocker
+1   lasso  MetaCardis_2020_a       score    metformin  1831    295  0.4267  0.3048  0.5485       0.0000  male+metformin+statin+aspirin+betablocker
+2   lasso  MetaCardis_2020_a       score       statin  1831    295 -0.0118 -0.1173  0.0936       0.5870  male+metformin+statin+aspirin+betablocker
+3   lasso  MetaCardis_2020_a       score      aspirin  1831    295 -0.0181 -0.1452  0.1090       0.6101  male+metformin+statin+aspirin+betablocker
+4   lasso  MetaCardis_2020_a       score  betablocker  1831    295  0.0945 -0.0061  0.1951       0.0328  male+metformin+statin+aspirin+betablocker
+5   lasso  MetaCardis_2020_a        oral          ppi  1831    295  0.1751  0.1443  0.2058       0.0000  male+metformin+statin+aspirin+betablocker
+6   lasso  MetaCardis_2020_a        oral    metformin  1831    295 -0.0034 -0.0380  0.0312       0.5766  male+metformin+statin+aspirin+betablocker
+7   lasso  MetaCardis_2020_a        oral       statin  1831    295  0.0004 -0.0296  0.0303       0.4901  male+metformin+statin+aspirin+betablocker
+8   lasso  MetaCardis_2020_a        oral      aspirin  1831    295 -0.0252 -0.0613  0.0109       0.9145  male+metformin+statin+aspirin+betablocker
+9   lasso  MetaCardis_2020_a        oral  betablocker  1831    295 -0.0188 -0.0474  0.0098       0.9015  male+metformin+statin+aspirin+betablocker
+10  lasso  MetaCardis_2020_a  score|oral          ppi  1831    295 -0.1211 -0.2293 -0.0129          NaN                                      +oral
+11     rf  MetaCardis_2020_a       score          ppi  1831    295  0.0865  0.0091  0.1639       0.0143  male+metformin+statin+aspirin+betablocker
+12     rf  MetaCardis_2020_a       score    metformin  1831    295  0.3742  0.2871  0.4613       0.0000  male+metformin+statin+aspirin+betablocker
+13     rf  MetaCardis_2020_a       score       statin  1831    295  0.0386 -0.0368  0.1140       0.1578  male+metformin+statin+aspirin+betablocker
+14     rf  MetaCardis_2020_a       score      aspirin  1831    295 -0.0677 -0.1586  0.0232       0.9280  male+metformin+statin+aspirin+betablocker
+15     rf  MetaCardis_2020_a       score  betablocker  1831    295  0.0301 -0.0418  0.1021       0.2059  male+metformin+statin+aspirin+betablocker
+    model                     cohort  n_ppi  n_no  pos_ppi  pos_no     rr  rr_lo  rr_hi
+0   lasso          MetaCardis_2020_a    295  1536    0.163   0.134  1.213  0.893  1.591
+1   lasso      MetaCardis_2020_a:CAD     83   186    0.145   0.140    NaN    NaN    NaN
+2   lasso       MetaCardis_2020_a:HF     27    68    0.259   0.221    NaN    NaN    NaN
+3   lasso      MetaCardis_2020_a:IGT     41   234    0.146   0.111    NaN    NaN    NaN
+4   lasso      MetaCardis_2020_a:T2D     85   465    0.153   0.178    NaN    NaN    NaN
+5   lasso  MetaCardis_2020_a:control     59   583    0.169   0.096    NaN    NaN    NaN
+6      rf          MetaCardis_2020_a    295  1536    0.166   0.119  1.394  1.019  1.813
+7      rf      MetaCardis_2020_a:CAD     83   186    0.108   0.070    NaN    NaN    NaN
+8      rf       MetaCardis_2020_a:HF     27    68    0.296   0.118    NaN    NaN    NaN
+9      rf      MetaCardis_2020_a:IGT     41   234    0.049   0.090    NaN    NaN    NaN
+10     rf      MetaCardis_2020_a:T2D     85   465    0.235   0.224    NaN    NaN    NaN
+11     rf  MetaCardis_2020_a:control     59   583    0.169   0.063    NaN    NaN    NaN

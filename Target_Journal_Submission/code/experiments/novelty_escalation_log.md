@@ -230,3 +230,19 @@ leave-one-condition-out): K = 4: 8 species dropped, CRC AUC .763 -> .748, dispar
 positivity .212 -> .213); K = 2: 32 dropped, AUC .721, sensitivity .474 -> .429, disparity reduced but not removed.
 => Training-side fixes cannot remove the excess without losing cancer detection, because the hallmark CRC species are
 themselves shared with chronic disease. This motivates the deployment-side (group-conditional) fix.
+
+## Addendum A1 results (2026-11-24; protocol_addendum_drugs.md committed before analysis)
+Development check (direction only): PPI users flagged 1.1-2.7x as often in VincentC_2016, LeeKA_2022, JieZ_2017
+(n_PPI 9-41; none significant).
+MetaCardis (n = 1,831; 295 PPI users), adjusted for condition group, sex and other drugs:
+- H5 (PPI raises the CRC score): LASSO +0.04 (95% CI -0.07, 0.15), p = 0.24 -> NOT supported for the primary model;
+  RF +0.087 (0.009, 0.164), p = 0.014; positivity RR 1.21 (0.89-1.59) LASSO, 1.39 (1.02-1.81) RF.
+- H6 (PPI raises the oral-taxa component): +0.175 (0.144, 0.206), p < 1e-10 -> SUPPORTED. The oral increase is offset by
+  other score components in LASSO (PPI coefficient becomes -0.12 when the oral component is adjusted for).
+- Secondary/exploratory: metformin +0.43 (0.30, 0.55) LASSO, +0.37 (0.29, 0.46) RF, p < 1e-10; beta-blocker +0.09
+  (p = 0.03, LASSO only); statin, aspirin ~0.
+Exploratory follow-up (addendum_metformin_explore.py): within T2D, metformin users vs non-users flagged
+20.5% vs 8.5% (LASSO; adj. +0.44, p < 1e-6) and 27.9% vs 7.1% (RF) in MetaCardis (379 vs 124); LiJ_2014 same direction
+(+0.40, p = 0.18; RF +0.28, p = 0.12; 58 vs 17); QinJ_2012 (15 users) and KarlssonFH_2013 (20 users) null.
+Drivers: Lachnoclostridium, Enterobacterales/Morganellaceae, Streptococcus salivarius enriched; E. eligens,
+Firmicutes CAG110 depleted. => hypothesis-generating: the T2D false-alarm excess in MetaCardis is largely a metformin signal.
