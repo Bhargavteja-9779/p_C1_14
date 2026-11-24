@@ -122,15 +122,18 @@ def site_shift_v2(s_src, y_src, alpha, u=None, c=None, return_params=False, lb_b
     (ii) optional labelled local controls c entering the likelihood as known class-0 points (hybrid)."""
     f0, f1 = _FastKDE(s_src[y_src == 0]), _FastKDE(s_src[y_src == 1])
     t_src = np.quantile(s_src[y_src == 0], 1 - alpha)
+    u = np.asarray([] if u is None else u, float)
     c = np.asarray([] if c is None else c, float)
     def nll(p):
         a, lb, lp = p; lb = lb_bound * np.tanh(lb / lb_bound); b = np.exp(lb); pi = 1 / (1 + np.exp(-np.clip(lp, -30, 30)))
-        z = (u - a) / b; out = -np.sum(np.log((1 - pi) * f0(z) + pi * f1(z) + 1e-300) - lb)
+        out = 0.0
+        if len(u): z = (u - a) / b; out = -np.sum(np.log((1 - pi) * f0(z) + pi * f1(z) + 1e-300) - lb)
         if len(c): out -= np.sum(np.log(f0((c - a) / b) + 1e-300) - lb)
         return out
     best = None
     for lp0 in (-3.0, 0.0):
-        for a0 in (np.median(u) - np.median(s_src[y_src == 0]), 0.0):
+        ref = u if len(u) else c
+        for a0 in (np.median(ref) - np.median(s_src[y_src == 0]), 0.0):
             r = optimize.minimize(nll, x0=[a0, 0.0, lp0], method="Nelder-Mead", options=dict(maxiter=1500, xatol=1e-4, fatol=1e-6))
             if best is None or r.fun < best.fun: best = r
     a, lb, lp = best.x; b = np.exp(lb_bound * np.tanh(lb / lb_bound))
@@ -143,3 +146,13 @@ def bootstrap_check(method, s_src, y_src, alpha, u, B=30, seed=0, **kw):
     rng = np.random.default_rng(seed); s0 = np.sort(s_src[y_src == 0])
     t = method(s_src, y_src, alpha, u=u, **kw); tb = [method(s_src, y_src, alpha, u=rng.choice(u, len(u)), **kw) for _ in range(B)]
     return t, float(np.std(tb))
+
+def anchor(s_src, y_src, alpha, c, **kw):
+    """Few-shot location-scale anchoring (ours, v3): estimate target = a + b*source map from n labelled local
+    controls only, using the large source control distribution for the shape; threshold = a + b*t_src."""
+    return site_shift_v2(s_src, y_src, alpha, u=None, c=c)
+
+def anchor_loc(s_src, y_src, alpha, c, **kw):
+    """Location-only anchoring: shift a = median(local controls) - median(source controls); threshold = t_src + a."""
+    s0 = s_src[y_src == 0]
+    return np.quantile(s0, 1 - alpha) + np.median(c) - np.median(s0)
