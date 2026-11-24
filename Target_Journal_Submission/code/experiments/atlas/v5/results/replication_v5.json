@@ -1,0 +1,193 @@
+{
+ "replication_populations": [
+  "BackhedF_2015",
+  "CosteaPI_2017",
+  "FengQ_2015",
+  "FerrettiP_2018",
+  "HanniganGD_2017",
+  "IjazUZ_2017",
+  "LoombaR_2017",
+  "MetaCardis_2020_a",
+  "RaymondF_2016",
+  "ShaoY_2019",
+  "TettAJ_2019_a",
+  "TettAJ_2019_b",
+  "TettAJ_2019_c",
+  "ThomasAM_2018a",
+  "VincentC_2016",
+  "VogtmannE_2016",
+  "YassourM_2018",
+  "YuJ_2015",
+  "ZellerG_2014"
+ ],
+ "n_populations": 19,
+ "countries": {
+  "BackhedF_2015": "SWE",
+  "CosteaPI_2017": "KAZ",
+  "FengQ_2015": "AUT",
+  "FerrettiP_2018": "ITA",
+  "HanniganGD_2017": "USA",
+  "IjazUZ_2017": "GBR",
+  "LoombaR_2017": "USA",
+  "MetaCardis_2020_a": "FRA",
+  "RaymondF_2016": "CAN",
+  "ShaoY_2019": "GBR",
+  "TettAJ_2019_a": "TZA",
+  "TettAJ_2019_b": "GHA",
+  "TettAJ_2019_c": "ETH",
+  "ThomasAM_2018a": "ITA",
+  "VincentC_2016": "CAN",
+  "VogtmannE_2016": "USA",
+  "YassourM_2018": "FIN",
+  "YuJ_2015": "CHN",
+  "ZellerG_2014": "FRA"
+ },
+ "H5_lasso": {
+  "tests": 14,
+  "positive": 10,
+  "sign_p_one_sided": 0.08978271484375,
+  "median_rho": 0.1708457935778822,
+  "per_test": {
+   "CRC": {
+    "pops": 13,
+    "rho": 0.03301241087284377
+   },
+   "adenoma": {
+    "pops": 15,
+    "rho": 0.7785714285714285
+   },
+   "IBD": {
+    "pops": 18,
+    "rho": 0.24057824579284395
+   },
+   "T2D": {
+    "pops": 18,
+    "rho": 0.08982964542479581
+   },
+   "IGT": {
+    "pops": 18,
+    "rho": 0.5603715170278638
+   },
+   "CAD": {
+    "pops": 18,
+    "rho": 0.14344685242518057
+   },
+   "HF": {
+    "pops": 18,
+    "rho": 0.19824473473058382
+   },
+   "ACVD": {
+    "pops": 19,
+    "rho": 0.3403508771929824
+   },
+   "cirrhosis": {
+    "pops": 19,
+    "rho": -0.35454149968602394
+   },
+   "hypertension": {
+    "pops": 19,
+    "rho": 0.26842105263157895
+   },
+   "schizophrenia": {
+    "pops": 19,
+    "rho": 0.443859649122807
+   },
+   "ME/CFS": {
+    "pops": 19,
+    "rho": -0.2220272262885249
+   },
+   "migraine": {
+    "pops": 19,
+    "rho": -0.28070175438596495
+   },
+   "fatty_liver": {
+    "pops": 18,
+    "rho": -0.036194493132807336
+   }
+  },
+  "verdict": "INCONCLUSIVE"
+ },
+ "H6_lasso": {
+  "n_other": 4,
+  "n_euna": 15,
+  "other_median": 0.3781998000104514,
+  "euna_median": 0.12585451099979253,
+  "median_diff": 0.2523452890106589,
+  "mw_p_one_sided": 0.2982456140350877,
+  "verdict": "INCONCLUSIVE"
+ },
+ "H5_rf": {
+  "tests": 14,
+  "positive": 11,
+  "sign_p_one_sided": 0.0286865234375,
+  "median_rho": 0.1794383557133104,
+  "per_test": {
+   "CRC": {
+    "pops": 13,
+    "rho": -0.09958744370014014
+   },
+   "adenoma": {
+    "pops": 15,
+    "rho": 0.18072838361408897
+   },
+   "IBD": {
+    "pops": 18,
+    "rho": 0.573051186330594
+   },
+   "T2D": {
+    "pops": 18,
+    "rho": 0.025799793601651185
+   },
+   "IGT": {
+    "pops": 18,
+    "rho": 0.12407492731048023
+   },
+   "CAD": {
+    "pops": 18,
+    "rho": -0.17890420891359052
+   },
+   "HF": {
+    "pops": 18,
+    "rho": 0.4997419354666801
+   },
+   "ACVD": {
+    "pops": 19,
+    "rho": 0.2368421052631579
+   },
+   "cirrhosis": {
+    "pops": 19,
+    "rho": 0.17814832781253184
+   },
+   "hypertension": {
+    "pops": 19,
+    "rho": 0.03935351743546255
+   },
+   "schizophrenia": {
+    "pops": 19,
+    "rho": 0.3333333333333333
+   },
+   "ME/CFS": {
+    "pops": 19,
+    "rho": 0.2456140350877193
+   },
+   "migraine": {
+    "pops": 19,
+    "rho": -0.06669592568350946
+   },
+   "fatty_liver": {
+    "pops": 18,
+    "rho": 0.3451699654200099
+   }
+  },
+  "verdict": "SUPPORTED"
+ },
+ "H6_rf": {
+  "n_other": 4,
+  "n_euna": 15,
+  "other_median": 0.25229836191540317,
+  "euna_median": 0.19065785873452157,
+  "median_diff": 0.0616405031808816,
+  "mw_p_one_sided": 0.7017543859649122,
+  "verdict": "INCONCLUSIVE"
+ }
+}
