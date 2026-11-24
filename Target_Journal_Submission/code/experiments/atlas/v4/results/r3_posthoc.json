@@ -1,0 +1,29 @@
+{
+ "within_site_N100": {
+  "burn_mad": 0.03318196268804906,
+  "src_mad": 0.07807400763188906,
+  "reduction": 0.574993474851469,
+  "burn_p15": 0.12623737373737373,
+  "src_p15": 0.14646464646464646,
+  "diff": {
+   "mean": -0.04489204494384,
+   "lo": -0.06750649951854513,
+   "hi": -0.026618814947877295,
+   "pops": 13,
+   "units": 198
+  },
+  "pops_better": 12,
+  "pops": 13,
+  "wilcoxon_pop_p": 0.000732421875
+ },
+ "A5_fair": {
+  "units": 62,
+  "local_perdraw_inband": 0.785967741935484,
+  "units_with_country_ref": 46,
+  "pops_with_country_ref": 8,
+  "local_perdraw_inband_same_units": 0.7903260869565218,
+  "country_inband_same_units": 0.45652173913043476
+ },
+ "Q_p_max_strict": 5.481888148742991e-10,
+ "fold_max_abs_change_strict": 0.1428571428571428
+}
