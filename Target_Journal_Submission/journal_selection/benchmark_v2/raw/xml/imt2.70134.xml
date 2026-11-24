@@ -1,0 +1,1352 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270134" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13377416</article-id><article-id pub-id-type="pmcid-ver">PMC13377416.1</article-id><article-id pub-id-type="pmcaid">13377416</article-id><article-id pub-id-type="pmcaiid">13377416</article-id><article-id pub-id-type="pmid">42491419</article-id><article-id pub-id-type="doi">10.1002/imt2.70134</article-id><article-id pub-id-type="publisher-id">IMT270134</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Microbial keystone taxa and metabolic signatures in centenarians regulate intestinal homeostasis during aging</article-title><alt-title alt-title-type="right-running-head">MICROBIAL KEYSTONE TAXA CONTRIBUTE TO INTESTINAL HOMEOSTASIS</alt-title><alt-title alt-title-type="left-running-head">LIN <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270134-cr-0001" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="WC">Wei‐Chuan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-6059-9244</contrib-id><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270134-cr-0002" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="C">Cui</given-names></name><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270134-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270134-cr-0003" contrib-type="author"><name name-style="western"><surname>Lei</surname><given-names initials="HH">He‐Hua</given-names></name><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270134-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270134-cr-0004" contrib-type="author"><name name-style="western"><surname>Cao</surname><given-names initials="Z">Zheng</given-names></name><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270134-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270134-cr-0005" contrib-type="author"><name name-style="western"><surname>Gao</surname><given-names initials="X">Xin</given-names></name><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270134-cr-0006" contrib-type="author"><name name-style="western"><surname>Yu</surname><given-names initials="WK">Wen‐Kai</given-names></name><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270134-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270134-cr-0007" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="XZ">Xin‐Zhi</given-names></name><xref rid="imt270134-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270134-cr-0008" contrib-type="author"><name name-style="western"><surname>Xiang</surname><given-names initials="QW">Qing‐Wei</given-names></name><xref rid="imt270134-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270134-cr-0009" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="ZW">Zhi‐Wen</given-names></name><xref rid="imt270134-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270134-cr-0010" contrib-type="author"><name name-style="western"><surname>Pang</surname><given-names initials="SF">Shi‐Fu</given-names></name><xref rid="imt270134-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt270134-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Luo</surname><given-names initials="WF">Wei‐Fei</given-names></name><xref rid="imt270134-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="imt270134-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>Luoweifei@gxas.cn</email></address></contrib><contrib id="imt270134-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Xie</surname><given-names initials="DH">Deng‐Hui</given-names></name><xref rid="imt270134-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><address><email>xiedenghui221122@smu.edu.cn</email></address></contrib><contrib id="imt270134-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="LM">Li‐Min</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5689-948X</contrib-id><xref rid="imt270134-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270134-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>zhanglm@wipm.ac.cn</email></address></contrib><contrib id="imt270134-cr-0014" contrib-type="author" corresp="yes"><name name-style="western"><surname>Chen</surname><given-names initials="G">Gang</given-names></name><xref rid="imt270134-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>chengang12@hbucm.edu.cn</email></address></contrib></contrib-group><aff id="imt270134-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Magnetic Resonance and Imaging, National Centre for Magnetic Resonance in Wuhan, Innovation Academy of Precision Measurement Science and Technology</named-content>
+<institution>Chinese Academy of Sciences (CAS)</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>University of Chinese Academy of Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">School of Pharmacy, Faculty of Medicine, Laboratory for Drug Discovery from Natural Resource, State Key Laboratory of Quality Research in Chinese Medicine</named-content>
+<institution>Macau University of Science and Technology</institution>
+<city>Macao</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Hubei Shizhen Laboratory, Department of Geriatrics &amp; Department of Orthopedic Surgery</named-content>
+<institution>Hubei Provincial Hospital of Traditional Chinese Medicine (Affiliated Hospital of Hubei University of Chinese Medicine)</institution>
+<city>Wuhan</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Guangxi Key Laboratory of Longevity Science and Technology</named-content>
+<institution>AIage Life Science Corporation Ltd.</institution>
+<city>Nanning</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Biological Science and Technology</named-content>
+<institution>Guangxi Academy of Sciences</institution>
+<city>Nanning</city>
+<country country="CN">China</country>
+</aff><aff id="imt270134-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Joint Surgery, Center for Orthopaedic Surgery</named-content>
+<institution>The Third Affiliated Hospital of Southern Medical University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Wei‐Fei Luo, Institute of Biological Science and Technology, Guangxi Academy of Sciences, Guangxi Key Laboratory of Longevity Science and Technology, AIage Life Science Corporation Ltd., Nanning 530200, China.<break/>
+Email: <email>Luoweifei@gxas.cn</email>
+<break/>
+Deng‐Hui Xie, Department of Joint Surgery, Center for Orthopaedic Surgery, The Third Affiliated Hospital of Southern Medical University, Guangzhou 510515, China.<break/>
+Email: <email>xiedenghui221122@smu.edu.cn</email>
+<break/>
+Li‐Min Zhang, State Key Laboratory of Magnetic Resonance and Imaging, National Centre for Magnetic Resonance in Wuhan, Innovation Academy of Precision Measurement Science and Technology, Chinese Academy of Sciences (CAS), Wuhan 430071, China.<break/>
+University of Chinese Academy of Sciences, Beijing, China.<break/>
+Email: <email>zhanglm@wipm.ac.cn</email>
+<break/>
+Gang Chen, Hubei Shizhen Laboratory, Department of Geriatrics &amp; Department of Orthopedic Surgery, Hubei Provincial Hospital of Traditional Chinese Medicine (Affiliated Hospital of Hubei University of Chinese Medicine), Wuhan 430060, China.<break/>
+Email: <email>chengang12@hbucm.edu.cn</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>19</day><month>5</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2026</year></pub-date><volume>5</volume><issue seq="40">3</issue><issue-id pub-id-type="pmc-issue-id">517882</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v5.3</issue-id><elocation-id>e70134</elocation-id><history>
+<date date-type="rev-recd"><day>01</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>12</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>05</day><month>5</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>19</day><month>05</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>18</day><month>07</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-25 23:33:36.630"><day>25</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-5-e70134.pdf"><?pdf-name IMT2-5-e70134.pdf?><?pdf-size 10994136?><?pdf-md5 b4978a264b7b5881d5e1956cbefc8c04?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:1569/13377416/b4978a264b7b/IMT2-5-e70134.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-5-e70134.pdf"/><abstract><title>Abstract</title><p>Microbial networks and keystone taxa play pivotal roles in maintaining gut microecological stability and host homeostasis, irrespective of their abundance. However, most previous studies of aging‐associated gut microbiota have relied on abundance‐based analyses, largely overlooking microbial networks and microbe‐host interactions. Here, we employed a co‐occurrence network approach to identify keystone taxa during aging in humans and mice. We found that centenarians harbor distinctive keystone taxa dominated by members of <italic toggle="yes">Clostridium</italic>, of which <italic toggle="yes">Clostridium scindens</italic> (<italic toggle="yes">C. scindens</italic>) can significantly enhance microbial network stability, probably contributing to longevity and reduced susceptibility to age‐related diseases. Mechanistically, <italic toggle="yes">C. scindens</italic> produces indole‐3‐acetic acid (IAA) from tryptophan via the enzymes amidase (AMIE) and aldehyde dehydrogenase (ALDH). Oral administration of either <italic toggle="yes">C. scindens</italic> or IAA effectively mitigates intestinal aging by restoring gut barrier dysfunction in aged mice. Further analysis revealed that <italic toggle="yes">C. scindens</italic>‐derived IAA restores intestinal dysfunction through activation of aryl hydrocarbon receptor (AHR) signaling, leading to upregulation of intestinal CLDN10, a key tight junction protein. Structurally, IAA enhances <italic toggle="yes">Claudin</italic>‐<italic toggle="yes">10</italic> transcription by promoting AHR binding to its promoter region. Our findings provide new insights into the characterization of microbial networks in centenarians and highlight that <italic toggle="yes">C. scindens</italic> and IAA may contribute to healthy longevity by promoting gut microecological stability and host homeostasis.</p></abstract><abstract abstract-type="graphical"><p>
+<italic toggle="yes">Clostridium scindens</italic> and its metabolite indole‐3‐acetic acid (IAA) are identified as a keystone taxon and metabolic signature in centenarians. <italic toggle="yes">Clostridium scindens</italic> enhances microbial network stability and produces IAA via its own amidase (AMIE) and aldehyde dehydrogenase (ALDH), thus promoting intestinal homeostasis by activating the aryl hydrocarbon receptor (AHR)‐mediated <italic toggle="yes">Claudin</italic>‐<italic toggle="yes">10</italic> signaling in aged mice.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-5-e70134-g008.jpg"><?image-name IMT2-5-e70134-g008.jpg?><?image-size 86894?><?image-md5 987c658cdcf7277a64d89d2dac32532a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 841?><?image-original-width 900?><?image-scaled-height 561?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/987c658cdcf7/IMT2-5-e70134-g008.jpg?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>A co‐occurrence network analysis identifies keystone taxa dominated by members of <italic toggle="yes">Clostridium</italic> in centenarians.</p></list-item><list-item><p>
+<italic toggle="yes">Clostridium scindens</italic> enhances microbial network stability, probably contributing to longevity and reduced susceptibility to age‐related diseases.</p></list-item><list-item><p>
+<italic toggle="yes">Clostridium scindens</italic> produces indole‐3‐acetic acid (IAA) from tryptophan metabolism via its own enzymes amidase (AMIE) and aldehyde dehydrogenase (ALDH).</p></list-item><list-item><p>
+<italic toggle="yes">Clostridium scindens‐</italic>derived IAA promotes intestinal homeostasis by facilitating aryl hydrocarbon receptor (AHR)‐mediated CLDN10 signaling in aged mice.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt270134-kwd-0001">centenarians</kwd><kwd id="imt270134-kwd-0002">Clostridium scindens</kwd><kwd id="imt270134-kwd-0003">indole‐3‐acetic acid</kwd><kwd id="imt270134-kwd-0004">keystone taxa</kwd><kwd id="imt270134-kwd-0005">microbe–host interaction</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Strategic Priority Research Program of the Chinese Academy of Sciences</institution></institution-wrap>
+</funding-source><award-id>XDB0540300</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>22327901</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Hubei Provincial Science and Technology Plan Project</institution></institution-wrap>
+</funding-source><award-id>2023BCA005</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Science and Technology Program of Hubei Province</institution></institution-wrap>
+</funding-source><award-id>2024BCB035</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>Guangxi Key Laboratory of Longevity Science and Technology</institution></institution-wrap>
+</funding-source><award-id>gxkllst‐20241002</award-id></award-group><award-group id="funding-0006"><funding-source>
+<institution-wrap><institution>Guangxi Science and Technology Base and Talent Special Program</institution></institution-wrap>
+</funding-source><award-id>AD23026314</award-id></award-group><award-group id="funding-0007"><funding-source>
+<institution-wrap><institution>Hubei Province Traditional Chinese Medicine Innovation Team</institution></institution-wrap>
+</funding-source><award-id>ZY2025J001</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="0"/><page-count count="24"/><word-count count="12460"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.4 mode:remove_FC converted:17.07.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270134-cit-0059">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Wei‐Chuan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Cui</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>He‐Hua</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zheng</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wen‐Kai</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin‐Zhi</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Microbial Keystone Taxa and Metabolic Signatures in Centenarians Regulate Intestinal Homeostasis During Aging</article-title>.” <source>iMeta</source>
+<volume>5</volume>, <elocation-id>e70134</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70134</pub-id>
+<pub-id pub-id-type="pmcid">PMC13377416</pub-id><pub-id pub-id-type="pmid">42491419</pub-id></mixed-citation>
+</p><fn-group><fn id="imt270134-note-0001"><p>(Li‐Min Zhang: Lead Contact)</p></fn><fn id="imt270134-note-0002"><p>Wei‐Chuan Lin, Cui Zhang, and He‐Hua Lei contributed equally to this study.</p></fn></fn-group></notes></front><body><sec id="imt270134-sec-0010"><title>INTRODUCTION</title><p>The World Health Organization (WHO) predicts that the global population aged 60 years old and over will reach 2.1 billion by 2050, thus posing unprecedented challenges to healthcare and society [<xref rid="imt270134-bib-0001" ref-type="bibr">1</xref>]. Geroscience, an emerging interdisciplinary science seeking to understand longevity and aging mechanisms, operates on the principle that aging is the biggest risk factor for many age‐related diseases, such as diabetes, cardiovascular disease, cancer, and neurodegenerative disorders [<xref rid="imt270134-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270134-bib-0003" ref-type="bibr">3</xref>, <xref rid="imt270134-bib-0004" ref-type="bibr">4</xref>]. Intestinal dysbiosis is one of the recently proposed 14 primary hallmarks of aging driving the aging process [<xref rid="imt270134-bib-0004" ref-type="bibr">4</xref>]. Distinct shifts occur in the diversity, composition, and functionality of human gut microbiota during aging, and maintaining a relative “youthful” microbial community has been shown to mitigate age‐related decline [<xref rid="imt270134-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt270134-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270134-bib-0007" ref-type="bibr">7</xref>]. Moreover, fecal microbiota transplantation experiments demonstrated that colonization young microbiota to relatively older individuals can restore aging‐related phenotypes in animal models and even extend their lifespan [<xref rid="imt270134-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270134-bib-0007" ref-type="bibr">7</xref>]. Meanwhile, the metabolic pathways involved in aging hallmarks, especially crosstalk between gut microbiota and host organs, closely contribute to aging and aging‐related disorders [<xref rid="imt270134-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt270134-bib-0009" ref-type="bibr">9</xref>]. It is therefore essential for identifying robust biomarkers of dysbiosis during aging, which will advance our understanding of human longevity and guide precision geromedicine for age‐related diseases interventions.</p><p>Increasing evidence has shown that the human gut microbiota, strongly attributed to host genetics, lifestyle, and environmental factors, plays a crucial role in human health, many chronic diseases, and aging [<xref rid="imt270134-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt270134-bib-0011" ref-type="bibr">11</xref>]. As people become older, the gut microbiome displays declined diversity accompanied by fewer beneficial microbes and more pathogenic microbes, suggesting that the gut microbiome and functional signatures are associated with longevity. Centenarians have a decreased susceptibility to aging‐associated chronic inflammation and infectious diseases [<xref rid="imt270134-bib-0012" ref-type="bibr">12</xref>, <xref rid="imt270134-bib-0013" ref-type="bibr">13</xref>], which represents an excellent status of longevity at least partly linking to the functional capacity of their gut microbiome. Previous studies identified a reduction in the opportunistic or pathogenic microbiota and enrichment of beneficial microorganisms, including <italic toggle="yes">Lactobacillus</italic>, <italic toggle="yes">Akkermansia</italic>, and <italic toggle="yes">Bifidobacterium</italic>, in the centenarian group [<xref rid="imt270134-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270134-bib-0007" ref-type="bibr">7</xref>]. Regarding the identification of potential microbial biomarkers of longevity and aging, centenarians, who are individuals aged 100 years or older, largely escaped major chronic diseases, providing a natural model of exceptional longevity [<xref rid="imt270134-bib-0014" ref-type="bibr">14</xref>, <xref rid="imt270134-bib-0015" ref-type="bibr">15</xref>]. Although the microbiota composition of centenarians has been shown to be important in healthy aging, numerous cross‐sectional studies have relied on differential abundance analyses, primarily cataloguing taxa that are enriched or depleted to determine putative biomarkers [<xref rid="imt270134-bib-0016" ref-type="bibr">16</xref>, <xref rid="imt270134-bib-0017" ref-type="bibr">17</xref>]. These approaches only concern microbial abundance without considering their functions and interactions across species. In fact, microbial communities contain keystone taxa, which drive community composition and function irrelevant to their abundance [<xref rid="imt270134-bib-0018" ref-type="bibr">18</xref>]. More importantly, keystone taxa exert disproportionate impacts on community stability and facilitate structural and functional outcomes beyond what their abundance would predict [<xref rid="imt270134-bib-0019" ref-type="bibr">19</xref>]. In microbial ecosystems, keystone taxa may be rare but highly associated with multiple species that shape resilience and homeostasis [<xref rid="imt270134-bib-0020" ref-type="bibr">20</xref>]. It is known that gut dysbiosis in microbial diversity and composition is one of the outstanding characteristics of aging [<xref rid="imt270134-bib-0021" ref-type="bibr">21</xref>, <xref rid="imt270134-bib-0022" ref-type="bibr">22</xref>, <xref rid="imt270134-bib-0023" ref-type="bibr">23</xref>]. However, the microbial networks and keystone taxa within the gut microbiota ecosystem for the identification of biomarkers during aging remain elusive. Hence, co‐occurrence patterns coupled with microbial networks can be used to statistically identify keystone taxa of human microbiome with age.</p><p>In addition to the gut microbiota, its metabolites, such as short‐chain fatty acids (SCFAs), bile acids, and indole metabolites, are closely linked to aging and longevity due to their distinctive physiological functions [<xref rid="imt270134-bib-0024" ref-type="bibr">24</xref>, <xref rid="imt270134-bib-0025" ref-type="bibr">25</xref>, <xref rid="imt270134-bib-0026" ref-type="bibr">26</xref>]. For instance, a previous study revealed that centenarians are enriched in bacteria producing isoallolithocholic acid (iso‐LCA), a secondary bile acid capable of inhibiting multidrug‐resistant pathogens such as <italic toggle="yes">Clostridioides difficile</italic> and <italic toggle="yes">Enterococcus faecium</italic>, which reduced infection risk to maintain gut homeostasis [<xref rid="imt270134-bib-0027" ref-type="bibr">27</xref>]. The integrity of the intestinal epithelial barrier progressively deteriorates with age and is considered an evolutionarily conserved hallmark of aging observed across worms, flies, rodents, and humans [<xref rid="imt270134-bib-0028" ref-type="bibr">28</xref>]. It is maintained by proteins of adhesive and tight junctions (AJs and TJs), including zonula occludens (ZO), claudins (CLDN), and occludin (OCLDN) [<xref rid="imt270134-bib-0029" ref-type="bibr">29</xref>, <xref rid="imt270134-bib-0030" ref-type="bibr">30</xref>]. In recent years, the gut microbiota and microbiota‐derived metabolites have been shown to contribute to signaling pathways and processes of aging and aging‐related diseases. Previous studies showed that <italic toggle="yes">Bacteroides fragilis</italic>‐derived 3‐phenylpropionic acid upregulated both mRNA and protein levels of intestinal ZO‐1 via activating AHR signaling to preserve gut homeostasis [<xref rid="imt270134-bib-0031" ref-type="bibr">31</xref>]. Tryptophan metabolite 5‐methoxyindoleacetic acid has been found to enrich in the gut of centenarians and can be used to suppress inflammation‐induced cellular senescence [<xref rid="imt270134-bib-0032" ref-type="bibr">32</xref>]. In view of the close connection between gut homeostasis and aging, we hypothesized that centenarian‐associated microbial keystone taxa and metabolic signatures may highly contribute to longevity via the maintenance of gut barrier integrity.</p><p>In this study, we systematically profiled the gut microbial communities and metabolic landscapes across three human cohorts involving healthy individuals with different ages. By applying ecological network analysis, we identified interaction‐driven microbial keystone taxa rather than solely relying on differential abundance. Integrative multi‐omics approaches were subsequently performed to link these keystone species with centenarian‐enriched metabolic signatures. In vivo and in vitro functional validation was eventually carried out to investigate whether and how taxa‐metabolite interactions contribute to intestinal homeostasis during aging. Collectively, this longitudinal study highlights that microbial keystone taxa and metabolic signatures of centenarians are important for host homeostasis and longevity.</p></sec><sec sec-type="results" id="imt270134-sec-0020"><title>RESULTS</title><sec id="imt270134-sec-0030"><title>Identification of microbial characteristics and keystone taxa in centenarians</title><p>To investigate the taxonomic compositional and functional profiles of human microbiota, we recruited a cohort of three age groups: young (20–44 years old, <italic toggle="yes">n</italic> = 46), older (66–89 years old, <italic toggle="yes">n</italic> = 39), and centenarians (100–112 years old, <italic toggle="yes">n</italic> = 113) (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1A</xref>). After quality control, a total of 198 qualified fecal samples were used to extract microbial DNA for DNA library construction and 16S rRNA gene amplicon sequencing. All sequences were annotated into 8265 amplicon sequence variants (ASVs). Although no significant differences were observed in α‐diversity among the three groups (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1A</xref>), non‐metric multidimensional scaling (NMDS) based on ASV composition revealed significant age‐associated separations with distinct compositional dissimilarity (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1B–E</xref>). In addition, permutational multivariate variance analysis showed that age instead of sex, BMI, and diet, etc., was the main factor relating to gut bacterial community (Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S1</xref>; <italic toggle="yes">R</italic>² = 0.02245, <italic toggle="yes">F</italic> = 2.3042, <italic toggle="yes">p</italic> = 0.001).</p><fig position="float" fig-type="Figure" id="imt270134-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Identification of keystone taxa in the gut microbiome of centenarians. (A) Fecal samples collection and study workflow. (B, C) Differential amplicon sequence variants (ASVs) between centenarian or young and older group. The ASVs with FoldChange &gt; 0 and −Log<sub>10</sub> (<italic toggle="yes">p</italic>‐value) &gt; 1.3 were selected as different ASVs. Red represents the ASVs enriched in the gut of older group, while green and purple represent the ASVs enriched in the gut of young and centenarian group, respectively. Unchanged ASVs were colored with gray. (D–F) Co‐occurrence network of gut bacterial community. Node size represents the degree of ASVs in network. Node color represents differential ASVs in young (green, Young vs. Older), older (red, Older vs. Young or Centenarian), and centenarian (purple, Centenarian vs. Older) groups. Orange node represents ASVs showed age‐related changes in their abundance. Node shape represents enriched (upper triangle), depleted (inverted triangle), unchanged (dot) ASVs. Only robust correlations in which |<italic toggle="yes">r</italic>| (Pearson's correlation coefficient) was &gt;0.3 and <italic toggle="yes">p</italic> (Pearson significance coefficient) was &lt;0.01 were visualized. Keystone taxa analysis (G) and their interactions with enriched ASVs in the young (H). Keystone taxa were ASVs with degree &gt; 9, closeness centrality &gt; 0.235, and betweenness centrality &lt;0.10. (I, J) As in (G, H), for older group. (K, L) As in (G, H), for the centenarian group.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-5-e70134-g006.jpg"><?image-name IMT2-5-e70134-g006.jpg?><?image-size 217024?><?image-md5 a6e7b42c83a4b400b9ca9505ee7dcf81?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1379?><?image-original-width 910?><?image-scaled-height 918?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/a6e7b42c83a4/IMT2-5-e70134-g006.jpg?><?thumb-name IMT2-5-e70134-g006.gif?><?thumb-size 8499?><?thumb-md5 a9e7e9dad6ad63cd8a5be3c461adba21?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 152?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/a9e7e9dad6ad/IMT2-5-e70134-g006.gif?></graphic></fig><p>To further analyze these compositional shifts, “featured ASVs” as taxa were defined and uniquely enriched or depleted in a specific age group in comparison with others. These featured ASVs were classified into four categories: age‐related ASVs showing progressive trajectories across age groups, and group‐specific ASVs enriched in the young, older, or centenarian group, respectively. Based on this classification, we identified a total of 54 ASVs with progressive changes during aging (gradually increasing, <italic toggle="yes">N</italic> = 36; gradually decreasing, <italic toggle="yes">N</italic> = 18), 15 ASVs that were enriched (<italic toggle="yes">N</italic> = 8) or depleted (<italic toggle="yes">N</italic> = 7) in the young group, 14 ASVs that were enriched (<italic toggle="yes">N</italic> = 3) or depleted (<italic toggle="yes">N</italic> = 11) in the older group, and 41 ASVs uniquely associated with centenarians (enriched, <italic toggle="yes">N</italic> = 27; depleted, <italic toggle="yes">N</italic> = 14) (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1F</xref>). Specifically, age‐related enrichment was dominated by ASVs belonging to <italic toggle="yes">Clostridium sensu stricto 1</italic>, <italic toggle="yes">Turicibacter</italic>, <italic toggle="yes">Intestinibacter</italic>, and <italic toggle="yes">Klebsiella</italic>, whereas taxa such as <italic toggle="yes">Blautia</italic>, <italic toggle="yes">Megamonas</italic>, and <italic toggle="yes">Faecalibacterium</italic> were significantly depleted (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1G</xref>). In the young group, members of <italic toggle="yes">Faecalibacterium</italic>, <italic toggle="yes">Megamonas</italic>, and <italic toggle="yes">Coprococcus</italic> were enriched, while <italic toggle="yes">Christensenellaceae R‐7</italic>, <italic toggle="yes">Escherichia–Shigella</italic>, and <italic toggle="yes">Klebsiella</italic> were depleted (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1H</xref>). The older group was characterized by enrichment of <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Prevotella</italic>, and <italic toggle="yes">Enterobacter</italic>, accompanied by a marked loss of beneficial commensals, including <italic toggle="yes">Clostridium leptum</italic>, <italic toggle="yes">Parasutterella</italic>, and <italic toggle="yes">Bifidobacterium</italic> (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1I</xref>). Strikingly, centenarians exhibited a distinct microbial profile with enrichment of <italic toggle="yes">Clostridium sensu stricto 1</italic>, <italic toggle="yes">Epulopiscium</italic>, <italic toggle="yes">Ruminococcaceae</italic>, <italic toggle="yes">Akkermansia muciniphila</italic>, <italic toggle="yes">Pseudomonas</italic>, and <italic toggle="yes">Clostridium scindens</italic>, while potentially beneficial taxa such as <italic toggle="yes">Bacteroides plebeius</italic>, <italic toggle="yes">Faecalibacterium</italic>, and <italic toggle="yes">Butyricicoccus</italic> were significantly reduced (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S1J</xref>). Further pair‐wise comparisons showed that 57 ASVs were significantly enriched and 25 ASVs were depleted in the older group compared to young group, while 4081 ASVs remained unchanged. In the older group, the top 10 ASVs that increased in abundance were represented by <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Klebsiella</italic>, <italic toggle="yes">Lactobacillus mucosae</italic>, <italic toggle="yes">Coprococcus</italic>, and <italic toggle="yes">Escherichia–Shigella</italic>, while the depleted ASVs dominated by members of <italic toggle="yes">Faecalibacterium</italic>, <italic toggle="yes">Bifidobacterium</italic> (such as <italic toggle="yes">B. adolescentis</italic> and <italic toggle="yes">B. longum</italic>), and <italic toggle="yes">Ruminococcaceae</italic> (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1B</xref>). Compared with older group, centenarians exhibited 50 ASVs enriched and 124 ASVs depleted accompanied by 5870 ASVs unchanged. Notably, enriched ASVs in centenarians included <italic toggle="yes">Clostridium sensu stricto 1</italic>, <italic toggle="yes">Anaerotruncus colihominis</italic>, <italic toggle="yes">Ruminococcaceae UBA1819</italic>, <italic toggle="yes">Eggerthella</italic>, <italic toggle="yes">Epulopiscium</italic>, <italic toggle="yes">Clostridium innocuum</italic>, <italic toggle="yes">Bifidobacterium</italic>, and <italic toggle="yes">Clostridium scindens</italic> (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1C</xref>).</p><p>We next identified microbial keystone taxa by constructing co‐occurrence patterns coupled with microbial networks in the three age groups. No significant differences were observed by network layouts in the node and edge counts among them (young: 323 nodes, 1325 edges; older: 367 nodes, 1381 edges; centenarian: 372 nodes, 1392 edges; Figure <xref rid="imt270134-fig-0001" ref-type="fig">1D–F</xref>). Network topological analysis further revealed that centenarians exhibited more stable and integrate microbial network that was assembled with young group, compared with older group (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S2</xref>). Subsequently, keystone taxa characterized by high degree and closeness centrality but low betweenness centrality were identified as potential indicators of these network‐level alterations in centenarians (Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S2</xref>). A subset of meaningful keystone taxa representing both network hubs and differential abundance were derived by intersecting putatively enriched ASVs (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1G–L</xref>). Specifically, 22, 18, and 13 keystone taxa were identified in corresponding age groups. Enriched ASVs, including <italic toggle="yes">Ruminococcaceae</italic> and <italic toggle="yes">Holdemania</italic> were also highlighted as meaningful keystone taxa in the young group (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1H</xref>). In the older group, mainly enriched ASVs including <italic toggle="yes">Lachnospiraceae</italic>, <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Clostridia</italic> and <italic toggle="yes">Rhodococcus</italic> can be regarded as keystone taxa (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1J</xref>). Notably, <italic toggle="yes">Clostridium aldenense</italic> (<italic toggle="yes">C. aldenense</italic>) and <italic toggle="yes">Clostridium scindens</italic> (<italic toggle="yes">C. scindens</italic>) were identified as both significantly enriched ASVs and meaningful keystone taxa in centenarians (Figure <xref rid="imt270134-fig-0001" ref-type="fig">1L</xref>). Taken together, these results suggest that centenarians harbor distinctive microbial keystone taxa dominated by members of genus <italic toggle="yes">Clostridium</italic>.</p></sec><sec id="imt270134-sec-0040"><title>Identification of metabolic signatures in centenarians</title><p>As microbial reconfiguration and network attribution reshape host metabolome during aging, we next used untargeted HPLC‐MS‐based metabolomics to screen host metabolic profiling in fecal samples of human individuals with age. Global annotation revealed substantial metabolites derived from host (<italic toggle="yes">N</italic> = 88), microbiome (<italic toggle="yes">N</italic> = 132), co‐metabolism (<italic toggle="yes">N</italic> = 438), and others (<italic toggle="yes">N</italic> = 920) (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S3A</xref>). Multivariate partial least squares discriminant analysis (PLS‐DA) coupled with permutation‐based dissimilarity testing suggested significant separations between the paired age groups (older vs. young: <italic toggle="yes">p</italic> = 0.003; centenarian vs. older: <italic toggle="yes">p</italic> = 0.012) (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S3B,C</xref>). Similar to the featured microbial ASVs, featured metabolites can be defined as metabolic signatures that were involved in multiple metabolic pathways such as phenylpropanoid biosynthesis, amino acid metabolism, and steroid biosynthesis (Figure <xref rid="imt270134-suppl-0001" ref-type="supplementary-material">S3D–H</xref>). Multivariate pairwise comparison analyses showed a marked separation of fecal metabolome between young and older groups (<italic toggle="yes">R</italic>² = 0.602, <italic toggle="yes">Q</italic>² = 0.336, <italic toggle="yes">p</italic> = 0.001; Figure <xref rid="imt270134-fig-0002" ref-type="fig">2A</xref>). Compared with young group, relatively older adults exhibited significantly enriched 189 metabolites with 10 host‐derived, 19 microbiome‐derived, and 37 co‐metabolites (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2B,C</xref>), whereas reduced 129 metabolites with six host metabolites, 13 microbial metabolites, and 38 co‐metabolites (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2D</xref>). Compared with older group, centenarians exhibited markedly differential metabolome (<italic toggle="yes">R</italic>² = 0.948, <italic toggle="yes">Q</italic>² = 0.474, <italic toggle="yes">p</italic> = 0.015; Figure <xref rid="imt270134-fig-0002" ref-type="fig">2E</xref>), manifested by significantly upregulated 271 metabolites (12 host metabolites, 29 microbial metabolites, and 94 co‐metabolites) and 162 downregulated metabolites (29 host metabolites, 92 microbial metabolites, and 10 co‐metabolites) (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2F–H</xref>).</p><fig position="float" fig-type="Figure" id="imt270134-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Metabolic signatures associated with the gut microbiota in centenarian. (A) Orthogonal partial least squares discriminant analysis (OPLS‐DA) of untargeted metabolomics profiles. Colors indicates the young (green) and older (red) group. The axes represent the first two components (t1 and t2), with <italic toggle="yes">R</italic>² and <italic toggle="yes">Q</italic>² values and the <italic toggle="yes">p</italic>‐values. (B) Differential metabolites between the older and young groups. Metabolites with FoldChange &gt; 0 and −Log<sub>10</sub> (<italic toggle="yes">p</italic>‐value) &gt; 1.3 were defined as significantly altered metabolites. (C, D) Distribution of enriched and depleted metabolites, categoried as host‐derived (orange), microbiome‐derived (purple), co‐metabolized (blue), or others (gray). (E–H) Same analysis as in (A–D), comparing centenarian and older groups. (I) Overlapping metabolites that are depleted in the older versus young groups and enriched in the centenarian versus older groups, categorized as host‐derived, microbiome‐derived, co‐metabolized, or others. (J) Heatmap showing the relative abundance of overlapping metabolites. Each column represents a sample, and each row represents a metabolite; color intensity indicates abundance (<italic toggle="yes">z</italic>‐score normalization). (K) Fold changes of overlapping metabolites between groups. Red bars (left) represent metabolites depleted in the older group relative to the young group, while purple bars (left) indicate metabolites enriched in the centenarian group relative to the older group. (L) Kyoto Encyclopedia of Genes and Genomes (KEGG) pathway enrichment analysis of overlapping metabolites. Bar colors represent pathways associated with host (orange), microbiome (purple), co‐metabolism (blue), and other (gray) categories. Numbers above the bars indicate the number of metabolites mapped to each pathway. (M) Relative abundance changes of metabolites involved in tryptophan metabolism, including indole‐3‐acetic acid, 3‐methyldioxyindole, serotonin. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons). Significance indicated by asterisks between groups (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-5-e70134-g007.jpg"><?image-name IMT2-5-e70134-g007.jpg?><?image-size 203281?><?image-md5 d2dd2797d94b499ba08dc4fcba01acb8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1280?><?image-original-width 910?><?image-scaled-height 852?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/d2dd2797d94b/IMT2-5-e70134-g007.jpg?><?thumb-name IMT2-5-e70134-g007.gif?><?thumb-size 8005?><?thumb-md5 7d1fa3069a521649a864e921a1244b65?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 141?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/7d1fa3069a52/IMT2-5-e70134-g007.gif?></graphic></fig><p>Next, a Venn diagram for intersection analysis between the paired groups was performed to specifically identify metabolic signatures in centenarians. The results showed that the levels of three host metabolites (arachidonoyl ethanolamide, 17 A,20A‐dihydroxycholesterol, and pregnenolone), four microbial metabolites (fructosyl‐lysine, nerolidol, p‐tolualdehyde, and styrene), and 15 co‐metabolites of host and bacteria (e.g., indole‐3‐acetic acid, 1‐methyluric acid, and serotonin) were markedly enriched in centenarians and simultaneously depleted in older group (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2I–K</xref>). Further pathway enrichment analysis of Kyoto Encyclopedia of Genes and Genomes (KEGG) revealed that tryptophan metabolism was the most significantly enriched co‐metabolic pathway in human feces during aging (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2L</xref>). Notably, centenarians exhibited higher levels of indole‐3‐acetic acid (IAA), 3‐methyldioxindole, and serotonin than those in feces of older individuals (Figure <xref rid="imt270134-fig-0002" ref-type="fig">2M</xref>). Collectively, these results suggest that age‐related featured metabolites were progressively changed and tryptophan metabolites, especially endogenous IAA, may be potential metabolic signatures of centenarians.</p></sec><sec id="imt270134-sec-0050"><title>Tryptophan metabolism is linked to microbial keystone taxa in centenarians</title><p>Given that tryptophan metabolism is one of the critical pathways in centenarians, HPLC‐QQQ‐MS‐based targeted metabolomics was employed to quantitatively measure the concentration of fecal metabolites involved in tryptophan metabolism in human with age (Figure <xref rid="imt270134-fig-0003" ref-type="fig">3A</xref>). In the gastrointestinal tract, microbiota‐derived tryptophan metabolism yields potent bioactive metabolites involved in three major metabolic pathways, one of which is the direct transformation of tryptophan by the gut microbiota into indole and its derivatives. Targeted quantification showed that centenarians exhibited significantly higher levels of fecal indole metabolites, including indole‐3‐acetamide (IAM), indole, tryptamine, IAA, indole‐3‐acetaldehyde (IALD), indole‐3‐lactate (ILA), and indole‐3‐acrylate in feces than relatively older group (Figure <xref rid="imt270134-fig-0003" ref-type="fig">3A</xref>). Accordingly, functional prediction using PICRUSt2 revealed that amidase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link> <italic toggle="yes">amiE</italic>) and aldehyde dehydrogenase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> <italic toggle="yes">aldh</italic>), enzymes encoding the conversion of IAM and IALD into IAA, were markedly enriched in centenarians (Figure <xref rid="imt270134-fig-0003" ref-type="fig">3B,D</xref>). Bacterial species encoding <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> <italic toggle="yes">aldh</italic> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link> <italic toggle="yes">amiE</italic> were also predicted to be enriched in centenarians (Figure <xref rid="imt270134-fig-0003" ref-type="fig">3C,E</xref>). Specifically, Venn diagrams indicated that <italic toggle="yes">C. scindens</italic> contributing to both <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> <italic toggle="yes">aldh</italic> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link> <italic toggle="yes">amiE</italic> was commonly enriched in centenarians with microbial ASVs and keystone taxa (Figure <xref rid="imt270134-fig-0003" ref-type="fig">3F,G</xref>). The genes encode <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> <italic toggle="yes">aldh</italic> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link> <italic toggle="yes">amiE</italic> that catalyze the biosynthesis step for IAA, suggesting a possible correlation between <italic toggle="yes">C. scindens</italic> and IAA production. In summary, these findings reveal that microbial keystone taxa <italic toggle="yes">C. scindens</italic> and indole metabolites, especially IAA, represent typical microbiome–metabolite–host associations in centenarians.</p><fig position="float" fig-type="Figure" id="imt270134-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Correlation between the function potential of the gut microbiome and tryptophan metabolism. (A) Integrated analysis of gut microbial gene abundance and metabolite concentrations involved in the serotonin, kynurenine, and indole pathways of tryptophan metabolism. Box plots with dots show the absolute concentrations of metabolites in the young, older, and centenarian groups. Statistically significant differences between groups are indicated by asterisks (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001). Heatmaps above the arrows indicate the relative abundance of microbial genes involved in the corresponding metabolic steps. Color intensity indicates the mean abundance (<italic toggle="yes">z</italic>‐score normalization) of each group. Statistically significant differences between the young and centenarian groups compared to the older group are indicated by asterisks. (B) Predicted gene number of microbiome‐derived <italic toggle="yes">aldh</italic>. (C) Relative abundance of <italic toggle="yes">aldh</italic>‐encoding species. (D) Predicted gene number of microbiome‐derived <italic toggle="yes">amiE</italic>. (E) Relative abundance of <italic toggle="yes">amiE</italic>‐encoding species. (F) Venn diagram showing the overlap among enriched ASVs (centenarian vs. older groups), keystone taxa in centenarians, and species encoding <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> or K014026. (G) Relative abundance of <italic toggle="yes">C. scindens</italic>. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons). Significance indicated by asterisks between groups (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-5-e70134-g005.jpg"><?image-name IMT2-5-e70134-g005.jpg?><?image-size 137187?><?image-md5 e236b2504446bce2115060d1f9cd6b24?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1196?><?image-original-width 910?><?image-scaled-height 796?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/e236b2504446/IMT2-5-e70134-g005.jpg?><?thumb-name IMT2-5-e70134-g005.gif?><?thumb-size 8110?><?thumb-md5 081aebe56e6247eb358f413f1a26e1cd?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/081aebe56e62/IMT2-5-e70134-g005.gif?></graphic></fig></sec><sec id="imt270134-sec-0060"><title>
+<italic toggle="yes">C. scindens</italic> produces IAA by bacterial enzymes ALDH and AMIE</title><p>To identify whether or how IAA is produced by <italic toggle="yes">C. scindens</italic>, we analyzed the whole‐genome sequencing of <italic toggle="yes">C. scindens</italic> using functional annotation. The assembled genome of <italic toggle="yes">C. scindens</italic> ATCC 35704 (T) comprises a circular chromosome of 3658040 bp and a GC content of 46.2% (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4A</xref>). A total of 12 rRNA and 57 tRNA genes coupled with clear GC skew patterns and wide functional genes (CDSs) distribution were identified across both forward and reverse strands. Meanwhile, amino acid, carbohydrate, and lipid metabolism, as well as secondary metabolite biosynthesis and transport were dominant and underscore its metabolic versatility in the gut microecosystem. Notably, the absence of virulence‐associated genes (&gt;97% similarity) in the <italic toggle="yes">C. scindens</italic> genome suggested its consideration as a safe candidate strain for host (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4A</xref>). Further genomic analysis identified the presence of genes encoding amidase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link> <italic toggle="yes">amiE</italic>, 2225797–2227278 bp) and aldehyde dehydrogenase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link> <italic toggle="yes">aldh</italic>, 2300384–2301004 bp) within the <italic toggle="yes">C. scindens</italic> genome (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4B</xref>) that were further confirmed by PCR amplification of <italic toggle="yes">amiE</italic> and <italic toggle="yes">aldh</italic> encoding sequences in <italic toggle="yes">C. scindens</italic> strain (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4C</xref>), providing genomic evidence for its capacity to produce IAA. This notion was supported by subsequent in vitro experimental results, which showed that <italic toggle="yes">C. scindens</italic> can successfully convert the precursors IAM and IALD into IAA (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4D–F</xref>). Specifically, quantitative analyses showed significant decreases in concentrations of IAM and IALD from 490.55 and 12155.55 nmol/mL to 436.65 and 4701.42 nmol/mL, respectively, whereas the IAA level was increased from 9470.30 to 25658.61 nmol/mL under the condition of <italic toggle="yes">C. scindens</italic> culture (Figure <xref rid="imt270134-fig-0004" ref-type="fig">4F</xref>). These results indicate that keystone taxa <italic toggle="yes">C. scindens</italic> in centenarians produce IAA from its substrates by bacterial ALDH and AMIE. Especially, <italic toggle="yes">C. scindens</italic>‐derived ALDH‐mediated conversion of IALD might be the predominant biosynthesis of IAA.</p><fig position="float" fig-type="Figure" id="imt270134-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Genomic and functional characterization of <italic toggle="yes">C. scindens</italic> and <italic toggle="yes">in vitro</italic> validation of indole‐3‐acetic acid (IAA) production. (A) Circular genome map of <italic toggle="yes">C. scindens</italic> ATCC 35704(T). Tracks from the innermost to outermost circles represent GC skew, GC ratio, GC content, rRNA and tRNA genes, coding sequences (CDSs), and virulence factors. Colors represent various functional categories. Genes encoding amidase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link>: <italic toggle="yes">amiE</italic>) and aldehyde dehydrogenase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link>: <italic toggle="yes">aldh</italic>) are highlighted. (B) Genomic loci of <italic toggle="yes">amiE</italic> (red) and <italic toggle="yes">aldh</italic> (blue) in the <italic toggle="yes">C. scindens</italic> genome. (C) PCR amplification products of <italic toggle="yes">amiE</italic> (left) and <italic toggle="yes">aldh</italic> (right) in <italic toggle="yes">C. scindens</italic>. (D) Growth curve of <italic toggle="yes">C. scindens</italic> over 72 h. The curve was fitted using a quadratic regression model. (E) Schematic overview of the experimental design for validating IAA production. (F) Absolute concentrations of indole‐3‐acetamide (IAM), indole‐3‐acetaldehyde (IALD), and IAA after 48 h of <italic toggle="yes">C. scindens</italic> incubation. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IMT2-5-e70134-g002.jpg"><?image-name IMT2-5-e70134-g002.jpg?><?image-size 162935?><?image-md5 525f5edcba8f1ee44790db748fdb40c5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1065?><?image-original-width 910?><?image-scaled-height 709?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/525f5edcba8f/IMT2-5-e70134-g002.jpg?><?thumb-name IMT2-5-e70134-g002.gif?><?thumb-size 6008?><?thumb-md5 64f8bc30ea71a609fe3f791f828da336?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 117?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/64f8bc30ea71/IMT2-5-e70134-g002.gif?></graphic></fig></sec><sec id="imt270134-sec-0070"><title>
+<italic toggle="yes">C. scindens</italic> mitigates intestinal aging and enhances microbial network</title><p>To evaluate whether <italic toggle="yes">C. scindens</italic> colonization can ameliorate intestinal aging, aged mice (19 months) following 1 month‐adaptation were orally administered with live <italic toggle="yes">C. scindens</italic> (or vehicle control) twice per week for 2 months (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5A</xref>). The Alcian blue‐periodic acid‐Schiff staining (AB‐PAS) analyses (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5B</xref>) of colonic tissues showed that supplementation with live <italic toggle="yes">C. scindens</italic> markedly restored colonic structure, manifested by significant upregulation of the number of goblet cells per crypt that were markedly reduced in aged mice (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5B</xref>). Immunofluorescence staining with P16 and γH2A histone family member X (γH2AX), well‐known markers related to cell senescence and DNA damage, suggested that <italic toggle="yes">C. scindens</italic> supplementation significantly mitigated cell senescence and DNA damage in colonic tissues of aged mice (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5B</xref>). Concurrently, RT‐qPCR analysis indicated that <italic toggle="yes">C. scindens</italic> supplementation strikingly downregulated mRNA levels of typical cell senescence markers (<italic toggle="yes">p16</italic> and <italic toggle="yes">p21</italic>) and restored key intestinal barrier–associated genes (<italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐cadherin</italic>, and <italic toggle="yes">Claudin‐10</italic> (<italic toggle="yes">Cldn10</italic>)) (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5C</xref>). Moreover, supplementation of <italic toggle="yes">C. scindens</italic> significantly downregulated the levels of pro‐inflammatory cytokines such as <italic toggle="yes">Tnf‐α</italic>, <italic toggle="yes">Il‐1β</italic>, and <italic toggle="yes">Il‐6</italic> in colon tissues of aged mice (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5C</xref>).</p><fig position="float" fig-type="Figure" id="imt270134-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Supplementation with <italic toggle="yes">C. scindens</italic> mitigates intestinal aging. (A) Experimental design for <italic toggle="yes">C. scindens</italic> supplementation in aged mice. (B) Representative images of Alcian blue‐periodic acid‐Schiff (AB‐PAS) staining and immuno‐staining for P16 and γH2AX, with quantitative analysis (<italic toggle="yes">n</italic> = 3). Scale bar, 50 μm. (C) Relative mRNA expression levels of <italic toggle="yes">p16</italic>, <italic toggle="yes">p21</italic>, <italic toggle="yes">Tnf‐α</italic>, <italic toggle="yes">Il‐1β</italic>, <italic toggle="yes">Il‐6</italic>, <italic toggle="yes">Ptprh</italic>, <italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐cadherin</italic>, and <italic toggle="yes">Claudin</italic>‐<italic toggle="yes">10</italic> (<italic toggle="yes">Cldn10</italic>) genes in colon tissues (<italic toggle="yes">n</italic> = 6). (D) Effect of <italic toggle="yes">C. scindens</italic> supplementation on the co‐occurrence network of gut bacterial community in aged mice. Node size represents the degree of species in network. Only robust correlations in which |<italic toggle="yes">r</italic>| (Pearson's correlation coefficient) was &gt;0.75 and <italic toggle="yes">p</italic> (Pearson significance coefficient) was &lt;0.01 were visualized. (E) Changes in the topological attributions of co‐occurrence network after <italic toggle="yes">C. scindens</italic> supplementation. (F) Changes in the numbers of keystone species after <italic toggle="yes">C. scindens</italic> supplementation. (G) Effect of <italic toggle="yes">C. scindens</italic> supplementation on the dissimilarity in gut microbiome based on Bray‐Curtis distance. The stress value of non‐metric multidimensional scaling (NMDS) analysis is shown on left top of plot. (H) Differential species between without and with <italic toggle="yes">C. scindens</italic> supplementation groups. The species with Log<sub>2</sub>|Foldchange| &gt; 1 and −Log<sub>10</sub> (<italic toggle="yes">p</italic>‐value) &gt; 1.3 were selected as different species. Red triangle represents the species enriched in the gut of aged mice, while blue triangle represents the species enriched in the gut of young mice, respectively. Unchanged species were represented by gray dots. (I) Relative abundances of <italic toggle="yes">C. scindens</italic> and the concentrations of IAA in colon tissue and fecal samples. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons). Significance indicated by asterisks between groups (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="IMT2-5-e70134-g001.jpg"><?image-name IMT2-5-e70134-g001.jpg?><?image-size 202623?><?image-md5 54899de31847adce76ba2a7ed640215a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1263?><?image-original-width 911?><?image-scaled-height 842?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/54899de31847/IMT2-5-e70134-g001.jpg?><?thumb-name IMT2-5-e70134-g001.gif?><?thumb-size 7691?><?thumb-md5 727e40eb91f91de966bdc1c637552886?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 139?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/727e40eb91f9/IMT2-5-e70134-g001.gif?></graphic></fig><p>It is worth noting that <italic toggle="yes">C. scindens</italic> supplementation markedly enhanced the microbial network connectivity, as shown by increased edges from 417 to 1305 (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5D</xref>), which was supported by the significantly increased average degree, path length and network stability together with decreased vulnerability (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5E</xref>). Further analysis revealed that <italic toggle="yes">C. scindens</italic> supplementation markedly increased the number of keystone taxa from 29 to 39 in gut microbiota of aged mice, leading to <italic toggle="yes">C. scindens</italic> as a keystone node (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5F</xref> and Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S3</xref>). NMDS analysis showed a slight separation between pre‐ and post‐treatments of <italic toggle="yes">C. scindens</italic> with moderate microbiota compositional shift (Stress = 0.104) (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5G</xref>), which was confirmed by volcano analysis showing only 15 enriched and 17 depleted species (7.37% of total species) (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5H</xref>). In addition, <italic toggle="yes">C. scindens</italic> successfully colonized in the gut and significantly elevated levels of IAA in both colon and feces of aged mice (Figure <xref rid="imt270134-fig-0005" ref-type="fig">5I</xref>). Taken together, these results indicate that <italic toggle="yes">C. scindens</italic> is capable of mitigating intestinal aging and enhancing the gut microecology to maintain intestinal homeostasis.</p></sec><sec id="imt270134-sec-0080"><title>
+<italic toggle="yes">C. scindens</italic>‐derived IAA mitigates intestinal aging via AHR‐dependent signaling</title><p>Given that <italic toggle="yes">C. scindens</italic> producing IAA is able to mitigate intestinal aging, we next evaluated whether and how IAA can exert anti‐aging effects on intestinal decline. Aged mice (19 months old) following 1 month‐adaptation were orally administered by gavage with IAA (50 mg/kg body weight) once every 2 days for 2 months (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6A</xref>). Similar to <italic toggle="yes">C. scindens</italic> supplementation, IAA exposure markedly improved intestinal pathophysiological status and histological structure of aged mice. AB‐PAS staining showed that IAA supplementation restored mucosal barrier integrity with increased goblet cell numbers, which were significantly reduced in aged mice (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6B</xref>). CLDN10 and γH2AX immunofluorescence staining indicated that IAA treatment significantly reduced DNA damage and restored gut barrier of aged mice (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6B</xref>). Meanwhile, IAA supplementation significantly downregulated mRNA levels of cell senescence markers (<italic toggle="yes">p16</italic> and <italic toggle="yes">p21</italic>) and restored the expression of several key intestinal barrier–associated genes, such as <italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">E‐cadherin</italic>, and <italic toggle="yes">Cldn10</italic> (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6C</xref>). Since IAA is known as an endogenous ligand of AHR, we subsequently used intestinal epithelial cell‐specific <italic toggle="yes">Ahr</italic> knockout (<italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup>) mice upon IAA supplementation to verify AHR‐mediated mechanism (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6D</xref>). Expectedly, IAA supplementation did not exhibit significant improvement in intestinal aging phenotypes of aged <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> mice, shown with no significant restoration in intestinal morphology and goblet cell numbers (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6E</xref>). Notably, IAA‐treated aged <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> mice exhibited similar intestinal epithelial DNA damage to aged <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> mice, manifested by no significant changes in γH2AX immunofluorescence area percentage (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6E</xref>), mRNA levels of cell senescence markers (<italic toggle="yes">p16</italic> and <italic toggle="yes">p21</italic>) and gut barrier function–associated genes (<italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐cadherin</italic>, <italic toggle="yes">Cldn10</italic> and <italic toggle="yes">Mucin2</italic>) (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6F</xref>). Transcriptomic profiling (RNA‐seq) (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6G</xref>) coupled with RT‐qPCR analysis (Figure <xref rid="imt270134-fig-0006" ref-type="fig">6H</xref>) showed that IAA supplementation markedly restored mRNA levels of intestinal barrier–associated genes, especially <italic toggle="yes">Tjp1</italic> and <italic toggle="yes">Cldn10</italic>, which were significantly reduced in the colon of aged mice and aged <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> mice.</p><fig position="float" fig-type="Figure" id="imt270134-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>IAA supplementation mitigates intestinal aging and promotes CLDN10 expression in vivo via intestinal aryl hydrocarbon receptor (AHR) signaling. (A) Experimental design for IAA supplementation in aged mice. (B) Relative mRNA expression levels of <italic toggle="yes">p16</italic>, <italic toggle="yes">p21</italic>, <italic toggle="yes">Ptprh</italic>, <italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐cadherin</italic>, <italic toggle="yes">Cldn10</italic>, and <italic toggle="yes">Mucin2</italic> genes in colon tissues (<italic toggle="yes">n</italic> = 6). (C) Representative images of AB‐PAS staining and immuno‐staining of γH2AX and CLDN10, with corresponding quantification (<italic toggle="yes">n</italic> = 3). Scale bar, 50 μm. (D) Experimental design for IAA supplementation in aged mice with intestinal <italic toggle="yes">Ahr</italic> knockout. (E) Same analysis as in (B) for IAA supplementation in aged mice with intestinal <italic toggle="yes">Ahr</italic> knockout. (F) Same analysis as in (C) for IAA supplementation in aged mice with intestinal <italic toggle="yes">Ahr</italic> knockout. (G) Transcriptomic analysis showing the effect of IAA supplementation on intestinal barrier‐associated gene expression in the colon of aged mice with intestinal <italic toggle="yes">Ahr</italic> knockout. (H) Effect of IAA supplementation on the mRNA levels of intestinal barrier‐associated genes in colon of aged mice. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons). Significance indicated by asterisks between groups (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="IMT2-5-e70134-g003.jpg"><?image-name IMT2-5-e70134-g003.jpg?><?image-size 216656?><?image-md5 8817f17f54a2505c838baddeea813322?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1284?><?image-original-width 911?><?image-scaled-height 856?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/8817f17f54a2/IMT2-5-e70134-g003.jpg?><?thumb-name IMT2-5-e70134-g003.gif?><?thumb-size 8646?><?thumb-md5 94923c9d18ff093e52545db0c9677639?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 141?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/94923c9d18ff/IMT2-5-e70134-g003.gif?></graphic></fig><p>To further investigate the potential mechanism of IAA‐mitigating intestinal aging, we successfully established a cell senescent model using Caco2 cells with and without <italic toggle="yes">Ahr</italic>‐knockdown (shAhr) treated with doxorubicin (DOXO, 250 nm) and IAA (50 μM) for 7 days (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7A</xref>). CLDN10 and γH2AX immunofluorescence staining suggested that senescent wild type (WT) Caco2 cells by DOXO exhibited marked DNA damage and gut barrier disruption, both of which were significantly restored following IAA treatment (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7B</xref>). These observations were further confirmed by quantitative analyses showing a significant decrease in γH2AX‐positive area and increased CLDN10 levels of aged cells (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7B</xref>). Notably, RT‐qPCR analysis suggested that IAA treatment induced markedly transcriptional restoration of senescence markers (<italic toggle="yes">p16</italic> and <italic toggle="yes">p21</italic>) and gut barrier‐associated genes (<italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐Cadherin</italic>, and <italic toggle="yes">Cldn10</italic>) in senescent cells (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7C</xref>). Nevertheless, no significant restorations in DNA damage and related cellular senescence phenotypes were observed in DOXO‐induced senescent cells with shAhr upon IAA supplementation (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7B,C</xref>). These in vivo and in vitro results reveal that IAA exhibits marked intestinal AHR‐dependent alleviation effects on aging phenotypes such as gut barrier dysfunction and DNA damage of both aged mice and senescent cells.</p><fig position="float" fig-type="Figure" id="imt270134-fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>IAA supplementation attenuates cellular senescence in vitro via intestinal AHR‐CLDN10 signaling. (A) Schematic workflow of IAA treatment in senescent wild‐type (WT) and <italic toggle="yes">Ahr</italic>‐knockdown (shAhr) Caco‐2 cells. (B) Relative mRNA expression levels of <italic toggle="yes">p16</italic>, <italic toggle="yes">p21</italic>, <italic toggle="yes">Ptprh</italic>, <italic toggle="yes">Zo‐1</italic>, <italic toggle="yes">Occludin</italic>, <italic toggle="yes">E‐cadherin</italic>, <italic toggle="yes">Cldn10</italic>, and <italic toggle="yes">Mucin2</italic> genes in colon tissues (<italic toggle="yes">n</italic> = 6). (C) Representative immuno‐staining images and corresponding quantification of γH2AX and CLDN10 (<italic toggle="yes">n</italic> = 3). Scale bar, 50 μm. (D) Schematic of the <italic toggle="yes">Cldn10</italic> promoter region and its transcription activation by AHR. The AHR‐binding motif (CGCTTG) is indicated, with transcription directed toward the luciferase reporter gene. (E) Molecular dynamics simulation of AHR binding to the <italic toggle="yes">Cldn10</italic> promoter. The bHLH, NPAS3, and PAS‐A domains of AHR are shown in red, blue, and green, respectively. Key residues (Ser36, Lys66) involved in interaction with the target sequence are highlighted. (F) Relative luciferase activity of the <italic toggle="yes">Cldn10</italic> promoter in response to AHR activation. Statistical significance was determined using two‐tailed Student's <italic toggle="yes">t</italic>‐test (two‐group comparisons). Significance is indicated by asterisks between groups (*<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="IMT2-5-e70134-g004.jpg"><?image-name IMT2-5-e70134-g004.jpg?><?image-size 167471?><?image-md5 42f88b3df8319c619427fe8472600432?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 910?><?image-original-width 910?><?image-scaled-height 606?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/1569/13377416/42f88b3df831/IMT2-5-e70134-g004.jpg?><?thumb-name IMT2-5-e70134-g004.gif?><?thumb-size 6254?><?thumb-md5 ec0bcb16076e02e617826c647ec06c92?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 100?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1569/13377416/ec0bcb16076e/IMT2-5-e70134-g004.gif?></graphic></fig></sec><sec id="imt270134-sec-0090"><title>Activation of AHR by IAA mitigates CLDN10‐related gut barrier dysfunction</title><p>Of particular note, a putative AHR response element (XRE) as one binding site of <italic toggle="yes">Cldn10</italic> promoter from −10 to −4 bp was found to interact with the core motif CGCTTG of AHR protein via simulation of the JASPAR database (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7D</xref>). Subsequently, we used molecular dynamics (MD) simulations to theoretically predict the possible interplay between AHR and DNA sequence of <italic toggle="yes">Cldn10</italic> promoter (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7E</xref>). The results showed that AHR complex forms a bHLH‐PAS heterodimer with NPAS3 and binds to the target DNA sequence of <italic toggle="yes">Cldn10</italic> promoter via its basic helix‐loop‐helix (bHLH) and PAS‐A domains (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7E</xref>). As shown in the model, the binding site was mapped to a conserved XRE motif (5'‐GCGAAC‐3'), which is the typical AHR response element. Notably, structural analysis highlighted a potential base‐specific interaction between residues Ser36 and Lys66 of bHLH and the target DNA sequence (CGCTTG/GCGAAC) of <italic toggle="yes">Cldn10</italic> promoter (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7E</xref>), suggesting direct base recognition at the binding site. A pGL4‐Basic <italic toggle="yes">Cldn10</italic>‐promoter‐luc plasmid spanning from −10 to −4 bp of <italic toggle="yes">Cldn10</italic> promoter cloned upstream of luciferase was constructed in HEK 293T cells to experimentally verify AHR binding to <italic toggle="yes">Cldn10</italic> promoter (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7F</xref>). After transfection of <italic toggle="yes">Cldn10</italic> luciferase reporter vectors into HEK 293T cells with and without AHR knockdown (shAhr), luciferase reporter assays indicated that IAA treatment markedly enhanced luciferase activity of <italic toggle="yes">Cldn10</italic> reporter, whereas no significant changes were observed in HEK293T cells with both XRE mutation and <italic toggle="yes">Ahr</italic>‐knockdown upon IAA administration (Figure <xref rid="imt270134-fig-0007" ref-type="fig">7F</xref>). These experimental results, coupled with theoretical simulation, provide structural evidence that activation of AHR by IAA mitigates aging‐related gut barrier dysfunction via binding to <italic toggle="yes">Cldn10</italic> promoter.</p></sec></sec><sec sec-type="discussion" id="imt270134-sec-0100"><title>DISCUSSION</title><p>The gut microbiota, an essential regulator of pathophysiological processes, the immune system, and host metabolism, profoundly changes during aging [<xref rid="imt270134-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt270134-bib-0011" ref-type="bibr">11</xref>, <xref rid="imt270134-bib-0017" ref-type="bibr">17</xref>]. Centenarians exhibit a unique pattern of the gut microbiome, characterized by increased microbial community evenness, enrichment of beneficial commensals (e.g., <italic toggle="yes">Bacteroidetes</italic>), and depletion of potential pathogenic bacteria, which are similar to young individuals and may contribute to longevity [<xref rid="imt270134-bib-0016" ref-type="bibr">16</xref>, <xref rid="imt270134-bib-0017" ref-type="bibr">17</xref>, <xref rid="imt270134-bib-0027" ref-type="bibr">27</xref>]. However, less work has been done on microbial interaction network within the complex microecology, in which keystone taxa are dominant for microbial community composition and function irrespective of their abundance [<xref rid="imt270134-bib-0018" ref-type="bibr">18</xref>, <xref rid="imt270134-bib-0033" ref-type="bibr">33</xref>]. In this study, we present a landscape of aging‐related patterns of the gut microbiome and metabolic signatures, especially microbial keystone taxa and signatures of centenarians, by employing co‐occurrence patterns coupled with microbial networks. Specifically, centenarians harbor distinctive keystone taxa dominated by members of <italic toggle="yes">Clostridium</italic>, of which <italic toggle="yes">C. scindens</italic> produces IAA production from tryptophan metabolism, probably contributing to longevity and reduced susceptibility to age‐related diseases.</p><p>Gut microbes engage in symbiosis, competition, and cross‐feeding (metabolic hand‐offs), collectively shaping microbial ecological community [<xref rid="imt270134-bib-0034" ref-type="bibr">34</xref>, <xref rid="imt270134-bib-0035" ref-type="bibr">35</xref>]. Nevertheless, microbe–microbe interactions forming microbial networks, one of the key factors for gut homeostasis, has been markedly underexplored. Here, age‐related gut microbial characteristics showed a marked depletion of beneficial keystone taxa such as <italic toggle="yes">Faecalibacterium</italic>, <italic toggle="yes">Bifidobacterium</italic> (e.g., <italic toggle="yes">B. adolescentis</italic> and <italic toggle="yes">B. longum</italic>), and members of <italic toggle="yes">Ruminococcaceae</italic> family together with an enrichment of opportunistic bacteria such as <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Klebsiella</italic>, and <italic toggle="yes">Escherichia–Shigella</italic> observed in the older group. These opportunistic taxa have been shown to link to increased susceptibility to systemic inflammation in the elderly [<xref rid="imt270134-bib-0036" ref-type="bibr">36</xref>], suggesting that the age‐related microbiome shifts may contribute to aging and aging‐related inflammation and frailty [<xref rid="imt270134-bib-0022" ref-type="bibr">22</xref>, <xref rid="imt270134-bib-0037" ref-type="bibr">37</xref>]. Centenarians exhibited markedly enriched abundance of ASVs, including <italic toggle="yes">Bifidobacterium</italic>, <italic toggle="yes">Anaerotruncus colihominis</italic>, <italic toggle="yes">Ruminococcaceae UBA1819</italic>, <italic toggle="yes">Eggerthella</italic>, and <italic toggle="yes">Epulopiscium</italic>, which were consistent with previous abundance‐based results of cross‐sectional and longitudinal studies in Chinese and Japanese cohorts [<xref rid="imt270134-bib-0016" ref-type="bibr">16</xref>]. Contrary to what we currently observed, a recent study reported that abundant <italic toggle="yes">Bacteroidetes</italic> in the gut microbiome was a potential beneficial bacterium and a hallmark in centenarians [<xref rid="imt270134-bib-0017" ref-type="bibr">17</xref>]. In this study, our network analysis did not identify <italic toggle="yes">Bacteroidetes</italic> as keystone taxa in centenarians, although <italic toggle="yes">Bacteroidetes</italic> are often reported as a hallmark of centenarian microbiota in terms of its relative abundance [<xref rid="imt270134-bib-0038" ref-type="bibr">38</xref>]. In addition, the members of <italic toggle="yes">Clostridium</italic> genus (<italic toggle="yes">C. clostridioforme</italic> and <italic toggle="yes">C. innocuum</italic>), have been previously associated with increased frailty severity in older adults [<xref rid="imt270134-bib-0039" ref-type="bibr">39</xref>]. Instead, our co‐occurrence network highlights a different set of <italic toggle="yes">Clostridium</italic> taxa that exhibit higher degree and closeness centrality and low betweenness centrality in centenarians. Despite not being the most differentially abundant biomarker (0.102%) in centenarians, <italic toggle="yes">C. scindens</italic> is known to promote immunomodulation and maintain metabolic homeostasis [<xref rid="imt270134-bib-0040" ref-type="bibr">40</xref>, <xref rid="imt270134-bib-0041" ref-type="bibr">41</xref>]. Notably, <italic toggle="yes">C. scindens</italic> supplementation significantly enhanced the microbial network connectivity or stability and restoring intestinal homeostasis in aged mice. This contrast highlights a novel insight that <italic toggle="yes">Bacteroidetes</italic> may be abundantly dominant in centenarians but they may not necessarily occupy the most influential functional niches within the microbial interaction network. In addition, <italic toggle="yes">C. scindens</italic>, as a keystone taxon, serves as a critical regulator in microbe‐host interplay leading to IAA production, both of which may contribute to longevity in centenarians.</p><p>A novel mechanistic link revealed by in vivo and in vitro experiments is that production of IAA by <italic toggle="yes">C. scindens</italic> via bacteria enzymes AMIE and ALDH may alleviate gut barrier dysfunction and intestinal aging in aged mice. Similarly, previous studies demonstrated that <italic toggle="yes">C. scindens</italic> can inhibit the growth and infection of the gram‐positive pathogen <italic toggle="yes">C. difficile</italic> both in vitro and in mice, thus maintaining gut homeostasis by promoting isoallolithocholic acid (iso‐LCA) production in centenarians [<xref rid="imt270134-bib-0042" ref-type="bibr">42</xref>]. It is of particular note that other members of the gut microbiota, including <italic toggle="yes">Lactobacillus</italic>, can also produce IAA to alleviate intestinal aging by repairing DNA to maintain genome stability, which further suggests the complexity of microbe–host interactions [<xref rid="imt270134-bib-0043" ref-type="bibr">43</xref>]. Mechanistically, <italic toggle="yes">C. scindens</italic>‐derived IAA markedly restored intestinal function decline by mitigating aging via AHR‐mediated intestinal CLDN10, one of the typical functional tight junction proteins in mammals. AHR is a promiscuous receptor that can be activated by a spectrum of microbially derived tryptophan metabolites (including multiple indole derivatives), and centenarians exhibit markedly increased levels of multiple indole derivatives. It is conceivable that other enriched indoles may also contribute to the AHR‐dependent effects of gut barrier function, potentially in a synergistic manner. Here, IAA is identified as the most significantly enriched indole derivative, suggesting that it acts as a potent AHR ligand to restore the epithelial barrier by directly targeting <italic toggle="yes">Cldn10</italic> promoter. Although several studies have shown that IAA and its derivative 5‐hydroxyindole‐3‐acetic acid (5HIAA) upregulate the expression of <italic toggle="yes">Claudin</italic> and <italic toggle="yes">Occludin</italic> genes to counter intestinal inflammation via AHR signaling [<xref rid="imt270134-bib-0044" ref-type="bibr">44</xref>, <xref rid="imt270134-bib-0045" ref-type="bibr">45</xref>], the mechanism underlying the interaction between AHR and these genes remains unclear. Here, we provide solid evidence that IAA supplementation promoted direct regulation of <italic toggle="yes">Cldn10</italic> expression by facilitating AHR binding to its promoter region. Structurally, bHLH and PAS‐A domains of AHR upon IAA combined with DNA sequence of <italic toggle="yes">Cldn10</italic> promoter, forming a stable complex that enhanced <italic toggle="yes">Cldn10</italic> gene transcriptional activity.</p><p>These findings highlight the dual role of keystone taxon <italic toggle="yes">C. scindens</italic>, which served not only as microecological stabilizers maintaining microbial stability through the microbe–microbe interactions, but also as functional mediators that directly promote host homeostasis via microbe–host interplay. Although we identified keystone taxon <italic toggle="yes">C. scindens</italic> and metabolic signature IAA contributing to intestinal homeostasis in centenarians, other microbial keystone taxa and their metabolites, such as SCFAs, bile acids, and indole derivatives, may also mediate microbial community and host homeostasis via microbiota–host crosstalk, which warrants further investigations. Moreover, our correlation‐based networks primarily serve as a hypothesis‐generating tool and do not definitively reflect direct ecological interactions. The cross‐sectional human data identify correlations rather than direct causality for human longevity. Comprehensive metadata for all possible confounders were also not fully available for formal sensitivity or stratified analyses due to the nature of this retrospective cohort. It is essential for expanding to longitudinal populations with replication by integrating causal intervention methods [<xref rid="imt270134-bib-0046" ref-type="bibr">46</xref>] and deep learning frameworks [<xref rid="imt270134-bib-0047" ref-type="bibr">47</xref>] to better identify keystone taxa.</p></sec><sec sec-type="conclusions" id="imt270134-sec-0110"><title>CONCLUSION</title><p>In this study, we identify microbial keystone taxon <italic toggle="yes">C. scindens</italic> and its metabolite IAA as a metabolic signature in centenarians using a co‐occurrence pattern approach and microbial networks. Our results demonstrate that <italic toggle="yes">C. scindens</italic> regulates the synthesis of IAA through its own enzymes AMIE and ALDH. We reveal that both <italic toggle="yes">C. scindens</italic> and IAA play crucial roles in promoting gut microecological stability and host homeostasis via microbe–microbe and microbe–host interactions. These findings provide a mechanistic basis for targeting keystone taxa and microbe–host interactions in mitigating aging and aging‐related disorders.</p></sec><sec sec-type="methods" id="imt270134-sec-0120"><title>METHODS</title><sec id="imt270134-sec-0130"><title>Ethics statement and human cohort study</title><p>The study protocol was reviewed and approved by the Ethics Committee of AIage Life Science Corporation (approval no. AS‐LL‐ZD‐001) and the Ethics Committee of the First Affiliated Hospital of Guangxi Medical University (approval no. 2020‐KT‐050). All procedures involving human participants were conducted in accordance with the Declaration of Helsinki. Written informed consent was obtained from all participants prior to the collection of fecal samples. Fecal samples from healthy individuals were collected and classified into three groups: young (20–44 years old, <italic toggle="yes">n</italic> = 46), older (66–89 years old, <italic toggle="yes">n</italic> = 39), and centenarian (100–112 years old, <italic toggle="yes">n</italic> = 113). All participants were required to fast for 12 h prior to sampling. The fecal samples were subsequently subjected to microbiome and metabolome analyses.</p></sec><sec id="imt270134-sec-0140"><title>Animal experiments</title><p>All animal procedures were authorized by the Animal Ethics Committee of the Innovation Academy for Precision Measurement Science and Technology, CAS (APM No: APM24005A, China). Male C57BL/6J mice, including young (2 months) and aged (19 months) mice as well as genetically modified strains (<italic toggle="yes">Ahr</italic>
+<sup>flox/flox</sup> and gut‐specific <italic toggle="yes">Ahr</italic> knockout, <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup>), were obtained from licensed vendors (Wukong Biotechnology and Sai Ye Biotechnology, Jiangsu, China) and housed under specific pathogen‐free conditions. Each mouse was maintained with sterilized food and autoclaved water ad libitum under a controlled light‐dark cycle (12 h:12 h) at 22 ± 2°C and 55% ± 10% relative humidity. For experiments, all mice were co‐housed by age cohort in standard cages, and a maximum of two mice per cage were used to avoid cage effects. Body condition, food intake, and general health were monitored throughout the study.</p><p>For <italic toggle="yes">C. scindens</italic> supplementation, three groups were established following a 1‐month acclimation: young mice (Young, <italic toggle="yes">n</italic> = 6), aged mice (Aged, <italic toggle="yes">n</italic> = 6), and aged mice receiving live <italic toggle="yes">C. scindens</italic> (Aged + <italic toggle="yes">C.s</italic>, <italic toggle="yes">n</italic> = 6). For bacterial intervention, live <italic toggle="yes">C. scindens</italic> was prepared at a concentration of 1 × 10⁹ CFU/mL, and each mouse received 200 µL per gavage once every 2 days for 2 months, while the young and aged groups received an equal volume of PBS.</p><p>For IAA intervention, 19‐month‐old mice were randomly divided into two groups: aged mice (aged, <italic toggle="yes">n</italic> = 6) and aged mice supplemented with IAA (Aged + IAA, <italic toggle="yes">n</italic> = 6), in addition to the young mice (Young, <italic toggle="yes">n</italic> = 6). After a 1‐month acclimation, mice in Aged + IAA group were administered IAA dissolved in corn oil at a concentration of 50 mg/kg body weight (200 µL per gavage) once every 2 days for 2 months, while other controls received an equal volume of corn oil.</p><p>For AHR‐dependent effects of IAA intervention, 19‐month‐old <italic toggle="yes">Ahr</italic>
+<sup>flox/flox</sup> mice and gut‐specific <italic toggle="yes">Ahr</italic> knockout (<italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup>) mice (<italic toggle="yes">n</italic> = 6) were randomized into four groups: <italic toggle="yes">Ahr</italic>
+<sup>flox/flox</sup> + vehicle, <italic toggle="yes">Ahr</italic>
+<sup>flox/flox</sup> + IAA, <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> + vehicle, and <italic toggle="yes">Ahr</italic>
+<sup>ΔIEC</sup> + IAA. After a 1‐month acclimation, mice assigned to IAA were administered IAA dissolved in corn oil at a concentration of 50 mg/kg body weight (200 µL per gavage) once every 2 days for 2 months, while vehicle groups received corn oil with the equal volume.</p><p>At the end of the intervention (month 3), mice were fasted overnight and euthanized. The gut tissues and fecal sample of each mouse were collected and stored at −80°C until for further analyses.</p></sec><sec id="imt270134-sec-0150"><title>Bacterial culture and genomic analyses</title><p>The pure strain of <italic toggle="yes">C. scindens</italic> (ATCC 35704), was obtained from the American Type Culture Collection (ATCC), originally isolated from the human gut microbiota. It was routinely cultured in PYG medium (Medium 104) supplemented with haemin (5 µg/mL) and vitamin K₁ under strictly anaerobic conditions at 37°C in a COY type B anaerobic chamber with a gas mixture of 5% H₂, 10% CO₂, and 85% N₂, with hydrogen maintained at 3.3% using an anaerobic gas infuser. The genome of <italic toggle="yes">C</italic>. scindens was annotated on EzBioCloud using a standard prokaryotic workflow. Virulence factors were screened against VFDB by BLASTP (identity ≥ 97%, coverage ≥ 80%). GC content and GC skew were calculated in sliding windows across the chromosome. Following genome annotation via the EzBioCloud database, circular genome maps were rendered and integrated multiple genomic features, including forward/reverse CDSs, rRNA/tRNA loci, KEGG/COG functional categories, virulence‐associated genes, and GC content/skew profiles. Notably, KEGG KOs corresponding to key enzymes were recovered, including <italic toggle="yes">amiE</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link>) and <italic toggle="yes">aldh</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link>). The <italic toggle="yes">amiE</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K01426">K01426</ext-link>) and <italic toggle="yes">aldh</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="K00128">K00128</ext-link>) genes of <italic toggle="yes">C. scindens</italic> were amplified by PCR using specific primers (Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S4</xref>), respectively, and the resulting products were verified by 1% agarose gel electrophoresis.</p></sec><sec id="imt270134-sec-0160"><title>Caco‐2 cell culture and IAA treatment</title><p>Caco‐2 (RRID: CVCL_0025; CCTCC #GDC0153) and HEK293T (RRID: CVCL_0063; CCTCC #GDC0187) and cell lines were obtained in 2021 from the China Center for Type Culture Collection (CCTCC, Wuhan University, Wuhan, China). Both lines were routinely screened for mycoplasma and confirmed negative. HEK293T cells were cultured in Dulbecco's modified Eagle's medium (DMEM; Gibco, USA) supplemented with 10% fetal bovine serum (FBS) and 1% penicillin‐streptomycin. Caco‐2 cells were maintained in Minimum Essential Medium (MEM; Gibco) supplemented with 20% fetal bovine serum and 1% penicillin‐streptomycin at 37°C in a humidified 5% CO₂ incubator.</p><p>For <italic toggle="yes">Ahr</italic> knockdown, cells were transduced with shRNA lentiviral vectors targeting <italic toggle="yes">Ahr</italic> (shAhr; Integrated Biotech Solutions Co. Ltd., IBS). A non‐targeting shRNA lentiviral vector was used as the corresponding control (shCtrl). The shRNA target sequences were as follows: shCtrl, CCTAAGGTTAAGTCGCCCTCG; shAhr, GCTACCACATCCACTCTAAGC. Cells were transduced in complete medium containing polybrene (8 μg/mL) and, 48 h post‐infection, stably transduced cells were selected with puromycin. Knockdown efficiency and specificity were verified by immunoblotting. To generate senescent and quiescent populations in shCtrl and shAhr cells, senescence was induced with doxorubicin (DOXO, 250 nM; Sigma‐Aldrich) for 7 days; where indicated, IAA (200 μM) was added and incubated for 48 h prior to downstream assays. Quiescent controls were obtained by culturing cells in 0.2% FBS for 3 days. Cells were monitored morphologically, and the induction of quiescence and senescence was confirmed in subsequent assays.</p></sec><sec id="imt270134-sec-0170"><title>Dual‐luciferase reporter assay</title><p>The human <italic toggle="yes">Cldn10</italic> promoter region (−1000 to −1 bp relative to the TSS) was PCR‐amplified from genomic DNA and cloned upstream of firefly luciferase in pGL4.10 (Promega) to generate pGL4.10‐<italic toggle="yes">Cldn10</italic>‐Luc. The AHR/XRE site was disrupted by site‐directed mutagenesis (QuikChange Lightning, Agilent). HEK293T cells were seeded in 24‐well plates and, at ~70% confluence, transfected with 400 ng reporter plasmid plus 40 ng pRL‐TK Renilla control (Promega) using Lipofectamine 3000 (Invitrogen, USA). Where indicated, <italic toggle="yes">Ahr</italic>‐targeting or control shRNA plasmids were co‐transfected. After 24 h, cells were treated with vehicle or IAA (200 μM) for an additional 24 h. Firefly and Renilla activities were measured sequentially with the Dual‐Luciferase Reporter Assay System (Promega) on a GloMax 20/20 luminometer following the manufacturer's protocol. Firefly signals were normalized to Renilla for each well and expressed as relative luciferase units.</p></sec><sec id="imt270134-sec-0180"><title>DNA extraction</title><p>Total genomic DNA was extracted from clinically collected human fecal or mouse cecal contents samples using the Stool Genomic DNA Kit (CWBIO, cat. CW20925). DNA integrity was assessed by 1% agarose gel electrophoresis, purity was evaluated with a NanoPhotometer spectrophotometer (Implen), and concentration was quantified using the Qubit dsDNA Assay Kit on a Qubi® 2.0 Fluorometer (Thermo Fisher Scientific).</p></sec><sec id="imt270134-sec-0190"><title>16S rRNA gene amplicon sequencing</title><p>To analyze the bacterial community of human cohorts, a specific region (V3–V4) of the 16S rRNA gene was amplified using the 341F/805R primer pairs (341F: 5′‐CCTACGGGNGGCWGCAG‐3′ and 805R: 5′‐GACTACHVGGGTATCTAATCC‐3′). The PCR products were purified and subsequently subjected to a second PCR to incorporate unique index sequences for sample multiplexing. The library quality was assessed using the Qubit® 2.0 Fluorometer (Thermo Fisher Scientific) and Agilent Bioanalyzer 2100 system (Agilent Technologies). The libraries were sequenced on the Illumina MiSeq platform using paired‐end 300 bp sequencing. The amplicon sequencing analysis according to the EasyAmplicon2 pipeline [<xref rid="imt270134-bib-0048" ref-type="bibr">48</xref>, <xref rid="imt270134-bib-0049" ref-type="bibr">49</xref>]. After filtering, clean raw data were merged into the bacterial tags and further clustered into ASV with 100% sequence similarity. Based on the RDP database, the bacterial ASVs were taxonomically classified by the RDP classifier. Function potentials of ASVs were predicted using phylogenetic investigation of communities by reconstruction of unobserved states (PICRUSt2) [<xref rid="imt270134-bib-0050" ref-type="bibr">50</xref>].</p></sec><sec id="imt270134-sec-0200"><title>16S rRNA gene full‐length sequencing</title><p>For the post‐gavage of <italic toggle="yes">C. scindens</italic>, the full‐length 16S rRNA gene of the genomic DNA from mouse cecal content was amplified using universal primers 27F (5′‐AGRGTTYGATYMTGGCTCAG‐3′) and 1492R (5′‐GYTACCTTGTTACGACTT‐3′). PCR products were gel‐purified and quality‐checked; libraries were then prepared with the PacBio SMRTbell® Prep Kit 3.0 according to the manufacturer's instructions and sequenced on a PacBio Sequel II platform. Raw reads were processed with the EasyAmplicon2 pipeline workflow: reads were demultiplexed, quality‐filtered, and clustered into ASVs at 100% sequence identity [<xref rid="imt270134-bib-0048" ref-type="bibr">48</xref>, <xref rid="imt270134-bib-0049" ref-type="bibr">49</xref>]. Taxonomic assignment of ASVs was performed against the RDP database. To mitigate bias from unequal sequencing depth across samples, data were normalized by rarefying each sample to the minimum read count in the dataset.</p></sec><sec id="imt270134-sec-0210"><title>Microbiome data analysis</title><p>All analyses of bacterial community were conducted in R v4.4.2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.r-project.org" ext-link-type="uri">http://www.r-project.org</ext-link>). All plots were visualized using the “ggplot2” package [<xref rid="imt270134-bib-0051" ref-type="bibr">51</xref>]. The ASV richness and Shannon index, and NMDS metrics were calculated using the “vegan” package [<xref rid="imt270134-bib-0052" ref-type="bibr">52</xref>]. Analysis of similarity (ANOSIM) based on Bray‐Curtis dissimilarity was used to test the dissimilarities between groups. Differential ASVs between groups were identified using the DESeq2 package with FoldChange &gt; 0 and Benjamini–Hochberg (BH) adjusted <italic toggle="yes">p</italic>‐value &lt; 0.05 [<xref rid="imt270134-bib-0053" ref-type="bibr">53</xref>]. Featured ASVs grouped into four classes: (I) age‐related ASVs showing progressive trajectories across age groups, and (II–IV) group‐specific ASVs uniquely enriched or depleted in the young, older, or centenarian cohorts. Specifically, featured ASVs were identified and defined as the significantly altered variants in a specific group, whereas they remained unchanged in the other two groups (<italic toggle="yes">p</italic> &lt; 0.05, determined by the Kruskal–Wallis test followed by Dunn's multiple comparisons posttest).</p><p>For co‐occurrence network, the pairwise interactions among bacterial ASVs were calculated using WGCNA package [<xref rid="imt270134-bib-0054" ref-type="bibr">54</xref>]. An interaction was robust when Pearson's correlation coefficient &gt; 0.75 and BH‐adjusted <italic toggle="yes">p</italic>‐value &lt; 0.01. The acquired adjacency matrix was generated into a co‐occurrence network using the igraph package [<xref rid="imt270134-bib-0055" ref-type="bibr">55</xref>]. The topological features of each network were calculated using the igraph package, including nodes, edges, average degree, clustering coefficient, average path length, and modularity. Network visualization was performed using the igraph package. To evaluate the stability of each network, the robustness index was quantified by calculating the proportion of taxa that remained when randomly removing 50% of taxa from each network [<xref rid="imt270134-bib-0056" ref-type="bibr">56</xref>].</p><p>Keystone taxa with the highest degree and highest closeness centrality, and the lowest betweenness centrality scores were defined from co‐occurrence networks using node‐level centrality criteria [<xref rid="imt270134-bib-0057" ref-type="bibr">57</xref>]. For the human cohorts, ASVs meeting all of the following were designated as keystones: degree &gt; 9, closeness centrality &gt; 0.235, and betweenness centrality &lt; 0.10. For the <italic toggle="yes">C. scindens</italic> supplementation experiment, keystone taxa were ASVs with degree &gt; 10, closeness centrality &gt; 0.15, and betweenness centrality &lt; 0.15. Only nodes satisfying all three thresholds within a given network were retained as keystone taxa.</p></sec><sec id="imt270134-sec-0220"><title>Untargeted quantification of metabolites</title><p>Untargeted metabolomics was performed on fecal sample from human cohorts as previously described [<xref rid="imt270134-bib-0058" ref-type="bibr">58</xref>]. Briefly, all fecal samples (10 mg) were extracted in ice‐cold methanol/acetonitrile/water (2:2:1, v/v/v) containing 0.1% formic acid and isotopically labeled internal standards, bead‐beaten, protein‐precipitated (−20°C, 30 min), cleared by centrifugation (15,000 × <italic toggle="yes">g</italic>, 4°C), pooled, vacuum‐dried, and reconstituted in 50% acetonitrile/water (0.1% formic acid). High‐resolution liquid chromatograph mass spectrometer (LC‐MS) analysis was performed with a Thermo Fisher Scientific Vanquish Horizon UHPLC System coupled with a Thermo Q Exactive HF hybrid quadrupole‐orbitrap high‐resolution mass spectrometer equipped with a heated electrospray ionization ion source as described. Each sample was analyzed in positive and negative modes with an m/z range of 150–800.</p><p>Metabolites were classified into three categories: host‐derived, microbiome‐derived, or host–microbe co‐metabolism, based on the annotation of their biosynthetic pathways in the HMDB (v5.0) and KEGG databases. Microbiome‐derived metabolites were identified as those exclusively produced by microbial enzymes (e.g., indole‐3‐acetic acid and other tryptophan derivatives). Host‐derived metabolites were defined as endogenous products of human cellular metabolism. Co‐metabolites were characterized as those resulting from biotransformation of host‐derived precursors by microbial enzymes (e.g., secondary bile acids). This classification was further validated through manual literature search to ensure biological relevance to intestinal environment.</p></sec><sec id="imt270134-sec-0230"><title>Targeted quantification of tryptophan metabolites</title><p>Quantification of tryptophan and its downstream metabolites was performed on fecal and gut tissue (~10 mg per sample). All samples were extracted in ice‐cold 1:1 (v/v) methanol/acetonitrile‐water containing 0.1% formic acid and spiked with d5‐tryptophan as the internal standard. Samples were homogenized on a Qiagen TissueLyser (20 Hz, 90 s), subjected to two sequential extraction/centrifugation steps, and pooled supernatants were dried under vacuum and reconstituted in 1:1 acetonitrile/water with 0.1% formic acid. LC‐MS analyses were conducted on an Agilent 1290 UHPLC coupled to an Agilent 6460 triple‐quadrupole mass spectrometer operated in multiple‐reaction‐monitoring mode (Agilent Technologies). Analyte identity was confirmed by retention‐time matching to authentic standards and characteristic qualifier/quantifier transitions; quantification used internal‐standard normalization against matrix‐matched calibration curves. Resulting concentrations were normalized to input mass for each sample.</p></sec><sec id="imt270134-sec-0240"><title>Metabolomic data analysis</title><p>Raw LC‐MS data were converted to mzXML format using ProteoWizard (v3.0.8789). Feature detection, retention‐time correction, and alignment were performed in XCMS (R package, v3.1.3). Metabolite annotation was based on accurate mass (mass error &lt; 30 ppm) and MS/MS spectral matching against HMDB (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.hmdb.ca/" ext-link-type="uri">https://www.hmdb.ca/</ext-link>), MassBank (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://massbank.jp/" ext-link-type="uri">https://massbank.jp/</ext-link>), LIPID MAPS (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.lipidmaps.org" ext-link-type="uri">http://www.lipidmaps.org</ext-link>), mzCloud (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mzcloud.org" ext-link-type="uri">https://www.mzcloud.org</ext-link>), and KEGG (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.genome.jp/kegg/" ext-link-type="uri">http://www.genome.jp/kegg/</ext-link>). After data scaling, multivariate models were built using PLS‐DA. Model robustness and potential overfitting were evaluated by permutation testing. Discriminant metabolites were identified using a combination of variable importance in projection from PLS‐DA, Foldchange (FC), and BH <italic toggle="yes">p</italic>‐values. Finally, metabolites were categorized into host‐derived, host–microbe co‐metabolism, microbe‐derived, and other/undetermined classes. According to featured ASVs, featured metabolites were further filtered by the Kruskal–Wallis test followed by Dunn's multiple comparisons posttest, and subsequently classified as uniquely enriched or depleted in the age‐related, young, older, or centenarian cohorts.</p></sec><sec id="imt270134-sec-0250"><title>RT‐qPCR analysis</title><p>Total RNA was extracted from snap‐frozen colon tissues or cultured cells using TRIzol reagent (Invitrogen). First‐strand cDNA was synthesized from 2 µg of RNA with 5× All‐in‐One RT MasterMix. Quantitative PCR was performed with gene‐specific primers listed in Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S5</xref>. Relative mRNA abundance was calculated by the 2<sup>−ΔΔCt</sup> method after normalization to <italic toggle="yes">Gapdh</italic> gene, and results are reported as fold change relative to the control group.</p></sec><sec id="imt270134-sec-0260"><title>Transcriptome sequencing (RNA‐seq) analysis</title><p>Total RNA was extracted from colon tissue, and RNA quality was confirmed with Nanodrop 2000 (ThermoFisher). Oligo dT beads were used to enrich the mRNA and cDNA library was constructed by PCR enrichment. The library was sequenced on the NovaSeq platform (Illumina). Quality controlled of the reads was performed using FastQC, and clean reads were separately mapped against the reference genome (<italic toggle="yes">Mus musculus</italic> GRCm38) with orientation mode using HISAT2 software. All clean reads were used to map into the enriched pathway from the Gene Ontology database. A heatmap was created to display the expression (<italic toggle="yes">z</italic>‐scores) of genes involved in intestinal barrier‐associated genes. The differential expression of these specific genes was analyzed using a two‐tailed Student's <italic toggle="yes">t</italic>‐test on the normalized gene counts. Statistical significance was defined by a threshold of <italic toggle="yes">p</italic> &lt; 0.05. To confirm the effect of IAA‐AHR signaling on the mRNA levels of intestinal barrier‐associated genes, the relative mRNA expression levels of these genes were further validated by qPCR using gene‐specific primers (Table <xref rid="imt270134-suppl-0002" ref-type="supplementary-material">S5</xref>).</p></sec><sec id="imt270134-sec-0270"><title>Histopathology</title><p>Colon samples were harvested following mouse euthanasia, briefly washed with ice‐cold PBS, and immersed in 4% paraformaldehyde at 4°C for 24 h. Fixed tissues were processed by sequential dehydration in graded ethanol, xylene clearing, paraffin embedding, and sectioning at a thickness of 4 μm. Goblet cell distribution was evaluated using AB‐PAS staining, with hematoxylin applied for nuclear counterstaining. For morphometric analysis, three randomly chosen, non‐overlapping microscopic fields were analyzed per section. Goblet cell numbers per crypt were manually quantified using ImageJ software (NIH).</p></sec><sec id="imt270134-sec-0280"><title>Immunofluorescence staining</title><p>Cells grown on glass coverslips were fixed in 4% paraformaldehyde for 20 min, permeabilized with 0.1% Triton X‐100 in PBS for 15 min, and blocked in 5% BSA/PBS for 1 h at room temperature. Primary antibodies were diluted in 1% BSA/PBS and incubated overnight at 4°C at the following working concentrations (coverslips): anti‐γH2AX (1:500, Proteintech), anti‐P16<sup>INK4a</sup> (1:200, Proteintech), and anti‐CLDN10 (1:500, Proteintech). After washing, Fam‐ or Cy5‐conjugated secondary antibodies (anti‐mouse/anti‐rabbit) were applied at 1:1000 for 1 h at room temperature, followed by DAPI (1 µg/mL, 5 min). Formalin‐fixed paraffin‐embedded colon sections were deparaffinized, rehydrated, and subjected to heat‐mediated antigen retrieval (10 mM citrate buffer, pH 6.0, 95–98°C, 15 min), then processed as above for blocking, primary (same dilutions), and secondary antibody incubations. Images were acquired on a confocal microscope (FV10i, Olympus) under identical exposure settings. Fluorescence intensities for γH2AX, P16, and CLDN10 in colon sections and Caco‐2 coverslips were quantified in ImageJ software (NIH) after background subtraction brightness/contrast, and levels were adjusted uniformly across groups for visualization only.</p></sec><sec id="imt270134-sec-0290"><title>Statistical analysis</title><p>Statistical data analysis was performed using GraphPad Prism software (version 8.0). Correlation network analyses were conducted using R v4.4.2. Data were presented as mean ± standard deviation (SD). Normality was assessed with the Shapiro–Wilk test. For two‐group comparisons, unpaired two‐tailed Student's <italic toggle="yes">t</italic>‐tests were used for normally distributed data and Mann–Whitney <italic toggle="yes">U</italic> tests for non‐normal data. Unless otherwise stated, for comparisons among multiple groups, the Kruskal–Wallis test followed by Dunn's multiple comparisons posttest was performed. The <italic toggle="yes">p</italic>‐value &lt; 0.05 was considered statistically significant.</p></sec></sec><sec id="imt270134-sec-0300"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Wei‐Chuan Lin</bold>: Conceptualization; methodology; data curation; formal analysis; investigation; validation; visualization; writing—original draft; writing—review and editing. <bold>Cui Zhang</bold>: Methodology; data curation; investigation; formal analysis; visualization. <bold>He‐Hua Lei</bold>: Methodology; data curation; formal analysis; investigation; writing—review and editing. <bold>Zheng Cao</bold>: Methodology; formal analysis; validation. <bold>Xin Gao</bold>: Methodology; formal analysis. <bold>Wen‐Kai Yu</bold>: Methodology; formal analysis. <bold>Xin‐Zhi Li</bold>: Methodology; writing—review and editing. <bold>Qing‐Wei Xiang</bold>: Methodology; writing—review and editing; resources. <bold>Zhi‐Wen Zhang</bold>: Methodology; resources; writing—review and editing. <bold>Shi‐Fu Pang</bold>: Writing—review and editing; methodology; resources. <bold>Wei‐Fei Luo</bold>: Supervision; methodology. <bold>Deng‐Hui Xie</bold>: Supervision; methodology; writing—review and editing; resources. <bold>Li‐Min Zhang</bold>: Supervision; conceptualization; methodology; data curation; investigation; validation; writing—original draft; writing—review and editing; funding acquisition; project administration. <bold>Gang Chen</bold>: Supervision; methodology; data curation; investigation; writing—review and editing; funding acquisition; resources; project administration. All authors have read the final manuscript and approved it for publication.</p></sec><sec sec-type="COI-statement" id="imt270134-sec-0320"><title>CONFLICT OF INTEREST STATEMENT</title><p>Wei‐Fei Luo and Shi‐Fu Pang are shareholders and employees of AIage Life Science Corporation. AIage Life Science Corporation partially funded this research. The remaining authors declare no conflicts of interest.</p></sec><sec id="imt270134-sec-0350"><title>ETHICS STATEMENT</title><p>The study protocol was reviewed and approved by the Ethics Committee of AIage Life Science Corporation (No. AS‐LL‐ZD‐001) and the Ethics Committee of the First Affiliated Hospital of Guangxi Medical University (No. 2020‐KT‐050). All animal procedures were authorized by the Animal Ethics Committee of the Innovation Academy for Precision Measurement Science and Technology, CAS (No. APM24005A).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270134-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1.</bold> Microbial diversity and feature ASVs of gut microbiome in centenarians.</p><p>
+<bold>Figure S2.</bold> Topological attributions of co‐occurrence network among young, older, and centenarian groups.</p><p>
+<bold>Figure S3.</bold> Metabolomic profiling revealed distinct patterns of age‐associated metabolic in human cohorts.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70134-s001.docx" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70134-s001.docx?><?suppdata-size 8670290?><?suppdata-md5 c1132a565db5ba730ee2bfe34f8a2c00?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:1569/13377416/c1132a565db5/IMT2-5-e70134-s001.docx?></media></supplementary-material><supplementary-material id="imt270134-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Permutational multivariate analysis of variance for host variables affecting intestinal bacterial community using Bray–Curtis distance.</p><p>
+<bold>Table S2.</bold> Keystone taxa in intestinal bacteria co‐occurrence network in young, older, and centenarian cohorts.</p><p>
+<bold>Table S3.</bold> Keystone taxa in intestinal bacteria co‐occurrence network in aged mice after <italic toggle="yes">C. scindens</italic> supplementation.</p><p>
+<bold>Table S4.</bold> Primers used for PCR of <italic toggle="yes">aldh</italic> and <italic toggle="yes">amiE</italic> in <italic toggle="yes">C. scindens</italic>.</p><p>
+<bold>Table S5.</bold> Primers used for RT‐qPCR.</p><p>
+<bold>Table S6.</bold> Metadata information for the human dataset in this study.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70134-s002.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70134-s002.xlsx?><?suppdata-size 35058?><?suppdata-md5 bfde5b3a0b1783434acbaf7d48099f9b?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:1569/13377416/bfde5b3a0b17/IMT2-5-e70134-s002.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270134-sec-0310"><title>ACKNOWLEDGMENTS</title><p>This work was financially supported by the Strategic Priority Research Program of the Chinese Academy of Sciences (Grant No. XDB0540300), National Natural Science Foundation of China (Grant No. 22327901), Hubei Provincial Science and Technology Plan Project (No. 2023BCA005), Hubei Province Traditional Chinese Medicine Innovation Team Project (No. ZY2025J001), Guangxi Science and Technology Base and Talent Special Program‌ (No. AD23026314), Guangxi Key Laboratory of Longevity Science and Technology (Open Fund Project No. gxkllst‐20241002), and Science and Technology Program of Hubei Province (No. 2024BCB035).</p></ack><sec sec-type="data-availability" id="imt270134-sec-0340"><title>DATA AVAILABILITY STATEMENT</title><p>The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions. Due to ethical and legal restrictions, raw sequencing data of the human intestinal microbiotal and metabolomics datasets cannot be made publicly available. Human metadata information is available in Table S6. The other relevant data generated during the current study are available from the corresponding author upon reasonable request, subject to applicable ethical and legal approvals. The raw microbiota data and mouse intestinal RNA sequencing data have been deposited in the National Center for Biotechnology Information GenBank repository under BioProject accession numbers PRJNA1456507 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1456507" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1456507</ext-link>) and PRJNA1344669 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1344669" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1344669</ext-link>), respectively. The data and scripts used are saved in GitHub <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/WeichuanLin6688/Microbial-keystone-taxa-contribute-to-intestinal-homeostasis" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/WeichuanLin6688/Microbial-keystone-taxa-contribute-to-intestinal-homeostasis</ext-link>. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) can be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list id="imt270134-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="imt270134-bib-0001"><label>1</label><mixed-citation publication-type="book" id="imt270134-cit-0001">
+<collab collab-type="authors">World Health Organization</collab>
+. <year>2015</year>. <source>World Report on Ageing and Health</source>. <publisher-loc>Geneva</publisher-loc>: <publisher-name>World Health Organization</publisher-name>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://iris.who.int/handle/10665/186463" ext-link-type="uri">https://iris.who.int/handle/10665/186463</ext-link>
+</mixed-citation></ref><ref id="imt270134-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270134-cit-0002">
+<string-name name-style="western">
+<surname>Herzog</surname>, <given-names>Chiara M. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ludger J. E.</given-names>
+<surname>Goeminne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jesse R.</given-names>
+<surname>Poganik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nir</given-names>
+<surname>Barzilai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel W.</given-names>
+<surname>Belsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joe</given-names>
+<surname>Betts‐LaCroix</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brian H.</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Challenges and Recommendations for the Translation of Biomarkers of Aging</article-title>.” <source>Nature Aging</source>
+<volume>4</volume>: <fpage>1372</fpage>–<lpage>1383</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-024-00683-3</pub-id>
+<pub-id pub-id-type="pmid">39285015</pub-id>
+<pub-id pub-id-type="pmcid">PMC12262637</pub-id></mixed-citation></ref><ref id="imt270134-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270134-cit-0003">
+<string-name name-style="western">
+<surname>Khalaf</surname>, <given-names>Fadi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dalia</given-names>
+<surname>Barayan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sean</given-names>
+<surname>Saldanha</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Marc G.</given-names>
+<surname>Jeschke</surname>
+</string-name>. <year>2025</year>. “<article-title>Metabolaging: A New Geroscience Perspective Linking Aging Pathologies and Metabolic Dysfunction</article-title>.” <source>Metabolism</source>
+<volume>166</volume>: <elocation-id>156158</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.metabol.2025.156158</pub-id>
+<pub-id pub-id-type="pmid">39947519</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270134-cit-0004">
+<string-name name-style="western">
+<surname>Kroemer</surname>, <given-names>Guido</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Andrea B.</given-names>
+<surname>Maier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ana Maria</given-names>
+<surname>Cuervo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vadim N.</given-names>
+<surname>Gladyshev</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Luigi</given-names>
+<surname>Ferrucci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vera</given-names>
+<surname>Gorbunova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brian K.</given-names>
+<surname>Kennedy</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>From Geroscience to Precision Geromedicine: Understanding and Managing Aging</article-title>.” <source>Cell</source>
+<volume>188</volume>: <fpage>2043</fpage>–<lpage>2062</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2025.03.011</pub-id>
+<pub-id pub-id-type="pmid">40250404</pub-id>
+<pub-id pub-id-type="pmcid">PMC12037106</pub-id></mixed-citation></ref><ref id="imt270134-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270134-cit-0005">
+<string-name name-style="western">
+<surname>Ghosh</surname>, <given-names>Tarini Shankar</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Fergus</given-names>
+<surname>Shanahan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Paul W.</given-names>
+<surname>O'Toole</surname>
+</string-name>. <year>2022</year>. “<article-title>The Gut Microbiome as a Modulator of Healthy Ageing</article-title>.” <source>Nature Reviews Gastroenterology &amp; Hepatology</source>
+<volume>19</volume>: <fpage>565</fpage>–<lpage>584</lpage>. <pub-id pub-id-type="doi">10.1038/s41575-022-00605-x</pub-id>
+<pub-id pub-id-type="pmid">35468952</pub-id>
+<pub-id pub-id-type="pmcid">PMC9035980</pub-id></mixed-citation></ref><ref id="imt270134-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270134-cit-0006">
+<string-name name-style="western">
+<surname>Bárcena</surname>, <given-names>Clea</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Rafael</given-names>
+<surname>Valdés‐Mas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pablo</given-names>
+<surname>Mayoral</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cecilia</given-names>
+<surname>Garabaya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sylvère</given-names>
+<surname>Durand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francisco</given-names>
+<surname>Rodríguez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>María Teresa</given-names>
+<surname>Fernández‐García</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Healthspan and Lifespan Extension by Fecal Microbiota Transplantation into Progeroid Mice</article-title>.” <source>Nature Medicine</source>
+<volume>25</volume>: <fpage>1234</fpage>–<lpage>1242</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-019-0504-5</pub-id>
+<pub-id pub-id-type="pmid">31332389</pub-id></mixed-citation></ref><ref id="imt270134-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270134-cit-0007">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Zeng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Quan</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhihan</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yukai</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuaiming</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yangli</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiahe</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jiachao</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2025</year>. “<article-title>
+<italic toggle="yes">Bifidobacterium adolescentis</italic>‐Derived Nicotinic Acid Improves Host Skeletal Muscle Mitochondrial Function to Ameliorate Sarcopenia</article-title>.” <source>Cell Reports</source>
+<volume>44</volume>: <elocation-id>115265</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.celrep.2025.115265</pub-id>
+<pub-id pub-id-type="pmid">39908139</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270134-cit-0008">
+<string-name name-style="western">
+<surname>Saeedi Saravi</surname>, <given-names>Seyed Soheil</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Benoit</given-names>
+<surname>Pugin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Florentin</given-names>
+<surname>Constancias</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Khatereh</given-names>
+<surname>Shabanian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marianne</given-names>
+<surname>Spalinger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aurélien</given-names>
+<surname>Thomas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sylvain</given-names>
+<surname>Le Gludic</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Gut Microbiota‐Dependent Increase in Phenylacetic Acid Induces Endothelial Cell Senescence During Aging</article-title>.” <source>Nature Aging</source>
+<volume>5</volume>: <fpage>1025</fpage>–<lpage>1045</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-025-00864-8</pub-id>
+<pub-id pub-id-type="pmid">40355758</pub-id>
+<pub-id pub-id-type="pmcid">PMC12176623</pub-id></mixed-citation></ref><ref id="imt270134-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270134-cit-0009">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Hao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tongyao</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chenglang</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huijing</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dong</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meifang</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mengwei</given-names>
+<surname>Fu</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Gut Microbial‐Derived Phenylacetylglutamine Accelerates Host Cellular Senescence</article-title>.” <source>Nature Aging</source>
+<volume>5</volume>: <fpage>401</fpage>–<lpage>418</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-024-00795-w</pub-id>
+<pub-id pub-id-type="pmid">39794469</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270134-cit-0010">
+<string-name name-style="western">
+<surname>Luqman</surname>, <given-names>Ameer</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Adil</given-names>
+<surname>Hassan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mehtab</given-names>
+<surname>Ullah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sahar</given-names>
+<surname>Naseem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mehraj</given-names>
+<surname>Ullah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liyuan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ahmad Ud</given-names>
+<surname>Din</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Role of the Intestinal Microbiome and Its Therapeutic Intervention in Cardiovascular Disorder</article-title>.” <source>Frontiers in Immunology</source>
+<volume>15</volume>: <elocation-id>1321395</elocation-id>. <pub-id pub-id-type="doi">10.3389/fimmu.2024.1321395</pub-id>
+<pub-id pub-id-type="pmid">38343539</pub-id>
+<pub-id pub-id-type="pmcid">PMC10853344</pub-id></mixed-citation></ref><ref id="imt270134-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270134-cit-0011">
+<string-name name-style="western">
+<surname>Vaiserman</surname>, <given-names>Alexander M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander K.</given-names>
+<surname>Koliada</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Marotta</surname>
+</string-name>. <year>2017</year>. “<article-title>Gut Microbiota: A Player in Aging and A Target for Anti‐Aging Intervention</article-title>.” <source>Ageing Research Reviews</source>
+<volume>35</volume>: <fpage>36</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1016/j.arr.2017.01.001</pub-id>
+<pub-id pub-id-type="pmid">28109835</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270134-cit-0012">
+<string-name name-style="western">
+<surname>Franceschi</surname>, <given-names>Claudio</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Paolo</given-names>
+<surname>Garagnani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paolo</given-names>
+<surname>Parini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cristina</given-names>
+<surname>Giuliani</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Aurelia</given-names>
+<surname>Santoro</surname>
+</string-name>. <year>2018</year>. “<article-title>Inflammaging: A New Immune–Metabolic Viewpoint for Age‐Related Diseases</article-title>.” <source>Nature Reviews Endocrinology</source>
+<volume>14</volume>: <fpage>576</fpage>–<lpage>590</lpage>. <pub-id pub-id-type="doi">10.1038/s41574-018-0059-4</pub-id>
+<pub-id pub-id-type="pmid">30046148</pub-id></mixed-citation></ref><ref id="imt270134-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270134-cit-0013">
+<string-name name-style="western">
+<surname>Hirata</surname>, <given-names>Takumi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yasumichi</given-names>
+<surname>Arai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shinsuke</given-names>
+<surname>Yuasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yukiko</given-names>
+<surname>Abe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michiyo</given-names>
+<surname>Takayama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Takashi</given-names>
+<surname>Sasaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Akira</given-names>
+<surname>Kunitomi</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Associations of Cardiovascular Biomarkers and Plasma Albumin with Exceptional Survival to the Highest Ages</article-title>.” <source>Nature Communications</source>
+<volume>11</volume>: <fpage>3820</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-020-17636-0</pub-id>
+<pub-id pub-id-type="pmcid">PMC7393489</pub-id><pub-id pub-id-type="pmid">32732919</pub-id></mixed-citation></ref><ref id="imt270134-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270134-cit-0014">
+<string-name name-style="western">
+<surname>Puca</surname>, <given-names>Annibale Alessandro</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chiara</given-names>
+<surname>Spinelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Giulia</given-names>
+<surname>Accardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Villa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Calogero</given-names>
+<surname>Caruso</surname>
+</string-name>. <year>2018</year>. “<article-title>Centenarians as a Model to Discover Genetic and Epigenetic Signatures of Healthy Ageing</article-title>.” <source>Mechanisms of Ageing and Development</source>
+<volume>174</volume>: <fpage>95</fpage>–<lpage>102</lpage>. <pub-id pub-id-type="doi">10.1016/j.mad.2017.10.004</pub-id>
+<pub-id pub-id-type="pmid">29096878</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270134-cit-0015">
+<string-name name-style="western">
+<surname>Lozada‐Martinez</surname>, <given-names>Ivan David</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Luz Miryam</given-names>
+<surname>Lozada‐Martinez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Juan‐Manuel</given-names>
+<surname>Anaya</surname>
+</string-name>. <year>2024</year>. “<article-title>Gut Microbiota in Centenarians: A Potential Metabolic and Aging Regulator in the Study of Extreme Longevity</article-title>.” <source>Aging Medicine</source>
+<volume>7</volume>: <fpage>406</fpage>–<lpage>413</lpage>. <pub-id pub-id-type="doi">10.1002/agm2.12336</pub-id>
+<pub-id pub-id-type="pmid">38975304</pub-id>
+<pub-id pub-id-type="pmcid">PMC11222757</pub-id></mixed-citation></ref><ref id="imt270134-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270134-cit-0016">
+<string-name name-style="western">
+<surname>Johansen</surname>, <given-names>Joachim</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Koji</given-names>
+<surname>Atarashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yasumichi</given-names>
+<surname>Arai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nobuyoshi</given-names>
+<surname>Hirose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Søren J.</given-names>
+<surname>Sørensen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tommi</given-names>
+<surname>Vatanen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mikael</given-names>
+<surname>Knip</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Centenarians Have A Diverse Gut Virome with the Potential to Modulate Metabolism and Promote Healthy Lifespan</article-title>.” <source>Nature Microbiology</source>
+<volume>8</volume>: <fpage>1064</fpage>–<lpage>1078</lpage>. <pub-id pub-id-type="doi">10.1038/s41564-023-01370-6</pub-id>
+<pub-id pub-id-type="pmid">37188814</pub-id></mixed-citation></ref><ref id="imt270134-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270134-cit-0017">
+<string-name name-style="western">
+<surname>Pang</surname>, <given-names>Shifu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaodong</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhilong</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lili</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiuqi</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lianfei</given-names>
+<surname>Huang</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Longevity of Centenarians Is Reflected by the Gut Microbiome with Youth‐Associated Signatures</article-title>.” <source>Nature Aging</source>
+<volume>3</volume>: <fpage>436</fpage>–<lpage>449</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-023-00389-y</pub-id>
+<pub-id pub-id-type="pmid">37117794</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270134-cit-0018">
+<string-name name-style="western">
+<surname>Banerjee</surname>, <given-names>Samiran</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Klaus</given-names>
+<surname>Schlaeppi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Marcel G. A.</given-names>
+<surname>Van Der Heijden</surname>
+</string-name>. <year>2018</year>. “<article-title>Keystone Taxa as Drivers of Microbiome Structure and Functioning</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>16</volume>: <fpage>567</fpage>–<lpage>576</lpage>. <pub-id pub-id-type="doi">10.1038/s41579-018-0024-1</pub-id>
+<pub-id pub-id-type="pmid">29789680</pub-id></mixed-citation></ref><ref id="imt270134-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270134-cit-0019">
+<string-name name-style="western">
+<surname>Fuhrman</surname>, <given-names>Jed A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jacob A.</given-names>
+<surname>Cram</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>David M.</given-names>
+<surname>Needham</surname>
+</string-name>. <year>2015</year>. “<article-title>Marine Microbial Community Dynamics and Their Ecological Interpretation</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>13</volume>: <fpage>133</fpage>–<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1038/nrmicro3417</pub-id>
+<pub-id pub-id-type="pmid">25659323</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270134-cit-0020">
+<string-name name-style="western">
+<surname>Shetty</surname>, <given-names>Sudarshan A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Floor</given-names>
+<surname>Hugenholtz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Leo</given-names>
+<surname>Lahti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hauke</given-names>
+<surname>Smidt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Willem M.</given-names>
+<surname>De Vos</surname>
+</string-name>. <year>2017</year>. “<article-title>Intestinal Microbiome Landscaping: Insight in Community Assemblage and Implications for Microbial Modulation Strategies</article-title>.” <source>FEMS Microbiology Reviews</source>
+<volume>41</volume>: <fpage>182</fpage>–<lpage>199</lpage>. <pub-id pub-id-type="doi">10.1093/femsre/fuw045</pub-id>
+<pub-id pub-id-type="pmid">28364729</pub-id>
+<pub-id pub-id-type="pmcid">PMC5399919</pub-id></mixed-citation></ref><ref id="imt270134-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt270134-cit-0021">
+<string-name name-style="western">
+<surname>Claesson</surname>, <given-names>Marcus J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ian B.</given-names>
+<surname>Jeffery</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Susana</given-names>
+<surname>Conde</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Susan E.</given-names>
+<surname>Power</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eibhlís M.</given-names>
+<surname>O'Connor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Siobhán</given-names>
+<surname>Cusack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hugh M. B.</given-names>
+<surname>Harris</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Gut Microbiota Composition Correlates with Diet and Health in the Elderly</article-title>.” <source>Nature</source>
+<volume>488</volume>: <fpage>178</fpage>–<lpage>184</lpage>. <pub-id pub-id-type="doi">10.1038/nature11319</pub-id>
+<pub-id pub-id-type="pmid">22797518</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt270134-cit-0022">
+<string-name name-style="western">
+<surname>Bradley</surname>, <given-names>Evan</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>John</given-names>
+<surname>Haran</surname>
+</string-name>. <year>2024</year>. “<article-title>The Human Gut Microbiome and Aging</article-title>.” <source>Gut Microbes</source>
+<volume>16</volume>: <elocation-id>2359677</elocation-id>. <pub-id pub-id-type="doi">10.1080/19490976.2024.2359677</pub-id>
+<pub-id pub-id-type="pmid">38831607</pub-id>
+<pub-id pub-id-type="pmcid">PMC11152108</pub-id></mixed-citation></ref><ref id="imt270134-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt270134-cit-0023">
+<string-name name-style="western">
+<surname>Thevaranjan</surname>, <given-names>Netusha</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alicja</given-names>
+<surname>Puchta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Christian</given-names>
+<surname>Schulz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Avee</given-names>
+<surname>Naidoo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Szamosi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chris P.</given-names>
+<surname>Verschoor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dessi</given-names>
+<surname>Loukov</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Age‐Associated Microbial Dysbiosis Promotes Intestinal Permeability, Systemic Inflammation, and Macrophage Dysfunction</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>21</volume>: <fpage>455</fpage>–<lpage>466.e454</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2017.03.002</pub-id>
+<pub-id pub-id-type="pmid">28407483</pub-id>
+<pub-id pub-id-type="pmcid">PMC5392495</pub-id></mixed-citation></ref><ref id="imt270134-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt270134-cit-0024">
+<string-name name-style="western">
+<surname>Lee</surname>, <given-names>Juneyoung</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>John</given-names>
+<surname>d'Aigle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Louise</given-names>
+<surname>Atadja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Victoria</given-names>
+<surname>Quaicoe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pedram</given-names>
+<surname>Honarpisheh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bhanu P.</given-names>
+<surname>Ganesh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ahmad</given-names>
+<surname>Hassan</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Gut Microbiota–Derived Short‐Chain Fatty Acids Promote Poststroke Recovery in Aged Mice</article-title>.” <source>Circulation Research</source>
+<volume>127</volume>: <fpage>453</fpage>–<lpage>465</lpage>. <pub-id pub-id-type="doi">10.1161/CIRCRESAHA.119.316448</pub-id>
+<pub-id pub-id-type="pmid">32354259</pub-id>
+<pub-id pub-id-type="pmcid">PMC7415518</pub-id></mixed-citation></ref><ref id="imt270134-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt270134-cit-0025">
+<string-name name-style="western">
+<surname>Guo</surname>, <given-names>Xiao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chen</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maozhong</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuanlai</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hua</given-names>
+<surname>Kuang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Liguang</given-names>
+<surname>Xu</surname>
+</string-name>. <year>2023</year>. “<article-title>Chiral Nanoparticle‐Remodeled Gut Microbiota Alleviates Neurodegeneration via the Gut‐Brain Axis</article-title>.” <source>Nature Aging</source>
+<volume>3</volume>: <fpage>1415</fpage>–<lpage>1429</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-023-00516-9</pub-id>
+<pub-id pub-id-type="pmid">37946041</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt270134-cit-0026">
+<string-name name-style="western">
+<surname>Qu</surname>, <given-names>Qi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yan</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Weiche</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shating</given-names>
+<surname>Long</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Heng‐Ye</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jianfeng</given-names>
+<surname>Wu</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Lithocholic Acid Binds TULP3 to Activate Sirtuins and AMPK to Slow down Ageing</article-title>.” <source>Nature</source>
+<volume>643</volume>: <fpage>201</fpage>–<lpage>209</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-024-08348-2</pub-id>
+<pub-id pub-id-type="pmid">39695235</pub-id>
+<pub-id pub-id-type="pmcid">PMC12222023</pub-id></mixed-citation></ref><ref id="imt270134-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt270134-cit-0027">
+<string-name name-style="western">
+<surname>Sato</surname>, <given-names>Yuko</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Koji</given-names>
+<surname>Atarashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Damian R.</given-names>
+<surname>Plichta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yasumichi</given-names>
+<surname>Arai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Satoshi</given-names>
+<surname>Sasajima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sean M.</given-names>
+<surname>Kearney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wataru</given-names>
+<surname>Suda</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Novel Bile Acid Biosynthetic Pathways Are Enriched in the Microbiome of Centenarians</article-title>.” <source>Nature</source>
+<volume>599</volume>: <fpage>458</fpage>–<lpage>464</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-021-03832-5</pub-id>
+<pub-id pub-id-type="pmid">34325466</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt270134-cit-0028">
+<string-name name-style="western">
+<surname>Salazar</surname>, <given-names>Anna M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ricardo</given-names>
+<surname>Aparicio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rebecca I.</given-names>
+<surname>Clark</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael</given-names>
+<surname>Rera</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>David W.</given-names>
+<surname>Walker</surname>
+</string-name>. <year>2023</year>. “<article-title>Intestinal Barrier Dysfunction: An Evolutionarily Conserved Hallmark of Aging</article-title>.” <source>Disease Models &amp; Mechanisms</source>
+<volume>16</volume>: <elocation-id>dmm049969</elocation-id>. <pub-id pub-id-type="doi">10.1242/dmm.049969</pub-id>
+<pub-id pub-id-type="pmid">37144684</pub-id>
+<pub-id pub-id-type="pmcid">PMC10184675</pub-id></mixed-citation></ref><ref id="imt270134-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt270134-cit-0029">
+<string-name name-style="western">
+<surname>Schulzke</surname>, <given-names>Joerg D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Svenja</given-names>
+<surname>Ploeger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maren</given-names>
+<surname>Amasheh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anja</given-names>
+<surname>Fromm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sebastian</given-names>
+<surname>Zeissig</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hanno</given-names>
+<surname>Troeger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jan</given-names>
+<surname>Richter</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>Epithelial Tight Junctions in Intestinal Inflammation</article-title>.” <source>Annals of the New York Academy of Sciences</source>
+<volume>1165</volume>: <fpage>294</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1111/j.1749-6632.2009.04062.x</pub-id>
+<pub-id pub-id-type="pmid">19538319</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt270134-cit-0030">
+<string-name name-style="western">
+<surname>Landy</surname>, <given-names>Jonathan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Emma</given-names>
+<surname>Ronde</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nick</given-names>
+<surname>English</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sue K.</given-names>
+<surname>Clark</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ailsa L.</given-names>
+<surname>Hart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stella C.</given-names>
+<surname>Knight</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paul J.</given-names>
+<surname>Ciclitira</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Hafid Omar</given-names>
+<surname>Al‐Hassi</surname>
+</string-name>. <year>2016</year>. “<article-title>Tight Junctions in Inflammatory Bowel Diseases and Inflammatory Bowel Disease Associated Colorectal Cancer</article-title>.” <source>World Journal of Gastroenterology</source>
+<volume>22</volume>: <elocation-id>3117</elocation-id>. <pub-id pub-id-type="doi">10.3748/wjg.v22.i11.3117</pub-id>
+<pub-id pub-id-type="pmid">27003989</pub-id>
+<pub-id pub-id-type="pmcid">PMC4789987</pub-id></mixed-citation></ref><ref id="imt270134-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt270134-cit-0031">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Jun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jianwei</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaojian</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qiliang</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Ren</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xianghua</given-names>
+<surname>Yan</surname>
+</string-name>. <year>2023</year>. “<article-title>Gut Microbiota‐Derived 3‐Phenylpropionic Acid Promotes Intestinal Epithelial Barrier Function via AhR Signaling</article-title>.” <source>Microbiome</source>
+<volume>11</volume>: <fpage>102</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-023-01551-9</pub-id>
+<pub-id pub-id-type="pmid">37158970</pub-id>
+<pub-id pub-id-type="pmcid">PMC10165798</pub-id></mixed-citation></ref><ref id="imt270134-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt270134-cit-0032">
+<string-name name-style="western">
+<surname>Qiu</surname>, <given-names>Xiaorou</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chao</given-names>
+<surname>Mu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiaxin</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wenbo</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yueli</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yongmei</given-names>
+<surname>Huang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Serum Metabolic and Microbial Profiling Yields Insights into Promoting Effect of Tryptophan‐Related Metabolites for Health Longevity in Centenarians</article-title>.” <source>iMeta</source>
+<volume>4</volume>: <elocation-id>e70025</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70025</pub-id>
+<pub-id pub-id-type="pmid">40469513</pub-id>
+<pub-id pub-id-type="pmcid">PMC12130558</pub-id></mixed-citation></ref><ref id="imt270134-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt270134-cit-0033">
+<string-name name-style="western">
+<surname>Banerjee</surname>, <given-names>Samiran</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Florian</given-names>
+<surname>Walder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lucie</given-names>
+<surname>Büchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marcel</given-names>
+<surname>Meyer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alain Y.</given-names>
+<surname>Held</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andreas</given-names>
+<surname>Gattinger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Thomas</given-names>
+<surname>Keller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Raphael</given-names>
+<surname>Charles</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Marcel G. A.</given-names>
+<surname>Van Der Heijden</surname>
+</string-name>. <year>2019</year>. “<article-title>Agricultural Intensification Reduces Microbial Network Complexity and the Abundance of Keystone Taxa in Roots</article-title>.” <source>The ISME Journal</source>
+<volume>13</volume>: <fpage>1722</fpage>–<lpage>1736</lpage>. <pub-id pub-id-type="doi">10.1038/s41396-019-0383-2</pub-id>
+<pub-id pub-id-type="pmid">30850707</pub-id>
+<pub-id pub-id-type="pmcid">PMC6591126</pub-id></mixed-citation></ref><ref id="imt270134-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt270134-cit-0034">
+<string-name name-style="western">
+<surname>Martin</surname>, <given-names>Alberto J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kineret</given-names>
+<surname>Serebrinsky‐Duek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Erick</given-names>
+<surname>Riquelme</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pedro A.</given-names>
+<surname>Saa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Garrido</surname>
+</string-name>. <year>2023</year>. “<article-title>Microbial Interactions and the Homeostasis of the Gut Microbiome: The Role of Bifidobacterium</article-title>.” <source>Microbiome Research Reports</source>
+<volume>2</volume>: <fpage>17</fpage>. <pub-id pub-id-type="doi">10.20517/mrr.2023.10</pub-id>
+<pub-id pub-id-type="pmid">38046822</pub-id>
+<pub-id pub-id-type="pmcid">PMC10688804</pub-id></mixed-citation></ref><ref id="imt270134-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt270134-cit-0035">
+<string-name name-style="western">
+<surname>Lawing</surname>, <given-names>Ally</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Rachel</given-names>
+<surname>Bleich</surname>
+</string-name>. <year>2025</year>. “<article-title>Working Together: Gut Microbe‐Microbe Interactions Shape Host Inflammation</article-title>.” <source>Infection and Immunity</source>
+<volume>93</volume>: <fpage>e00512</fpage>–<lpage>e00524</lpage>. <pub-id pub-id-type="doi">10.1128/iai.00512-24</pub-id>
+<pub-id pub-id-type="pmid">40512008</pub-id>
+<pub-id pub-id-type="pmcid">PMC12234441</pub-id></mixed-citation></ref><ref id="imt270134-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt270134-cit-0036">
+<string-name name-style="western">
+<surname>Rampelli</surname>, <given-names>Simone</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Matteo</given-names>
+<surname>Soverini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Federica</given-names>
+<surname>D'Amico</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Monica</given-names>
+<surname>Barone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Teresa</given-names>
+<surname>Tavella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniela</given-names>
+<surname>Monti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Miriam</given-names>
+<surname>Capri</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Shotgun Metagenomics of Gut Microbiota in Humans with up to Extreme Longevity and the Increasing Role of Xenobiotic Degradation</article-title>.” <source>mSystems</source>
+<volume>5</volume>: <elocation-id>e00124–00120</elocation-id>. <pub-id pub-id-type="doi">10.1128/mSystems.00124-20</pub-id>
+<pub-id pub-id-type="pmid">32209716</pub-id>
+<pub-id pub-id-type="pmcid">PMC7093822</pub-id></mixed-citation></ref><ref id="imt270134-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt270134-cit-0037">
+<string-name name-style="western">
+<surname>Haran</surname>, <given-names>John P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Beth A.</given-names>
+<surname>McCormick</surname>
+</string-name>. <year>2021</year>. “<article-title>Aging, Frailty, and the Microbiome—How Dysbiosis Influences Human Aging and Disease</article-title>.” <source>Gastroenterology</source>
+<volume>160</volume>: <fpage>507</fpage>–<lpage>523</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2020.09.060</pub-id>
+<pub-id pub-id-type="pmid">33307030</pub-id>
+<pub-id pub-id-type="pmcid">PMC7856216</pub-id></mixed-citation></ref><ref id="imt270134-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt270134-cit-0038">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Li</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Karen Mei‐Ling</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Priti</given-names>
+<surname>Mishra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sartaj Ahmad</given-names>
+<surname>Mir</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Min</given-names>
+<surname>Gong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kothandaraman</given-names>
+<surname>Narasimhan</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Exploring Multi‐Omics and Clinical Characteristics Linked to Accelerated Biological Aging in Asian Women of Reproductive Age: Insights from the S‐PRESTO Study</article-title>.” <source>Genome Medicine</source>
+<volume>16</volume>: <fpage>128</fpage>. <pub-id pub-id-type="doi">10.1186/s13073-024-01403-7</pub-id>
+<pub-id pub-id-type="pmid">39516835</pub-id>
+<pub-id pub-id-type="pmcid">PMC11549770</pub-id></mixed-citation></ref><ref id="imt270134-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt270134-cit-0039">
+<string-name name-style="western">
+<surname>Pu</surname>, <given-names>Yanni</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zhonghan</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hui</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qingxia</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhengdong</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhendong</given-names>
+<surname>Mei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peilu</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Gut Microbial Features and Circulating Metabolomic Signatures of Frailty in Older Adults</article-title>.” <source>Nature Aging</source>
+<volume>4</volume>: <fpage>1249</fpage>–<lpage>1262</lpage>. <pub-id pub-id-type="doi">10.1038/s43587-024-00678-0</pub-id>
+<pub-id pub-id-type="pmid">39054372</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt270134-cit-0040">
+<string-name name-style="western">
+<surname>Everard</surname>, <given-names>Amandine</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Clara</given-names>
+<surname>Belzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lucie</given-names>
+<surname>Geurts</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Janneke P.</given-names>
+<surname>Ouwerkerk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Céline</given-names>
+<surname>Druart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Laure B.</given-names>
+<surname>Bindels</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yves</given-names>
+<surname>Guiot</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Cross‐Talk Between <italic toggle="yes">Akkermansia muciniphila</italic> and Intestinal Epithelium Controls Diet‐Induced Obesity</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>110</volume>: <fpage>9066</fpage>–<lpage>9071</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1219451110</pub-id>
+<pub-id pub-id-type="pmcid">PMC3670398</pub-id><pub-id pub-id-type="pmid">23671105</pub-id></mixed-citation></ref><ref id="imt270134-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt270134-cit-0041">
+<string-name name-style="western">
+<surname>Turroni</surname>, <given-names>Francesca</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Ventura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ludovica F.</given-names>
+<surname>Buttó</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sabrina</given-names>
+<surname>Duranti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paul W.</given-names>
+<surname>O'Toole</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mary</given-names>
+<surname>O'Connell Motherway</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Douwe</given-names>
+<surname>Van Sinderen</surname>
+</string-name>. <year>2014</year>. “<article-title>Molecular Dialogue between the Human Gut Microbiota and the Host: A <italic toggle="yes">Lactobacillus</italic> and <italic toggle="yes">Bifidobacterium</italic> Perspective</article-title>.” <source>Cellular and Molecular Life Sciences</source>
+<volume>71</volume>: <fpage>183</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-013-1318-0</pub-id>
+<pub-id pub-id-type="pmid">23516017</pub-id>
+<pub-id pub-id-type="pmcid">PMC11113728</pub-id></mixed-citation></ref><ref id="imt270134-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt270134-cit-0042">
+<string-name name-style="western">
+<surname>Hofer</surname>, <given-names>Ursula</given-names>
+</string-name>. <year>2021</year>. “<article-title>Unique Bile Acid Metabolism in Centenarians</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>19</volume>: <fpage>618</fpage>. <pub-id pub-id-type="doi">10.1038/s41579-021-00623-7</pub-id>
+<pub-id pub-id-type="pmid">34381191</pub-id></mixed-citation></ref><ref id="imt270134-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="imt270134-cit-0043">
+<string-name name-style="western">
+<surname>Cao</surname>, <given-names>Zheng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Cui</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hehua</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Weichuan</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wenkai</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanmeng</given-names>
+<surname>He</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>
+<italic toggle="yes">Lactobacillus Salivarius</italic>‐Derived Indole‐3‐Acetic Acid Promotes AHR‐PARP1 Axis‐Mediated DNA Repair to Mitigate Intestinal Aging</article-title>.” <source>Advanced Science</source>
+<volume>13</volume>: <elocation-id>e15794</elocation-id>. <pub-id pub-id-type="doi">10.1002/advs.202515794</pub-id>
+<pub-id pub-id-type="pmid">41147383</pub-id>
+<pub-id pub-id-type="pmcid">PMC12822427</pub-id></mixed-citation></ref><ref id="imt270134-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="imt270134-cit-0044">
+<string-name name-style="western">
+<surname>Teng</surname>, <given-names>Yun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yi</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mohammed</given-names>
+<surname>Sayed</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chao</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anil</given-names>
+<surname>Kumar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Elizabeth</given-names>
+<surname>Hutchins</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Plant‐Derived Exosomal MicroRNAs Shape the Gut Microbiota</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>24</volume>: <fpage>637</fpage>–<lpage>652.e638</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2018.10.001</pub-id>
+<pub-id pub-id-type="pmid">30449315</pub-id>
+<pub-id pub-id-type="pmcid">PMC6746408</pub-id></mixed-citation></ref><ref id="imt270134-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="imt270134-cit-0045">
+<string-name name-style="western">
+<surname>Zhong</surname>, <given-names>Shi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yu‐Qing</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jin‐Xi</given-names>
+<surname>Huo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wen‐Yi</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ya‐Nan</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun‐Bo</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei‐Jie</given-names>
+<surname>Wu</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>The Gut Microbiota‐Aromatic Hydrocarbon Receptor (AhR) Axis Mediates the Anticolitic Effect of Polyphenol‐Rich Extracts from Sanghuangporus</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e180</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.180</pub-id>
+<pub-id pub-id-type="pmid">38882491</pub-id>
+<pub-id pub-id-type="pmcid">PMC11170970</pub-id></mixed-citation></ref><ref id="imt270134-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="imt270134-cit-0046">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>Dingfeng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Na</given-names>
+<surname>Jiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yida</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Li</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuan</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ping</given-names>
+<surname>Lan</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Targeting Keystone Species Helps Restore the Dysbiosis of Butyrate‐Producing Bacteria in Nonalcoholic Fatty Liver Disease</article-title>.” <source>iMeta</source>
+<volume>1</volume>: <elocation-id>e61</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.61</pub-id>
+<pub-id pub-id-type="pmid">38867895</pub-id>
+<pub-id pub-id-type="pmcid">PMC10989787</pub-id></mixed-citation></ref><ref id="imt270134-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="imt270134-cit-0047">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Xu‐Wen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zheng</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huijue</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sebastian</given-names>
+<surname>Michel‐Mata</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marco Tulio</given-names>
+<surname>Angulo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Dai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xuesong</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Scott T.</given-names>
+<surname>Weiss</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yang‐Yu</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2023</year>. “<article-title>Identifying Keystone Species in Microbial Communities Using Deep Learning</article-title>.” <source>Nature Ecology &amp; Evolution</source>
+<volume>8</volume>: <fpage>22</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1038/s41559-023-02250-2</pub-id>
+<pub-id pub-id-type="pmid">37974003</pub-id>
+<pub-id pub-id-type="pmcid">PMC12125608</pub-id></mixed-citation></ref><ref id="imt270134-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="imt270134-cit-0048">
+<string-name name-style="western">
+<surname>Yousuf</surname>, <given-names>Salsabeel</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hao</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meiyin</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tengfei</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaofang</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maosheng</given-names>
+<surname>Zheng</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Unveiling Microbial Communities with EasyAmplicon: A User‐Centric Guide to Perform Amplicon Sequencing Data Analysis</article-title>.” <source>iMetaOmics</source>
+<volume>1</volume>: <elocation-id>e42</elocation-id>. <pub-id pub-id-type="doi">10.1002/imo2.42</pub-id>
+<pub-id pub-id-type="pmid">41676130</pub-id>
+<pub-id pub-id-type="pmcid">PMC12806499</pub-id></mixed-citation></ref><ref id="imt270134-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="imt270134-cit-0049">
+<string-name name-style="western">
+<surname>Luo</surname>, <given-names>Hao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Defeng</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhihao</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Salsabeel</given-names>
+<surname>Yousuf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiani</given-names>
+<surname>Xun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meiyin</given-names>
+<surname>Zeng</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>EasyAmplicon 2: Expanding PacBio and Nanopore Long Amplicon Sequencing Analysis Pipeline for Microbiome</article-title>.” <source>Advanced Science</source>
+<volume>13</volume>: <elocation-id>e12447</elocation-id>. <pub-id pub-id-type="doi">10.1002/advs.202512447</pub-id>
+<pub-id pub-id-type="pmid">41144790</pub-id>
+<pub-id pub-id-type="pmcid">PMC12767004</pub-id></mixed-citation></ref><ref id="imt270134-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="imt270134-cit-0050">
+<string-name name-style="western">
+<surname>Douglas</surname>, <given-names>Gavin M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Vincent J.</given-names>
+<surname>Maffei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jesse R.</given-names>
+<surname>Zaneveld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Svetlana N.</given-names>
+<surname>Yurgel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>James R.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Christopher M.</given-names>
+<surname>Taylor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Curtis</given-names>
+<surname>Huttenhower</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Morgan G. I.</given-names>
+<surname>Langille</surname>
+</string-name>. <year>2020</year>. “<article-title>PICRUSt2 for Prediction of Metagenome Functions</article-title>.” <source>Nature Biotechnology</source>
+<volume>38</volume>: <fpage>685</fpage>–<lpage>688</lpage>. <pub-id pub-id-type="doi">10.1038/s41587-020-0548-6</pub-id>
+<pub-id pub-id-type="pmcid">PMC7365738</pub-id><pub-id pub-id-type="pmid">32483366</pub-id></mixed-citation></ref><ref id="imt270134-bib-0051"><label>51</label><mixed-citation publication-type="miscellaneous" id="imt270134-cit-0051">
+<string-name name-style="western">
+<surname>Wickham</surname>, <given-names>Hadley</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Winston</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lionel</given-names>
+<surname>Henry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Thomas Lin</given-names>
+<surname>Pedersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kohske</given-names>
+<surname>Takahashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Claus</given-names>
+<surname>Wilke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kara</given-names>
+<surname>Woo</surname>
+</string-name>, et al. <year>2007</year>. “ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics.” <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ggplot2.tidyverse.org" ext-link-type="uri">https://ggplot2.tidyverse.org</ext-link>
+</mixed-citation></ref><ref id="imt270134-bib-0052"><label>52</label><mixed-citation publication-type="miscellaneous" id="imt270134-cit-0052">
+<string-name name-style="western">
+<surname>Oksanen</surname>, <given-names>Jari</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Pierre</given-names>
+<surname>Legendre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bob</given-names>
+<surname>O'Hara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. Henry H.</given-names>
+<surname>Stevens</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Maintainer Jari</given-names>
+<surname>Oksanen</surname>
+</string-name>. <year>2020</year>. “Vegan: Community Ecology Package. R Package Version 2.5‐7.” Community Ecology Package 10: 631−637. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/vegandevs/vegan" ext-link-type="uri">https://github.com/vegandevs/vegan</ext-link>
+</mixed-citation></ref><ref id="imt270134-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="imt270134-cit-0053">
+<string-name name-style="western">
+<surname>Love</surname>, <given-names>Michael I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Wolfgang</given-names>
+<surname>Huber</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Simon</given-names>
+<surname>Anders</surname>
+</string-name>. <year>2014</year>. “<article-title>Moderated Estimation of Fold Change and Dispersion for RNA‐Seq Data with DESeq2</article-title>.” <source>Genome Biology</source>
+<volume>15</volume>: <fpage>550</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-014-0550-8</pub-id>
+<pub-id pub-id-type="pmid">25516281</pub-id>
+<pub-id pub-id-type="pmcid">PMC4302049</pub-id></mixed-citation></ref><ref id="imt270134-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="imt270134-cit-0054">
+<string-name name-style="western">
+<surname>Langfelder</surname>, <given-names>Peter</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Steve</given-names>
+<surname>Horvath</surname>
+</string-name>. <year>2008</year>. “<article-title>WGCNA: An R Package for Weighted Correlation Network Analysis</article-title>.” <source>BMC Bioinformatics</source>
+<volume>9</volume>: <elocation-id>559</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2105-9-559</pub-id>
+<pub-id pub-id-type="pmid">19114008</pub-id>
+<pub-id pub-id-type="pmcid">PMC2631488</pub-id></mixed-citation></ref><ref id="imt270134-bib-0055"><label>55</label><mixed-citation publication-type="miscellaneous" id="imt270134-cit-0055">
+<string-name name-style="western">
+<surname>Csárdi</surname>, <given-names>Gábor</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tamás</given-names>
+<surname>Nepusz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kirill</given-names>
+<surname>Müller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Szabolcs</given-names>
+<surname>Horvát</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vincent</given-names>
+<surname>Traag</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fabio</given-names>
+<surname>Zanini</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Noom</surname>
+</string-name>. <year>2025</year>. “igraph for R: R Interface of the Igraph Library for Graph Theory and Network Analysis.” Zenodo. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://r.igraph.org" ext-link-type="uri">https://r.igraph.org</ext-link>
+</mixed-citation></ref><ref id="imt270134-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="imt270134-cit-0056">
+<string-name name-style="western">
+<surname>Yuan</surname>, <given-names>Mengting Maggie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xue</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Linwei</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ya</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Naijia</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daliang</given-names>
+<surname>Ning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhou</given-names>
+<surname>Shi</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Climate Warming Enhances Microbial Network Complexity and Stability</article-title>.” <source>Nature Climate Change</source>
+<volume>11</volume>: <fpage>343</fpage>–<lpage>348</lpage>. <pub-id pub-id-type="doi">10.1038/s41558-021-00989-9</pub-id>
+</mixed-citation></ref><ref id="imt270134-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="imt270134-cit-0057">
+<string-name name-style="western">
+<surname>Berry</surname>, <given-names>David</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Stefanie</given-names>
+<surname>Widder</surname>
+</string-name>. <year>2014</year>. “<article-title>Deciphering Microbial Interactions and Detecting Keystone Species With Co‐Occurrence Networks</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>5</volume>: <elocation-id>219</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2014.00219</pub-id>
+<pub-id pub-id-type="pmid">24904535</pub-id>
+<pub-id pub-id-type="pmcid">PMC4033041</pub-id></mixed-citation></ref><ref id="imt270134-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="imt270134-cit-0058">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>Ken</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Carl</given-names>
+<surname>Brunius</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rikard</given-names>
+<surname>Fristedt</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rikard</given-names>
+<surname>Landberg</surname>
+</string-name>. <year>2020</year>. “<article-title>An LC‐QToF MS Based Method for Untargeted Metabolomics of Human Fecal Samples</article-title>.” <source>Metabolomics</source>
+<volume>16</volume>: <fpage>46</fpage>. <pub-id pub-id-type="doi">10.1007/s11306-020-01669-z</pub-id>
+<pub-id pub-id-type="pmid">32246267</pub-id>
+<pub-id pub-id-type="pmcid">PMC7125068</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,534 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270139" xml:lang="en" article-type="letter" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13377414</article-id><article-id pub-id-type="pmcid-ver">PMC13377414.1</article-id><article-id pub-id-type="pmcaid">13377414</article-id><article-id pub-id-type="pmcaiid">13377414</article-id><article-id pub-id-type="pmid">42491397</article-id><article-id pub-id-type="doi">10.1002/imt2.70139</article-id><article-id pub-id-type="publisher-id">IMT270139</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Correspondence</subject></subj-group><subj-group subj-group-type="heading"><subject>Correspondence</subject></subj-group></article-categories><title-group><article-title>From prediction to actionable mechanisms: Explainable multi‑omics AI for farm‑to‑fork postharvest preservation</article-title><alt-title alt-title-type="right-running-head">XAI‐DRIVEN MULTI‐OMICS FOR ACTIONABLE POSTHARVEST PRESERVATION</alt-title><alt-title alt-title-type="left-running-head">MA <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270139-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ma</surname><given-names initials="P">Peihua</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5041-0361</contrib-id><xref rid="imt270139-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>mapeihua@caas.cn</email></address></contrib><contrib id="imt270139-cr-0002" contrib-type="author"><name name-style="western"><surname>Jia</surname><given-names initials="X">Xiaoxue</given-names></name><xref rid="imt270139-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270139-cr-0003" contrib-type="author"><name name-style="western"><surname>Fan</surname><given-names initials="B">Bei</given-names></name><xref rid="imt270139-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270139-cr-0004" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="B">Boqiang</given-names></name><xref rid="imt270139-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270139-cr-0005" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="T">Tao</given-names></name><xref rid="imt270139-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270139-cr-0006" contrib-type="author"><name name-style="western"><surname>Sheng</surname><given-names initials="J">Jiping</given-names></name><xref rid="imt270139-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270139-cr-0007" contrib-type="author"><name name-style="western"><surname>Wei</surname><given-names initials="CI">Cheng‐I</given-names></name><xref rid="imt270139-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt270139-cr-0008" contrib-type="author"><name name-style="western"><surname>Lu</surname><given-names initials="Y">Yingjian</given-names></name><xref rid="imt270139-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="imt270139-cr-0009" contrib-type="author"><name name-style="western"><surname>Ma</surname><given-names initials="Y">Yizhou</given-names></name><xref rid="imt270139-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt270139-cr-0010" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="L">Lin</given-names></name><xref rid="imt270139-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="imt270139-cr-0011" contrib-type="author"><name name-style="western"><surname>Jiu</surname><given-names initials="S">Songtao</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7437-111X</contrib-id><xref rid="imt270139-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="imt270139-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wang</surname><given-names initials="F">Fengzhong</given-names></name><xref rid="imt270139-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>wangfengzhong@sina.com</email></address></contrib></contrib-group><aff id="imt270139-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Food Science and Technology, Chinese Academy of Agricultural Sciences, Key Laboratory of Agro‐products Processing</named-content>
+<institution>Ministry of Agriculture and Rural Affairs</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270139-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Plant Diversity and Specialty Crops, Institute of Botany</named-content>
+<institution>Chinese Academy of Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270139-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Beijing Key Laboratory of Growth and Developmental Regulation for Protected Vegetable Crops, College of Horticulture</named-content>
+<institution>China Agricultural University</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270139-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">School of Agricultural Economics and Rural Development</named-content>
+<institution>Renmin University of China</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270139-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Nutrition and Food Science, College of Agriculture and Natural Resources</named-content>
+<institution>University of Maryland, College Park</institution>
+<city>College Park</city>
+<named-content content-type="country-part">Maryland</named-content>
+<country country="US">USA</country>
+</aff><aff id="imt270139-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">College of Food Science and Engineering</named-content>
+<institution>Nanjing University of Finance and Economics</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270139-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Laboratory of Food Process Engineering</named-content>
+<institution>Wageningen University &amp; Research</institution>
+<city>Wageningen</city>
+<country country="NL">The Netherlands</country>
+</aff><aff id="imt270139-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">School of Chemistry, Chemical Engineering and Biotechnology</named-content>
+<institution>Nanyang Technological University</institution>
+<city>Singapore</city>
+<country country="SG">Singapore</country>
+</aff><aff id="imt270139-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plant Science, School of Agriculture and Biology</named-content>
+<institution>Shanghai Jiao Tong University</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Peihua Ma and Fengzhong Wang, Institute of Food Science and Technology, Chinese Academy of Agricultural Sciences, Key Laboratory of Agro‐products Processing, Ministry of Agriculture and Rural Affairs, Beijing 100193, China.<break/>
+Email: <email>mapeihua@caas.cn</email> and <email>wangfengzhong@sina.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>6</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2026</year></pub-date><volume>5</volume><issue seq="150">3</issue><issue-id pub-id-type="pmc-issue-id">517882</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v5.3</issue-id><elocation-id>e70139</elocation-id><history>
+<date date-type="rev-recd"><day>20</day><month>5</month><year>2026</year></date>
+<date date-type="received"><day>15</day><month>3</month><year>2026</year></date>
+<date date-type="accepted"><day>25</day><month>5</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>09</day><month>06</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>18</day><month>07</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-19 18:25:20.270"><day>19</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-5-e70139.pdf"><?pdf-name IMT2-5-e70139.pdf?><?pdf-size 1760158?><?pdf-md5 da95d04584b4139372ae0ad1109ca161?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:7634/13377414/da95d04584b4/IMT2-5-e70139.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-5-e70139.pdf"/><abstract abstract-type="graphical"><p>Graphical overview of explainable artificial intelligence (XAI) for farm‐to‐fork postharvest preservation. Postharvest deterioration accumulates across orchard, packhouse, refrigerated transportation, warehouse, and distribution stages under fluctuating temperature, humidity, atmosphere, and mechanical stress. Multimodal data streams, including host omics, microbiome profiles, environmental sensing, RGB/hyperspectral/thermal imaging, spectroscopy, key genes, and logistics records, are integrated through a data lakehouse and analyzed by postharvest XAI models. Explainable modules, including SHapley Additive exPlanations (SHAP)/local attribution, graph neural network (GNN) explanation, pathway‐constrained models, counterfactual reasoning, and stability/faithfulness auditing, convert black‐box spoilage‐risk prediction into interpretable biological mechanisms. These mechanisms guide actionable interventions such as antioxidant coating, elicitor spray, biocontrol consortia, packaging optimization, and gene‐targeted strategies. Validation through storage trials, sensory evaluation, microbial testing, and sequencing closes the loop from prediction to explanation, intervention, and validated decision support.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-5-e70139-g001.jpg"><?image-name IMT2-5-e70139-g001.jpg?><?image-size 142931?><?image-md5 9799b399ab00081971a6b0c11c74b73a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 701?><?image-original-width 1054?><?image-scaled-height 467?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/7634/13377414/9799b399ab00/IMT2-5-e70139-g001.jpg?></graphic></boxed-text>
+</p></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Basic Research Center, Innovation Program of Chinese Academy of Agricultural Sciences</institution></institution-wrap>
+</funding-source><award-id>CAAS‐BRC‐202610</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="0"/><page-count count="7"/><word-count count="3455"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.4 mode:remove_FC converted:17.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="imt270139-sec-0150"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Peihua Ma</bold>: Conceptualization; methodology; data curation; writing—original draft; writing—review and editing; visualization. <bold>Xiaoxue Jia</bold>: Writing—original draft; writing—review and editing. <bold>Bei Fan</bold>: Writing—review and editing; supervision. <bold>Boqiang Li</bold>: Writing—review and editing. <bold>Tao Lin</bold>: Writing—review and editing. <bold>Jiping Sheng</bold>: Writing—review and editing. <bold>Cheng‐I Wei</bold>: Writing—review and editing. <bold>Yingjian Lu</bold>: Writing—review and editing. <bold>Yizhou Ma</bold>: Writing—review and editing; data curation; validation. <bold>Lin Chen</bold>: Writing—review and editing. <bold>Songtao Jiu</bold>: Writing—review and editing. <bold>Fengzhong Wang</bold>: Writing—review and editing; project administration; supervision; resources; funding acquisition.</p></sec><sec sec-type="COI-statement" id="imt270139-sec-0170"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270139-sec-0200"><title>ETHICS STATEMENT</title><p>No animals or humans were involved in this study.</p></sec><sec><p>
+<named-content content-type="salutation">To the Editor,</named-content>
+</p></sec><sec id="imt270139-sec-0010"><p>Postharvest deterioration remains a critical inefficiency in global food systems, with 13.3% of food lost between harvest and retail, losses exceeding 25% for fruits and vegetables, and an additional 19% wasted at the consumer level. These losses exacerbate greenhouse gas emissions, resource depletion, and food insecurity, reinforcing the urgency of advancing preservation strategies [<xref rid="imt270139-bib-0001" ref-type="bibr">1</xref>, <xref rid="imt270139-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270139-bib-0003" ref-type="bibr">3</xref>]. By integrating phenotypic monitoring with genomic, transcriptomic, and microbiome data, AI has progressed from visual sorting to molecular‐level quality assessment, improving the precision of spoilage prediction and shelf‐life estimation [<xref rid="imt270139-bib-0004" ref-type="bibr">4</xref>]. However, most current AI models deliver forecast predictions without elucidating the underlying biological or environmental mechanisms. This lack of interpretability limits actionable decision‐making, as effective intervention depends on understanding the drivers of deterioration rather than prediction alone.</p><p>Explainable artificial intelligence (XAI) addresses this limitation by making model reasoning interpretable and translating complex outputs into actionable knowledge [<xref rid="imt270139-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt270139-bib-0006" ref-type="bibr">6</xref>]. XAI frameworks are commonly categorized as post‐hoc versus intrinsic methods: post‐hoc methods interrogate trained models to identify influential genes, metabolites, or storage variables, whereas intrinsic methods embed interpretability directly into model architecture, such as pathway‐constrained neural networks, reflect known regulatory networks governing ripening and spoilage. Importantly, applications in genomics and multi‐omics research demonstrate that XAI can reveal key genes, microbial taxa, and metabolic pathways driving predictions without sacrificing performance, thereby converting statistical associations into biologically meaningful hypotheses. In postharvest contexts, an explainable multi‐omics model could identify specific gene expression signatures or microbial components of the produce holobiont, defined as the host and its associated microbiota considered as an integrated biological unit, that are associated with accelerated spoilage and may guide targeted breeding, microbiome modulation, or environmental control strategies. Moreover, when integrating multimodal data, such as imaging, spectroscopy, and omics, XAI further disentangles the contribution of each modality, while counterfactual explanations and digital twin simulations allow evaluation of how modifying storage conditions might alter outcomes. Through these advances, explainability shifts AI from a predictive black box to a tool for mechanistic insight and actionable intervention [<xref rid="imt270139-bib-0007" ref-type="bibr">7</xref>].</p><p>This work, for the first time, synthesizes emerging advances to reposition postharvest AI from prediction‐centric analytics toward causality‐driven mechanism discovery (Figure <xref rid="imt270139-fig-0001" ref-type="fig">1</xref>). We introduce an XAI‐ready conceptual framework that integrates holobiont multi‐omics, multimodal sensing, and a data lakehouse architecture as a unified foundation for postharvest preservation research. This perspective establishes XAI as a critical scientific instrument for making postharvest AI not only mechanistically interpretable but also operationally actionable across the farm‐to‐fork continuum.</p><fig position="float" fig-type="Figure" id="imt270139-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Concept of explainable AI in postharvest preservation within an XAI‐ready data ecosystem. Postharvest deterioration accumulates across orchard, packhouse, cold‐chain transport, storage, and distribution under fluctuating temperature, humidity, atmosphere, and handling stress. Multimodal inputs such as environmental sensors, RGB/hyperspectral/thermal imaging, spectroscopy, logistics events, host omics, microbiome profiles, and packaging properties are integrated in a data lakehouse. SHAP/local attribution, GNN explanation, pathway constraints, counterfactual reasoning, and stability–faithfulness audits convert spoilage prediction into interpretable mechanisms, guiding interventions and validation through storage trials, sensory assessment, qPCR, and sequencing. GNN, graph neural network; OTR, oxygen transmission rate; qPCR, quantitative polymerase chain reaction; RGB, red, green, blue; SHAP, SHapley Additive exPlanations; WVTR, water vapor transmission rate; XAI, explainable artificial intelligence.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-5-e70139-g003.jpg"><?image-name IMT2-5-e70139-g003.jpg?><?image-size 117137?><?image-md5 800f7b5d2ac26adb17a53ecc5320c038?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 471?><?image-original-width 910?><?image-scaled-height 314?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/7634/13377414/800f7b5d2ac2/IMT2-5-e70139-g003.jpg?><?thumb-name IMT2-5-e70139-g003.gif?><?thumb-size 8792?><?thumb-md5 01cd1a37491df4cd93958d13767f63eb?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 154?><?thumb-cloudpmc-urn urn:cdn:blobs/7634/13377414/01cd1a37491d/IMT2-5-e70139-g003.gif?></graphic></fig></sec><sec id="imt270139-sec-0020"><title>FROM FOUNDATIONAL XAI CONCEPTS TO PROFESSIONAL DEPLOYMENT IN POSTHARVEST MULTI‐OMICS SYSTEMS</title><p>In postharvest fruit and vegetable preservation, XAI must progress from conceptual understanding to operational rigor, ultimately serving biological interpretation, mechanism discovery, and intervention design rather than merely enhancing model transparency. Below, we outline this progression across beginner, intermediate, and professional levels, explicitly framed within postharvest and multi‐omics research [<xref rid="imt270139-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt270139-bib-0009" ref-type="bibr">9</xref>, <xref rid="imt270139-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt270139-bib-0011" ref-type="bibr">11</xref>] (See the detailed tutorial in Supporting Information). At the professional stage, XAI in postharvest research evolves from descriptive attribution toward intervention‐oriented decision frameworks that integrate counterfactual reasoning, robustness auditing, and biological validation [<xref rid="imt270139-bib-0012" ref-type="bibr">12</xref>, <xref rid="imt270139-bib-0013" ref-type="bibr">13</xref>, <xref rid="imt270139-bib-0014" ref-type="bibr">14</xref>, <xref rid="imt270139-bib-0015" ref-type="bibr">15</xref>, <xref rid="imt270139-bib-0016" ref-type="bibr">16</xref>].</p></sec><sec id="imt270139-sec-0030"><title>XAI‐READY DATA ECOSYSTEM FOR A POSTHARVEST APPLICATION</title><sec id="imt270139-sec-0040"><title>Holobiont data ecosystem</title><p>Postharvest deterioration emerges from dynamic host‐microbe‐environment interactions rather than isolated fruit properties, driven by microbial succession and metabolic exchanges (Figure <xref rid="imt270139-fig-0002" ref-type="fig">2</xref>). This holobiont perspective dictates that an XAI‐ready data ecosystem must synchronize host omics, microbiome profiles, and environmental exposomes to capture these coupled dynamics, rather than storing them as siloed variables. Crucially, host transcriptional responses, metabolite accumulation, and microbiome succession often occur on different temporal scales and across different tissue microenvironments, creating temporal and spatial discordance. To support explainability, data structures should encode temporal alignment, host‐microbe interaction matrices, and sampling metadata. Without such integration, XAI may conflate host susceptibility with microbial aggression under sparse data conditions. Structured data architectures enable attribution to defined holobiont interaction modules, supporting biologically interpretable mechanisms and precision management beyond opaque statistical correlations.</p><fig position="float" fig-type="Figure" id="imt270139-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Comparison between conventional AI‐based postharvest prediction and XAI‐based mechanism discovery and intervention. Conventional AI integrates multimodal inputs from the postharvest chain but often produces black‐box outputs from feature matrices. In contrast, XAI enriches raw data with holobiont omics, logistics metadata, packaging properties, and multiscale context from molecules to supply chains. SHAP attribution, GNN explanation, pathway‐constrained modeling, counterfactual reasoning, and mechanistic interpretation generate actionable hypotheses, guiding elicitor treatment and experimental validation by LC/GC‐MS, wet‐lab assays, qPCR, and storage trials. LC/GC‐MS, liquid chromatography/gas chromatography‐mass spectrometry; qPCR, quantitative polymerase chain reaction; SHAP, SHapley Additive exPlanations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-5-e70139-g002.jpg"><?image-name IMT2-5-e70139-g002.jpg?><?image-size 143300?><?image-md5 00f515f82169d2374125136552771682?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 617?><?image-original-width 910?><?image-scaled-height 411?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/7634/13377414/00f515f82169/IMT2-5-e70139-g002.jpg?><?thumb-name IMT2-5-e70139-g002.gif?><?thumb-size 7467?><?thumb-md5 1a67cc1392e5f2690fd5678bb57545a4?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 117?><?thumb-cloudpmc-urn urn:cdn:blobs/7634/13377414/1a67cc1392e5/IMT2-5-e70139-g002.gif?></graphic></fig></sec><sec id="imt270139-sec-0050"><title>Multi‐modal data fusion</title><p>Constructing a robust farm‐to‐fork XAI model necessitates the structured fusion of three primary data domains. First, host omics, including transcriptomics and metabolomics, capture ripening trajectories, membrane lipid remodeling, and defense metabolism, thereby encoding susceptibility to chilling injury and pathogen invasion. Second, microbiome profiles describe community composition and metabolic function, informing disease kinetics and host–pathogen competition. Third, the postharvest exposome encompasses continuous environmental sensor streams (temperature, humidity, O<sub>2</sub>/CO<sub>2</sub>, ethylene), event logs (harvest timing, precooling delay), and packaging barrier properties (oxygen transmission rate/water vapor transmission rate), which collectively determine modified‐atmosphere dynamics. Synthesizing these heterogeneous layers creates a complex multi‐modal landscape where standard modeling risks overfitting. Consequently, XAI is indispensable for validating these integrations. By enforcing feature attribution consistency, counterfactual reasoning, and physiological sanity checks, XAI verifies that multimodal models prioritize biological thresholds over spurious correlations. This transforms opaque predictions into trustworthy decision logic, ensuring interventions align with underlying physical reality rather than mere statistical artifacts.</p></sec><sec id="imt270139-sec-0060"><title>Data heterogeneity</title><p>Multi‐omics matrices and postharvest sensor streams differ substantially in sampling frequency, dimensionality, noise structure, and missingness, creating both computational and interpretability challenges. Variables such as cultivar, harvest maturity, orchard stress history, packaging batch, and cold‐chain interruptions may confound decay outcomes, causing XAI attributions to reinforce correlations rather than identify mechanistic drivers. Therefore, data engineering must be aligned with causal interpretability. Instead of merging high‐frequency sensor streams directly with omics matrices, sensor windows, omics anchor points, event logs, and packaging metadata should be organized into a causal‐ready schema that links exposure histories to each biological sampling point and preserves temporal ordering for downstream counterfactual reasoning. To address this complexity, we propose a data lakehouse architecture as the foundational infrastructure for postharvest XAI. By linking microbiome profiles, environmental sensor streams, packaging parameters, imaging data, and omics samples through shared batch identifiers and timestamped event anchors, the lakehouse enables sensor signals to be aggregated into biologically meaningful windows while preserving data provenance, missingness information, and temporal structure. Under this architecture, XAI can operate on harmonized, causally structured datasets, allowing attributions to be traced across biological pathways and logistical events and supporting mechanism‐oriented preservation decisions.</p></sec></sec><sec id="imt270139-sec-0070"><title>XAI‐DRIVEN CAUSAL MECHANISM DISCOVERY IN POSTHARVEST SYSTEMS</title><sec id="imt270139-sec-0080"><title>From correlation to causality in postharvest AI</title><p>In postharvest physiology, predictive accuracy alone rarely yields mechanistic insight because machine learning models often capture correlations within highly confounded biological systems. Predictive biomarkers may function only as proxies; for example, elevated lipoxygenase activity may correlate with soft rot, while the causal driver is prior temperature abuse. Similarly, citrus metabolomics combined with machine learning detected infection within 24 h after inoculation, but mechanistic interpretation required mapping predictive metabolites to phenylpropanoid and hormone–biosynthesis pathways. XAI helps address this limitation by identifying influential wavelengths, genes, metabolites, or microbial features and linking them to biologically coherent modules. When integrated with pathway analysis, experimental validation, and counterfactual reasoning, XAI can convert predictive features into testable hypotheses and bridge the gap between associative modeling and mechanism‐guided postharvest intervention.</p></sec><sec id="imt270139-sec-0090"><title>Translating XAI outputs into testable mechanisms</title><p>XAI enables predictive models to generate biologically interpretable hypotheses that can guide experimental validation in postharvest systems. For example, metabolomics integrated with machine learning has been used to detect latent infection in citrus fruit before visible decay [<xref rid="imt270139-bib-0017" ref-type="bibr">17</xref>]. Pathway enrichment analysis further linked the predictive metabolites to phenylpropanoid metabolism and hormone biosynthesis pathways, both central to plant defense responses. These findings illustrate how explainable models can project statistical features onto physiologically meaningful biochemical modules. Importantly, such attribution enables identification of early metabolic markers of pathogen invasion and provides targets for interventions, including elicitor treatments, antioxidant coatings, or modified‐atmosphere storage.</p><p>Evidence further demonstrates the mechanistic value of XAI in multi‐omics analysis. A comprehensive review summarized more than 40 deep‐learning studies applying attribution techniques such as saliency maps, feature importance scores, and attention mechanisms to identify regulatory DNA motifs and gene interactions underlying phenotype prediction [<xref rid="imt270139-bib-0018" ref-type="bibr">18</xref>]. In multi‐omics modeling, explainable pipelines have also identified compact, biologically meaningful feature sets from thousands of variables. For instance, graph‐based explainable models integrating transcriptomic and genomic datasets have successfully prioritized tens of candidate genes from datasets containing &gt;10,000 features, linking model predictions to known regulatory pathways [<xref rid="imt270139-bib-0019" ref-type="bibr">19</xref>]. Together, these studies suggest a generalizable workflow for translating XAI outputs into mechanistic insight. Influential features identified by explainable models are first mapped onto biological pathways or microbial interaction modules. Candidate interventions such as adjusting storage atmosphere, applying antioxidants, or manipulating microbial communities are then defined. Finally, controlled experiments test whether perturbing the proposed mediator alters the predicted outcome. Through this feature‐to‐mechanism framework, XAI bridges statistical prediction and causal experimentation, enabling the development of actionable preservation strategies in postharvest biology [<xref rid="imt270139-bib-0020" ref-type="bibr">20</xref>].</p></sec></sec><sec id="imt270139-sec-0100"><title>CHALLENGES AND FUTURE PERSPECTIVES</title><sec id="imt270139-sec-0110"><title>Data standardization and interdisciplinary workflow</title><p>Despite rapid advances in multi‐omics modeling and digital twin simulations, cross‐laboratory and cross‐platform heterogeneity remains a major barrier to translation. Differences in sampling protocols, omics platforms, sensor calibration, and metadata standards complicate integration across supply‐chain stages. In multi‐omics contexts, high dimensionality combined with limited sample sizes further amplifies the risk of overfitting and confounding. Models with excessive parameterization may exhibit impressive internal performance while lacking stability across seasons, cultivars, or storage facilities. To address these challenges, integration strategies should prioritize module‐level fusion, which means aggregating features into biologically coherent pathway or microbial network modules rather than relying on unconstrained feature‐level models. Stability auditing, external validation, and cross‐domain transfer testing should be embedded by design. Without structured collaboration and standardization, AI models remain exploratory dashboards rather than decision‐grade tools.</p></sec><sec id="imt270139-sec-0120"><title>Edge deployment and explainability for instrumentation design</title><p>XAI offers a direct pathway from interpretation to deployment, particularly in spectroscopic quality assessment. Attribution analyses identifying informative wavelength bands have enabled rational sensor simplification, reducing hyperspectral inputs to compact band sets suitable for portable and low‐cost devices. In this context, explainability becomes an engineering constraint rather than a retrospective explanation. A similar logic applies to packaging sensors and cold‐chain IoT systems. XAI should specify which environmental channels and which exposure windows are mechanistically informative. In practice, however, explanation is more realistically performed in cloud or offline settings, whereas edge devices primarily execute lightweight inference using preselected features, compressed models, or explanation‐guided design rules. Edge‐deployable models must therefore integrate interpretability with computational efficiency, ensuring that actionable signals guide device architecture and logistics policies.</p></sec><sec id="imt270139-sec-0130"><title>Causal AI as the bridge to operable mechanism</title><p>The shift from prediction to intervention aligns with broader developments in AI‐for‐Science, where causal representation learning and counterfactual reasoning are increasingly emphasized. As model scale and multimodal integration expand, interpretability and causality become prerequisites for scientific credibility. For postharvest systems, this translates into an agenda of causal models that integrate physics‐informed constraints such as modified atmosphere packaging dynamics with holobiont‐aware omics signals. Counterfactual explanations must be embedded within structural causal models and validated experimentally to distinguish correlated predictors from manipulable mediators.</p><p>Postharvest preservation is entering a new phase in which AI must progress beyond prediction toward mechanistic understanding and actionable intervention. This perspective highlights XAI as a critical enabler of this transition. By integrating holobiont‐aware multi‐omics, multimodal sensing, and supply‐chain exposome data, XAI provides the analytical framework required to interpret complex biological and environmental interactions governing fruit deterioration. Ultimately, XAI offers a pathway toward mechanistically grounded, auditable, and deployable AI systems for postharvest management. Such advances are essential for transforming digital predictions into real‐world preservation strategies capable of reducing global food losses and improving supply‐chain sustainability.</p></sec></sec><sec id="imt270139-sec-0140"><title>AI STATEMENT</title><p>AI tools were used exclusively for language editing and image refinement suggestion, with all scientific content and conclusions remaining the sole responsibility of the authors, and all AI‐related rights, disclosures, and compliance terms permitted under the publisher's policy are fully acknowledged and upheld.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270139-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+XAI Tutorial for absolute beginners.
+</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70139-s001.docx" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70139-s001.docx?><?suppdata-size 32793?><?suppdata-md5 94be5cfdf44ea8f17be2eebf3573eb89?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:7634/13377414/94be5cfdf44e/IMT2-5-e70139-s001.docx?></media></supplementary-material></sec></body><back><ack id="imt270139-sec-0160"><title>ACKNOWLEDGMENTS</title><p>This work was supported by Basic Research Center, Innovation Program of Chinese Academy of Agricultural Sciences (CAAS‐BRC‐202610). We apologize for not being able to cite additional work owing to space limitations.</p></ack><sec sec-type="data-availability" id="imt270139-sec-0190"><title>DATA AVAILABILITY STATEMENT</title><p>Data sharing is not applicable to this article as no datasets were generated or analyzed during the current study. No new data were generated in this review. Supplementary materials (XAI tutorial for absolute beginners, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list id="imt270139-bibl-0001" content-type="cited-references"><title>REFERENCES</title><ref id="imt270139-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270139-cit-0001">
+<string-name name-style="western">
+<surname>Khan</surname>, <given-names>Ayesha Ashraf</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yasmeen</given-names>
+<surname>Siddiqui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kadambot H. M.</given-names>
+<surname>Siddique</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jack A.</given-names>
+<surname>Bobo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Asgar</given-names>
+<surname>Ali</surname>
+</string-name>. <year>2024</year>. “<article-title>Minimizing Postharvest Food Losses: A Vital Strategy to Alleviate Food Insecurity and Malnutrition in Developing Nations: A Review</article-title>.” <source>Discover Food</source>
+<volume>4</volume>: <fpage>145</fpage>. <pub-id pub-id-type="doi">10.1007/s44187-024-00129-0</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270139-cit-0002">
+<string-name name-style="western">
+<surname>Stathers</surname>, <given-names>Tanya</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Deirdre</given-names>
+<surname>Holcroft</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lisa</given-names>
+<surname>Kitinoja</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brighton M.</given-names>
+<surname>Mvumi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alicia</given-names>
+<surname>English</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Oluwatoba</given-names>
+<surname>Omotilewa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Megan</given-names>
+<surname>Kocher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jessica</given-names>
+<surname>Ault</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Maximo</given-names>
+<surname>Torero</surname>
+</string-name>. <year>2020</year>. “<article-title>A Scoping Review of Interventions for Crop Postharvest Loss Reduction in Sub‐Saharan Africa and South Asia</article-title>.” <source>Nature Sustainability</source>
+<volume>3</volume>: <fpage>821</fpage>–<lpage>835</lpage>. <pub-id pub-id-type="doi">10.1038/s41893-020-00622-1</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270139-cit-0003">
+<string-name name-style="western">
+<surname>Buyuktepe</surname>, <given-names>Okan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Cagatay</given-names>
+<surname>Catal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gorkem</given-names>
+<surname>Kar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yamine</given-names>
+<surname>Bouzembrak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hans</given-names>
+<surname>Marvin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Anand</given-names>
+<surname>Gavai</surname>
+</string-name>. <year>2025</year>. “<article-title>Food Fraud Detection Using Explainable Artificial Intelligence</article-title>.” <source>Expert Systems</source>
+<volume>42</volume>: <elocation-id>e13387</elocation-id>. <pub-id pub-id-type="doi">10.1111/exsy.13387</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270139-cit-0004">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Peipei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Melissa D.</given-names>
+<surname>Lehti‐Shiu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Serena</given-names>
+<surname>Lotreck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kenia</given-names>
+<surname>Segura Abá</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Patrick J.</given-names>
+<surname>Krysan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Shin‐Han</given-names>
+<surname>Shiu</surname>
+</string-name>. <year>2024</year>. “<article-title>Prediction of Plant Complex Traits Via Integration of Multi‐Omics Data</article-title>.” <source>Nature Communications</source>
+<volume>15</volume>: <fpage>6856</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-024-50701-6</pub-id>
+<pub-id pub-id-type="pmcid">PMC11316822</pub-id><pub-id pub-id-type="pmid">39127735</pub-id></mixed-citation></ref><ref id="imt270139-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270139-cit-0005">
+<string-name name-style="western">
+<surname>Benfatto</surname>, <given-names>Salvatore</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Martin</given-names>
+<surname>Sill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David T. W.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stefan M.</given-names>
+<surname>Pfister</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Felix</given-names>
+<surname>Sahm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andreas</given-names>
+<surname>von Deimling</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Capper</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Volker</given-names>
+<surname>Hovestadt</surname>
+</string-name>. <year>2025</year>. “<article-title>Explainable Artificial Intelligence of DNA Methylation‐Based Brain Tumor Diagnostics</article-title>.” <source>Nature Communications</source>
+<volume>16</volume>: <fpage>1787</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-025-57078-0</pub-id>
+<pub-id pub-id-type="pmcid">PMC11842776</pub-id><pub-id pub-id-type="pmid">39979307</pub-id></mixed-citation></ref><ref id="imt270139-bib-0006"><label>6</label><mixed-citation publication-type="book" id="imt270139-cit-0006">
+<string-name name-style="western">
+<surname>Chauhan</surname>, <given-names>Rakhi</given-names>
+</string-name>. <year>2025</year>. “<part-title>A Review on Explainable Artificial Intelligence for Healthcare</part-title>.” In <source>Explainable Artificial Intelligence in the Healthcare Industry</source>. <pub-id pub-id-type="doi">10.1002/9781394249312.ch1</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0007"><label>7</label><mixed-citation publication-type="book" id="imt270139-cit-0007">
+<string-name name-style="western">
+<surname>Sakshi</surname> and <given-names>Gunjan</given-names>
+</string-name>
+<string-name name-style="western">
+<surname>Verma</surname>
+</string-name>. <year>2025</year>. “<part-title>Explainable Artificial Intelligence in Healthcare: Transparency and Trustworthiness</part-title>,” In <source>Artificial Intelligence and Cybersecurity in Healthcare</source>, <fpage>243</fpage>–<lpage>272</lpage>. <pub-id pub-id-type="doi">10.1002/9781394229826.ch10</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270139-cit-0008">
+<string-name name-style="western">
+<surname>Ahmed</surname>, <given-names>Toukir</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nuwan K.</given-names>
+<surname>Wijewardane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuzhen</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniela S.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael</given-names>
+<surname>Kudenov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cranos</given-names>
+<surname>Williams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Arthur</given-names>
+<surname>Villordon</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Mohammed</given-names>
+<surname>Kamruzzaman</surname>
+</string-name>. <year>2024</year>. “<article-title>Advancing Sweetpotato Quality Assessment With Hyperspectral Imaging and Explainable Artificial Intelligence</article-title>.” <source>Computers and Electronics in Agriculture</source>
+<volume>220</volume>: <elocation-id>108855</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.compag.2024.108855</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270139-cit-0009">
+<string-name name-style="western">
+<surname>Patrizi</surname>, <given-names>Gabriele</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Luca</given-names>
+<surname>Martiri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Antonio</given-names>
+<surname>Pievatolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alessandro</given-names>
+<surname>Magrini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Giovanni</given-names>
+<surname>Meccariello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Loredana</given-names>
+<surname>Cristaldi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nedka Dechkova</given-names>
+<surname>Nikiforova</surname>
+</string-name>. <year>2024</year>. “<article-title>A Review of Degradation Models and Remaining Useful Life Prediction for Testing Design and Predictive Maintenance of Lithium‐Ion Batteries</article-title>.” <source>Sensors</source>
+<volume>24</volume>: <elocation-id>3382</elocation-id>. <pub-id pub-id-type="doi">10.3390/s24113382</pub-id>
+<pub-id pub-id-type="pmid">38894170</pub-id>
+<pub-id pub-id-type="pmcid">PMC11174798</pub-id></mixed-citation></ref><ref id="imt270139-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270139-cit-0010">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>Yuan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ying</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lichuan</given-names>
+<surname>Lou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuxuan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Binger</given-names>
+<surname>Dai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yue</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mariama</given-names>
+<surname>Kebbeh</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Transcriptomic Analysis Reveals the Role of Abscisic Acid and Ethylene in Regulating Starch‐Source Biosynthesis Associated with Soft Nose Disorder in ‘Keitt’ Mango Fruit During Postharvest</article-title>.” <source>Postharvest Biology and Technology</source>
+<volume>209</volume>: <elocation-id>112698</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.postharvbio.2023.112698</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270139-cit-0011">
+<string-name name-style="western">
+<surname>Hadiwijaya</surname>, <given-names>Yuda</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Ine Elisa</given-names>
+<surname>Putri</surname>
+</string-name>. <year>2025</year>. “<article-title>Spectroscopy in Food and Agriculture: A Critical Review of Applications and Adoption Challenges</article-title>.” <source>Food and Humanity</source>
+<volume>5</volume>: <elocation-id>100800</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.foohum.2025.100800</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0012"><label>12</label><mixed-citation publication-type="miscellaneous" id="imt270139-cit-0012">
+<string-name name-style="western">
+<surname>Arrighi</surname>, <given-names>Leonardo</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ingrid Alves</given-names>
+<surname>de Moraes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Zullich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michele</given-names>
+<surname>Simonato</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Douglas Fernandes</given-names>
+<surname>Barbin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Sylvio Barbon</given-names>
+<surname>Junior</surname>
+</string-name>. <year>2025</year>. “Explainable Artificial Intelligence Techniques for Interpretation of Food Datasets: A Review.” Preprint at <italic toggle="yes">arXiv</italic>. <pub-id pub-id-type="doi">10.48550/arXiv.2504.10527</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270139-cit-0013">
+<string-name name-style="western">
+<surname>Zou</surname>, <given-names>Yuchen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Menglong</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tuerxunayi</given-names>
+<surname>Abudumijiti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huiming</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mengying</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yeerlin</given-names>
+<surname>Asihaer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Miao</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nourhan M.</given-names>
+<surname>Khattab</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mushui</given-names>
+<surname>Shu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yifei</given-names>
+<surname>Hu</surname>
+</string-name>. <year>2025</year>. “<article-title>The Impact of School Heavy Metal Exposure on Children's Gut Microbiota: The Mediating Role of Environmental Microorganisms</article-title>.” <source>iMeta</source>
+<volume>4</volume>: <elocation-id>e70021</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70021</pub-id>
+<pub-id pub-id-type="pmid">40236768</pub-id>
+<pub-id pub-id-type="pmcid">PMC11995171</pub-id></mixed-citation></ref><ref id="imt270139-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270139-cit-0014">
+<string-name name-style="western">
+<surname>Peng</surname>, <given-names>Xi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kai</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xingsheng</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qing</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bo</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tong</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shang</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Ye</given-names>
+<surname>Deng</surname>
+</string-name>. <year>2024</year>. “<article-title>iNAP 2.0: Harnessing Metabolic Complementarity in Microbial Network Analysis</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e235</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.235</pub-id>
+<pub-id pub-id-type="pmid">39429886</pub-id>
+<pub-id pub-id-type="pmcid">PMC11487609</pub-id></mixed-citation></ref><ref id="imt270139-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270139-cit-0015">
+<string-name name-style="western">
+<surname>Castellano‐Escuder</surname>, <given-names>Pol</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Derek K.</given-names>
+<surname>Zachman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kevin</given-names>
+<surname>Han</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Matthey D.</given-names>
+<surname>Hirschey</surname>
+</string-name>. <year>2025</year>. “<article-title>GAUDI: Interpretable Multi‐Omics Integration With UMAP Embeddings and Density‐Based Clustering</article-title>.” <source>Nature Communications</source>
+<volume>16</volume>: <fpage>5771</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-025-60822-1</pub-id>
+<pub-id pub-id-type="pmcid">PMC12219198</pub-id><pub-id pub-id-type="pmid">40593592</pub-id></mixed-citation></ref><ref id="imt270139-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270139-cit-0016">
+<string-name name-style="western">
+<surname>Huang</surname>, <given-names>Jianyan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaobo</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Bürger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joanne</given-names>
+<surname>Chory</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xinchao</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2023</year>. “<article-title>The Role of Ethylene in Plant Temperature Stress Response</article-title>.” <source>Trends in Plant Science</source>
+<volume>28</volume>: <fpage>808</fpage>–<lpage>824</lpage>. <pub-id pub-id-type="doi">10.1016/j.tplants.2023.03.001</pub-id>
+<pub-id pub-id-type="pmid">37055243</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270139-cit-0017">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>Yudian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Linlin</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yifan</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ziyue</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wanshan</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>He</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chenhuan</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Pu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kun</given-names>
+<surname>Qian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Xu</surname>
+</string-name>. <year>2024</year>. “<article-title>Integrating Machine Learning in Metabolomics: A Path to Enhanced Diagnostics and Data Interpretation</article-title>.” <source>Small Methods</source>
+<volume>8</volume>: <elocation-id>2400305</elocation-id>. <pub-id pub-id-type="doi">10.1002/smtd.202400305</pub-id>
+<pub-id pub-id-type="pmid">38682615</pub-id></mixed-citation></ref><ref id="imt270139-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270139-cit-0018">
+<string-name name-style="western">
+<surname>Saputra</surname>, <given-names>Nisa Aulia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lala Septem</given-names>
+<surname>Riza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Agus</given-names>
+<surname>Setiawan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Ida</given-names>
+<surname>Hamidah</surname>
+</string-name>. <year>2024</year>. “<article-title>A Systematic Review for Classification and Selection of Deep Learning Methods</article-title>.” <source>Decision Analytics Journal</source>
+<volume>12</volume>: <elocation-id>100489</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.dajour.2024.100489</pub-id>
+</mixed-citation></ref><ref id="imt270139-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270139-cit-0019">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Hao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zebei</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fu</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pengzhen</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuang</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xuemei</given-names>
+<surname>Bai</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>CGMega: Explainable Graph Neural Network Framework With Attention Mechanisms for Cancer Gene Module Dissection</article-title>.” <source>Nature Communications</source>
+<volume>15</volume>: <fpage>5997</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-024-50426-6</pub-id>
+<pub-id pub-id-type="pmcid">PMC11252405</pub-id><pub-id pub-id-type="pmid">39013885</pub-id></mixed-citation></ref><ref id="imt270139-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270139-cit-0020">
+<string-name name-style="western">
+<surname>Pan</surname>, <given-names>Yijing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kehong</given-names>
+<surname>Ming</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dongmei</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xinyue</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chenxi</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qingjia</given-names>
+<surname>Chi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xianqiong</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chunli</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Kang</given-names>
+<surname>Xu</surname>
+</string-name>. <year>2024</year>. “<article-title>Non‐Targeted Metabolomics and Explainable Artificial Intelligence: Effects of Processing and Color on Coniferyl Aldehyde Levels in Eucommiae Cortex</article-title>.” <source>Food Chemistry</source>
+<volume>460</volume>: <elocation-id>140564</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.foodchem.2024.140564</pub-id>
+<pub-id pub-id-type="pmid">39089015</pub-id>
+</mixed-citation></ref></ref-list></back></article>

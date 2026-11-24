@@ -1,0 +1,1049 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270149" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13519085</article-id><article-id pub-id-type="pmcid-ver">PMC13519085.1</article-id><article-id pub-id-type="pmcaid">13519085</article-id><article-id pub-id-type="pmcaiid">13519085</article-id><article-id pub-id-type="pmid">42662055</article-id><article-id pub-id-type="doi">10.1002/imt2.70149</article-id><article-id pub-id-type="publisher-id">IMT270149</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Wekemo Bioincloud 2026: An AI‐enabled platform for standardized multi‐omics data analyses</article-title><alt-title alt-title-type="right-running-head">WEKEMO BIOINCLOUD 2026 FOR AI‐ENABLED MULTI‐OMICS ANALYSIS</alt-title><alt-title alt-title-type="left-running-head">GAO <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270149-cr-0001" contrib-type="author"><name name-style="western"><surname>Gao</surname><given-names initials="Y">Yunyun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3389-9385</contrib-id><xref rid="imt270149-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270149-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270149-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270149-cr-0002" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="G">Guoxing</given-names></name><xref rid="imt270149-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270149-cr-0003" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="C">Chengrui</given-names></name><xref rid="imt270149-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><xref rid="imt270149-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt270149-cr-0004" contrib-type="author"><name name-style="western"><surname>Xu</surname><given-names initials="H">Hao</given-names></name><xref rid="imt270149-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270149-cr-0005" contrib-type="author"><name name-style="western"><surname>Yu</surname><given-names initials="Z">Zhanhui</given-names></name><xref rid="imt270149-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270149-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Jiang</surname><given-names initials="S">Shunyao</given-names></name><xref rid="imt270149-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>jiangshunyao@wekemo.com</email></address></contrib><contrib id="imt270149-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Liu</surname><given-names initials="YX">Yong‐Xin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1832-9835</contrib-id><xref rid="imt270149-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270149-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>liuyongxin@caas.cn</email></address></contrib></contrib-group><aff id="imt270149-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Tropical Crop Breeding, Genome Analysis Laboratory of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen</named-content>
+<institution>Chinese Academy of Agricultural Sciences</institution>
+<city>Shenzhen</city>
+<country country="CN">China</country>
+</aff><aff id="imt270149-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Digital Intelligence Department</named-content>
+<institution>Shenzhen Wekemo Technology Group Co. Ltd.</institution>
+<city>Shenzhen</city>
+<country country="CN">China</country>
+</aff><aff id="imt270149-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">School of Ecology and Nature Conservation</named-content>
+<institution>Beijing Forestry University</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270149-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">School of Medicine and Health</named-content>
+<institution>Harbin Institute of Technology</institution>
+<city>Harbin</city>
+<country country="CN">China</country>
+</aff><aff id="imt270149-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<institution>Zhengzhou Advanced Research Institute, Harbin Institute of Technology</institution>
+<city>Zhengzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt270149-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Genomics and Precision Medicine, School of Medical Technology</named-content>
+<institution>Gannan Medical University</institution>
+<city>Ganzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Yong‐Xin Liu, State Key Laboratory of Tropical Crop Breeding, Genome Analysis Laboratory of the Ministry of Agriculture and Rural Affairs, Agricultural Genomics Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, China.<break/>
+Email: <email>liuyongxin@caas.cn</email>
+<break/>
+Shunyao Jiang, Digital Intelligence Department, Shenzhen Wekemo Technology Group Co. Ltd., Shenzhen, China.<break/>
+Email: <email>jiangshunyao@wekemo.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2026</year></pub-date><volume>5</volume><issue seq="20">4</issue><issue-id pub-id-type="pmc-issue-id">520307</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v5.4</issue-id><elocation-id>e70149</elocation-id><history>
+<date date-type="rev-recd"><day>17</day><month>6</month><year>2026</year></date>
+<date date-type="received"><day>20</day><month>5</month><year>2026</year></date>
+<date date-type="accepted"><day>19</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>08</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>28</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-25 23:54:54.393"><day>25</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-5-e70149.pdf"><?pdf-name IMT2-5-e70149.pdf?><?pdf-size 3773315?><?pdf-md5 fcec1624ece471dfccadcf9459f5b956?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:3fb6/13519085/fcec1624ece4/IMT2-5-e70149.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-5-e70149.pdf"/><abstract><title>Abstract</title><p>The rapid expansion of multi‐omics data has created an increasing demand for accessible and reproducible platforms for integrative analysis. Here, we present Wekemo Bioincloud 2026, a comprehensive upgrade of the original platform, providing 41 standardized workflows (expanded from 22) across nine analytical categories, including a newly introduced correlation analysis module for cross‐omics association studies. Visualization capabilities have been substantially expanded to 126 tools (from 65), incorporating artificial intelligence (AI)‐guided parameter selection and automated image interpretation to enhance data exploration and result interpretability. In addition, Wekemo Bioincloud 2026 integrates an AI‐powered research platform that supports the full research lifecycle, including automated literature synthesis, hypothesis generation, intelligent question answering, experimental design, and journal recommendation. Together, these advances reduce technical barriers, improve reproducibility and interpretability, and enable end‐to‐end AI‐assisted multi‐omics research. The platform is freely accessible at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bioincloud.tech/" ext-link-type="uri">https://www.bioincloud.tech/</ext-link> and supports a broad range of biological and biomedical applications.</p></abstract><abstract abstract-type="graphical"><p>An AI‐powered multi‐omics cloud platform integrating 41 standardized workflows, 126 visualization tools, and full‐lifecycle research intelligence to enable accessible, reproducible, and end‐to‐end integrative multi‐omics analysis.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-5-e70149-g002.webp"><?image-name IMT2-5-e70149-g002.webp?><?image-size 43122?><?image-md5 192652ac2c137f5a0f155dcd917f7f67?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 514?><?image-original-width 910?><?image-scaled-height 514?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/192652ac2c13/IMT2-5-e70149-g002.webp?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>Provides 41 standardized workflows across nine analytical domains, including a new correlation analysis module for cross‐omics integration.</p></list-item><list-item><p>Expands visualization resources to 126 interactive tools with AI‐guided preprocessing and automated image interpretation.</p></list-item><list-item><p>Introduces an AI‐powered research platform supporting literature review, hypothesis generation, experimental design, and journal recommendation.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt270149-kwd-0001">artificial intelligence</kwd><kwd id="imt270149-kwd-0002">bioinformatics platform</kwd><kwd id="imt270149-kwd-0003">microbiome</kwd><kwd id="imt270149-kwd-0004">multi‐omics</kwd><kwd id="imt270149-kwd-0005">Wekemo Bioincloud</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>32522001</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>Fundamental Research Funds for the Central Universities</institution><institution-id institution-id-type="doi">10.13039/501100012226</institution-id></institution-wrap>
+</funding-source><award-id>JCYJ202511</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>Special fund for Beijing Forestry University's ‘double world class project’ discipline construction</institution></institution-wrap>
+</funding-source><award-id>BH2025‐01</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>Discipline Crossing Foundation of School of Ecology and Nature Conservation, Beijing Forestry University</institution></institution-wrap>
+</funding-source><award-id>BH2025‐JX‐04</award-id></award-group><award-group id="funding-0005"><funding-source>
+<institution-wrap><institution>5·5 Engineering Research &amp; Innovation Team Project of Beijing Forestry University</institution></institution-wrap>
+</funding-source><award-id>BLRC2023‐C02</award-id></award-group></funding-group><counts><fig-count count="5"/><table-count count="0"/><page-count count="12"/><word-count count="5630"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:27.08.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270149-cit-0046">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>Yunyun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Guoxing</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chengrui</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hao</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhanhui</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shunyao</given-names>
+<surname>Jiang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yong‐Xin</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2026</year>. “<article-title>Wekemo Bioincloud 2026: An AI‐Enabled Platform for Standardized Multi‐Omics Data Analyses</article-title>.” <source>iMeta</source>
+<volume>5</volume>, <elocation-id>e70149</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70149</pub-id>
+<pub-id pub-id-type="pmcid">PMC13519085</pub-id><pub-id pub-id-type="pmid">42662055</pub-id></mixed-citation>
+</p><fn-group><fn id="imt270149-note-0001"><p>Yunyun Gao, Guoxing Zhang, and Chengrui Wang contributed equally to this work.</p></fn></fn-group></notes></front><body><sec id="imt270149-sec-0010"><title>INTRODUCTION</title><p>The past decade has witnessed an explosive growth of multi‐omics data, driven by rapid advances in high‐throughput sequencing, mass spectrometry‐based proteomics and metabolomics, and single‐cell technologies [<xref rid="imt270149-bib-0001" ref-type="bibr">1</xref>, <xref rid="imt270149-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270149-bib-0003" ref-type="bibr">3</xref>]. Genomics, transcriptomics, proteomics, metabolomics, and microbiome profiling are now routinely integrated to characterize biological systems across multiple molecular layers, enabling more comprehensive insights into complex traits, disease mechanisms, and ecosystem functions [<xref rid="imt270149-bib-0004" ref-type="bibr">4</xref>, <xref rid="imt270149-bib-0005" ref-type="bibr">5</xref>]. This trend has been further accelerated by large‐scale international initiatives and steadily decreasing experimental costs [<xref rid="imt270149-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270149-bib-0007" ref-type="bibr">7</xref>], resulting in the accumulation of increasingly heterogeneous omics datasets across diverse biological and environmental contexts.</p><p>Despite these opportunities, the analysis and interpretation of multi‐omics data remain nontrivial [<xref rid="imt270149-bib-0003" ref-type="bibr">3</xref>, <xref rid="imt270149-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt270149-bib-0009" ref-type="bibr">9</xref>, <xref rid="imt270149-bib-0010" ref-type="bibr">10</xref>]. The analytical process typically involves multiple sequential steps, including preprocessing, statistical modeling, functional annotation, and cross‐omics integration, which are often implemented using heterogeneous tools with inconsistent input formats and parameter requirements [<xref rid="imt270149-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt270149-bib-0011" ref-type="bibr">11</xref>, <xref rid="imt270149-bib-0012" ref-type="bibr">12</xref>]. As a result, users frequently need to manually connect different software components to construct complete analytical pipelines, which increases technical barriers and may compromise reproducibility. In addition, the high dimensionality and intrinsic heterogeneity of multi‐omics datasets pose substantial challenges for visualization and interpretation, particularly in cross‐omics association analyses where multi‐source data must be jointly explored [<xref rid="imt270149-bib-0013" ref-type="bibr">13</xref>, <xref rid="imt270149-bib-0014" ref-type="bibr">14</xref>]. These limitations collectively hinder efficient data exploration and downstream biological interpretation.</p><p>Recent years have seen the rapid emergence of diverse computational ecosystems for multi‐omics analysis, ranging from command‐line frameworks to graphical user interface (GUI)‐based and web‐accessible platforms [<xref rid="imt270149-bib-0015" ref-type="bibr">15</xref>, <xref rid="imt270149-bib-0016" ref-type="bibr">16</xref>, <xref rid="imt270149-bib-0017" ref-type="bibr">17</xref>, <xref rid="imt270149-bib-0018" ref-type="bibr">18</xref>]. These tools have substantially improved the accessibility of omics data analysis and contributed to methodological standardization across different research domains. For example, workflow systems such as Galaxy enable reproducible pipeline construction through modular components, while toolkits such as mixOmics provide robust statistical frameworks for multivariate integration. In addition, platforms such as MetaboAnalyst and similar web‐based systems have simplified metabolomics and multi‐omics statistical analysis for non‐programming users. Collectively, these developments have played an important role in lowering the technical barriers to omics data analysis and promoting reproducibility in computational biology [<xref rid="imt270149-bib-0011" ref-type="bibr">11</xref>]. However, most existing platforms remain largely focused on specific omics layers or isolated analytical stages, and end‐to‐end integration across the full analytical workflow is still limited.</p><p>In parallel, recent advances in artificial intelligence (AI), particularly large language models (LLMs) and deep learning‐based approaches, have begun to reshape biomedical data analysis by enabling more flexible data interpretation, automated knowledge extraction, and context‐aware reasoning from complex biological datasets [<xref rid="imt270149-bib-0019" ref-type="bibr">19</xref>, <xref rid="imt270149-bib-0020" ref-type="bibr">20</xref>, <xref rid="imt270149-bib-0021" ref-type="bibr">21</xref>]. Beyond traditional machine learning applications in classification and feature selection, emerging studies have demonstrated the potential of AI for literature mining, omics result summarization, and hypothesis generation [<xref rid="imt270149-bib-0020" ref-type="bibr">20</xref>, <xref rid="imt270149-bib-0021" ref-type="bibr">21</xref>, <xref rid="imt270149-bib-0022" ref-type="bibr">22</xref>]. In multi‐omics contexts, AI may offer new opportunities to bridge computational outputs and biological interpretation by integrating prior knowledge with data‐driven inference [<xref rid="imt270149-bib-0008" ref-type="bibr">8</xref>]. However, despite these promising developments, the incorporation of AI into multi‐omics platforms remains relatively limited. Most existing systems still rely primarily on predefined statistical pipelines, with minimal support for adaptive reasoning, interactive interpretation, or end‐to‐end scientific assistance [<xref rid="imt270149-bib-0016" ref-type="bibr">16</xref>]. This gap highlights the need for more integrated frameworks that combine standardized multi‐omics analysis with AI‐assisted interpretation and research support.</p><p>To address these challenges, we present a systematic upgrade of the first‐generation Wekemo Bioincloud platform [<xref rid="imt270149-bib-0023" ref-type="bibr">23</xref>], resulting in Wekemo Bioincloud 2026. This updated ecosystem optimizes standardized analytical workflows and substantially expands visualization diversity to improve usability and interpretability. Notably, an AI‐powered research platform module is newly introduced to complement data analysis with AI‐assisted research support. Together, these enhancements aim to support the full pre‐ and post‐analysis research workflow, facilitating reproducible, integrative, and AI‐assisted multi‐omics research. The upgraded platform is openly accessible at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bioincloud.tech/" ext-link-type="uri">https://www.bioincloud.tech/</ext-link>.</p></sec><sec sec-type="results" id="imt270149-sec-0020"><title>RESULTS</title><sec id="imt270149-sec-0030"><title>Overview of Wekemo Bioincloud 2026</title><p>Compared with the first release, Wekemo Bioincloud 2026 consists of three modules: workflows, visualization tools, and an AI‐powered research platform. Across these modules, the platform now provides 41 standardized workflows (19 newly developed) organized into nine analytical categories. Visualization capabilities have been substantially expanded from 65 to 126 tools. Representative demo datasets and built‐in result interpretation modules are provided within the workflow and visualization modules to facilitate biological interpretation of multi‐omics outputs. Furthermore, Wekemo Bioincloud 2026 integrates an AI‐powered research platform that supports the entire research lifecycle, from hypothesis generation and experimental design to biological interpretation.</p><p>To further enhance usability and analytical continuity, Wekemo Bioincloud 2026 adopts a more integrated system‐level design across modules. The platform emphasizes consistent analytical logic through standardized parameter configurations, while preserving flexibility for dataset‐specific customization. In addition, improved cross‐module interoperability enables seamless transitions from data analysis to visualization and interpretation within a unified environment. Collectively, these design improvements reduce workflow fragmentation and support a more coherent and streamlined multi‐omics analysis experience.</p></sec><sec id="imt270149-sec-0040"><title>Comprehensive expansion of standardized analysis workflows</title><p>The workflows module has expanded from 22 to 41 standardized pipelines, organized into nine major analytical categories, including amplicon, metagenome, metatranscriptome, metaproteome, metavirome, metabolome, genome, physicochemical data, and a newly introduced category for correlation analysis (Figure <xref rid="imt270149-fig-0001" ref-type="fig">1</xref>). This expansion retains the original eight‐category framework while enabling integrative multi‐omics association analyses. Each workflow includes a demo report, example datasets, step‐by‐step analysis tutorials, and result interpretation guidance.</p><fig position="float" fig-type="Figure" id="imt270149-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Overview of the 41 analysis workflows in Wekemo Bioincloud 2026. The platform now provides 41 standardized analysis workflows, organized into nine analytical categories, including amplicon, metagenome, metatranscriptome, metaproteome, metavirome, metabolome, genome, physicochemical data, and correlation analysis. Newly introduced workflows in this release are marked with red asterisks.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-5-e70149-g001.webp"><?image-name IMT2-5-e70149-g001.webp?><?image-size 104034?><?image-md5 7dba2022f78a1d6e4bc382c5267c09bf?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 610?><?image-original-width 910?><?image-scaled-height 610?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/7dba2022f78a/IMT2-5-e70149-g001.webp?><?thumb-name IMT2-5-e70149-g001.gif?><?thumb-size 19936?><?thumb-md5 dc6e21fb1906eaf96f7e514925712833?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 134?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/dc6e21fb1906/IMT2-5-e70149-g001.gif?></graphic></fig><p>The 19 newly added workflows are primarily distributed across the metatranscriptomic, metaproteomic, genomic, and correlation analysis domains. In metatranscriptomics, three new pipelines were introduced: a long non‐coding RNA (lncRNA) transcriptome workflow, a eukaryotic transcriptome workflow 2.0, and a whole transcriptome workflow, extending transcript‐level characterization beyond protein‐coding genes. For metaproteomics, additional pipelines were incorporated to support data‐independent acquisition and post‐translational modification profiling, including the TMT‐based metaproteome workflow v2.0, Astral DIA proteomics workflow, reference‐free Astral DIA workflow, and phosphorylation proteomics workflow. In genomics, new workflows were developed to accommodate broader application scenarios, including a bacterial complete genome workflow, a plant and animal genome resequencing and variant detection workflow for population‐level variation analysis, and a human exome sequencing workflow supporting variant identification and annotation from targeted exome data.</p><p>A ninth domain, correlation analysis, was introduced to enable integrative comparisons across multiple data types. This domain currently includes cross‐omics association workflows covering amplicon‐metabolome, amplicon‐transcriptome, amplicon‐physicochemical, metagenome‐metabolome, metagenome‐transcriptome, metagenome‐physicochemical, transcriptome‐metabolome, and transcriptome‐proteome analyses. These workflows support pairwise association analyses using standardized statistical and visualization procedures, facilitating exploration of coordinated biological patterns across heterogeneous datasets.</p></sec><sec id="imt270149-sec-0050"><title>Enhanced visualization tools with AI‐driven graphical functions</title><p>The visualization tools module provides a comprehensive suite of analytical and visualization functions spanning statistical analysis, multi‐omics integration, correlation and pathway analysis, enrichment analysis, evolutionary analysis, and data preprocessing. The total number of visualization tools has increased from 65 to 126. Newly developed tools incorporate guided prompts for data preprocessing and key parameter settings during figure generation, and each tool is accompanied by a step‐by‐step video tutorial. An AI‐based image interpretation function has also been introduced, enabling automatic generation of summaries of key data features to support result interpretation.</p><p>Among the 61 newly added tools (Figure <xref rid="imt270149-fig-0002" ref-type="fig">2</xref>), a major expansion focuses on molecular dynamics simulation and docking analyses, including DiffDock‐based docking, protein‐small molecule docking, protein‐protein docking, protein‐peptide docking, small molecule‐small molecule docking, nucleic acid‐small molecule docking, and protein‐nucleic acid docking. The platform also provides interactive dynamic charts, such as species abundance sankey diagrams, circular heatmaps, stacked bar charts, multi‐group scatter plots, kernel density estimation marginal plots, and scatter‐box plots.</p><fig position="float" fig-type="Figure" id="imt270149-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Enhanced visualization tools in Wekemo Bioincloud 2026. The visualization module comprises 126 tools. Shown are representative outputs illustrating major functional expansions, including molecular dynamics simulations, docking analysis, and interactive dynamic charts.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-5-e70149-g003.webp"><?image-name IMT2-5-e70149-g003.webp?><?image-size 61020?><?image-md5 3a501a250e30485325692fa0624fac20?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 598?><?image-original-width 910?><?image-scaled-height 598?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/3a501a250e30/IMT2-5-e70149-g003.webp?><?thumb-name IMT2-5-e70149-g003.gif?><?thumb-size 17410?><?thumb-md5 fd7d2bbdb7942f8a51197ec7e916dcb0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/fd7d2bbdb794/IMT2-5-e70149-g003.gif?></graphic></fig><p>Usage statistics indicate that grouped cluster heatmaps, LEfSe plots, and grouped percentage stacked bar plots remain the most frequently used tools. As of January 27, 2026, cumulative usage of the cluster heatmap tool increased from 36,098 to 74,295, LEfSe plots from 34,261 to 89,022, and grouped percentage stacked bar plots from 33,341 to 70,207 since the first release on December 10, 2023. Other highly utilized tools include correlation network analysis (66,449), correlation heatmaps (66,103), redundancy analysis (RDA) and canonical correspondence analysis (CCA) (35,072), Bray–Curtis PCoA analysis (34,108), and principal component analysis (PCA) (30,496).</p></sec><sec id="imt270149-sec-0060"><title>An AI‐powered research platform for end‐to‐end scientific support</title><p>Wekemo Bioincloud 2026 introduces an AI‐powered research platform module designed to accelerate multi‐omics research. A dedicated multi‐omics knowledge base was constructed to support five functional domains: automated research review and literature synthesis, AI‐assisted hypothesis generation, intelligent scientific question answering, AI‐driven experimental design and protocol planning, and journal discovery and recommendation (Figure <xref rid="imt270149-fig-0003" ref-type="fig">3</xref>). Together, these domains extend data analysis into a full pre‐ and post‐analysis research chain, enabling end‐to‐end support from scientific review and hypothesis formulation to experimental design and journal selection.</p><fig position="float" fig-type="Figure" id="imt270149-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>New AI‐powered research platform in Wekemo Bioincloud 2026. Architecture of the AI‐powered research platform module, comprising five functional domains, including automated research review and literature synthesis, AI‐assisted hypothesis generation, intelligent scientific question answering, AI‐driven experimental design and protocol planning, and journal discovery and recommendation. AI, artificial intelligence.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-5-e70149-g004.webp"><?image-name IMT2-5-e70149-g004.webp?><?image-size 66204?><?image-md5 da536226dc9949e3980c6b029ed6b172?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 559?><?image-original-width 910?><?image-scaled-height 559?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/da536226dc99/IMT2-5-e70149-g004.webp?><?thumb-name IMT2-5-e70149-g004.gif?><?thumb-size 16611?><?thumb-md5 2b6650fa77284bbcce4b9cb98d8f98d4?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 123?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/2b6650fa7728/IMT2-5-e70149-g004.gif?></graphic></fig><p>The automated research review domain is powered by multiple AI models (DeepSeek‐R1, DeepSeek‐V3, DeepSeek‐V4, and Qwen3.6‐Plus). After users input a research question or upload files, the system identifies relevant publications and generates structured literature summaries. The hypothesis generation domain produces three to five candidate hypotheses and evaluates them using an internal debate agent across multiple dimensions, including novelty, testability, factual accuracy, and relevance. The intelligent question‐answering domain enables iterative dialogue with deep reasoning and web‐enabled search, continuously refining responses based on user feedback. The experimental design domain generates experimental workflows, technical approaches, timelines, budget estimates, and expected outcomes. The journal recommendation domain leverages a curated knowledge base of 20 primary and 360 secondary disciplines to provide structured journal information and topic‐matched recommendations.</p></sec><sec id="imt270149-sec-0070"><title>AI‐assisted interpretation of analytical results</title><p>In addition to the AI‐powered research platform, Wekemo Bioincloud 2026 also incorporates AI‐assisted interpretation functions within the workflow and visualization modules. The system can automatically summarize analytical outputs and extract biologically relevant patterns from generated figures, including taxonomic composition analysis, functional pathway analysis, correlation analysis, enrichment analysis, and multi‐omics association results.</p><p>For example, the platform supports AI‐assisted interpretation of grouped percentage stacked bar plots by identifying dominant taxa, summarizing community composition patterns, comparing group‐specific differences, and generating biologically meaningful interpretations. Similarly, for elemental cycling analyses (e.g., nitrogen cycling), the system can automatically recognize key functional pathways and genes, evaluate differences among sample groups, infer potential ecological or biological implications, and provide structured summaries together with example scientific text (Figure <xref rid="imt270149-fig-0004" ref-type="fig">4</xref>). These functions extend AI applications beyond literature assistance and experimental design, enabling direct interpretation of analytical results and visualization outputs. By integrating figure understanding, biological inference, and scientific writing assistance, the platform helps improve interpretation efficiency and facilitates downstream reporting and knowledge generation.</p><fig position="float" fig-type="Figure" id="imt270149-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>AI‐assisted interpretation and research support functions in Wekemo Bioincloud 2026. Representative examples illustrating AI‐assisted interpretation across different components of the platform. (A) AI‐supported interpretation of workflow analysis results, exemplified by functional interpretation of metagenomic nitrogen cycling pathways. (B) AI‐assisted interpretation of visualization outputs, illustrated by automated analysis of a grouped percentage stacked bar chart. (C) Overview of the AI‐powered research platform, providing intelligent research support through literature synthesis, hypothesis generation, scientific question answering, experimental design, and journal recommendation. AI, artificial intelligence.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IMT2-5-e70149-g005.webp"><?image-name IMT2-5-e70149-g005.webp?><?image-size 97110?><?image-md5 b1a229d133f1b602f371e0625cb27183?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 781?><?image-original-width 1054?><?image-scaled-height 781?><?image-scaled-width 1054?><?image-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/b1a229d133f1/IMT2-5-e70149-g005.webp?><?thumb-name IMT2-5-e70149-g005.gif?><?thumb-size 13211?><?thumb-md5 c9f7457b8cf7d01bec6d0fae1f282126?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 148?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/3fb6/13519085/c9f7457b8cf7/IMT2-5-e70149-g005.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="imt270149-sec-0080"><title>DISCUSSION</title><p>Compared with the initial release of Wekemo Bioincloud [<xref rid="imt270149-bib-0023" ref-type="bibr">23</xref>], the 2026 version substantially expands both functional scope and analytical strategy. The number of standardized workflows has increased from 22 to 41 across nine analytical domains, including a new correlation analysis category for cross‐omics association studies (e.g., amplicon‐metabolome, metagenome‐transcriptome, transcriptome‐proteome). Together with expanded visualization tools and AI‐assisted parameter guidance, these standardized pipelines reduce technical complexity, improve analytical consistency, and enhance result interpretability. In addition, an AI‐powered research module extends support beyond data analysis to literature synthesis, hypothesis generation, experimental design, and journal recommendation, enabling a more integrated multi‐omics research workflow.</p><p>To place Wekemo Bioincloud 2026 within the current landscape, we compared it with several representative multi‐omics and bioinformatics platforms (Supporting Information S1: Table <xref rid="imt270149-suppl-0001" ref-type="supplementary-material">S1</xref>). Platforms such as OmicsAnalyst [<xref rid="imt270149-bib-0024" ref-type="bibr">24</xref>] provide powerful visual analytics and causal inference, MetaboAnalyst [<xref rid="imt270149-bib-0017" ref-type="bibr">17</xref>] offers metabolomics‐focused analysis, Galaxy [<xref rid="imt270149-bib-0015" ref-type="bibr">15</xref>] enables flexible and reproducible workflow construction through a modular architecture, and mixOmics [<xref rid="imt270149-bib-0016" ref-type="bibr">16</xref>] delivers advanced multivariate methods for multi‐omics data integration. Transcriptomics‐oriented platforms, including eVITTA [<xref rid="imt270149-bib-0025" ref-type="bibr">25</xref>] and ExpressVis [<xref rid="imt270149-bib-0026" ref-type="bibr">26</xref>], facilitate RNA‐seq analysis and gene expression visualization, whereas ExpOmics [<xref rid="imt270149-bib-0027" ref-type="bibr">27</xref>] supports expression data exploration and cross‐study integration through a web‐based framework. Majorbio Cloud [<xref rid="imt270149-bib-0028" ref-type="bibr">28</xref>] provides standardized microbiome and multi‐omics analysis pipelines with user‐friendly cloud‐based services. While these resources have made valuable contributions, most primarily focus on specific omics layers or analytical stages of the research process and generally provide limited support for AI‐assisted scientific research activities.</p><p>In contrast, Wekemo Bioincloud 2026 integrates standardized multi‐omics workflows, comprehensive visualization tools, and an AI‐assisted research platform within a unified, fully web‐based and code‐free environment. In addition to reproducible cross‐omics association analyses, it extends support beyond data analysis to include literature synthesis, hypothesis generation, experimental design, and journal recommendation, thereby bridging the gap between data processing and biological interpretation. A systematic comparison of representative multi‐omics platforms is provided in Supporting Information S1: Table <xref rid="imt270149-suppl-0001" ref-type="supplementary-material">S1</xref>, highlighting the functional positioning and unique features of Wekemo Bioincloud 2026.</p></sec><sec sec-type="conclusions" id="imt270149-sec-0090"><title>CONCLUSION</title><p>Wekemo Bioincloud 2026 represents a comprehensive upgrade of the original platform, integrating expanded standardized workflows, enriched visualization capabilities, and an AI‐powered research ecosystem within a unified, web‐based environment. By lowering technical barriers, improving reproducibility, and extending support across the full research lifecycle, the platform enables efficient, integrative, and AI‐assisted multi‐omics studies. As multi‐omics research continues to grow in scale and complexity, Wekemo Bioincloud 2026 provides a flexible and future‐oriented solution that bridges data analysis, interpretation, and scientific discovery. Future development will include a dedicated English‐language interface to improve accessibility and facilitate broader international adoption of the platform. Through continued expansion of analytical and AI‐assisted capabilities, Wekemo Bioincloud 2026 aims to provide accessible and reproducible resources for academic research, supporting a broad community of researchers across biological and biomedical disciplines.</p></sec><sec sec-type="methods" id="imt270149-sec-0100"><title>METHODS</title><sec id="imt270149-sec-0110"><title>Platform architecture</title><p>Wekemo Bioincloud 2026 is implemented as a web‐based multi‐omics analysis platform with a modular architecture. The front end is developed using JavaScript, HTML, Vue.js, and Bootstrap, enabling responsive interaction and dynamic visualization. Backend services support data preprocessing, workflow execution, and result management, allowing scalable and reproducible analyses across diverse omics datasets.</p></sec><sec id="imt270149-sec-0120"><title>Standardized multi‐omics workflows</title><p>The platform integrates widely used and community‐validated bioinformatics tools to construct standardized analytical workflows for multi‐omics data analysis. Depending on the workflow, analytical steps may include quality control [<xref rid="imt270149-bib-0023" ref-type="bibr">23</xref>, <xref rid="imt270149-bib-0029" ref-type="bibr">29</xref>], host contamination removal [<xref rid="imt270149-bib-0030" ref-type="bibr">30</xref>], redundancy reduction [<xref rid="imt270149-bib-0031" ref-type="bibr">31</xref>], binning or reference‐based mapping [<xref rid="imt270149-bib-0032" ref-type="bibr">32</xref>], taxonomic or functional annotation [<xref rid="imt270149-bib-0033" ref-type="bibr">33</xref>, <xref rid="imt270149-bib-0034" ref-type="bibr">34</xref>, <xref rid="imt270149-bib-0035" ref-type="bibr">35</xref>, <xref rid="imt270149-bib-0036" ref-type="bibr">36</xref>, <xref rid="imt270149-bib-0037" ref-type="bibr">37</xref>], and quantitative profiling [<xref rid="imt270149-bib-0038" ref-type="bibr">38</xref>] of species, genes, metabolites, or proteins. Downstream analyses include diversity estimation, differential analysis, correlation analysis, phylogenetic inference, and functional prediction [<xref rid="imt270149-bib-0039" ref-type="bibr">39</xref>, <xref rid="imt270149-bib-0040" ref-type="bibr">40</xref>, <xref rid="imt270149-bib-0041" ref-type="bibr">41</xref>]. These modules are implemented using established statistical and computational methods, each following its corresponding validated analytical framework and reporting statistical measures such as adjusted <italic toggle="yes">p</italic> values/<italic toggle="yes">q</italic> values and effect size estimates where applicable.</p><p>Rather than a single fixed pipeline, Wekemo Bioincloud is designed as a flexible analysis platform that allows users to select and configure analytical methods according to experimental design and data characteristics. Accordingly, statistical settings such as filtering criteria, normalization strategies, model selection, and multiple testing correction methods may vary across workflows and user‐defined analyses. Supporting Information S1: Table <xref rid="imt270149-suppl-0001" ref-type="supplementary-material">S2</xref> provides an overview of the implemented analytical modules and associated software tools. Detailed descriptions of workflow options, parameter settings, default configurations, statistical procedures, and software versions are provided in the platform documentation (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bioincloud.tech/" ext-link-type="uri">https://www.bioincloud.tech/</ext-link>), supporting reproducibility and transparency.</p><p>To illustrate the workflow design, the amplicon sequencing workflow is provided as a representative example. Amplicon test data were sequenced on the FASTASeq 300 platform at GeneMind [<xref rid="imt270149-bib-0042" ref-type="bibr">42</xref>]. This workflow consists of sequential modules including data preprocessing, ASV generation, taxonomic annotation, basic statistical analysis, diversity analysis, correlation analysis, functional prediction, and visualization. In the data preprocessing stage, raw FASTQ files are processed using user‐defined parameters such as primer sequences, read length thresholds, quality trimming scores (default <italic toggle="yes">Q</italic> = 20), and chimera detection strategies. Denoising and feature inference are performed using the DADA2 pipeline implemented in QIIME 2, including quality filtering, error correction, read merging, and chimera removal, resulting in amplicon sequence variants (ASVs).</p><p>For taxonomic annotation, both Naive Bayes classifier (sklearn‐based) and alignment‐based (VSEARCH) methods are supported. Reference databases such as SILVA or Greengenes can be selected, and confidence thresholds (default 0.7 for classifier‐based methods) as well as identity and coverage thresholds (for alignment‐based methods) are adjustable. Downstream analyses include alpha diversity (e.g., Shannon and Simpson indices with optional rarefaction depth setting), beta diversity (e.g., PCoA, NMDS, and PERMANOVA based on Bray–Curtis or UniFrac distances), and differential abundance testing using ANOVA, Kruskal‐Wallis, DESeq 2, or LEfSe depending on data characteristics and study design. Correlation analysis modules support microbial association inference using Pearson, Spearman, or SparCC/propr‐based methods, with user‐defined correlation and significance thresholds. Functional prediction is performed using PICRUSt2 or FAPROTAX to infer putative functional profiles from taxonomic compositions. All analytical outputs are linked to visualization modules, including clustered heatmaps, stacked bar plots, Sankey diagrams, phylogenetic trees, and network graphs.</p><p>The platform additionally incorporates an AI‐assisted interpretation module for analytical outputs and visualizations (Figure <xref rid="imt270149-fig-0004" ref-type="fig">4A</xref>). This module is applied to summarize statistical results and extract key patterns from generated figures, including taxonomic composition profiles, differential abundance results, correlation structures, and functional prediction outputs. The AI module is designed to provide descriptive summaries of analytical outputs based on input results and does not alter the underlying statistical calculations. It supports interpretation of multiple omics layers and assists users in reviewing and summarizing analytical findings for downstream analysis and reporting.</p></sec><sec id="imt270149-sec-0130"><title>Visualization tools</title><p>The visualization module integrates analytical plotting and data exploration functions for statistical analysis, multivariate analysis, correlation and network analysis, enrichment analysis, evolutionary analysis, and multi‐omics data visualization [<xref rid="imt270149-bib-0040" ref-type="bibr">40</xref>, <xref rid="imt270149-bib-0041" ref-type="bibr">41</xref>, <xref rid="imt270149-bib-0043" ref-type="bibr">43</xref>]. The toolkit covers a broad spectrum of commonly used analytical scenarios, including basic statistical visualization (e.g., clustered heatmaps, grouped percentage stacked bar plots, and Venn or flower plots), ordination‐based multivariate analyses (e.g., Bray–Curtis principal coordinates analysis [PCoA], PCA, nonmetric multidimensional scaling [NMDS], and distance‐based redundancy analysis [dbRDA]), differential abundance and group comparison methods (e.g., LEfSe, orthogonal partial least squares discriminant analysis [OPLS‐DA], and Kruskal–Wallis tests), correlation‐based analyses (e.g., correlation heatmaps, correlation networks, RDA, and CCA), as well as pathway‐level visualizations including KEGG enrichment analysis for untargeted metabolomics and metabolite‐annotated KEGG pathway mapping.</p><p>To improve usability and reproducibility, each visualization tool is accompanied by example datasets and step‐by‐step tutorials that guide users through data formatting, preprocessing, and figure generation. Users can customize analytical parameters according to their study design, including group assignment schemes, color schemes, and normalization strategies. For example, in LEfSe analysis, users can adjust normalization scaling factors and LDA score thresholds; in clustered heatmap visualization, options are provided for grouping strategy, feature selection limits, and data transformation methods (e.g., <italic toggle="yes">Z</italic>‐score normalization, log10 transformation, or raw values). For correlation network analysis [<xref rid="imt270149-bib-0044" ref-type="bibr">44</xref>, <xref rid="imt270149-bib-0045" ref-type="bibr">45</xref>], users may define feature number limits, correlation methods (Spearman, Pearson, or Kendall), correlation thresholds, and statistical significance cutoffs.</p><p>In addition, the platform supports AI‐assisted interpretation of generated figures (Figure <xref rid="imt270149-fig-0004" ref-type="fig">4B</xref>), enabling automated summarization of key statistical patterns and biologically relevant features. This includes identification of dominant taxa or metabolites, detection of group‐specific differences, and generation of structured interpretation text to facilitate downstream biological interpretation and manuscript preparation.</p></sec><sec id="imt270149-sec-0140"><title>AI‐powered research platform</title><p>Wekemo Bioincloud 2026 incorporates an AI‐powered research platform built upon a curated multi‐omics knowledge base [<xref rid="imt270149-bib-0020" ref-type="bibr">20</xref>, <xref rid="imt270149-bib-0021" ref-type="bibr">21</xref>, <xref rid="imt270149-bib-0022" ref-type="bibr">22</xref>]. Multiple LLMs, including DeepSeek‐R1, DeepSeek‐V3, DeepSeek‐V4, and Qwen3.6‐Plus, are integrated to support automated literature summarization, hypothesis generation, scientific question answering, experimental design, and journal recommendation (Figure <xref rid="imt270149-fig-0004" ref-type="fig">4C</xref>). Model selection is user‐configurable rather than automatically assigned by backend routing strategies.</p><p>Different AI‐assisted modules mainly differ in the contextual information and analytical workflows provided to the models. Literature‐related tasks primarily analyze publication content, including titles, keywords, abstracts, figures, and associated text. Experimental design additionally incorporates user‐provided research background, available resources, existing results, and methodological information from related studies. The hypothesis generation module further implements a multi‐agent evaluation process to assess candidate hypotheses based on novelty, feasibility, supporting evidence, and biological relevance. The underlying knowledge base is updated daily using curated literature resources and related databases.</p><p>AI‐guided parameter recommendation is implemented using expert‐defined analytical rules together with dataset‐derived characteristics, including sample size, variable type, group structure, and distribution patterns, and subsequently recommends appropriate preprocessing methods, statistical models, and visualization parameters, thereby improving analytical consistency and reducing user‐dependent variability.</p></sec></sec><sec id="imt270149-sec-0150"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Yunyun Gao:</bold> Conceptualization; validation; formal analysis; investigation; writing—original draft; writing— review and editing; visualization; funding acquisition. <bold>Guoxing Zhang:</bold> Methodology; software; validation; formal analysis; investigation; resources; data curation; writing—review and editing. <bold>Chengrui Wang</bold>: Methodology; software; validation; formal analysis; investigation; resources; writing—review and editing. <bold>Hao Xu</bold>: Methodology; software; validation; writing—review and editing. <bold>Zhanhui Yu</bold>: Methodology; software; validation; writing—review and editing. <bold>Shunyao Jiang</bold>: Conceptualization; methodology; software; validation; formal analysis; investigation; resources; data curation; writing—review and editing; supervision. <bold>Yong‐Xin Liu</bold>: Conceptualization; validation; formal analysis; investigation; resources; writing—original draft; writing—review and editing; supervision; funding acquisition. All authors have read the final manuscript and approved it for publication.</p></sec><sec sec-type="COI-statement" id="imt270149-sec-0170"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270149-sec-0200"><title>ETHICS STATEMENT</title><p>No animals or humans were involved in this study.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270149-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Feature comparison of Wekemo Bioincloud 2026 with representative multi‐omics platforms.</p><p>
+<bold>Table S2:</bold> Software and packages used in the corresponding workflows of Figure 1.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70149-s001.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70149-s001.xlsx?><?suppdata-size 62691?><?suppdata-md5 3045c13b1b556b55867004104fb4b22f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:3fb6/13519085/3045c13b1b55/IMT2-5-e70149-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270149-sec-0160"><title>ACKNOWLEDGMENTS</title><p>The work was financially supported by the National Natural Science Foundation of China (32522001), the Fundamental Research Funds for the Central Universities (No. JCYJ202511), the Special fund for Beijing Forestry University's ‘double world class project’ discipline construction (BH2025‐01), the Discipline Crossing Foundation of School of Ecology and Nature Conservation, Beijing Forestry University (BH2025‐JX‐04), and the 5·5 Engineering Research &amp; Innovation Team Project of Beijing Forestry University (BLRC2023‐C02).</p></ack><sec sec-type="data-availability" id="imt270149-sec-0190"><title>DATA AVAILABILITY STATEMENT</title><p>Data sharing not applicable to this article as no datasets were generated or analysed during the current study.</p><p>No new data or code were generated in this study. All demonstration data for visualization purposes are available on the Wekemo Bioincloud website (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.bioincloud.tech/" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.bioincloud.tech/</ext-link>). Supplementary materials (tables, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt270149-bibl-0001"><title>REFERENCES</title><ref id="imt270149-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270149-cit-0001">
+<string-name name-style="western">
+<surname>Tierney</surname>, <given-names>Braden T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>JangKeun</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eliah G.</given-names>
+<surname>Overbey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Krista A.</given-names>
+<surname>Ryon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jonathan</given-names>
+<surname>Foox</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maria A.</given-names>
+<surname>Sierra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chandrima</given-names>
+<surname>Bhattacharya</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Longitudinal Multi‐Omics Analysis of Host Microbiome Architecture and Immune Responses during Short‐Term Spaceflight</article-title>.” <source>Nature Microbiology</source>
+<volume>9</volume>: <fpage>1661</fpage>–<lpage>1675</lpage>. <pub-id pub-id-type="doi">10.1038/s41564-024-01635-8</pub-id>
+<pub-id pub-id-type="pmcid">PMC11222149</pub-id><pub-id pub-id-type="pmid">38862604</pub-id></mixed-citation></ref><ref id="imt270149-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270149-cit-0002">
+<string-name name-style="western">
+<surname>Shi</surname>, <given-names>Yuqi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yuxing</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haipeng</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ayidana</given-names>
+<surname>Haerheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vanessa R.</given-names>
+<surname>Marcelino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meng</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Philippe</given-names>
+<surname>Lemey</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Extensive Cross‐Species Transmission of Pathogens and Antibiotic Resistance Genes in Mammals Neglected By Public Health Surveillance</article-title>.” <source>Cell</source>
+<volume>188</volume>: <fpage>6591</fpage>–<lpage>6605.e14</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2025.08.016</pub-id>
+<pub-id pub-id-type="pmid">40865528</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270149-cit-0003">
+<string-name name-style="western">
+<surname>Yin</surname>, <given-names>Jianhua</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yuhui</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhuoli</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wenwen</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yue</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pengfei</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yong</given-names>
+<surname>Bai</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Chinese Immune Multi‐Omics Atlas</article-title>.” <source>Science</source>
+<volume>391</volume>: <elocation-id>eadt3130</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.adt3130</pub-id>
+<pub-id pub-id-type="pmid">41505528</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270149-cit-0004">
+<string-name name-style="western">
+<surname>Abdill</surname>, <given-names>Richard J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Samantha P.</given-names>
+<surname>Graham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vincent</given-names>
+<surname>Rubinetti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mansooreh</given-names>
+<surname>Ahmadian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Parker</given-names>
+<surname>Hicks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ashwin</given-names>
+<surname>Chetty</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>McDonald</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Integration of 168,000 Samples Reveals Global Patterns of the Human Gut Microbiome</article-title>.” <source>Cell</source>
+<volume>188</volume>: <fpage>1100</fpage>–<lpage>1118.e17</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2024.12.017</pub-id>
+<pub-id pub-id-type="pmid">39848248</pub-id>
+<pub-id pub-id-type="pmcid">PMC11848717</pub-id></mixed-citation></ref><ref id="imt270149-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270149-cit-0005">
+<string-name name-style="western">
+<surname>Fang</surname>, <given-names>Lingzhao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jinyan</given-names>
+<surname>Teng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qing</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhonghao</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuli</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dailu</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bingjie</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>The Farm Animal Genotype‐Tissue Expression (FarmGtex) Project</article-title>.” <source>Nature Genetics</source>
+<volume>57</volume>: <fpage>786</fpage>–<lpage>796</lpage>. <pub-id pub-id-type="doi">10.1038/s41588-025-02121-5</pub-id>
+<pub-id pub-id-type="pmid">40097783</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270149-cit-0006">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>Yunyun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Danyi</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yong‐Xin</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2023</year>. “<article-title>Microbiome Research Outlook: Past, Present, and Future</article-title>.” <source>Protein &amp; Cell</source>
+<volume>14</volume>: <fpage>709</fpage>–<lpage>712</lpage>. <pub-id pub-id-type="doi">10.1093/procel/pwad031</pub-id>
+<pub-id pub-id-type="pmid">37219087</pub-id>
+<pub-id pub-id-type="pmcid">PMC10599639</pub-id></mixed-citation></ref><ref id="imt270149-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270149-cit-0007">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>Yunyun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kai</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Defeng</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiao‐Ye</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yujing</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anqi</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Baodong</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>The Microbiome Protocols eBook Initiative: Building a Bridge to Microbiome Research</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e182</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.182</pub-id>
+<pub-id pub-id-type="pmid">38882487</pub-id>
+<pub-id pub-id-type="pmcid">PMC11170964</pub-id></mixed-citation></ref><ref id="imt270149-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270149-cit-0008">
+<string-name name-style="western">
+<surname>Bai</surname>, <given-names>Defeng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tong</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiani</given-names>
+<surname>Xun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuang</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hao</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chen</given-names>
+<surname>Cao</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>EasyMetagenome: A User‐Friendly and Flexible Pipeline for Shotgun Metagenomic Analysis in Microbiome Research</article-title>.” <source>iMeta</source>
+<volume>4</volume>: <elocation-id>e70001</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70001</pub-id>
+<pub-id pub-id-type="pmid">40027489</pub-id>
+<pub-id pub-id-type="pmcid">PMC11865343</pub-id></mixed-citation></ref><ref id="imt270149-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270149-cit-0009">
+<string-name name-style="western">
+<surname>Lotfollahi</surname>, <given-names>Mohammad</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yuhan Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fabian J.</given-names>
+<surname>Theis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rahul</given-names>
+<surname>Satija</surname>
+</string-name>. <year>2024</year>. “<article-title>The Future of Rapid and Automated Single‐Cell Data Analysis Using Reference Mapping</article-title>.” <source>Cell</source>
+<volume>187</volume>: <fpage>2343</fpage>–<lpage>2358</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2024.03.009</pub-id>
+<pub-id pub-id-type="pmid">38729109</pub-id>
+<pub-id pub-id-type="pmcid">PMC11184658</pub-id></mixed-citation></ref><ref id="imt270149-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270149-cit-0010">
+<string-name name-style="western">
+<surname>Luo</surname>, <given-names>Hao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Defeng</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhihao</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Salsabeel</given-names>
+<surname>Yousuf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiani</given-names>
+<surname>Xun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meiyin</given-names>
+<surname>Zeng</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>EasyAmplicon 2: Expanding PacBio and Nanopore Long Amplicon Sequencing Analysis Pipeline for Microbiome</article-title>.” <source>Advanced Science</source>
+<volume>13</volume>: <elocation-id>e12447</elocation-id>. <pub-id pub-id-type="doi">10.1002/advs.202512447</pub-id>
+<pub-id pub-id-type="pmid">41144790</pub-id>
+<pub-id pub-id-type="pmcid">PMC12767004</pub-id></mixed-citation></ref><ref id="imt270149-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270149-cit-0011">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Shaopeng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Judith S.</given-names>
+<surname>Rodriguez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Viorel</given-names>
+<surname>Munteanu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cynthia</given-names>
+<surname>Ronkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nitesh Kumar</given-names>
+<surname>Sharma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mohammed</given-names>
+<surname>Alser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Andreace</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Analysis of Metagenomic Data</article-title>.” <source>Nature Reviews Methods Primers</source>
+<volume>5</volume>: <fpage>5</fpage>. <pub-id pub-id-type="doi">10.1038/s43586-024-00376-6</pub-id>
+<pub-id pub-id-type="pmcid">PMC12276902</pub-id><pub-id pub-id-type="pmid">40688383</pub-id></mixed-citation></ref><ref id="imt270149-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270149-cit-0012">
+<string-name name-style="western">
+<surname>Yousuf</surname>, <given-names>Salsabeel</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hao</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meiyin</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tengfei</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaofang</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maosheng</given-names>
+<surname>Zheng</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Unveiling Microbial Communities With EasyAmplicon: A User‐Centric Guide to Perform Amplicon Sequencing Data Analysis</article-title>.” <source>iMetaOmics</source>
+<volume>1</volume>: <elocation-id>e42</elocation-id>. <pub-id pub-id-type="doi">10.1002/imo2.42</pub-id>
+<pub-id pub-id-type="pmid">41676130</pub-id>
+<pub-id pub-id-type="pmcid">PMC12806499</pub-id></mixed-citation></ref><ref id="imt270149-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270149-cit-0013">
+<string-name name-style="western">
+<surname>Ou</surname>, <given-names>Jianhong</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Lihua Julie</given-names>
+<surname>Zhu</surname>
+</string-name>. <year>2019</year>. “<article-title>trackViewer: A Bioconductor Package for Interactive and Integrative Visualization of Multi‐Omics Data</article-title>.” <source>Nature Methods</source>
+<volume>16</volume>: <fpage>453</fpage>–<lpage>454</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-019-0430-y</pub-id>
+<pub-id pub-id-type="pmid">31133757</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270149-cit-0014">
+<string-name name-style="western">
+<surname>Lv</surname>, <given-names>Jia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shuaikang</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cen</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fuyun</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xuyuan</given-names>
+<surname>Duan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaowen</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qilin</given-names>
+<surname>Geng</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Ocean‐M: An Integrated Global‐Scale Multi‐Omics Database for Marine Microbial Diversity, Function and Ecological Interactions</article-title>.” <source>Nucleic Acids Research</source>
+<volume>54</volume>: <fpage>D813</fpage>–<lpage>D825</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkaf1098</pub-id>
+<pub-id pub-id-type="pmid">41171124</pub-id>
+<pub-id pub-id-type="pmcid">PMC12807672</pub-id></mixed-citation></ref><ref id="imt270149-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270149-cit-0015">
+<string-name name-style="western">
+<surname>Afgan</surname>, <given-names>Enis</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Anton</given-names>
+<surname>Nekrutenko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bjórn A</given-names>
+<surname>Grüning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Blankenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeremy</given-names>
+<surname>Goecks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael C.</given-names>
+<surname>Schatz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander E.</given-names>
+<surname>Ostrovsky</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>The Galaxy Platform for Accessible, Reproducible and Collaborative Biomedical Analyses: 2022 Update</article-title>.” <source>Nucleic Acids Research</source>
+<volume>50</volume>: <fpage>W345</fpage>–<lpage>W351</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkac247</pub-id>
+<pub-id pub-id-type="pmid">35446428</pub-id>
+<pub-id pub-id-type="pmcid">PMC9252830</pub-id></mixed-citation></ref><ref id="imt270149-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270149-cit-0016">
+<string-name name-style="western">
+<surname>Rohart</surname>, <given-names>Florian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Benoît</given-names>
+<surname>Gautier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amrit</given-names>
+<surname>Singh</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Kim‐Anh</given-names>
+<surname>Lê Cao</surname>
+</string-name>. <year>2017</year>. “<article-title>mixOmics: An R Package for ‘Omics Feature Selection and Multiple Data Integration</article-title>.” <source>PLoS computational biology</source>
+<volume>13</volume>: <elocation-id>e1005752</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pcbi.1005752</pub-id>
+<pub-id pub-id-type="pmid">29099853</pub-id>
+<pub-id pub-id-type="pmcid">PMC5687754</pub-id></mixed-citation></ref><ref id="imt270149-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270149-cit-0017">
+<string-name name-style="western">
+<surname>Pang</surname>, <given-names>Zhiqiang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Guangyan</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jessica</given-names>
+<surname>Ewald</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Le</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Orcun</given-names>
+<surname>Hacariz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Niladri</given-names>
+<surname>Basu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jianguo</given-names>
+<surname>Xia</surname>
+</string-name>. <year>2022</year>. “<article-title>Using MetaboAnalyst 5.0 for LC–HRMS Spectra Processing, Multi‐Omics Integration and Covariate Adjustment of Global Metabolomics Data</article-title>.” <source>Nature Protocols</source>
+<volume>17</volume>: <fpage>1735</fpage>–<lpage>1761</lpage>. <pub-id pub-id-type="doi">10.1038/s41596-022-00710-w</pub-id>
+<pub-id pub-id-type="pmid">35715522</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270149-cit-0018">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Yahui</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hujie</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhicheng</given-names>
+<surname>Ju</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuang</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huiyu</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yao</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>FoodMicroDB: A Microbiome Database for Composition and Time‐Series Research in food</article-title>.” <source>iMetaOmics</source>
+<volume>1</volume>: <elocation-id>e40</elocation-id>. <pub-id pub-id-type="doi">10.1002/imo2.40</pub-id>
+<pub-id pub-id-type="pmid">41676126</pub-id>
+<pub-id pub-id-type="pmcid">PMC12806411</pub-id></mixed-citation></ref><ref id="imt270149-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270149-cit-0019">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Bintao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lan</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Timothy</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guangdong</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gehong</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuo</given-names>
+<surname>Jiao</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Global Health Risks Lurking in Livestock Resistome</article-title>.” <source>Science Advances</source>
+<volume>11</volume>: <elocation-id>eadt8073</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciadv.adt8073</pub-id>
+<pub-id pub-id-type="pmid">40577477</pub-id>
+<pub-id pub-id-type="pmcid">PMC12204175</pub-id></mixed-citation></ref><ref id="imt270149-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270149-cit-0020">
+<string-name name-style="western">
+<surname>Guo</surname>, <given-names>Daya</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dejian</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haowei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Junxiao</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ruoyu</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Runxin</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qihao</given-names>
+<surname>Zhu</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Deepseek‐r1: Incentivizing Reasoning Capability in llms Via Reinforcement Learning</article-title>.” <source>arXiv</source>
+<volume>2501</volume>: <elocation-id>12948</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41586-025-09422-z</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt270149-cit-0021">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Aixin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Bei</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bing</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bingxuan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bochao</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chengda</given-names>
+<surname>Lu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Chenggang</given-names>
+<surname>Zhao</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Deepseek‐v3 Technical Report</article-title>.” <source>arXiv</source>
+<volume>2412</volume>: <elocation-id>19437</elocation-id>. <pub-id pub-id-type="doi">10.48550/arXiv.2506.20241</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt270149-cit-0022">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>An</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Anfeng</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Baosong</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Beichen</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Binyuan</given-names>
+<surname>Hui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bo</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bowen</given-names>
+<surname>Yu</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Qwen3 Technical Report</article-title>.” <source>arXiv</source>
+<volume>2505</volume>: <elocation-id>09388</elocation-id>. <pub-id pub-id-type="doi">10.48550/arXiv.2505.09388</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt270149-cit-0023">
+<string-name name-style="western">
+<surname>Gao</surname>, <given-names>Yunyun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Guoxing</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shunyao</given-names>
+<surname>Jiang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yong‐Xin</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2024</year>. “<article-title>Wekemo Bioincloud: A User‐Friendly Platform for Meta‐Omics Data Analyses</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e175</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.175</pub-id>
+<pub-id pub-id-type="pmid">38868508</pub-id>
+<pub-id pub-id-type="pmcid">PMC10989175</pub-id></mixed-citation></ref><ref id="imt270149-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt270149-cit-0024">
+<string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Guangyan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jessica</given-names>
+<surname>Ewald</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jianguo</given-names>
+<surname>Xia</surname>
+</string-name>. <year>2021</year>. “<article-title>OmicsAnalyst: A Comprehensive Web‐Based Platform for Visual Analytics of Multi‐Omics Data</article-title>.” <source>Nucleic Acids Research</source>
+<volume>49</volume>: <fpage>W476</fpage>–<lpage>W482</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkab394</pub-id>
+<pub-id pub-id-type="pmid">34019646</pub-id>
+<pub-id pub-id-type="pmcid">PMC8262745</pub-id></mixed-citation></ref><ref id="imt270149-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt270149-cit-0025">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>Xuanjin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Junran</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yongxing</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiahe</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Stefan</given-names>
+<surname>Taubert</surname>
+</string-name>. <year>2021</year>. “<article-title>eVITTA: A Web‐Based Visualization and Inference Toolbox for Transcriptome Analysis</article-title>.” <source>Nucleic Acids Research</source>
+<volume>49</volume>: <fpage>W207</fpage>–<lpage>W215</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkab366</pub-id>
+<pub-id pub-id-type="pmid">34019643</pub-id>
+<pub-id pub-id-type="pmcid">PMC8218201</pub-id></mixed-citation></ref><ref id="imt270149-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt270149-cit-0026">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Xian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kaikun</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Tao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ronghua</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guangming</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Miao</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Changyan</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>ExpressVis: A Biologist‐Oriented Interactive Web Server for Exploring Multi‐Omics Data</article-title>.” <source>Nucleic Acids Research</source>
+<volume>50</volume>: <fpage>W312</fpage>–<lpage>W321</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkac399</pub-id>
+<pub-id pub-id-type="pmid">35639516</pub-id>
+<pub-id pub-id-type="pmcid">PMC9252728</pub-id></mixed-citation></ref><ref id="imt270149-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt270149-cit-0027">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Douyue</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zhuochao</given-names>
+<surname>Min</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yubin</given-names>
+<surname>Chen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Wenliang</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2024</year>. “<article-title>ExpOmics: A Comprehensive Web Platform Empowering Biologists With Robust Multi‐Omics Data Analysis Capabilities</article-title>.” <source>Bioinformatics</source>
+<volume>40</volume>: <elocation-id>btae507</elocation-id>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btae507</pub-id>
+<pub-id pub-id-type="pmid">39128019</pub-id>
+<pub-id pub-id-type="pmcid">PMC11343375</pub-id></mixed-citation></ref><ref id="imt270149-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt270149-cit-0028">
+<string-name name-style="western">
+<surname>Han</surname>, <given-names>Chang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Caiping</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Linmeng</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jichen</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qianqian</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaodan</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Majorbio Cloud 2024: Update Single‐Cell and Multiomics Workflows</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e217</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.217</pub-id>
+<pub-id pub-id-type="pmid">39135689</pub-id>
+<pub-id pub-id-type="pmcid">PMC11316920</pub-id></mixed-citation></ref><ref id="imt270149-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt270149-cit-0029">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Shifu</given-names>
+</string-name>. <year>2025</year>. “<article-title>Fastp 1.0: an Ultra‐Fast All‐Round Tool for FASTQ Data Quality Control and Preprocessing</article-title>.” <source>iMeta</source>
+<volume>4</volume>: <elocation-id>e70078</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70078</pub-id>
+<pub-id pub-id-type="pmid">41112039</pub-id>
+<pub-id pub-id-type="pmcid">PMC12527978</pub-id></mixed-citation></ref><ref id="imt270149-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt270149-cit-0030">
+<string-name name-style="western">
+<surname>Langmead</surname>, <given-names>Ben</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Christopher</given-names>
+<surname>Wilks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Valentin</given-names>
+<surname>Antonescu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rone</given-names>
+<surname>Charles</surname>
+</string-name>. <year>2019</year>. “<article-title>Scaling Read Aligners to Hundreds of Threads on General‐Purpose Processors</article-title>.” <source>Bioinformatics</source>
+<volume>35</volume>: <fpage>421</fpage>–<lpage>432</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bty648</pub-id>
+<pub-id pub-id-type="pmid">30020410</pub-id>
+<pub-id pub-id-type="pmcid">PMC6361242</pub-id></mixed-citation></ref><ref id="imt270149-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt270149-cit-0031">
+<string-name name-style="western">
+<surname>Olm</surname>, <given-names>Matthew R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Christopher T.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brandon</given-names>
+<surname>Brooks</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jillian F.</given-names>
+<surname>Banfield</surname>
+</string-name>. <year>2017</year>. “<article-title>dRep: A Tool for Fast and Accurate Genomic Comparisons That Enables Improved Genome Recovery From Metagenomes through De‐Replication</article-title>.” <source>The ISME Journal</source>
+<volume>11</volume>: <fpage>2864</fpage>–<lpage>2868</lpage>. <pub-id pub-id-type="doi">10.1038/ismej.2017.126</pub-id>
+<pub-id pub-id-type="pmid">28742071</pub-id>
+<pub-id pub-id-type="pmcid">PMC5702732</pub-id></mixed-citation></ref><ref id="imt270149-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt270149-cit-0032">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Dinghua</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ruibang</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chi‐Man</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chi‐Ming</given-names>
+<surname>Leung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hing‐Fung</given-names>
+<surname>Ting</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kunihiko</given-names>
+<surname>Sadakane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hiroshi</given-names>
+<surname>Yamashita</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tak‐Wah</given-names>
+<surname>Lam</surname>
+</string-name>. <year>2016</year>. “<article-title>MEGAHIT v1. 0: A Fast and Scalable Metagenome Assembler Driven By Advanced Methodologies and Community Practices</article-title>.” <source>Methods</source>
+<volume>102</volume>: <fpage>3</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1016/j.ymeth.2016.02.020</pub-id>
+<pub-id pub-id-type="pmid">27012178</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt270149-cit-0033">
+<string-name name-style="western">
+<surname>Hyatt</surname>, <given-names>Doug</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Gwo‐Liang</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Philip F.</given-names>
+<surname>LoCascio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Miriam L.</given-names>
+<surname>Land</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Frank W.</given-names>
+<surname>Larimer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Loren J.</given-names>
+<surname>Hauser</surname>
+</string-name>. <year>2010</year>. “<article-title>Prodigal: Prokaryotic Gene Recognition and Translation Initiation Site Identification</article-title>.” <source>BMC Bioinformatics</source>
+<volume>11</volume>: <elocation-id>119</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2105-11-119</pub-id>
+<pub-id pub-id-type="pmid">20211023</pub-id>
+<pub-id pub-id-type="pmcid">PMC2848648</pub-id></mixed-citation></ref><ref id="imt270149-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt270149-cit-0034">
+<string-name name-style="western">
+<surname>Huerta‐Cepas</surname>, <given-names>Jaime</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Damian</given-names>
+<surname>Szklarczyk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Davide</given-names>
+<surname>Heller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ana</given-names>
+<surname>Hernández‐Plaza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sofia K.</given-names>
+<surname>Forslund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Helen</given-names>
+<surname>Cook</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel R.</given-names>
+<surname>Mende</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>eggNOG 5.0: a Hierarchical, Functionally and Phylogenetically Annotated Orthology Resource Based on 5090 Organisms and 2502 Viruses</article-title>.” <source>Nucleic Acids Research</source>
+<volume>47</volume>: <fpage>D309</fpage>–<lpage>D314</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gky1085</pub-id>
+<pub-id pub-id-type="pmid">30418610</pub-id>
+<pub-id pub-id-type="pmcid">PMC6324079</pub-id></mixed-citation></ref><ref id="imt270149-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt270149-cit-0035">
+<string-name name-style="western">
+<surname>Drula</surname>, <given-names>Elodie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marie‐Line</given-names>
+<surname>Garron</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Suzan</given-names>
+<surname>Dogan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vincent</given-names>
+<surname>Lombard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bernard</given-names>
+<surname>Henrissat</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nicolas</given-names>
+<surname>Terrapon</surname>
+</string-name>. <year>2022</year>. “<article-title>The Carbohydrate‐Active Enzyme Database: Functions and Literature</article-title>.” <source>Nucleic Acids Research</source>
+<volume>50</volume>: <fpage>D571</fpage>–<lpage>D577</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkab1045</pub-id>
+<pub-id pub-id-type="pmid">34850161</pub-id>
+<pub-id pub-id-type="pmcid">PMC8728194</pub-id></mixed-citation></ref><ref id="imt270149-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt270149-cit-0036">
+<string-name name-style="western">
+<surname>Galperin</surname>, <given-names>Michael Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yuri I.</given-names>
+<surname>Wolf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kira S.</given-names>
+<surname>Makarova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Roberto</given-names>
+<surname>Vera Alvarez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Landsman</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Eugene V.</given-names>
+<surname>Koonin</surname>
+</string-name>. <year>2021</year>. “<article-title>COG Database Update: Focus on Microbial Diversity, Model Organisms, and Widespread Pathogens</article-title>.” <source>Nucleic Acids Research</source>
+<volume>49</volume>: <fpage>D274</fpage>–<lpage>D281</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkaa1018</pub-id>
+<pub-id pub-id-type="pmid">33167031</pub-id>
+<pub-id pub-id-type="pmcid">PMC7778934</pub-id></mixed-citation></ref><ref id="imt270149-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt270149-cit-0037">
+<string-name name-style="western">
+<surname>Buchfink</surname>, <given-names>Benjamin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Klaus</given-names>
+<surname>Reuter</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Hajk‐Georg</given-names>
+<surname>Drost</surname>
+</string-name>. <year>2021</year>. “<article-title>Sensitive Protein Alignments at Tree‐Of‐Life Scale Using DIAMOND</article-title>.” <source>Nature Methods</source>
+<volume>18</volume>: <fpage>366</fpage>–<lpage>368</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-021-01101-x</pub-id>
+<pub-id pub-id-type="pmid">33828273</pub-id>
+<pub-id pub-id-type="pmcid">PMC8026399</pub-id></mixed-citation></ref><ref id="imt270149-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt270149-cit-0038">
+<string-name name-style="western">
+<surname>Patro</surname>, <given-names>Rob</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Geet</given-names>
+<surname>Duggal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael I.</given-names>
+<surname>Love</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rafael A.</given-names>
+<surname>Irizarry</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Carl</given-names>
+<surname>Kingsford</surname>
+</string-name>. <year>2017</year>. “<article-title>Salmon Provides Fast and Bias‐Aware Quantification of Transcript Expression</article-title>.” <source>Nature Methods</source>
+<volume>14</volume>: <fpage>417</fpage>–<lpage>419</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.4197</pub-id>
+<pub-id pub-id-type="pmid">28263959</pub-id>
+<pub-id pub-id-type="pmcid">PMC5600148</pub-id></mixed-citation></ref><ref id="imt270149-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt270149-cit-0039">
+<string-name name-style="western">
+<surname>Szklarczyk</surname>, <given-names>Damian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Katerina</given-names>
+<surname>Nastou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mikaela</given-names>
+<surname>Koutrouli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rebecca</given-names>
+<surname>Kirsch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Farrokh</given-names>
+<surname>Mehryary</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Radja</given-names>
+<surname>Hachilif</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dewei</given-names>
+<surname>Hu</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>The STRING Database in 2025: Protein Networks with Directionality of Regulation</article-title>.” <source>Nucleic Acids Research</source>
+<volume>53</volume>: <fpage>D730</fpage>–<lpage>D737</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkae1113</pub-id>
+<pub-id pub-id-type="pmid">39558183</pub-id>
+<pub-id pub-id-type="pmcid">PMC11701646</pub-id></mixed-citation></ref><ref id="imt270149-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt270149-cit-0040">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>Tianzhi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Erqiang</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuangbin</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meijun</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pingfan</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zehan</given-names>
+<surname>Dai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tingze</given-names>
+<surname>Feng</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>clusterProfiler 4.0: A Universal Enrichment Tool for Interpreting Omics Data</article-title>.” <source>The Innovation</source>
+<volume>2</volume>: <elocation-id>100141</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.xinn.2021.100141</pub-id>
+<pub-id pub-id-type="pmid">34557778</pub-id>
+<pub-id pub-id-type="pmcid">PMC8454663</pub-id></mixed-citation></ref><ref id="imt270149-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt270149-cit-0041">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Yunshun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lizhong</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aaron T. L.</given-names>
+<surname>Lun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pedro L.</given-names>
+<surname>Baldoni</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Gordon K.</given-names>
+<surname>Smyth</surname>
+</string-name>. <year>2025</year>. “<article-title>edgeR v4: Powerful Differential Analysis of Sequencing Data With Expanded Functionality and Improved Support for Small Counts and Larger Datasets</article-title>.” <source>Nucleic Acids Research</source>
+<volume>53</volume>: <elocation-id>gkaf018</elocation-id>. <pub-id pub-id-type="doi">10.1093/nar/gkaf018</pub-id>
+<pub-id pub-id-type="pmid">39844453</pub-id>
+<pub-id pub-id-type="pmcid">PMC11754124</pub-id></mixed-citation></ref><ref id="imt270149-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt270149-cit-0042">
+<string-name name-style="western">
+<surname>Huiyu</surname>, <given-names>Hou</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hujie</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yao</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tianyuan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Junbo</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Salsabeel</given-names>
+<surname>Yousuf</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Time‐Series Dynamics and Biocontrol Potential of Postharvest Bacteria in Litchi Microbiota</article-title>.” <source>SCIENCE CHINA Life Sciences</source>
+<volume>69</volume>: <fpage>1</fpage>–<lpage>11</lpage>. <pub-id pub-id-type="doi">10.1007/s11427-025-3302-x</pub-id>
+<pub-id pub-id-type="pmid">42377893</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="imt270149-cit-0043">
+<string-name name-style="western">
+<surname>Knights</surname>, <given-names>Dan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Justin</given-names>
+<surname>Kuczynski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Emily S.</given-names>
+<surname>Charlson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jesse</given-names>
+<surname>Zaneveld</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael C.</given-names>
+<surname>Mozer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ronald G.</given-names>
+<surname>Collman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Frederic D.</given-names>
+<surname>Bushman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rob</given-names>
+<surname>Knight</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Scott T.</given-names>
+<surname>Kelley</surname>
+</string-name>. <year>2011</year>. “<article-title>Bayesian Community‐Wide Culture‐Independent Microbial Source Tracking</article-title>.” <source>Nature Methods</source>
+<volume>8</volume>: <fpage>761</fpage>–<lpage>763</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.1650</pub-id>
+<pub-id pub-id-type="pmid">21765408</pub-id>
+<pub-id pub-id-type="pmcid">PMC3791591</pub-id></mixed-citation></ref><ref id="imt270149-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="imt270149-cit-0044">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Tong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Haiyan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yong‐Xin</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Luqi</given-names>
+<surname>Huang</surname>
+</string-name>. <year>2021</year>. “<article-title>EVenn: Easy to Create Repeatable and Editable Venn Diagrams and Venn Networks Online</article-title>.” <source>Journal of Genetics and Genomics</source>
+<volume>48</volume>: <fpage>863</fpage>–<lpage>866</lpage>. <pub-id pub-id-type="doi">10.1016/j.jgg.2021.07.007</pub-id>
+<pub-id pub-id-type="pmid">34452851</pub-id>
+</mixed-citation></ref><ref id="imt270149-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="imt270149-cit-0045">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Mei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tong</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yong‐Xin</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Luqi</given-names>
+<surname>Huang</surname>
+</string-name>. <year>2024</year>. “<article-title>Visualizing Set Relationships: EVenn's Comprehensive Approach to Venn Diagrams</article-title>.” <source>iMeta</source>
+<volume>3</volume>: <elocation-id>e184</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.184</pub-id>
+<pub-id pub-id-type="pmid">38898979</pub-id>
+<pub-id pub-id-type="pmcid">PMC11183158</pub-id></mixed-citation></ref></ref-list></back></article>

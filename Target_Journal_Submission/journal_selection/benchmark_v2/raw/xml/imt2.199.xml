@@ -1,0 +1,1578 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt2199" xml:lang="en" article-type="article-commentary" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11183188</article-id><article-id pub-id-type="pmcid-ver">PMC11183188.1</article-id><article-id pub-id-type="pmcaid">11183188</article-id><article-id pub-id-type="pmcaiid">11183188</article-id><article-id pub-id-type="pmid">38898986</article-id><article-id pub-id-type="doi">10.1002/imt2.199</article-id><article-id pub-id-type="publisher-id">IMT2199</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Perspective</subject></subj-group><subj-group subj-group-type="heading"><subject>Perspective</subject></subj-group></article-categories><title-group><article-title>A new evaluation system for drug–microbiota interactions</article-title><alt-title alt-title-type="right-running-head">GERM‐FREE ANIMAL AND DRUG METABOLISM</alt-title><alt-title alt-title-type="left-running-head">LIU <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt2199-cr-0001" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="TH">Tian‐Hao</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3997-756X</contrib-id><xref rid="imt2199-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt2199-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt2199-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt2199-cr-0002" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="CY">Chen‐Yang</given-names></name><xref rid="imt2199-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="imt2199-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt2199-cr-0003" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="H">Hang</given-names></name><xref rid="imt2199-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt2199-cr-0004" contrib-type="author"><name name-style="western"><surname>Jin</surname><given-names initials="J">Jing</given-names></name><xref rid="imt2199-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt2199-cr-0005" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="X">Xue</given-names></name><xref rid="imt2199-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="imt2199-cr-0006" contrib-type="author"><name name-style="western"><surname>Liang</surname><given-names initials="SQ">Shi‐Qiang</given-names></name><xref rid="imt2199-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt2199-cr-0007" contrib-type="author"><name name-style="western"><surname>Xue</surname><given-names initials="YZ">Yu‐Zheng</given-names></name><xref rid="imt2199-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt2199-cr-0008" contrib-type="author"><name name-style="western"><surname>Yuan</surname><given-names initials="FL">Feng‐Lai</given-names></name><xref rid="imt2199-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt2199-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhou</surname><given-names initials="YH">Ya‐Hong</given-names></name><xref rid="imt2199-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>yhzhoutwo@163.com</email></address></contrib><contrib id="imt2199-cr-0010" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bian</surname><given-names initials="XW">Xiu‐Wu</given-names></name><xref rid="imt2199-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt2199-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>bianxiuwu@263.net</email></address></contrib><contrib id="imt2199-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wei</surname><given-names initials="H">Hong</given-names></name><xref rid="imt2199-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>weihong63528@163.com</email></address></contrib></contrib-group><aff id="imt2199-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<institution>Yu‐Yue Pathology Scientific Research Center</institution>
+<city>Chongqing</city>
+<country country="CN">China</country>
+</aff><aff id="imt2199-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>Army Medical University</institution>
+<city>Chongqing</city>
+<country country="CN">China</country>
+</aff><aff id="imt2199-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Gastroenterology</named-content>
+<institution>Affiliated Hospital of Jiangnan University</institution>
+<city>Wuxi</city>
+<named-content content-type="country-part">Jiangsu</named-content>
+<country country="CN">China</country>
+</aff><aff id="imt2199-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Integrated traditional Chinese and Western Medicine</named-content>
+<institution>Affiliated Hospital of Jiangnan University</institution>
+<city>Wuxi</city>
+<country country="CN">China</country>
+</aff><aff id="imt2199-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">College of Animal Science and Technology, College of Animal Medicine</named-content>
+<institution>Huazhong Agricultural University</institution>
+<city>Wuhan</city>
+<named-content content-type="country-part">Hubei</named-content>
+<country country="CN">China</country>
+</aff><aff id="imt2199-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Wuxi Hospital Affiliated to Nanjing University of Chinese Medicine</institution>
+<city>Wuxi</city>
+<named-content content-type="country-part">Jiangsu</named-content>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Ya‐Hong Zhou, Wuxi Hospital Affiliated to Nanjing University of Chinese Medicine, Wuxi 214071, Jiangsu, China.<break/>
+Email: <email>yhzhoutwo@163.com</email>
+<break/>
+Xiu‐Wu Bian and Hong Wei, Yu‐Yue Pathology Scientific Research Center, Chongqing 400051, China.<break/>
+Email: <email>bianxiuwu@263.net</email> and <email>weihong63528@163.com</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>5</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2024</year></pub-date><volume>3</volume><issue seq="100">3</issue><issue-id pub-id-type="pmc-issue-id">465039</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v3.3</issue-id><elocation-id>e199</elocation-id><history>
+<date date-type="rev-recd"><day>20</day><month>4</month><year>2024</year></date>
+<date date-type="received"><day>02</day><month>2</month><year>2024</year></date>
+<date date-type="accepted"><day>22</day><month>4</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>07</day><month>05</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>19</day><month>06</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-22 14:30:25.030"><day>22</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Authors. <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-3-e199.pdf"><?pdf-name IMT2-3-e199.pdf?><?pdf-size 2671160?><?pdf-md5 81ff62fadbca6d57ba76f77aa07db447?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:9240/11183188/81ff62fadbca/IMT2-3-e199.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-3-e199.pdf"/><abstract><title>Abstract</title><p>The drug response phenotype is determined by a combination of genetic and environmental factors. The high clinical conversion failure rate of gene‐targeted drugs might be attributed to the lack of emphasis on environmental factors and the inherent individual variability in drug response (IVDR). Current evidence suggests that environmental variables, rather than the disease itself, are the primary determinants of both gut microbiota composition and drug metabolism. Additionally, individual differences in gut microbiota create a unique metabolic environment that influences the in vivo processes underlying drug absorption, distribution, metabolism, and excretion (ADME). Here, we discuss how gut microbiota, shaped by both genetic and environmental factors, affects the host's ADME microenvironment within a new evaluation system for drug–microbiota interactions. Furthermore, we propose a new top‐down research approach to investigate the intricate nature of drug–microbiota interactions in vivo. This approach utilizes germ‐free animal models, providing foundation for the development of a new evaluation system for drug–microbiota interactions.</p></abstract><abstract abstract-type="graphical"><p>Here, we propose a new evaluation system and research strategy for drug microbial interaction. Leveraging precision germ‐free animal models for the design of next‐generation drug active/toxic ingredients involving gut microbiota, as well as microbes sorting and cultromics, to elucidate the exact mechanism of interaction between single microbe and single drug ingredient in vivo.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-3-e199-g002.jpg"><?image-name IMT2-3-e199-g002.jpg?><?image-size 122625?><?image-md5 58a9daa1e2dec4ce906d3e47ff27ba06?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 756?><?image-original-width 910?><?image-scaled-height 503?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/9240/11183188/58a9daa1e2de/IMT2-3-e199-g002.jpg?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>Shaped by both genetic and environmental factors, gut microbiota significantly influences the host's drug absorption, distribution, metabolism, and excretion (ADME) microenvironment, highlighting the need for a new evaluation system for drug‐microbiome interactions.</p></list-item><list-item><p>To investigate the intricate nature of interactions between gut microbiota and drugs in vivo, a novel top‐down research approach utilizing germ‐free animal models is proposed.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt2199-kwd-0001">drug metabolism</kwd><kwd id="imt2199-kwd-0002">drug–microbiota interactions</kwd><kwd id="imt2199-kwd-0003">genetic and environmental factors</kwd><kwd id="imt2199-kwd-0004">gut microbiota</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>National Key Research and Development Program of China</funding-source><award-id>2022YFA1304104</award-id></award-group><award-group id="funding-0002"><funding-source>National Natural Sciences Foundation of China</funding-source><award-id>82305072</award-id><award-id>82305064</award-id></award-group><award-group id="funding-0003"><funding-source>Natural Science Foundation of Jiangsu Province</funding-source><award-id>BK20230184</award-id></award-group><award-group id="funding-0004"><funding-source>Science and Technology Development project of Jiangsu Provincial Administration of Traditional Chinese Medicine</funding-source><award-id>YB2020043</award-id></award-group><award-group id="funding-0005"><funding-source>Wuxi Municipal Health Commission Scientific Research Fund Youth Project</funding-source><award-id>Q202106</award-id><award-id>Q202225</award-id></award-group><award-group id="funding-0006"><funding-source>The Taihu Lake Talent Project of Wuxi Science and Technology Bureau</funding-source><award-id>K20221027</award-id></award-group><award-group id="funding-0007"><funding-source>Medical Key Discipline Program of Wuxi Health Commission</funding-source><award-id>HB2023044</award-id><award-id>HB2023051</award-id></award-group><award-group id="funding-0008"><funding-source>Doctoral Talent Startup Fund of Affiliated Hospital of Jiangnan University</funding-source></award-group></funding-group><counts><fig-count count="4"/><table-count count="0"/><page-count count="14"/><word-count count="7882"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.4 mode:remove_FC converted:18.06.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt2199-cit-0071">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Tian‐Hao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chen‐Yang</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hang</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xue</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shi‐Qiang</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu‐Zheng</given-names>
+<surname>Xue</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>A New Evaluation System for Drug–Microbiota Interactions</article-title>.” <source>iMeta</source>
+<volume>3</volume>, <elocation-id>e199</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.199</pub-id>
+<pub-id pub-id-type="pmcid">PMC11183188</pub-id><pub-id pub-id-type="pmid">38898986</pub-id></mixed-citation>
+</p><fn-group><fn id="imt2199-note-0001"><p>Tian‐Hao Liu, Chen‐Yang Zhang, Hang Zhang contributed equally to this study.</p></fn></fn-group></notes></front><body><sec id="imt2199-sec-0010"><title>INTRODUCTION</title><p>Since the introduction of pharmacogenetics by Dr. <italic toggle="yes">Archibald Edward Garrod</italic> in the early 20th century, the influence of human genetic information on drug response (individual variability in drug response [IVDR]) has been increasingly emphasized. <italic toggle="yes">Pharmacogenomics</italic> harnesses this information to understand variations in drug sensitivity, metabolism, and adverse drug reactions (ADRs) [<xref rid="imt2199-bib-0001" ref-type="bibr">1</xref>]. In recent years, clinical drug research has primarily focused on the development of new drugs targeting disease gene products. Despite the emergence of numerous new drugs, translating innovative ideas into effective and safe therapeutics remains a challenge. Over 50% of Phase III trials have failed to replicate positive results from Phase II, leading to wasted resources and potential harm to participants [<xref rid="imt2199-bib-0002" ref-type="bibr">2</xref>]. It is now understood that the drug response phenotype is determined by a complex interplay of genetic and environmental factors. Gut microbiota composition reflects environmental influences such as diet, lifestyle, medication use, and calorie intake [<xref rid="imt2199-bib-0003" ref-type="bibr">3</xref>, <xref rid="imt2199-bib-0004" ref-type="bibr">4</xref>]. This study aims to highlight recent advancements in pharmacology regarding how gut microbiota, shaped by both genetic and environmental factors, affects the host's drug absorption, distribution, metabolism, and excretion (ADME) microenvironment within a new framework for evaluating drug–microbiota interactions. By incorporating gut microbiota, we may gain new opportunities for preclinical drug efficacy and safety investigations (Figure <xref rid="imt2199-fig-0001" ref-type="fig">1A</xref>).</p><fig position="float" fig-type="Figure" id="imt2199-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>The clinical significance of gut microbiota in pharmacological research and the regulation of drug‐targeting genes. (A) <italic toggle="yes">Pharmacomicrobiomics</italic> provides new opportunities for preclinical investigations of drug efficacy and safety. ① The effect of drugs on disease characterization depends on a combination of genetic and environmental factors. ② <italic toggle="yes">Pharmacogenomics</italic> employs human genomic information (genetic factors) to decode the reasons behind individual variability in drug response (IVDR). ③ <italic toggle="yes">Pharmacomicrobiomics</italic> employs gut microbial genomic information (environmental factors) to decode the reasons behind environmental factors in drug response. ④ A better understanding of the role of environmental factors on drug safety and efficacy is expected to provide preclinical research strategies to improve the success of clinical drug development. (B) Involvement of gut microbiota in drug ADME. Up: Gut microbiota is a primary site for the drug ADME. Whether the drug is administered orally or injected, it directly reaches the gut microbiota or via the bloodstream. Down: Gut microbiota produced new drugs or druggable metabolites. It concludes short‐chain fatty acids (SCFAs), vitamins, 5‐hydroxytryptamine (5‐TH), γ‐aminobutyric acid (GABA), trimethylamine oxide (TMAO), and bile acids, as well as secondary metabolites of related metabolic pathways. Gut microbiota is involved in a variety of metabolic reactions, mainly involving reductive metabolism and hydrolysis. Drug‐induced gut microbiota remodeling. Most drugs are metabolized through endogenous enzymes and coupling reactions, resulting in ectopic microbiota colonization and remodeling of the gut microbiota. (C) Interactions between gut microbiota genes and drug‐targeted host genes. ARGs: Drugs can influence the expression of antibiotic resistance genes (ARGs) in the gut microbiota. Gut phenotype: The relationship between personalized gut phenotype and drug efficacy based on genetic sequencing of the gut microbiota has been demonstrated. Immunotherapy: Gut microbiota can modulate the safety and efficacy of targeted immunomodulators. Encoding enzyme: CRISPR gene editing of engineered bacteria targets the elimination of ARGs in gut microbiota.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-3-e199-g004.jpg"><?image-name IMT2-3-e199-g004.jpg?><?image-size 248623?><?image-md5 fdfc1f88da4742aceedf0e50cd326874?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1442?><?image-original-width 1054?><?image-scaled-height 960?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/9240/11183188/fdfc1f88da47/IMT2-3-e199-g004.jpg?><?thumb-name IMT2-3-e199-g004.gif?><?thumb-size 9251?><?thumb-md5 fb978fb823fc7ac0c512816bd6a25188?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 137?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/9240/11183188/fb978fb823fc/IMT2-3-e199-g004.gif?></graphic></fig><p>
+<italic toggle="yes">Pharmacogenomics</italic> leverages human genomic information to decode the mechanisms underlying IVDR, particularly focusing on the in vivo processes of drug ADME. Similarly, <italic toggle="yes">Pharmacomicrobiomics</italic> aims to understand how gut microbiota genomic information contributes to IVDR. Current research has predominantly focused on identifying drug‐metabolizing enzymes produced by gut bacteria through isolation [<xref rid="imt2199-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt2199-bib-0006" ref-type="bibr">6</xref>]. However, the metabolic function of gut microbiota is influenced by the host microenvironment, as the gut microbiota itself is a key component of this complex environment. This intricate interplay between gut microbiota and the host environment may be the key reason for its involvement in IVDR. This study innovatively investigates how gut microbiota alters the host microenvironment's impact on ADME, focusing on the in vivo function of gut microbiota within the host body. Additionally, the study proposes a new top‐down research approach to address the challenges of <italic toggle="yes">Pharmacomicrobiomics</italic>. Overall, <italic toggle="yes">Pharmacomicrobiomics</italic> offers not only new insights into the mechanisms of IVDR but also new standards for preclinical drug research. By considering both genetic and environmental factors (as reflected by gut microbiota), this field holds promise. Furthermore, due to the relative ease of manipulating gut microbiota and its high safety profile, <italic toggle="yes">Pharmacomicrobiomics</italic> has the potential to provide effective solutions for improving drug efficacy and reducing toxicity through the development of a new evaluation system for drug–microbiota interactions.</p><sec id="imt2199-sec-0020"><title>How does gut microbiota drive individual differences in drug ADME?</title><p>Drugs circulating and undergoing metabolism in the bloodstream can reside in the gut for extended periods, where crucial drug–microbiota interactions occur. This interaction is bidirectional: drugs can alter gut microbial composition, growth, and function, while gut microbiota can metabolize and modify drug structure through enzymatic activity. These interactions ultimately influence a drug's bioavailability, biological activity/toxicity, and consequently, the individual's response to the medication. Regardless of the administration route (oral or injected), drugs can directly reach the gut microbiota or indirectly interact with it via the bloodstream. Although studies have identified drug‐metabolizing enzymes derived from gut microbiota [<xref rid="imt2199-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt2199-bib-0006" ref-type="bibr">6</xref>], individual responses to interventions like fecal microbiota transplantation (FMT) and probiotics vary significantly [<xref rid="imt2199-bib-0007" ref-type="bibr">7</xref>]. ADME processes determine a drug's stability, target site delivery, potential for generating toxic substances, and successful elimination of excess components. Individual variations in the gut microbiota‐influenced metabolic environment in vivo can influence drug ADME, regardless of the administration route (Figure <xref rid="imt2199-fig-0001" ref-type="fig">1B</xref>).</p></sec><sec id="imt2199-sec-0030"><title>Gut microbiota produces druggable metabolites</title><p>The gut microbiota exerts a broad and profound influence on the physiological functions of various bodily systems. Individual differences in gut microbiota composition create a unique metabolic environment within the body, impacting drug ADME. Furthermore, the secondary metabolites produced by gut microbiota can serve as druggable targets for regulating bodily functions. Through fermentation, gut microbiota digest complex carbohydrates and proteins, generating vitamins and enteral nutrients. These nutrients modulate host energy metabolism and serve as a carbon source for colonocytes [<xref rid="imt2199-bib-0008" ref-type="bibr">8</xref>]. A clinical medication study even demonstrated a clear association between polypharmacy and microbial functions related to short‐chain fatty acid (SCFA) metabolism [<xref rid="imt2199-bib-0009" ref-type="bibr">9</xref>]. The dynamic interplay between gut microbiota and bile acid biotransformation plays a key role in maintaining glycolipid metabolic homeostasis, while also modulating intestinal immunity, inflammation, and tumorigenesis [<xref rid="imt2199-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt2199-bib-0011" ref-type="bibr">11</xref>]. These microbiota‐derived metabolites also contribute to the maintenance of liver and kidney function, which are crucial organs for drug metabolism and excretion.</p></sec><sec id="imt2199-sec-0040"><title>Gut microbiota biotransformation of drugs</title><p>The gut microbiota plays a crucial role in various metabolic reactions through enzymes. These reactions include reduction, hydrolysis, functional group transfer, and cleavage. These complex metabolic processes can regulate the duration and intensity of a drug's pharmacological effects, ultimately influencing its clinical benefit [<xref rid="imt2199-bib-0006" ref-type="bibr">6</xref>]. Studies have shown that, beyond antibiotics, many nonantibiotic drugs targeting humans can also be affected by gut microbiome metabolism. This includes medications like statins and digoxin [<xref rid="imt2199-bib-0012" ref-type="bibr">12</xref>]. Gut microbiota can directly degrade or compete with drugs by producing drug‐degrading enzymes [<xref rid="imt2199-bib-0013" ref-type="bibr">13</xref>, <xref rid="imt2199-bib-0014" ref-type="bibr">14</xref>]. Indirectly, drugs can influence the activity of gut microbiota's drug‐metabolizing enzymes and metabolic pathways, either activating or inactivating them through host drug‐metabolizing enzymes [<xref rid="imt2199-bib-0015" ref-type="bibr">15</xref>, <xref rid="imt2199-bib-0016" ref-type="bibr">16</xref>]. This concept even applies to reducing drug side effects. For example, higher statin doses increase the risk of liver and muscle problems, but combining them with probiotics can potentially lower the effective dose and minimize these side effects [<xref rid="imt2199-bib-0017" ref-type="bibr">17</xref>].</p></sec><sec id="imt2199-sec-0050"><title>Drug‐induced gut microbiota remodeling</title><p>Most drugs undergo metabolism through endogenous enzymes and conjugation reactions. This process can have unintended consequences, leading to changes in gut microbiota composition and colonization patterns. Drugs can disrupt the mucosal barrier of the gut, oral cavity, and gastrointestinal tract in two ways. On the one hand, they can trigger inflammation and promote the ectopic colonization of microbiota in unintended locations [<xref rid="imt2199-bib-0018" ref-type="bibr">18</xref>, <xref rid="imt2199-bib-0019" ref-type="bibr">19</xref>]. For instance, methotrexate, a common immunosuppressive and anticancer drug, can significantly reduce levels of <italic toggle="yes">Bacteroides fragilis</italic> while increasing macrophage density in the gut, leading to gastrointestinal harm in clinical settings [<xref rid="imt2199-bib-0020" ref-type="bibr">20</xref>]. Conversely, some drugs can have beneficial effects on the gastrointestinal mucosal barrier. Metformin, for example, promotes the production of short‐chain fatty acids by gut microbiota, which strengthens intestinal mucosal immunity and contributes to its therapeutic effects in reducing insulin resistance and promoting blood glucose homeostasis [<xref rid="imt2199-bib-0021" ref-type="bibr">21</xref>]. These examples highlight how gut microbiota can influence individual differences in drug absorption, distribution, metabolism, and excretion. However, the precise mechanisms by which drugs contribute to these individual variations remain under investigation.</p></sec><sec id="imt2199-sec-0060"><title>How do drug‐targeted host genes contribute to the gut microbiota?</title><p>
+<italic toggle="yes">Pharmacomicrobiomics</italic> has emerged as a natural extension of <italic toggle="yes">pharmacogenomics</italic>, driven by the growing recognition of gut microbiota as a “second human genome” (Figure <xref rid="imt2199-fig-0001" ref-type="fig">1C</xref>). A major concern associated with antibiotic use is the widespread presence of antibiotic resistance genes (ARGs) within gut microbiota. The human gut serves as a reservoir for resistance to β‐lactam and plasmid‐mediated quinolone antibiotics [<xref rid="imt2199-bib-0022" ref-type="bibr">22</xref>]. It has been established that antibiotic use can enrich the abundance of resistant bacteria and ARGs within the gut microbiota. Interestingly, similar effects have been observed with nonantibiotic drugs, including nonsteroidal anti‐inflammatory drugs (NSAIDs) such as ibuprofen, naproxen, and diclofenac, as well as the antiepileptic drug carbamazepine [<xref rid="imt2199-bib-0023" ref-type="bibr">23</xref>, <xref rid="imt2199-bib-0024" ref-type="bibr">24</xref>]. Clinical trials are exploring the use of gene‐edited bacteria, called clustered regularly interspaced short palindromic repeats (CRISPR) systems, to eliminate antibiotic‐resistant bacteria. Current evidence suggests that gut microbiota facilitates the transmission of antibiotic resistance plasmids within the human gut [<xref rid="imt2199-bib-0025" ref-type="bibr">25</xref>]. Conversely, novel derivatives obtained by manipulating gut microbiota using techniques like immobilization, enzyme‐directed evolution, flow biocatalysis, protein engineering, and combinatorial biosynthesis hold promise in combating the spread of antibiotic resistance [<xref rid="imt2199-bib-0026" ref-type="bibr">26</xref>]. For example, FMT and colonization with the gut bacterium <italic toggle="yes">Coprobacillus cateniformis</italic> have been shown to improve the efficacy of PD‐1 immunotherapy by downregulating the PD‐L2‐RGMb pathway [<xref rid="imt2199-bib-0027" ref-type="bibr">27</xref>]. Recent studies have confirmed the association between specific gut microbiota enterotypes and drug efficacy [<xref rid="imt2199-bib-0028" ref-type="bibr">28</xref>]. Characterizing an individual's gut microbiota enterotype has the potential to inform personalized and precision medicine approaches. While it has been established that drug‐targeted host genes influence gut microbiota, the specific environmental factors involved require further investigation.</p></sec><sec id="imt2199-sec-0070"><title>Influence of environmental variables on gut microbiota and its implications for developing a novel drug–microbiota interaction evaluation system</title><p>While correcting environmental factors is crucial, investigating drugs that can mitigate their negative effects on the gut microbiota is equally important. Mounting evidence in recent years has linked gut microbial composition and function to a wide range of diseases. For instance, a 2022 cohort study published in <italic toggle="yes">Nature</italic> involving 8208 participants found that various environmental factors, both during early life and present times, significantly affect gut microbial composition and function. In fact, the study suggests that environmental factors may have an even greater impact on the gut microbiota than the disease itself [<xref rid="imt2199-bib-0004" ref-type="bibr">4</xref>]. These environmental factors encompass both the external natural environment and social environment (Figure <xref rid="imt2199-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="Figure" id="imt2199-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Environmental factors influencing gut microbiota. (A) Natural conditions: natural environment contributions to the gut microbiota. The climatic extremes including cold and heat exposure or stress and high‐altitude hypoxia environment can alter the specific bacteria in gut and have an impact on the host response to extreme environments. (B) Environmental pollution: Environmental contamination including PM2.5 pollution, microplastic pollution, and antibiotic resistance genes (ARGs) contributes to the gut microbiota and human health. (C) Psychological factor and stress: There is an important relationship between gut microbiota and cognitive and behavioral processes caused by psychological stress, which mainly include hypothalamic‐pituitary‐adrenal axis (HPA‐axis), neuroimmune regulation, immune system, and endocannabinoid (eCB). Moreover, psychiatric factors are one of the most important influences on drug metabolism. (D) Lifestyle: The intervention effect of lifestyle including western diets, modern lifestyles, sedentary behaviors, smoking habits, and alcohol dependence on the gut microbiota is evident.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-3-e199-g003.jpg"><?image-name IMT2-3-e199-g003.jpg?><?image-size 127092?><?image-md5 04b93cf00ff042a6ec47ca7df27b8bbe?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 664?><?image-original-width 1054?><?image-scaled-height 442?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/9240/11183188/04b93cf00ff0/IMT2-3-e199-g003.jpg?><?thumb-name IMT2-3-e199-g003.gif?><?thumb-size 6173?><?thumb-md5 6ebbe2584b8c43727632fff1a61e01a7?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 126?><?thumb-cloudpmc-urn urn:cdn:blobs/9240/11183188/6ebbe2584b8c/IMT2-3-e199-g003.gif?></graphic></fig></sec><sec id="imt2199-sec-0080"><title>Natural environment contributions to the drug–microbiota interactions</title><p>Natural climate and geographic environments shape unique microbial ecosystems, facilitating the direct transfer of microbes to humans. Furthermore, climatic extremes can influence the diversity of gut microbiota composition. Interestingly, specific gut microbes can undergo adaptive changes that benefit the host's response to these extreme environments. For example, factors like low temperature, high heat, and high altitude can all influence the composition of gut microbiota, leading to changes in the activity of drug‐metabolizing enzymes harbored by these gut microbes [<xref rid="imt2199-bib-0029" ref-type="bibr">29</xref>, <xref rid="imt2199-bib-0030" ref-type="bibr">30</xref>, <xref rid="imt2199-bib-0031" ref-type="bibr">31</xref>]. Additionally, hypoxia can impact the direct and indirect effects of gut microbiota on its own or host drug metabolism. These effects are mediated by various factors, including gut microbiota‐derived drug‐metabolizing enzymes, metabolites, and immune modulation [<xref rid="imt2199-bib-0032" ref-type="bibr">32</xref>].</p></sec><sec id="imt2199-sec-0090"><title>Environmental contamination contributions to the drug–microbiota interactions</title><p>External environmental contaminants, including ARGs, PM2.5 particulates, and microplastics, may represent another significant factor influencing drug metabolism within the gut microbiota. It is important to note that ARGs and pollution do not directly inactivate antibiotic efficacy, but rather contribute to the development and spread of antibiotic‐resistant bacteria, thereby reducing the effectiveness of these drugs [<xref rid="imt2199-bib-0033" ref-type="bibr">33</xref>, <xref rid="imt2199-bib-0034" ref-type="bibr">34</xref>, <xref rid="imt2199-bib-0035" ref-type="bibr">35</xref>]. The metabolic function of gut microbiota is a critical factor influencing both drug effectiveness and the potential for side effects. For instance, studies have shown that ephedra polysaccharides can alleviate PM2.5‐induced airway inflammation resembling asthma in mice by modulating gut microbiota composition and SCFA production [<xref rid="imt2199-bib-0036" ref-type="bibr">36</xref>]. Microplastics can disrupt gut microbiota metabolism, potentially contributing to host insulin resistance, liver damage, and blood cell abnormalities [<xref rid="imt2199-bib-0037" ref-type="bibr">37</xref>, <xref rid="imt2199-bib-0038" ref-type="bibr">38</xref>, <xref rid="imt2199-bib-0039" ref-type="bibr">39</xref>]. Interestingly, gut microbiota also plays a role in metabolizing and influencing the efficacy of drugs used to mitigate radiation damage. Examples include yellow wine polyphenolic compounds, baicalein, quercetin, <sc>d</sc>‐galactose, and the botanical <italic toggle="yes">Lycium barbarum</italic> [<xref rid="imt2199-bib-0040" ref-type="bibr">40</xref>, <xref rid="imt2199-bib-0041" ref-type="bibr">41</xref>, <xref rid="imt2199-bib-0042" ref-type="bibr">42</xref>, <xref rid="imt2199-bib-0043" ref-type="bibr">43</xref>].</p></sec><sec id="imt2199-sec-0100"><title>Social environmental factors contribute to the drug–microbiota interactions</title><p>The gut microbiota plays a crucial role in cognitive and behavioral processes influenced by psychological stress. This interplay primarily involves the hypothalamic‐pituitary‐adrenal axis (HPA axis), neuroimmune regulation, and the immune system. Compelling evidence suggests that gut commensal segmented filamentous bacteria can exacerbate cardiovascular disorders associated with psychological stress by influencing the HPA axis [<xref rid="imt2199-bib-0044" ref-type="bibr">44</xref>, <xref rid="imt2199-bib-0045" ref-type="bibr">45</xref>]. Research also indicates that chronic stress can alter the expression and activity of drug‐metabolizing enzyme genes within gut microbiota [<xref rid="imt2199-bib-0046" ref-type="bibr">46</xref>]. Gut microbiota‐derived metabolites, including probiotics, prebiotics, and neurotransmitters such as 5‐hydroxytryptophan (5‐HT), indole, glutamate, gamma‐aminobutyric acid (GABA), and SCFAs, can alleviate chronic stress‐induced cognitive impairment and emotional responses [<xref rid="imt2199-bib-0047" ref-type="bibr">47</xref>, <xref rid="imt2199-bib-0048" ref-type="bibr">48</xref>]. Interestingly, the efficacy of clinical antidepressants like (R)‐ketamine, Lanicemine, Venlafaxine, Fluoxetine, and Agomelatine (AGO) has been closely linked to the composition of gut microbiota [<xref rid="imt2199-bib-0049" ref-type="bibr">49</xref>, <xref rid="imt2199-bib-0050" ref-type="bibr">50</xref>]. More interestingly, researchers have found that drugs that regulate gut microbiota, such as antibiotics (Rifaximin, Isoalantolactone, and Minocycline) and proton pump inhibitors (Esomeprazole, etc.), can also influence psychological stress relief [<xref rid="imt2199-bib-0051" ref-type="bibr">51</xref>, <xref rid="imt2199-bib-0052" ref-type="bibr">52</xref>, <xref rid="imt2199-bib-0053" ref-type="bibr">53</xref>]. Traditional Chinese medicine formulas, herbal medicines, and their individual components (monomers or compounds) may also alleviate stress‐related disorders by impacting gut microbiota [<xref rid="imt2199-bib-0054" ref-type="bibr">54</xref>, <xref rid="imt2199-bib-0055" ref-type="bibr">55</xref>].</p></sec><sec sec-type="methods" id="imt2199-sec-0110"><title>Addressing evaluation gaps in drug–microbiota interactions: exploring novel methodologies</title><p>The ability of human gut microbiota to metabolize small molecule medications contributes to variations in clinical drug efficacy. <italic toggle="yes">Pharmacomicrobiomics</italic> offers a promising avenue for preclinical studies to optimize drug effectiveness. However, current research faces limitations due to the complex interplay between gut microbiota and drugs in vivo. Traditionally, researchers have focused on isolating single bacterial strains from the gut to study drug metabolism mechanisms in vitro. While in vitro culture allows in‐depth analysis, it fails to capture the in vivo function of the microbiota—its interaction with host genes and its role in shaping the metabolic and immune environment within the body. To gain a complete picture, it is crucial to identify key gut microbiota‐driven pharmacodynamic ingredients within the unique in vivo environment of host cells and tissues, rather than relying solely on in vitro cultures. Next‐generation sequencing technologies have empowered researchers to understand the role of gut microbiota in drug metabolism in vivo. However, these techniques often lack the ability to establish causal relationships between specific microbes and drug metabolism. Sequencing data may reveal enzymes with similar functions across different bacterial species, making it difficult to pinpoint the functionally relevant bacteria. Furthermore, research has broadened its focus beyond the digestive and respiratory systems, recognizing the potential role of microbiota in other tissues in disease onset and progression [<xref rid="imt2199-bib-0056" ref-type="bibr">56</xref>, <xref rid="imt2199-bib-0057" ref-type="bibr">57</xref>]. This raises the question of whether drug‐targeting microbiota resides not only in the gut but also at the site of drug delivery. Precise germ‐free animal models offer a potential solution to the challenges mentioned above (Figure <xref rid="imt2199-fig-0003" ref-type="fig">3A</xref>). These models, with their in vivo gut microbiota function, allow researchers to investigate the interaction between drugs and gut microbiota. Colonizing germ‐free animals with single, functionally characterized microbes can provide direct evidence for gut microbiota's involvement in drug metabolism in vivo, helping to elucidate the causal relationship between specific microbes and clinical drug efficacy and safety. Germ‐free treatment of genetically engineered animals can provide even deeper insights into the mechanisms of gut microbiota‐mediated drug metabolism. Additionally, addressing the challenge of “in vivo” gut microbiota function is crucial for understanding how gut microbiota influences environmental factors, leading to variations in drug effectiveness and IVDR. Furthermore, identifying microbes at the single‐cell level can provide technical support for isolating functionally relevant, yet difficult‐to‐cultivate, microbiota strains, given the low sequence conservation and functional redundancy within microbial genes. Ultimately, advancing <italic toggle="yes">Pharmacomicrobiomics</italic> research requires the development of in‐depth coculture models that integrate tissues, cells, and microbes, reflecting the “in vivo” function of gut microbiota.</p><fig position="float" fig-type="Figure" id="imt2199-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Drug preclinical research strategies based on precise germ‐free animal models. (A) Precise germ‐free animal models. Single functional microbe colonization, germ‐free treatment of genetically engineered disease animals, and liver‐gut humanization model system provide support for studying the in vivo function of gut microbiota in drug metabolism. (B) Gut microbiota in vivo function. The drug‐containing serum from GF disease model animal can not only screen small molecule pharmacodynamic substances modified by gut microbiota enzyme but also achieve more refined research of “host cell—gut microbiota—drug” by the intervention on host cells in vitro. (C) High‐resolution sequencing for single‐cell recognition. The single‐cell resolution sequencing of the microbiota (Microbe‐seq) can realize the high‐precision cognition on the cell individual level of the in vivo function of drug transformation. (D) Function‐oriented precise bacterial culture. The construction of GF animals with specific functional phenotypes will realize the transformation of small molecule drugs modified by microbial enzymes from in vitro function to in vivo function. (E) Coculture based on the in vivo function of gut microbiota. The microbiota‐loaded organoids are excellent media for host “cells and microbes” coculture.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-3-e199-g001.jpg"><?image-name IMT2-3-e199-g001.jpg?><?image-size 172728?><?image-md5 1677dd6d181cd42b88c284687f973ab7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1040?><?image-original-width 910?><?image-scaled-height 693?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/9240/11183188/1677dd6d181c/IMT2-3-e199-g001.jpg?><?thumb-name IMT2-3-e199-g001.gif?><?thumb-size 7235?><?thumb-md5 f938d9a97f54fa7d20af60f6d3637899?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 114?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/9240/11183188/f938d9a97f54/IMT2-3-e199-g001.gif?></graphic></fig></sec><sec id="imt2199-sec-0120"><title>Leveraging in vivo gut microbiota function for the design of next‐generation drug ingredients involved in drug–microbiota interaction</title><p>Genetically engineered germ‐free disease models offer a top‐down approach to understanding the “in vivo” function of drug metabolism by gut microbiota (Figure <xref rid="imt2199-fig-0003" ref-type="fig">3B</xref>). These models can be used to screen for the active ingredients of bacterially modified drugs that enter the bloodstream [<xref rid="imt2199-bib-0058" ref-type="bibr">58</xref>]. This approach sheds light on how gut microbiota communities, functioning as a metabolic “factory,” modify pharmaceutical compounds through the action of microbial enzymes [<xref rid="imt2199-bib-0059" ref-type="bibr">59</xref>]. However, it is important to recognize that the metabolic effects of gut microbiota on drugs are also influenced by the host's unique immune and metabolic microenvironment. While drugs, whether oral or intravenous, are primarily metabolized in the liver before entering the intestine for absorption, the impact of gut microbiota on drug efficacy after this initial metabolism often goes overlooked. These modifications can occur through the action of microbial enzymes within the complex gut microbiota community. To effectively analyze the pharmacodynamic mechanisms of Traditional Chinese Medicine (TCM) formulas, TCM compounds, and other natural products with complex components, researchers may benefit from developing efficient techniques for genetic engineering and establishing aseptic/humanized microbiota animal models. This approach is particularly valuable for studying the interactions between gut microbiota, host, and drugs. Similar to the approach used in serum pharmacology for TCM and other complex natural compounds [<xref rid="imt2199-bib-0060" ref-type="bibr">60</xref>], researchers can utilize drug‐containing serum from GF disease model animals. This strategy allows not only for screening small molecule pharmacodynamic substances modified by gut microbiota enzymes but also for more refined in vitro studies investigating the interplay between host cell—gut microbiota—drug.</p></sec><sec id="imt2199-sec-0130"><title>High‐resolution sequencing for single‐cell recognition provides technology for new evaluation system for drug–microbial interaction research</title><p>Gut‐liver humanization models that incorporate human gut microbiota and drug‐metabolizing enzymes can offer a more clinically relevant platform for studying the interactions between gut microbiota, drugs, and humans (Figure <xref rid="imt2199-fig-0003" ref-type="fig">3C</xref>). High‐throughput sequencing plays a crucial role in characterizing gut microbiota by analyzing various aspects like the metagenome, transcriptome, metabolome, and isotope nucleic acid probe labeling coupled sequencing. However, most current sequencing methods decode all the genetic information within a sample, making it difficult to pinpoint the specific function of a single microbe in a complex gut microbiota community due to functional redundancy and low gene conservation among gut microbes. Microbe‐seq offers a powerful alternative—a high‐throughput technique that generates individual microbial genomes from complex communities. This allows researchers to investigate these communities at single‐cell resolution. Using Microbe‐seq, scientists have successfully obtained over 20,000 single‐amplified genomes (SAGs) from a single human donor [<xref rid="imt2199-bib-0061" ref-type="bibr">61</xref>, <xref rid="imt2199-bib-0062" ref-type="bibr">62</xref>]. This unprecedented resolution allows for “in vivo” functional analysis of drug transformation at the individual cell level. Microbe‐seq holds promise for identifying gut microbiota that influence drug efficacy and toxicological effects in vivo. By eliminating the need for large‐scale microbial purification and culturing, this technique paves the way for function‐oriented, precise bacterial culture methods.</p></sec><sec id="imt2199-sec-0140"><title>Precise function‐oriented microbes culture enables a new evaluation system for drug–microbial interaction</title><p>Despite the remarkable progress achieved in gut microbiota research over the past few years, a significant portion of intestinal microbes remain unculturable. This presents a challenge for fully understanding the in vivo mechanisms of microbial drug metabolism and for large‐scale production of beneficial, microbially modified drug molecules. The human gut microbiome boasts a vast array of taxa, each carrying unique genes and gene families. However, a notable characteristic is the presence of phylogenetically diverse taxa that share similar genes and perform comparable functions [<xref rid="imt2199-bib-0063" ref-type="bibr">63</xref>]. This highlights the potential of “microbiota function‐oriented host‐microbiota crosstalk” as a new area of investigation. Microbe‐seq technology offers a powerful tool for single‐bacterium identification and sorting. This, combined with a strategy called <italic toggle="yes">culturomics</italic>, provides significant technical support for elucidating the role of gut microbiota in vivo function in clinical drug efficacy and safety (Figure <xref rid="imt2199-fig-0003" ref-type="fig">3D</xref>). Culturomics incorporates various growth conditions with rapid microbial identification techniques [<xref rid="imt2199-bib-0064" ref-type="bibr">64</xref>]. Furthermore, genetic manipulation techniques like CRISPR‐Cas9 enable editing of bacterial and fungal strains within the complex gut microbiome. This allows researchers to investigate the specific role of individual genes within this intricate system [<xref rid="imt2199-bib-0063" ref-type="bibr">63</xref>, <xref rid="imt2199-bib-0065" ref-type="bibr">65</xref>]. These advancements highlight the growing sophistication of methods for mining functional bacteria. Functional genomics is another promising approach. Recent studies have demonstrated its potential for characterizing physiologically active biomolecules. For example, this approach can be applied to identify bacterial polysaccharide consumption loci targeting pectins, with expression levels corresponding to strain‐specific liberation [<xref rid="imt2199-bib-0066" ref-type="bibr">66</xref>]. Understanding the activity and substrate specificity of bacterial drug‐modifying enzymes is crucial, as these enzymes significantly impact the activity of drug components. Existing research has successfully characterized the activity and substrate specificity of bacterial enzymes from culturable bacteria, particularly in the context of inflammatory diseases [<xref rid="imt2199-bib-0067" ref-type="bibr">67</xref>]. Finally, the construction of germ‐free animals with specific functional phenotypes offers a promising avenue for translating the “in vitro” function of microbially modified small molecule drugs to their “in vivo” function.</p></sec><sec id="imt2199-sec-0150"><title>Coculture, models mimicking gut microbiota function: A novel platform for drug–microbiota interaction evaluation</title><p>Three‐dimensional in vitro cell culture systems known as “organoids” offer a powerful tool for studying drug effects. These models closely resemble the source tissues or organs in vivo by replicating their complex spatial morphology and differentiated cell types [<xref rid="imt2199-bib-0068" ref-type="bibr">68</xref>]. Microbiota‐loaded organoids provide an excellent platform for coculturing host cells and microbes, allowing researchers to investigate drug pharmacology within the context of “microbiota–host” interactions (Figure <xref rid="imt2199-fig-0003" ref-type="fig">3E</xref>). The brain, bone, and blood have long been considered sterile environments. However, with the advent of high‐resolution sequencing techniques, growing evidence suggests that microbiota, including bacteria, fungi, and viruses, colonize various organs and play a crucial physiological role within the host's local tissue microenvironment [<xref rid="imt2199-bib-0057" ref-type="bibr">57</xref>, <xref rid="imt2199-bib-0069" ref-type="bibr">69</xref>]. Particularly, noteworthy is the presence of microbiota in tumor tissues, cells, and blood, where they appear to influence host immunity and cancer cell metastasis [<xref rid="imt2199-bib-0069" ref-type="bibr">69</xref>, <xref rid="imt2199-bib-0070" ref-type="bibr">70</xref>]. An intriguing question remains unanswered: will drugs delivered to specific host tissues or cells undergo secondary metabolism and modification by local microbiota, potentially impacting their efficacy? While current research has not yet focused on the role and mechanisms of local microbiota in influencing the effectiveness and toxicity of drugs targeted for localized delivery, these are undoubtedly issues that will capture the attention of researchers in the near future.</p><p>This study addresses two key issues regarding clinical drugs and gut microbiota. First, individual variability in the human body arises from a combination of genetic and environmental factors. A critical question remains: how do these variations in the human microenvironment, including gut microbiota, affect the safety and efficacy of medications? Second, <italic toggle="yes">pharmacogenomics</italic> sheds light on how individual genetic variations influence drug absorption, distribution, metabolism, and excretion. However, research on the impact of environmental factors, particularly gut microbiota, on drug ADME remains limited. Given the gut microbiota's crucial role in gene–environment interactions affecting drug ADME, it presents a valuable and understudied avenue for preclinical drug safety and efficacy investigations. Our proposed new evaluation system for drug‐microbiota interaction shows significant promise, as evidenced by the findings above. Future research can explore several exciting avenues. First, by comparing conventional and germ‐free animals, disease models with humanized gut microbiota, and single‐strain animal drug metabolism models, researchers can develop preclinical evaluation technology services. This approach can also optimize drug safety and efficacy testing, identify potential microbial targets for existing drugs, and aid in discovering new drug mechanisms and uses. Second, research could focus on evaluating the effectiveness of clinical interventions targeting gut microbiota in vivo, such as vaccines, antibodies, and cell‐based therapies. Finally, the development of a comprehensive technical service platform integrating animal models, microbiome technology, and differential drug response analysis would be a valuable resource for studying drug‐microbiota interactions. In conclusion, the strong operability and high safety of gut microbial regulation in germ‐free animal models make them a promising new tool for evaluating drug–microbiota interactions.</p></sec></sec><sec id="imt2199-sec-0160"><title>AUTHOR CONTRIBUTIONS</title><p>Tian‐Hao Liu, Chen‐Yang Zhang, Hang Zhang, Xiu‐Wu Bian, Wei Hong, Yu‐Zheng Xue participated in study design. Tian‐Hao Liu, Xue Li, Ya‐Hong Zhou, Jing Jin, Shi‐Qiang Liang conducted study operation. Chen‐Yang Zhang, Tian‐Hao Liu, Yu‐Zheng Xue, Feng‐Lai Yuan helped to draft and revise the manuscript. All authors have read the final manuscript and approved it for publication.</p></sec><sec sec-type="COI-statement" id="imt2199-sec-0180"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflict of interest.</p></sec><sec id="imt2199-sec-0210"><title>ETHICS STATEMENT</title><p>No animals or humans were involved in this study.</p></sec></body><back><ack id="imt2199-sec-0170"><title>ACKNOWLEDGMENTS</title><p>We thank Home for Researchers editorial team (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.home-for-researchers.com" ext-link-type="uri">www.home-for-researchers.com</ext-link>) for language editing service. The study was supported by the National Key Research and Development Program of China (2022YFA1304104), the National Natural Sciences Foundation of China (82305072 and 82305064), Natural Science Foundation of Jiangsu Province (BK20230184), Science and Technology Development project of Jiangsu Provincial Administration of Traditional Chinese Medicine (YB2020043), Wuxi Municipal Health Commission Scientific Research Fund Youth Project (Q202106 and Q202225), The Taihu Lake Talent Project of Wuxi Science and Technology Bureau (K20221027), Medical Key Discipline Program of Wuxi Health Commission (HB2023044 and HB2023051), and Doctoral Talent Startup Fund of Affiliated Hospital of Jiangnan University.</p></ack><sec sec-type="data-availability" id="imt2199-sec-0200"><title>DATA AVAILABILITY STATEMENT</title><p>No new data was generated in this study. Supplementary materials (graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>).</p></sec><ref-list content-type="cited-references" id="imt2199-bibl-0001"><title>REFERENCES</title><ref id="imt2199-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt2199-cit-0001">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Qing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yao</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Weihua</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Honghao</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2023</year>. “<article-title>Drug‐Microbiota Interactions: An Emerging Priority for Precision Medicine</article-title>.” <source>Signal Transduction and Targeted Therapy</source>
+<volume>8</volume>: <fpage>386</fpage>. <pub-id pub-id-type="doi">10.1038/s41392-023-01619-w</pub-id>
+<pub-id pub-id-type="pmid">37806986</pub-id>
+<pub-id pub-id-type="pmcid">PMC10560686</pub-id></mixed-citation></ref><ref id="imt2199-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt2199-cit-0002">
+<string-name name-style="western">
+<surname>Harrer</surname>, <given-names>Stefan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Pratik</given-names>
+<surname>Shah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bhavna</given-names>
+<surname>Antony</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jianying</given-names>
+<surname>Hu</surname>
+</string-name>. <year>2019</year>. “<article-title>Artificial Intelligence for Clinical Trial Design</article-title>.” <source>Trends in Pharmacological Sciences</source>
+<volume>40</volume>: <fpage>577</fpage>–<lpage>591</lpage>. <pub-id pub-id-type="doi">10.1016/j.tips.2019.05.005</pub-id>
+<pub-id pub-id-type="pmid">31326235</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt2199-cit-0003">
+<string-name name-style="western">
+<surname>Rothschild</surname>, <given-names>Daphna</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Omer</given-names>
+<surname>Weissbrod</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Elad</given-names>
+<surname>Barkan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander</given-names>
+<surname>Kurilshikov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tal</given-names>
+<surname>Korem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Zeevi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paul I.</given-names>
+<surname>Costea</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Environment Dominates Over Host Genetics in Shaping Human Gut Microbiota</article-title>.” <source>Nature</source>
+<volume>555</volume>: <fpage>210</fpage>–<lpage>215</lpage>. <pub-id pub-id-type="doi">10.1038/nature25973</pub-id>
+<pub-id pub-id-type="pmid">29489753</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt2199-cit-0004">
+<string-name name-style="western">
+<surname>Gacesa</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Kurilshikov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vich Vila</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sinha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A. Y.</given-names>
+<surname>Klaassen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>, <surname>Bolte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Andreu‐Sánchez</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Environmental Factors Shaping the Gut Microbiome in a Dutch Population</article-title>.” <source>Nature</source>
+<volume>604</volume>: <fpage>732</fpage>–<lpage>739</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-022-04567-7</pub-id>
+<pub-id pub-id-type="pmid">35418674</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt2199-cit-0005">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Kai</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zhiwei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Hang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fusheng</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yong</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meng</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Microbial‐Host‐Isozyme Analyses Reveal Microbial DPP4 as a Potential Antidiabetic Target</article-title>.” <source>Science</source>
+<volume>381</volume>: <elocation-id>eadd5787</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.add5787</pub-id>
+<pub-id pub-id-type="pmid">37535747</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt2199-cit-0006">
+<string-name name-style="western">
+<surname>Pant</surname>, <given-names>Archana</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Tushar K.</given-names>
+<surname>Maiti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dinesh</given-names>
+<surname>Mahajan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Bhabatosh</given-names>
+<surname>Das</surname>
+</string-name>. <year>2023</year>. “<article-title>Human Gut Microbiota and Drug Metabolism</article-title>.” <source>Microbial Ecology</source>
+<volume>86</volume>: <fpage>97</fpage>–<lpage>111</lpage>. <pub-id pub-id-type="doi">10.1007/s00248-022-02081-x</pub-id>
+<pub-id pub-id-type="pmid">35869999</pub-id>
+<pub-id pub-id-type="pmcid">PMC9308113</pub-id></mixed-citation></ref><ref id="imt2199-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt2199-cit-0007">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Na</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jinfeng</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Binjie</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiangchang</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zixin</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xinyi</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wenhui</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Gut Microbiota Affects Sensitivity to Immune‐Mediated Isoniazid‐Induced Liver Injury</article-title>.” <source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>160</volume>: <elocation-id>114400</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biopha.2023.114400</pub-id>
+<pub-id pub-id-type="pmid">36805186</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt2199-cit-0008">
+<string-name name-style="western">
+<surname>Malesza</surname>, <given-names>Ida Judyta</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Michał</given-names>
+<surname>Malesza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jarosław</given-names>
+<surname>Walkowiak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nadiar</given-names>
+<surname>Mussin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dariusz</given-names>
+<surname>Walkowiak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Raisa</given-names>
+<surname>Aringazina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joanna</given-names>
+<surname>Bartkowiak‐Wieczorek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Edyta</given-names>
+<surname>Mądry</surname>
+</string-name>. <year>2021</year>. “<article-title>High‐Fat, Western‐Style Diet, Systemic Inflammation, and Gut Microbiota: A Narrative Review</article-title>.” <source>Cells</source>
+<volume>10</volume>: <elocation-id>3164</elocation-id>. <pub-id pub-id-type="doi">10.3390/cells10113164</pub-id>
+<pub-id pub-id-type="pmid">34831387</pub-id>
+<pub-id pub-id-type="pmcid">PMC8619527</pub-id></mixed-citation></ref><ref id="imt2199-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt2199-cit-0009">
+<string-name name-style="western">
+<surname>Nagata</surname>, <given-names>Naoyoshi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Suguru</given-names>
+<surname>Nishijima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tohru</given-names>
+<surname>Miyoshi‐Akiyama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yasushi</given-names>
+<surname>Kojima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Moto</given-names>
+<surname>Kimura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ryo</given-names>
+<surname>Aoki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mitsuru</given-names>
+<surname>Ohsugi</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Population‐Level Metagenomics Uncovers Distinct Effects of Multiple Medications on the Human Gut Microbiome</article-title>.” <source>Gastroenterology</source>
+<volume>163</volume>: <fpage>1038</fpage>–<lpage>1052</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2022.06.070</pub-id>
+<pub-id pub-id-type="pmid">35788347</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt2199-cit-0010">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>Jie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lulu</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Frank J.</given-names>
+<surname>Gonzalez</surname>
+</string-name>. <year>2022</year>. “<article-title>Gut Microbiota‐Derived Bile Acids in Intestinal Immunity, Inflammation, and Tumorigenesis</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>30</volume>: <fpage>289</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2022.02.004</pub-id>
+<pub-id pub-id-type="pmid">35271802</pub-id>
+<pub-id pub-id-type="pmcid">PMC8923532</pub-id></mixed-citation></ref><ref id="imt2199-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt2199-cit-0011">
+<string-name name-style="western">
+<surname>Winston</surname>, <given-names>Jenessa A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Casey M.</given-names>
+<surname>Theriot</surname>
+</string-name>. <year>2020</year>. “<article-title>Diversification of Host Bile Acids by Members of the Gut Microbiota</article-title>.” <source>Gut Microbes</source>
+<volume>11</volume>: <fpage>158</fpage>–<lpage>171</lpage>. <pub-id pub-id-type="doi">10.1080/19490976.2019.1674124</pub-id>
+<pub-id pub-id-type="pmid">31595814</pub-id>
+<pub-id pub-id-type="pmcid">PMC7053883</pub-id></mixed-citation></ref><ref id="imt2199-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt2199-cit-0012">
+<string-name name-style="western">
+<surname>Zimmermann</surname>, <given-names>Michael</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Maria</given-names>
+<surname>Zimmermann‐Kogadeeva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rebekka</given-names>
+<surname>Wegmann</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Andrew L.</given-names>
+<surname>Goodman</surname>
+</string-name>. <year>2019</year>. “<article-title>Mapping Human Microbiome Drug Metabolism by Gut Bacteria and Their Genes</article-title>.” <source>Nature</source>
+<volume>570</volume>: <fpage>462</fpage>–<lpage>467</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-019-1291-3</pub-id>
+<pub-id pub-id-type="pmid">31158845</pub-id>
+<pub-id pub-id-type="pmcid">PMC6597290</pub-id></mixed-citation></ref><ref id="imt2199-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt2199-cit-0013">
+<string-name name-style="western">
+<surname>Haiser</surname>, <given-names>Henry J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David B.</given-names>
+<surname>Gootenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kelly</given-names>
+<surname>Chatman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gopal</given-names>
+<surname>Sirasani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Emily P.</given-names>
+<surname>Balskus</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Peter J.</given-names>
+<surname>Turnbaugh</surname>
+</string-name>. <year>2013</year>. “<article-title>Predicting and Manipulating Cardiac Drug Inactivation by the Human Gut Bacterium Eggerthella Lenta</article-title>.” <source>Science</source>
+<volume>341</volume>: <fpage>295</fpage>–<lpage>298</lpage>. <pub-id pub-id-type="doi">10.1126/science.1235872</pub-id>
+<pub-id pub-id-type="pmid">23869020</pub-id>
+<pub-id pub-id-type="pmcid">PMC3736355</pub-id></mixed-citation></ref><ref id="imt2199-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt2199-cit-0014">
+<string-name name-style="western">
+<surname>Clayton</surname>, <given-names>T. Andrew</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>John C.</given-names>
+<surname>Lindon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeremy R.</given-names>
+<surname>Everett</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jeremy K.</given-names>
+<surname>Nicholson</surname>
+</string-name>. <year>2009</year>. “<article-title>Pharmacometabonomic Identification of a Significant Host‐Microbiome Metabolic Interaction Affecting Human Drug Metabolism</article-title>.” <source>Proceedings of National Acadamy of Sciences of the United States of America</source>
+<volume>106</volume>: <fpage>14728</fpage>–<lpage>14733</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0904489106</pub-id>
+<pub-id pub-id-type="pmcid">PMC2731842</pub-id><pub-id pub-id-type="pmid">19667173</pub-id></mixed-citation></ref><ref id="imt2199-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt2199-cit-0015">
+<string-name name-style="western">
+<surname>Wallace</surname>, <given-names>Bret D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hongwei</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kimberly T.</given-names>
+<surname>Lane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>John E.</given-names>
+<surname>Scott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jillian</given-names>
+<surname>Orans</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ja Seol</given-names>
+<surname>Koo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Madhukumar</given-names>
+<surname>Venkatesh</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Alleviating Cancer Drug Toxicity by Inhibiting a Bacterial Enzyme</article-title>.” <source>Science</source>
+<volume>330</volume>: <fpage>831</fpage>–<lpage>835</lpage>. <pub-id pub-id-type="doi">10.1126/science.1191175</pub-id>
+<pub-id pub-id-type="pmid">21051639</pub-id>
+<pub-id pub-id-type="pmcid">PMC3110694</pub-id></mixed-citation></ref><ref id="imt2199-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt2199-cit-0016">
+<string-name name-style="western">
+<surname>van Kessel</surname>, <given-names>Sebastiaan P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexandra K.</given-names>
+<surname>Frye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ahmed O.</given-names>
+<surname>El‐Gendy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maria</given-names>
+<surname>Castejon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ali</given-names>
+<surname>Keshavarzian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gertjan</given-names>
+<surname>van Dijk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sahar</given-names>
+<surname>El Aidy</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Gut Bacterial Tyrosine Decarboxylases Restrict Levels of Levodopa in the Treatment of Parkinson's Disease</article-title>.” <source>Nature Communications</source>
+<volume>10</volume>: <fpage>310</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-019-08294-y</pub-id>
+<pub-id pub-id-type="pmcid">PMC6338741</pub-id><pub-id pub-id-type="pmid">30659181</pub-id></mixed-citation></ref><ref id="imt2199-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt2199-cit-0017">
+<string-name name-style="western">
+<surname>Vourakis</surname>, <given-names>Margaret</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Gaétan</given-names>
+<surname>Mayer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Guy</given-names>
+<surname>Rousseau</surname>
+</string-name>. <year>2021</year>. “<article-title>The Role of Gut Microbiota on Cholesterol Metabolism in Atherosclerosis</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>22</volume>: <elocation-id>8074</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms22158074</pub-id>
+<pub-id pub-id-type="pmid">34360839</pub-id>
+<pub-id pub-id-type="pmcid">PMC8347163</pub-id></mixed-citation></ref><ref id="imt2199-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt2199-cit-0018">
+<string-name name-style="western">
+<surname>Chiocchetti</surname>, <given-names>G. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Vélez</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Devesa</surname>
+</string-name>. <year>2018</year>. “<article-title>Effect of Subchronic Exposure to Inorganic Arsenic on the Structure and Function of the Intestinal Epithelium</article-title>.” <source>Toxicology Letters</source>
+<volume>286</volume>: <fpage>80</fpage>–<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1016/j.toxlet.2018.01.011</pub-id>
+<pub-id pub-id-type="pmid">29355690</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt2199-cit-0019">
+<string-name name-style="western">
+<surname>Hojo</surname>, <given-names>Mariko</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Takashi</given-names>
+<surname>Asahara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Akihito</given-names>
+<surname>Nagahara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tsutomu</given-names>
+<surname>Takeda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kohei</given-names>
+<surname>Matsumoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hiroya</given-names>
+<surname>Ueyama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kenshi</given-names>
+<surname>Matsumoto</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Gut Microbiota Composition Before and After Use of Proton Pump Inhibitors</article-title>.” <source>Digestive Diseases and Science</source>
+<volume>63</volume>: <fpage>2940</fpage>–<lpage>2949</lpage>. <pub-id pub-id-type="doi">10.1007/s10620-018-5122-4</pub-id>
+<pub-id pub-id-type="pmcid">PMC6182435</pub-id><pub-id pub-id-type="pmid">29796911</pub-id></mixed-citation></ref><ref id="imt2199-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt2199-cit-0020">
+<string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Bailing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xuyang</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peiqi</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuang</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chaoheng</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rong</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rui</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Induction and Amelioration of Methotrexate‐Induced Gastrointestinal Toxicity are Related to Immune Response and Gut Microbiota</article-title>.” <source>Ebiomedicine</source>
+<volume>33</volume>: <fpage>122</fpage>–<lpage>133</lpage>. <pub-id pub-id-type="doi">10.1016/j.ebiom.2018.06.029</pub-id>
+<pub-id pub-id-type="pmid">30049384</pub-id>
+<pub-id pub-id-type="pmcid">PMC6085585</pub-id></mixed-citation></ref><ref id="imt2199-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt2199-cit-0021">
+<string-name name-style="western">
+<surname>Vallianou</surname>, <given-names>Natalia G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Theodora</given-names>
+<surname>Stratigou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Stylianos</given-names>
+<surname>Tsagarakis</surname>
+</string-name>. <year>2019</year>. “<article-title>Metformin and Gut Microbiota: Their Interactions and Their Impact on Diabetes</article-title>.” <source>Hormones</source>
+<volume>18</volume>: <fpage>141</fpage>–<lpage>144</lpage>. <pub-id pub-id-type="doi">10.1007/s42000-019-00093-w</pub-id>
+<pub-id pub-id-type="pmid">30719628</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt2199-cit-0022">
+<string-name name-style="western">
+<surname>Anthony</surname>, <given-names>Winston E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Carey‐Ann D.</given-names>
+<surname>Burnham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gautam</given-names>
+<surname>Dantas</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jennie H.</given-names>
+<surname>Kwon</surname>
+</string-name>. <year>2021</year>. “<article-title>The Gut Microbiome as a Reservoir for Antimicrobial Resistance</article-title>.” <source>The Journal of Infectious Diseases</source>
+<volume>223</volume>: <fpage>S209</fpage>–<lpage>S213</lpage>. <pub-id pub-id-type="doi">10.1093/infdis/jiaa497</pub-id>
+<pub-id pub-id-type="pmid">33326581</pub-id>
+<pub-id pub-id-type="pmcid">PMC8206794</pub-id></mixed-citation></ref><ref id="imt2199-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt2199-cit-0023">
+<string-name name-style="western">
+<surname>Thänert</surname>, <given-names>Robert</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sanjam S.</given-names>
+<surname>Sawhney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Drew J.</given-names>
+<surname>Schwartz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Gautam</given-names>
+<surname>Dantas</surname>
+</string-name>. <year>2022</year>. “<article-title>The Resistance Within: Antibiotic Disruption of the Gut Microbiome and Resistome Dynamics in Infancy</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>30</volume>: <fpage>675</fpage>–<lpage>683</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2022.03.013</pub-id>
+<pub-id pub-id-type="pmid">35550670</pub-id>
+<pub-id pub-id-type="pmcid">PMC9173668</pub-id></mixed-citation></ref><ref id="imt2199-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt2199-cit-0024">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Yi‐Fei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Min</given-names>
+<surname>Qiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dong</given-names>
+<surname>Zhu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yong‐Guan</given-names>
+<surname>Zhu</surname>
+</string-name>. <year>2020</year>. “<article-title>Antibiotic Resistance in the Collembolan Gut Microbiome Accelerated by the Nonantibiotic Drug Carbamazepine</article-title>.” <source>Environmental Science &amp; Technology</source>
+<volume>54</volume>: <fpage>10754</fpage>–<lpage>10762</lpage>. <pub-id pub-id-type="doi">10.1021/acs.est.0c03075</pub-id>
+<pub-id pub-id-type="pmid">32816468</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt2199-cit-0025">
+<string-name name-style="western">
+<surname>Bakkeren</surname>, <given-names>Erik</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jana S.</given-names>
+<surname>Huisman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stefan A.</given-names>
+<surname>Fattinger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Annika</given-names>
+<surname>Hausmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Markus</given-names>
+<surname>Furter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Adrian</given-names>
+<surname>Egli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Emma</given-names>
+<surname>Slack</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Salmonella Persisters Promote the Spread of Antibiotic Resistance Plasmids in the Gut</article-title>.” <source>Nature</source>
+<volume>573</volume>: <fpage>276</fpage>–<lpage>280</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-019-1521-8</pub-id>
+<pub-id pub-id-type="pmid">31485077</pub-id>
+<pub-id pub-id-type="pmcid">PMC6744281</pub-id></mixed-citation></ref><ref id="imt2199-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt2199-cit-0026">
+<string-name name-style="western">
+<surname>Hoyos</surname>, <given-names>Pilar</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Almudena</given-names>
+<surname>Perona</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Teodora</given-names>
+<surname>Bavaro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesca</given-names>
+<surname>Berini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Flavia</given-names>
+<surname>Marinelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Terreni</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>María J.</given-names>
+<surname>Hernáiz</surname>
+</string-name>. <year>2022</year>. “<article-title>Biocatalyzed Synthesis of Glycostructures With Anti‐Infective Activity</article-title>.” <source>Accounts of Chemical Research</source>
+<volume>55</volume>: <fpage>2409</fpage>–<lpage>2424</lpage>. <pub-id pub-id-type="doi">10.1021/acs.accounts.2c00136</pub-id>
+<pub-id pub-id-type="pmid">35942874</pub-id>
+<pub-id pub-id-type="pmcid">PMC9454102</pub-id></mixed-citation></ref><ref id="imt2199-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt2199-cit-0027">
+<string-name name-style="western">
+<surname>Park</surname>, <given-names>Joon Seok</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Francesca S.</given-names>
+<surname>Gazzaniga</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meng</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amalia K.</given-names>
+<surname>Luthens</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jacob</given-names>
+<surname>Gillis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wen</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Martin W.</given-names>
+<surname>LaFleur</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Publisher Correction: Targeting PD‐L2‐RGMb Overcomes Microbiome‐Related Immunotherapy Resistance</article-title>.” <source>Nature</source>
+<volume>618</volume>: <elocation-id>E27</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41586-023-06237-8</pub-id>
+<pub-id pub-id-type="pmid">37264079</pub-id>
+<pub-id pub-id-type="pmcid">PMC12025598</pub-id></mixed-citation></ref><ref id="imt2199-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt2199-cit-0028">
+<string-name name-style="western">
+<surname>Vieira‐Silva</surname>, <given-names>Sara</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Gwen</given-names>
+<surname>Falony</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eugeni</given-names>
+<surname>Belda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Trine</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Judith</given-names>
+<surname>Aron‐Wisnewsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rima</given-names>
+<surname>Chakaroun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sofia K.</given-names>
+<surname>Forslund</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Statin Therapy is Associated With Lower Prevalence of Gut Microbiota Dysbiosis</article-title>.” <source>Nature</source>
+<volume>581</volume>: <fpage>310</fpage>–<lpage>315</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-020-2269-x</pub-id>
+<pub-id pub-id-type="pmid">32433607</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt2199-cit-0029">
+<string-name name-style="western">
+<surname>Roberti</surname>, <given-names>Maria Paula</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Satoru</given-names>
+<surname>Yonekura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Connie P. M.</given-names>
+<surname>Duong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marion</given-names>
+<surname>Picard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gladys</given-names>
+<surname>Ferrere</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maryam</given-names>
+<surname>Tidjani Alou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Conrad</given-names>
+<surname>Rauber</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Chemotherapy‐Induced Ileal Crypt Apoptosis and the Ileal Microbiome Shape Immunosurveillance and Prognosis of Proximal Colon Cancer</article-title>.” <source>Nature Medicine</source>
+<volume>26</volume>: <fpage>919</fpage>–<lpage>931</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-020-0882-8</pub-id>
+<pub-id pub-id-type="pmid">32451498</pub-id></mixed-citation></ref><ref id="imt2199-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt2199-cit-0030">
+<string-name name-style="western">
+<surname>Teng</surname>, <given-names>Teng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Guodong</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hongwei</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guangdong</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Baoming</given-names>
+<surname>Shi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tingting</given-names>
+<surname>Shang</surname>
+</string-name>. <year>2023</year>. “<article-title>Characteristics of Glucose and Lipid Metabolism and the Interaction Between Gut Microbiota and Colonic Mucosal Immunity in Pigs During Cold Exposure</article-title>.” <source>Journal of Animal Science and Biotechnology</source>
+<volume>14</volume>: <fpage>84</fpage>. <pub-id pub-id-type="doi">10.1186/s40104-023-00886-5</pub-id>
+<pub-id pub-id-type="pmid">37400906</pub-id>
+<pub-id pub-id-type="pmcid">PMC10318708</pub-id></mixed-citation></ref><ref id="imt2199-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt2199-cit-0031">
+<string-name name-style="western">
+<surname>Nagai</surname>, <given-names>Minami</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Miyu</given-names>
+<surname>Moriyama</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chiharu</given-names>
+<surname>Ishii</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hirotake</given-names>
+<surname>Mori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hikaru</given-names>
+<surname>Watanabe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Taku</given-names>
+<surname>Nakahara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Takuji</given-names>
+<surname>Yamada</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>High Body Temperature Increases Gut Microbiota‐Dependent Host Resistance to Influenza A Virus and SARS‐CoV‐2 Infection</article-title>.” <source>Nature Communication</source>
+<volume>14</volume>: <fpage>3863</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-023-39569-0</pub-id>
+<pub-id pub-id-type="pmcid">PMC10313692</pub-id><pub-id pub-id-type="pmid">37391427</pub-id></mixed-citation></ref><ref id="imt2199-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt2199-cit-0032">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Anpeng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Wenbin</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rong</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2023</year>. “<article-title>The Influences and Mechanisms of High‐Altitude Hypoxia Exposure on Drug Metabolism</article-title>.” <source>Current Drug Metabolism</source>
+<volume>24</volume>: <fpage>152</fpage>–<lpage>161</lpage>. <pub-id pub-id-type="doi">10.2174/1389200224666221228115526</pub-id>
+<pub-id pub-id-type="pmid">36579391</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt2199-cit-0033">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Chen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chenyu</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoming</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhuosong</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chao</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sicong</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bin</given-names>
+<surname>Xue</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Monitoring and Evaluation of Antibiotic Resistance Genes in Three Rivers in Northeast China</article-title>.” <source>Environmental Science and Pollution Research</source>
+<volume>29</volume>: <fpage>44148</fpage>–<lpage>44161</lpage>. <pub-id pub-id-type="doi">10.1007/s11356-022-18555-x</pub-id>
+<pub-id pub-id-type="pmid">35122641</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt2199-cit-0034">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Shengnan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chaofan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fengxiang</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tao</given-names>
+<surname>Hua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qixing</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Shih‐Hsin</given-names>
+<surname>Ho</surname>
+</string-name>. <year>2021</year>. “<article-title>Technologies Towards Antibiotic Resistance Genes (ARGs) Removal From Aquatic Environment: A Critical Review</article-title>.” <source>Journal of Hazardous Materials</source>
+<volume>411</volume>: <elocation-id>125148</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.jhazmat.2021.125148</pub-id>
+<pub-id pub-id-type="pmid">33486226</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt2199-cit-0035">
+<string-name name-style="western">
+<surname>Maurya</surname>, <given-names>Anand Prakash</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jina</given-names>
+<surname>Rajkumari</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Piyush</given-names>
+<surname>Pandey</surname>
+</string-name>. <year>2021</year>. “<article-title>Enrichment of Antibiotic Resistance Genes (ARGs) in Polyaromatic Hydrocarbon‐Contaminated Soils: A Major Challenge for Environmental Health</article-title>.” <source>Environmental Science and Pollution Research</source>
+<volume>28</volume>: <fpage>12178</fpage>–<lpage>12189</lpage>. <pub-id pub-id-type="doi">10.1007/s11356-020-12171-3</pub-id>
+<pub-id pub-id-type="pmid">33394421</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt2199-cit-0036">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Jun‐Xi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hong‐Yu</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ya‐Nan</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhen</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yang</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Liang</surname>
+</string-name>. <year>2022</year>. “<article-title>
+<italic toggle="yes">Ephedra sinica</italic> Polysaccharide Alleviates Airway Inflammations of Mouse Asthma‐Like Induced by Pm2.5 and Ovalbumin via the Regulation of Gut Microbiota and Short Chain Fatty Acid</article-title>.” <source>Journal of Pharmacy and Pharmacology</source>
+<volume>74</volume>: <fpage>1784</fpage>–<lpage>1796</lpage>. <pub-id pub-id-type="doi">10.1093/jpp/rgac078</pub-id>
+<pub-id pub-id-type="pmid">36301619</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt2199-cit-0037">
+<string-name name-style="western">
+<surname>Shi</surname>, <given-names>Chunzhen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaohong</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qi</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoxi</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuanyuan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gang</given-names>
+<surname>Tang</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Disturbed Gut‐Liver Axis Indicating Oral Exposure to Polystyrene Microplastic Potentially Increases the Risk of Insulin Resistance</article-title>.” <source>Environment International</source>
+<volume>164</volume>: <elocation-id>107273</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envint.2022.107273</pub-id>
+<pub-id pub-id-type="pmid">35526298</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt2199-cit-0038">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Xuebing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jingshen</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qianling</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Luyao</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xia</given-names>
+<surname>Yue</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Dongfang</given-names>
+<surname>Qiao</surname>
+</string-name>. <year>2022</year>. “<article-title>Chronic Exposure to Polyvinyl Chloride Microplastics Induces Liver Injury and Gut Microbiota Dysbiosis Based on the Integration of Liver Transcriptome Profiles and Full‐Length 16S rRNA Sequencing Data</article-title>.” <source>Science of The Total Environment</source>
+<volume>839</volume>: <elocation-id>155984</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2022.155984</pub-id>
+<pub-id pub-id-type="pmid">35588832</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt2199-cit-0039">
+<string-name name-style="western">
+<surname>Jing</surname>, <given-names>Jiaru</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lin</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jingyu</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ziyan</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Ai</given-names>
+<surname>Gao</surname>
+</string-name>. <year>2022</year>. “<article-title>Polystyrene Micro‐/Nanoplastics Induced Hematopoietic Damages via the Crosstalk of Gut Microbiota, Metabolites, and Cytokines</article-title>.” <source>Environment International</source>
+<volume>161</volume>: <elocation-id>107131</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envint.2022.107131</pub-id>
+<pub-id pub-id-type="pmid">35149446</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt2199-cit-0040">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Hui</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Liping</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhenzhu</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shiming</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xingxiao</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Na</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Yellow Wine Polyphenolic Compound Protects Against Doxorubicin‐Induced Cardiotoxicity by Modulating the Composition and Metabolic Function of the Gut Microbiota</article-title>.” <source>Circulation: Heart Failure</source>
+<volume>14</volume>: <elocation-id>e8220</elocation-id>. <pub-id pub-id-type="doi">10.1161/CIRCHEARTFAILURE.120.008220</pub-id>
+<pub-id pub-id-type="pmid">34665676</pub-id></mixed-citation></ref><ref id="imt2199-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt2199-cit-0041">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Meifang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yinping</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hongyan</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuanyang</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Saijun</given-names>
+<surname>Fan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Deguan</given-names>
+<surname>Li</surname>
+</string-name>. <year>2020</year>. “<article-title>Baicalein Ameliorates Ionizing Radiation‐Induced Injuries by Rebalancing Gut Microbiota and Inhibiting Apoptosis</article-title>.” <source>Life Sciences</source>
+<volume>261</volume>: <elocation-id>118463</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.lfs.2020.118463</pub-id>
+<pub-id pub-id-type="pmid">32950576</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt2199-cit-0042">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Jinglu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Wencheng</given-names>
+<surname>Jiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ziyan</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chunqing</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qi</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meng</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shiyong</given-names>
+<surname>Song</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Quercetin Inclusion Complex Gels Ameliorate Radiation‐Induced Brain Injury by Regulating Gut Microbiota</article-title>.” <source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>158</volume>: <elocation-id>114142</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biopha.2022.114142</pub-id>
+<pub-id pub-id-type="pmid">36527844</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="imt2199-cit-0043">
+<string-name name-style="western">
+<surname>Zheng</surname>, <given-names>Ying</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xu</given-names>
+<surname>Pang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoxia</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhiyun</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaojuan</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qianzhi</given-names>
+<surname>Ding</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>
+<italic toggle="yes">Lycium barbarum</italic> Mitigates Radiation Injury via Regulation of the Immune Function, Gut Microbiota, and Related Metabolites</article-title>.” <source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>139</volume>: <elocation-id>111654</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biopha.2021.111654</pub-id>
+<pub-id pub-id-type="pmid">33957563</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="imt2199-cit-0044">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>Chunliang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sung Kyun</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dachuan</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Paul S.</given-names>
+<surname>Frenette</surname>
+</string-name>. <year>2020</year>. “<article-title>The Gut Microbiome Regulates Psychological‐Stress‐Induced Inflammation</article-title>.” <source>Immunity</source>
+<volume>53</volume>: <fpage>417</fpage>–<lpage>428</lpage>. <pub-id pub-id-type="doi">10.1016/j.immuni.2020.06.025</pub-id>
+<pub-id pub-id-type="pmid">32735844</pub-id>
+<pub-id pub-id-type="pmcid">PMC7461158</pub-id></mixed-citation></ref><ref id="imt2199-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="imt2199-cit-0045">
+<string-name name-style="western">
+<surname>Wu</surname>, <given-names>Wei‐Li</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Mark D.</given-names>
+<surname>Adame</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chia‐Wei</given-names>
+<surname>Liou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jacob T.</given-names>
+<surname>Barlow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tzu‐Ting</given-names>
+<surname>Lai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gil</given-names>
+<surname>Sharon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Catherine E</given-names>
+<surname>Schretter</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Microbiota Regulate Social Behaviour via Stress Response Neurons in the Brain</article-title>.” <source>Nature</source>
+<volume>595</volume>: <fpage>409</fpage>–<lpage>414</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-021-03669-y</pub-id>
+<pub-id pub-id-type="pmid">34194038</pub-id>
+<pub-id pub-id-type="pmcid">PMC8346519</pub-id></mixed-citation></ref><ref id="imt2199-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="imt2199-cit-0046">
+<string-name name-style="western">
+<surname>Zemanová</surname>, <given-names>Nina</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Pavel</given-names>
+<surname>Anzenbacher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Iveta</given-names>
+<surname>Zapletalová</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lenka</given-names>
+<surname>Jourová</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Petra</given-names>
+<surname>Hermanová</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tomáš</given-names>
+<surname>Hudcovic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hana</given-names>
+<surname>Kozáková</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The Role of the Microbiome and Psychosocial Stress in the Expression and Activity of Drug Metabolizing Enzymes in Mice</article-title>.” <source>Science Reports</source>
+<volume>10</volume>: <fpage>8529</fpage>. <pub-id pub-id-type="doi">10.1038/s41598-020-65595-9</pub-id>
+<pub-id pub-id-type="pmcid">PMC7244717</pub-id><pub-id pub-id-type="pmid">32444678</pub-id></mixed-citation></ref><ref id="imt2199-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="imt2199-cit-0047">
+<string-name name-style="western">
+<surname>Ma</surname>, <given-names>Junxing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ran</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yaoxing</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zixu</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yulan</given-names>
+<surname>Dong</surname>
+</string-name>. <year>2023</year>. “<article-title>5‐HT Attenuates Chronic Stress‐Induced Cognitive Impairment in Mice Through Intestinal Flora Disruption</article-title>.” <source>Journal of Neuroinflammation</source>
+<volume>20</volume>: <fpage>23</fpage>. <pub-id pub-id-type="doi">10.1186/s12974-023-02693-1</pub-id>
+<pub-id pub-id-type="pmid">36737776</pub-id>
+<pub-id pub-id-type="pmcid">PMC9896737</pub-id></mixed-citation></ref><ref id="imt2199-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="imt2199-cit-0048">
+<string-name name-style="western">
+<surname>Mir</surname>, <given-names>Hayatte‐Dounia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexandre</given-names>
+<surname>Milman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Magali</given-names>
+<surname>Monnoye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Véronique</given-names>
+<surname>Douard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Catherine</given-names>
+<surname>Philippe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Agnès</given-names>
+<surname>Aubert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nathalie</given-names>
+<surname>Castanon</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The Gut Microbiota Metabolite Indole Increases Emotional Responses and Adrenal Medulla Activity in Chronically Stressed Male Mice</article-title>.” <source>Psychoneuroendocrinology</source>
+<volume>119</volume>: <elocation-id>104750</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.psyneuen.2020.104750</pub-id>
+<pub-id pub-id-type="pmid">32569990</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="imt2199-cit-0049">
+<string-name name-style="western">
+<surname>An</surname>, <given-names>Qi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chungen</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yaxing</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yang</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rao</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>LiangXue</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiong</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Scaffold Hopping of Agomelatine Leads to Enhanced Antidepressant Effects by Modulation of Gut Microbiota and Host Immune Responses</article-title>.” <source>Pharmacology Biochemistry and Behavior</source>
+<volume>192</volume>: <elocation-id>172910</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.pbb.2020.172910</pub-id>
+<pub-id pub-id-type="pmid">32194087</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="imt2199-cit-0050">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Chun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Youge</given-names>
+<surname>Qu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuko</given-names>
+<surname>Fujita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qian</given-names>
+<surname>Ren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Min</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chao</given-names>
+<surname>Dong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Kenji</given-names>
+<surname>Hashimoto</surname>
+</string-name>. <year>2017</year>. “<article-title>Possible Role of the Gut Microbiota‐Brain Axis in the Antidepressant Effects of (R)‐Ketamine in a Social Defeat Stress Model</article-title>.” <source>Translational Psychiatry</source>
+<volume>7</volume>: <fpage>1294</fpage>. <pub-id pub-id-type="doi">10.1038/s41398-017-0031-4</pub-id>
+<pub-id pub-id-type="pmid">29249803</pub-id>
+<pub-id pub-id-type="pmcid">PMC5802627</pub-id></mixed-citation></ref><ref id="imt2199-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="imt2199-cit-0051">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Haonan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yujiao</given-names>
+<surname>Xiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zemeng</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhijun</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mingyue</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuyue</given-names>
+<surname>Cheng</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Rifaximin‐Mediated Gut Microbiota Regulation Modulates the Function of Microglia and Protects Against CUMS‐Induced Depression‐Like Behaviors in Adolescent Rat</article-title>.” <source>Journal of Neuroinflammation</source>
+<volume>18</volume>: <fpage>254</fpage>. <pub-id pub-id-type="doi">10.1186/s12974-021-02303-y</pub-id>
+<pub-id pub-id-type="pmid">34736493</pub-id>
+<pub-id pub-id-type="pmcid">PMC8567657</pub-id></mixed-citation></ref><ref id="imt2199-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="imt2199-cit-0052">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Siming</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Youge</given-names>
+<surname>Qu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lijia</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yaoyu</given-names>
+<surname>Pu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kai</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Kenji</given-names>
+<surname>Hashimoto</surname>
+</string-name>. <year>2020</year>. “<article-title>Antibiotic‐Induced Microbiome Depletion is Associated With Resilience in Mice After Chronic Social Defeat Stress</article-title>.” <source>Journal of Affective Disorders</source>
+<volume>260</volume>: <fpage>448</fpage>–<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1016/j.jad.2019.09.064</pub-id>
+<pub-id pub-id-type="pmid">31539679</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="imt2199-cit-0053">
+<string-name name-style="western">
+<surname>Meng</surname>, <given-names>Chen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Siyuan</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zikai</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chen</given-names>
+<surname>Dong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Hong</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2022</year>. “<article-title>Antibiotics Exposure Attenuates Chronic Unpredictable Mild Stress‐Induced Anxiety‐Like and Depression‐Like Behavior</article-title>.” <source>Psychoneuroendocrinology</source>
+<volume>136</volume>: <elocation-id>105620</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.psyneuen.2021.105620</pub-id>
+<pub-id pub-id-type="pmid">34896741</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="imt2199-cit-0054">
+<string-name name-style="western">
+<surname>Ge</surname>, <given-names>Ping‐Yuan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shu‐Yue</given-names>
+<surname>Qu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sai‐jia</given-names>
+<surname>Ni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zeng‐Ying</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yi‐Yu</given-names>
+<surname>Qi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rui</given-names>
+<surname>Guo</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Berberine Ameliorates Depression‐Like Behavior in CUMS Mice by Activating TPH1 and Inhibiting IDO1‐Associated With Tryptophan Metabolism</article-title>.” <source>Phytotherapy Research</source>
+<volume>37</volume>: <fpage>342</fpage>–<lpage>357</lpage>. <pub-id pub-id-type="doi">10.1002/ptr.7616</pub-id>
+<pub-id pub-id-type="pmid">36089660</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="imt2199-cit-0055">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Feng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Suzhen</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Youjuan</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kai</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhihong</given-names>
+<surname>Liu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tzi Bun</given-names>
+<surname>Ng</surname>
+</string-name>. <year>2021</year>. “<article-title>
+<italic toggle="yes">Lycium barbarum</italic> Polysaccharide Attenuates Emotional Injury of Offspring Elicited by Prenatal Chronic Stress in Rats via Regulation of Gut Microbiota</article-title>.” <source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>143</volume>: <elocation-id>112087</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biopha.2021.112087</pub-id>
+<pub-id pub-id-type="pmid">34474339</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="imt2199-cit-0056">
+<string-name name-style="western">
+<surname>Nejman</surname>, <given-names>Deborah</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ilana</given-names>
+<surname>Livyatan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Garold</given-names>
+<surname>Fuks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nancy</given-names>
+<surname>Gavert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yaara</given-names>
+<surname>Zwang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Leore T.</given-names>
+<surname>Geller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aviva</given-names>
+<surname>Rotter‐Maskowitz</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The Human Tumor Microbiome is Composed of Tumor Type‐Specific Intracellular Bacteria</article-title>.” <source>Science</source>
+<volume>368</volume>: <fpage>973</fpage>–<lpage>980</lpage>. <pub-id pub-id-type="doi">10.1126/science.aay9189</pub-id>
+<pub-id pub-id-type="pmid">32467386</pub-id>
+<pub-id pub-id-type="pmcid">PMC7757858</pub-id></mixed-citation></ref><ref id="imt2199-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="imt2199-cit-0057">
+<string-name name-style="western">
+<surname>Fu</surname>, <given-names>Aikun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Bingqing</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tingting</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yongyi</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hang</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Tumor‐Resident Intracellular Microbiota Promotes Metastatic Colonization in Breast Cancer</article-title>.” <source>Cell</source>
+<volume>185</volume>: <fpage>1356</fpage>–<lpage>1372</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2022.02.027</pub-id>
+<pub-id pub-id-type="pmid">35395179</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="imt2199-cit-0058">
+<string-name name-style="western">
+<surname>Nemet</surname>, <given-names>Ina</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Prasenjit Prasad</given-names>
+<surname>Saha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nilaksh</given-names>
+<surname>Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Weifei</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kymberleigh A.</given-names>
+<surname>Romano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sarah M.</given-names>
+<surname>Skye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tomas</given-names>
+<surname>Cajka</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>A Cardiovascular Disease‐Linked Gut Microbial Metabolite Acts via Adrenergic Receptors</article-title>.” <source>Cell</source>
+<volume>180</volume>: <fpage>862</fpage>–<lpage>877</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2020.02.016</pub-id>
+<pub-id pub-id-type="pmid">32142679</pub-id>
+<pub-id pub-id-type="pmcid">PMC7402401</pub-id></mixed-citation></ref><ref id="imt2199-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="imt2199-cit-0059">
+<string-name name-style="western">
+<surname>Ren</surname>, <given-names>Lujing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Cheng</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xuechao</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yiwen</given-names>
+<surname>Han</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>He</given-names>
+<surname>Huang</surname>
+</string-name>. <year>2020</year>. “<article-title>Microbial Production of Vitamin K2: Current Status and Future Prospects</article-title>.” <source>Biotechnology Advances</source>
+<volume>39</volume>: <elocation-id>107453</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biotechadv.2019.107453</pub-id>
+<pub-id pub-id-type="pmid">31629792</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="imt2199-cit-0060">
+<string-name name-style="western">
+<surname>Han</surname>, <given-names>Ying</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hui</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aihua</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guangli</given-names>
+<surname>Yan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xi‐Jun</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2020</year>. “<article-title>Chinmedomics, a New Strategy for Evaluating the Therapeutic Efficacy of Herbal Medicines</article-title>.” <source>Pharmacology &amp; Therapeutics</source>
+<volume>216</volume>: <elocation-id>107680</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.pharmthera.2020.107680</pub-id>
+<pub-id pub-id-type="pmid">32956722</pub-id>
+<pub-id pub-id-type="pmcid">PMC7500400</pub-id></mixed-citation></ref><ref id="imt2199-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="imt2199-cit-0061">
+<string-name name-style="western">
+<surname>Zheng</surname>, <given-names>Wenshan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shijie</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yehang</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huidan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David M.</given-names>
+<surname>Needham</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ethan D.</given-names>
+<surname>Evans</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chengzhen L.</given-names>
+<surname>Dai</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>High‐Throughput, Single‐Microbe Genomics With Strain Resolution, Applied to a Human Gut Microbiome</article-title>.” <source>Science</source>
+<volume>376</volume>: <elocation-id>m1483</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.abm1483</pub-id>
+<pub-id pub-id-type="pmid">35653470</pub-id></mixed-citation></ref><ref id="imt2199-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="imt2199-cit-0062">
+<string-name name-style="western">
+<surname>Lloréns‐Rico</surname>, <given-names>Verónica</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Joshua A.</given-names>
+<surname>Simcock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Geert R. B.</given-names>
+<surname>Huys</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jeroen</given-names>
+<surname>Raes</surname>
+</string-name>. <year>2022</year>. “<article-title>Single‐Cell Approaches in Human Microbiome Research</article-title>.” <source>Cell</source>
+<volume>185</volume>: <fpage>2725</fpage>–<lpage>2738</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2022.06.040</pub-id>
+<pub-id pub-id-type="pmid">35868276</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="imt2199-cit-0063">
+<string-name name-style="western">
+<surname>Tian</surname>, <given-names>Liang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xu‐Wen</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ang‐Kun</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuhang</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jonathan</given-names>
+<surname>Friedman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amber</given-names>
+<surname>Dahlin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matthew K</given-names>
+<surname>Waldor</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Deciphering Functional Redundancy in the Human Microbiome</article-title>.” <source>Nature Communication</source>
+<volume>11</volume>: <fpage>6217</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-020-19940-1</pub-id>
+<pub-id pub-id-type="pmcid">PMC7719190</pub-id><pub-id pub-id-type="pmid">33277504</pub-id></mixed-citation></ref><ref id="imt2199-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="imt2199-cit-0064">
+<string-name name-style="western">
+<surname>Lagier</surname>, <given-names>Jean‐Christophe</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Grégory</given-names>
+<surname>Dubourg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matthieu</given-names>
+<surname>Million</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Frédéric</given-names>
+<surname>Cadoret</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Melhem</given-names>
+<surname>Bilen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Florence</given-names>
+<surname>Fenollar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anthony</given-names>
+<surname>Levasseur</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Culturing the Human Microbiota and Culturomics</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>16</volume>: <fpage>540</fpage>–<lpage>550</lpage>. <pub-id pub-id-type="doi">10.1038/s41579-018-0041-0</pub-id>
+<pub-id pub-id-type="pmid">29937540</pub-id>
+</mixed-citation></ref><ref id="imt2199-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="imt2199-cit-0065">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Xin V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Irina</given-names>
+<surname>Leonardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gregory G.</given-names>
+<surname>Putzel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexa</given-names>
+<surname>Semon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>William D.</given-names>
+<surname>Fiers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Takato</given-names>
+<surname>Kusakabe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Woan‐Yu</given-names>
+<surname>Lin</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Immune Regulation by Fungal Strain Diversity in Inflammatory Bowel Disease</article-title>.” <source>Nature</source>
+<volume>603</volume>: <fpage>672</fpage>–<lpage>678</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-022-04502-w</pub-id>
+<pub-id pub-id-type="pmid">35296857</pub-id>
+<pub-id pub-id-type="pmcid">PMC9166917</pub-id></mixed-citation></ref><ref id="imt2199-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="imt2199-cit-0066">
+<string-name name-style="western">
+<surname>Han</surname>, <given-names>Nathan D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jiye</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Omar</given-names>
+<surname>Delannoy‐Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Webber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nicolas</given-names>
+<surname>Terrapon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bernard</given-names>
+<surname>Henrissat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dmitry A.</given-names>
+<surname>Rodionov</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Microbial Liberation of N‐Methylserotonin From Orange Fiber in Gnotobiotic Mice and Humans</article-title>.” <source>Cell</source>
+<volume>185</volume>: <fpage>2495</fpage>–<lpage>2509</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2022.06.004</pub-id>
+<pub-id pub-id-type="pmid">35764090</pub-id>
+<pub-id pub-id-type="pmcid">PMC9271604</pub-id></mixed-citation></ref><ref id="imt2199-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="imt2199-cit-0067">
+<string-name name-style="western">
+<surname>Luis</surname>, <given-names>Ana S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chunsheng</given-names>
+<surname>Jin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gabriel Vasconcelos</given-names>
+<surname>Pereira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Robert W. P.</given-names>
+<surname>Glowacki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sadie R.</given-names>
+<surname>Gugel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shaleni</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dominic P.</given-names>
+<surname>Byrne</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>A Single Sulfatase is Required to Access Colonic Mucin by a Gut Bacterium</article-title>.” <source>Nature</source>
+<volume>598</volume>: <fpage>332</fpage>–<lpage>337</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-021-03967-5</pub-id>
+<pub-id pub-id-type="pmid">34616040</pub-id>
+<pub-id pub-id-type="pmcid">PMC9128668</pub-id></mixed-citation></ref><ref id="imt2199-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="imt2199-cit-0068">
+<string-name name-style="western">
+<surname>Nejman</surname>, <given-names>Deborah</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ilana</given-names>
+<surname>Livyatan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Garold</given-names>
+<surname>Fuks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nancy</given-names>
+<surname>Gavert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yaara</given-names>
+<surname>Zwang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Leore T.</given-names>
+<surname>Geller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aviva</given-names>
+<surname>Rotter‐Maskowitz</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>The Human Tumor Microbiome is Composed of Tumor Type‐Specific Intracellular Bacteria</article-title>.” <source>Science</source>
+<volume>368</volume>: <fpage>973</fpage>–<lpage>980</lpage>. <pub-id pub-id-type="doi">10.1126/science.aay9189</pub-id>
+<pub-id pub-id-type="pmid">32467386</pub-id>
+<pub-id pub-id-type="pmcid">PMC7757858</pub-id></mixed-citation></ref><ref id="imt2199-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="imt2199-cit-0069">
+<string-name name-style="western">
+<surname>Narunsky‐Haziza</surname>, <given-names>Lian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Gregory D.</given-names>
+<surname>Sepich‐Poore</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ilana</given-names>
+<surname>Livyatan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Omer</given-names>
+<surname>Asraf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cameron</given-names>
+<surname>Martino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Deborah</given-names>
+<surname>Nejman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nancy</given-names>
+<surname>Gavert</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Pan‐Cancer Analyses Reveal Cancer‐Type‐Specific Fungal Ecologies and Bacteriome Interactions</article-title>.” <source>Cell</source>
+<volume>185</volume>: <fpage>3789</fpage>–<lpage>3806</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2022.09.005</pub-id>
+<pub-id pub-id-type="pmid">36179670</pub-id>
+<pub-id pub-id-type="pmcid">PMC9567272</pub-id></mixed-citation></ref><ref id="imt2199-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="imt2199-cit-0070">
+<string-name name-style="western">
+<surname>Harimoto</surname>, <given-names>Tetsuhiro</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dhruba</given-names>
+<surname>Deb</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tal</given-names>
+<surname>Danino</surname>
+</string-name>. <year>2022</year>. “<article-title>A Rapid Screening Platform to Coculture Bacteria Within Tumor Spheroids</article-title>.” <source>Nature Protocols</source>
+<volume>17</volume>: <fpage>2216</fpage>–<lpage>2239</lpage>. <pub-id pub-id-type="doi">10.1038/s41596-022-00723-5</pub-id>
+<pub-id pub-id-type="pmid">35906291</pub-id>
+<pub-id pub-id-type="pmcid">PMC10332800</pub-id></mixed-citation></ref></ref-list></back></article>

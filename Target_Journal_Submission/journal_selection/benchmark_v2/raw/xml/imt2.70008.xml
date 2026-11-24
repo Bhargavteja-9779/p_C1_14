@@ -1,0 +1,953 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270008" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11995172</article-id><article-id pub-id-type="pmcid-ver">PMC11995172.1</article-id><article-id pub-id-type="pmcaid">11995172</article-id><article-id pub-id-type="pmcaiid">11995172</article-id><article-id pub-id-type="pmid">40236771</article-id><article-id pub-id-type="doi">10.1002/imt2.70008</article-id><article-id pub-id-type="publisher-id">IMT270008</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Transmission of antimicrobial resistance genes from the environment to human gut is more pronounced in colorectal cancer patients than in healthy subjects</article-title><alt-title alt-title-type="right-running-head">ENVIRONMENTAL ARGS IN CRC RESISTOME</alt-title><alt-title alt-title-type="left-running-head">LIU <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270008-cr-0001" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="W">Weixin</given-names></name><xref rid="imt270008-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270008-cr-0002" contrib-type="author"><name name-style="western"><surname>Lau</surname><given-names initials="HCH">Harry C. H.</given-names></name><xref rid="imt270008-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270008-cr-0003" contrib-type="author"><name name-style="western"><surname>Ding</surname><given-names initials="X">Xiao</given-names></name><xref rid="imt270008-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270008-cr-0004" contrib-type="author"><name name-style="western"><surname>Yin</surname><given-names initials="X">Xiaole</given-names></name><xref rid="imt270008-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270008-cr-0005" contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="WKK">William Ka Kei</given-names></name><xref rid="imt270008-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270008-cr-0006" contrib-type="author"><name name-style="western"><surname>Wong</surname><given-names initials="SH">Sunny Hei</given-names></name><xref rid="imt270008-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270008-cr-0007" contrib-type="author"><name name-style="western"><surname>Sung</surname><given-names initials="JJY">Joseph J. Y.</given-names></name><xref rid="imt270008-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270008-cr-0008" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="T">Tong</given-names></name><xref rid="imt270008-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>zhangt@hku.hk</email></address></contrib><contrib id="imt270008-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Yu</surname><given-names initials="J">Jun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5008-2153</contrib-id><xref rid="imt270008-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>junyu@cuhk.edu.hk</email></address></contrib></contrib-group><aff id="imt270008-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Digestive Disease and The Department of Medicine and Therapeutics</named-content>
+<institution>State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Sciences, CUHK Shenzhen Research Institute, The Chinese University of Hong Kong</institution>
+<city>Hong Kong SAR</city>
+<country country="CN">China</country>
+</aff><aff id="imt270008-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Environmental Microbiome Engineering and Biotechnology Laboratory, Center for Environmental Engineering Research, Department of Civil Engineering</named-content>
+<institution>The University of Hong Kong</institution>
+<city>Hong Kong SAR</city>
+<country country="CN">China</country>
+</aff><aff id="imt270008-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Lee Kong Chian School of Medicine</named-content>
+<institution>Nanyang Technological University</institution>
+<city>Singapore</city>
+<country country="SG">Singapore</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Jun Yu, Institute of Digestive Disease and The Department of Medicine and Therapeutics, State Key Laboratory of Digestive Disease, Li Ka Shing Institute of Health Sciences, CUHK Shenzhen Research Institute, The Chinese University of Hong Kong, Hong Kong SAR, China.<break/>
+Email: <email>junyu@cuhk.edu.hk</email>
+<break/>
+Tong Zhang, Environmental Microbiome Engineering and Biotechnology Laboratory, Center for Environmental Engineering Research, Department of Civil Engineering, The University of Hong Kong, Hong Kong SAR, China.<break/>
+Email: <email>zhangt@hku.hk</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>3</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>4</month><year>2025</year></pub-date><volume>4</volume><issue seq="70">2</issue><issue-id pub-id-type="pmc-issue-id">486575</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v4.2</issue-id><elocation-id>e70008</elocation-id><history>
+<date date-type="rev-recd"><day>12</day><month>2</month><year>2025</year></date>
+<date date-type="received"><day>04</day><month>11</month><year>2024</year></date>
+<date date-type="accepted"><day>14</day><month>2</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>05</day><month>03</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>15</day><month>04</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 15:41:11.617"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-4-e70008.pdf"><?pdf-name IMT2-4-e70008.pdf?><?pdf-size 3258062?><?pdf-md5 7b0b02b81a52030b6b04d1fae8c838e1?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:59c4/11995172/7b0b02b81a52/IMT2-4-e70008.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-4-e70008.pdf"/><abstract><title>Abstract</title><p>Antimicrobial resistance is a major global health concern. However, the source of gut resistome remains unsolved. We aimed to analyze the contribution of environmental antimicrobial resistance genes (ARGs) to colorectal cancer (CRC) patients. Here, we collected metagenomic data from 1,605 human stool samples (CRC = 748; healthy = 857) and 1,035 city‐matched environmental samples, in which 110 CRC, 112 healthy, and 56 environmental samples were newly collected. Compared to healthy subjects, CRC patients had significantly higher ARG burden (<italic toggle="yes">p</italic> &lt; 0.01) with increased levels of multidrug‐resistant ARGs. Gut ARGs in CRC also had a closer similarity to environmental ARGs (<italic toggle="yes">p</italic> &lt; 0.001). By comparing environmental and gut ARGs, 28 environmental ARGs were identified as CRC‐specific ARGs, including <italic toggle="yes">SUL2</italic> and <italic toggle="yes">MEXE</italic>, which were not identified in healthy subjects. Meanwhile, more mobile ARGs (mARGs) from the environment were observed in CRC patients compared to healthy subjects (<italic toggle="yes">p</italic> &lt; 0.05). The hosts of mARGs were mainly pathogenic bacteria (e.g., <italic toggle="yes">Escherichia coli</italic> (<italic toggle="yes">E. coli</italic>) and <italic toggle="yes">Clostridium symbiosum</italic> (<italic toggle="yes">C. symbiosum</italic>)). Compared to healthy subjects, CRC patients showed elevated horizontal gene transfer efficiency from the environment to gut. Consistently, the abundance of pathobionts carrying specific mARGs (e.g., <italic toggle="yes">E. coli‐SUL2</italic> and <italic toggle="yes">C. symbiosum‐SUL2</italic>) were significantly increased in CRC patients compared to healthy subjects (<italic toggle="yes">p</italic> &lt; 0.05). We thus reveal a route of ARG dissemination from the environment into the gut of CRC patients.</p></abstract><abstract abstract-type="graphical"><p>Our study collected city‐matched environmental (<italic toggle="yes">n</italic> = 1,035) and human stool samples (colorectal cancer (CRC) = 748; healthy subjects = 857) worldwide to investigate the environmental resistome in CRC. Compared to healthy subjects, CRC patients had significantly higher antimicrobial resistance gene (ARG) burden with a higher similarity to environmental ARG profile. Additionally, CRC patients had more environment‐gut co‐shared ARGs, more mobile ARGs (mARGs), and higher ARG transmission efficiency from the environment to gut, compared to healthy subjects. The hosts of these mARGs were mainly pathogenic bacteria (e.g., <italic toggle="yes">Escherichia coli</italic> and <italic toggle="yes">Clostridium symbiosum</italic>). We thus revealed a route of mARG dissemination from the environment to human gut in CRC.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-4-e70008-g006.jpg"><?image-name IMT2-4-e70008-g006.jpg?><?image-size 99185?><?image-md5 153ae18160268df0bb48447506a838fd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 768?><?image-original-width 910?><?image-scaled-height 511?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/153ae1816026/IMT2-4-e70008-g006.jpg?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>Colorectal cancer (CRC) patients have a higher antimicrobial resistance gene (ARG) burden compared to healthy subjects.</p></list-item><list-item><p>ARG profile between the city‐matched environment and human gut is more similar in CRC patients than in healthy subjects.</p></list-item><list-item><p>CRC patients had more environment‐gut co‐shared ARGs, more mobile ARGs (mARGs), and higher ARG transmission efficiency from the environment to gut, compared to healthy subjects.</p></list-item><list-item><p>Bacterial hosts of mARGs were mainly pathogenic bacteria (e.g., <italic toggle="yes">Escherichia coli</italic> and <italic toggle="yes">Clostridium symbiosum</italic>), which were significantly enriched in CRC patients compared to healthy subjects.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt270008-kwd-0001">antimicrobial resistance gene</kwd><kwd id="imt270008-kwd-0002">colorectal cancer</kwd><kwd id="imt270008-kwd-0003">environment</kwd><kwd id="imt270008-kwd-0004">horizontal gene transfer</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Theme‐based Res Scheme</funding-source><award-id>T21‐705/20‐N</award-id></award-group><award-group id="funding-0002"><funding-source>RGC Research Impact Fund Hong Kong</funding-source><award-id>R4032‐21F</award-id></award-group><award-group id="funding-0003"><funding-source>Strategic Seed Funding Collaboration Research Scheme CUHK</funding-source><award-id>3133344</award-id></award-group><award-group id="funding-0004"><funding-source>Strategic Impact Enhancement Fund CUHK</funding-source><award-id>3135509</award-id></award-group><award-group id="funding-0005"><funding-source>Impact case for RAE CUHK</funding-source><award-id>3134277</award-id></award-group><award-group id="funding-0006"><funding-source>Singapore Ministry of Health National Medical Research Council</funding-source><award-id>MOH‐001353/MOH‐OFLCG22may‐0001</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="15"/><word-count count="7673"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>April 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.4 mode:remove_FC converted:14.04.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270008-cit-0043">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Weixin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Harry C. H.</given-names>
+<surname>Lau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiao</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaole</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>William Ka Kei</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sunny Hei</given-names>
+<surname>Wong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joseph J. Y.</given-names>
+<surname>Sung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tong</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Yu</surname>
+</string-name>. <year>2025</year>. “<article-title>Transmission of Antimicrobial Resistance Genes From the Environment to Human Gut Is More Pronounced in Colorectal Cancer Patients Than in Healthy Subjects</article-title>.” <source>iMeta</source>
+<volume>4</volume>, <elocation-id>e70008</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70008</pub-id>
+<pub-id pub-id-type="pmcid">PMC11995172</pub-id><pub-id pub-id-type="pmid">40236771</pub-id></mixed-citation>
+</p></notes></front><body><sec id="imt270008-sec-0010"><title>INTRODUCTION</title><p>Antimicrobial resistance is one of the top global public health concerns [<xref rid="imt270008-bib-0001" ref-type="bibr">1</xref>, <xref rid="imt270008-bib-0002" ref-type="bibr">2</xref>]. The widespread dissemination of antibiotic resistance genes (ARGs) in human pathogens has posed preeminent clinical challenges, especially in the management of infection [<xref rid="imt270008-bib-0003" ref-type="bibr">3</xref>, <xref rid="imt270008-bib-0004" ref-type="bibr">4</xref>]. High antimicrobial resistance burden can cause failure in antibiotics to effectively eliminate bacteria, potentially leading to severe infection, worsened patient outcomes, and increased mortality [<xref rid="imt270008-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt270008-bib-0006" ref-type="bibr">6</xref>]. Colorectal cancer (CRC) is the second most deadly cancer worldwide [<xref rid="imt270008-bib-0007" ref-type="bibr">7</xref>], and gut pathobionts play a pivotal role in the initiation and progression of colorectal tumorigenesis [<xref rid="imt270008-bib-0008" ref-type="bibr">8</xref>]. However, it is largely unclear if CRC patients have a higher carriage of antibiotic resistance and whether the abundance of ARG‐carrying gut pathobionts is increased in CRC.</p><p>Humans and their living environment are closely connected and interdependent [<xref rid="imt270008-bib-0001" ref-type="bibr">1</xref>, <xref rid="imt270008-bib-0002" ref-type="bibr">2</xref>]. The immense diversity of the environmental microbiome can serve as a gene reservoir for human pathogens to acquire resistance and counteract the effect of antibiotics [<xref rid="imt270008-bib-0009" ref-type="bibr">9</xref>]. It was reported that antimicrobial resistance is developed in humans as a consequence of exposure to polluted environments such as wastewater, contaminated food, and other sources that contain antimicrobial‐resistant bacteria [<xref rid="imt270008-bib-0010" ref-type="bibr">10</xref>]. More specifically, gut pathobionts and commensal bacteria can acquire ARGs via horizontal gene transfer (HGT) from environmental sources, leading to the development of antibiotic resistance [<xref rid="imt270008-bib-0011" ref-type="bibr">11</xref>]. Mechanistically, HGT relies on mobile genetic elements (MGEs), such as bacterial plasmids and phages, which can carry ARGs and facilitate their transfer from the environment to humans [<xref rid="imt270008-bib-0012" ref-type="bibr">12</xref>]. Hence, evaluating the risk of environment‐gut transmission of ARGs is important to gain insights into the connectivity between the environment and human CRC.</p><p>In this study, we collected 1,605 human stool samples (CRC = 748; healthy subjects = 857) and 1,035 city‐matched environmental samples with shotgun metagenomic sequencing data for analyses (in which 110 CRC, 112 healthy, and 56 environmental samples were newly collected). We found that CRC patients had significantly higher ARG burdens and a higher similarity to environmental ARG profiles than healthy subjects. More mobile ARGs (mARGs) from environment were observed in CRC patients compared to healthy subjects. The hosts of these mARGs were mainly pathogenic bacteria (e.g., <italic toggle="yes">Escherichia coli</italic> (<italic toggle="yes">E. coli</italic>), <italic toggle="yes">Klebsiella pneumoniae</italic> (<italic toggle="yes">K. pneumoniae</italic>), and <italic toggle="yes">Clostridium symbiosum</italic> (<italic toggle="yes">C. symbiosum</italic>)). Moreover, we discovered that the transmission efficiency of ARGs from the environment to human gut was increased in CRC, and the abundance of pathobionts carrying mobile ARGs was significantly enriched in CRC patients compared to healthy subjects.</p></sec><sec sec-type="results" id="imt270008-sec-0020"><title>RESULTS</title><sec id="imt270008-sec-0030"><title>CRC patients have a higher ARG burden compared to healthy subjects</title><p>A total of 1,605 individuals (748 CRC patients and 857 healthy subjects) and 1,035 environmental samples with shotgun metagenomic sequencing data were analyzed (Figure <xref rid="imt270008-fig-0001" ref-type="fig">1</xref> and Tables <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S1–3</xref>). We first compared the gut ARG profile between CRC patients and healthy subjects. Correspondence analysis revealed that the gut resistome (determined by overall ARG profile) in CRC patients was significantly different from healthy subjects (<italic toggle="yes">F</italic> = 3.723, <italic toggle="yes">p </italic>= 0.002, permutational multivariate ANOVA (PERMANOVA)) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2A</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1A</xref>). Gut ARG burden, as measured by the total ARG level normalized by 16S‐rRNA gene level (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2B</xref>) or bacterial cell count (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1B</xref>), was significantly higher in CRC patients compared to healthy subjects (<italic toggle="yes">p</italic> = 0.009, two‐tailed Wilcoxon Rank Sum test). Increased ARG burden in CRC patients could be validated in nine out of ten individual cohorts (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1C</xref>), thus confirming that CRC is associated with higher ARG burden.</p><fig position="float" fig-type="Figure" id="imt270008-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Study design and analysis workflow. (panel: up) Human stool samples from colorectal cancer (CRC) patients and healthy subjects, and city‐matched environment samples were collected worldwide. (panel: down) Summary of the workflow including analysis of core antimicrobial resistance gene (ARG) identification, ARG mobility, and ARG bacterial hosts. ARG profile was measured by <italic toggle="yes">ARGs‐OAP</italic> tool. CTRL, healthy controls; Env, environment; MGE, mobile genetic element. [Correction added on 11 March 2025, after first online publication: The Figure 1 of this paper has been updated at the author's request.]</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-4-e70008-g005.jpg"><?image-name IMT2-4-e70008-g005.jpg?><?image-size 126003?><?image-md5 5a6e36e01c6dbec5bc5b0273b23edc9d?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 853?><?image-original-width 910?><?image-scaled-height 568?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/5a6e36e01c6d/IMT2-4-e70008-g005.jpg?><?thumb-name IMT2-4-e70008-g005.gif?><?thumb-size 4546?><?thumb-md5 39a5ee4206503b3a9d71197eab17b31c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 94?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/39a5ee420650/IMT2-4-e70008-g005.gif?></graphic></fig><fig position="float" fig-type="Figure" id="imt270008-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Convergence of the human gut and environmental antimicrobial resistance genes (ARGs) in colorectal cancer (CRC) patients. (A) Overall ARG profile between CRC patients and healthy subjects. Significance was tested by permutational multivariate ANOVA (PERMANOVA). (B) Overall ARG burden (normalized by 16S‐rRNA gene level) (panel left) and resistant‐specific ARG burden (panel right) between CRC patients and healthy subjects. Fold change (FC) in median was calculated. (C) ARG profiles between human gut and environmental samples. Significance was tested by PERMANOVA. (D) Intra‐city (i.e., Hong Kong, Tokyo, and Paris, in Figure <xref rid="imt270008-fig-0001" ref-type="fig">1</xref>) environment‐gut ARG dissimilarity (measured by Bray‐Curtis distance) in CRC patients was lesser than in healthy subjects (left panel: all three cities; right panel: each city). (E) In CRC, intra‐city environment‐gut ARG dissimilarity was significantly less than inter‐city environment‐gut ARG dissimilarity. (F) The city‐matched environmental ARGs had greater impacts on CRC patients than on healthy subjects. Source tracking is measured by fast expectation‐maximization microbial source tracking (<italic toggle="yes">FEAST</italic>) method. (G) The impacts of different city‐matched environmental sources (i.e., sludge of wastewater treatment, swabs from school, pier, office) on CRC patients and healthy subjects. (H) ARG from city‐matched sludge had a greater impact on CRC patients than on healthy subjects. Significance was tested by a two‐tailed Wilcoxon Rank Sum test. *<italic toggle="yes">p</italic> &lt; 0.05; **<italic toggle="yes">p</italic> &lt; 0.01; ***<italic toggle="yes">p</italic> &lt; 0.001. CCA, constrained correspondence analysis; FC, fold change.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-4-e70008-g004.jpg"><?image-name IMT2-4-e70008-g004.jpg?><?image-size 138017?><?image-md5 ed9253d5307f424edc2f0bfbf4429e3e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 784?><?image-original-width 911?><?image-scaled-height 522?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/ed9253d5307f/IMT2-4-e70008-g004.jpg?><?thumb-name IMT2-4-e70008-g004.gif?><?thumb-size 4868?><?thumb-md5 b91520355fde29e911f79a4fc94552bc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 86?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/b91520355fde/IMT2-4-e70008-g004.gif?></graphic></fig><p>Next, we assessed the risks associated with antibiotic consumption on the human gut resistome. No subjects with antibiotic exposure within 3 months were included in this study. The gut resistome in subjects with antibiotic exposure (&gt;3 months ago) was not significantly altered compared to those without antibiotic exposure (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1D–E</xref>), consistent with the previous publication [<xref rid="imt270008-bib-0013" ref-type="bibr">13</xref>]. Furthermore, our analysis of ARG similarity between environmental samples and human subjects revealed a convergence of the environmental and gut resistome in CRC patients, irrespective of antibiotic exposure (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1F</xref>). These results suggest that the increase in ARG burden among CRC patients is at least partially unrelated to antibiotic use occurring more than 3 months prior.</p></sec><sec id="imt270008-sec-0040"><title>Gut ARG profile in CRC patients is more similar to the environmental ARG profile compared to healthy subjects</title><p>The potential link between environmental ARGs and human gut ARGs was examined. Correspondence analysis revealed a marked difference between the environmental ARG profile and gut ARG profile, regardless of disease conditions (<italic toggle="yes">F</italic> = 439.07, <italic toggle="yes">p</italic> &lt; 0.001, PERMANOVA) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2C</xref>). In addition, the overall environmental ARGs varied significantly across different environmental samples (<italic toggle="yes">F</italic> = 33.06, <italic toggle="yes">p</italic> &lt; 0.001, PERMANOVA) (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1G–I</xref>). We then compared ARG profile in stool samples from CRC patients or healthy subjects to city‐matched environmental samples (i.e., Hong Kong, Tokyo, and Paris) (Figure <xref rid="imt270008-fig-0001" ref-type="fig">1</xref>). The difference between environmental ARGs and gut ARGs was significantly less in CRC compared to healthy subjects from the same city (<italic toggle="yes">p</italic> = 2.2e‐16) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2D</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S2A</xref>), indicating that ARG profile in CRC is more similar to the environmental ARG profile. Moreover, the difference in environment‐gut ARGs was significantly lower between CRC and city‐matched environmental samples (i.e., within city), in comparison between CRC and environmental samples from unmatched cities (i.e., between city) (<italic toggle="yes">p</italic> = 1.74e‐22) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2E</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S2B</xref>). A similar observation was found for the environment‐gut ARG similarity based on resistant‐specific gene profiles (e.g., multidrug‐resistant ARGs) (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S2C</xref>). We further utilized fast expectation‐maximization microbial source tracking (<italic toggle="yes">FEAST</italic>) to quantitate the contribution of environmental ARGs [<xref rid="imt270008-bib-0014" ref-type="bibr">14</xref>], and identified that environmental ARGs had greater impacts on gut ARGs in CRC patients than in healthy subjects (<italic toggle="yes">p</italic> = 0.004) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2F</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S3</xref>). Among all city‐matched environmental sources (sludge of wastewater treatment, flocked swabs from residential, office, school, pier, railway station), sludge samples were the only environmental source that significantly contributed to the elevation of gut ARGs in CRC patients, compared to healthy subjects (<italic toggle="yes">p</italic> = 0.025) (Figure <xref rid="imt270008-fig-0002" ref-type="fig">2G,H</xref>). Taken together, we provided evidence of the contribution of environmental resistome from sludge to the increased ARG burden in CRC.</p></sec><sec id="imt270008-sec-0050"><title>CRC‐specific ARGs are shared with core environmental ARGs</title><p>To identify differential ARGs between CRC patients and healthy subjects, we used two established methods (meta‐analysis based on odd ratio (<italic toggle="yes">Meta‐OR</italic>) (Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S4</xref>) and <italic toggle="yes">MMUPHin</italic> (Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S5</xref>)) and developed a core index (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S4A–C</xref>). By overlapping ARGs identified from these methods, a total of 69 ARGs were differentially distributed between CRC and healthy subjects (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3A</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S4D</xref>). Among them, 51 ARGs were significantly enriched in CRC patients (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3A</xref>), including <italic toggle="yes">MEXE</italic> (associated with hospitalization [<xref rid="imt270008-bib-0004" ref-type="bibr">4</xref>]) and <italic toggle="yes">SUL2</italic> (associated with sulfonamide drug resistance) (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3B</xref>). The same core index was utilized to identify core environmental ARGs (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S5A, B</xref>). A total of 140 core environmental ARGs were identified (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S5C</xref>), and 57 of them were specifically present in sludge, while the remaining 83 were found in diverse environmental sources (Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S6</xref>).</p><fig position="float" fig-type="Figure" id="imt270008-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Colorectal cancer (CRC)‐specific antimicrobial resistance genes (ARGs) are shared with core environmental ARGs. (A) The differential ARGs between CRC patients and healthy subjects were detected by three methods (prevalence‐based meta‐analysis based on odd ratio (<italic toggle="yes">Meta‐OR</italic>), abundance‐based <italic toggle="yes">MMUPHin</italic>, and core index (CI)). Shown in the right panel was the distribution of resistant‐specific ARGs. (B) CRC‐/healthy‐specific ARGs (panel left; node color represents the type of ARG) were shared with core environmental ARGs (panel right; node shape represents whether the ARG is pan‐Env core ARG or habitat‐specific core ARG). The difference in core index was calculated. (C) The amount of shared ARGs between CRC‐/healthy‐specific ARGs and core environment ARGs. (D) A higher level of high‐risk ARGs (environment‐gut co‐shared) was found in CRC patients than in healthy subjects. ARG level was normalized by 16S‐rRNA gene level. Fold change (FC) in median was calculated. Significance was tested by a two‐tailed Wilcoxon Rank Sum test. Diff (CI<sub>CRC</sub> − CI<sub>CTRL</sub>): difference in core index.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-4-e70008-g003.jpg"><?image-name IMT2-4-e70008-g003.jpg?><?image-size 87321?><?image-md5 d62e3882302e467a7d05b6d07c8e9740?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 558?><?image-original-width 911?><?image-scaled-height 372?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/d62e3882302e/IMT2-4-e70008-g003.jpg?><?thumb-name IMT2-4-e70008-g003.gif?><?thumb-size 4513?><?thumb-md5 7cad066c29c3629aa63df94f7516f070?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 130?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/7cad066c29c3/IMT2-4-e70008-g003.gif?></graphic></fig><p>By comparing environmental ARGs to human gut ARGs, we found that 28 core environmental ARGs were CRC‐specific ARGs (e.g., <italic toggle="yes">MEXE</italic> and <italic toggle="yes">SUL2</italic>), and 7 were healthy‐specific ARGs (e.g., <italic toggle="yes">BACA</italic>) (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3B,C</xref>). To assess the health risk of ARGs, we employed an omics‐based framework [<xref rid="imt270008-bib-0015" ref-type="bibr">15</xref>] to classify ARGs into four categories (Rank I‐IV) risk framework (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S5D</xref>). We found that 25 out of 28 environment‐CRC co‐shared ARGs were present in this risk framework, and these high‐risk ARGs were significantly higher in CRC than in healthy subjects (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3D</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S5E</xref>). Hence, the presence of environment‐CRC co‐shared ARGs further confirmed the similarity between the environmental and gut ARG profiles in CRC patients.</p></sec><sec id="imt270008-sec-0060"><title>CRC patients have more mobile ARGs than healthy subjects</title><p>Given the coexistence of environmental and gut ARGs in CRC, we hypothesized that part of the gut resistome was derived from the environment by HGT. We therefore developed a pipeline incorporating ARG profile and different databases to predict ARG‐associated MGEs, including insertion sequences (ISs), bacterial plasmid, and virus/phage (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6A</xref>). We observed that more environmental ARGs were carried by bacterial plasmids than phages, in contrast to gut ARGs, which were more likely to be carried by phages (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4A</xref>). Compared to healthy subjects, CRC patients had more mobile ARGs (<italic toggle="yes">p</italic> = 0.034) <italic toggle="yes">(</italic>Figure <xref rid="imt270008-fig-0004" ref-type="fig">4B</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6B</xref>), and 19 environment‐CRC co‐shared ARGs were identified as mobile ARGs including <italic toggle="yes">MEXE</italic> and <italic toggle="yes">SUL2</italic> (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4C</xref> and Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S7</xref>).</p><fig position="float" fig-type="Figure" id="imt270008-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Mobile ARG (mARGs) in the human gut and environment. (A) The ratio of ARGs that (1) mobilized by ISs elements, (2) carried by plasmid, or (3) phage, and 4) present on bacterial chromosome in detectable ARGs of colorectal cancer (CRC) gut, healthy gut, and environment, respectively. (B) More mARGs were detected in CRC patients than in healthy subjects. Fold change (FC) in mean was calculated. Significance was tested by a two‐tailed Student's <italic toggle="yes">t</italic>‐test. (C) More environment‐gut co‐shared mARGs were identified in CRC patients than in healthy subjects. (D) Method for calculating mARG transmission efficiency within the same species (within‐species) or across different bacteria (between‐species). (E) Overall environment‐gut transmission efficiency of within‐species and between‐species ARGs. (F) City‐matched (i.e., Hong Kong and Tokyo, respectively) environmental‐gut ARG transmission efficiency was higher in CRC patients than in healthy subjects. The efficiency fold change (FC) between the CRC patients and healthy individuals was calculated. ET, efficiency of HGT; HGT, horizontal gene transfer; ISs, insertion sequences.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IMT2-4-e70008-g001.jpg"><?image-name IMT2-4-e70008-g001.jpg?><?image-size 91034?><?image-md5 7126b58986bc31a9433d06b09f81bfc0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 526?><?image-original-width 911?><?image-scaled-height 350?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/7126b58986bc/IMT2-4-e70008-g001.jpg?><?thumb-name IMT2-4-e70008-g001.gif?><?thumb-size 5216?><?thumb-md5 e15195cdb3245fcd59d930e76095849f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 138?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/e15195cdb324/IMT2-4-e70008-g001.gif?></graphic></fig></sec><sec id="imt270008-sec-0070"><title>ARG transmission efficiency from the environment to gut is higher in CRC patients than in healthy subjects</title><p>Transmission of ARGs (i.e., HGT) can occur not only within the same species but also across less related microbes [<xref rid="imt270008-bib-0016" ref-type="bibr">16</xref>]. We therefore evaluated the transmission efficiency of ARGs from the environment to human gut within the same species or across different bacteria (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4D</xref>). As expected, the transmission efficiency was markedly higher within the same species compared to the efficiency among different species (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4E</xref>). On the other hand, the transmission efficiency of both within‐species and between‐species ARGs was higher from the environment to CRC than to healthy gut (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4E</xref>), regardless of environmental source (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6C</xref> and Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S8</xref>). The higher environment‐gut ARG transmission efficiency in CRC than in healthy gut can be validated in both Hong Kong and Tokyo (two cities with sufficient sample size) (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4F</xref>). Collectively, our findings showed that the increased ARG burden in CRC is at least in part owing to high ARG transmission efficiency from the environment to the gut of CRC patients.</p></sec><sec id="imt270008-sec-0080"><title>The hosts of mobile ARGs are opportunistic pathogenic bacteria</title><p>Microbes (especially pathogens) serve as a reservoir of ARGs and are key determinants of disseminating antibiotic resistance. To this end, we determined the bacterial host of ARGs in environment and human gut by metagenomic assembling (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6A</xref>). A total of 140,372 metagenome‐assembled genomes (MAGs) were constructed, and 77,214 of them were species‐level MAGs that belong to 794 different species (Tables <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S9</xref>, <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">10</xref>). Species‐level MAGs were then classified into three categories based on their quality: high‐quality (<italic toggle="yes">n</italic> = 8,086; completeness ≥ 90, contamination &lt; 5, strain heterogeneity &lt; 0.5), median‐quality (<italic toggle="yes">n</italic> = 6,565; 50 ≤ completeness &lt; 90, contamination &lt; 5), and the remaining low‐quality (<italic toggle="yes">n</italic> = 62,473) (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S7A, B</xref> and Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S10</xref>). We found that genomes with high and median quality were comparable to reference genomes from the National Center for Biotechnology Information (NCBI) genome database (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S7C</xref>). Hence, these high/median‐quality genomes were used to determine the amount of mARGs they carried.</p><p>A total of 563 bacterial hosts of mARGs were identified, which were mainly <italic toggle="yes">Clostridia</italic>, <italic toggle="yes">Bacilli</italic>, <italic toggle="yes">Bacteroidetes</italic>, and <italic toggle="yes">Gammaproteobacteria</italic> (especially the <italic toggle="yes">Enterobacteriaceae</italic> family) (Figure <xref rid="imt270008-fig-0005" ref-type="fig">5A</xref>). The majority of mARGs carried by these bacteria belonged to β‐lactam, multidrug, and aminoglycoside‐resistant ARG subtypes (Figure <xref rid="imt270008-fig-0005" ref-type="fig">5A</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S7D</xref>). Based on the Pathogen Host Interactions Database (PHI‐base) [<xref rid="imt270008-bib-0017" ref-type="bibr">17</xref>] and the list of antibiotic‐resistant “priority pathogens” from the World Health Organization (WHO), 36 bacterial hosts of mARG with pathogenic potential were identified, including <italic toggle="yes">E. coli</italic> and <italic toggle="yes">K. pneumoniae</italic> (Figure <xref rid="imt270008-fig-0005" ref-type="fig">5B</xref>). In particular, more pathogenic hosts of mARG were found in CRC patients than in healthy subjects (Figure <xref rid="imt270008-fig-0005" ref-type="fig">5C</xref>). In addition, among all environmental sources, sludge samples shared the highest number of pathogenic mARG bacterial hosts with the gut in CRC (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S7E</xref>), implying the positive correlation between wastewater and CRC.</p><fig position="float" fig-type="Figure" id="imt270008-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Bacterial hosts of mobile ARGs (mARGs). (A) Phylogenetic tree of bacterial hosts of mARG. The vertex represents the bacterial host, and its size represents the normalized number of mARG it carried. Specific clades including <italic toggle="yes">Bacteroidia</italic>, <italic toggle="yes">Bacilli</italic>, <italic toggle="yes">Negativicutes</italic>, <italic toggle="yes">Clostridia</italic>, <italic toggle="yes">Actinobacteria</italic>, and <italic toggle="yes">Enterobacteriaceae</italic>, were circled. The pie charts represent the distribution of resistant‐specific mARGs. (B) Number of mARG‐carrying pathobionts. Panel down: phylogenetic tree of pathobionts including <italic toggle="yes">Escherichia coli</italic> (<italic toggle="yes">E. coli</italic>) and <italic toggle="yes">Klebsiella pneumoniae</italic> (<italic toggle="yes">K. pneumoniae</italic>). (C) More mARG‐carrying pathobionts (environment‐gut co‐shared) were identified in CRC patients than in healthy subjects. CRC, colorectal cancer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="IMT2-4-e70008-g007.jpg"><?image-name IMT2-4-e70008-g007.jpg?><?image-size 94278?><?image-md5 753181f6010d1d08953263fbf5551b6a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 355?><?image-original-width 910?><?image-scaled-height 236?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/753181f6010d/IMT2-4-e70008-g007.jpg?><?thumb-name IMT2-4-e70008-g007.gif?><?thumb-size 9565?><?thumb-md5 70a0d3a9fe243cfd1863d71098a5bf14?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 78?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/70a0d3a9fe24/IMT2-4-e70008-g007.gif?></graphic></fig></sec><sec id="imt270008-sec-0090"><title>mARG‐carrying pathobionts are enriched in CRC patients compared to healthy subjects</title><p>We next paired up bacterial hosts and mARGs (i.e., bacteria‐mARG pairs), and compared these mARG‐carrying pathobionts between CRC patients and healthy subjects. In the CRC gut, we identified a total of 1,244 bacteria‐mARG pairs in which mARGs co‐existed in the environment (Figure <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">6A</xref>, Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S8A</xref>). Among them, 56 significant bacteria‐mARG pairs consisting of pathobionts (identified based on the Pathogen Host Interactions database and the list of “priority pathogens” from WHO) and environment‐CRC co‐shared mARGs (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4C</xref>), for example <italic toggle="yes">E. coli</italic> carrying the mARG <italic toggle="yes">SUL2</italic> (<italic toggle="yes">E. coli‐SUL2</italic>), were identified (Figure <xref rid="imt270008-fig-0006" ref-type="fig">6B</xref>). Compared to healthy subjects, 28 bacteria‐mARG pairs such as <italic toggle="yes">E. coli‐SUL2</italic>, <italic toggle="yes">C. symbiosum‐SUL2</italic>, and <italic toggle="yes">Sutterella wadsworthensis‐SUL2</italic> were significantly enriched in CRC patients (<italic toggle="yes">p</italic> &lt; 0.05, Fisher exact test) (Figure <xref rid="imt270008-fig-0006" ref-type="fig">6C</xref> and Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S11</xref>). The abundances of several pathogenic bacterial hosts of mARGs, including <italic toggle="yes">E. coli</italic> and <italic toggle="yes">K. pneumoniae</italic>, were not significantly changed in CRC patients (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S8B</xref>), implying the elevated level of some mARGs in CRC patients (Figure <xref rid="imt270008-fig-0003" ref-type="fig">3B</xref>) might be unrelated to bacterial expansion. Taken together, our results revealed that mARG‐carrying pathobionts could be transmitted from the environment, causing their enrichment in the gut of CRC patients.</p><fig position="float" fig-type="Figure" id="imt270008-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Mobile ARG (mARG)‐carrying pathobionts (bacteria‐mARG pair) are enriched in colorectal cancer (CRC) patients compared to healthy subjects. (A) Panel up: bacteria hosts and mARGs (environment‐gut co‐shared) are paired up using our pipeline (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6A</xref>) (bacteria‐mARG pair); Panel down: 1,244 bacteria‐mARG pairs were detected in CRC. (B) The network represents significant bacteria‐mARG pairs (<italic toggle="yes">n</italic> = 56) consisting of pathobionts and environment‐CRC co‐shared mARGs (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4C</xref>). (C) 28 bacteria‐mARG pairs are enriched in CRC patients compared to healthy subjects. Odd ratio (OR) between the CRC and CTRL was calculated. Significance was tested by a Fisher exact test. <italic toggle="yes">p</italic> &lt; 0.05 were considered as statistically significant. OR, odd ratio.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="IMT2-4-e70008-g002.jpg"><?image-name IMT2-4-e70008-g002.jpg?><?image-size 137089?><?image-md5 205b0fc60a833e31470fc29bfac85ae4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 804?><?image-original-width 911?><?image-scaled-height 536?><?image-scaled-width 607?><?image-cloudpmc-urn urn:cdn:blobs/59c4/11995172/205b0fc60a83/IMT2-4-e70008-g002.jpg?><?thumb-name IMT2-4-e70008-g002.gif?><?thumb-size 4616?><?thumb-md5 f637ea3721dcd5718bdd99904be7b3a0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 88?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/59c4/11995172/f637ea3721dc/IMT2-4-e70008-g002.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="imt270008-sec-0100"><title>DISCUSSION</title><p>The role of gut microbiome in CRC is well‐established, but the impact of antimicrobial resistance acquired from the environment on this malignancy remains undetermined. Here, to our understanding, this is the first meta‐analysis that deciphers the association of environmental ARGs resistome with CRC. Our multi‐cohort analysis reported a higher ARG burden in CRC patients than in healthy subjects. Human health is closely connected to microbes in the surrounding environment. Microbes can acquire ARGs from polluted environments (e.g., soil, water). Transmission of these ARG‐carrying microbes facilitates the development of antimicrobial resistance in humans, thereby reducing the efficacy of antibiotics against infection and increasing the burden of hospital care [<xref rid="imt270008-bib-0006" ref-type="bibr">6</xref>]. Our analysis showed a closer similarity between environmental and gut ARG profiles in CRC patients than in healthy subjects, and this was validated by the source‐tracking algorithm. Moreover, we identified 28 core environmental ARGs that were significantly enriched in CRC, in comparison to seven environment‐healthy co‐shared ARGs. The mobility of ARGs was also elevated in CRC patients compared to healthy subjects. Our in‐silico analysis, therefore, illustrated that environmental ARGs could be horizontally transferred into the human gut to reshape the gut ARG profile in CRC patients.</p><p>We revealed that ARGs in human gut are partially derived from the environment through HGT. In general, HGT heavily relies on the presence of MGEs such as ISs, bacterial plasmids, and phages. MGEs usually encode traits to adapt to the changing environment and serve as carriers to traffic foreign DNA between bacterial cells [<xref rid="imt270008-bib-0012" ref-type="bibr">12</xref>]. Meanwhile, ARG can be carried by MGEs, thus enabling its transmission from the environment to humans. Through metagenomic assembling, we identified a diverse distribution of ARG‐carrying MGEs in the environment, particularly showing that more environmental ARGs were carried by plasmids than phages. Certain human activities, such as extensive use of antibiotics in the livestock industry, aquaculture, and clinical settings, exert selection pressure on environmental bacteria [<xref rid="imt270008-bib-0018" ref-type="bibr">18</xref>]. This pressure compels these bacteria to acquire new functions through MGEs to rapidly adapt to changing conditions. Research suggests that plasmids often carry ARGs to enhance the survival of their bacterial hosts, which in turn positively contributes to host fitness [<xref rid="imt270008-bib-0019" ref-type="bibr">19</xref>, <xref rid="imt270008-bib-0020" ref-type="bibr">20</xref>]. Conversely, phages can impose significant costs on their hosts, causing 10%–20% of daily bacterial mortality and over 200% during bacterial expansion [<xref rid="imt270008-bib-0021" ref-type="bibr">21</xref>]. Additionally, lysogenic phages can be reactivated under certain conditions, such as antibiotic treatment [<xref rid="imt270008-bib-0022" ref-type="bibr">22</xref>]. Hence, this dynamic helps explain the higher prevalence of plasmids carrying ARGs in the environment.</p><p>ARGs that were mobilized by MGEs in the environment and human gut were then evaluated. We identified 19 environment‐CRC co‐shared mARGs, which is greater than the number of environment‐healthy co‐shared mARGs (<italic toggle="yes">n</italic> = 3). Consistently, the transmission efficiency of ARGs between the environment and humans was higher in CRC patients than in healthy subjects, regardless of environmental source (Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S6C</xref>). Healthy individuals and patients with CRC from the same city are exposed to similar environmental risks. However, healthy individuals with a robust gut microbiome and normal immune function exhibit greater resistance to colonization of ARG‐carrying bacteria and other pathogens. In contrast, cancer patients are more susceptible to infection due to their immunocompromised state and diminished capacity to combat opportunistic pathogens [<xref rid="imt270008-bib-0023" ref-type="bibr">23</xref>]. Furthermore, patients with cancer face a higher likelihood of acquiring bacterial infections during frequent hospital visits and stays, which increases their risk of hospital‐acquired infections. Our analysis revealed significant similarity in ARGs between sludge samples and the gut microbiome of CRC patients. This may be explained by the very close distance between the hospital for human sample collection and the river for sludge sample collection in our in‐house cohort. Together, these findings suggest that exposure to contaminated environments, such as wastewater and hospital waste, may facilitate the transfer of ARGs to humans, potentially elevating ARG levels in CRC patients.</p><p>Our analysis showed that more pathogenic bacteria are shared between the environment and CRC patients compared to healthy subjects (Figure <xref rid="imt270008-fig-0004" ref-type="fig">4G</xref>), including <italic toggle="yes">E. coli</italic> that produces several genotoxins to break host double‐stranded DNA in CRC [<xref rid="imt270008-bib-0008" ref-type="bibr">8</xref>], and <italic toggle="yes">C. symbiosum</italic> that activates hedgehog signaling in CRC through producing branched‐chain amino acids [<xref rid="imt270008-bib-0024" ref-type="bibr">24</xref>]. mARGs carried by <italic toggle="yes">E. coli</italic> or <italic toggle="yes">C. symbiosum</italic> (e.g., <italic toggle="yes">SUL2</italic>, associated with resistance to sulfonamide drug which is involved in diverse biological activities including anticancer [<xref rid="imt270008-bib-0025" ref-type="bibr">25</xref>]) were also significantly enriched in CRC patients. On the other hand, HGT can be driven by inflammation. It is well‐established that colorectal tumorigenesis is fueled by chronic intestinal inflammation [<xref rid="imt270008-bib-0026" ref-type="bibr">26</xref>]. Inflamed environments create favorable conditions for the bloom of oxygen‐tolerant and pathogenic species that are particularly prone to engage in HGT, such as <italic toggle="yes">Enterobacteriaceae</italic> identified in previous [<xref rid="imt270008-bib-0027" ref-type="bibr">27</xref>] and our studies (Figure <xref rid="imt270008-fig-0005" ref-type="fig">5A</xref>). Collectively, we identified ARG‐carrying pathobionts that might underline the increased transmission efficiency of ARGs from the environment into the gut of CRC patients.</p><p>This study has several limitations. First, our analysis is based on multiple retrospective cohorts; therefore, the major findings are comparative and could not establish causality between environmental ARGs and CRC tumorigenesis. Second, there are only three cohorts with city‐matched environmental data and human CRC samples, which limits the generalizability of our results regarding environmental ARGs in CRC. To enhance future investigations, it is essential to collect additional city‐matched environmental and human samples. Third, the functional roles of identified mARG‐carrying pathobionts and their impacts on CRC tumorigenesis remain undetermined in this study.</p></sec><sec sec-type="conclusions" id="imt270008-sec-0110"><title>CONCLUSION</title><p>In summary, we illustrated a route of mARG dissemination from the environment to human gut in CRC. Elevated transmission efficiency of ARGs leads to the enrichment of environmental mARGs in the gut, resulting in increased ARG burden in CRC patients. Altogether, our work provides new insights into the association of environmental resistome with CRC patients.</p></sec><sec sec-type="methods" id="imt270008-sec-0120"><title>METHODS</title><sec id="imt270008-sec-0130"><title>Human stool samples</title><p>A total of 1,605 individuals comprising 748 CRC patients and 857 healthy subjects from our in‐house cohort (<italic toggle="yes">n</italic> = 220) and published fecal metagenomic datasets from 9 different countries/cities (<italic toggle="yes">n</italic> = 1,382) were included in this study (Figure <xref rid="imt270008-fig-0001" ref-type="fig">1</xref> and Tables <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S1</xref>, <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">2</xref>). Fecal samples were collected from an in‐house CRC cohort (<italic toggle="yes">n</italic> = 220) consisting of 110 CRC patients and 112 healthy subjects, who received colonoscopy screening from Jockey Club Bowel Cancer Education Center, The Chinese University of Hong Kong. The exclusion criteria were: (1) use of antibiotics within the past 3 months; (2) on a vegetarian diet; (3) had an invasive medical intervention within the past 3 months; (4) had a past history of any cancer, or inflammatory disease of the intestine. No significant trend of antibiotic use in CRC patients preceding diagnosis was found compared to healthy subjects (Odd ratio = 0.93, <italic toggle="yes">p</italic> &gt; 0.05; Fisher exact test). All subjects had intact colonic mucosa at the time of stool collection and signed informed consent form. The clinical study protocol was approved (No. CRE‐2010.198 and CRE‐2011.297) by the Joint Chinese University of Hong Kong–New Territories East Cluster Clinical Research Ethics Committee.</p><p>Additionally, we searched for CRC studies published from January 2014 to January 2023 on PubMed and found nine studies with shotgun metagenomic sequencing on human fecal samples. There were 1,382 human subjects consisting of 638 CRC patients and 745 healthy subjects. Sample size and details of sample collection are shown in Tables <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S1, 2</xref>. Metagenomic datasets were downloaded from European Nucleotide Archive (ENA) and DNA Data Bank of Japan using the following identifier: ERP005534 for Zeller et al. [<xref rid="imt270008-bib-0028" ref-type="bibr">28</xref>], ERP008729 for Feng et al. [<xref rid="imt270008-bib-0029" ref-type="bibr">29</xref>], PRJEB10878 for Yu et al. [<xref rid="imt270008-bib-0030" ref-type="bibr">30</xref>], PRJEB12449 for Vogtmann et al. [<xref rid="imt270008-bib-0031" ref-type="bibr">31</xref>], PRJNA389927 for Hanningan et al. [<xref rid="imt270008-bib-0032" ref-type="bibr">32</xref>], PRJEB27928 for Wirbel et al. [<xref rid="imt270008-bib-0033" ref-type="bibr">33</xref>], SRP136711 for Thomas et al. [<xref rid="imt270008-bib-0034" ref-type="bibr">34</xref>], PRJNA731589 for Liu et al. [<xref rid="imt270008-bib-0035" ref-type="bibr">35</xref>], and DRA006684 and DRA008156 for Yachida et al. [<xref rid="imt270008-bib-0036" ref-type="bibr">36</xref>].</p></sec><sec id="imt270008-sec-0140"><title>Environmental samples</title><p>We also collected 1,035 city‐matched environmental samples comprising sludge of wastewater treatment from our in‐house cohort (<italic toggle="yes">n</italic> = 56), and flocked swabs from residential (<italic toggle="yes">n</italic> = 344), office (<italic toggle="yes">n</italic> = 32), school (<italic toggle="yes">n</italic> = 110), pier (<italic toggle="yes">n</italic> = 174), and railway station (<italic toggle="yes">n</italic> = 172) retrieved from the MetaSUB Consortium [<xref rid="imt270008-bib-0037" ref-type="bibr">37</xref>] (Tables <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S1, 3</xref>). Sludge samples were collected from the hybrid moving bed biofilm reactor (HMBBR; a type of wastewater treatment process) in Hong Kong in 2021.</p><p>Additionally, to improve the representativeness of the environmental data, we collected more public available environmental samples including air (<italic toggle="yes">n</italic> = 81), soil (<italic toggle="yes">n</italic> = 198), water (<italic toggle="yes">n</italic> = 64), wastewater treatment plants (WWTP, <italic toggle="yes">n</italic> = 303), landfill (<italic toggle="yes">n</italic> = 26), and sediment (<italic toggle="yes">n</italic> = 261) from 65 countries/regions worldwide (Table <xref rid="imt270008-suppl-0002" ref-type="supplementary-material">S3</xref> and Figure <xref rid="imt270008-suppl-0001" ref-type="supplementary-material">S1G</xref>).</p></sec><sec id="imt270008-sec-0150"><title>Shotgun metagenomic sequencing</title><p>Total DNA was extracted from fecal samples and sludge samples by QIAamp DNA Stool Mini Kit (Qiagen) and DNeasy PowerSoil Kit (Qiagen) according to the manufacturer's instructions, respectively. Shotgun metagenomic sequencing was performed at Novogene by Illumina sequencing platform with paired‐end 150‐bp.</p></sec><sec id="imt270008-sec-0160"><title>Profiling of antimicrobial resistance genes from bacteria</title><p>
+<italic toggle="yes">KneadData</italic> (v0.7.2) with default parameters was applied for quality control of all metagenomic sequencing data. This tool can eliminate contaminated reads of the host or other sources and retain only the microbial reads. <italic toggle="yes">ARGs‐OAP</italic> (v3.2.2) was used for ARG profiling with default settings [<xref rid="imt270008-bib-0038" ref-type="bibr">38</xref>]. The identified ARGs were then classified at resistant‐specific types or subtype levels and quantified by a universal unit by normalizing the read counts against the estimated cell counts or 16S rRNA gene copies. The cell counts or 16S rRNA gene copies (i.e., coefficients) were estimated either by mapping against an essential single‐copy marker gene database or by correcting for the copy numbers of 16S rRNA sequences. The ARG burden was defined as the sum of the normalized abundance of all identified ARGs. Bacterial taxonomic profiles were generated by <italic toggle="yes">MetaPhlAn3</italic> (v3.0.6) with default settings.</p></sec><sec id="imt270008-sec-0170"><title>Analysis for tracking the ARG sources in human fecal samples</title><p>
+<italic toggle="yes">FEAST</italic> [<xref rid="imt270008-bib-0014" ref-type="bibr">14</xref>] with default settings was used to estimate the impact of environmental sources on human fecal ARG profile and was conducted with the R package <italic toggle="yes">FEAST</italic> (v0.1.0).</p></sec><sec id="imt270008-sec-0180"><title>Core ARGs identification</title><p>We aimed to identify the core ARGs in the environment and human gut. To achieve this, we developed a core index (CI) considering the ARG prevalence, ARG abundance and ARG consistency among different cohorts or environmental sources. The proposed CI of the <italic toggle="yes">i‐</italic>th ARG was calculated as follows:
+<disp-formula id="imt270008-disp-0001">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-1" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mtext>CI</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mtext mathvariant="italic">w</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>×</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mtext>RA</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>×</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mtext mathvariant="italic">F</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>CI difference (CI<sub>diff</sub>) for the <italic toggle="yes">i‐</italic>th ARG between CRC patients and healthy subjects was defined as:
+<disp-formula id="imt270008-disp-0002">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-2" display="block"><mml:mrow><mml:mrow><mml:msub><mml:mtext>CI</mml:mtext><mml:mtext>diff</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mtext>CI</mml:mtext><mml:mtext>CRC</mml:mtext></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mtext>CI</mml:mtext><mml:mtext>CTRL</mml:mtext></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where RA<sub>
+<italic toggle="yes">i</italic>
+</sub> and <italic toggle="yes">F<sub>i</sub>
+</italic> are the relative abundance and prevalence of the <italic toggle="yes">i‐</italic>th ARG, respectively. <italic toggle="yes">w<sub>i</sub>
+</italic> is a factor considering the existence of <italic toggle="yes">i‐</italic>th ARG in different cohorts or environmental sources. ARG with prevalence &gt; 25% in an individual cohort or environment source was considered as present on that cohort or environment source.</p><p>To see the significance of CI and CI<sub>diff</sub>, we obtained the overall CI density and CI<sub>diff</sub> density, and fitted appropriate mathematical distributions on the densities according to the observed density shape, respectively. A <italic toggle="yes">p</italic> value was calculated by the cumulative probability <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-3" display="inline"><mml:mrow><mml:mrow><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mtext>CI</mml:mtext><mml:mspace width=".25em"/><mml:mo>≥</mml:mo><mml:mspace width=".25em"/><mml:mtext>q</mml:mtext><mml:mo>)</mml:mo></mml:mrow></mml:mrow></mml:math>. The significance level <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-4" display="inline"><mml:mrow><mml:mrow><mml:mi mathvariant="normal">α</mml:mi></mml:mrow></mml:mrow></mml:math> was set to 0.05.</p></sec><sec id="imt270008-sec-0190"><title>Metagenomic assembling and prediction of MGEs</title><p>We developed a pipeline to reconstruct the ARG‐associated MGEs. The metagenomic sequencing reads were first assembled with <italic toggle="yes">MEGAHIT</italic> (v1.2.8), to generate the bacterial genomic contigs; contigs with length &lt;1 kb were excluded from further analysis. We then predicted the ARGs on contigs by using <italic toggle="yes">DeepARG</italic> (v1.0.1) and <italic toggle="yes">RGI</italic> (v5.1.0). The tool <italic toggle="yes">DeepARG</italic> is more accurate than other tools and can reduce the false negatives significantly [<xref rid="imt270008-bib-0039" ref-type="bibr">39</xref>]; whilst the tool <italic toggle="yes">RGI</italic> can annotate single nucleotide polymorphisms on the ARGs [<xref rid="imt270008-bib-0040" ref-type="bibr">40</xref>]. ARG databases including <italic toggle="yes">CARD</italic>, <italic toggle="yes">ARDB</italic>, and <italic toggle="yes">UNIPROT</italic> were used for the ARG annotation.</p><p>To predict MGEs, we first applied the <italic toggle="yes">BLAST</italic> (v2.9.0+) tool to annotate ISs or transposons on ARG‐carrying contigs using the <italic toggle="yes">ISfinder</italic> database. ARGs can also be carried by plasmids or phages, which facilitate ARG dissemination via conjugation, transposition, or transformation [<xref rid="imt270008-bib-0012" ref-type="bibr">12</xref>]. Therefore, we also predicted the presence of plasmids or phages in the ARG‐carrying contigs. <italic toggle="yes">PlasFlow</italic> (v1.1) was utilized for the plasmid prediction; whilst <italic toggle="yes">VirSorter</italic> (v1.0.6), <italic toggle="yes">DeepVirFinder</italic> (v1.0), and <italic toggle="yes">geNomad</italic> (v1.7.1) were utilized for the phage prediction. We incorporated all the genomic information, including the predicted ARGs, genomic location of ISs elements, and the contigs that were annotated as plasmids or phages, together to obtain the mobility of ARGs.</p></sec><sec id="imt270008-sec-0200"><title>Prediction of ARG bacterial hosts</title><p>Contigs were binned using <italic toggle="yes">MaxBin</italic> (v2.0) to obtain the drafted genomes. The genome quality of each bin was assessed via <italic toggle="yes">CheckM</italic> (v1.1.2) with lineage_wf presetting workflow using default parameters. Bins were labeled by quality according to the guidelines [<xref rid="imt270008-bib-0041" ref-type="bibr">41</xref>]: genomes with high‐quality (HQ) for those having completeness ≥ 90, contamination &lt; 5, and strain heterogeneity &lt; 0.5; genomes with median‐quality (MQ) for those having completeness &lt; 90, completeness ≥ 50, and contamination &lt; 5; and the remaining low quality (LQ) genomes. Furthermore, we retrieved the genomes of bacterial isolates from the NCBI genome database. Comparable results were found between the assembled genomes (with HQ and MQ) and genome references. The reconstructed genomes enable us to identify the presence of plasmids and phages in the bacterial genomes. The phylogenetic tree was constructed based on bacterial taxonomic information.</p></sec><sec id="imt270008-sec-0210"><title>Analysis of ARG transmission efficiency</title><p>We calculated the ARG HGT efficiency between the environment and human gut using a previous method [<xref rid="imt270008-bib-0042" ref-type="bibr">42</xref>] with minor modifications adjusting for the sample size. The ARG HGT efficiency was calculated based on data from the assembled bacterial genomes and mobile ARGs carried by these assemblies. Specifically, efficiency of transfer (ET) among bacterial cells of the same species was calculated by
+<disp-formula id="imt270008-disp-0003">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-5" display="block" displaystyle="true"><mml:mrow><mml:mrow><mml:msub><mml:mtext>ET</mml:mtext><mml:mtext>within</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:mfrac><mml:msub><mml:mtext mathvariant="italic">H</mml:mtext><mml:mtext>within</mml:mtext></mml:msub><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>within</mml:mtext></mml:msub></mml:mfrac><mml:mo>×</mml:mo><mml:mtext mathvariant="italic">w</mml:mtext><mml:mo>.</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+</p><p>The efficiency of transfer among bacterial cells of different species was calculated by
+<disp-formula id="imt270008-disp-0004">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-6" display="block" displaystyle="true"><mml:mrow><mml:mrow><mml:msub><mml:mtext>ET</mml:mtext><mml:mtext>between</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:mfrac><mml:msub><mml:mtext mathvariant="italic">H</mml:mtext><mml:mtext>between</mml:mtext></mml:msub><mml:mrow><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>All</mml:mtext></mml:msub><mml:mo>−</mml:mo><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>within</mml:mtext></mml:msub></mml:mrow></mml:mfrac><mml:mspace width="0.25em"/><mml:mo>×</mml:mo><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">w</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-7" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">H</mml:mtext><mml:mtext>within</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-8" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">H</mml:mtext><mml:mtext>between</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math> represent the number of within‐species and between‐species environment‐gut HGT events, respectively. <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-9" display="inline"><mml:mrow><mml:mrow><mml:mtext mathvariant="italic">w</mml:mtext></mml:mrow></mml:mrow></mml:math> is factor considering the sample size and was calculated by <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-10" display="inline"><mml:mrow><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msub><mml:mtext mathvariant="italic">h</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mo>×</mml:mo><mml:msub><mml:mtext mathvariant="italic">h</mml:mtext><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mrow></mml:math>, where <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-11" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">h</mml:mtext><mml:mn>1</mml:mn></mml:msub></mml:mrow></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-12" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">h</mml:mtext><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:mrow></mml:math> represent the number of samples in habitats 1 and 2, respectively. <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-13" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>All</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-14" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>within</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math> were calculated as
+<disp-formula id="imt270008-disp-0005">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-15" display="block" displaystyle="true"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>All</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">e</mml:mtext><mml:mspace width="0.25em"/><mml:mo>×</mml:mo><mml:mspace width="0.25em"/><mml:mtext mathvariant="italic">g</mml:mtext><mml:mo>,</mml:mo></mml:mrow></mml:mrow></mml:math>
+</disp-formula>
+<disp-formula id="imt270008-disp-0006">
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-16" display="block" displaystyle="true"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">C</mml:mtext><mml:mtext>within</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>=</mml:mo><mml:mspace width="0.25em"/><mml:munderover><mml:mo>∑</mml:mo><mml:mtext mathvariant="italic">i</mml:mtext><mml:mtext mathvariant="italic">n</mml:mtext></mml:munderover><mml:msub><mml:mtext mathvariant="italic">e</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub><mml:mspace width="0.25em"/><mml:mo>×</mml:mo><mml:mspace width="0.25em"/><mml:msub><mml:mtext mathvariant="italic">g</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math>
+</disp-formula>where <italic toggle="yes">e</italic> and <italic toggle="yes">g</italic> are the number of genomes identified in the environment and human gut, respectively. <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-17" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mtext mathvariant="italic">e</mml:mtext><mml:mtext mathvariant="italic">i</mml:mtext></mml:msub></mml:mrow></mml:mrow></mml:math> and <mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="jats-math-18" display="inline"><mml:mrow><mml:mrow><mml:msub><mml:mi>g</mml:mi><mml:mi mathvariant="italic">i</mml:mi></mml:msub></mml:mrow></mml:mrow></mml:math> represent the number of genomes for <italic toggle="yes">i‐</italic>th species in the environment and human gut, respectively. The <italic toggle="yes">n</italic> in <italic toggle="yes">C</italic>
+<sub>within</sub> represents the number of shared species between the environment and human gut.</p></sec><sec id="imt270008-sec-0220"><title>Statistical analysis</title><p>Data was presented as mean ± standard deviation (SD) or median (first quartile, third quartile) when appropriate. Data was tested by two‐tailed Student's <italic toggle="yes">t</italic>‐test or two‐tailed Mann–Whitney <italic toggle="yes">U</italic> test when appropriate. All analyses were conducted under the open‐source framework of R software (version 3.5.2). Meta‐analysis based on ARG abundance was carried out by <italic toggle="yes">MMUPHin</italic> (v1.16.0) method. Meta‐analysis based on ARG prevalence was carried out using <italic toggle="yes">metafor</italic> (v4.4‐0) package. Fisher exact test was used to evaluate the enrichment of mARG‐carrying bacteria in CRC patients compared to healthy subjects. All differences were considered statistically significant if <italic toggle="yes">p</italic> &lt; 0.05. To account for multiple‐testing, <italic toggle="yes">p</italic> values were adjusted using Benjamini–Hochberg false discovery rate (FDR) correction.</p></sec></sec><sec id="imt270008-sec-0230"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Weixin Liu</bold>: Investigation; data curation; formal analysis; visualization; writing—original draft. <bold>Harry C. H. Lau</bold>: Writing—review and editing. <bold>Xiao Ding</bold>: Data curation. <bold>Xiaole Yin</bold>: Resources. <bold>William Ka Kei Wu</bold>: Resources. <bold>Sunny Hei Wong</bold>: Resources. <bold>Joseph J. Y. Sung</bold>: Resources; Writing—review and editing. <bold>Tong Zhang</bold>: Writing—review and editing; resources; supervision. <bold>Jun Yu</bold>: Writing—review and editing; project administration; resources; conceptualization; supervision.</p></sec><sec sec-type="COI-statement" id="imt270008-sec-0250"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270008-sec-0280"><title>ETHICS STATEMENT</title><p>The clinical study protocol was approved by Joint Chinese University of Hong Kong–New Territories East Cluster Clinical Research Ethics Committee (Nos. CRE‐2010.198 and CRE‐2011.297). All subjects had intact colonic mucosa at the time of stool collection and signed informed consent form.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270008-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1.</bold> Overall ARG profile in the environment and human gut, as well as the effects of the subject's clinical information on the human gut ARG profile.</p><p>
+<bold>Figure S2.</bold> Intra‐city and between‐city environment‐gut ARG dissimilarity.</p><p>
+<bold>Figure S3.</bold> The impacts of environmental ARGs on human gut resistome.</p><p>
+<bold>Figure S4.</bold> ARG core index (CI) and differential CI in human samples.</p><p>
+<bold>Figure S5.</bold> ARG core index (CI) in environmental samples.</p><p>
+<bold>Figure S6.</bold> Analysis of ARG mobility in human samples.</p><p>
+<bold>Figure S7.</bold> The statistics of assembled genomes.</p><p>
+<bold>Figure S8.</bold> The bacteria‐mARG pairs in CRC and differential bacteria.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70008-s002.docx" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70008-s002.docx?><?suppdata-size 9223368?><?suppdata-md5 9bc75e9675ca63597be263ab2a0d06d9?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:59c4/11995172/9bc75e9675ca/IMT2-4-e70008-s002.docx?></media></supplementary-material><supplementary-material id="imt270008-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Samples collected from worldwide (See Table S2 for details).</p><p>
+<bold>Table S2.</bold> Samples metadata for human stool.</p><p>
+<bold>Table S3.</bold> Samples metadata for environment (Env).</p><p>
+<bold>Table S4.</bold> Prevalence based differential analysis.</p><p>
+<bold>Table S5.</bold> Abundance based differential analysis (by <italic toggle="yes">MMUPHin</italic>).</p><p>
+<bold>Table S6.</bold> Pan‐Env and Env‐specific core ARGs.</p><p>
+<bold>Table S7.</bold> Core ARG (CRC‐specific ARGs co‐shared with Env ARGs) identified as mobile ARG (MGE ISs present in the up‐/down‐stream of the ARG sequence).</p><p>
+<bold>Table S8.</bold> ARG transmission efficiency from different environments to gut.</p><p>
+<bold>Table S9.</bold> Statistics of genome assembly, species detection with different assembly quality, and the number of ARG detected.</p><p>
+<bold>Table S10.</bold> Statistics of assembled species.</p><p>
+<bold>Table S11.</bold> CRC‐enriched Host ‐ARG pair and its associated MGE (ISs, phage or plasmid).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70008-s001.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70008-s001.xlsx?><?suppdata-size 589058?><?suppdata-md5 76652ac3596e942419e1059a7a483048?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:59c4/11995172/76652ac3596e/IMT2-4-e70008-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270008-sec-0240"><title>ACKNOWLEDGMENTS</title><p>This study was supported by Theme‐based Res Scheme (No. T21‐705/20‐N); RGC Research Impact Fund Hong Kong (No. R4032‐21F); Strategic Seed Funding Collaboration Research Scheme CUHK (No. 3133344); Strategic Impact Enhancement Fund CUHK (No. 3135509); Impact case for RAE CUHK (No. 3134277); Singapore Ministry of Health National Medical Research Council (No. MOH‐001353/MOH‐OFLCG22may‐0001).</p></ack><sec sec-type="data-availability" id="imt270008-sec-0270"><title>DATA AVAILABILITY STATEMENT</title><p>The human stool sequencing data has been deposited in the Genome Sequence Archive (GSA) at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ngdc.cncb.ac.cn/gsa/" ext-link-type="uri" specific-use="software is-supplemented-by">https://ngdc.cncb.ac.cn/gsa/</ext-link>, with accession number CRA022416 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022416" ext-link-type="uri" specific-use="software is-supplemented-by">https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022416</ext-link>). The environmental sequencing data has been deposited in the GSA, with accession number CRA022431 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022431" ext-link-type="uri" specific-use="software is-supplemented-by">https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022431</ext-link>). The data and scripts used are saved in GitHub <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/WilsonYangLiu/Environmental-ARGs-in-CRC-resistome.git" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/WilsonYangLiu/Environmental-ARGs-in-CRC-resistome.git</ext-link>. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt270008-bibl-0001"><title>REFERENCES</title><ref id="imt270008-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270008-cit-0001">
+<string-name name-style="western">
+<surname>Kim</surname>, <given-names>Dae‐Wi</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Chang‐Jun</given-names>
+<surname>Cha</surname>
+</string-name>. <year>2021</year>. “<article-title>Antibiotic Resistome From the One‐Health Perspective: Understanding and Controlling Antimicrobial Resistance Transmission</article-title>.” <source>Experimental &amp; Molecular Medicine</source>
+<volume>53</volume>: <fpage>301</fpage>–<lpage>309</lpage>. <pub-id pub-id-type="doi">10.1038/s12276-021-00569-z</pub-id>
+<pub-id pub-id-type="pmid">33642573</pub-id>
+<pub-id pub-id-type="pmcid">PMC8080597</pub-id></mixed-citation></ref><ref id="imt270008-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270008-cit-0002">
+<string-name name-style="western">
+<surname>Larsson</surname>, <given-names>D. G. Joakim</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Carl‐Fredrik</given-names>
+<surname>Flach</surname>
+</string-name>. <year>2022</year>. “<article-title>Antibiotic Resistance in the Environment</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>20</volume>: <fpage>257</fpage>–<lpage>269</lpage>. <pub-id pub-id-type="doi">10.1038/s41579-021-00649-x</pub-id>
+<pub-id pub-id-type="pmid">34737424</pub-id>
+<pub-id pub-id-type="pmcid">PMC8567979</pub-id></mixed-citation></ref><ref id="imt270008-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270008-cit-0003">
+<string-name name-style="western">
+<surname>Arias</surname>, <given-names>Cesar A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Barbara E.</given-names>
+<surname>Murray</surname>
+</string-name>. <year>2009</year>. “<article-title>Antibiotic‐Resistant Bugs in the 21st Century—A Clinical Super‐Challenge</article-title>.” <source>New England Journal of Medicine</source>
+<volume>360</volume>: <fpage>439</fpage>–<lpage>443</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMp0804651</pub-id>
+<pub-id pub-id-type="pmid">19179312</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270008-cit-0004">
+<string-name name-style="western">
+<surname>Shamsaddini</surname>, <given-names>Amirhossein</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Patrick M.</given-names>
+<surname>Gillevet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chathur</given-names>
+<surname>Acharya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew</given-names>
+<surname>Fagan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Edith</given-names>
+<surname>Gavis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Masoumeh</given-names>
+<surname>Sikaroodi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sara</given-names>
+<surname>McGeorge</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Impact of Antibiotic Resistance Genes in Gut Microbiome of Patients With Cirrhosis</article-title>.” <source>Gastroenterology</source>
+<volume>161</volume>: <fpage>508</fpage>–<lpage>521.e507</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2021.04.013</pub-id>
+<pub-id pub-id-type="pmid">33857456</pub-id>
+<pub-id pub-id-type="pmcid">PMC9069394</pub-id></mixed-citation></ref><ref id="imt270008-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270008-cit-0005">
+<string-name name-style="western">
+<surname>Bratti</surname>, <given-names>Vanessa F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Brooke E.</given-names>
+<surname>Wilson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rouhi</given-names>
+<surname>Fazelzad</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aliyah</given-names>
+<surname>Pabani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shalini J.</given-names>
+<surname>Zurn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sonali</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lillian</given-names>
+<surname>Sung</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Danielle</given-names>
+<surname>Rodin</surname>
+</string-name>. <year>2023</year>. “<article-title>Scoping Review Protocol on the Impact of Antimicrobial Resistance on Cancer Management and Outcomes</article-title>.” <source>BMJ Open</source>
+<volume>13</volume>: <elocation-id>e068122</elocation-id>. <pub-id pub-id-type="doi">10.1136/bmjopen-2022-068122</pub-id>
+<pub-id pub-id-type="pmcid">PMC9906175</pub-id><pub-id pub-id-type="pmid">36746540</pub-id></mixed-citation></ref><ref id="imt270008-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270008-cit-0006">
+<string-name name-style="western">
+<surname>Williams</surname>, <given-names>Mark D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lee Ann</given-names>
+<surname>Braun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liesl M.</given-names>
+<surname>Cooper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joseph</given-names>
+<surname>Johnston</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Richard V.</given-names>
+<surname>Weiss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rebecca L.</given-names>
+<surname>Qualy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Walter</given-names>
+<surname>Linde‐Zwirble</surname>
+</string-name>. <year>2004</year>. “<article-title>Hospitalized Cancer Patients With Severe Sepsis: Analysis of Incidence, Mortality, and Associated Costs of Care</article-title>.” <source>Critical Care</source>
+<volume>8</volume>: <fpage>R291</fpage>–<lpage>R298</lpage>. <pub-id pub-id-type="doi">10.1186/cc2893</pub-id>
+<pub-id pub-id-type="pmid">15469571</pub-id>
+<pub-id pub-id-type="pmcid">PMC1065011</pub-id></mixed-citation></ref><ref id="imt270008-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270008-cit-0007">
+<string-name name-style="western">
+<surname>Sung</surname>, <given-names>Hyuna</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jacques</given-names>
+<surname>Ferlay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rebecca L.</given-names>
+<surname>Siegel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mathieu</given-names>
+<surname>Laversanne</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Isabelle</given-names>
+<surname>Soerjomataram</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ahmedin</given-names>
+<surname>Jemal</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Freddie</given-names>
+<surname>Bray</surname>
+</string-name>. <year>2021</year>. “<article-title>Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries</article-title>.” <source>CA: A Cancer Journal for Clinicians</source>
+<volume>71</volume>: <fpage>209</fpage>–<lpage>249</lpage>. <pub-id pub-id-type="doi">10.3322/caac.21660</pub-id>
+<pub-id pub-id-type="pmid">33538338</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270008-cit-0008">
+<string-name name-style="western">
+<surname>Wong</surname>, <given-names>Sunny H.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Yu</surname>
+</string-name>. <year>2019</year>. “<article-title>Gut Microbiota in Colorectal Cancer: Mechanisms of Action and Clinical Applications</article-title>.” <source>Nature Reviews Gastroenterology &amp; Hepatology</source>
+<volume>16</volume>: <fpage>690</fpage>–<lpage>704</lpage>. <pub-id pub-id-type="doi">10.1038/s41575-019-0209-8</pub-id>
+<pub-id pub-id-type="pmid">31554963</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270008-cit-0009">
+<string-name name-style="western">
+<surname>Forsberg</surname>, <given-names>Kevin J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alejandro</given-names>
+<surname>Reyes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bin</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Elizabeth M.</given-names>
+<surname>Selleck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Morten O. A.</given-names>
+<surname>Sommer</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Gautam</given-names>
+<surname>Dantas</surname>
+</string-name>. <year>2012</year>. “<article-title>The Shared Antibiotic Resistome of Soil Bacteria and Human Pathogens</article-title>.” <source>Science</source>
+<volume>337</volume>: <fpage>1107</fpage>–<lpage>1111</lpage>. <pub-id pub-id-type="doi">10.1126/science.1220761</pub-id>
+<pub-id pub-id-type="pmid">22936781</pub-id>
+<pub-id pub-id-type="pmcid">PMC4070369</pub-id></mixed-citation></ref><ref id="imt270008-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270008-cit-0010">
+<string-name name-style="western">
+<surname>Jin</surname>, <given-names>Lin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Amy</given-names>
+<surname>Pruden</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexandria B.</given-names>
+<surname>Boehm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pedro J. J.</given-names>
+<surname>Alvarez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lutgarde</given-names>
+<surname>Raskin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tamar</given-names>
+<surname>Kohn</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xiangdong</given-names>
+<surname>Li</surname>
+</string-name>. <year>2022</year>. “<article-title>Integrating Environmental Dimensions of ‘One Health’ to Combat Antimicrobial Resistance: Essential Research Needs</article-title>.” <source>Environmental Science &amp; Technology</source>
+<volume>56</volume>: <fpage>14871</fpage>–<lpage>14874</lpage>. <pub-id pub-id-type="doi">10.1021/acs.est.2c01651</pub-id>
+<pub-id pub-id-type="pmid">35678702</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270008-cit-0011">
+<string-name name-style="western">
+<surname>Martínez</surname>, <given-names>José L.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Antibiotics and Antibiotic Resistance Genes in Natural Environments</article-title>.” <source>Science</source>
+<volume>321</volume>: <fpage>365</fpage>–<lpage>367</lpage>. <pub-id pub-id-type="doi">10.1126/science.1159483</pub-id>
+<pub-id pub-id-type="pmid">18635792</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270008-cit-0012">
+<string-name name-style="western">
+<surname>Brito</surname>, <given-names>Ilana Lauren</given-names>
+</string-name>. <year>2021</year>. “<article-title>Examining Horizontal Gene Transfer in Microbial Communities</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>19</volume>: <fpage>442</fpage>–<lpage>453</lpage>. <pub-id pub-id-type="doi">10.1038/s41579-021-00534-7</pub-id>
+<pub-id pub-id-type="pmid">33846600</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270008-cit-0013">
+<string-name name-style="western">
+<surname>Palleja</surname>, <given-names>Albert</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kristian H.</given-names>
+<surname>Mikkelsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sofia K.</given-names>
+<surname>Forslund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alireza</given-names>
+<surname>Kashani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kristine H.</given-names>
+<surname>Allin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Trine</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tue H.</given-names>
+<surname>Hansen</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Recovery of Gut Microbiota of Healthy Adults Following Antibiotic Exposure</article-title>.” <source>Nature Microbiology</source>
+<volume>3</volume>: <fpage>1255</fpage>–<lpage>1265</lpage>. <pub-id pub-id-type="doi">10.1038/s41564-018-0257-9</pub-id>
+<pub-id pub-id-type="pmid">30349083</pub-id></mixed-citation></ref><ref id="imt270008-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270008-cit-0014">
+<string-name name-style="western">
+<surname>Shenhav</surname>, <given-names>Liat</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Mike</given-names>
+<surname>Thompson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tyler A.</given-names>
+<surname>Joseph</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Leah</given-names>
+<surname>Briscoe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ori</given-names>
+<surname>Furman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Bogumil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Itzhak</given-names>
+<surname>Mizrahi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Itsik</given-names>
+<surname>Pe'er</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Eran</given-names>
+<surname>Halperin</surname>
+</string-name>. <year>2019</year>. “<article-title>FEAST: Fast Expectation‐Maximization for Microbial Source Tracking</article-title>.” <source>Nature Methods</source>
+<volume>16</volume>: <fpage>627</fpage>–<lpage>632</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-019-0431-x</pub-id>
+<pub-id pub-id-type="pmid">31182859</pub-id>
+<pub-id pub-id-type="pmcid">PMC8535041</pub-id></mixed-citation></ref><ref id="imt270008-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270008-cit-0015">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>An‐Ni</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jeffry M.</given-names>
+<surname>Gaston</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chengzhen L.</given-names>
+<surname>Dai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shijie</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mathilde</given-names>
+<surname>Poyet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mathieu</given-names>
+<surname>Groussin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaole</given-names>
+<surname>Yin</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>An Omics‐Based Framework for Assessing the Health Risk of Antimicrobial Resistance Genes</article-title>.” <source>Nature Communications</source>
+<volume>12</volume>: <fpage>4765</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-021-25096-3</pub-id>
+<pub-id pub-id-type="pmcid">PMC8346589</pub-id><pub-id pub-id-type="pmid">34362925</pub-id></mixed-citation></ref><ref id="imt270008-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270008-cit-0016">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Shengnan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xue</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haixing</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nianbing</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nanqi</given-names>
+<surname>Ren</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Shih‐Hsin</given-names>
+<surname>Ho</surname>
+</string-name>. <year>2023</year>. “<article-title>Comprehensive Insights into Antibiotic Resistance Gene Migration in Microalgal‐Bacterial Consortia: Mechanisms, Factors, and Perspectives</article-title>.” <source>Science of the Total Environment</source>
+<volume>901</volume>: <elocation-id>166029</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.scitotenv.2023.166029</pub-id>
+<pub-id pub-id-type="pmid">37541493</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270008-cit-0017">
+<string-name name-style="western">
+<surname>Urban</surname>, <given-names>Martin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alayne</given-names>
+<surname>Cuzick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>James</given-names>
+<surname>Seager</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Valerie</given-names>
+<surname>Wood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kim</given-names>
+<surname>Rutherford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shilpa Yagwakote</given-names>
+<surname>Venkatesh</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nishadi</given-names>
+<surname>De Silva</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>PHI‐base: The Pathogen‐Host Interactions Database</article-title>.” <source>Nucleic Acids Research</source>
+<volume>48</volume>: <fpage>D613</fpage>–<lpage>D620</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkz904</pub-id>
+<pub-id pub-id-type="pmid">31733065</pub-id>
+<pub-id pub-id-type="pmcid">PMC7145647</pub-id></mixed-citation></ref><ref id="imt270008-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270008-cit-0018">
+<string-name name-style="western">
+<surname>Xu</surname>, <given-names>Yifei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lin</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shanguo</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haiyan</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ruiqi</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Yuan</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Risk Assessment and Dissemination Mechanism of Antibiotic Resistance Genes in Compost</article-title>.” <source>Environment International</source>
+<volume>178</volume>: <elocation-id>108126</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.envint.2023.108126</pub-id>
+<pub-id pub-id-type="pmid">37562342</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270008-cit-0019">
+<string-name name-style="western">
+<surname>Takeuchi</surname>, <given-names>Nobuto</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sophia</given-names>
+<surname>Hamada‐Zhu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Haruo</given-names>
+<surname>Suzuki</surname>
+</string-name>. <year>2023</year>. “<article-title>Prophages and Plasmids Can Display Opposite Trends in the Types of Accessory Genes They Carry</article-title>.” <source>Proceedings: Biological Sciences</source>
+<volume>290</volume>: <elocation-id>20231088</elocation-id>. <pub-id pub-id-type="doi">10.1098/rspb.2023.1088</pub-id>
+<pub-id pub-id-type="pmid">37339743</pub-id>
+<pub-id pub-id-type="pmcid">PMC10281811</pub-id></mixed-citation></ref><ref id="imt270008-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270008-cit-0020">
+<string-name name-style="western">
+<surname>Rodríguez‐Beltrán</surname>, <given-names>Jerónimo</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Javier</given-names>
+<surname>DelaFuente</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ricardo</given-names>
+<surname>León‐Sampedro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. Craig</given-names>
+<surname>MacLean</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Álvaro</given-names>
+<surname>San Millán</surname>
+</string-name>. <year>2021</year>. “<article-title>Beyond Horizontal Gene Transfer: The Role of Plasmids in Bacterial Evolution</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>19</volume>: <fpage>347</fpage>–<lpage>359</lpage>. <pub-id pub-id-type="doi">10.1038/s41579-020-00497-1</pub-id>
+<pub-id pub-id-type="pmid">33469168</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt270008-cit-0021">
+<string-name name-style="western">
+<surname>Suttle</surname>, <given-names>C. A.</given-names>
+</string-name>
+<year>1994</year>. “<article-title>The Significance of Viruses to Mortality in Aquatic Microbial Communities</article-title>.” <source>Microbial Ecology</source>
+<volume>28</volume>: <fpage>237</fpage>–<lpage>243</lpage>. <pub-id pub-id-type="doi">10.1007/BF00166813</pub-id>
+<pub-id pub-id-type="pmid">24186450</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt270008-cit-0022">
+<string-name name-style="western">
+<surname>Henrot</surname>, <given-names>Caroline</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Marie‐Agnès</given-names>
+<surname>Petit</surname>
+</string-name>. <year>2022</year>. “<article-title>Signals Triggering Prophage Induction in the Gut Microbiota</article-title>.” <source>Molecular Microbiology</source>
+<volume>118</volume>: <fpage>494</fpage>–<lpage>502</lpage>. <pub-id pub-id-type="doi">10.1111/mmi.14983</pub-id>
+<pub-id pub-id-type="pmid">36164818</pub-id>
+<pub-id pub-id-type="pmcid">PMC9827884</pub-id></mixed-citation></ref><ref id="imt270008-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt270008-cit-0023">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Yang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ashwani</given-names>
+<surname>Rajput</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ning</given-names>
+<surname>Jin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2020</year>. “<article-title>Mechanisms of Immunosuppression in Colorectal Cancer</article-title>.” <source>Cancers</source>
+<volume>12</volume>: <elocation-id>3850</elocation-id>. <pub-id pub-id-type="doi">10.3390/cancers12123850</pub-id>
+<pub-id pub-id-type="pmid">33419310</pub-id>
+<pub-id pub-id-type="pmcid">PMC7766388</pub-id></mixed-citation></ref><ref id="imt270008-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt270008-cit-0024">
+<string-name name-style="western">
+<surname>Ren</surname>, <given-names>Yi‐Meng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zi‐Yan</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuan‐Hong</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peng‐Jie</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tian‐Xue</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yi‐Le</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhu‐Hui</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>BCAA‐producing Clostridium Symbiosum Promotes Colorectal Tumorigenesis Through the Modulation of Host Cholesterol Metabolism</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>32</volume>: <fpage>1519</fpage>–<lpage>1535</lpage>.<elocation-id>e1517</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.chom.2024.07.012</pub-id>
+<pub-id pub-id-type="pmid">39106870</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt270008-cit-0025">
+<string-name name-style="western">
+<surname>Wan</surname>, <given-names>Yichao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Guoqing</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hongjuan</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xu</given-names>
+<surname>Deng</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Zilong</given-names>
+<surname>Tang</surname>
+</string-name>. <year>2021</year>. “<article-title>Sulfonamide Derivatives as Potential Anti‐Cancer Agents and Their SARs Elucidation</article-title>.” <source>European Journal of Medicinal Chemistry</source>
+<volume>226</volume>: <elocation-id>113837</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ejmech.2021.113837</pub-id>
+<pub-id pub-id-type="pmid">34530384</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt270008-cit-0026">
+<string-name name-style="western">
+<surname>Schmitt</surname>, <given-names>Mark</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Florian R.</given-names>
+<surname>Greten</surname>
+</string-name>. <year>2021</year>. “<article-title>The Inflammatory Pathogenesis of Colorectal Cancer</article-title>.” <source>Nature Reviews Immunology</source>
+<volume>21</volume>: <fpage>653</fpage>–<lpage>667</lpage>. <pub-id pub-id-type="doi">10.1038/s41577-021-00534-x</pub-id>
+<pub-id pub-id-type="pmid">33911231</pub-id></mixed-citation></ref><ref id="imt270008-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt270008-cit-0027">
+<string-name name-style="western">
+<surname>Zeng</surname>, <given-names>M. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Inohara</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Nuñez</surname>
+</string-name>. <year>2017</year>. “<article-title>Mechanisms of Inflammation‐Driven Bacterial Dysbiosis in the Gut</article-title>.” <source>Mucosal Immunology</source>
+<volume>10</volume>: <fpage>18</fpage>–<lpage>26</lpage>. <pub-id pub-id-type="doi">10.1038/mi.2016.75</pub-id>
+<pub-id pub-id-type="pmid">27554295</pub-id>
+<pub-id pub-id-type="pmcid">PMC5788567</pub-id></mixed-citation></ref><ref id="imt270008-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt270008-cit-0028">
+<string-name name-style="western">
+<surname>Zeller</surname>, <given-names>Georg</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Julien</given-names>
+<surname>Tap</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anita Y.</given-names>
+<surname>Voigt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shinichi</given-names>
+<surname>Sunagawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jens Roat</given-names>
+<surname>Kultima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paul I.</given-names>
+<surname>Costea</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aurélien</given-names>
+<surname>Amiot</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>Potential of Fecal Microbiota for Early‐Stage Detection of Colorectal Cancer</article-title>.” <source>Molecular Systems Biology</source>
+<volume>10</volume>: <fpage>766</fpage>. <pub-id pub-id-type="doi">10.15252/msb.20145645</pub-id>
+<pub-id pub-id-type="pmid">25432777</pub-id>
+<pub-id pub-id-type="pmcid">PMC4299606</pub-id></mixed-citation></ref><ref id="imt270008-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt270008-cit-0029">
+<string-name name-style="western">
+<surname>Feng</surname>, <given-names>Qiang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Suisha</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huijue</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andreas</given-names>
+<surname>Stadlmayr</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Longqing</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhou</given-names>
+<surname>Lan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dongya</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Gut Microbiome Development Along the Colorectal Adenoma‐Carcinoma Sequence</article-title>.” <source>Nature Communications</source>
+<volume>6</volume>: <fpage>6528</fpage>. <pub-id pub-id-type="doi">10.1038/ncomms7528</pub-id>
+<pub-id pub-id-type="pmid">25758642</pub-id></mixed-citation></ref><ref id="imt270008-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt270008-cit-0030">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Jun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Qiang</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sunny Hei</given-names>
+<surname>Wong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dongya</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qiao yi</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Youwen</given-names>
+<surname>Qin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Longqing</given-names>
+<surname>Tang</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Metagenomic Analysis of Faecal Microbiome as a Tool Towards Targeted Non‐Invasive Biomarkers for Colorectal Cancer</article-title>.” <source>Gut</source>
+<volume>66</volume>: <fpage>70</fpage>–<lpage>78</lpage>. <pub-id pub-id-type="doi">10.1136/gutjnl-2015-309800</pub-id>
+<pub-id pub-id-type="pmid">26408641</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt270008-cit-0031">
+<string-name name-style="western">
+<surname>Vogtmann</surname>, <given-names>Emily</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xing</given-names>
+<surname>Hua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Georg</given-names>
+<surname>Zeller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shinichi</given-names>
+<surname>Sunagawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anita Y.</given-names>
+<surname>Voigt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rajna</given-names>
+<surname>Hercog</surname>
+</string-name>, <string-name name-style="western">
+<given-names>James J.</given-names>
+<surname>Goedert</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Colorectal Cancer and the Human Gut Microbiome: Reproducibility With Whole‐Genome Shotgun Sequencing</article-title>.” <source>PLoS One</source>
+<volume>11</volume>: <elocation-id>e0155362</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0155362</pub-id>
+<pub-id pub-id-type="pmid">27171425</pub-id>
+<pub-id pub-id-type="pmcid">PMC4865240</pub-id></mixed-citation></ref><ref id="imt270008-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt270008-cit-0032">
+<string-name name-style="western">
+<surname>Hannigan</surname>, <given-names>Geoffrey D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Duhaime Melissa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ruffin Mack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Koumpouras Charlie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Schloss Patrick</surname>
+</string-name>. <year>2018</year>. “<article-title>Diagnostic Potential and Interactive Dynamics of the Colorectal Cancer Virome</article-title>.” <source>mBio</source>
+<volume>9</volume>: <elocation-id>e02248‐18</elocation-id>. <pub-id pub-id-type="doi">10.1128/mBio.02248-18</pub-id>
+<pub-id pub-id-type="pmid">30459201</pub-id>
+<pub-id pub-id-type="pmcid">PMC6247079</pub-id></mixed-citation></ref><ref id="imt270008-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt270008-cit-0033">
+<string-name name-style="western">
+<surname>Wirbel</surname>, <given-names>Jakob</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Paul Theodor</given-names>
+<surname>Pyl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ece</given-names>
+<surname>Kartal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Konrad</given-names>
+<surname>Zych</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alireza</given-names>
+<surname>Kashani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alessio</given-names>
+<surname>Milanese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jonas S.</given-names>
+<surname>Fleck</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Meta‐Analysis of Fecal Metagenomes Reveals Global Microbial Signatures That Are Specific for Colorectal Cancer</article-title>.” <source>Nature Medicine</source>
+<volume>25</volume>: <fpage>679</fpage>–<lpage>689</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-019-0406-6</pub-id>
+<pub-id pub-id-type="pmcid">PMC7984229</pub-id><pub-id pub-id-type="pmid">30936547</pub-id></mixed-citation></ref><ref id="imt270008-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt270008-cit-0034">
+<string-name name-style="western">
+<surname>Thomas</surname>, <given-names>Andrew Maltez</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Paolo</given-names>
+<surname>Manghi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Asnicar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Edoardo</given-names>
+<surname>Pasolli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Federica</given-names>
+<surname>Armanini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Moreno</given-names>
+<surname>Zolfo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Beghini</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Metagenomic Analysis of Colorectal Cancer Datasets Identifies Cross‐Cohort Microbial Diagnostic Signatures and a Link With Choline Degradation</article-title>.” <source>Nature Medicine</source>
+<volume>25</volume>: <fpage>667</fpage>–<lpage>678</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-019-0405-7</pub-id>
+<pub-id pub-id-type="pmcid">PMC9533319</pub-id><pub-id pub-id-type="pmid">30936548</pub-id></mixed-citation></ref><ref id="imt270008-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt270008-cit-0035">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Ning‐Ning</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Na</given-names>
+<surname>Jiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing‐Cong</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ziliang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dingfeng</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>An‐Jun</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Multi‐Kingdom Microbiota Analyses Identify Bacterial‐Fungal Interactions and Biomarkers of Colorectal Cancer Across Cohorts</article-title>.” <source>Nature Microbiology</source>
+<volume>7</volume>: <fpage>238</fpage>–<lpage>250</lpage>. <pub-id pub-id-type="doi">10.1038/s41564-021-01030-7</pub-id>
+<pub-id pub-id-type="pmcid">PMC8813618</pub-id><pub-id pub-id-type="pmid">35087227</pub-id></mixed-citation></ref><ref id="imt270008-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt270008-cit-0036">
+<string-name name-style="western">
+<surname>Yachida</surname>, <given-names>Shinichi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sayaka</given-names>
+<surname>Mizutani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hirotsugu</given-names>
+<surname>Shiroma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Satoshi</given-names>
+<surname>Shiba</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Takeshi</given-names>
+<surname>Nakajima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Taku</given-names>
+<surname>Sakamoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hikaru</given-names>
+<surname>Watanabe</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Metagenomic and Metabolomic Analyses Reveal Distinct Stage‐Specific Phenotypes of the Gut Microbiota in Colorectal Cancer</article-title>.” <source>Nature Medicine</source>
+<volume>25</volume>: <fpage>968</fpage>–<lpage>976</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-019-0458-7</pub-id>
+<pub-id pub-id-type="pmid">31171880</pub-id></mixed-citation></ref><ref id="imt270008-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt270008-cit-0037">
+<string-name name-style="western">
+<surname>Danko</surname>, <given-names>David</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Daniela</given-names>
+<surname>Bezdan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Evan E.</given-names>
+<surname>Afshin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sofia</given-names>
+<surname>Ahsanuddin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chandrima</given-names>
+<surname>Bhattacharya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel J.</given-names>
+<surname>Butler</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Kern Rei</given-names>
+<surname>Chng</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>A Global Metagenomic Map of Urban Microbiomes and Antimicrobial Resistance</article-title>.” <source>Cell</source>
+<volume>184</volume>: <fpage>3376</fpage>–<lpage>3393.e17</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2021.05.002</pub-id>
+<pub-id pub-id-type="pmid">34043940</pub-id>
+<pub-id pub-id-type="pmcid">PMC8238498</pub-id></mixed-citation></ref><ref id="imt270008-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt270008-cit-0038">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Ying</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaotao</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Benli</given-names>
+<surname>Chai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liping</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bing</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anni</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>James R.</given-names>
+<surname>Cole</surname>
+</string-name>, <string-name name-style="western">
+<given-names>James M.</given-names>
+<surname>Tiedje</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tong</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2016</year>. “<article-title>ARGs‐OAP: Online Analysis Pipeline for Antibiotic Resistance Genes Detection From Metagenomic Data Using an Integrated Structured ARG‐database</article-title>.” <source>Bioinformatics</source>
+<volume>32</volume>: <fpage>2346</fpage>–<lpage>2351</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/btw136</pub-id>
+<pub-id pub-id-type="pmid">27153579</pub-id>
+</mixed-citation></ref><ref id="imt270008-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt270008-cit-0039">
+<string-name name-style="western">
+<surname>Arango‐Argoty</surname>, <given-names>Gustavo</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Emily</given-names>
+<surname>Garner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amy</given-names>
+<surname>Pruden</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lenwood S.</given-names>
+<surname>Heath</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peter</given-names>
+<surname>Vikesland</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Liqing</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2018</year>. “<article-title>DeepARG: A Deep Learning Approach for Predicting Antibiotic Resistance Genes From Metagenomic Data</article-title>.” <source>Microbiome</source>
+<volume>6</volume>: <fpage>23</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-018-0401-z</pub-id>
+<pub-id pub-id-type="pmid">29391044</pub-id>
+<pub-id pub-id-type="pmcid">PMC5796597</pub-id></mixed-citation></ref><ref id="imt270008-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt270008-cit-0040">
+<string-name name-style="western">
+<surname>Alcock</surname>, <given-names>Brian P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>William</given-names>
+<surname>Huynh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Romeo</given-names>
+<surname>Chalil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Keaton W.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amogelang R.</given-names>
+<surname>Raphenya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mateusz A.</given-names>
+<surname>Wlodarski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Arman</given-names>
+<surname>Edalatmand</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>CARD 2023: Expanded Curation, Support for Machine Learning, and Resistome Prediction at the Comprehensive Antibiotic Resistance Database</article-title>.” <source>Nucleic Acids Research</source>
+<volume>51</volume>: <fpage>D690</fpage>–<lpage>D699</lpage>. <pub-id pub-id-type="doi">10.1093/nar/gkac920</pub-id>
+<pub-id pub-id-type="pmid">36263822</pub-id>
+<pub-id pub-id-type="pmcid">PMC9825576</pub-id></mixed-citation></ref><ref id="imt270008-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt270008-cit-0041">
+<string-name name-style="western">
+<surname>Pasolli</surname>, <given-names>Edoardo</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Asnicar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Serena</given-names>
+<surname>Manara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Moreno</given-names>
+<surname>Zolfo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nicolai</given-names>
+<surname>Karcher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Federica</given-names>
+<surname>Armanini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesco</given-names>
+<surname>Beghini</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Extensive Unexplored Human Microbiome Diversity Revealed by Over 150,000 Genomes From Metagenomes Spanning Age, Geography, and Lifestyle</article-title>.” <source>Cell</source>
+<volume>176</volume>: <fpage>649</fpage>–<lpage>662.e620</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2019.01.001</pub-id>
+<pub-id pub-id-type="pmid">30661755</pub-id>
+<pub-id pub-id-type="pmcid">PMC6349461</pub-id></mixed-citation></ref><ref id="imt270008-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt270008-cit-0042">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Qi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nuohan</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chaotang</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bingfeng</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tingzhang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yunting</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tao</given-names>
+<surname>Lu</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Metagenomic Insight Into the Global Dissemination of the Antibiotic Resistome</article-title>.” <source>Advanced Science</source>
+<volume>10</volume>: <elocation-id>e2303925</elocation-id>. <pub-id pub-id-type="doi">10.1002/advs.202303925</pub-id>
+<pub-id pub-id-type="pmid">37870180</pub-id>
+<pub-id pub-id-type="pmcid">PMC10667823</pub-id></mixed-citation></ref></ref-list></back></article>

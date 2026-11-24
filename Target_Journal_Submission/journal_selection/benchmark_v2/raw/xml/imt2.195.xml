@@ -1,0 +1,464 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt2195" xml:lang="en" article-type="article-commentary" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11183169</article-id><article-id pub-id-type="pmcid-ver">PMC11183169.1</article-id><article-id pub-id-type="pmcaid">11183169</article-id><article-id pub-id-type="pmcaiid">11183169</article-id><article-id pub-id-type="pmid">38898990</article-id><article-id pub-id-type="doi">10.1002/imt2.195</article-id><article-id pub-id-type="publisher-id">IMT2195</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Commentary</subject></subj-group><subj-group subj-group-type="heading"><subject>Commentary</subject></subj-group></article-categories><title-group><article-title>GutUDB: A comprehensive multiomics database for intestinal diseases</article-title></title-group><contrib-group><contrib id="imt2195-cr-0001" contrib-type="author"><name name-style="western"><surname>Bao</surname><given-names initials="Y">Yi</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0002" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="Y">Yaxin</given-names></name><xref rid="imt2195-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt2195-cr-0003" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="L">Lizhu</given-names></name><xref rid="imt2195-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt2195-cr-0004" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="J">Jingyi</given-names></name><xref rid="imt2195-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt2195-cr-0005" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="X">Xinli</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0006" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="G">Gang</given-names></name><xref rid="imt2195-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt2195-cr-0007" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Y">Yueqi</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0008" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="Y">Yao</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0009" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="Y">Yajing</given-names></name><xref rid="imt2195-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="imt2195-cr-0010" contrib-type="author"><name name-style="western"><surname>Zhou</surname><given-names initials="L">Lijuan</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0011" contrib-type="author"><name name-style="western"><surname>Qi</surname><given-names initials="Y">Yawen</given-names></name><xref rid="imt2195-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt2195-cr-0012" contrib-type="author"><name name-style="western"><surname>Xie</surname><given-names initials="Y">Yufang</given-names></name><xref rid="imt2195-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt2195-cr-0013" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="Z">Zhenrui</given-names></name><xref rid="imt2195-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt2195-cr-0014" contrib-type="author"><name name-style="western"><surname>Sun</surname><given-names initials="Z">Zhe</given-names></name><xref rid="imt2195-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt2195-cr-0015" contrib-type="author"><name name-style="western"><surname>Fan</surname><given-names initials="Y">Yuwen</given-names></name><xref rid="imt2195-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt2195-cr-0016" contrib-type="author"><name name-style="western"><surname>Jiang</surname><given-names initials="J">Jinjing</given-names></name><xref rid="imt2195-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt2195-cr-0017" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="F">Feiyu</given-names></name><xref rid="imt2195-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt2195-cr-0018" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="H">Hubin</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0019" contrib-type="author"><name name-style="western"><surname>Chu</surname><given-names initials="J">Jiemei</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0020" contrib-type="author"><name name-style="western"><surname>Huang</surname><given-names initials="J">Jiegang</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt2195-cr-0021" contrib-type="author" corresp="yes"><name name-style="western"><surname>Chen</surname><given-names initials="X">Xuena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0005-2065-9536</contrib-id><xref rid="imt2195-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><address><email>chenxuena2021@sdu.edu.cn</email></address></contrib><contrib id="imt2195-cr-0022" contrib-type="author" corresp="yes"><name name-style="western"><surname>Liang</surname><given-names initials="H">Hao</given-names></name><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>lianghao@gxmu.edu.cn</email></address></contrib><contrib id="imt2195-cr-0023" contrib-type="author" corresp="yes"><name name-style="western"><surname>Liang</surname><given-names initials="S">Shuaiyi</given-names></name><xref rid="imt2195-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref><address><email>SLiang2@my.harrisburgu.edu</email></address></contrib><contrib id="imt2195-cr-0024" contrib-type="author" corresp="yes"><name name-style="western"><surname>An</surname><given-names initials="S">Sanqi</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3177-213X</contrib-id><xref rid="imt2195-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>ansq@mail2.sysu.edu.cn</email></address></contrib></contrib-group><aff id="imt2195-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Guangxi Key Laboratory of AIDS Prevention and Treatment &amp; Guangxi Colleges and Universities Key Laboratory of Prevention and Control of Highly Prevalent Diseases, School of Public Health</named-content>
+<institution>Guangxi Medical University</institution>
+<city>Nanning</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Respiratory Health, Frontiers Science Center for Disease‐related Molecular Network, West China Hospital</named-content>
+<institution>Sichuan University</institution>
+<city>Chengdu</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Anesthesiology</named-content>
+<institution>The First People's Hospital of Qinzhou</institution>
+<city>Qinzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>Guangdong Second Provincial General Hospital</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Precision Medicine Translational Research Center, West China Hospital</named-content>
+<institution>Sichuan University</institution>
+<city>Chengdu</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biochemistry and Molecular Biology, School of Basic Medicine</named-content>
+<institution>Guangxi Medical University</institution>
+<city>Nanning</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Life Sciences Institute</named-content>
+<institution>Guangxi Medical University</institution>
+<city>Nanning</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">The Key Laboratory of Experimental Teratology, Ministry of Education, Department of Systems Biomedicine, School of Basic Medical Sciences</named-content>
+<institution>Shandong University</institution>
+<city>Jinan</city>
+<country country="CN">China</country>
+</aff><aff id="imt2195-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Department of Bioinformatics</named-content>
+<institution>Anjin Biotechnology Co., Ltd.</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Sanqi An and Hao Liang, Guangxi Key Laboratory of AIDS Prevention and Treatment &amp; Guangxi Colleges and Universities Key Laboratory of Prevention and Control of Highly Prevalent Diseases, School of Public Health, Guangxi Medical University, Nanning 530021, China.<break/>
+Email: <email>ansq@mail2.sysu.edu.cn</email> and <email>lianghao@gxmu.edu.cn</email>
+<break/>
+Xuena Chen, The Key Laboratory of Experimental Teratology, Ministry of Education, Department of Systems Biomedicine, School of Basic Medical Sciences, Shandong University, Jinan 250012, China.<break/>
+Email: <email>chenxuena2021@sdu.edu.cn</email>
+<break/>
+Shuaiyi Liang, Department of Bioinformatics, Anjin Biotechnology Co., Ltd., Guangzhou 510000, China.<break/>
+Email: <email>SLiang2@my.harrisburgu.edu</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>4</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2024</year></pub-date><volume>3</volume><issue seq="160">3</issue><issue-id pub-id-type="pmc-issue-id">465039</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v3.3</issue-id><elocation-id>e195</elocation-id><history>
+<date date-type="received"><day>07</day><month>4</month><year>2024</year></date>
+<date date-type="accepted"><day>08</day><month>4</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>27</day><month>04</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>19</day><month>06</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-22 14:30:17.760"><day>22</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Authors. <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-3-e195.pdf"><?pdf-name IMT2-3-e195.pdf?><?pdf-size 989166?><?pdf-md5 44ec54397fb94f370b2ebbc8d5e83b39?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:810f/11183169/44ec54397fb9/IMT2-3-e195.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-3-e195.pdf"/><abstract abstract-type="graphical"><p>Gut Universe Database (GutUDB) provides a comprehensive, systematic, and practical platform for researchers, and is dedicated to the management, analysis, and visualization of knowledge related to intestinal diseases. Based on this database, eight major categories of omics data analyses are carried out to explore the genotype‐phenotype characteristics of a certain intestinal disease. The first tool for comprehensive omics data research on intestinal diseases will help each researcher better understand intestinal diseases.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-3-e195-g001.jpg"><?image-name IMT2-3-e195-g001.jpg?><?image-size 74348?><?image-md5 ca67c5919cbfa9ef17c2481b58325eb3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 476?><?image-original-width 910?><?image-scaled-height 317?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/810f/11183169/ca67c5919cbf/IMT2-3-e195-g001.jpg?></graphic></boxed-text>
+</p></abstract><funding-group><award-group id="funding-0001"><funding-source>National Natural Science Foundation of China</funding-source><award-id>82160389</award-id></award-group><award-group id="funding-0002"><funding-source>Guangxi Medical University Training Program for Distinguished Young Scholars to Sanqi An</funding-source></award-group><award-group id="funding-0003"><funding-source>Guangxi Science and Technology Base and Talent Project</funding-source><award-id>2022AC19006</award-id></award-group></funding-group><counts><fig-count count="2"/><table-count count="0"/><page-count count="6"/><word-count count="3198"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.4 mode:remove_FC converted:18.06.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt2195-cit-0019">
+<string-name name-style="western">
+<surname>Bao</surname>
+<given-names>Yi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yaxin</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lizhu</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jingyi</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xinli</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yueqi</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>GutUDB: A Comprehensive Multiomics Database for Intestinal Diseases</article-title>.” <source>iMeta</source>
+<volume>3</volume>, <elocation-id>e195</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.195</pub-id>
+<pub-id pub-id-type="pmcid">PMC11183169</pub-id><pub-id pub-id-type="pmid">38898990</pub-id></mixed-citation>
+</p><fn-group><fn id="imt2195-note-0001"><p>Yi Bao, Yaxin Chen, Lizhu Lin, and Jingyi Li contributed equally to this study.</p></fn></fn-group></notes></front><body><p>The intestine serves as the central organ in the digestive system for nutrient absorption and digestion processes [<xref rid="imt2195-bib-0001" ref-type="bibr">1</xref>]. In recent years, high‐throughput sequencing technologies have significantly broadened our comprehension of biological mechanisms from diverse aspects, including DNA‐level processes, transcriptional dynamics, protein‐related activities, and epigenetic modifications. These various omics sequencing data could provide a more systematic and better insight into intestinal diseases [<xref rid="imt2195-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt2195-bib-0003" ref-type="bibr">3</xref>]. However, the complexity of analytical techniques for sequencing data, coupled with the dispersed nature of data storage and the voluminous size of data sets, has impeded researchers to fully exploit these omics resources [<xref rid="imt2195-bib-0004" ref-type="bibr">4</xref>, <xref rid="imt2195-bib-0005" ref-type="bibr">5</xref>]. Therefore, the establishment of a comprehensive database to integrate and analyze these sequencing data sets would be urgent and instrumental in dealing with these challenges.</p><p>Here, we present the Gut Universe Database (GutUDB), a high‐quality and comprehensive multiomics database about intestinal diseases. It provides a user‐friendly platform for the comprehensive collection of eight types of omics data, including epigenomics, genomics, transcriptomics, spatial omics, single‐cell omics, proteomics, metabolomics, and microbiomics data, spanning 56 distinct intestinal diseases across six various species. GutUDB offers a thorough analysis of intestinal diseases, presenting omics data through various informative charts. We also highlight the therapeutic targets for both chemical and traditional medicine suitable to intestinal diseases, along with the associated therapeutic outcomes involving probiotics. GutUDB will play a pivotal role in identifying diagnostic targets for intestinal diseases and unveiling the molecular mechanisms underlying the progression of these conditions.</p><sec sec-type="results" id="imt2195-sec-0020"><title>RESULTS</title><sec id="imt2195-sec-0030"><title>Overview of GutUDB</title><p>To date, GutUDB has accumulated approximately 9 million generated profiles from eight types of omics data sets, which encompasses 56 intestinal diseases across six species: <italic toggle="yes">Homo sapiens, Mus musculus, Rattus norvegicus, Macaca mulatta, Danio rerio, and Sus scrofa</italic>. Overall, GutUDB incorporated 58,970 genes derived from 11 subtypes of intestinal tissue or 63 intestinal cell lines, and identified various potential clinical therapeutics, including chemical drugs, traditional medicine, and probiotic agents. To assist users to easily elucidate and interrogate the intricate gene‐disease‐omics network, four core functionalities—Browse, Query, Visualization, and Download—were integrated into GutUDB (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1A</xref>).</p><fig position="float" fig-type="Figure" id="imt2195-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Gut Universe Database (GutUDB) contents and features. (A) The process of data collection and processing, as well as the construction procedure of the database website, incorporating four core functions (browsing, querying, visualizing, and downloading). (B) The expression levels of the <italic toggle="yes">METTL3</italic> in different tissues. The data derived from GTEx. (C) Boxplot displaying gene expression difference between COAD and healthy tissues. <italic toggle="yes">p</italic> &lt; 0.05 indicated that the expression of <italic toggle="yes">METTL3</italic> was significantly different between the two groups. (D) Scatter plot showing the correlation analysis of <italic toggle="yes">METTL3</italic> expression between COAD group and healthy group. <italic toggle="yes">r</italic> = −0.02 indicated that <italic toggle="yes">METTL3</italic> expression almost no correlation between the two groups. (E) Survival analysis curve of <italic toggle="yes">POLE</italic> associated with COAD. (F) The expression levels of <italic toggle="yes">CNPY3</italic> in various cells and the presentation of expression maps in scRNA‐seq data. (G) Tracks displaying the read coverage of H3k27me3, the m<sup>6</sup>A sites as well as RNA‐seq and SNP data in colorectal cancer on the <italic toggle="yes">MUTYH</italic>. B, B lymphocyte; COAD, colon adenocarcinoma; CSS, cascading style sheets; DEG, differential expression analysis; GEO, Gene Expression Omnibus; GTAK, Genome Analysis Toolkit; GTEx, Genotype‐Tissue Expression project; HR, hazard ratio; HTML, HyperText Markup Language; m<sup>6</sup>A, N6‐methyladenosine; MySQL, My Structured Query Language; NK, natural killer cell; Plasma, Plasma cell; PCA, principal component analysis; r, correlation coefficient; Sass, Syntactically Awesome Stylesheets; SNP, single‐nucleotide polymorphism; T, T lymphocyte; TCGA, The Cancer Genome Atlas; TPM, Transcripts Per Million.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-3-e195-g002.jpg"><?image-name IMT2-3-e195-g002.jpg?><?image-size 158845?><?image-md5 d6edaded83a8386434735d79b2bb3b8a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1310?><?image-original-width 910?><?image-scaled-height 872?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/810f/11183169/d6edaded83a8/IMT2-3-e195-g002.jpg?><?thumb-name IMT2-3-e195-g002.gif?><?thumb-size 6360?><?thumb-md5 d41b3894b66456d502517bba2d8c3203?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 144?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/810f/11183169/d41b3894b664/IMT2-3-e195-g002.gif?></graphic></fig></sec><sec id="imt2195-sec-0040"><title>Disease‐gene associations across distinct intestinal diseases</title><p>In total, 260,790 disease‐gene associations were embedded in GutUDB. The main intestine‐related diseases, including colon cancer, colorectal cancer (CRC), bleeding of the colon, rectal cancer, constipation, diarrhea, ileus, inflammatory bowel disease, and small intestine cancer (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1A</xref>), shared common genes such as <italic toggle="yes">STK11</italic>, <italic toggle="yes">CFTR</italic>, <italic toggle="yes">BMPR1A</italic>, <italic toggle="yes">SMAD4</italic>, <italic toggle="yes">NOTCH1</italic>, <italic toggle="yes">PKD1</italic>, <italic toggle="yes">MLH1</italic>, <italic toggle="yes">MSH2</italic>, <italic toggle="yes">APC</italic>, and <italic toggle="yes">MEFV</italic> (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1B</xref>) [<xref rid="imt2195-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt2195-bib-0007" ref-type="bibr">7</xref>, <xref rid="imt2195-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt2195-bib-0009" ref-type="bibr">9</xref>, <xref rid="imt2195-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt2195-bib-0011" ref-type="bibr">11</xref>]. Specifically, <italic toggle="yes">STK11</italic> is a well‐known etiological factor for Peutz‐Jeghers syndrome. <italic toggle="yes">SMAD4</italic> and <italic toggle="yes">BMPR1A</italic> are reported to be associated with Juvenile Polyposis Syndrome [<xref rid="imt2195-bib-0012" ref-type="bibr">12</xref>]. These findings illustrated the strong relationship between intestinal pathologies and these genes.</p><p>To further explore specific genes related to intestinal diseases, users can easily obtain detailed information on the homepage using gene symbols. For example, <italic toggle="yes">METTL3</italic>, upon clicking the “Search” icon, the results exhibited the details of this gene, such as genome location and functional characteristics (e.g., RNA‐binding protein or transcription factor) (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1C</xref>), the expression levels and patterns in different tissues across eight omics levels (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1B</xref>). We observed a frequency of copy number variation (CNV) deletion of only 0.04 for <italic toggle="yes">METTL3</italic> in CRC, while there was a significantly high RNA expression of this gene. We concluded that there is a weak correlation between CNV RNA expression on <italic toggle="yes">METTL3</italic>, <italic toggle="yes">similar</italic> correlation analyses can also be conducted for other epigenetic and proteomics data (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1D</xref>). Additionally, GutUDB specifically offered information on gene sets with differential expression and survival prognosis in colon adenocarcinoma (COAD) patients (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1C–E</xref>).</p></sec><sec id="imt2195-sec-0050"><title>Four distant models: Disease, treatment, species, and omics data</title><p>GutUDB was primarily divided into four major modules—SPECIES, DISEASES, OMICS, and THERAPY, facilitating users to access and browse corresponding details upon clicking each icon on the homepage. In the “THERAPY” module, GutUDB curated 21,984 drug‐disease interactions, including 6281 chemical compounds, 393 traditional medicinal herbs, and 22 probiotics (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1E</xref>). Among these associations, cisplatin, as a chemotherapy drug for colon cancer patients, could infiltrate tumor cells, induce DNA damage, and ultimately lead to cell death [<xref rid="imt2195-bib-0013" ref-type="bibr">13</xref>]. It was demonstrated cisplatin had strong connectivity in the drug‐disease‐gene network, highlighting the reliability and accessibility of the information stored in GutUDB. In the “DISEASES” module, users can take deeper insight into genes of interest associated with various intestinal disorders across different omics levels (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1F</xref>). In the “SPECIES” module, users can browse all genes and select species they are interested in (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1G</xref>). All results were presented in a tabular format and facilitated users to efficiently retrieve and filter them by inputting keywords (e.g., a gene symbol or a specific type of intestinal disease) or by clicking on terms (e.g., omics level or hot genes) at the top of the current page.</p></sec><sec id="imt2195-sec-0060"><title>Browsing spatial omics and single‐cell omics data of intestinal diseases</title><p>Recently, spatial omics and single‐cell sequencing methods have significantly advanced the study of cellular heterogeneity, immune regulation, and molecular mechanisms in intestinal diseases. The spatial omics data in GutUDB revealed intricate spatial expression maps delineating tumor‐specific genes across diverse samples, along with annotation maps. Upon selecting a gene, users could peruse gene‐related information of spatial omics data in GutUDB. Furthermore, we also provided details about sample, tissue type, biotechnology, and the gene's expression profiles of spatial omics data in GutUDB. The homepage of gene expression showed the uniform manifold approximation and projection plots of single‐cell RNA‐seq, and each sample's detail page contained the expression maps of the genes in different cells (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1F</xref>). Besides, single‐cell gene expression, single‐cell alternative polyadenylation, single‐cell alternative splicing, and single‐cell proteomics data related to intestinal diseases were also embedded in GutUDB, facilitating users to comprehensively understand regulatory mechanisms from different dimensions such as RNA and proteins at the single‐cell level.</p></sec><sec id="imt2195-sec-0070"><title>Interactive visualization of bulk multiomics profiles related to intestinal diseases</title><p>To facilitate the integration and analysis of diverse data sets and data types, we have combined diverse omics data types with the complex interplay among DNA, RNA, proteins, and other aspects of genetic turbulence. Users can assess a specific omics type through “Omics” option in the navigation bar. Eight different types of bulk omics were integrated into GutUDB for interactive visualization.</p><p>Epigenetics plays a crucial role in the development and progression of intestinal diseases, and researchers have screened and utilized epigenetic molecules as diagnosis and prognosis biomarkers in clinical trials [<xref rid="imt2195-bib-0014" ref-type="bibr">14</xref>]. In GutUDB, three mainly epigenomics were embedded, including DNA methylation, histone modification (H3K27me3, H3K27ac, H3K36me3, H3K4me1, H3K4me3, and H3K9me3), and chromosome structure. Among them, the transcriptional and posttranscriptional regulatory mechanisms involving RNA m<sup>6</sup>A modification and alternative splicing, are the focal points of current research. Here we demonstrate the histone modification status, specifically the H3K27me3 modification, using <italic toggle="yes">MUTYH</italic> as an example (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1G</xref>).</p><p>Based on miCLIP‐seq, 1908 RNA m<sup>6</sup>A modification sites were included in GutUDB. As for genomics, alterations can influence RNA modification and result in gene transcript level alteration, which may consequently affect the protein expression levels. Additionally, six types of alternative splicing were also incorporated into the GutUDB database, including exon skipping, alternative 5′splice site, alternative 3′splice site, mutually exclusive exons, and retained introns [<xref rid="imt2195-bib-0015" ref-type="bibr">15</xref>]. Here, we use <italic toggle="yes">MUTYH</italic> as an example to demonstrate the status of alternative splicing and m<sup>6</sup>A modification in CRC (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1G</xref>).</p><p>For genomics, GutUDB currently includes 72,248 single‐nucleotide polymorphisms (SNPs), 54,131 CNVs, 1097 structural variations of chromosome (SVs), and 92,888 mutated genes related to different intestinal diseases, details were established on the “Statistics” page. Notably, each genomic alternation was accompanied by its frequency in various populations as well as data set source. Here, we present the SNP sites on the <italic toggle="yes">MUTYH</italic> gene in CRC (Figure <xref rid="imt2195-fig-0001" ref-type="fig">1G</xref>).</p><p>For transcriptomics, 137 RNA‐seq data sets related to 7.9 million transcriptional profiles with distinct gene expression patterns under various conditions or in different tissues were collected (Supporting Information: Figure <xref rid="imt2195-suppl-0001" ref-type="supplementary-material">S1H</xref>). Besides, noncoding RNAs associated with intestinal diseases were separately displayed as panels, including 62 circular RNAs, 182 long noncoding RNAs, and 58 microRNAs.</p><p>For proteomic and metabolomic profiles, aberrations significantly have impact on the pathophysiology of intestinal diseases [<xref rid="imt2195-bib-0016" ref-type="bibr">16</xref>, <xref rid="imt2195-bib-0017" ref-type="bibr">17</xref>]. In the GutUDB, the proteomics data provided information of protein characteristics including functional domains, active sites, and posttranslational modifications under artificial regulation. Moreover, data from metabolomics and microbiomics demonstrated 2764 relationships between gut microbes and metabolites in GutUDB.</p><p>Therefore, GutUDB enabled researchers to conduct a deep study into the complex interconnections of genetic modifications from multiple biological levels and insights, thus unveiling the sophisticated processes underlying gene regulation.</p></sec></sec><sec sec-type="discussion" id="imt2195-sec-0080"><title>DISCUSSION AND FUTURE DIRECTION</title><p>In this study, the main challenge was the standardization of integrating sequencing data across different platforms, such as RNA‐seq and microarray data. Admittedly, there are variations in sequencing platforms and instruments. Our database GutUDB mainly utilizes RNA‐seq data for bulk transcriptomics due to it can still be standardized and compared effectively. Integrating diverse omics data, including transcriptomics, can illuminate pathogenic changes and significantly enhance our understanding of disease diagnosis, mechanisms, and treatment strategies [<xref rid="imt2195-bib-0018" ref-type="bibr">18</xref>]. GutUDB will definitely serve as a comprehensive resource for a wide range of users, such as clinicians specializing in gastroenterology, researchers in academic and scientific institutions, educators and students from universities and anyone with an interest in intestinal research and clinical applications. Users can easily get access to an extensive array of omics data related to intestinal diseases directly through GutUDB, without exhaustive searches for disease‐specific information across various databases, such as noncoding RNA databases, spatial omics repositories, and microbiome databases.</p><p>With the rapid accumulation of diverse sequencing data, we are responsible for frequently updating GutUDB, and proudly announce that the GutUDB is dedicated to serving as an open‐access resource for the global community to advance the study of intestinal diseases. We also plan to integrate interactive models into GutUDB within the next 1–2 years, facilitating real‐time communication between users on the platform. We will also integrate a more comprehensive collection of pathological slides on intestinal diseases, radiomics of intestinal diseases, and cohorts of individuals with intestinal diseases into GutUDB. All in all, these procedures will ensure GutUDB obtains the newest and latest extensive multiomics database for intestinal diseases.</p></sec><sec id="imt2195-sec-0090"><title>AUTHOR CONTRIBUTIONS</title><p>Sanqi An, Shuaiyi Liang, HaoLiang, and Xuena Chen conceived and designed the study, revised the manuscript, and prepared it for publication. Yi Bao, Yaxin Chen, Lizhu Lin, and Jingyi Li carried out the implementation and supervision of the project, collected data, analyzed the results, built the website, interpreted the results, and wrote the manuscript. Gang Wang and Xinli Liu performed the data collection and analysis. Yueqi Li and Yao Lin assisted in database development and application. Yajing Chen and Lijuan Zhou organized and reviewed the omics data. Yawen Qi and Yufang Xie excluded and corrected the collected data. Zhenrui Lin, Zhe Sun, Yuwen Fan, Jinjing Jiang, and Feiyu Zhang collected and organized part of the omics data. Hubin Chen, Jiemei Chu, and Jiegang Huang conducted the search and integration of relevant literatures. All authors have read the final manuscript and approved it for publication.</p></sec><sec sec-type="COI-statement" id="imt2195-sec-0110"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflict of interest.</p></sec><sec id="imt2195-sec-0140"><title>ETHICS STATEMENT</title><p>No animals or humans were involved in this study.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt2195-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1</bold>: Web display of content from other sections.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-3-e195-s002.docx" position="float" orientation="portrait"><?suppdata-name IMT2-3-e195-s002.docx?><?suppdata-size 1022789?><?suppdata-md5 1b69b4ca2e835cc8214667ab868f6cf1?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:810f/11183169/1b69b4ca2e83/IMT2-3-e195-s002.docx?></media></supplementary-material><supplementary-material id="imt2195-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1</bold>: Statistical source data.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-3-e195-s001.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-3-e195-s001.xlsx?><?suppdata-size 25247?><?suppdata-md5 081051ca1f063cd657c483ec27a46a5e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:810f/11183169/081051ca1f06/IMT2-3-e195-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="imt2195-sec-0100"><title>ACKNOWLEDGMENTS</title><p>The authors would like to thank Wanan Wang and Daowen Yang from Baidu Health Team for their contributions to the construction of the database website. This work was supported by the National Natural Science Foundation of China (82160389), the Guangxi Medical University Training Program for Distinguished Young Scholars to Sanqi An, and the Guangxi Science and Technology Base and Talent Project (2022AC19006).</p></ack><sec sec-type="data-availability" id="imt2195-sec-0130"><title>DATA AVAILABILITY STATEMENT</title><p>All data sources analyzed in this study are included in the Supporting Information (Table <xref rid="imt2195-suppl-0002" ref-type="supplementary-material">S1</xref>). GutUDB is freely available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://intestine.splicedb.net" ext-link-type="uri" specific-use="software is-supplemented-by">https://intestine.splicedb.net</ext-link>. The code involved in this research and the data tables corresponding to the figures in the article have been uploaded to GitHub <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Ansanqi/GutUDB" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/Ansanqi/GutUDB</ext-link>. Supporting Information (methods, figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt2195-bibl-0001"><title>REFERENCES</title><ref id="imt2195-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt2195-cit-0001">
+<string-name name-style="western">
+<surname>Houtekamer</surname>, <given-names>Ronja M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Mirjam C.</given-names>
+<surname>van der Net</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Madelon M.</given-names>
+<surname>Maurice</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Martijn</given-names>
+<surname>Gloerich</surname>
+</string-name>. <year>2022</year>. “<article-title>Mechanical Forces Directing Intestinal Form and Function</article-title>.” <source>Current Biology</source>
+<volume>32</volume>: <fpage>R791</fpage>–<lpage>R805</lpage>. <pub-id pub-id-type="doi">10.1016/j.cub.2022.05.041</pub-id>
+<pub-id pub-id-type="pmid">35882203</pub-id>
+</mixed-citation></ref><ref id="imt2195-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt2195-cit-0002">
+<string-name name-style="western">
+<surname>Hasin</surname>, <given-names>Yehudit</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marcus</given-names>
+<surname>Seldin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Aldons</given-names>
+<surname>Lusis</surname>
+</string-name>. <year>2017</year>. “<article-title>Multi‐Omics Approaches to Disease</article-title>.” <source>Genome Biology</source>
+<volume>18</volume>: <fpage>83</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-017-1215-1</pub-id>
+<pub-id pub-id-type="pmid">28476144</pub-id>
+<pub-id pub-id-type="pmcid">PMC5418815</pub-id></mixed-citation></ref><ref id="imt2195-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt2195-cit-0003">
+<string-name name-style="western">
+<surname>Fiocchi</surname>, <given-names>Claudio</given-names>
+</string-name>. <year>2023</year>. “<article-title>Omics and Multi‐Omics in IBD: No Integration, No Breakthroughs</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>24</volume>: <elocation-id>14912</elocation-id>. <pub-id pub-id-type="doi">10.3390/ijms241914912</pub-id>
+<pub-id pub-id-type="pmid">37834360</pub-id>
+<pub-id pub-id-type="pmcid">PMC10573814</pub-id></mixed-citation></ref><ref id="imt2195-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt2195-cit-0004">
+<string-name name-style="western">
+<surname>Kang</surname>, <given-names>Mingon</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Euiseong</given-names>
+<surname>Ko</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tesfaye B.</given-names>
+<surname>Mersha</surname>
+</string-name>. <year>2022</year>. “<article-title>A Roadmap for Multi‐Omics Data Integration Using Deep Learning</article-title>.” <source>Briefings in Bioinformatics</source>
+<volume>23</volume>(<issue>1</issue>): <elocation-id>bbab454</elocation-id>. <pub-id pub-id-type="doi">10.1093/bib/bbab454</pub-id>
+<pub-id pub-id-type="pmid">34791014</pub-id>
+<pub-id pub-id-type="pmcid">PMC8769688</pub-id></mixed-citation></ref><ref id="imt2195-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt2195-cit-0005">
+<string-name name-style="western">
+<surname>Baysoy</surname>, <given-names>Alev</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zhiliang</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rahul</given-names>
+<surname>Satija</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rong</given-names>
+<surname>Fan</surname>
+</string-name>. <year>2023</year>. “<article-title>The Technological Landscape and Applications of Single‐Cell Multi‐Omics</article-title>.” <source>Nature Reviews Molecular Cell Biology</source>
+<volume>24</volume>: <fpage>695</fpage>–<lpage>713</lpage>. <pub-id pub-id-type="doi">10.1038/s41580-023-00615-w</pub-id>
+<pub-id pub-id-type="pmid">37280296</pub-id>
+<pub-id pub-id-type="pmcid">PMC10242609</pub-id></mixed-citation></ref><ref id="imt2195-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt2195-cit-0006">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>, <given-names>Rahul</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Zachary</given-names>
+<surname>Blankenheim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Patricia M.</given-names>
+<surname>Scott</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Robert T.</given-names>
+<surname>Cormier</surname>
+</string-name>. <year>2022</year>. “<article-title>CFTR and Gastrointestinal Cancers: An Update</article-title>.” <source>Journal of Personalized Medicine</source>
+<volume>12</volume>: <elocation-id>868</elocation-id>. <pub-id pub-id-type="doi">10.3390/jpm12060868</pub-id>
+<pub-id pub-id-type="pmid">35743652</pub-id>
+<pub-id pub-id-type="pmcid">PMC9224611</pub-id></mixed-citation></ref><ref id="imt2195-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt2195-cit-0007">
+<string-name name-style="western">
+<surname>Kim</surname>, <given-names>Hyun‐A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Bon‐Kyoung</given-names>
+<surname>Koo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ji‐Hoon</given-names>
+<surname>Cho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yoon‐Young</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jinwoo</given-names>
+<surname>Seong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hee Jin</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Young Min</given-names>
+<surname>Oh</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Notch1 Counteracts WNT/β‐catenin Signaling Through Chromatin Modification in Colorectal Cancer</article-title>.” <source>Journal of Clinical Investigation</source>
+<volume>122</volume>: <fpage>3248</fpage>–<lpage>3259</lpage>. <pub-id pub-id-type="doi">10.1172/jci61216</pub-id>
+<pub-id pub-id-type="pmid">22863622</pub-id>
+<pub-id pub-id-type="pmcid">PMC3428081</pub-id></mixed-citation></ref><ref id="imt2195-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt2195-cit-0008">
+<string-name name-style="western">
+<surname>Nikonova</surname>, <given-names>Anna S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander Y.</given-names>
+<surname>Deneka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Flaviane N.</given-names>
+<surname>Silva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shabnam</given-names>
+<surname>Pirestani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rossella</given-names>
+<surname>Tricarico</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anna A.</given-names>
+<surname>Kiseleva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yan</given-names>
+<surname>Zhou</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Loss of Pkd1 Limits Susceptibility to Colitis and Colorectal Cancer</article-title>.” <source>Oncogenesis</source>
+<volume>12</volume>: <fpage>40</fpage>. <pub-id pub-id-type="doi">10.1038/s41389-023-00486-y</pub-id>
+<pub-id pub-id-type="pmid">37542051</pub-id>
+<pub-id pub-id-type="pmcid">PMC10403611</pub-id></mixed-citation></ref><ref id="imt2195-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt2195-cit-0009">
+<string-name name-style="western">
+<surname>Casey</surname>, <given-names>Graham</given-names>
+</string-name>. <year>2005</year>. “<article-title>Conversion Analysis for Mutation Detection in MLH1 and MSH2 in Patients With Colorectal Cancer</article-title>.” <source>JAMA</source>
+<volume>293</volume>: <elocation-id>799</elocation-id>. <pub-id pub-id-type="doi">10.1001/jama.293.7.799</pub-id>
+<pub-id pub-id-type="pmid">15713769</pub-id>
+<pub-id pub-id-type="pmcid">PMC2933041</pub-id></mixed-citation></ref><ref id="imt2195-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt2195-cit-0010">
+<string-name name-style="western">
+<surname>Sharma</surname>, <given-names>Deepika</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ankit</given-names>
+<surname>Malik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Clifford S.</given-names>
+<surname>Guy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rajendra</given-names>
+<surname>Karki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peter</given-names>
+<surname>Vogel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Thirumala‐Devi</given-names>
+<surname>Kanneganti</surname>
+</string-name>. <year>2018</year>. “<article-title>Pyrin Inflammasome Regulates Tight Junction Integrity to Restrict Colitis and Tumorigenesis</article-title>.” <source>Gastroenterology</source>
+<volume>154</volume>: <fpage>948</fpage>–<lpage>964.e8</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2017.11.276</pub-id>
+<pub-id pub-id-type="pmid">29203393</pub-id>
+<pub-id pub-id-type="pmcid">PMC5847456</pub-id></mixed-citation></ref><ref id="imt2195-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt2195-cit-0011">
+<string-name name-style="western">
+<surname>Michailidi</surname>, <given-names>Christina</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Stamatios</given-names>
+<surname>Theocharis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gerasimos</given-names>
+<surname>Tsourouflis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vasiliki</given-names>
+<surname>Pletsa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gregorios</given-names>
+<surname>Kouraklis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Efstratios</given-names>
+<surname>Patsouris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Athanasios G.</given-names>
+<surname>Papavassiliou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Constantinos</given-names>
+<surname>Troungos</surname>
+</string-name>. <year>2015</year>. “<article-title>Expression and Promoter Methylation Status of hMLH1, MGMT, APC, and CDH1 Genes in Patients With Colon Adenocarcinoma</article-title>.” <source>Experimental Biology and Medicine</source>
+<volume>240</volume>: <fpage>1599</fpage>–<lpage>1605</lpage>. <pub-id pub-id-type="doi">10.1177/1535370215583800</pub-id>
+<pub-id pub-id-type="pmid">25908636</pub-id>
+<pub-id pub-id-type="pmcid">PMC4935349</pub-id></mixed-citation></ref><ref id="imt2195-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt2195-cit-0012">
+<string-name name-style="western">
+<surname>Jasperson</surname>, <given-names>Kory W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Thérèse M.</given-names>
+<surname>Tuohy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Deborah W.</given-names>
+<surname>Neklason</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Randall W.</given-names>
+<surname>Burt</surname>
+</string-name>. <year>2010</year>. “<article-title>Hereditary and Familial Colon Cancer</article-title>.” <source>Gastroenterology</source>
+<volume>138</volume>: <fpage>2044</fpage>–<lpage>2058</lpage>. <pub-id pub-id-type="doi">10.1053/j.gastro.2010.01.054</pub-id>
+<pub-id pub-id-type="pmid">20420945</pub-id>
+<pub-id pub-id-type="pmcid">PMC3057468</pub-id></mixed-citation></ref><ref id="imt2195-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt2195-cit-0013">
+<string-name name-style="western">
+<surname>Köberle</surname>, <given-names>Beate</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Sarah</given-names>
+<surname>Schoch</surname>
+</string-name>. <year>2021</year>. “<article-title>Platinum Complexes in Colorectal Cancer and Other Solid Tumors</article-title>.” <source>Cancers</source>
+<volume>13</volume>: <elocation-id>2073</elocation-id>. <pub-id pub-id-type="doi">10.3390/cancers13092073</pub-id>
+<pub-id pub-id-type="pmid">33922989</pub-id>
+<pub-id pub-id-type="pmcid">PMC8123298</pub-id></mixed-citation></ref><ref id="imt2195-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt2195-cit-0014">
+<string-name name-style="western">
+<surname>Leclerc</surname>, <given-names>Daniel</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nancy</given-names>
+<surname>Lévesque</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuanhang</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liyuan</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qing</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jasmine</given-names>
+<surname>Powell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Carmen</given-names>
+<surname>Sapienza</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Rima</given-names>
+<surname>Rozen</surname>
+</string-name>. <year>2013</year>. “<article-title>Genes With Aberrant Expression in Murine Preneoplastic Intestine Show Epigenetic and Expression Changes in Normal Mucosa of Colon Cancer Patients</article-title>.” <source>Cancer Prevention Research</source>
+<volume>6</volume>: <fpage>1171</fpage>–<lpage>1181</lpage>. <pub-id pub-id-type="doi">10.1158/1940-6207.Capr-13-0198</pub-id>
+<pub-id pub-id-type="pmid">24169962</pub-id>
+</mixed-citation></ref><ref id="imt2195-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt2195-cit-0015">
+<string-name name-style="western">
+<surname>An</surname>, <given-names>Sanqi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yueqi</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yao</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiemei</given-names>
+<surname>Chu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jinming</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qiuli</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hailong</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Genome‐Wide Profiling Reveals Alternative Polyadenylation of Innate Immune‐Related mRNA in Patients With COVID‐19</article-title>.” <source>Frontiers in immunology</source>
+<volume>12</volume>: <elocation-id>756288</elocation-id>. <pub-id pub-id-type="doi">10.3389/fimmu.2021.756288</pub-id>
+<pub-id pub-id-type="pmid">34777369</pub-id>
+<pub-id pub-id-type="pmcid">PMC8578971</pub-id></mixed-citation></ref><ref id="imt2195-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt2195-cit-0016">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>Jie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lulu</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Frank J.</given-names>
+<surname>Gonzalez</surname>
+</string-name>. <year>2022</year>. “<article-title>Gut Microbiota‐Derived Bile Acids in Intestinal Immunity, Inflammation, and Tumorigenesis</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>30</volume>: <fpage>289</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2022.02.004</pub-id>
+<pub-id pub-id-type="pmid">35271802</pub-id>
+<pub-id pub-id-type="pmcid">PMC8923532</pub-id></mixed-citation></ref><ref id="imt2195-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt2195-cit-0017">
+<string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Ge‐Yu‐Jia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dong‐Yan</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Teng‐Fei</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qian‐Qian</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuan‐Chen</given-names>
+<surname>Zhou</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Shu‐Kun</given-names>
+<surname>Yao</surname>
+</string-name>. <year>2023</year>. “<article-title>Proteomics‐Based Identification of Proteins in Tumor‐Derived Exosomes as Candidate Biomarkers for Colorectal Cancer</article-title>.” <source>World Journal of Gastrointestinal Oncology</source>
+<volume>15</volume>: <fpage>1227</fpage>–<lpage>1240</lpage>. <pub-id pub-id-type="doi">10.4251/wjgo.v15.i7.1227</pub-id>
+<pub-id pub-id-type="pmid">37546562</pub-id>
+<pub-id pub-id-type="pmcid">PMC10401461</pub-id></mixed-citation></ref><ref id="imt2195-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt2195-cit-0018">
+<string-name name-style="western">
+<surname>Pan</surname>, <given-names>Yi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xiujuan</given-names>
+<surname>Lei</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yuchen</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2021</year>. “<article-title>Association Predictions of Genomics, Proteinomics, Transcriptomics, Microbiome, Metabolomics, Pathomics, Radiomics, Drug, Symptoms, Environment Factor, and Disease Networks: A Comprehensive Approach</article-title>.” <source>Medicinal Research Reviews</source>
+<volume>42</volume>: <fpage>441</fpage>–<lpage>461</lpage>. <pub-id pub-id-type="doi">10.1002/med.21847</pub-id>
+<pub-id pub-id-type="pmid">34346083</pub-id>
+</mixed-citation></ref></ref-list></back></article>
