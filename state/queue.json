@@ -84,6 +84,12 @@
   },
   {
    "id": "R7_review_round_7",
+   "status": "done",
+   "attempts": 1,
+   "note": "8/8/8 minor, no MAJOR"
+  },
+  {
+   "id": "R8_review_round_8",
    "status": "running",
    "attempts": 1
   }

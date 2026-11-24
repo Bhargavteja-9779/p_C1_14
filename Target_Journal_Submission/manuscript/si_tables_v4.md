@@ -95,7 +95,7 @@ pi_lo/pi_hi: 95% prediction interval; oob_obs/oob_exp: share of populations outs
 | 16   | 2026-11-23 |       3 | Composition-matched reference (k nearest populations by CLR-PCA centroid)                                                      | DEV                          | FALSIFIED                                                                                              | Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md     |
 | 17   | 2026-11-23 |       3 | Label-free burn-in self-calibration with contamination bound + exact sample-size law                                           | DEV                          | NEXT                                                                                                   | Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md     |
 | 18   | 2026-11-23 |       3 | (post hoc; after prior-art check) Control augmentation (Wirbel 2021 Genome Biol): add DEV healthy cohorts as training controls | DEV                          | FAILS to restore per-population FPR; strongest foil for the paper                                      | Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md     |
-| v4-1 | 2026-11-24 |       4 | ALIGN: label-free ComBat-style feature alignment on burn-in N=100                                                              | ALL (pre-stated P5)          | better than SRC (-35 to -47%) but worse than BURN 7/7 locked; Holm P=0.125                             | Target_Journal_Submission/code/experiments/atlas/v4/results/summary_v4.json   |
+| v4-1 | 2026-11-24 |       4 | ALIGN: label-free ComBat-style feature alignment on burn-in N=100                                                              | ALL (pre-stated P5)          | better than SRC (-35 to -47%) but worse than BURN 7/7 locked; see Table S10 for Holm over 34 tests     | Target_Journal_Submission/code/experiments/atlas/v4/results/summary_v4.json   |
 | v4-2 | 2026-11-24 |       4 | Control augmentation re-run on de-duplicated data                                                                              | LOCKED (post hoc comparator) | no overall gain (0.078 vs 0.087; P=0.58); helps IBD; harms CRC LASSO & T2D RF                          | Target_Journal_Submission/code/experiments/atlas/v4/results/h2h_v4.json       |
 | v4-3 | 2026-11-24 |       4 | BURN under within-site non-random splits (H-NX1)                                                                               | ALL (pre-stated P4)          | 48% error reduction (threshold 50%) -> NOT SUPPORTED as stated; covariate/accession ok; sub-site fails | Target_Journal_Submission/code/experiments/atlas/v4/results/summary_v4.json   |
 | v4-4 | 2026-11-24 |       4 | BURN from neighbouring cohort same country (H-NX2)                                                                             | ALL (pre-stated P4)          | fails as predicted (P(FPR>.15)=0.30) -> SUPPORTED                                                      | Target_Journal_Submission/code/experiments/atlas/v4/results/summary_v4.json   |
@@ -818,3 +818,11 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
   "wilcoxon_p": 0.0078125
  }
 }
+
+## Table S15. Post hoc (review round 7): per 1,000 people screened at 1% prevalence (pooled locked case–control cohorts, N = 100, pi = pi_max = 0.01; optimistic because sensitivity comes from diagnosed patients)
+| method   |   sens |   fpr |   ppv |   false_positives_per_1000 |   cancers_detected_per_1000 |
+|:---------|-------:|------:|------:|---------------------------:|----------------------------:|
+| BURN     |  0.227 | 0.087 | 0.026 |                     86.300 |                       2.270 |
+| BURN-PAC |  0.148 | 0.048 | 0.030 |                     47.100 |                       1.480 |
+| LAB      |  0.247 | 0.098 | 0.025 |                     97.200 |                       2.470 |
+| SRC      |  0.464 | 0.288 | 0.016 |                    285.200 |                       4.640 |

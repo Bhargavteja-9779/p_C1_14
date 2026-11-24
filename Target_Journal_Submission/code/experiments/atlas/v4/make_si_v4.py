@@ -89,5 +89,8 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
 
 ## Table S14. Post hoc (review round 6): local-vs-country reference by population, and Holm summary
 {json.dumps(json.load(open(R("r6_posthoc.json"))), indent=1)}
+
+## Table S15. Post hoc (review round 7): per 1,000 people screened at 1% prevalence (pooled locked case–control cohorts, N = 100, pi = pi_max = 0.01; optimistic because sensitivity comes from diagnosed patients)
+{md(pd.read_csv(R("r7_per1000.csv")))}
 """
 open(os.path.join(MS, "si_tables_v4.md"), "w").write(out); print("written", len(out))

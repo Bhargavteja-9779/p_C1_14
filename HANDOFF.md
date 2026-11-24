@@ -1,13 +1,14 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
-**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 7 on manuscript v8
+**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 8 on manuscript v9
 
 ## NEXT ACTION
-Review round 7 (fresh statistics / novelty / editor) on manuscript v8
-(Target_Journal_Submission/manuscript/manuscript_v8.md, figures_v7/, supporting_information_v4.md, si_tables_v4.md).
-Rounds 5 and 6 were all minor revision (7/8/7.5 twice) but each had MAJOR items, so G10 (two consecutive rounds with
-no unresolved MAJOR) is not yet met. If round 7 has no MAJOR and round 8 also not -> G10 met -> final package.
+Review round 8 (fresh statistics / novelty / editor) on manuscript v9
+(Target_Journal_Submission/manuscript/manuscript_v9.md, figures_v8/, supporting_information_v4.md, si_tables_v4.md).
+Round 7 was the first round with no MAJOR from any reviewer (8/8/8, minor). If round 8 also has no MAJOR -> G10 met ->
+final package: FINAL_REPORT.md, cover letter for v9, highlights file, docx export, state FINISHED-pending-authors.
+Full reproducibility run: scripts/repro_full.sh (log -> logs/repro_full_<date>.log).
 BLOCKED ON USER: DEBIAS-M comparator (needs a Python 3.11 + CPU torch environment; install was denied by the permission
 system). Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 
@@ -34,7 +35,7 @@ Cycle 4: ~0.5 h CPU wall-clock of 15 h (dedup 1 min, atlas 2 min, deploy ~6 min,
 | G7 generalization | partial | 3 diseases × 2 models × ~60 populations; needs strict subset + non-random splits |
 | G8 leakage | pass | global dedup v4/dedup.py (119 samples removed) |
 | G9 reproducibility | pass | fresh clone from GitHub + v4 pipeline gave identical outputs (scratchpad repro.sh); data rebuild script pinned |
-| G10 review | in progress | r3: 7/6/5; r4: 7/8/incomplete; r5: stats 7 minor, novelty 8 minor, editor 7.5 minor (MAJOR wording items fixed) -> v7; r6: 7/8/7.5 minor (3 MAJOR, fixed in v8) |
+| G10 review | in progress | r3: 7/6/5; r4: 7/8/incomplete; r5: stats 7 minor, novelty 8 minor, editor 7.5 minor (MAJOR wording items fixed) -> v7; r6: 7/8/7.5 minor (3 MAJOR, fixed in v8); r7: 8/8/8 minor, NO MAJOR (1st clean) -> v9; r8 running |
 | G11 number audit | pass (lenient) | scripts/audit_numbers.py: 161/161 numbers of v4 match a result value (lenient: any value in results dirs) |
 
 ## Last decisions / failures
