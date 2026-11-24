@@ -8,13 +8,14 @@
   },
   {
    "id": "R2.1_dedup_strict_subset",
-   "status": "pending",
-   "attempts": 0
+   "status": "done",
+   "attempts": 0,
+   "note": "119 samples removed; ThomasAM_2019_c dropped"
   },
   {
    "id": "R2.2_atlas_rerun_dedup",
-   "status": "pending",
-   "attempts": 0
+   "status": "running",
+   "attempts": 1
   },
   {
    "id": "R2.3_heterogeneity_tau_I2_PI",
