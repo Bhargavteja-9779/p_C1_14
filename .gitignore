@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 Target_Journal_Submission/code/experiments/dev/*.log
 Target_Journal_Submission/code/experiments/final/*.log
+# raw per-replicate CSVs are large; committed gzipped (*.csv.gz) when a run finishes
+Target_Journal_Submission/code/experiments/final/*.csv
+Target_Journal_Submission/code/experiments/dev/*.csv
