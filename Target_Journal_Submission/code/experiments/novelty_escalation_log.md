@@ -289,3 +289,12 @@ prevalence-bounded .099/.071/.509; verified-positive .087/.004/.514. Caveat: sma
 Prevalence-bounded quantile run within recorded groups equalises FPR as well as the verified-positive rule
 (LASSO months 7-18: HF 0.086 vs 0.080, T2D 0.093 vs 0.094, controls 0.092 vs 0.093; sensitivity proxy equal).
 => per-group control is a property of local recalibration, not specific to the verified-positive rule.
+
+## Post hoc P8 (2026-11-24): site-level explanation (posthoc_site_explain.py; LASSO, 11 CRC sites)
+Site FPR tracks the total control-score shift (Spearman 0.88) but no single component or covariate (oral 0.29, depletion
+0.38, other 0.22, Shannon -0.26, depth 0.37, age 0.18; all p > 0.25). Drivers differ by site: Gupta 2019 (India) commensal
+depletion; Zeller/Vogtmann other taxa; Japanese sites oral + depletion. Reference = in-sample training controls, so
+absolute shifts are biased upward; ranks are informative. => site failures are not predictable from simple metadata.
+## Post hoc P9: net benefit (posthoc_net_benefit.py)
+NB per 1,000 = detected cancers - w x false positives. Locked CRC sites: source -2.91 / 2.70 / 4.57 vs verified-positive
+0.14 / 3.26 / 4.29 for w = 1/20, 1/50, 1/100; break-even 75 false positives per extra cancer (11 CRC sites: 156).

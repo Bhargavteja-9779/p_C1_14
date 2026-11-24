@@ -1,0 +1,21 @@
+           site        role   fpr  shift_total  shift_oral  shift_depletion  shift_other  shannon  depth_M    kit country  age
+    GuptaA_2019 development 0.367        1.286      -0.148            1.709       -0.274    2.950    9.257 Qiagen     IND 40.0
+   ZellerG_2014 development 0.279        0.761       0.294           -0.306        0.773    3.491   64.904  Gnome     FRA 63.0
+ThomasAM_2019_c      locked 0.275        0.915       0.395            0.464        0.056    3.256   43.660     NA     JPN 66.0
+ ThomasAM_2018a development 0.250        0.879      -0.096            0.854        0.121    3.266   98.680 Qiagen     ITA 67.5
+ VogtmannE_2016 development 0.250        0.789       0.046            0.097        0.646    3.405   67.637  Gnome     USA 63.0
+  YachidaS_2019      locked 0.175        0.820       0.294            0.480        0.047    3.290   44.165     NA     JPN 63.0
+       YuJ_2015      locked 0.111        0.590       0.236           -0.050        0.404    3.347   59.099 Qiagen     CHN 63.0
+     FengQ_2015 development 0.049        0.166       0.159           -0.023        0.031    3.399   50.836  MoBio     AUT 68.0
+   WirbelJ_2018 development 0.046        0.269      -0.114            0.276        0.107    3.434   35.922  Gnome     DEU 58.0
+ ThomasAM_2018b development 0.036       -0.113       0.037           -0.332        0.181    3.509   38.210  Gnome     ITA 58.0
+HanniganGD_2017 development 0.000       -0.660      -0.141            0.374       -0.892    3.223    6.656  MoBio     USA 54.0
+
+Spearman correlation with site FPR (11 sites):
+  shift_total      rho = +0.88  p = 0.000
+  shift_oral       rho = +0.29  p = 0.384
+  shift_depletion  rho = +0.38  p = 0.252
+  shift_other      rho = +0.22  p = 0.509
+  shannon          rho = -0.26  p = 0.432
+  depth_M          rho = +0.37  p = 0.264
+  age              rho = +0.18  p = 0.587
