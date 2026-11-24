@@ -13,9 +13,9 @@ Commit + push after every phase (auto-save).
 - [x] STEP 1: benchmark 25 papers, level profile, style notes
 - [x] STEP 2: real-life problem discovery
 - [x] STEP 3: novelty map + scorecard (2026-11-24; 76 verified rows)
-- [ ] Protocol pre-registration
-- [ ] First working version
-- [ ] Novelty escalation loop (D6)
+- [x] Protocol pre-registration (code/experiments/protocol.md, 2026-11-24)
+- [x] First working version (src/calibrate.py; dev rounds 1-4)
+- [x] Novelty escalation loop (D6) rounds 1-4 (experiments/novelty_escalation_log.md); RF round 3 confirmation running
 - [ ] Final experiments
 - [ ] Manuscript
 - [ ] Reviews 1-11
