@@ -29,3 +29,16 @@ Secondary/descriptive: FPR vs AUROC across tests (does a better test have a more
 (world map); per-population "false-alarm index" = mean over tests of logit FPR deviation.
 Multiplicity: H1-H4 are the confirmatory family (Holm over their P values where a P value exists).
 Every other analysis is labelled exploratory.
+
+## Addendum A (2026-11-24, written AFTER the exploratory explore_v5.py result on the strict set, BEFORE the replication)
+Exploratory finding on the 36 strict populations: (i) populations outside Europe/North America (country list EUNA in
+explore_v5.py, fixed) have a higher cross-test false-alarm index; (ii) a population's compositional distance from a
+test's training controls is positively rank-correlated with its FPR in 12/14 LASSO tests.
+Replication set (never used for (i)-(ii)): populations in the FULL de-duplicated set that are NOT in the strict set
+(study-level exclusions; all adult controls), n >= 20, each test excluding its training cohorts.
+H5: distance-to-training vs FPR Spearman rho > 0 in >= 9 of 14 LASSO tests (one-sided sign test P < 0.05).
+    WRONG if <= 7 of 14.
+H6: false-alarm index (mean over the 14 LASSO tests of logit-FPR deviation from the test mean, computed on the
+    replication populations plus the strict populations as reference) is higher for non-EUNA than EUNA replication
+    populations (one-sided Mann-Whitney P < 0.05). WRONG if the median difference is <= 0.
+RF results are reported as secondary.
