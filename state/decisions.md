@@ -11,3 +11,4 @@
 - 2026-11-24 A3 (non-westernised over-flagged by CRC test) is now mixed: strict LASSO supported (P=0.016), RF and full set not. Report both, no pick.
 - 2026-11-24 USER DIRECTIVE (USER_DIRECTIVES.md): v10 judged not good enough; continue improving until top-notch vs iMeta benchmark, no permission asks. Cycle 5 starts. FINAL_REPORT.md status superseded.
 - 2026-11-24 (session festive-cori) Fast-forwarded working branch `claude/festive-cori-jft724` to `claude/trusting-mayer-1ipvjz` (newest line; festive-cori was its ancestor). Ran Addendum A replication once: H5 LASSO INCONCLUSIVE (10/14, P=0.090), H6 INCONCLUSIVE (4 non-EUNA pops). Geography/distance stays exploratory in the manuscript. Next: step 5.1 benchmark_v2.
+- 2026-11-24 Built `fprcal` tool (code/tool) because benchmark-style iMeta papers ship tools/resources; added post hoc verification-power analysis (verify_power_v5.py). DEBIAS-M install denied again -> still blocked on user.
