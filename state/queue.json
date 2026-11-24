@@ -60,8 +60,8 @@
   },
   {
    "id": "R3_review_round_3",
-   "status": "pending",
-   "attempts": 0
+   "status": "running",
+   "attempts": 1
   }
  ]
 }

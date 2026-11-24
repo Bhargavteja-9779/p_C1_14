@@ -1,12 +1,13 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
-**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 2 → major revision (manuscript v3 → v4)
+**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 3 on manuscript v4
 
 ## NEXT ACTION
-R2.1: global cross-cohort duplicate detection over all case-control + healthy cohorts (profiles only, r > 0.99), and a
-strict-healthy subset definition (person- and study-level rules from review_r2_02_domain_v3.md). Then R2.2: re-run the atlas.
-Full job list: `python3 scripts/status.py` (state/queue.json).
+Review round 3 on manuscript v4 (Target_Journal_Submission/manuscript/manuscript_v4.md). Reports go to
+Target_Journal_Submission/reviews/review_r3_0{1,2,3}_*.md. If they are missing (session died), relaunch three fresh
+reviewers (statistics, novelty/prior art with web search, editor/clarity/reproducibility). Then triage into
+reviews/round3_response.md, fix, and run round 4. Also pending: SI v4 tables (make_si_v4.py), flow diagram, workflow schematic.
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).
@@ -17,7 +18,7 @@ Full job list: `python3 scripts/status.py` (state/queue.json).
 Nothing. (No GPU; everything is CPU, minutes per job.)
 
 ## Compute
-Cycle 4: ~0 h of 15 h. Global: earlier cycles not logged (UNVERIFIED, all CPU, small). Ceiling 120 h.
+Cycle 4: ~0.5 h CPU wall-clock of 15 h (dedup 1 min, atlas 2 min, deploy ~6 min, augmentation ~12 min). Global: earlier cycles not logged (UNVERIFIED, all CPU, small). Ceiling 120 h.
 
 ## Gate status (honest)
 | Gate | Status | Evidence / gap |
@@ -25,14 +26,14 @@ Cycle 4: ~0 h of 15 h. Global: earlier cycles not logged (UNVERIFIED, all CPU, s
 | G1 journal | partial | iMeta Letter passes the 72-day rule; JCR quartile not verified first-hand |
 | G2 prior art | pass (to re-check) | RECHECK/stage3 novelty_map.csv (85 records) + journal_selection/novelty_map.csv (50) |
 | G3 novelty ≥20/25 | unknown | self-score 24/30 (old scale); editor: "burn-in rule = adaptation, not a methods advance" |
-| G4 baselines | partial | status quo, control augmentation, residual/atlas/matched references; no batch-correction comparator yet |
-| G5 confirmation win | at risk | locked criterion met in v3, but 2 of 3 criteria are true by construction (stats review) and locked set has duplicates |
+| G4 baselines | partial | status quo, control augmentation, pooled/country/matched references, ComBat-style ALIGN; no MMUPHin/DEBIAS-M |
+| G5 confirmation win | partial | burn-in beats status quo: strict set 11/11 populations, Holm P=0.0098; within-site non-random Holm P=0.022; but pre-stated H-NX1 (≥50%) missed (48%); 7-population locked tests not Holm-significant |
 | G6 ablation | n/a / partial | burn-in vs PAC vs augmentation |
 | G7 generalization | partial | 3 diseases × 2 models × ~60 populations; needs strict subset + non-random splits |
-| G8 leakage | FAIL | cross-cohort duplicates found in round 2 (R2.1 fixes) |
+| G8 leakage | pass | global dedup v4/dedup.py (119 samples removed) |
 | G9 reproducibility | unknown | no fresh-clone test yet |
 | G10 review | fail | round 2: editor borderline, statistics MAJOR |
-| G11 number audit | not built | scripts/audit_numbers.py to write |
+| G11 number audit | pass (lenient) | scripts/audit_numbers.py: 161/161 numbers of v4 match a result value (lenient: any value in results dirs) |
 
 ## Last decisions / failures
 See state/decisions.md and journal/ENTRIES/. Failures so far (cycle 3, DEV): healthy-context residual, pooled atlas
