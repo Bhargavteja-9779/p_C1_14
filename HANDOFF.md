@@ -1,12 +1,13 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
-**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 4 on manuscript v5
+**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 5 on manuscript v6
 
 ## NEXT ACTION
-Review round 4 on manuscript v5 (Target_Journal_Submission/manuscript/manuscript_v5.md; figures_v5/; SI:
-supporting_information_v4.md + si_tables_v4.md). Reports -> reviews/review_r4_0{1,2,3}_*.md. If missing, relaunch three
-fresh reviewers. G10 needs two consecutive rounds at accept/minor with no unresolved MAJOR.
+Review round 5 (fresh statistics / novelty / editor reviewers) on manuscript v6
+(Target_Journal_Submission/manuscript/manuscript_v6.md, figures_v5/, supporting_information_v4.md, si_tables_v4.md).
+Reports -> reviews/review_r5_0{1,2,3}_*.md. Round 4: editor 7 minor, novelty 8 minor, statistics did not finish (usage
+limit). G10 needs two consecutive rounds with all three at accept/minor and no unresolved MAJOR.
 BLOCKED ON USER: DEBIAS-M comparator (needs a Python 3.11 + CPU torch environment; install was denied by the permission
 system). Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 
@@ -33,7 +34,7 @@ Cycle 4: ~0.5 h CPU wall-clock of 15 h (dedup 1 min, atlas 2 min, deploy ~6 min,
 | G7 generalization | partial | 3 diseases × 2 models × ~60 populations; needs strict subset + non-random splits |
 | G8 leakage | pass | global dedup v4/dedup.py (119 samples removed) |
 | G9 reproducibility | pass | fresh clone from GitHub + v4 pipeline gave identical outputs (scratchpad repro.sh); data rebuild script pinned |
-| G10 review | fail | round 3: stats 7 minor, novelty 6 major, editor 5 major -> v5 |
+| G10 review | in progress | r3: 7/6/5; r4: editor 7 minor, novelty 8 minor, stats incomplete -> v6; r5 running |
 | G11 number audit | pass (lenient) | scripts/audit_numbers.py: 161/161 numbers of v4 match a result value (lenient: any value in results dirs) |
 
 ## Last decisions / failures

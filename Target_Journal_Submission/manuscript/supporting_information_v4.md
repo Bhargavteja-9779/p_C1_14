@@ -1,7 +1,7 @@
 # Supporting Information (v4)
 
-Tables S1–S11 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
-Figure S1 is `figures_v4/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
+Tables S1–S12 are in `si_tables_v4.md` (generated from result files by `code/experiments/atlas/v4/make_si_v4.py`).
+Figure S1 is `figures_v5/FigureS1_atlas_rf_strict.pdf`. Code paths are relative to `Target_Journal_Submission/code/`.
 
 ## S1. Methods
 

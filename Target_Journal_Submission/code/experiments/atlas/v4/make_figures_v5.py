@@ -60,9 +60,9 @@ designs = [("random\nsplit", "random/all_full/N100"), ("age/BMI/\nsex halves", "
 for i, (lab, k) in enumerate(designs):
     for j, meth in enumerate(["SRC", "BURN"]):
         v = S[f"{k}/{meth}"]["p15"]; ax[1].bar(i + (j - .5) * .38, v["mean"], .36, color=C[meth], yerr=[[v["mean"] - v["lo"]], [v["hi"] - v["mean"]]], error_kw=dict(lw=.6), label=LAB[meth] if i == 0 else None)
-    ax[1].text(i, -0.06, f"{S[f'{k}/BURN']['p15']['populations']} pop.", ha="center", fontsize=5)
+    ax[1].text(i, -0.06, f"{S[f'{k}/BURN']['p15']['populations']} " + ("studies" if "subsite" in k else "pop."), ha="center", fontsize=5)
 ax[1].set_xticks(range(len(designs))); ax[1].set_xticklabels([d[0] for d in designs], fontsize=5.5); ax[1].set_ylabel("share of burn-ins with FPR > 0.15"); ax[1].set_ylim(-0.08, None)
-ax[1].set_title("B  where the burn-in comes from", loc="left", fontsize=7); ax[1].legend(fontsize=6, frameon=False)
+ax[1].set_title("B  where the burn-in comes from", loc="left", fontsize=7); ax[1].legend(fontsize=6, frameon=False, loc="upper left")
 cs = pd.read_csv(os.path.join(OUT, "deploy_v4_cc_summary.csv")); cs = cs[(cs.N == 100) & (cs.pi == cs.pimax) & (cs.pi > 0)]
 for meth in ["SRC", "BURN", "BURN-PAC"]:
     g = cs[cs.method == meth].sort_values("pi"); ax[2].plot(g.pi, g.fpr, "o-", c=C[meth], ms=3, label=f"{LAB[meth]}: FPR"); ax[2].plot(g.pi, g.sens, "o--", c=C[meth], ms=3, alpha=.6, label=f"{LAB[meth]}: sensitivity")

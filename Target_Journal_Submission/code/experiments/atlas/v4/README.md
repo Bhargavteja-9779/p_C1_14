@@ -24,10 +24,12 @@ export CMD_CACHE=$PWD/data_cache
 | augmentation | `control_augmentation_v4.py` then `h2h_v4.py` | control_augmentation_v4.csv, h2h_v4.json | 12 min |
 | multiplicity | `holm_v4.py` | holm_v4.csv | <1 s |
 | counts | `counts_v4.py` | counts_v4.json | <1 min |
-| figures | `make_figures_v4.py` | ../../../../manuscript/figures_v4/ | <1 min |
+| post hoc (review round 3) | `r3_posthoc.py` | r3_posthoc.json, r3_a5_fair.csv | 1 min |
+| figures (manuscript v5/v6) | `make_figures_v5.py`, `make_graphical_abstract.py` | ../../../../manuscript/figures_v5/, ga_inband.json | <1 min |
+| figures (manuscript v4, superseded) | `make_figures_v4.py` | ../../../../manuscript/figures_v4/ | <1 min |
 | SI tables | `make_si_v4.py` | ../../../../manuscript/si_tables_v4.md | <1 min |
 
-Then from the repository root: `python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v4.md`
+Then from the repository root: `python3 scripts/audit_numbers.py Target_Journal_Submission/manuscript/manuscript_v6.md` (current version)
 checks that every number in the manuscript matches a value in the result files.
 
 ## Software

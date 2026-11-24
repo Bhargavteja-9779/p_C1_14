@@ -1,0 +1,7 @@
+{
+ "units": 46,
+ "populations": 8,
+ "training_cutoff": 0.3695652173913043,
+ "country_reference": 0.45652173913043476,
+ "local_100": 0.7903260869565218
+}
