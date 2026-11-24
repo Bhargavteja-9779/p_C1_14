@@ -9,10 +9,10 @@ Done in cycle 5: 14-test atlas (H1-H4), Addendum A replication run once (H5 LASS
 H6 INCONCLUSIVE, only 4 non-EUNA pops -> geography stays EXPLORATORY), `fprcal` tool (code/tool, 11 tests pass),
 post hoc verification power (verify_power_v5.py: n=100 local healthy detects FPR>0.25 with power 0.98),
 Figure 1 v11 draft (manuscript/figures_v11/figure1_atlas.*; script v5/make_fig_atlas_v11.py).
-IN PROGRESS: step 5.1 benchmark_v2 (journal_selection/benchmark_v2/: benchmark_v2.csv, style_v2.md, scorecard.md,
-benchmark_scores.csv). If missing, rebuild it.
-THEN: 5.2 gap analysis v10 vs benchmark -> 5.3 remaining analyses (Figure 2: taxa + burn-in/verify panel) ->
-5.4 rewrite as manuscript_v11 (14-test atlas + tool, iMeta style) -> 5.5 blind scorecard + 3-reviewer rounds.
+DONE: benchmark_v2 (45 iMeta papers, scorecard P75 total 69.25), manuscript_v11.md (Letter, figures_v11/), audit 82/82.
+IN PROGRESS: review round 9 on v11 (reviews/review_r9_0{1,2,3}_*.md + reviews/scorecard_r9_v11.md). If missing, relaunch.
+THEN: triage round 9 -> v12 -> repeat until USER_DIRECTIVES rule 3 (scorecard >= P75 on every dimension AND
+accept/minor) and two clean rounds. Also: Supporting Information v11 (SI numbering in v11 refers to S1-S4; regenerate).
 BLOCKED ON USER: DEBIAS-M comparator (pip install from GitHub denied by the permission system twice; CPU torch installs fine).
 Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 
