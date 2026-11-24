@@ -89,3 +89,9 @@ screening prevalence; (3) a contamination-robust rank rule on the lab's own unla
 finite-sample FPR guarantee, with an explicit sample-size rule; (4) consequences per 1,000 screened.
 Novelty claim limited to (3)'s contamination-robust extension of the Wilks tolerance bound + its microbiome-screening
 evaluation + the negative results (2), which are new for microbiome diagnostics.
+
+## Round 3 confirmation with random forest (explore_v3.py rf, R=30) - 2026-11-24
+cohort-RMSE (pi = 0 / 0.01 / 0.05 / 0.2 / nat): source 0.125 (all); local_q 0.046/0.046/0.023/0.064/0.088;
+featstd 0.312/0.312/0.239/0.187/0.144; shift2 0.267/0.267/0.218/0.184/0.136; hybrid10 0.110-0.100; ctrl10 0.021;
+anchor10 0.083; anchorloc10 0.103. RF source mean FPR is 0.092 (close to target on average) but per-cohort errors are
+large in both directions (RMSE 0.125): averaging hides the failure. Same ranking as LASSO -> protocol unchanged.
