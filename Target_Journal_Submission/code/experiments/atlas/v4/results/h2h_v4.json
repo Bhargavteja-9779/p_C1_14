@@ -1,0 +1,33 @@
+{
+ "aug_vs_noaug_all_locked": {
+  "units": 154,
+  "pops": 29,
+  "aug_mad": 0.07776043395188464,
+  "src_mad": 0.08712660646253635,
+  "wilcoxon_pop_p": 0.5792817249894142
+ },
+ "burn_vs_aug_N50": {
+  "units": 50,
+  "pops": 9,
+  "burn_mad": 0.03919079872747535,
+  "aug_mad": 0.06668240039874722,
+  "diff": -0.027491601671271865,
+  "lo": -0.05911967692664481,
+  "hi": -0.00577896075197623,
+  "units_burn_better": 35,
+  "pops_burn_better": 6,
+  "wilcoxon_pop_p": 0.0546875
+ },
+ "burn_vs_aug_N100": {
+  "units": 38,
+  "pops": 7,
+  "burn_mad": 0.029205290789960398,
+  "aug_mad": 0.06345200781562203,
+  "diff": -0.03424671702566165,
+  "lo": -0.07559621382252915,
+  "hi": -0.006597682882454474,
+  "units_burn_better": 27,
+  "pops_burn_better": 4,
+  "wilcoxon_pop_p": 0.21875
+ }
+}
