@@ -1,0 +1,16 @@
+10.3322/caac.21660   # Sung GLOBOCAN 2020
+10.1038/s41591-019-0406-6 # Wirbel 2019 Nat Med
+10.1038/s41591-019-0405-7 # Thomas 2019 Nat Med
+10.1371/journal.pcbi.1004977 # Pasolli 2016
+10.1038/nmeth.4468 # Pasolli 2017 curatedMetagenomicData
+10.1162/089976602753284446 # Saerens 2002
+10.1186/s12916-019-1466-7 # Van Calster 2019 calibration Achilles heel
+10.1038/s41467-017-01973-8 # Duvallet 2017 meta-analysis
+10.1038/s41591-019-0458-7 # Yachida 2019
+10.15252/msb.20145645 # Zeller 2014
+10.1186/s13059-021-02306-1 # SIAMCAT Wirbel 2021
+10.1038/s41467-020-18476-8 # Gupta GMHI 2020
+10.1186/s13059-022-02753-4 # MMUPHin? 
+10.1371/journal.pcbi.1006102 # Gibbons percentile normalization 2018
+10.1053/j.gastro.2019.03.011 # Selby FIT thresholds?
+10.1214/aos/1176350366 # ?

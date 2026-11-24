@@ -1,0 +1,172 @@
+[
+ {
+  "doi": "10.3322/caac.21660",
+  "ok": true,
+  "first": "Sung",
+  "n_auth": 7,
+  "year": 2021,
+  "title": "Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries",
+  "venue": "CA: A Cancer Journal for Clinicians",
+  "vol": "71",
+  "page": "209-249"
+ },
+ {
+  "doi": "10.1038/s41591-019-0406-6",
+  "ok": true,
+  "first": "Wirbel",
+  "n_auth": 35,
+  "year": 2019,
+  "title": "Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer",
+  "venue": "Nature Medicine",
+  "vol": "25",
+  "page": "679-689"
+ },
+ {
+  "doi": "10.1038/s41591-019-0405-7",
+  "ok": true,
+  "first": "Thomas",
+  "n_auth": 39,
+  "year": 2019,
+  "title": "Metagenomic analysis of colorectal cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation",
+  "venue": "Nature Medicine",
+  "vol": "25",
+  "page": "667-678"
+ },
+ {
+  "doi": "10.1371/journal.pcbi.1004977",
+  "ok": true,
+  "first": "Pasolli",
+  "n_auth": 5,
+  "year": 2016,
+  "title": "Machine Learning Meta-analysis of Large Metagenomic Datasets: Tools and Biological Insights",
+  "venue": "PLOS Computational Biology",
+  "vol": "12",
+  "page": "e1004977"
+ },
+ {
+  "doi": "10.1038/nmeth.4468",
+  "ok": true,
+  "first": "Pasolli",
+  "n_auth": 14,
+  "year": 2017,
+  "title": "Accessible, curated metagenomic data through ExperimentHub",
+  "venue": "Nature Methods",
+  "vol": "14",
+  "page": "1023-1024"
+ },
+ {
+  "doi": "10.1162/089976602753284446",
+  "ok": true,
+  "first": "Saerens",
+  "n_auth": 3,
+  "year": 2002,
+  "title": "Adjusting the Outputs of a Classifier to New a\n                    <i>Priori</i>\n                    Probabilities: A Simple Procedure",
+  "venue": "Neural Computation",
+  "vol": "14",
+  "page": "21-41"
+ },
+ {
+  "doi": "10.1186/s12916-019-1466-7",
+  "ok": true,
+  "first": "On behalf of Topic Group \u2018Evaluating diagnostic tests and prediction models\u2019 of the STRATOS initiative",
+  "n_auth": 6,
+  "year": 2019,
+  "title": "Calibration: the Achilles heel of predictive analytics",
+  "venue": "BMC Medicine",
+  "vol": "17",
+  "page": "230"
+ },
+ {
+  "doi": "10.1038/s41467-017-01973-8",
+  "ok": true,
+  "first": "Duvallet",
+  "n_auth": 5,
+  "year": 2017,
+  "title": "Meta-analysis of gut microbiome studies identifies disease-specific and shared responses",
+  "venue": "Nature Communications",
+  "vol": "8",
+  "page": "1784"
+ },
+ {
+  "doi": "10.1038/s41591-019-0458-7",
+  "ok": true,
+  "first": "Yachida",
+  "n_auth": 30,
+  "year": 2019,
+  "title": "Metagenomic and metabolomic analyses reveal distinct stage-specific phenotypes of the gut microbiota in colorectal cancer",
+  "venue": "Nature Medicine",
+  "vol": "25",
+  "page": "968-976"
+ },
+ {
+  "doi": "10.15252/msb.20145645",
+  "ok": true,
+  "first": "Zeller",
+  "n_auth": 26,
+  "year": 2014,
+  "title": "Potential of fecal microbiota for early\u2010stage detection of colorectal cancer",
+  "venue": "Molecular Systems Biology",
+  "vol": "10",
+  "page": "MSB145645"
+ },
+ {
+  "doi": "10.1186/s13059-021-02306-1",
+  "ok": true,
+  "first": "Wirbel",
+  "n_auth": 9,
+  "year": 2021,
+  "title": "Microbiome meta-analysis and cross-disease comparison enabled by the SIAMCAT machine learning toolbox",
+  "venue": "Genome Biology",
+  "vol": "22",
+  "page": "93"
+ },
+ {
+  "doi": "10.1038/s41467-020-18476-8",
+  "ok": true,
+  "first": "Gupta",
+  "n_auth": 9,
+  "year": 2020,
+  "title": "A predictive index for health status using species-level gut microbiome profiling",
+  "venue": "Nature Communications",
+  "vol": "11",
+  "page": "4635"
+ },
+ {
+  "doi": "10.1186/s13059-022-02753-4",
+  "ok": true,
+  "first": "Ma",
+  "n_auth": 10,
+  "year": 2022,
+  "title": "Population structure discovery in meta-analyzed microbial communities and inflammatory bowel disease using MMUPHin",
+  "venue": "Genome Biology",
+  "vol": "23",
+  "page": "208"
+ },
+ {
+  "doi": "10.1371/journal.pcbi.1006102",
+  "ok": true,
+  "first": "Gibbons",
+  "n_auth": 3,
+  "year": 2018,
+  "title": "Correcting for batch effects in case-control microbiome studies",
+  "venue": "PLOS Computational Biology",
+  "vol": "14",
+  "page": "e1006102"
+ },
+ {
+  "doi": "10.1053/j.gastro.2019.03.011",
+  "ok": false,
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "doi": "10.1214/aos/1176350366",
+  "ok": true,
+  "first": "Yohai",
+  "n_auth": 1,
+  "year": 1987,
+  "title": "High Breakdown-Point and High Efficiency Robust Estimates for Regression",
+  "venue": "The Annals of Statistics",
+  "vol": "15",
+  "page": "642-656"
+ }
+]
