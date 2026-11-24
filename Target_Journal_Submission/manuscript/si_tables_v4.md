@@ -820,9 +820,9 @@ Per population–test pair (strict, n >= 120): per-draw in-band share of 100 lab
 }
 
 ## Table S15. Post hoc (review round 7): per 1,000 people screened at 1% prevalence (pooled locked case–control cohorts, N = 100, pi = pi_max = 0.01; optimistic because sensitivity comes from diagnosed patients)
-| method   |   sens |   fpr |   ppv |   false_positives_per_1000 |   cancers_detected_per_1000 |
-|:---------|-------:|------:|------:|---------------------------:|----------------------------:|
-| BURN     |  0.227 | 0.087 | 0.026 |                     86.300 |                       2.270 |
-| BURN-PAC |  0.148 | 0.048 | 0.030 |                     47.100 |                       1.480 |
-| LAB      |  0.247 | 0.098 | 0.025 |                     97.200 |                       2.470 |
-| SRC      |  0.464 | 0.288 | 0.016 |                    285.200 |                       4.640 |
+| method   |   sens |   fpr |   ppv |   false_positives_per_1000 |   cases_detected_per_1000 |
+|:---------|-------:|------:|------:|---------------------------:|--------------------------:|
+| BURN     |  0.227 | 0.087 | 0.026 |                     86.300 |                     2.270 |
+| BURN-PAC |  0.148 | 0.048 | 0.030 |                     47.100 |                     1.480 |
+| LAB      |  0.247 | 0.098 | 0.025 |                     97.200 |                     2.470 |
+| SRC      |  0.464 | 0.288 | 0.016 |                    285.200 |                     4.640 |
