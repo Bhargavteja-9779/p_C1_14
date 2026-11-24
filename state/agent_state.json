@@ -1,0 +1,16 @@
+{
+  "status": "RUNNING",
+  "branch": "claude/trusting-mayer-1ipvjz",
+  "cycle": 4,
+  "pivots_used": 1,
+  "phase": "REVIEW_ROUND_2_REVISION",
+  "step": "R2.0 rebuild data cache; then R2.1 global cross-cohort dedup + strict-healthy subset",
+  "last_action": "2026-11-24 merged latest line (beautiful-goldberg, manuscript v3 + round-2 reports) into working branch; created persistence files",
+  "cycle_history": {
+    "1": "case-control threshold transfer, CRC LOSO, conformal local-control threshold (manuscript v1/v2, branch kind-ramanujan)",
+    "2": "RECHECK: journal re-verified, leakage bug ThomasAM_2019_c==YachidaS fixed, 85-paper prior-art map (branch quirky-mayer)",
+    "3": "PIVOT 1 (new gap, same data/journal): healthy-population FPR atlas + burn-in self-calibration, locked run (manuscript v3, branch beautiful-goldberg)",
+    "4": "Review round 2 major revision (this cycle)"
+  },
+  "parallel_line_not_continued": "claude/affectionate-euler-dyczzb: a separate paper (verified-positive sequential recalibration, revision 4, author metadata). Not merged; kept as-is."
+}

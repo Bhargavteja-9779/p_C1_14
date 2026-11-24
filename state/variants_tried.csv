@@ -1,0 +1,10 @@
+id,date,cycle,idea,data,outcome,file
+10,2026-11-23,3,Healthy-population FPR atlas (62 cohorts; 3 tests x 2 models),DEV,KEPT (core finding),Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+11,2026-11-23,3,Shared over-flagging propensity across tests,DEV,FALSIFIED (reported: drift is test x population specific),Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+12,2026-11-23,3,Non-westernised populations over-flagged (CRC),DEV,FALSIFIED as pre-stated; T2D noted post hoc,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+13,2026-11-23,3,Individual covariates explain cohort effect,DEV,CONFIRMED: cohort effect not explained by age/sex/BMI/depth/diversity,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+14,2026-11-23,3,Healthy-context residual threshold (score minus prediction from k healthy PCs),DEV,FALSIFIED,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+15,2026-11-23,3,Large pooled healthy reference threshold,DEV,FALSIFIED,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+16,2026-11-23,3,Composition-matched reference (k nearest populations by CLR-PCA centroid),DEV,FALSIFIED,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+17,2026-11-23,3,Label-free burn-in self-calibration with contamination bound + exact sample-size law,DEV,NEXT,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md
+18,2026-11-23,3,(post hoc; after prior-art check) Control augmentation (Wirbel 2021 Genome Biol): add DEV healthy cohorts as training controls,DEV,FAILS to restore per-population FPR; strongest foil for the paper,Target_Journal_Submission/code/experiments/atlas/novelty_escalation_r3.md

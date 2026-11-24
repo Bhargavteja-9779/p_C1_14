@@ -1,0 +1,65 @@
+{
+ "jobs": [
+  {
+   "id": "R2.0_rebuild_cache",
+   "status": "done",
+   "attempts": 1,
+   "note": "61 cohort files; BedarfJR_2017, PehrssonE_2016 absent from release (known)"
+  },
+  {
+   "id": "R2.1_dedup_strict_subset",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.2_atlas_rerun_dedup",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.3_heterogeneity_tau_I2_PI",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.4_nonrandom_split_burnin",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.5_cluster_inference",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.6_icc_text_and_asspecified_A4",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.7_foldmodel_scoring_check",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.8_taxon_decomposition",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.9_batch_correction_comparator",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R2.10_manuscript_v4",
+   "status": "pending",
+   "attempts": 0
+  },
+  {
+   "id": "R3_review_round_3",
+   "status": "pending",
+   "attempts": 0
+  }
+ ]
+}

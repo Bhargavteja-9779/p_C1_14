@@ -1,0 +1,1 @@
+Read HANDOFF.md and MASTER_PROMPT.md in the repository root, verify state with `python3 scripts/status.py`, then continue from NEXT ACTION. If data_cache/ is missing, run `scripts/rebuild_cache.sh` first. Do not restart finished work. Do not ask me questions. Commit and push after every step to the branch named in HANDOFF.md.
