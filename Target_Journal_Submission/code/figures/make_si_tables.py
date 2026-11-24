@@ -84,5 +84,8 @@ out.append("### Table S2c. Downward drift (-0.5 logit from month 7; post hoc P4)
            dd.groupby(["per", "method"], observed=True).agg(FPR=("fpr", "mean"), Sens=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
 out.append("### Table S2d. Primary endpoint at sites with >= 40 controls, per cohort (post hoc P4)\n\n```\n" +
            open(os.path.join(E, "posthoc_drift_restrict.log")).read().split("(b)")[1] + "\n```")
+gq = pd.read_csv(os.path.join(AD, "posthoc_group_labelfree.csv.gz")); gq = gq[gq.month >= 7].assign(over=lambda x: x.fpr > 0.12)
+out.append("## Table S11. Per-group recalibration at MetaCardis with the label-free prevalence-bounded rule vs the verified-positive rule (post hoc P7; months 7-18)\n\n" +
+           gq.groupby(["model", "group", "method"]).agg(FPR=("fpr", "mean"), share_over_012=("over", "mean"), Sens_proxy=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
 open(os.path.join(H, "..", "..", "manuscript", "SI_tables.md"), "w").write("# Supporting Information — Tables\n\n" + "\n\n".join(out) + "\n")
 print("ok")

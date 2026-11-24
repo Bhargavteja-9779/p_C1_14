@@ -461,3 +461,28 @@ vp - contam: mean -0.002, cohorts 9, one-sided Wilcoxon p = 0.715
 mean FPR (>=40 controls): {'contam': 0.083, 'local_q': 0.093, 'oracle': 0.107, 'source': 0.175, 'vp': 0.09}
 
 ```
+
+## Table S11. Per-group recalibration at MetaCardis with the label-free prevalence-bounded rule vs the verified-positive rule (post hoc P7; months 7-18)
+
+| model   | group   | method          |   FPR |   share_over_012 |   Sens_proxy |
+|:--------|:--------|:----------------|------:|-----------------:|-------------:|
+| lasso   | CAD     | labelfree_group | 0.093 |            0.088 |        0.451 |
+| lasso   | CAD     | vp_group        | 0.091 |            0.09  |        0.453 |
+| lasso   | HF      | labelfree_group | 0.086 |            0.158 |        0.353 |
+| lasso   | HF      | vp_group        | 0.08  |            0.13  |        0.356 |
+| lasso   | IGT     | labelfree_group | 0.09  |            0.04  |        0.476 |
+| lasso   | IGT     | vp_group        | 0.09  |            0.041 |        0.479 |
+| lasso   | T2D     | labelfree_group | 0.093 |            0.039 |        0.392 |
+| lasso   | T2D     | vp_group        | 0.094 |            0.042 |        0.395 |
+| lasso   | control | labelfree_group | 0.092 |            0.005 |        0.473 |
+| lasso   | control | vp_group        | 0.093 |            0.003 |        0.479 |
+| rf      | CAD     | labelfree_group | 0.092 |            0.084 |        0.537 |
+| rf      | CAD     | vp_group        | 0.091 |            0.093 |        0.539 |
+| rf      | HF      | labelfree_group | 0.089 |            0.178 |        0.443 |
+| rf      | HF      | vp_group        | 0.081 |            0.161 |        0.443 |
+| rf      | IGT     | labelfree_group | 0.092 |            0.041 |        0.544 |
+| rf      | IGT     | vp_group        | 0.092 |            0.062 |        0.55  |
+| rf      | T2D     | labelfree_group | 0.092 |            0.078 |        0.416 |
+| rf      | T2D     | vp_group        | 0.092 |            0.077 |        0.419 |
+| rf      | control | labelfree_group | 0.09  |            0     |        0.571 |
+| rf      | control | vp_group        | 0.093 |            0     |        0.579 |

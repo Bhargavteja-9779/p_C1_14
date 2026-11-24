@@ -284,3 +284,8 @@ tau = 0.58 (LASSO) / 0.65 (RF), I2 = 0.71-0.72.
 Months 7-12, mean FPR / share > 0.12 / sensitivity: source .142/.545/.535; local_q .108/.205/.499; prevalence-bounded
 .103/.130/.492; verified-positive .083/.003/.495; oracle .110/.091/.517. Locked CRC sites only: source .189/.833/.644;
 prevalence-bounded .099/.071/.509; verified-positive .087/.004/.514. Caveat: small cohorts resampled with replacement.
+
+## Post hoc P7 (2026-11-24): per-group label-free rule at MetaCardis (posthoc_group_labelfree.py)
+Prevalence-bounded quantile run within recorded groups equalises FPR as well as the verified-positive rule
+(LASSO months 7-18: HF 0.086 vs 0.080, T2D 0.093 vs 0.094, controls 0.092 vs 0.093; sensitivity proxy equal).
+=> per-group control is a property of local recalibration, not specific to the verified-positive rule.
