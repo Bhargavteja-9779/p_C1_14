@@ -156,3 +156,40 @@ def anchor_loc(s_src, y_src, alpha, c, **kw):
     """Location-only anchoring: shift a = median(local controls) - median(source controls); threshold = t_src + a."""
     s0 = s_src[y_src == 0]
     return np.quantile(s0, 1 - alpha) + np.median(c) - np.median(s0)
+
+# ---------------- Round 4: guarantees (D6) ----------------
+def robust_pool_rank(n, alpha, delta, pi_max):
+    """Largest r such that the r-th largest score of an unlabelled pool of size n, of which at most
+    m = floor(pi_max*n) are cases, gives P(FPR > alpha) <= delta. Worst case: cases lie below the threshold, so the
+    threshold is the r-th largest of n0 = n - m exchangeable controls; its control tail mass ~ Beta(r, n0 - r + 1).
+    Cases above the threshold only make it more conservative. Returns 0 if impossible (n too small)."""
+    n0 = n - int(np.floor(pi_max * n)); r = 0
+    for k in range(1, n0 + 1):
+        if stats.beta.sf(alpha, k, n0 - k + 1) <= delta: r = k
+        else: break
+    return r
+
+def robust_pool(s_src, y_src, alpha, u=None, delta=0.1, pi_max=0.05, **kw):
+    """Label-free threshold with a finite-sample guarantee P(FPR > alpha) <= delta when the pool's case share <= pi_max
+    and pool controls are exchangeable with future controls. Falls back to +inf (abstain) if the pool is too small."""
+    r = robust_pool_rank(len(u), alpha, delta, pi_max)
+    return np.inf if r == 0 else np.sort(u)[::-1][r - 1]
+
+def robust_pool_mean(s_src, y_src, alpha, u=None, pi_max=0.05, **kw):
+    """Expected-FPR version (conformal-type): E[FPR] <= alpha for case share <= pi_max. Uses the r-th largest with
+    r = floor((n0 + 1) * alpha), n0 = n - floor(pi_max n)."""
+    n = len(u); n0 = n - int(np.floor(pi_max * n)); r = int(np.floor((n0 + 1) * alpha))
+    return np.inf if r == 0 else np.sort(u)[::-1][r - 1]
+
+def controls_tolerance(alpha, c, delta=0.1):
+    """Same guarantee from n labelled local controls (pi_max = 0)."""
+    return robust_pool(None, None, alpha, u=np.asarray(c), delta=delta, pi_max=0.0)
+
+def needed_pool_size(alpha, delta, pi_max, fpr_slack=0.02, nmax=20000):
+    """Smallest pool size n such that the guaranteed threshold has expected FPR >= alpha - fpr_slack (i.e. little
+    sensitivity is wasted) when the pool actually holds no cases (expected tail mass of the r-th largest of n
+    controls = r / (n + 1))."""
+    for n in list(range(10, 1000, 10)) + list(range(1000, nmax, 100)):
+        r = robust_pool_rank(n, alpha, delta, pi_max); n0 = n - int(np.floor(pi_max * n))
+        if r and r / (n + 1) >= alpha - fpr_slack: return n
+    return None
