@@ -12,3 +12,6 @@ Scorecard at start of round 3: 12/30 (RECHECK line), weakest = insight/scale and
 | 15 | Large pooled healthy reference threshold | DEV LOO | no better than source | FALSIFIED |
 | 16 | Composition-matched reference (k nearest populations by CLR-PCA centroid) | DEV LOO vs random-k | not better than random-k | FALSIFIED |
 | 17 | Label-free burn-in self-calibration with contamination bound + exact sample-size law | protocol_deploy.md | pending | NEXT |
+| 18 | (post hoc, after prior-art check) Control augmentation (Wirbel 2021 Genome Biol): add DEV healthy cohorts as training controls | LOCKED healthy populations, paired | 50 units (n>=70): mean abs error naive 0.070, augmented 0.066 (Wilcoxon P=0.69), burn-in N=50 0.039 (P=0.0004 vs augmented; better in 34/50). In-band 0.42 both. CRC external: augmented FPR Yachida 0.26/0.15, YuJ 0.06/0.06 | FAILS to restore per-population FPR; strongest foil for the paper |
+
+Scorecard after round 3 (honest): problem 4, distance from prior work 3 (per-population scale + cohort partition + head-to-head vs control augmentation new; burn-in guarantee is an adaptation of conformal / NP / indirect RI), evidence 5 (60 cohorts, locked split, pre-registered criterion met, exact-law validation), insight 4, practical 4, rigour 4 => 24/30.

@@ -1,0 +1,5 @@
+populations with n>=70 (burn-in N=50 feasible): 50 units
+mean |FPR-0.10|: naive 0.070, control augmentation 0.066, burn-in N=50 0.039
+in band: naive 0.42, aug 0.42
+Wilcoxon aug vs naive P=0.69; burn-in vs aug P=0.000433
+burn-in better than aug in 34/50 units

@@ -23,3 +23,9 @@
 - PubMed "received" may be the date of the final submission system entry, not the very first contact.
 - The Letter/Research Article split relies on PubMed publication types.
 - The sample is all iMeta papers with dates in the window (not a sample): 162 dated items.
+
+## Update 2026-11-24 (user: "any Frontiers journal also fine")
+PubMed received->accepted, 200 random research articles 2025-06..2026-11 each: Front Microbiol median 59 d / P75 79 d;
+Front Cell Infect Microbiol 82/119; Front Bioinform 71/98; Front Genet 76/117; Front Oncol 80/115; Front Public Health 72/101.
+Decision: keep iMeta Short Communication as primary (faster 33/52, higher impact); Frontiers in Microbiology
+(Original Research, no 3-figure cap) is the prepared fallback. Only Front Microbiol of the Frontiers titles is close to the 72-day window.
