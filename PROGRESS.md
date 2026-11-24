@@ -1,7 +1,7 @@
 # PROGRESS (resume file)
 
 Any agent continuing this work: read this file first, then `git log`. Work happens on branch
-`claude/zen-planck-p60lrt` (earlier: `claude/dreamy-clarke-rldxev`, same history up to 1777afd). All deliverables live in `Target_Journal_Submission/`.
+`claude/sharp-meitner-guez1q` (session 3; fast-forwarded from `claude/zen-planck-p60lrt`; earlier: `claude/dreamy-clarke-rldxev`, same history up to 1777afd). All deliverables live in `Target_Journal_Submission/`.
 Commit + push after every phase (auto-save).
 
 ## Environment notes
@@ -52,3 +52,8 @@ Commit + push after every phase (auto-save).
   Scorecard: problem 3, method 2, evaluation 4, practical 4. => D6 direction: identifiability check / abstain, finite-sample
   FPR bound, hybrid unlabeled + few labelled controls; add baselines: per-site feature standardisation, MLLS-BCTS, DyS/HDy,
   2-Gaussian unsupervised calibration.
+
+## Session 3 (2026-11-24 late) resume notes
+- Fast-forwarded `claude/sharp-meitner-guez1q` to zen-planck a8509cb. data_cache rebuilt (19 cohorts) with the commands above.
+- Smoke test passed. LOCKED final test launched once for lasso and rf (code/experiments/final/run_final.py, R=200).
+  Next: analyze_final.py -> make_figures.py -> fill [[...]] in manuscript + SI -> reviews.
