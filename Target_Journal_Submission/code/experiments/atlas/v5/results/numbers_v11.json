@@ -1,0 +1,35 @@
+{
+ "outside_band_expected_by_chance": [
+  0.1480431324038867,
+  0.16179095046492062
+ ],
+ "outside_band_observed_median": 0.6571428571428571,
+ "outside_band_observed_range": [
+  0.5,
+  0.9714285714285714
+ ],
+ "lasso_units": 489,
+ "lasso_share_gt015": 0.4458077709611452,
+ "lasso_share_gt025": 0.25971370143149286,
+ "lasso_share_lt005": 0.2392638036809816,
+ "lasso_n100_fpr_range": [
+  0.0,
+  0.7697368421052632
+ ],
+ "H2_lasso_resid_share": 0.6187331983222908,
+ "H2_rf_resid_share": 0.468700858844686,
+ "H4_exact_wilcoxon_p": 7.450580596923828e-09,
+ "H4_reduction": 0.6204717884298959,
+ "H4_units": 646,
+ "H4_populations": 13,
+ "H4_unit_share_better": 0.7461300309597523,
+ "auroc_range_lasso": [
+  0.5369900309960627,
+  0.936736634242668
+ ],
+ "auroc_range_all": [
+  0.4439491739640696,
+  0.940393476193959
+ ],
+ "single_cohort_tests": 9
+}
