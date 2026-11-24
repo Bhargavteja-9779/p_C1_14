@@ -39,7 +39,6 @@ with open(os.path.join(OUT, "main_tables.md"), "w") as f:
             rows.append(dict(comparison=f"{PRIMARY} - {m}", n_units=len(diff), mean_diff_abs_err=diff.mean(),
                              ci_low=np.percentile(bs, 2.5), ci_high=np.percentile(bs, 97.5), p_wilcoxon=p))
     T = pd.DataFrame(rows).sort_values("p_wilcoxon"); k = len(T)
-    T["p_holm"] = np.minimum.accumulate(np.minimum(1, T.p_wilcoxon.values * (k - np.arange(k)))[::-1])[::-1]
     T["p_holm"] = np.maximum.accumulate(np.minimum(1, T.p_wilcoxon.values * (k - np.arange(k))))
     T = T.round(4); f.write(f"\n## Paired comparisons (alpha 0.10, pi 0.01; negative = {PRIMARY} closer to target)\n\n{T.to_markdown(index=False)}\n")
     print(T.to_string(index=False))
