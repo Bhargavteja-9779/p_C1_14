@@ -1,0 +1,9 @@
+python>=3.11
+numpy
+scipy
+pandas
+scikit-learn
+statsmodels
+matplotlib
+pyreadr
+tabulate

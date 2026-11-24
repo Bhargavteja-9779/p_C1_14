@@ -79,6 +79,48 @@ each condition group is compared with that cohort's own controls by linear regre
 age, BMI and sex where recorded; one-sided p values are Holm-corrected within model. Positivity ratios have bootstrap
 95% confidence intervals (1,000 resamples).
 
-## S7. Software and reproducibility
-Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. All code, the frozen protocol, the development log and
+## S6b. Medication addendum (pre-specified before analysis; protocol_addendum_drugs.md)
+After the locked analysis and the exploratory mechanism analysis, we wrote and committed a second protocol before any
+medication-stratified score was computed. Prediction from the mechanism: proton-pump inhibitor (PPI) users, whose guts
+carry more oral taxa, receive higher CRC-test scores. Development check (direction only): VincentC_2016, LeeKA_2022,
+JieZ_2017. Confirmatory test: MetaCardis_2020_a (1,831 adults; 295 PPI users), CRC-test logit score regressed on PPI,
+condition group, sex and other recorded drugs (metformin, statin, aspirin, beta-blocker); age and BMI were not
+sufficiently recorded. H5: PPI coefficient > 0 (LASSO primary). H6: PPI raises the oral-taxa component of the score.
+Other drugs were secondary with no direction fixed. A post hoc exploratory analysis compared metformin users and
+non-users within type 2 diabetes in four cohorts (adjusted for age, BMI and sex where recorded).
+
+## S7. Finite-sample guarantee
+
+**Setting.** A window contains m tested people with scores s_1..s_m; m0 of them are controls and m1 = m - m0 are cases.
+Person i is *verified* if they were referred (s_i at or above the cut-off in force when tested), attended, and their
+result is available; verification reveals the true status. C1 is the number of verified cases.
+
+**Assumptions.** (A1) The control scores in the window and the score X of a future control at the same site are
+exchangeable (no drift within the window). (A2) Prevalence bound: m1 <= floor(pi_max m). (A3) The reference test never
+labels a control as a case (missed cancers, i.e. cases labelled as controls, are allowed).
+
+**Rule.** FP_ub(t) = #{i : s_i >= t and i is not a verified case}; m0_lo = m - max(C1, floor(pi_max m));
+t* = the smallest t with (FP_ub(t) + 1) / (m0_lo + 1) <= alpha.
+
+**Proposition S1.** Under (A1)-(A3), conditional on m0, P(X >= t*) <= alpha, whatever the past referral cut-offs,
+attendance and result delays.
+
+**Proof.** (i) Every control with s_i >= t* is not a verified case (A3), so the number of controls at or above t*,
+FP(t*), satisfies FP(t*) <= FP_ub(t*). (ii) C1 <= m1 <= floor(pi_max m) by (A2), so m0_lo = m - max(C1, floor(pi_max m))
+<= m - m1 = m0. Hence FP(t*) + 1 <= alpha (m0_lo + 1) <= alpha (m0 + 1), so at most k = floor(alpha (m0 + 1)) - 1 controls
+score at or above t*. Let S_(1) <= ... <= S_(m0) be the ordered control scores; then t* > S_(m0 - k). (iii) By (A1), the
+rank of X among the m0 + 1 control scores is uniform, so P(X > S_(m0 - k)) <= (k + 1)/(m0 + 1) <= alpha. Since
+t* > S_(m0 - k), P(X >= t*) <= P(X > S_(m0 - k)) <= alpha. The argument uses only counts, so it holds for any
+verification pattern, including one that depends on the scores. QED.
+
+**Corollaries.** (a) Applied within each recorded patient group, the rule bounds the FPR in every group separately.
+(b) With the drift alarm, the guarantee applies within any stationary window after the most recent restart.
+(c) Missed cancers at colonoscopy make the rule conservative; a false-positive colonoscopy result (violating A3) is
+rare and its effect is bounded by the number of such errors. An independent numerical check (4,000 simulated sites
+with random site shifts, 70% attendance and an arbitrary prior cut-off) gave a mean FPR of at most 0.105 (package
+test suite, `cutoffguard/tests`).
+
+## S8. Software and reproducibility
+Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. The proposed rule is released as the open-source Python
+package `cutoffguard` (functions for site audits, sequential and per-group recalibration, and a command-line tool). All code, the frozen protocol, the development log and
 file hashes are available in the code repository (see Data Availability Statement).

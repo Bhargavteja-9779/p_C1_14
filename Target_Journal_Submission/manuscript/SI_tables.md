@@ -217,3 +217,71 @@
 | rf      | control | group    | 0.093 |    0.003 |        0.578 |
 | rf      | control | pooled   | 0.066 |    0     |        0.534 |
 | rf      | control | source   | 0.073 |    0     |        0.55  |
+
+## Table S6a. Medication addendum, development check (PPI; direction only)
+
+| model   | cohort        | outcome    | term   |   n |   n_ppi |    beta |      lo |     hi |   p_one_sided | covs         |
+|:--------|:--------------|:-----------|:-------|----:|--------:|--------:|--------:|-------:|--------------:|:-------------|
+| lasso   | VincentC_2016 | score      | ppi    |  98 |      19 |  0.6264 | -0.3419 | 1.5947 |        0.1011 | age+male     |
+| lasso   | VincentC_2016 | oral       | ppi    |  98 |      19 |  0.1569 | -0.6135 | 0.9273 |        0.3434 | age+male     |
+| lasso   | VincentC_2016 | score|oral | ppi    |  98 |      19 |  0.4477 |  0.0357 | 0.8596 |      nan      | +oral        |
+| lasso   | LeeKA_2022    | score      | ppi    | 153 |      41 | -0.1238 | -0.6679 | 0.4203 |        0.6731 | age+BMI+male |
+| lasso   | LeeKA_2022    | oral       | ppi    | 153 |      41 |  0.1168 | -0.1317 | 0.3652 |        0.1773 | age+BMI+male |
+| lasso   | LeeKA_2022    | score|oral | ppi    | 153 |      41 | -0.2753 | -0.7163 | 0.1658 |      nan      | +oral        |
+| lasso   | JieZ_2017     | score      | ppi    | 306 |       9 |  0.079  | -0.6315 | 0.7894 |        0.4135 | age+BMI+male |
+| lasso   | JieZ_2017     | oral       | ppi    | 306 |       9 |  0.2312 | -0.2869 | 0.7494 |        0.1903 | age+BMI+male |
+| lasso   | JieZ_2017     | score|oral | ppi    | 306 |       9 | -0.1224 | -0.6728 | 0.428  |      nan      | +oral        |
+| rf      | VincentC_2016 | score      | ppi    |  98 |      19 |  0.0863 | -0.1869 | 0.3596 |        0.266  | age+male     |
+| rf      | LeeKA_2022    | score      | ppi    | 153 |      41 |  0.0789 | -0.148  | 0.3057 |        0.2465 | age+BMI+male |
+| rf      | JieZ_2017     | score      | ppi    | 306 |       9 |  0.2068 | -0.2077 | 0.6213 |        0.1635 | age+BMI+male |
+
+## Table S6b. Medication addendum, MetaCardis (pre-specified H5/H6; other drugs secondary)
+
+| model   | cohort            | outcome    | term        |    n |   n_ppi |    beta |      lo |      hi |   p_one_sided | covs                                      |
+|:--------|:------------------|:-----------|:------------|-----:|--------:|--------:|--------:|--------:|--------------:|:------------------------------------------|
+| lasso   | MetaCardis_2020_a | score      | ppi         | 1831 |     295 |  0.0382 | -0.0701 |  0.1465 |        0.2444 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | score      | metformin   | 1831 |     295 |  0.4267 |  0.3048 |  0.5485 |        0      | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | score      | statin      | 1831 |     295 | -0.0118 | -0.1173 |  0.0936 |        0.587  | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | score      | aspirin     | 1831 |     295 | -0.0181 | -0.1452 |  0.109  |        0.6101 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | score      | betablocker | 1831 |     295 |  0.0945 | -0.0061 |  0.1951 |        0.0328 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | oral       | ppi         | 1831 |     295 |  0.1751 |  0.1443 |  0.2058 |        0      | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | oral       | metformin   | 1831 |     295 | -0.0034 | -0.038  |  0.0312 |        0.5766 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | oral       | statin      | 1831 |     295 |  0.0004 | -0.0296 |  0.0303 |        0.4901 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | oral       | aspirin     | 1831 |     295 | -0.0252 | -0.0613 |  0.0109 |        0.9145 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | oral       | betablocker | 1831 |     295 | -0.0188 | -0.0474 |  0.0098 |        0.9015 | male+metformin+statin+aspirin+betablocker |
+| lasso   | MetaCardis_2020_a | score|oral | ppi         | 1831 |     295 | -0.1211 | -0.2293 | -0.0129 |      nan      | +oral                                     |
+| rf      | MetaCardis_2020_a | score      | ppi         | 1831 |     295 |  0.0865 |  0.0091 |  0.1639 |        0.0143 | male+metformin+statin+aspirin+betablocker |
+| rf      | MetaCardis_2020_a | score      | metformin   | 1831 |     295 |  0.3742 |  0.2871 |  0.4613 |        0      | male+metformin+statin+aspirin+betablocker |
+| rf      | MetaCardis_2020_a | score      | statin      | 1831 |     295 |  0.0386 | -0.0368 |  0.114  |        0.1578 | male+metformin+statin+aspirin+betablocker |
+| rf      | MetaCardis_2020_a | score      | aspirin     | 1831 |     295 | -0.0677 | -0.1586 |  0.0232 |        0.928  | male+metformin+statin+aspirin+betablocker |
+| rf      | MetaCardis_2020_a | score      | betablocker | 1831 |     295 |  0.0301 | -0.0418 |  0.1021 |        0.2059 | male+metformin+statin+aspirin+betablocker |
+
+## Table S6c. Test positivity by PPI use, MetaCardis (overall and within condition group)
+
+| model   | cohort                    |   n_ppi |   n_no |   pos_ppi |   pos_no |       rr |    rr_lo |    rr_hi |
+|:--------|:--------------------------|--------:|-------:|----------:|---------:|---------:|---------:|---------:|
+| lasso   | MetaCardis_2020_a         |     295 |   1536 |    0.1627 |   0.1341 |   1.2132 |   0.8933 |   1.5911 |
+| lasso   | MetaCardis_2020_a:CAD     |      83 |    186 |    0.1446 |   0.1398 | nan      | nan      | nan      |
+| lasso   | MetaCardis_2020_a:HF      |      27 |     68 |    0.2593 |   0.2206 | nan      | nan      | nan      |
+| lasso   | MetaCardis_2020_a:IGT     |      41 |    234 |    0.1463 |   0.1111 | nan      | nan      | nan      |
+| lasso   | MetaCardis_2020_a:T2D     |      85 |    465 |    0.1529 |   0.1785 | nan      | nan      | nan      |
+| lasso   | MetaCardis_2020_a:control |      59 |    583 |    0.1695 |   0.0961 | nan      | nan      | nan      |
+| rf      | MetaCardis_2020_a         |     295 |   1536 |    0.1661 |   0.1191 |   1.3942 |   1.0192 |   1.8127 |
+| rf      | MetaCardis_2020_a:CAD     |      83 |    186 |    0.1084 |   0.0699 | nan      | nan      | nan      |
+| rf      | MetaCardis_2020_a:HF      |      27 |     68 |    0.2963 |   0.1176 | nan      | nan      | nan      |
+| rf      | MetaCardis_2020_a:IGT     |      41 |    234 |    0.0488 |   0.0897 | nan      | nan      | nan      |
+| rf      | MetaCardis_2020_a:T2D     |      85 |    465 |    0.2353 |   0.2237 | nan      | nan      | nan      |
+| rf      | MetaCardis_2020_a:control |      59 |    583 |    0.1695 |   0.0635 | nan      | nan      | nan      |
+
+## Table S6d. Exploratory: metformin users vs non-users within type 2 diabetes
+
+| model   | cohort            |   n_met |   n_no |    beta |      lo |     hi |      p |   pos_met |   pos_no | covs         |
+|:--------|:------------------|--------:|-------:|--------:|--------:|-------:|-------:|----------:|---------:|:-------------|
+| lasso   | LiJ_2014          |      58 |     17 |  0.3984 | -0.1926 | 0.9893 | 0.1831 |    0.3103 |   0.2857 | age+BMI+male |
+| lasso   | MetaCardis_2020_a |     379 |    124 |  0.4433 |  0.2804 | 0.6063 | 0      |    0.2054 |   0.0851 | age+BMI+male |
+| lasso   | QinJ_2012         |      15 |    155 | -0.0059 | -0.5839 | 0.5721 | 0.9839 |    0.4    |   0.2968 | age+BMI+male |
+| lasso   | KarlssonFH_2013   |      20 |     33 |  0.0443 | -0.5105 | 0.5991 | 0.8732 |    0      |   0.0303 | age+BMI      |
+| rf      | LiJ_2014          |      58 |     17 |  0.279  | -0.0711 | 0.6291 | 0.1165 |    0.1552 |   0.2381 | age+BMI+male |
+| rf      | MetaCardis_2020_a |     379 |    124 |  0.3363 |  0.2124 | 0.4603 | 0      |    0.2787 |   0.0709 | age+BMI+male |
+| rf      | QinJ_2012         |      15 |    155 | -0.1158 | -0.4644 | 0.2328 | 0.5128 |    0.2667 |   0.4129 | age+BMI+male |
+| rf      | KarlssonFH_2013   |      20 |     33 |  0.0499 | -0.2137 | 0.3136 | 0.7051 |    0      |   0      | age+BMI      |

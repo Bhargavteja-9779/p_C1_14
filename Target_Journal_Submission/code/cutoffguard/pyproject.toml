@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "cutoffguard"
+version = "0.1.0"
+description = "Keep a deployed diagnostic test's false-positive rate on target using verified outcomes of test-positives"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas"]
+license = {text = "MIT"}
+[project.scripts]
+cutoffguard = "cutoffguard.cli:main"

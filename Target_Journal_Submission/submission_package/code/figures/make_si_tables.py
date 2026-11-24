@@ -52,5 +52,11 @@ out.append("### Table S4b. Top 20 species contributing to the CRC-score gap acro
 pC = pd.read_csv(os.path.join(R, "partC_groupcal.csv.gz")); q = pC[pC.month >= 7].assign(over=lambda x: x.fpr > 0.12)
 tc = q.groupby(["model", "group", "method"]).agg(FPR=("fpr", "mean"), P_over=("over", "mean"), Sens_proxy=("sens_proxy", "mean")).round(3).reset_index()
 out.append("## Table S5. Group-conditional recalibration at the locked MetaCardis site (months 7-18)\n\n" + tc.to_markdown(index=False))
+AD = os.path.join(E, "addendum_results")
+for f, title in [("dev_regression.csv", "Table S6a. Medication addendum, development check (PPI; direction only)"),
+                 ("confirm_regression.csv", "Table S6b. Medication addendum, MetaCardis (pre-specified H5/H6; other drugs secondary)"),
+                 ("confirm_positivity.csv", "Table S6c. Test positivity by PPI use, MetaCardis (overall and within condition group)"),
+                 ("metformin_within_T2D.csv", "Table S6d. Exploratory: metformin users vs non-users within type 2 diabetes")]:
+    out.append(f"## {title}\n\n" + pd.read_csv(os.path.join(AD, f)).round(4).to_markdown(index=False))
 open(os.path.join(H, "..", "..", "manuscript", "SI_tables.md"), "w").write("# Supporting Information — Tables\n\n" + "\n\n".join(out) + "\n")
 print("ok")

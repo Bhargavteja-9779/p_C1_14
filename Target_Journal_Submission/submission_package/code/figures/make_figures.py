@@ -22,7 +22,7 @@ S = pd.read_csv(os.path.join(R, "sequential.csv.gz"))
 P = S[S.setting == "primary"]
 
 # ---------------- Figure 1: the problem and its biology ----------------
-fig = plt.figure(figsize=(7.2, 6.4)); gs = fig.add_gridspec(2, 2, hspace=0.55, wspace=0.38, height_ratios=[1, 1.05])
+fig = plt.figure(figsize=(7.4, 7.0)); gs = fig.add_gridspec(2, 2, hspace=0.62, wspace=0.95, height_ratios=[1, 1.0])
 # 1A realised FPR of the source cut-off per site
 ax = fig.add_subplot(gs[0, 0]); panel(ax, "A")
 src = P[(P.method == "source") & (P.month == 1)].groupby(["disease", "site", "model"]).fpr.first().reset_index()
@@ -60,24 +60,43 @@ ax.text(1.02, len(dev) + (len(lk) - 1) / 2, "Locked test", rotation=270, transfo
 ax.set_xlabel("CRC-test score, condition − own controls\n(logit; adjusted for age, BMI, sex where recorded; 95% CI)")
 ax.set_title("Chronic disease raises the cancer score", loc="left", fontsize=8, color=INK); grid(ax, "x")
 # 1C mechanism: two routes
-ax = fig.add_subplot(gs[1, :]); panel(ax, "C")
+ax = fig.add_subplot(gs[1, 0]); panel(ax, "C")
 A = pd.read_csv(os.path.join(DV, "explore_v9b_axes.csv"), index_col=0)
 cond = ["QinN_2014", "JieZ_2017", "LoombaR_2017", "LiJ_2017", "NagySzakalD_2017", "XieH_2016", "ZhuF_2020"]
-cats = [("oral", "Oral-origin taxa enriched (e.g. S. oralis, F. nucleatum, V. parvula)", COL["source"]),
-        ("commensal_depletion", "Commensal fibre fermenters depleted (e.g. E. eligens, Roseburia)", COL["vp"]),
+cats = [("oral", "Oral-origin taxa enriched", COL["source"]), ("commensal_depletion", "Commensal fermenters depleted", COL["vp"]),
         ("other_enriched", "Other taxa", "#b9b8b2")]
-x = np.arange(len(cond)); w = 0.62
+cond = cond[::-1]; yy = np.arange(len(cond)); h = 0.62
 pos_base = np.zeros(len(cond)); neg_base = np.zeros(len(cond))
 for k, lab, c in cats:
-    v = A.loc[k, cond].values
-    b = np.where(v >= 0, pos_base, neg_base)
-    ax.bar(x, v, w, bottom=b, color=c, edgecolor="white", linewidth=1.0, label=lab)
+    v = A.loc[k, cond].values; b0 = np.where(v >= 0, pos_base, neg_base)
+    ax.barh(yy, v, h, left=b0, color=c, edgecolor="white", linewidth=1.0, label=lab)
     pos_base += np.clip(v, 0, None); neg_base += np.clip(v, None, 0)
-tot = A.loc["total", cond].values
-ax.scatter(x, tot, marker="_", s=180, color=INK, lw=1.4, zorder=4, label="Net score gap")
-ax.axhline(0, color=INK2, lw=0.6); ax.set_xticks(x, [NAME[c].replace(" ", "\n", 1) if len(NAME[c]) > 12 else NAME[c] for c in cond]); ax.set_ylabel("Contribution to score gap (logit)")
-ax.set_title("Two routes to a false alarm: hallmark CRC species are shared with chronic disease (development cohorts)", loc="left", fontsize=8, color=INK)
-ax.legend(loc="upper right", fontsize=6.5, ncol=1); grid(ax)
+ax.scatter(A.loc["total", cond].values, yy, marker="|", s=120, color=INK, lw=1.6, zorder=4, label="Net score gap")
+ax.axvline(0, color=INK2, lw=0.6); ax.set_yticks(yy, [NAME[c] for c in cond], fontsize=6.5)
+ax.set_xlabel("Contribution to CRC-score gap vs own controls (logit)")
+ax.set_title("Two routes to a false alarm (development)", loc="left", fontsize=8, color=INK)
+ax.legend(loc="upper center", bbox_to_anchor=(0.45, -0.2), fontsize=6, ncol=2, handlelength=1.2, columnspacing=0.8); grid(ax, "x")
+# 1D medications (addendum A1, MetaCardis; exploratory metformin within T2D)
+ax = fig.add_subplot(gs[1, 1]); panel(ax, "D")
+AD = os.path.join(E, "addendum_results")
+rg = pd.read_csv(os.path.join(AD, "confirm_regression.csv")); mt = pd.read_csv(os.path.join(AD, "metformin_within_T2D.csv"))
+items = []
+def g_(model, outcome, term):
+    r = rg[(rg.model == model) & (rg.outcome == outcome) & (rg.term == term)].iloc[0]; return r.beta, r.lo, r.hi
+items.append(("PPI → total score (LASSO) H5", *g_("lasso", "score", "ppi"), "pre"))
+items.append(("PPI → total score (RF)", *g_("rf", "score", "ppi"), "pre"))
+items.append(("PPI → oral-taxa component H6", *g_("lasso", "oral", "ppi"), "pre"))
+items.append(("Metformin → total score (LASSO)", *g_("lasso", "score", "metformin"), "expl"))
+for c, lab in [("MetaCardis_2020_a", "MetaCardis"), ("LiJ_2014", "Li 2014"), ("QinJ_2012", "Qin 2012"), ("KarlssonFH_2013", "Karlsson 2013")]:
+    r = mt[(mt.model == "lasso") & (mt.cohort == c)]
+    if len(r): r = r.iloc[0]; items.append((f"Metformin in T2D · {lab} (n={r.n_met}/{r.n_no})", r.beta, r.lo, r.hi, "expl"))
+for i, (lab, b, lo, hi, kind) in enumerate(items[::-1]):
+    c = COL["vp"] if kind == "pre" else COL["contam"]
+    ax.plot([lo, hi], [i, i], color=c, lw=1.0)
+    ax.scatter(b, i, s=18, marker="o" if kind == "pre" else "D", facecolor=c if kind == "pre" else "white", edgecolor=c, lw=1.0, zorder=3)
+ax.axvline(0, color=INK2, lw=0.7); ax.set_yticks(range(len(items)), [it[0] for it in items[::-1]], fontsize=6)
+ax.set_xlabel("Adjusted effect on CRC-test score (logit, 95% CI)")
+ax.set_title("Medications (filled: pre-specified; open: exploratory)", loc="left", fontsize=8, color=INK); grid(ax, "x")
 fig.savefig(os.path.join(OUT, "Figure1.pdf"), bbox_inches="tight"); fig.savefig(os.path.join(OUT, "Figure1.png"), dpi=200, bbox_inches="tight")
 
 # ---------------- Figure 2: the fix ----------------

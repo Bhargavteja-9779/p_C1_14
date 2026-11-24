@@ -1,0 +1,20 @@
+    model         cohort     outcome term    n  n_ppi    beta      lo      hi  p_one_sided          covs
+0   lasso  VincentC_2016       score  ppi   98     19  0.6264 -0.3419  1.5947       0.1011      age+male
+1   lasso  VincentC_2016        oral  ppi   98     19  0.1569 -0.6135  0.9273       0.3434      age+male
+2   lasso  VincentC_2016  score|oral  ppi   98     19  0.4477  0.0357  0.8596          NaN         +oral
+3   lasso     LeeKA_2022       score  ppi  153     41 -0.1238 -0.6679  0.4203       0.6731  age+BMI+male
+4   lasso     LeeKA_2022        oral  ppi  153     41  0.1168 -0.1317  0.3652       0.1773  age+BMI+male
+5   lasso     LeeKA_2022  score|oral  ppi  153     41 -0.2753 -0.7163  0.1658          NaN         +oral
+6   lasso      JieZ_2017       score  ppi  306      9  0.0790 -0.6315  0.7894       0.4135  age+BMI+male
+7   lasso      JieZ_2017        oral  ppi  306      9  0.2312 -0.2869  0.7494       0.1903  age+BMI+male
+8   lasso      JieZ_2017  score|oral  ppi  306      9 -0.1224 -0.6728  0.4280          NaN         +oral
+9      rf  VincentC_2016       score  ppi   98     19  0.0863 -0.1869  0.3596       0.2660      age+male
+10     rf     LeeKA_2022       score  ppi  153     41  0.0789 -0.1480  0.3057       0.2465  age+BMI+male
+11     rf      JieZ_2017       score  ppi  306      9  0.2068 -0.2077  0.6213       0.1635  age+BMI+male
+   model         cohort  n_ppi  n_no  pos_ppi  pos_no     rr  rr_lo   rr_hi
+0  lasso  VincentC_2016     19    79    0.842   0.772  1.091  0.845   1.339
+1  lasso     LeeKA_2022     41   112    0.195   0.098  1.987  0.728   4.683
+2  lasso      JieZ_2017      9   297    0.667   0.333  2.000  0.970   2.941
+3     rf  VincentC_2016     19    79    0.947   0.899  1.054  0.899   1.179
+4     rf     LeeKA_2022     41   112    0.122   0.045  2.732  0.546  13.659
+5     rf      JieZ_2017      9   297    0.667   0.397  1.678  0.825   2.491
