@@ -29,3 +29,18 @@ def train_and_score(X, y, groups, tr, te, name, seed=0):
         m = make(name, seed).fit(Ztr[a], ytr[a]); oof[b] = m.predict_proba(Ztr[b])[:, 1]
     m = make(name, seed).fit(Ztr, ytr)
     return logit(oof), ytr, logit(m.predict_proba(Zte)[:, 1]), m
+
+def train_and_score_featstd(X, y, groups, tr, te, name, seed=0):
+    """Baseline: per-site unlabeled feature standardisation (Zheng 2026-style). Source features standardised per
+    training cohort; target features standardised with the target's own (unlabeled) mean/sd. Returns source OOF
+    logit scores (per-cohort standardised) and target scores."""
+    p = preprocess_fit(X[tr]); keep = p["keep"]
+    L = np.log10(X[:, keep] / 100 + 1e-5); Z = np.zeros_like(L)
+    for gname in np.unique(groups):
+        i = groups == gname; Z[i] = (L[i] - L[i].mean(0)) / (L[i].std(0) + 1e-6)
+    Ztr, Zte, ytr, gtr = Z[tr], Z[te], y[tr], groups[tr]
+    oof = np.zeros(len(ytr))
+    for a, b in GroupKFold(len(np.unique(gtr))).split(Ztr, ytr, gtr):
+        oof[b] = make(name, seed).fit(Ztr[a], ytr[a]).predict_proba(Ztr[b])[:, 1]
+    m = make(name, seed).fit(Ztr, ytr)
+    return logit(oof), ytr, logit(m.predict_proba(Zte)[:, 1]), m
