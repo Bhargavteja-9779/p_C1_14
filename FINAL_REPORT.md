@@ -36,7 +36,7 @@ across cohorts.
 | G6 Ablation | n/a / partial | Burn-in vs strict burn-in vs labelled controls; mis-specified prevalence bound |
 | G7 Generalization | pass, with limits stated | 3 diseases × 2 models × 32–35 populations; non-random and cross-site designs; cross-site failure reported |
 | G8 Leakage | pass | Global dedup (r > 0.99; sensitivity at r > 0.95 changes nothing); locked split |
-| G9 Reproducibility | see log | Fresh clone + all result scripts, file-by-file comparison: `logs/repro_full_2026-11-24.log` |
+| G9 Reproducibility | pass | Fresh clone of commit 17a8371, all 19 result scripts from an empty results/ folder: 30/30 result files identical to the committed ones (`logs/repro_full_2026-11-24.log`). The later r7_posthoc.py (Table S15) is a 1-line derivation from ppv_v4.csv, which was reproduced. |
 | G10 Review | pass | Rounds 7 and 8: three fresh reviewers each, all minor revision, no MAJOR (8/8/8; 7/8/8) |
 | G11 Number audit | pass (lenient) | `scripts/audit_numbers.py`: 181/181 numbers of v10 match a result-file value |
 

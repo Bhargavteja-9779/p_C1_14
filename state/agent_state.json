@@ -1,11 +1,11 @@
 {
- "status": "RUNNING",
+ "status": "PAUSED_AWAITING_USER",
  "branch": "claude/trusting-mayer-1ipvjz",
  "cycle": 4,
  "pivots_used": 1,
- "phase": "REVIEW_ROUND_8",
- "step": "round 8 reviewers on v9; full repro running",
- "last_action": "2026-11-24 v9 written after round 7 (first clean round)",
+ "phase": "SUBMISSION_READY_V10",
+ "step": "see FINAL_REPORT.md: authors' placeholders, DEBIAS-M decision, JCR check, submit or new cycle",
+ "last_action": "2026-11-24 v10 + submission package + full repro 30/30 identical",
  "cycle_history": {
   "1": "case-control threshold transfer, CRC LOSO, conformal local-control threshold (manuscript v1/v2, branch kind-ramanujan)",
   "2": "RECHECK: journal re-verified, leakage bug ThomasAM_2019_c==YachidaS fixed, 85-paper prior-art map (branch quirky-mayer)",

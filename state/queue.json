@@ -90,8 +90,9 @@
   },
   {
    "id": "R8_review_round_8",
-   "status": "running",
-   "attempts": 1
+   "status": "done",
+   "attempts": 1,
+   "note": "7/8/8 minor, no MAJOR; G10 met"
   }
  ]
 }

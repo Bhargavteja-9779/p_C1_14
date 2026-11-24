@@ -1,0 +1,52 @@
+commit 17a837135f487283abdf727947ba346686dade29
+python Python 3.13.18
+ran dedup.py (13 s)
+ran atlas_v4.py (113 s)
+ran analyse_atlas_v4.py (11 s)
+ran hypotheses_v4.py (12 s)
+ran taxa_v4.py (6 s)
+ran deploy_v4.py (434 s)
+ran summarise_v4.py (8 s)
+ran control_augmentation_v4.py (986 s)
+ran h2h_v4.py (2 s)
+ran holm_v4.py (2 s)
+ran counts_v4.py (2 s)
+ran r3_posthoc.py (2 s)
+ran neardup_check.py (26 s)
+ran dedup095_sensitivity.py (882 s)
+ran holm_v5.py (2 s)
+ran r6_posthoc.py (2 s)
+ran make_figures_v7.py (7 s)
+ran make_graphical_abstract.py (3 s)
+ran make_si_v4.py (3 s)
+same      atlas_coefs_v4.csv
+same      atlas_perpop_v4.csv
+same      atlas_rows_v4.csv.gz
+same      control_augmentation_v4.csv
+same      counts_v4.json
+same      covariates_v4.csv
+same      dedup095_sensitivity.json
+same      deploy_v4_cc.csv.gz
+same      deploy_v4_cc_summary.csv
+same      deploy_v4_healthy.csv.gz
+same      deploy_v4_units.csv
+same      dropped_studies.txt
+same      duplicates.csv
+same      excluded_samples.txt
+same      ga_inband.json
+same      h2h_v4.json
+same      heterogeneity_v4.csv
+same      holm_v4.csv
+same      holm_v5.csv
+same      holm_v6.csv
+same      hypotheses_v4.csv
+same      neardup_check.csv
+same      ppv_v4.csv
+same      r3_a5_fair.csv
+same      r3_posthoc.json
+same      r6_posthoc.json
+same      summary_v4.json
+same      summary_v4_table.csv
+same      taxa_shift_v4.csv
+same      taxa_top_v4.csv
+files differing: 0
