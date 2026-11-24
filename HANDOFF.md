@@ -1,15 +1,20 @@
 # HANDOFF — read this first
 
-**Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
+**Branch:** `claude/festive-cori-jft724` (fast-forward of `claude/trusting-mayer-1ipvjz`, which contains `claude/beautiful-goldberg-37nqmw`).
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
 CYCLE 5 (user directive 2026-11-24, see USER_DIRECTIVES.md): v10 judged not good enough for iMeta readers.
-Step 5.1: build benchmark_v2 (more recent iMeta papers in microbiome ML/diagnostics; style + scorecard).
-Step 5.2: gap analysis v10 vs benchmark. Step 5.3: new methods/analyses to close the gap (dev only, then locked).
-Step 5.4: rewrite in iMeta style. Step 5.5: blind scorecard + review rounds. Repeat until USER_DIRECTIVES rule 3 met.
-BLOCKED ON USER: DEBIAS-M comparator (needs a Python 3.11 + CPU torch environment; install was denied by the permission
-system). Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
+Done in cycle 5: 14-test atlas (H1-H4), Addendum A replication run once (H5 LASSO INCONCLUSIVE 10/14 P=0.090;
+H6 INCONCLUSIVE, only 4 non-EUNA pops -> geography stays EXPLORATORY), `fprcal` tool (code/tool, 11 tests pass),
+post hoc verification power (verify_power_v5.py: n=100 local healthy detects FPR>0.25 with power 0.98),
+Figure 1 v11 draft (manuscript/figures_v11/figure1_atlas.*; script v5/make_fig_atlas_v11.py).
+IN PROGRESS: step 5.1 benchmark_v2 (journal_selection/benchmark_v2/: benchmark_v2.csv, style_v2.md, scorecard.md,
+benchmark_scores.csv). If missing, rebuild it.
+THEN: 5.2 gap analysis v10 vs benchmark -> 5.3 remaining analyses (Figure 2: taxa + burn-in/verify panel) ->
+5.4 rewrite as manuscript_v11 (14-test atlas + tool, iMeta style) -> 5.5 blind scorecard + 3-reviewer rounds.
+BLOCKED ON USER: DEBIAS-M comparator (pip install from GitHub denied by the permission system twice; CPU torch installs fine).
+Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).
