@@ -246,3 +246,15 @@ Exploratory follow-up (addendum_metformin_explore.py): within T2D, metformin use
 (+0.40, p = 0.18; RF +0.28, p = 0.12; 58 vs 17); QinJ_2012 (15 users) and KarlssonFH_2013 (20 users) null.
 Drivers: Lachnoclostridium, Enterobacterales/Morganellaceae, Streptococcus salivarius enriched; E. eligens,
 Firmicutes CAG110 depleted. => hypothesis-generating: the T2D false-alarm excess in MetaCardis is largely a metformin signal.
+
+## Post hoc P1 (2026-11-24): comorbidity INSIDE CRC colonoscopy cohorts (posthoc_within_crc_comorbidity.py)
+Comorbidity labels (T2D, hypertension, fatty liver, hypercholesterolemia) recorded for colonoscopy-negative controls and
+CRC cases in FengQ_2015, ThomasAM_2018a (development, LOCO scores) and YuJ_2015 (locked site, frozen-run scores).
+Controls (137; 70 comorbid), positivity at source cut-off: LASSO comorbid 4.3% vs healthy 16.4% (adj. OR 0.26,
+0.06-1.10, p = 0.07); RF 1.4% vs 16.4% (OR 0.10, 0.01-0.93, p = 0.04). Score difference ~0 (LASSO -0.19, p = 0.35).
+CRC cases (147; 73 comorbid): no score difference (LASSO +0.10, p = 0.79; RF -0.14, p = 0.40).
+=> CONTRADICTS a general "chronic disease raises the cancer score" claim for mild cardiometabolic labels (consistent
+with the small/n.s. development effects for hypertension and fatty liver, and the null CAD/IGT locked results). The
+excess false alarms concentrate in severe/systemic disease (cirrhosis, ACVD, heart failure) and drug-treated T2D
+(metformin, exploratory). Comorbid CRC cases do not score higher -> per-group recalibration costs sensitivity in
+over-flagged groups (the proxy was not pessimistic). Manuscript claims must be narrowed accordingly.
