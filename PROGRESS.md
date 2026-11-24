@@ -12,7 +12,7 @@ Commit + push after every phase (auto-save).
 - [x] STEP 0: journal landscape + 72-day evidence
 - [x] STEP 1: benchmark 25 papers, level profile, style notes
 - [x] STEP 2: real-life problem discovery
-- [ ] STEP 3: novelty map + scorecard (re-launched 2026-11-24; earlier background run was lost uncommitted)
+- [x] STEP 3: novelty map + scorecard (2026-11-24; 76 verified rows)
 - [ ] Protocol pre-registration
 - [ ] First working version
 - [ ] Novelty escalation loop (D6)
@@ -45,3 +45,10 @@ Commit + push after every phase (auto-save).
   Rebuild: `pip install scikit-learn scipy pandas pyreadr matplotlib`; then in data_cache/: `python3 ../fetch_cmd.py <studies>`
   (MetaCardis via title `2022-10-19.MetaCardis_2020_a.relative_abundance`).
 - Round 1 dev exploration (code/experiments/dev/explore_v1.py) re-run (its log was empty in the commit).
+- STEP 3 result: no prior unlabeled threshold adaptation for microbiome classifiers, BUT the estimator (affine score
+  calibration fitted to unlabeled 2-component score mixture) exists in speaker verification (Brummer & Garcia-Romero 2014).
+  Close 2026 work: SACSIM (Biometrics; covariate-based NP adaptation), CRC-TrustBench (Front Microbiol; benchmark only),
+  Bao 2026 Zenodo deposit (threshold transportability, needs labels; manuscript to re-check before submission).
+  Scorecard: problem 3, method 2, evaluation 4, practical 4. => D6 direction: identifiability check / abstain, finite-sample
+  FPR bound, hybrid unlabeled + few labelled controls; add baselines: per-site feature standardisation, MLLS-BCTS, DyS/HDy,
+  2-Gaussian unsupervised calibration.
