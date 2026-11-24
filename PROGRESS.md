@@ -100,7 +100,7 @@ export CMD_CACHE=<repo>/data_cache. Then `cd code/experiments/atlas && python3 -
 regenerates results/atlas_rows.csv.gz (gitignored? no - committed) as needed.
 
 ### NEXT
-1. Review round 2: EDITOR report received (reviews/review_r2_01_editor_v3.md - act on items 1-9). Statistics and domain reports NOT received - re-run those two.
+1. Review round 2: EDITOR report received (reviews/review_r2_01_editor_v3.md - act on items 1-9). Domain report received but TRUNCATED (reviews/review_r2_02_domain_v3.md - act on strict-subset primary analysis + taxon decomposition). Statistics report NOT received - re-run it.
    Anticipated issues: small-n cohorts inflating spread (estimate random-effects tau / compare with binomial noise);
    non-general-population "controls" (VincentC_2016 hospital, RaymondF_2016 antibiotics, LokmerA_2019, FerrettiP_2018
    mothers) -> sensitivity analysis on strict general-population subset; possible duplicated subjects across cohorts;
