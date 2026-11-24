@@ -1,13 +1,14 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
-**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 3 on manuscript v4
+**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** review round 4 on manuscript v5
 
 ## NEXT ACTION
-Review round 3 on manuscript v4 (Target_Journal_Submission/manuscript/manuscript_v4.md). Reports go to
-Target_Journal_Submission/reviews/review_r3_0{1,2,3}_*.md. If they are missing (session died), relaunch three fresh
-reviewers (statistics, novelty/prior art with web search, editor/clarity/reproducibility). Then triage into
-reviews/round3_response.md, fix, and run round 4. Also pending: SI v4 tables (make_si_v4.py), flow diagram, workflow schematic.
+Review round 4 on manuscript v5 (Target_Journal_Submission/manuscript/manuscript_v5.md; figures_v5/; SI:
+supporting_information_v4.md + si_tables_v4.md). Reports -> reviews/review_r4_0{1,2,3}_*.md. If missing, relaunch three
+fresh reviewers. G10 needs two consecutive rounds at accept/minor with no unresolved MAJOR.
+BLOCKED ON USER: DEBIAS-M comparator (needs a Python 3.11 + CPU torch environment; install was denied by the permission
+system). Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).
@@ -31,8 +32,8 @@ Cycle 4: ~0.5 h CPU wall-clock of 15 h (dedup 1 min, atlas 2 min, deploy ~6 min,
 | G6 ablation | n/a / partial | burn-in vs PAC vs augmentation |
 | G7 generalization | partial | 3 diseases × 2 models × ~60 populations; needs strict subset + non-random splits |
 | G8 leakage | pass | global dedup v4/dedup.py (119 samples removed) |
-| G9 reproducibility | unknown | no fresh-clone test yet |
-| G10 review | fail | round 2: editor borderline, statistics MAJOR |
+| G9 reproducibility | pass | fresh clone from GitHub + v4 pipeline gave identical outputs (scratchpad repro.sh); data rebuild script pinned |
+| G10 review | fail | round 3: stats 7 minor, novelty 6 major, editor 5 major -> v5 |
 | G11 number audit | pass (lenient) | scripts/audit_numbers.py: 161/161 numbers of v4 match a result value (lenient: any value in results dirs) |
 
 ## Last decisions / failures

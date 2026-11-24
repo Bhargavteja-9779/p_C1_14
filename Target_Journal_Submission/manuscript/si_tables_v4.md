@@ -557,3 +557,100 @@ Population-level shifts and oral-taxa share:
 | 200 | 0.100 |   0.100 | BURN-PAC |       4 |      2 | 0.046 | 0.001 |  0.176 |
 | 200 | 0.100 |   0.100 | LAB      |       4 |      2 | 0.099 | 0.045 |  0.282 |
 | 200 | 0.100 |   0.100 | SRC      |       4 |      2 | 0.119 | 0.421 |  0.313 |
+
+## Table S12. Post hoc (review round 3): within-site non-random burn-in (covariate halves + accession order, N = 100) and fair A5 comparison
+{
+ "within_site_N100": {
+  "burn_mad": 0.03318196268804906,
+  "src_mad": 0.07807400763188906,
+  "reduction": 0.574993474851469,
+  "burn_p15": 0.12623737373737373,
+  "src_p15": 0.14646464646464646,
+  "diff": {
+   "mean": -0.04489204494384,
+   "lo": -0.06750649951854513,
+   "hi": -0.026618814947877295,
+   "pops": 13,
+   "units": 198
+  },
+  "pops_better": 12,
+  "pops": 13,
+  "wilcoxon_pop_p": 0.000732421875
+ },
+ "A5_fair": {
+  "units": 62,
+  "local_perdraw_inband": 0.785967741935484,
+  "units_with_country_ref": 46,
+  "pops_with_country_ref": 8,
+  "local_perdraw_inband_same_units": 0.7903260869565218,
+  "country_inband_same_units": 0.45652173913043476
+ },
+ "Q_p_max_strict": 5.481888148742991e-10,
+ "fold_max_abs_change_strict": 0.1428571428571428
+}
+
+Per population–test pair (strict, n >= 120): per-draw in-band share of 100 labelled local controls vs country reference:
+| disease   | model   | pop                |   local_perdraw_inband |   country_fpr |   country_inband |
+|:----------|:--------|:-------------------|-----------------------:|--------------:|-----------------:|
+| CRC       | lasso   | AsnicarF_2021      |                  0.940 |         0.045 |            0.000 |
+| CRC       | lasso   | BritoIL_2016       |                  0.595 |       nan     |          nan     |
+| CRC       | lasso   | JieZ_2017          |                  0.450 |         0.197 |            0.000 |
+| CRC       | lasso   | LeChatelierE_2013  |                  0.850 |         0.099 |            1.000 |
+| CRC       | lasso   | LifeLinesDeep_2016 |                  0.900 |         0.133 |            1.000 |
+| CRC       | lasso   | MehtaRS_2018       |                  0.855 |         0.058 |            1.000 |
+| CRC       | lasso   | QinJ_2012          |                  0.740 |         0.110 |            1.000 |
+| CRC       | lasso   | SchirmerM_2016     |                  0.875 |         0.066 |            1.000 |
+| CRC       | lasso   | XieH_2016          |                  0.755 |         0.225 |            0.000 |
+| CRC       | lasso   | ZeeviD_2015        |                  0.875 |       nan     |          nan     |
+| CRC       | rf      | AsnicarF_2021      |                  0.920 |         0.048 |            0.000 |
+| CRC       | rf      | BritoIL_2016       |                  0.650 |       nan     |          nan     |
+| CRC       | rf      | JieZ_2017          |                  0.425 |         0.172 |            0.000 |
+| CRC       | rf      | LeChatelierE_2013  |                  0.815 |         0.106 |            1.000 |
+| CRC       | rf      | LifeLinesDeep_2016 |                  0.895 |         0.209 |            0.000 |
+| CRC       | rf      | MehtaRS_2018       |                  0.845 |         0.036 |            0.000 |
+| CRC       | rf      | QinJ_2012          |                  0.695 |         0.162 |            0.000 |
+| CRC       | rf      | SchirmerM_2016     |                  0.905 |         0.046 |            0.000 |
+| CRC       | rf      | XieH_2016          |                  0.700 |         0.213 |            0.000 |
+| CRC       | rf      | ZeeviD_2015        |                  0.910 |       nan     |          nan     |
+| IBD       | lasso   | AsnicarF_2021      |                  0.910 |         0.132 |            1.000 |
+| IBD       | lasso   | BritoIL_2016       |                  0.665 |       nan     |          nan     |
+| IBD       | lasso   | JieZ_2017          |                  0.445 |         0.164 |            0.000 |
+| IBD       | lasso   | LeChatelierE_2013  |                  0.850 |         0.096 |            1.000 |
+| IBD       | lasso   | LifeLinesDeep_2016 |                  0.930 |         0.064 |            1.000 |
+| IBD       | lasso   | MehtaRS_2018       |                  0.900 |         0.052 |            1.000 |
+| IBD       | lasso   | QinJ_2012          |                  0.805 |         0.185 |            0.000 |
+| IBD       | lasso   | SchirmerM_2016     |                  0.880 |         0.141 |            1.000 |
+| IBD       | lasso   | XieH_2016          |                  0.730 |         0.089 |            1.000 |
+| IBD       | lasso   | YachidaS_2019      |                  0.795 |       nan     |          nan     |
+| IBD       | lasso   | ZeeviD_2015        |                  0.905 |       nan     |          nan     |
+| IBD       | rf      | AsnicarF_2021      |                  0.895 |         0.140 |            1.000 |
+| IBD       | rf      | BritoIL_2016       |                  0.610 |       nan     |          nan     |
+| IBD       | rf      | JieZ_2017          |                  0.435 |         0.066 |            1.000 |
+| IBD       | rf      | LeChatelierE_2013  |                  0.830 |         0.089 |            1.000 |
+| IBD       | rf      | LifeLinesDeep_2016 |                  0.940 |         0.084 |            1.000 |
+| IBD       | rf      | MehtaRS_2018       |                  0.870 |         0.016 |            0.000 |
+| IBD       | rf      | QinJ_2012          |                  0.675 |         0.127 |            1.000 |
+| IBD       | rf      | SchirmerM_2016     |                  0.910 |         0.116 |            1.000 |
+| IBD       | rf      | XieH_2016          |                  0.745 |         0.095 |            1.000 |
+| IBD       | rf      | YachidaS_2019      |                  0.800 |       nan     |          nan     |
+| IBD       | rf      | ZeeviD_2015        |                  0.875 |       nan     |          nan     |
+| T2D       | lasso   | AsnicarF_2021      |                  0.885 |         0.007 |            0.000 |
+| T2D       | lasso   | BritoIL_2016       |                  0.660 |       nan     |          nan     |
+| T2D       | lasso   | JieZ_2017          |                  0.410 |         0.516 |            0.000 |
+| T2D       | lasso   | LeChatelierE_2013  |                  0.840 |         0.182 |            0.000 |
+| T2D       | lasso   | LifeLinesDeep_2016 |                  0.885 |         0.256 |            0.000 |
+| T2D       | lasso   | MehtaRS_2018       |                  0.845 |         0.247 |            0.000 |
+| T2D       | lasso   | SchirmerM_2016     |                  0.855 |         0.011 |            0.000 |
+| T2D       | lasso   | XieH_2016          |                  0.740 |         0.320 |            0.000 |
+| T2D       | lasso   | YachidaS_2019      |                  0.760 |       nan     |          nan     |
+| T2D       | lasso   | ZeeviD_2015        |                  0.900 |       nan     |          nan     |
+| T2D       | rf      | AsnicarF_2021      |                  0.855 |         0.030 |            0.000 |
+| T2D       | rf      | BritoIL_2016       |                  0.680 |       nan     |          nan     |
+| T2D       | rf      | JieZ_2017          |                  0.460 |         0.311 |            0.000 |
+| T2D       | rf      | LeChatelierE_2013  |                  0.820 |         0.058 |            1.000 |
+| T2D       | rf      | LifeLinesDeep_2016 |                  0.935 |         0.301 |            0.000 |
+| T2D       | rf      | MehtaRS_2018       |                  0.865 |         0.127 |            1.000 |
+| T2D       | rf      | SchirmerM_2016     |                  0.895 |         0.022 |            0.000 |
+| T2D       | rf      | XieH_2016          |                  0.750 |         0.308 |            0.000 |
+| T2D       | rf      | YachidaS_2019      |                  0.775 |       nan     |          nan     |
+| T2D       | rf      | ZeeviD_2015        |                  0.920 |       nan     |          nan     |

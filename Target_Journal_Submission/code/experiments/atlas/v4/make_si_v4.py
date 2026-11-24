@@ -77,5 +77,11 @@ Population-level shifts and oral-taxa share:
 
 ## Table S11. Contaminated burn-in in locked case–control cohorts
 {md(ccs)}
+
+## Table S12. Post hoc (review round 3): within-site non-random burn-in (covariate halves + accession order, N = 100) and fair A5 comparison
+{json.dumps(json.load(open(R("r3_posthoc.json"))), indent=1)}
+
+Per population–test pair (strict, n >= 120): per-draw in-band share of 100 labelled local controls vs country reference:
+{md(pd.read_csv(R("r3_a5_fair.csv")))}
 """
 open(os.path.join(MS, "si_tables_v4.md"), "w").write(out); print("written", len(out))

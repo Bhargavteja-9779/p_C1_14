@@ -60,6 +60,12 @@
   },
   {
    "id": "R3_review_round_3",
+   "status": "done",
+   "attempts": 1,
+   "note": "stats 7 minor; novelty 6 major; editor 5 major -> v5"
+  },
+  {
+   "id": "R4_review_round_4",
    "status": "running",
    "attempts": 1
   }
