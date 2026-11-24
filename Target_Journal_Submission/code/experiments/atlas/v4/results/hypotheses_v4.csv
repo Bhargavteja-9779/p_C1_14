@@ -1,0 +1,49 @@
+strict,model,test,value,p,n,lo,hi
+True,lasso,A1_CRC_chi2,319.66161365767874,3.692019846975479e-49,32,,
+True,lasso,A2_rho_CRC_IBD,0.2571601504505566,,31,-0.11594930369468844,0.571203697405376
+True,lasso,A2_rho_CRC_T2D,0.49910934214378305,,30,0.11046453040586343,0.7871434919276393
+True,lasso,A3_CRC_nonwest_minus_west,0.05090909090909091,0.016252301662363175,9 vs 23,,
+True,lasso,A3_IBD_nonwest_minus_west_posthoc,-0.000455684666210987,0.5600045867195844,9 vs 26,,
+True,lasso,A3_T2D_nonwest_minus_west_posthoc,0.17435897435897435,0.0003166279364157118,9 vs 25,,
+True,lasso,A5_CRC_local100_inband_share,1.0,,10,,
+True,lasso,A5_CRC_country_ref_inband_share,0.5217391304347826,,23,,
+True,lasso,A5_IBD_local100_inband_share,1.0,,11,,
+True,lasso,A5_IBD_country_ref_inband_share,0.34615384615384615,,26,,
+True,lasso,A5_T2D_local100_inband_share,1.0,,10,,
+True,lasso,A5_T2D_country_ref_inband_share,0.21739130434782608,,23,,
+True,rf,A1_CRC_chi2,275.2418863447063,1.7597325138453066e-40,32,,
+True,rf,A2_rho_CRC_IBD,0.2875065713399162,,31,-0.1192566010084689,0.6617054126286621
+True,rf,A2_rho_CRC_T2D,-0.17857178891126968,,30,-0.5635285562061891,0.22848334761330816
+True,rf,A3_CRC_nonwest_minus_west,-0.004689754689754688,0.7074914418494711,9 vs 23,,
+True,rf,A3_IBD_nonwest_minus_west_posthoc,0.015555555555555552,0.6680027179476349,9 vs 26,,
+True,rf,A3_T2D_nonwest_minus_west_posthoc,-0.009949727691663177,0.3699604045197732,9 vs 25,,
+True,rf,A5_CRC_local100_inband_share,1.0,,10,,
+True,rf,A5_CRC_country_ref_inband_share,0.2608695652173913,,23,,
+True,rf,A5_IBD_local100_inband_share,1.0,,11,,
+True,rf,A5_IBD_country_ref_inband_share,0.5769230769230769,,26,,
+True,rf,A5_T2D_local100_inband_share,1.0,,10,,
+True,rf,A5_T2D_country_ref_inband_share,0.2608695652173913,,23,,
+False,lasso,A1_CRC_chi2,593.937525002278,7.027731090565934e-97,45,,
+False,lasso,A2_rho_CRC_IBD,0.15035890759416667,,43,-0.15900805738621984,0.44091381175311456
+False,lasso,A2_rho_CRC_T2D,0.406617480203431,,42,0.08294193890966661,0.6777166251800337
+False,lasso,A3_CRC_nonwest_minus_west,0.022186147186147184,0.37898853922332265,12 vs 33,,
+False,lasso,A3_IBD_nonwest_minus_west_posthoc,0.003907037709215563,0.774733466027592,12 vs 41,,
+False,lasso,A3_T2D_nonwest_minus_west_posthoc,0.09847024539678212,0.008947499533819387,12 vs 40,,
+False,lasso,A5_CRC_local100_inband_share,1.0,,12,,
+False,lasso,A5_CRC_country_ref_inband_share,0.46875,,32,,
+False,lasso,A5_IBD_local100_inband_share,1.0,,13,,
+False,lasso,A5_IBD_country_ref_inband_share,0.38461538461538464,,39,,
+False,lasso,A5_T2D_local100_inband_share,1.0,,11,,
+False,lasso,A5_T2D_country_ref_inband_share,0.25,,36,,
+False,rf,A1_CRC_chi2,918.8253068208879,2.2943639396262927e-163,45,,
+False,rf,A2_rho_CRC_IBD,0.28046659793186945,,43,-0.07115080947870912,0.572687934034173
+False,rf,A2_rho_CRC_T2D,0.16454493599891654,,42,-0.17959912908828504,0.4704676991278876
+False,rf,A3_CRC_nonwest_minus_west,-0.021464646464646468,0.9610916515339518,12 vs 33,,
+False,rf,A3_IBD_nonwest_minus_west_posthoc,0.007911077993045204,0.6490376106815465,12 vs 41,,
+False,rf,A3_T2D_nonwest_minus_west_posthoc,-0.027846123021438587,0.8220738366312337,12 vs 40,,
+False,rf,A5_CRC_local100_inband_share,1.0,,12,,
+False,rf,A5_CRC_country_ref_inband_share,0.21875,,32,,
+False,rf,A5_IBD_local100_inband_share,1.0,,13,,
+False,rf,A5_IBD_country_ref_inband_share,0.5128205128205128,,39,,
+False,rf,A5_T2D_local100_inband_share,1.0,,11,,
+False,rf,A5_T2D_country_ref_inband_share,0.25,,36,,
