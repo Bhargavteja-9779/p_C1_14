@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fprcal"
+version = "0.1.0"
+description = "Verify and set the false-positive rate of score-based (e.g. gut-microbiome) diagnostic tests at the site of use"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas"]
+license = {text = "MIT"}
+
+[project.scripts]
+fprcal = "fprcal.cli:main"
+
+[tool.setuptools]
+packages = ["fprcal"]
+
+[tool.setuptools.package-data]
+fprcal = ["data/*.csv"]

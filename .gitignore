@@ -2,3 +2,4 @@
 Target_Journal_Submission/code/results/*.csv.gz
 __pycache__/
 data_cache/
+*.egg-info/
