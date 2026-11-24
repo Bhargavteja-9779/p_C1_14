@@ -86,3 +86,12 @@ populations per disease (strict set), and share of the shift from taxa with oral
 PPV at 0.5% and 1% prevalence from the locked case-control sensitivity/FPR of SRC and BURN (N = 100).
 
 ## DEVIATIONS (filled in after running)
+- D1 (P8, bug fix before interpretation): the oral-genus matcher first compared the rank prefix ("s") instead of the
+  genus; fixed in taxa_v4.py and re-run. Only the oral-share columns changed.
+- D2 (P6/P5 random design): populations enter with all their de-duplicated adult controls (person-level strict filter is
+  not applied inside the random-split design); the "strict" summary restricts at study level only. Person-level strict
+  filtering is applied in the atlas statistics (P2), the neighbour design (P4c) and the hypotheses script.
+- D3 (P4a-b, d): the stress designs use the full set of populations (DEV and LOCKED); P4 did not specify strict/full for
+  these designs. The question there is exchangeability, not population health.
+- D4 (A1-A3, A5 re-test): pre-specified atlas hypotheses (protocol_atlas.md) re-tested on de-duplicated data in
+  hypotheses_v4.py; A5 is reported for the first time (it was omitted in v3). Not in the original v4 list; added.
