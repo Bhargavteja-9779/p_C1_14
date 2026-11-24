@@ -59,3 +59,33 @@ Decision for round 4: build the paper around a guarantee rather than a point est
 the unlabelled screening pool that keeps P(FPR > alpha) <= delta for any case share up to a stated bound pi_max
 (contamination-robust tolerance bound, Wilks-type), with a sample-size rule (how many screened samples / local controls
 a lab needs), and compare its sensitivity cost to conformal with labelled controls.
+
+## Round 4 (explore_v4.py, LASSO R=100) - 2026-11-24
+(A) within-cohort, alpha = 0.10, delta = 0.10; dev pools hold only ~20-40 controls.
+| method | mean FPR pi=0 | 0.05 | 0.2 | sens pi=0 | abstain |
+|---|---|---|---|---|---|
+| source threshold | 0.157 | 0.157 | 0.157 | 0.500 | 0 |
+| local quantile | 0.136 | 0.112 | 0.061 | 0.496 | 0 |
+| conformal, 10 labelled controls | 0.090 | 0.090 | 0.090 | 0.414 | 0 |
+| robust pool, E[FPR]<=a for pi<=5% (rpoolmean05) | 0.080 | 0.056 | 0.022 | 0.410 | 0 |
+| robust pool, P(FPR>a)<=delta, pi<=5% (rpool05) | 0.019 | 0.008 | 0.001 | 0.200 | 0.50 |
+Pools of 20-40 are far below the ~360-610 the guarantee needs (sample-size rule, below), so the high-probability
+version abstains or is very conservative here; its realistic test needs large cohorts (locked set). The expected-FPR
+version is label-free and as good as 10 labelled controls at pi<=5%.
+
+(B) cross-study stress test (pool from study A, deploy in study B), pi=0:
+realised FPR of local quantile / robust pool / source threshold: ThomasAM_2018b->2018a (both Italy) 0.33/0.13/0.21;
+HanniganGD->VogtmannE (both USA) 0.87/0.65/0.19; WirbelJ->ZellerG 0.38/0.23/0.25; ZellerG->GuptaA 0.20/0.10/0.63.
+=> A threshold set on another study's samples fails even within the same country. The unit of shift is the
+study/lab pipeline, not the country. Any guarantee requires a pool of samples processed by the deploying lab.
+
+Sample-size rule (alpha=0.10, lose <=0.02 FPR when the pool is case-free): delta=0.10 -> n = 360 (pi_max<=1%),
+410 (2%), 610 (5%), 1500 (10%); delta=0.05 -> 560, 610, 710, 960, 2300.
+
+### Decision after round 4 (protocol to freeze)
+Headline is a deployment study, not a new estimator: (1) thresholds do not transfer and AUROC hides it; (2) published
+label-free fixes (label-shift EM/MLLS/DyS, unsupervised mixture calibration, per-site standardisation) fail at
+screening prevalence; (3) a contamination-robust rank rule on the lab's own unlabelled screening pool gives a
+finite-sample FPR guarantee, with an explicit sample-size rule; (4) consequences per 1,000 screened.
+Novelty claim limited to (3)'s contamination-robust extension of the Wilks tolerance bound + its microbiome-screening
+evaluation + the negative results (2), which are new for microbiome diagnostics.
