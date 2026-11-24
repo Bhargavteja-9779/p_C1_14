@@ -16,8 +16,8 @@ adopts a published classifier usually keeps the cut-off chosen on the training c
 sequencing and the population all differ [5, 6].
 
 Here, we asked a simple question: when a microbiome classifier is moved to a new cohort, does it keep its intended
-false-positive rate (FPR)? We used 20 public cohorts from curatedMetagenomicData [7] across four tasks (CRC, IBD, T2D
-and colorectal adenoma; [[N samples]] stool metagenomes). We found that the training cut-off gives FPRs from [[x]] to
+false-positive rate (FPR)? We used 19 public studies from curatedMetagenomicData [7] across four tasks (CRC, IBD, T2D
+and colorectal adenoma; 3,626 unique stool metagenomes, 24 cohort-task pairs). We found that the training cut-off gives FPRs from [[x]] to
 [[y]] at new cohorts, although the AUROC stays good. Popular label-free fixes from machine learning make this worse at
 screening prevalence. A simple rule fixes it: set the cut-off at a fixed rank among the laboratory's own first,
 unlabelled screening samples. The rule needs no diagnoses, comes with a finite-sample guarantee, and tells a laboratory

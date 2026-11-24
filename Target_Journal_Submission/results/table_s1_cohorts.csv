@@ -1,0 +1,25 @@
+task,cohort,country,controls,cases,role
+CRC vs control,FengQ_2015,AUT,61,46,development
+CRC vs control,GuptaA_2019,IND,30,30,development
+CRC vs control,HanniganGD_2017,"CAN,USA",28,27,development
+CRC vs control,ThomasAM_2018a,ITA,24,29,development
+CRC vs control,ThomasAM_2018b,ITA,28,32,development
+CRC vs control,ThomasAM_2019_c,JPN,40,40,locked test
+CRC vs control,VogtmannE_2016,USA,52,52,development
+CRC vs control,WirbelJ_2018,DEU,65,60,development
+CRC vs control,YachidaS_2019,JPN,251,258,locked test
+CRC vs control,YuJ_2015,CHN,54,74,locked test
+CRC vs control,ZellerG_2014,FRA,61,53,development
+IBD vs control,HMP_2019_ibdmdb,USA,27,103,locked test
+IBD vs control,HallAB_2017,USA,12,20,locked test
+IBD vs control,IjazUZ_2017,GBR,38,12,locked test
+IBD vs control,NielsenHB_2014,ESP,59,82,locked test
+T2D vs control,KarlssonFH_2013,"DEU,DNK,EST,FIN,FRA,HUN,ISL,SVK,SWE",43,53,locked test
+T2D vs control,MetaCardis_2020_a,"DEU,DNK,FRA",642,550,locked test
+T2D vs control,QinJ_2012,CHN,174,170,locked test
+T2D vs control,SankaranarayananK_2015,USA,18,19,locked test
+adenoma vs control,FengQ_2015,AUT,61,47,locked test
+adenoma vs control,HanniganGD_2017,"CAN,USA",28,26,locked test
+adenoma vs control,ThomasAM_2018a,ITA,24,27,locked test
+adenoma vs control,YachidaS_2019,JPN,251,67,locked test
+adenoma vs control,ZellerG_2014,FRA,61,42,locked test
