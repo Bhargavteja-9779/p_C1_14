@@ -1,12 +1,13 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/trusting-mayer-1ipvjz` (contains the full history of `claude/beautiful-goldberg-37nqmw`).
-**Cycle:** 4 of 12 · **Pivots used:** 1 of 3 · **Phase:** paused — v10 submission-ready, awaiting the authors
+**Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-PAUSED FOR THE AUTHORS. Manuscript v10 is submission-ready (Target_Journal_Submission/submission_v10/); see FINAL_REPORT.md.
-Gates met: G2, G7, G8, G9, G10, G11. Not met: G3 (novelty 17/25), G4 (DEBIAS-M/MMUPHin not run). Partial: G1, G5.
-Do not start another cycle unless the user asks; if they do, the options are listed in FINAL_REPORT.md.
+CYCLE 5 (user directive 2026-11-24, see USER_DIRECTIVES.md): v10 judged not good enough for iMeta readers.
+Step 5.1: build benchmark_v2 (more recent iMeta papers in microbiome ML/diagnostics; style + scorecard).
+Step 5.2: gap analysis v10 vs benchmark. Step 5.3: new methods/analyses to close the gap (dev only, then locked).
+Step 5.4: rewrite in iMeta style. Step 5.5: blind scorecard + review rounds. Repeat until USER_DIRECTIVES rule 3 met.
 BLOCKED ON USER: DEBIAS-M comparator (needs a Python 3.11 + CPU torch environment; install was denied by the permission
 system). Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
 

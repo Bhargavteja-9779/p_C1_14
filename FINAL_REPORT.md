@@ -1,6 +1,6 @@
 # FINAL REPORT — status 2026-11-24
 
-**Status: submission-ready draft (manuscript v10); two quality gates not met (G3 novelty score, G4 batch-correction
+**Status: SUPERSEDED — user judged v10 not good enough (2026-11-24); cycle 5 in progress (see HANDOFF.md, USER_DIRECTIVES.md).**
 comparator). Paused for the authors' decision; see "What a human must do".**
 Branch `claude/trusting-mayer-1ipvjz`. Package: `Target_Journal_Submission/submission_v10/`.
 
