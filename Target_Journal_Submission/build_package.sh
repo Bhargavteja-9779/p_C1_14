@@ -17,9 +17,9 @@ cp manuscript.md ../$PK/Manuscript.md; cd ..
 C=$PK/code; mkdir -p $C/src $C/scripts $C/pilot $C/experiments/dev $C/experiments/final/results $C/experiments/addendum_results $C/figures
 cp code/src/*.py $C/src/; cp code/pilot/pilot_threshold_transfer.py $C/pilot/
 cp code/figures/make_figures.py code/figures/make_si_tables.py code/figures/make_graphical_abstract.py $C/figures/
-cp code/experiments/{protocol.md,data_lock.md,protocol_freeze_hashes.txt,protocol_addendum_drugs.md,addendum_drugs.py,addendum_metformin_explore.py,addendum_results_dev.log,addendum_results_confirm.log,addendum_metformin_explore.log} $C/experiments/
+cp code/experiments/{protocol.md,data_lock.md,protocol_freeze_hashes.txt,protocol_addendum_drugs.md,addendum_drugs.py,addendum_metformin_explore.py,addendum_results_dev.log,addendum_results_confirm.log,addendum_metformin_explore.log,posthoc_*.py,posthoc_*.log} $C/experiments/
 cp code/experiments/novelty_escalation_log.md $C/experiments/development_log.md
-cp code/experiments/addendum_results/*.csv $C/experiments/addendum_results/
+cp code/experiments/addendum_results/*.csv code/experiments/addendum_results/*.csv.gz $C/experiments/addendum_results/
 cp code/experiments/dev/*.py code/experiments/dev/*.log code/experiments/dev/explore_v7b_fits.csv code/experiments/dev/explore_v9_contrib.csv code/experiments/dev/explore_v9_constrained.csv code/experiments/dev/explore_v9b_axes.csv $C/experiments/dev/
 cp code/experiments/final/{run_final.py,analyze_final.py,analyze_final.log,RESULTS_locked.md} $C/experiments/final/
 cp code/experiments/final/results/{partB_positivity.csv,partB_regression.csv,partB_adjusted_holm.csv,oneshot.csv.gz,run_info.json,summary.txt} $C/experiments/final/results/

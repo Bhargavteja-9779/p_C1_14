@@ -15,7 +15,10 @@ Cohort roles were fixed before any method was developed (data lock, Table S1):
   (FengQ_2015, HanniganGD_2017, ThomasAM_2018a, YachidaS_2019, ZellerG_2014; controls partly shared with CRC
   development). The locked analysis was run once, after the protocol was frozen (commit-time file hashes are provided
   with the code).
-- Pilot (motivating analysis, before the data lock): fixed LASSO and random forest models across all 11 CRC cohorts
+- Note: 30 cohorts are listed for the main analyses; two further cohorts with medication records (VincentC_2016,
+  LeeKA_2022) were used only for the development check of the medication addendum.
+- Pilot (motivating analysis, before the data lock; it computed source-cut-off specificity at all 11 CRC cohorts,
+  including the three later held-out CRC sites, which were therefore not unseen at that stage): fixed LASSO and random forest models across all 11 CRC cohorts
   (leave-one-cohort-out) with the cut-off at 90% specificity on training out-of-fold controls; realised specificity
   per held-out cohort was compared with Binomial(n0, 0.10) by a chi-square overdispersion test.
 
@@ -91,36 +94,58 @@ non-users within type 2 diabetes in four cohorts (adjusted for age, BMI and sex 
 
 ## S7. Finite-sample guarantee
 
-**Setting.** A window contains m tested people with scores s_1..s_m; m0 of them are controls and m1 = m - m0 are cases.
-Person i is *verified* if they were referred (s_i at or above the cut-off in force when tested), attended, and their
-result is available; verification reveals the true status. C1 is the number of verified cases.
+**Setting.** A window contains m tested people with scores s_1..s_m; m0 are controls and m1 = m - m0 cases. Person i is
+*verified* if referred (score at or above the cut-off in force when tested), attended, and their result is available;
+verification reveals the true status. C1 = number of verified cases.
 
 **Assumptions.** (A1) The control scores in the window and the score X of a future control at the same site are
-exchangeable (no drift within the window). (A2) Prevalence bound: m1 <= floor(pi_max m). (A3) The reference test never
-labels a control as a case (missed cancers, i.e. cases labelled as controls, are allowed).
+exchangeable (no drift within the window). (A2) The realised number of cases in the window satisfies m1 <= floor(pi_max m)
+(a statement about the realised count; with random prevalence pi < pi_max it holds with high probability for large m).
+(A3) The reference test never labels a control as a case (cases missed at colonoscopy are allowed).
 
 **Rule.** FP_ub(t) = #{i : s_i >= t and i is not a verified case}; m0_lo = m - max(C1, floor(pi_max m));
-t* = the smallest t with (FP_ub(t) + 1) / (m0_lo + 1) <= alpha.
+k = floor(alpha (m0_lo + 1)) - 1; t* = the smallest t with FP_ub(t) <= k (t* = +inf, i.e. refer nobody, if k < 0).
 
 **Proposition S1.** Under (A1)-(A3), conditional on m0, P(X >= t*) <= alpha, whatever the past referral cut-offs,
-attendance and result delays.
+attendance and result delays. (If t* = +inf the statement is trivial.)
 
-**Proof.** (i) Every control with s_i >= t* is not a verified case (A3), so the number of controls at or above t*,
-FP(t*), satisfies FP(t*) <= FP_ub(t*). (ii) C1 <= m1 <= floor(pi_max m) by (A2), so m0_lo = m - max(C1, floor(pi_max m))
-<= m - m1 = m0. Hence FP(t*) + 1 <= alpha (m0_lo + 1) <= alpha (m0 + 1), so at most k = floor(alpha (m0 + 1)) - 1 controls
-score at or above t*. Let S_(1) <= ... <= S_(m0) be the ordered control scores; then t* > S_(m0 - k). (iii) By (A1), the
-rank of X among the m0 + 1 control scores is uniform, so P(X > S_(m0 - k)) <= (k + 1)/(m0 + 1) <= alpha. Since
-t* > S_(m0 - k), P(X >= t*) <= P(X > S_(m0 - k)) <= alpha. The argument uses only counts, so it holds for any
+**Proof.** (i) Every control with s_i >= t* is not a verified case (A3), so FP(t*) := #{controls with s_i >= t*} <= FP_ub(t*) <= k.
+(ii) C1 <= m1 <= floor(pi_max m) by (A2), so m0_lo <= m - m1 = m0 and k <= floor(alpha (m0 + 1)) - 1.
+(iii) Let S_(1) <= ... <= S_(m0) be the ordered control scores. At most k controls score at or above t*, so t* > S_(m0 - k).
+By (A1) the rank of X among the m0 + 1 control scores is uniform (ties broken at random), so
+P(X >= t*) <= P(X > S_(m0 - k)) <= (k + 1)/(m0 + 1) <= alpha. Only counts are used, so the bound holds for any
 verification pattern, including one that depends on the scores. QED.
 
-**Corollaries.** (a) Applied within each recorded patient group, the rule bounds the FPR in every group separately.
-(b) With the drift alarm, the guarantee applies within any stationary window after the most recent restart.
-(c) Missed cancers at colonoscopy make the rule conservative; a false-positive colonoscopy result (violating A3) is
-rare and its effect is bounded by the number of such errors. An independent numerical check (4,000 simulated sites
-with random site shifts, 70% attendance and an arbitrary prior cut-off) gave a mean FPR of at most 0.105 (package
-test suite, `cutoffguard/tests`).
+**Scope.** The guarantee is marginal (on average over windows), not a bound on the FPR of every month. The
+**high-confidence option** replaces k by the largest k with BinomCDF(k; m0_lo, alpha) <= delta; by the same order-statistic
+argument and the Beta distribution of F0(S_(m0-k)), P(FPR(t*) > alpha) <= delta conditional on m0 (training-conditional
+guarantee). Applying the rule separately within pre-defined patient groups gives the same guarantee within each group.
+For the drift alarm, the restart time is chosen from the data, so the guarantee is not formally proven after a restart;
+it is supported empirically (Table S2, drift settings). A numerical check in the package test suite (4,000 simulated sites,
+random site shifts, 70% attendance, arbitrary prior cut-off) gave a mean FPR of 0.092 for alpha = 0.10.
+
+## S7b. Post hoc analyses (after the locked analysis; reported as exploratory)
+P1: comorbidity inside three CRC cohorts (FengQ_2015, ThomasAM_2018a: leave-one-cohort-out scores; YuJ_2015: frozen-run
+scores), colonoscopy-negative controls and CRC cases with vs without recorded T2D, hypertension, fatty liver or
+hypercholesterolaemia; OLS on logit score and logistic regression on positivity with site fixed effects, age, BMI, sex
+(Table S8). P2: MetaCardis condition effects adjusted for sex, country (Denmark, France, Germany) and recorded drugs; age
+and BMI (recorded for 72%) in a complete-case sensitivity analysis; species decomposition in the locked cohort (Table S9).
+P3: prospective-style evaluation without resampling at held-out sites with >= 100 controls: controls streamed once in random
+order (50 per month), cases inserted at prevalence 1% or 5%, FPR measured on controls not yet seen (300 random orders;
+Table S10). P4: downward drift (-0.5 logit from month 7) and the primary endpoint restricted to sites with >= 40 controls,
+aggregated per cohort (Table S2c). D10 (development): label-free site-wise standardisation (Table S7).
 
 ## S8. Software and reproducibility
 Python 3.13, scikit-learn, NumPy, SciPy, pandas, statsmodels. The proposed rule is released as the open-source Python
 package `cutoffguard` (functions for site audits, sequential and per-group recalibration, and a command-line tool). All code, the frozen protocol, the development log and
 file hashes are available in the code repository (see Data Availability Statement).
+
+
+## Supporting Information references
+S1. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Comput. 2002;14:21–41. https://doi.org/10.1162/089976602753284446
+S2. Jackson MA, Goodrich JK, Maxan ME, et al. Proton pump inhibitors alter the composition of the gut microbiota. Gut. 2016;65:749–756. https://doi.org/10.1136/gutjnl-2015-310861
+S3. Zeller G, Tap J, Voigt AY, et al. Potential of fecal microbiota for early-stage detection of colorectal cancer. Mol Syst Biol. 2014;10:766. https://doi.org/10.15252/msb.20145645
+S4. Pasolli E, Truong DT, Malik F, Waldron L, Segata N. Machine learning meta-analysis of large metagenomic datasets: tools and biological insights. PLoS Comput Biol. 2016;12:e1004977. https://doi.org/10.1371/journal.pcbi.1004977
+S5. Godau P, et al. Deployment of image analysis algorithms under prevalence shifts. MICCAI 2023, LNCS. https://doi.org/10.1007/978-3-031-43898-1_38
+S6. Sung H, Ferlay J, Siegel RL, et al. Global cancer statistics 2020: GLOBOCAN estimates. CA Cancer J Clin. 2021;71:209–249. https://doi.org/10.3322/caac.21660
+Original cohort publications are listed by PMID in Table S1.

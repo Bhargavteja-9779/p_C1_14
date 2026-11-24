@@ -1,0 +1,65 @@
+country  DEU  DNK  FRA
+cond                  
+CAD        0  151  118
+HF         0   73   22
+IGT       73   51  151
+T2D      213   47  290
+control  273  192  177
+lasso age recorded 0.719 BMI recorded 0.715
+  r = sm.OLS(sub.score, sm.add_constant(pd.concat([Ds, sub[["male", "age", "BMI", "ppi", "metformin", "statin", "aspirin", "betablocker"]], Cty.loc[sub.index]], axis=1))).fit()
+country  DEU  DNK  FRA
+cond                  
+CAD        0  151  118
+HF         0   73   22
+IGT       73   51  151
+T2D      213   47  290
+control  273  192  177
+rf age recorded 0.719 BMI recorded 0.715
+  r = sm.OLS(sub.score, sm.add_constant(pd.concat([Ds, sub[["male", "age", "BMI", "ppi", "metformin", "statin", "aspirin", "betablocker"]], Cty.loc[sub.index]], axis=1))).fit()
+    model                                              spec condition    beta      lo      hi       p
+0   lasso                                               sex       CAD  0.0089 -0.1127  0.1306  0.8854
+1   lasso                                               sex        HF  0.3271  0.1439  0.5103  0.0005
+2   lasso                                               sex       IGT  0.0537 -0.0663  0.1738  0.3802
+3   lasso                                               sex       T2D  0.3624  0.2633  0.4616  0.0000
+4   lasso                                       sex+country       CAD  0.0948 -0.0341  0.2236  0.1493
+5   lasso                                       sex+country        HF  0.3946  0.2055  0.5837  0.0000
+6   lasso                                       sex+country       IGT  0.1085 -0.0127  0.2298  0.0794
+7   lasso                                       sex+country       T2D  0.3911  0.2914  0.4908  0.0000
+8   lasso                                         sex+drugs       CAD -0.0687 -0.2399  0.1025  0.4312
+9   lasso                                         sex+drugs        HF  0.1955 -0.0193  0.4102  0.0744
+10  lasso                                         sex+drugs       IGT  0.0761 -0.0435  0.1958  0.2120
+11  lasso                                         sex+drugs       T2D  0.0634 -0.0663  0.1930  0.3381
+12  lasso                                 sex+country+drugs       CAD  0.0285 -0.1481  0.2051  0.7515
+13  lasso                                 sex+country+drugs        HF  0.2843  0.0639  0.5047  0.0115
+14  lasso                                 sex+country+drugs       IGT  0.1242  0.0032  0.2453  0.0442
+15  lasso                                 sex+country+drugs       T2D  0.1057 -0.0249  0.2362  0.1126
+16  lasso  complete-case age+BMI+sex+country+drugs (n=1310)       CAD  0.0204 -0.2083  0.2492  0.8609
+17  lasso  complete-case age+BMI+sex+country+drugs (n=1310)        HF  0.2824 -0.1159  0.6807  0.1645
+18  lasso  complete-case age+BMI+sex+country+drugs (n=1310)       IGT  0.0425 -0.0976  0.1826  0.5520
+19  lasso  complete-case age+BMI+sex+country+drugs (n=1310)       T2D  0.0544 -0.0925  0.2014  0.4676
+20     rf                                               sex       CAD  0.0648 -0.0229  0.1524  0.1475
+21     rf                                               sex        HF  0.1914  0.0594  0.3233  0.0045
+22     rf                                               sex       IGT  0.0487 -0.0378  0.1352  0.2694
+23     rf                                               sex       T2D  0.3377  0.2662  0.4091  0.0000
+24     rf                                       sex+country       CAD  0.1020  0.0085  0.1954  0.0325
+25     rf                                       sex+country        HF  0.2383  0.1011  0.3754  0.0007
+26     rf                                       sex+country       IGT  0.0439 -0.0440  0.1318  0.3275
+27     rf                                       sex+country       T2D  0.3296  0.2573  0.4019  0.0000
+28     rf                                         sex+drugs       CAD  0.0191 -0.1032  0.1415  0.7592
+29     rf                                         sex+drugs        HF  0.1025 -0.0511  0.2560  0.1907
+30     rf                                         sex+drugs       IGT  0.0607 -0.0248  0.1462  0.1641
+31     rf                                         sex+drugs       T2D  0.0726 -0.0201  0.1653  0.1247
+32     rf                                 sex+country+drugs       CAD  0.0344 -0.0925  0.1614  0.5949
+33     rf                                 sex+country+drugs        HF  0.1282 -0.0303  0.2867  0.1127
+34     rf                                 sex+country+drugs       IGT  0.0520 -0.0350  0.1390  0.2414
+35     rf                                 sex+country+drugs       T2D  0.0640 -0.0298  0.1579  0.1810
+36     rf  complete-case age+BMI+sex+country+drugs (n=1310)       CAD  0.0555 -0.1182  0.2292  0.5312
+37     rf  complete-case age+BMI+sex+country+drugs (n=1310)        HF  0.2492 -0.0532  0.5516  0.1062
+38     rf  complete-case age+BMI+sex+country+drugs (n=1310)       IGT  0.0468 -0.0595  0.1532  0.3878
+39     rf  complete-case age+BMI+sex+country+drugs (n=1310)       T2D  0.0314 -0.0802  0.1430  0.5810
+                            condition  total   oral  depletion  other
+0                                  HF  0.325  0.050      0.080  0.195
+1                                 T2D  0.371  0.023      0.191  0.157
+2                                 CAD  0.014  0.062     -0.085  0.037
+3                                 IGT  0.054  0.038      0.012  0.005
+4  metformin users vs non-users (T2D)  0.464 -0.034      0.318  0.180

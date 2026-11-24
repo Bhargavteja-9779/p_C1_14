@@ -246,3 +246,31 @@ Exploratory follow-up (addendum_metformin_explore.py): within T2D, metformin use
 (+0.40, p = 0.18; RF +0.28, p = 0.12; 58 vs 17); QinJ_2012 (15 users) and KarlssonFH_2013 (20 users) null.
 Drivers: Lachnoclostridium, Enterobacterales/Morganellaceae, Streptococcus salivarius enriched; E. eligens,
 Firmicutes CAG110 depleted. => hypothesis-generating: the T2D false-alarm excess in MetaCardis is largely a metformin signal.
+
+## Post hoc P1 (2026-11-24): comorbidity INSIDE CRC colonoscopy cohorts (posthoc_within_crc_comorbidity.py)
+Comorbidity labels (T2D, hypertension, fatty liver, hypercholesterolemia) recorded for colonoscopy-negative controls and
+CRC cases in FengQ_2015, ThomasAM_2018a (development, LOCO scores) and YuJ_2015 (locked site, frozen-run scores).
+Controls (137; 70 comorbid), positivity at source cut-off: LASSO comorbid 4.3% vs healthy 16.4% (adj. OR 0.26,
+0.06-1.10, p = 0.07); RF 1.4% vs 16.4% (OR 0.10, 0.01-0.93, p = 0.04). Score difference ~0 (LASSO -0.19, p = 0.35).
+CRC cases (147; 73 comorbid): no score difference (LASSO +0.10, p = 0.79; RF -0.14, p = 0.40).
+=> CONTRADICTS a general "chronic disease raises the cancer score" claim for mild cardiometabolic labels (consistent
+with the small/n.s. development effects for hypertension and fatty liver, and the null CAD/IGT locked results). The
+excess false alarms concentrate in severe/systemic disease (cirrhosis, ACVD, heart failure) and drug-treated T2D
+(metformin, exploratory). Comorbid CRC cases do not score higher -> per-group recalibration costs sensitivity in
+over-flagged groups (the proxy was not pessimistic). Manuscript claims must be narrowed accordingly.
+
+## Post hoc P2 (2026-11-24): MetaCardis condition effects adjusted for medications; locked decomposition
+(posthoc_metacardis_drugadjusted.py). Age/BMI recorded for 72% (below the protocol's 80% rule, hence not in Part B).
+LASSO condition effect vs controls: sex-adjusted HF +0.33 (p 5e-4), T2D +0.36 (p < 1e-10); + drugs (PPI, metformin,
+statin, aspirin, beta-blocker): HF +0.20 (-0.02, 0.41; p = 0.07), T2D +0.06 (p = 0.34); complete-case + age + BMI
+(n = 1,310): HF +0.13 (p = 0.53), T2D +0.00. RF same pattern.
+Decomposition (locked, LASSO): HF gap 0.33 = oral 0.05 + commensal depletion 0.08 + other 0.20; T2D gap 0.37 = oral 0.02 +
+depletion 0.19 + other 0.16; metformin vs non-users within T2D 0.46 = oral -0.03 + depletion 0.32 + other 0.18.
+=> In the locked cardiometabolic cohort the excess is largely explained by medication (metformin in T2D) and is NOT
+oral-taxa driven; the oral route is supported only in development cirrhosis/ACVD. Group-level FPR gaps remain real for
+deployment regardless of cause.
+
+## Post hoc D10 (DEV): label-free site-wise standardisation (explore_v10_batchcorr.py)
+LASSO: mean |FPR-0.10| 0.127 (pooled z) -> 0.038 (site-wise z), share of sites > 0.12: 0.50 -> 0.25, max 0.37 -> 0.19;
+AUC .763 -> .769. RF: site-wise z did not help (0.102 -> 0.084; max 0.39); site-wise rank 0.048. => batch correction
+reduces but does not remove cut-off drift; complementary to recalibration.

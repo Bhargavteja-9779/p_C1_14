@@ -19,6 +19,10 @@ for c, cond in COM.items():
     q = meta[(meta.study_name == c) & (meta.body_site == "stool")].drop_duplicates("subject_id")
     rows.append(dict(Analysis="Comorbidity (other conditions)", Cohort=c, Cases=int((q.study_condition != "control").sum()),
                      Controls=int((q.study_condition == "control").sum()), Role=f"Development ({cond})"))
+for c, cond in [("VincentC_2016", "medication development check only"), ("LeeKA_2022", "medication development check only")]:
+    q = meta[(meta.study_name == c) & (meta.body_site == "stool")].drop_duplicates("subject_id")
+    rows.append(dict(Analysis="Medication addendum", Cohort=c, Cases=int((q.study_condition != "control").sum()),
+                     Controls=int((q.study_condition == "control").sum()), Role=f"Development ({cond})"))
 for c in ["MetaCardis_2020_a", "QinJ_2012", "KarlssonFH_2013", "NielsenHB_2014", "HallAB_2017", "IjazUZ_2017", "HMP_2019_ibdmdb"]:
     rows.append(dict(Analysis="Comorbidity (other conditions)", Cohort=c, Cases="see Table S3", Controls="see Table S3", Role="Locked test"))
 out.append("## Table S1. Cohorts, sample sizes (one sample per subject) and roles\n\n" + pd.DataFrame(rows).to_markdown(index=False))
@@ -30,7 +34,7 @@ cols = [f"{m} {b}" for m in ["FPR", "P_over", "Sens"] for b in ["source", "local
 out.append("## Table S2. Primary and pre-specified sensitivity analyses (locked sites, months 7-12 [7-18 for drift settings]; "
            "mean true FPR, share of site-months with FPR > alpha + 0.02, mean sensitivity). vp = verified-positive recalibration (proposed).\n\n"
            + t[[c for c in cols if c in t.columns]].reset_index().to_markdown(index=False))
-d = S[S.setting == "primary"].groupby(["disease", "pi", "method"]).agg(FPR=("fpr", "mean")).round(3).unstack("method").reset_index()
+d = S[(S.setting == "primary") & (S.month >= 7)].groupby(["disease", "pi", "method"]).agg(FPR=("fpr", "mean")).round(3).unstack("method").reset_index()
 d.columns = [c if isinstance(c, str) else (c[1] or c[0]) for c in d.columns]
 out.append("### Table S2b. Primary setting by disease and prevalence (mean true FPR, months 7-12)\n\n" + d.to_markdown(index=False))
 # S3 Part B
@@ -58,5 +62,23 @@ for f, title in [("dev_regression.csv", "Table S6a. Medication addendum, develop
                  ("confirm_positivity.csv", "Table S6c. Test positivity by PPI use, MetaCardis (overall and within condition group)"),
                  ("metformin_within_T2D.csv", "Table S6d. Exploratory: metformin users vs non-users within type 2 diabetes")]:
     out.append(f"## {title}\n\n" + pd.read_csv(os.path.join(AD, f)).round(4).to_markdown(index=False))
+bc = pd.read_csv(os.path.join(DV, "explore_v10_batchcorr.csv")); bc["absdev"] = (bc.fpr - 0.1).abs(); bc["over"] = bc.fpr > 0.12
+out.append("## Table S7. Label-free site-wise standardisation (development, leave-one-cohort-out over 8 CRC cohorts)\n\n" +
+           bc.groupby(["model", "variant"]).agg(AUC=("auc", "mean"), FPR_mean=("fpr", "mean"), FPR_min=("fpr", "min"), FPR_max=("fpr", "max"),
+           mean_abs_dev=("absdev", "mean"), share_sites_over_012=("over", "mean"), sens=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
+out.append("## Table S8. Comorbidity inside CRC colonoscopy cohorts (post hoc P1; pooled with site fixed effects, adjusted for age, BMI, sex)\n\n" +
+           pd.read_csv(os.path.join(AD, "posthoc_within_crc_summary.csv")).round(4).to_markdown(index=False))
+out.append("## Table S9. MetaCardis condition effects with progressive adjustment (post hoc P2)\n\n" +
+           pd.read_csv(os.path.join(AD, "posthoc_metacardis_drugadjusted.csv")).round(4).to_markdown(index=False))
+out.append("### Table S9b. Species decomposition of score gaps in MetaCardis (LASSO, logit)\n\n" +
+           pd.read_csv(os.path.join(AD, "posthoc_metacardis_decomposition.csv")).round(3).to_markdown(index=False))
+St = pd.read_csv(os.path.join(AD, "posthoc_stream_noreplacement.csv.gz")); St = St[St.month >= 3]; St["over"] = St.fpr_future > 0.12
+out.append("## Table S10. Prospective-style evaluation without resampling (post hoc P3; months >= 3; FPR on not-yet-seen controls)\n\n" +
+           St.groupby(["site", "pi", "method"]).agg(FPR=("fpr_future", "mean"), share_over_012=("over", "mean")).round(3).reset_index().to_markdown(index=False))
+dd = pd.read_csv(os.path.join(AD, "posthoc_drift_down.csv.gz")); dd["per"] = pd.cut(dd.month, [0, 6, 9, 12, 18], labels=["1-6", "7-9", "10-12", "13-18"])
+out.append("### Table S2c. Downward drift (-0.5 logit from month 7; post hoc P4): mean FPR and sensitivity by period\n\n" +
+           dd.groupby(["per", "method"], observed=True).agg(FPR=("fpr", "mean"), Sens=("sens", "mean")).round(3).reset_index().to_markdown(index=False))
+out.append("### Table S2d. Primary endpoint at sites with >= 40 controls, per cohort (post hoc P4)\n\n```\n" +
+           open(os.path.join(E, "posthoc_drift_restrict.log")).read().split("(b)")[1] + "\n```")
 open(os.path.join(H, "..", "..", "manuscript", "SI_tables.md"), "w").write("# Supporting Information — Tables\n\n" + "\n\n".join(out) + "\n")
 print("ok")

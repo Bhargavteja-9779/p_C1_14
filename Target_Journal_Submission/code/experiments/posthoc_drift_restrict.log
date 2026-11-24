@@ -1,0 +1,25 @@
+(a) downward drift: mean FPR / sensitivity by period
+          fpr                                sens                             
+method contam local_q oracle source     vp contam local_q oracle source     vp
+per                                                                           
+1-6     0.111   0.118  0.112  0.162  0.109  0.307   0.318  0.315  0.379  0.329
+7-9     0.022   0.024  0.112  0.068  0.023  0.183   0.189  0.315  0.230  0.188
+10-12   0.029   0.032  0.112  0.068  0.029  0.199   0.205  0.315  0.230  0.204
+13-18   0.040   0.043  0.112  0.068  0.035  0.217   0.223  0.315  0.230  0.222
+
+(b) sites with >= 40 controls: ['FengQ_2015', 'KarlssonFH_2013', 'MetaCardis_2020_a', 'NielsenHB_2014', 'QinJ_2012', 'ThomasAM_2019_c', 'YachidaS_2019', 'YuJ_2015', 'ZellerG_2014'] n cohorts = 9
+method             source  local_q  contam     vp  oracle
+site                                                     
+FengQ_2015            0.5    0.025   0.002  0.005     0.0
+KarlssonFH_2013       0.0    0.022   0.006  0.000     0.0
+MetaCardis_2020_a     0.0    0.013   0.002  0.014     0.0
+NielsenHB_2014        0.0    0.007   0.002  0.001     0.0
+QinJ_2012             1.0    0.045   0.011  0.020     0.0
+ThomasAM_2019_c       1.0    0.105   0.053  0.008     0.0
+YachidaS_2019         1.0    0.011   0.002  0.013     0.0
+YuJ_2015              0.5    0.018   0.007  0.004     0.0
+ZellerG_2014          0.0    0.008   0.000  0.001     0.0
+vp - source: mean -0.437, cohorts 9, one-sided Wilcoxon p = 0.0742
+vp - local_q: mean -0.021, cohorts 9, one-sided Wilcoxon p = 0.00977
+vp - contam: mean -0.002, cohorts 9, one-sided Wilcoxon p = 0.715
+mean FPR (>=40 controls): {'contam': 0.083, 'local_q': 0.093, 'oracle': 0.107, 'source': 0.175, 'vp': 0.09}

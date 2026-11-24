@@ -34,3 +34,13 @@ def test_group():
         refer = s >= np.array([gr.cutoff(k) for k in g]); gr.update(s, refer, y, g)
     from scipy.stats import norm
     assert abs(norm.sf(gr.cutoff("chronic") - 0.8) - norm.sf(gr.cutoff("healthy"))) < 0.04
+
+def test_high_confidence():
+    from scipy.stats import norm
+    rng = np.random.default_rng(4); fpr = []
+    for _ in range(3000):
+        mu = rng.normal(0, 1); y = (rng.random(400) < 0.02).astype(int)
+        s = np.where(y == 1, rng.normal(mu + 1.5, 1, 400), rng.normal(mu, 1, 400))
+        t = verified_positive_threshold(s, s >= np.quantile(s, 0.7), y, 0.10, 0.05, delta=0.10)
+        fpr.append(norm.sf(t - mu))
+    assert np.mean(np.array(fpr) > 0.10) <= 0.10 + 0.02

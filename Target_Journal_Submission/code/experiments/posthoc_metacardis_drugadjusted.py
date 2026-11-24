@@ -24,19 +24,23 @@ for model in ["lasso", "rf"]:
                           ppi=tr.str.contains("PPI").astype(float).values, metformin=tr.str.contains("metformin").astype(float).values,
                           statin=tr.str.contains("statin").astype(float).values, aspirin=tr.str.contains(r"\basa\b").astype(float).values,
                           betablocker=tr.str.contains("beta_block").astype(float).values,
-                          age=pd.to_numeric(md.age, errors="coerce").values, BMI=pd.to_numeric(md.BMI, errors="coerce").values))
+                          age=pd.to_numeric(md.age, errors="coerce").values, BMI=pd.to_numeric(md.BMI, errors="coerce").values,
+                          country=md.country.values))
+    print(pd.crosstab(d.cond, d.country).to_string())
+    Cty = pd.get_dummies(d.country, prefix="cty", drop_first=True, dtype=float)
     print(model, "age recorded", round(d.age.notna().mean(), 3), "BMI recorded", round(d.BMI.notna().mean(), 3))
     D = pd.get_dummies(d.cond, dtype=float).drop(columns="control")
-    for spec, cv in [("sex", ["male"]), ("sex+drugs", ["male", "ppi", "metformin", "statin", "aspirin", "betablocker"])]:
-        r = sm.OLS(d.score, sm.add_constant(pd.concat([D, d[cv]], axis=1))).fit()
+    for spec, cv, cty in [("sex", ["male"], False), ("sex+country", ["male"], True), ("sex+drugs", ["male", "ppi", "metformin", "statin", "aspirin", "betablocker"], False),
+                          ("sex+country+drugs", ["male", "ppi", "metformin", "statin", "aspirin", "betablocker"], True)]:
+        r = sm.OLS(d.score, sm.add_constant(pd.concat([D, d[cv]] + ([Cty] if cty else []), axis=1))).fit()
         for k in D.columns:
             rows.append(dict(model=model, spec=spec, condition=k, beta=r.params[k], lo=r.conf_int().loc[k, 0], hi=r.conf_int().loc[k, 1], p=r.pvalues[k]))
     sub = d.dropna(subset=["age", "BMI"])   # complete-case sensitivity with age/BMI
     if len(sub) > 200:
         Ds = pd.get_dummies(sub.cond, dtype=float).drop(columns="control")
-        r = sm.OLS(sub.score, sm.add_constant(pd.concat([Ds, sub[["male", "age", "BMI", "ppi", "metformin", "statin", "aspirin", "betablocker"]]], axis=1))).fit()
+        r = sm.OLS(sub.score, sm.add_constant(pd.concat([Ds, sub[["male", "age", "BMI", "ppi", "metformin", "statin", "aspirin", "betablocker"]], Cty.loc[sub.index]], axis=1))).fit()
         for k in Ds.columns:
-            rows.append(dict(model=model, spec=f"complete-case age+BMI+sex+drugs (n={len(sub)})", condition=k, beta=r.params[k],
+            rows.append(dict(model=model, spec=f"complete-case age+BMI+sex+country+drugs (n={len(sub)})", condition=k, beta=r.params[k],
                              lo=r.conf_int().loc[k, 0], hi=r.conf_int().loc[k, 1], p=r.pvalues[k]))
     if model == "lasso":
         coef = m.coef_[0]; oral = np.array([any(o in f for o in ORAL) and cc > 0 for f, cc in zip(feat, coef)])

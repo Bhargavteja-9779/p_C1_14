@@ -115,7 +115,7 @@ def verified_positive(u, lab, alpha, pi_max, t0):
         if (fp + 1) / (m0_lo + 1) <= alpha: return t, int(ref.sum())
     return np.inf, int(ref.sum())
 
-def verified_positive_seq(u, tau, lab, alpha, pi_max):
+def verified_positive_seq(u, tau, lab, alpha, pi_max, delta=None):
     """Sequential/general form. Sample i was referred iff u_i >= tau_i (its threshold at test time); its label is
     known only then. For candidate t: FP_ub(t) = #verified controls with u >= t + #UNverified samples with u >= t
     (unverified ones are counted as possible false positives -> valid upper bound whatever the past thresholds).
@@ -123,7 +123,10 @@ def verified_positive_seq(u, tau, lab, alpha, pi_max):
     u, tau, lab = map(np.asarray, (u, tau, lab)); m = len(u); ver = u >= tau
     c1 = int(lab[ver].sum()); m0_lo = m - c1 - max(0, int(np.floor(pi_max * m)) - c1)
     bad = np.sort(u[~(ver & (lab == 1))])                         # everything not a verified case
-    k = int(np.floor(alpha * (m0_lo + 1) - 1))                    # max allowed FP_ub
+    k = int(np.floor(alpha * (m0_lo + 1) - 1))                    # max allowed FP_ub (marginal: E[FPR] <= alpha)
+    if delta is not None:   # high-confidence version: P(FPR > alpha) <= delta (training-conditional order statistic)
+        ks = np.arange(0, m0_lo + 1); ok = ks[stats.binom.cdf(ks, m0_lo, alpha) <= delta]
+        k = int(ok.max()) if len(ok) else -1
     if k < 0: return np.inf
     if k >= len(bad): return -np.inf
     return bad[len(bad) - k - 1] + 1e-9                           # leaves exactly k 'bad' samples >= t
@@ -133,8 +136,8 @@ class SequentialRecalibrator:
     Month 1 uses a liberal burn-in threshold. After each month, only outcomes of referred AND attending samples are
     used. If the newest month with outcomes shows more verified false positives than Binomial(m0, alpha) allows
     (one-sided p < alarm_p), the pool is restarted from that month."""
-    def __init__(self, s_src, y_src, alpha=0.10, pi_max=0.05, burn=2, alarm_p=0.01, delay=0):
-        self.alpha, self.pi_max, self.alarm_p, self.delay = alpha, pi_max, alarm_p, delay
+    def __init__(self, s_src, y_src, alpha=0.10, pi_max=0.05, burn=2, alarm_p=0.01, delay=0, delta=None):
+        self.alpha, self.pi_max, self.alarm_p, self.delay, self.delta = alpha, pi_max, alarm_p, delay, delta
         self.t = np.quantile(s_src[y_src == 0], 1 - min(burn * alpha, 0.9))
         self.U, self.L, self.TAU, self.start, self.alarms = [], [], [], 0, 0
     def update(self, u_new, lab_new, attended=None):
@@ -147,5 +150,5 @@ class SequentialRecalibrator:
             if stats.binom.sf(fp - 1, m0, self.alpha) < self.alarm_p: self.start = j; self.alarms += 1
         lo, hi = self.start, len(self.U)
         tau = np.concatenate([self.TAU[i] if i < hi - self.delay else np.full(len(self.U[i]), np.inf) for i in range(lo, hi)])
-        self.t = verified_positive_seq(np.concatenate(self.U[lo:hi]), tau, np.concatenate(self.L[lo:hi]), self.alpha, self.pi_max)
+        self.t = verified_positive_seq(np.concatenate(self.U[lo:hi]), tau, np.concatenate(self.L[lo:hi]), self.alpha, self.pi_max, self.delta)
         return self.t

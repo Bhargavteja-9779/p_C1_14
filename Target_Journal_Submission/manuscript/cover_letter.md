@@ -5,23 +5,20 @@ The Editors
 
 Dear Editors,
 
-We submit our manuscript, **"Gut microbiome cancer tests over-flag people with chronic disease, and routine colonoscopy outcomes can keep their false alarms on target"**, for consideration as a Letter (Short Communication) in *iMeta*.
+We submit our manuscript, **"Gut microbiome colorectal cancer classifiers lose specificity across sites and patient groups, and local recalibration restores it"**, for consideration as a Letter in *iMeta*.
 
-Stool microbiome classifiers for colorectal cancer are moving towards use in screening, and *iMeta* has published several cross-cohort microbiome signatures. These classifiers are almost always validated by AUROC, but a test in a programme works at one fixed cut-off. Our Letter shows three things that matter for real deployment:
+Stool metagenomic classifiers for colorectal cancer are validated by AUROC, but a test in use works at one cut-off. Earlier work showed that CRC signatures can fire in other diseases (Wirbel et al. 2021; Thomas et al. 2019). Our Letter asks what this means for the specificity a fixed cut-off actually delivers, and how to restore it without a new labelled study.
 
-1. **Cut-offs do not transfer.** Cut-offs set for 90% specificity on published cohorts gave false-positive rates from 0% to 75% across 16 locked test sites in four diseases. AUROC-based validation does not reveal this.
-2. **The cancer test reacts to chronic disease.** Within the same cohort, people with heart failure and type 2 diabetes were flagged more often than healthy people (confirmed once in locked cohorts under a pre-registered protocol). In development cohorts, oral-origin taxa that are hallmark CRC markers, such as *Fusobacterium nucleatum*, *Streptococcus oralis* and *Veillonella parvula*, explained most of the excess. Because the same taxa carry the cancer signal, cleaning the signature cannot remove the excess without losing cancer detection. In a second pre-specified analysis, proton-pump inhibitors raised the oral-taxa part of the score, as the mechanism predicts, and metformin use was associated with higher scores (exploratory).
-3. **A practical fix that uses data programmes already collect.** We propose a recalibration rule that uses only colonoscopy outcomes of test-positive people, with a finite-sample bound on the false-positive rate. In locked simulated deployments, it kept false alarms on target (0.6% of site-months above target vs 49% for the status quo), avoided about 83 unnecessary colonoscopies per 1,000 people screened at CRC sites, and kept sensitivity within 0.015 of an oracle cut-off. A per-group version removed the excess false alarms in heart failure and diabetes. We prove a finite-sample guarantee for the rule and release it as an open-source tool (cutoffguard) that programmes can run on their own data.
+- **Specificity does not travel.** Cut-offs set for 90% specificity gave false-positive rates from 0% to 75% across 16 held-out sites (11 cohorts, four diseases). A simple batch correction reduced this spread but did not remove it.
+- **Which patients are over-flagged depends on the setting, through two routes.** In severe disease (cirrhosis, atherosclerosis), hallmark CRC taxa of oral origin explained most of the excess. In a locked cardiometabolic cohort, the excess in type 2 diabetes was largely explained by medication: metformin users were flagged 2.4 times as often as non-users (exploratory). People with mild cardiometabolic labels inside CRC cohorts were not over-flagged.
+- **Local recalibration restores specificity.** We compare label-free and outcome-based rules and report honestly where each works. A rule that uses only colonoscopy outcomes of test-positive people carries a finite-sample guarantee and adds recovery from score drift, per-group control and a high-confidence option. We release it as an open-source package (cutoffguard).
 
-All methods, endpoints and hypotheses were frozen in a protocol before the locked cohorts were analysed. We report all results, including the hypotheses that were only partly supported. All data are public, and all code, the frozen protocol and the development log will be openly available.
+All methods and endpoints were fixed in a protocol, frozen in a time-stamped commit before the held-out sites were analysed once. A later medication analysis was frozen the same way before it was run. We report every result, including hypotheses that were not supported, and we label post hoc analyses as such. All data are public, and the code, protocols and development log are openly available.
 
-This manuscript has not been published and is not under consideration elsewhere. All authors have approved the submission. The authors declare no conflicts of interest and received no specific funding. The use of AI-assisted technologies is declared in the manuscript.
-
-Thank you for considering our work.
+This manuscript has not been published and is not under consideration elsewhere. All authors approved the submission. The authors declare no conflicts of interest and received no specific funding. The use of AI-assisted technologies is declared in the manuscript.
 
 Sincerely,
 
-[Second Author] (corresponding author)
-On behalf of all authors
+[Second Author] (corresponding author), on behalf of all authors
 Vellore Institute of Technology (VIT), Vellore 632014, Tamil Nadu, India
 Email: [corresponding author email]

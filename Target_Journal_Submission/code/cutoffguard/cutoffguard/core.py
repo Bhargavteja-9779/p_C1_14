@@ -1,19 +1,23 @@
 import numpy as np
 from scipy import stats
 
-def verified_positive_threshold(scores, verified, labels, alpha=0.10, pi_max=0.05):
+def verified_positive_threshold(scores, verified, labels, alpha=0.10, pi_max=0.05, delta=None):
     """Smallest cut-off t whose bounded false-positive rate is <= alpha (finite-sample, see Proposition S1).
 
     scores   : test scores of all m tested people in the window (higher = more likely diseased)
     verified : bool array, True if the person's true status is known (referred, attended, result available)
     labels   : 1 = disease confirmed, 0 = no disease; ignored where verified is False
     pi_max   : known upper bound on disease prevalence among tested people
+    delta    : None -> expected FPR <= alpha; a number (e.g. 0.1) -> P(FPR > alpha) <= delta (high-confidence option)
     Unverified people above t are counted as possible false positives, so the bound holds whatever thresholds,
     attendance or delays produced the verification pattern. Returns +inf if no cut-off satisfies the bound."""
     s = np.asarray(scores, float); v = np.asarray(verified, bool); lab = np.asarray(labels)
     m = len(s); c1 = int(np.sum(v & (lab == 1)))
     m0_lo = m - max(c1, int(np.floor(pi_max * m)))
     k = int(np.floor(alpha * (m0_lo + 1) - 1))
+    if delta is not None:
+        ks = np.arange(0, max(m0_lo, 0) + 1); ok = ks[stats.binom.cdf(ks, m0_lo, alpha) <= delta]
+        k = int(ok.max()) if len(ok) else -1
     if k < 0: return np.inf
     bad = np.sort(s[~(v & (lab == 1))])
     if k >= len(bad): return -np.inf
@@ -25,8 +29,8 @@ class Recalibrator:
     >>> r = Recalibrator(initial_cutoff=0.0, alpha=0.10, pi_max=0.05)
     >>> refer = scores >= r.cutoff                       # month k: refer these people
     >>> r.update(scores, attended_and_resulted, labels)  # after outcomes arrive -> new r.cutoff"""
-    def __init__(self, initial_cutoff, alpha=0.10, pi_max=0.05, alarm_p=0.01):
-        self.cutoff, self.alpha, self.pi_max, self.alarm_p = float(initial_cutoff), alpha, pi_max, alarm_p
+    def __init__(self, initial_cutoff, alpha=0.10, pi_max=0.05, alarm_p=0.01, delta=None):
+        self.cutoff, self.alpha, self.pi_max, self.alarm_p, self.delta = float(initial_cutoff), alpha, pi_max, alarm_p, delta
         self._s, self._v, self._l, self.start, self.alarms = [], [], [], 0, 0
     def update(self, scores, verified_and_referred, labels):
         """scores: this batch; verified_and_referred: True where the person was referred under the cut-off in force
@@ -38,7 +42,7 @@ class Recalibrator:
             fp = int(np.sum(v & (self._l[j] == 0))); n = len(s); m0 = n - int(np.floor(self.pi_max * n))
             if stats.binom.sf(fp - 1, m0, self.alpha) < self.alarm_p: self.start = j; self.alarms += 1
         cat = lambda L: np.concatenate(L[self.start:])
-        self.cutoff = verified_positive_threshold(cat(self._s), cat(self._v), cat(self._l), self.alpha, self.pi_max)
+        self.cutoff = verified_positive_threshold(cat(self._s), cat(self._v), cat(self._l), self.alpha, self.pi_max, self.delta)
         return self.cutoff
 
 class GroupRecalibrator:

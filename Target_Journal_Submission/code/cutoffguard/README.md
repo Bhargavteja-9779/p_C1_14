@@ -6,6 +6,7 @@ programme already observes: the verified outcomes (e.g. colonoscopy results) of 
 - Finite-sample guarantee: expected FPR <= alpha for a fresh control from the same site, whatever the past referral
   cut-offs, attendance or result delays (unverified people are counted as possible false positives), given an upper
   bound `pi_max` on prevalence (Proposition S1 in the paper).
+- High-confidence option (`delta`): P(FPR > alpha) <= delta instead of a bound on the expected FPR.
 - `Recalibrator`: monthly updates with a liberal burn-in and a drift alarm.
 - `GroupRecalibrator`: per-group FPR control (e.g. people with and without chronic disease).
 - `audit_sites`: realised FPR of a fixed cut-off per site with exact binomial tests.
