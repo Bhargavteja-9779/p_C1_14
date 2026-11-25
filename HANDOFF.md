@@ -1,18 +1,17 @@
 # HANDOFF — read this first
 
-**Branch:** `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
+**Branch:** `claude/festive-cori-jft724` (merged `claude/trusting-mayer-1ipvjz` 2026-11-25), previously `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-CYCLE 6, review round 10 on manuscript v12 (running 2026-11-25): reports -> Target_Journal_Submission/reviews/
-review_r10_0{1,2,3}_*.md + scorecard_r10_v12.md (blind, benchmark_v2 anchors). If missing, relaunch 3 fresh reviewers.
-Done since round 9: v12 (GMWI2 published-test audit, case-mix mechanism, v6c balancing); single SI
-(manuscript/supporting_information_v12.md + si_tables_v12.md, Tables S1-S25); figure source data (source_data_v12/);
-v12 number audit 143/143 (counts_v12.json). Then: triage r10 -> v13; target every scorecard dimension >= benchmark P75
-(USER_DIRECTIVES rule 3) and accept/minor from all reviewers, twice in a row.
-Parallel lines: this branch merged beautiful-goldberg (other session) on 2026-11-25; duplicate files of the parallel
-work are suffixed _alt_trusting. A background agent may write journal_selection/benchmark_v3/ (extra benchmark papers);
-benchmark_v2/ stays the scoring reference.
+Review round 11 on manuscript v13 (Target_Journal_Submission/manuscript/manuscript_v13.md, supporting_information_v13.md,
+figures_v12/): 3 fresh reviewers + blind scorecard -> reviews/review_r11_0{1,2,3}_*.md, scorecard_r11_v13.md. If missing,
+relaunch. Round 10 triage done (reviews/round10_response.md): v6c now post hoc, generalisation claim withdrawn; bootstraps
+corrected (code/experiments/atlas/v6/corrected_boot_v13.py); Holm for plan v6 (holm_v6_v13.py); refs renumbered.
+Round 10 scorecard 79/100 (>= P75 on all 10). Stop rule (USER_DIRECTIVES rule 3 + G10): all three reviewers accept/minor,
+twice in a row, and scorecard >= P75 on every dimension.
+Open: check Poyet 2026 sentence; Fig 1D annotation; si_tables_v12 -> v13 if table numbers change; fprcal `score` command
+(shipped LASSO models) should be mentioned in Data availability.
 BLOCKED ON USER: repo URL + Zenodo DOI, author/COI/funding/AI statement; DEBIAS-M install (denied).
 
 ## One-line summary

@@ -1,0 +1,126 @@
+{
+ "v6c": {
+  "diff": -0.143113401039207,
+  "ci95_corrected": [
+   -0.22497831481267314,
+   -0.008810029095969061
+  ],
+  "per_test": [
+   {
+    "test": "CRC",
+    "arm": "balanced",
+    "median_fpr": 0.326,
+    "mad_fpr": 0.1004,
+    "sd_fpr": 0.1311,
+    "tau": 0.5083,
+    "mean_abs_err": 0.2108
+   },
+   {
+    "test": "CRC",
+    "arm": "naive",
+    "median_fpr": 0.0433,
+    "mad_fpr": 0.0257,
+    "sd_fpr": 0.0604,
+    "tau": 0.7203,
+    "mean_abs_err": 0.0568
+   },
+   {
+    "test": "IBD",
+    "arm": "balanced",
+    "median_fpr": 0.1111,
+    "mad_fpr": 0.0675,
+    "sd_fpr": 0.1407,
+    "tau": 1.0573,
+    "mean_abs_err": 0.1156
+   },
+   {
+    "test": "IBD",
+    "arm": "naive",
+    "median_fpr": 0.1429,
+    "mad_fpr": 0.0905,
+    "sd_fpr": 0.1962,
+    "tau": 1.2011,
+    "mean_abs_err": 0.1565
+   },
+   {
+    "test": "IGT",
+    "arm": "balanced",
+    "median_fpr": 0.4,
+    "mad_fpr": 0.1336,
+    "sd_fpr": 0.2232,
+    "tau": 0.6268,
+    "mean_abs_err": 0.3355
+   },
+   {
+    "test": "IGT",
+    "arm": "naive",
+    "median_fpr": 0.4237,
+    "mad_fpr": 0.2096,
+    "sd_fpr": 0.227,
+    "tau": 0.8589,
+    "mean_abs_err": 0.3394
+   },
+   {
+    "test": "T2D",
+    "arm": "balanced",
+    "median_fpr": 0.5426,
+    "mad_fpr": 0.1551,
+    "sd_fpr": 0.1941,
+    "tau": 0.8098,
+    "mean_abs_err": 0.4125
+   },
+   {
+    "test": "T2D",
+    "arm": "naive",
+    "median_fpr": 0.1161,
+    "mad_fpr": 0.0748,
+    "sd_fpr": 0.155,
+    "tau": 0.9905,
+    "mean_abs_err": 0.1029
+   },
+   {
+    "test": "adenoma",
+    "arm": "balanced",
+    "median_fpr": 0.1734,
+    "mad_fpr": 0.0933,
+    "sd_fpr": 0.2033,
+    "tau": 0.8913,
+    "mean_abs_err": 0.173
+   },
+   {
+    "test": "adenoma",
+    "arm": "naive",
+    "median_fpr": 0.1,
+    "mad_fpr": 0.0643,
+    "sd_fpr": 0.1333,
+    "tau": 0.8384,
+    "mean_abs_err": 0.0952
+   }
+  ],
+  "tests_tau_lower": 4,
+  "tests_mad_lower": 2,
+  "tests_sd_lower": 2,
+  "tests_abs_err_lower": 2,
+  "mean_mad": {
+   "naive": 0.09297796491246349,
+   "balanced": 0.10995625904713788
+  },
+  "mean_abs_err": {
+   "naive": 0.1501788535495425,
+   "balanced": 0.249485592800548
+  }
+ },
+ "v6b": {
+  "rel_gap_reduction": 0.8765425144292888,
+  "ci95_corrected": [
+   0.4055844067286133,
+   1.4940311698497908
+  ],
+  "share_draws_below_050": 0.063,
+  "auroc_diff_ci95_corrected": [
+   -0.11930507350850834,
+   0.02267680777838792
+  ],
+  "draws": 2000
+ }
+}
