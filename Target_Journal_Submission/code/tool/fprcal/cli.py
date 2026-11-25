@@ -64,7 +64,10 @@ def main(argv=None):
         if x.out: res.to_csv(x.out)
         print(res.round(4).to_string() if not x.out else f"wrote {x.out}"); print(note, file=sys.stderr); return
     elif x.cmd == "plan":
-        out = core.plan(x.alpha, x.pi_max, x.delta); txt = pd.DataFrame(out).round(3).to_string(index=False)
+        out = core.plan(x.alpha, x.pi_max, x.delta); df = pd.DataFrame(out).round(3).astype(object)
+        for r in ("expected", "pac"):                                     # k > N: the rule needs a larger burn-in
+            bad = df[f"{r}_k"] > df.N; df.loc[bad, [c for c in df.columns if c.startswith(r + "_") and c != f"{r}_k"]] = "infeasible (k > N)"
+        txt = df.to_string(index=False)
     else:
         if not x.test:
             out = atlas.tests(); txt = "tests: " + ", ".join(out)

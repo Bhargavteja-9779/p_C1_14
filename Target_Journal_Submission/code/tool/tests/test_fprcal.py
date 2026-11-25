@@ -130,7 +130,8 @@ def test_score_allow_missing_warns_and_reports_share():
 
 def test_score_nan_values_count_as_missing():
     tab = _cmd(); c = models._coef(); c = c[c.test == "CRC"]
-    top = c.loc[c.w.abs().idxmax(), "taxon"]; col = [k for k in tab.columns if k.split("|")[-1] == top][0]
+    last = {k.split("|")[-1]: k for k in tab.columns}; c = c[c.taxon.isin(list(last))]
+    col = last[c.loc[c.w.abs().idxmax(), "taxon"]]                   # the heaviest CRC feature present in the table
     tab.loc[tab.index[0], col] = np.nan
     with pytest.raises(models.MissingFeaturesError):
         models.score(tab, "CRC", max_missing=1e-6)

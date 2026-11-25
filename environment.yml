@@ -1,0 +1,31 @@
+# Conda environment for the whole analysis (atlas, deployment, GMWI2 audit, figures, fprcal tests).
+# Create: conda env create -f environment.yml && conda activate fprcal-atlas
+# Versions are those of the runs reported in manuscript v15 (Python 3.13.18; packages as in
+# Target_Journal_Submission/code/requirements.txt). Indirect dependencies are pinned to the versions used.
+name: fprcal-atlas
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - scikit-learn==1.9.1
+      - numpy==2.5.3
+      - pandas==3.0.5
+      - scipy==1.18.1
+      - matplotlib==3.11.2
+      - pyreadr==0.5.9
+      - statsmodels==0.15.0
+      - tabulate==0.10.0
+      - geopandas==1.2.0        # Figure 1 map only
+      # indirect dependencies, as installed
+      - joblib==1.6.0
+      - threadpoolctl==3.8.0
+      - patsy==1.0.3
+      - contourpy==1.4.0
+      - pillow==13.0.0.post1
+      - shapely==2.2.0
+      - pyogrio==0.13.0
+      - pyproj==3.8.0
+      - pytest==9.1.1           # fprcal tests
+      - -e ./Target_Journal_Submission/code/tool   # fprcal
