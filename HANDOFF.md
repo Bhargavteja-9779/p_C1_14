@@ -1,9 +1,11 @@
 # HANDOFF — read this first
 
-**Branch:** `claude/festive-cori-jft724` (merged `claude/trusting-mayer-1ipvjz` 2026-11-25), previously `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
+**Branch:** `claude/zen-planck-p60lrt` (2026-11-25: adopted the festive-cori-jft724 tree unchanged via an ours-merge; zen-planck's own earlier exploration is superseded). Before that: `claude/festive-cori-jft724` (merged `claude/trusting-mayer-1ipvjz` 2026-11-25), previously `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
+(2026-11-25, zen-planck session) Round 12: editor (7.5 minor) and novelty (8 minor) reports in; statistics report
+(review_r12_01_statistics_v14.md) relaunched. Then triage all three -> reviews/round12_response.md -> manuscript v15.
 Review round 12 on manuscript v14 (Target_Journal_Submission/manuscript/manuscript_v14.md, supporting_information_v14.md,
 figures_v14/): 3 fresh reviewers + blind scorecard -> reviews/review_r12_0{1,2,3}_*.md, scorecard_r12_v14.md. If missing,
 relaunch. Round 11: stats 6 major, novelty 8 minor (21/25), editor 8 minor, scorecard 78 (only dimension 1 significance
