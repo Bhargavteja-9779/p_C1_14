@@ -56,7 +56,7 @@ d = pd.concat([pd.read_csv(os.path.join(FIN, f"final_{m}.csv.gz")) for m in ("la
 d = d[(d.alpha == 0.10) & (d.pi == 0.0)]
 a = ax[0]; MM = ["source", "local_q", "ctrl10", "rpoolmean", "rpool"]; yb = np.arange(len(MM))[::-1]
 for yv, m in zip(yb, MM):
-    v = d[(d.method == m) & (~d.abstain)].fpr.values
+    v = d[d.method == m].fpr.values  # abstention counts as FPR 0, as in the tables
     q = np.percentile(v, [5, 25, 50, 75, 95])
     a.plot([q[0], q[4]], [yv, yv], color=S[m], lw=1); a.plot([q[1], q[3]], [yv, yv], color=S[m], lw=5, solid_capstyle="butt")
     a.plot(q[2], yv, "o", color=SURF, mec=S[m], ms=4)

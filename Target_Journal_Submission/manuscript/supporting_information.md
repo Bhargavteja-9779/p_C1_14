@@ -1,10 +1,10 @@
-<!-- DRAFT v0.2 (2026-11-25), locked results filled. -->
+<!-- DRAFT v0.3 (2026-11-25). SOURCE FILE: edit this, then run `python build.py`. -->
 # Supporting Information
 
 ## Methods
 
 ### Data
-Species-level relative abundances (MetaPhlAn3) and sample metadata were obtained from curatedMetagenomicData [13]
+Species-level relative abundances (MetaPhlAn3) and sample metadata were obtained from curatedMetagenomicData [12]
 through ExperimentHub (release 2021-03-31; MetaCardis_2020_a from release 2022-10-19). Metadata came from the package's
 `sampleMetadata` table. We kept stool samples labelled as the disease of interest or as control. For longitudinal
 cohorts (HMP_2019_ibdmdb, HallAB_2017) we kept the first sample per subject, to avoid the same person appearing in the
@@ -25,29 +25,30 @@ leaf size 2, balanced subsample weights. Training scores for setting thresholds 
 leave-one-cohort-out inside the training cohorts. Scores were used on the logit scale.
 
 ### Threshold rules
-Let alpha be the target FPR (0.10 primary; 0.05 secondary). The rule predicts "positive" if score >= t.
+Let alpha be the target FPR (0.10 primary; 0.05 secondary). The locked run predicts "positive" if score >= t (see
+Note S1 on ties).
 - Training cut-off: (1 - alpha) quantile of out-of-fold training control scores.
 - Local quantile: (1 - alpha) quantile of the unlabelled pool, assuming it holds only controls.
-- Label-shift EM [15]: target prevalence estimated by EM with kernel density estimates of the training class score
+- Label-shift EM [14]: target prevalence estimated by EM with kernel density estimates of the training class score
   densities; control CDF recovered by subtracting the estimated case component.
-- MLLS-BCTS [16]: bias-corrected temperature scaling on training scores, then maximum-likelihood prevalence; same
+- MLLS-BCTS [15]: bias-corrected temperature scaling on training scores, then maximum-likelihood prevalence; same
   deconvolution.
-- Unsupervised two-Gaussian calibration [17]: two-component Gaussian mixture fitted by EM to the pool; t = (1 - alpha)
+- Unsupervised two-Gaussian calibration [16]: two-component Gaussian mixture fitted by EM to the pool; t = (1 - alpha)
   quantile of the lower component.
 - Location-scale mixture fit (ours, development): pool scores modelled as a + b * (training score) with the training
   class shapes and unknown prevalence, fitted by maximum likelihood (|log b| <= 1); t = a + b * (training cut-off).
-- Per-site feature standardisation [18]: each training cohort and the target pool standardised with their own means
+- Per-site feature standardisation [17]: each training cohort and the target pool standardised with their own means
   and standard deviations; training cut-off applied.
-- Ten labelled local controls: split-conformal order statistic, the ceil(11(1 - alpha))-th smallest score [20].
+- Ten labelled local controls: split-conformal order statistic, the ceil(11(1 - alpha))-th smallest score [27].
 - Rank rule, expected-FPR version (primary): with pool size n and maximum case share pi_max = 0.05, let
   n0 = n - floor(pi_max n) and r = floor((n0 + 1) alpha); t is the r-th largest pool score.
 - Rank rule, high-probability version: r is the largest integer with P(Beta(r, n0 - r + 1) > alpha) <= delta
   (delta = 0.10); if no such r exists the rule abstains.
 
 ### Note S1. Why the rank rule works, and when it does not
-The rule is a classical one-sided tolerance limit [19] and the order-statistic step of the Neyman-Pearson umbrella
-algorithm [NEW-Tong2018], applied to an unlabelled pool that may contain a few cases, as in noise-robust Neyman-Pearson
-and conformal methods [NEW-Yao2022, NEW-Bashari2025]. We do not claim the rule as new; we test whether it serves
+The rule is a classical one-sided tolerance limit [20] and the order-statistic step of the Neyman-Pearson umbrella
+algorithm [21], applied to an unlabelled pool that may contain a few cases, as in noise-robust Neyman-Pearson
+and conformal methods [22, 23]. We do not claim the rule as new; we test whether it serves
 microbiome laboratories.
 
 Assumption (A): conditional on the number K of cases in the pool, the n - K pool controls and a future control from the
@@ -65,7 +66,7 @@ P(FPR > alpha) <= delta + P(K > m). At 0.5% prevalence, pi_max = 5% and n = 360,
 
 Ties. The locked run called positives at `>= t`. With a block of tied scores at t this is anti-conservative, not
 conservative as an earlier draft stated. In our data ties sat at the lowest LASSO score and at discrete random-forest
-votes; re-scoring with `> t` changed the cohort-RMSE by at most [[tie_delta]] (post-hoc E1, Table S4).
+votes; re-scoring with `> t` changed the cohort-RMSE by at most less than 0.001 (post-hoc E1, Table S4).
 
 When the guarantee fails. (A) is violated when the pool comes from another study (E3) or another recruiting centre of
 the same study (E5), or when the laboratory process drifts after calibration. The rule then has no guarantee, and our
@@ -76,14 +77,39 @@ Sample-size rule (Figure 2C). The smallest n, on a grid of 10 below 1,000 and 10
 version has expected FPR at least alpha - 0.02 when the pool holds no cases. The slack 0.02 is a choice; n = 360 for
 pi_max = 0 and for 1%.
 
-### Evaluation design
+### Evaluation design (pre-registered, locked run)
 In each test cohort, controls and cases were split at random into halves, 200 times. Half of the controls, plus cases
 at a share pi of 0, 1, 5 or 20%, formed the unlabelled pool. The other half of controls and cases formed the
 evaluation set, where we measured the realised FPR and sensitivity. Ten pool controls (with labels) served the
 labelled-control rule. Primary endpoint: cohort-RMSE, the root-mean-square over test cohorts and models of (mean
 realised FPR - alpha), at pi = 1% and alpha = 0.10. Paired comparisons used the absolute error per cohort and model
-(Wilcoxon signed-rank test, cohort-level bootstrap 95% CI, Holm correction across rules). Consequences per 1,000
-screened used a CRC prevalence of 0.5% [5].
+(Wilcoxon signed-rank test, bootstrap 95% CI, Holm correction across rules). Consequences per 1,000 screened used a CRC
+prevalence of 0.5%, close to the 0.7% found in a large average-risk screening study [6].
+
+Deviations and corrections found after the locked run (disclosed in response to review):
+1. The number of cases in the pool was round(pi x n0 / (1 - pi)), which is 0 for pools of fewer than about 50
+   controls. The pre-registered pi = 1% setting therefore contained no cases in 13 of 16 cohort-task pairs, and
+   pi = 5% contained 0-2 cases in most. Robustness to cases in the pool is tested post hoc (E1).
+2. The protocol named a cohort-level bootstrap; the analysis script resampled the 32 cohort x model units. The main
+   text reports CIs clustered by cohort-task pair and Wilcoxon tests at the cohort-task level (Table S3); the
+   unit-level results are kept in Table S2.
+3. The random-forest run was interrupted by a container restart after 15 of 16 cohort-task pairs and finished with an
+   exact replay of the random-number stream (`code/experiments/final/RUN_NOTES.md`); the replay was verified to
+   reproduce the LASSO run exactly.
+
+### Post-hoc experiments (exploratory; designed after the locked results and review round 1)
+Code: `code/experiments/posthoc/explore_r1.py`; summaries: `code/analysis/posthoc_r1.py` -> `results/posthoc_r1_tables.md`.
+Both classifiers, alpha 0.10 and 0.05, 200 splits unless stated.
+- E1, cases in the pool: pools of the same size as in the locked run, of which K ~ Binomial(n, pi) are cases,
+  pi in {0, 1, 2, 5, 10, 20%}. Ties scored both as `>= t` and `> t`.
+- E2, pool size: in the three locked cohorts with at least 150 controls (YachidaS_2019 for CRC and adenoma, QinJ_2012,
+  MetaCardis_2020_a), pools of n in {25, 50, 100, 200, 300, 500} samples (5% or 0% cases); all remaining samples
+  evaluate. The share of deployments with FPR above alpha includes evaluation noise from the finite evaluation set.
+- E3, pool from another cohort: for every ordered pair (A, B) of test cohorts of the same task, the model (trained
+  without A and B) is calibrated on half of the controls of A and evaluated in B (50 splits).
+- E5, pool from another centre: MetaCardis_2020_a (one protocol and sequencer; Copenhagen, Leipzig, Paris). Model
+  trained on the other T2D cohorts; pool of half the controls of centre A, evaluation on centre B (or on the other
+  half of A).
 
 ### Development exploration (not used for claims)
 Four rounds on the development cohorts led to the final protocol (log in `code/experiments/novelty_escalation_log.md`).
@@ -94,7 +120,8 @@ less reliable than conformal).
 ### Software
 Python 3.13, scikit-learn, SciPy, pandas, matplotlib. One command reproduces all locked results:
 `python code/experiments/final/run_final.py lasso` (and `rf`), then `python code/analysis/analyze_final.py` and
-`python code/analysis/make_figures.py`.
+`python code/analysis/make_figures.py`. Post-hoc: `python code/experiments/posthoc/explore_r1.py <lasso|rf>
+<E1|E2|E3|E5>`, then `python code/analysis/posthoc_r1.py`.
 
 ## Table S1. Cohorts
 Generated by `code/analysis/table_s1.py` -> `results/table_s1_cohorts.csv` (country as recorded in the metadata).
@@ -279,3 +306,211 @@ threshold from 10 labelled local controls; rpoolmean / rpool = rank rule (expect
 - lasso: chi2 = 291.0, df = 16, p = 1.82e-52; FPR range 0.041-0.597
 - rf: chi2 = 461.2, df = 16, p = 4.93e-88; FPR range 0.000-0.735
 
+
+## Table S3. Locked run re-analysed: per-deployment error, clustered inference, alpha = 0.05 (post hoc)
+Generated by `code/analysis/posthoc_r1.py`. ctrlset clusters CRC and adenoma pairs that share controls.
+
+### E4a. Locked run, per-deployment view (each of 200 splits = one simulated laboratory)
+
+alpha = 0.1, pi = 0 (pi = 0.01 is identical in 13 of 16 cohort-task pairs because the locked design rounded the number of cases to 0; see E1)
+
+| method    |   cohort_rmse |   deploy_rmse |   p_fpr_gt_a_plus_5 |   p_fpr_gt_2a |   abstain |
+|:----------|--------------:|--------------:|--------------------:|--------------:|----------:|
+| source    |         0.185 |         0.193 |               0.392 |         0.287 |     0     |
+| local_q   |         0.046 |         0.119 |               0.327 |         0.199 |     0     |
+| em        |         0.41  |         0.44  |               0.64  |         0.526 |     0     |
+| mlls      |         0.339 |         0.377 |               0.611 |         0.488 |     0     |
+| gauss2    |         0.323 |         0.399 |               0.792 |         0.678 |     0     |
+| shift2    |         0.153 |         0.2   |               0.586 |         0.429 |     0     |
+| featstd   |         0.203 |         0.229 |               0.612 |         0.501 |     0     |
+| ctrl10    |         0.027 |         0.103 |               0.199 |         0.131 |     0.062 |
+| rpoolmean |         0.031 |         0.082 |               0.143 |         0.077 |     0.062 |
+| rpool     |         0.08  |         0.085 |               0.01  |         0.003 |     0.5   |
+
+alpha = 0.05, pi = 0 (pi = 0.01 is identical in 13 of 16 cohort-task pairs because the locked design rounded the number of cases to 0; see E1)
+
+| method    |   cohort_rmse |   deploy_rmse |   p_fpr_gt_a_plus_5 |   p_fpr_gt_2a |   abstain |
+|:----------|--------------:|--------------:|--------------------:|--------------:|----------:|
+| source    |         0.162 |         0.169 |               0.338 |         0.338 |     0     |
+| local_q   |         0.056 |         0.111 |               0.307 |         0.307 |     0     |
+| em        |         0.433 |         0.462 |               0.623 |         0.623 |     0     |
+| mlls      |         0.356 |         0.393 |               0.588 |         0.588 |     0     |
+| gauss2    |         0.318 |         0.397 |               0.785 |         0.785 |     0     |
+| shift2    |         0.134 |         0.178 |               0.528 |         0.528 |     0     |
+| featstd   |         0.197 |         0.22  |               0.619 |         0.619 |     0     |
+| ctrl10    |         0.05  |         0.05  |               0     |         0     |     1     |
+| rpoolmean |         0.029 |         0.048 |               0.058 |         0.058 |     0.312 |
+| rpool     |         0.045 |         0.046 |               0.001 |         0.001 |     0.75  |
+
+### E4b. Paired comparisons with clustered bootstrap (alpha 0.10, pi 0.01)
+
+| subset          | comparison          |   mean_diff | ci_cluster_task    | ci_cluster_controls   |   n_tasks |   p_wilcoxon_tasks |   p_holm |
+|:----------------|:--------------------|------------:|:-------------------|:----------------------|----------:|-------------------:|---------:|
+| all tasks       | rpoolmean - source  |     -0.1076 | -0.1817 to -0.0560 | -0.1800 to -0.0563    |        16 |             0.0001 |   0.0004 |
+| all tasks       | rpoolmean - local_q |     -0.0173 | -0.0282 to -0.0081 | -0.0294 to -0.0075    |        16 |             0.0021 |   0.0043 |
+| all tasks       | rpoolmean - em      |     -0.2621 | -0.3573 to -0.1697 | -0.3646 to -0.1678    |        16 |             0      |   0.0003 |
+| all tasks       | rpoolmean - mlls    |     -0.1991 | -0.3230 to -0.0979 | -0.3188 to -0.0981    |        16 |             0.0006 |   0.0023 |
+| all tasks       | rpoolmean - gauss2  |     -0.2668 | -0.3259 to -0.2080 | -0.3348 to -0.2026    |        16 |             0      |   0.0003 |
+| all tasks       | rpoolmean - shift2  |     -0.1013 | -0.1421 to -0.0660 | -0.1408 to -0.0676    |        16 |             0.0001 |   0.0004 |
+| all tasks       | rpoolmean - featstd |     -0.1456 | -0.1843 to -0.1118 | -0.1858 to -0.1141    |        16 |             0      |   0.0003 |
+| all tasks       | rpoolmean - ctrl10  |      0.0055 | -0.0003 to 0.0117  | -0.0006 to 0.0125     |        16 |             0.1771 |   0.1771 |
+| all tasks       | rpoolmean - rpool   |     -0.056  | -0.0702 to -0.0413 | -0.0713 to -0.0415    |        16 |             0.0007 |   0.0023 |
+| without adenoma | rpoolmean - source  |     -0.1292 | -0.2291 to -0.0575 | -0.2262 to -0.0594    |        11 |             0.002  |   0.0098 |
+| without adenoma | rpoolmean - local_q |     -0.0156 | -0.0310 to -0.0034 | -0.0311 to -0.0033    |        11 |             0.042  |   0.084  |
+| without adenoma | rpoolmean - em      |     -0.2038 | -0.3150 to -0.1031 | -0.3142 to -0.1024    |        11 |             0.001  |   0.0088 |
+| without adenoma | rpoolmean - mlls    |     -0.2013 | -0.3729 to -0.0639 | -0.3675 to -0.0598    |        11 |             0.0186 |   0.0557 |
+| without adenoma | rpoolmean - gauss2  |     -0.2545 | -0.3156 to -0.1942 | -0.3160 to -0.1947    |        11 |             0.001  |   0.0088 |
+| without adenoma | rpoolmean - shift2  |     -0.1291 | -0.1769 to -0.0849 | -0.1773 to -0.0852    |        11 |             0.001  |   0.0088 |
+| without adenoma | rpoolmean - featstd |     -0.1596 | -0.2106 to -0.1170 | -0.2101 to -0.1170    |        11 |             0.001  |   0.0088 |
+| without adenoma | rpoolmean - ctrl10  |      0.0045 | -0.0026 to 0.0121  | -0.0026 to 0.0120     |        11 |             0.3594 |   0.3594 |
+| without adenoma | rpoolmean - rpool   |     -0.0542 | -0.0750 to -0.0344 | -0.0742 to -0.0342    |        11 |             0.002  |   0.0098 |
+
+TOST rpoolmean vs ctrl10 (absolute FPR error, cohort-task level, margin +/-0.02): mean diff 0.0055, 90% CI -0.0002 to 0.0112, p = 0.0002
+
+### E4c. Locked run, alpha = 0.05 (pre-registered secondary), cohort-RMSE by case share
+
+| method    |   0.0 |   0.01 |   0.05 |   0.2 |
+|:----------|------:|-------:|-------:|------:|
+| source    | 0.162 |  0.162 |  0.162 | 0.162 |
+| local_q   | 0.056 |  0.056 |  0.05  | 0.037 |
+| em        | 0.433 |  0.433 |  0.435 | 0.451 |
+| mlls      | 0.356 |  0.356 |  0.358 | 0.378 |
+| gauss2    | 0.318 |  0.317 |  0.3   | 0.256 |
+| shift2    | 0.134 |  0.134 |  0.118 | 0.086 |
+| featstd   | 0.197 |  0.197 |  0.186 | 0.149 |
+| ctrl10    | 0.05  |  0.05  |  0.05  | 0.05  |
+| rpoolmean | 0.029 |  0.029 |  0.032 | 0.039 |
+| rpool     | 0.045 |  0.045 |  0.045 | 0.046 |
+
+abstention rate at alpha = 0.05:
+| method    |   0.0 |   0.01 |   0.05 |   0.2 |
+|:----------|------:|-------:|-------:|------:|
+| source    | 0     |  0     |  0     | 0     |
+| local_q   | 0     |  0     |  0     | 0     |
+| em        | 0     |  0     |  0     | 0     |
+| mlls      | 0     |  0     |  0     | 0     |
+| gauss2    | 0     |  0     |  0     | 0     |
+| shift2    | 0     |  0     |  0     | 0     |
+| featstd   | 0     |  0     |  0     | 0     |
+| ctrl10    | 1     |  1     |  1     | 1     |
+| rpoolmean | 0.312 |  0.312 |  0.312 | 0.312 |
+| rpool     | 0.75  |  0.75  |  0.75  | 0.75  |
+
+
+## Table S4. Post-hoc experiments E1, E2, E3 and E5 (exploratory)
+
+### E1. Cases actually in the pool: K ~ Binomial(n, pi) (both models, alpha 0.10)
+
+models: ['lasso', 'rf']
+
+|                     |   cohort_rmse |   cohort_rmse_strict_ties |   deploy_rmse |   max_cohort_fpr |   sens |   abstain |   mean_cases_in_pool |
+|:--------------------|--------------:|--------------------------:|--------------:|-----------------:|-------:|----------:|---------------------:|
+| (0.0, 'ctrl10')     |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |                0     |
+| (0.0, 'local_q')    |         0.044 |                     0.044 |         0.118 |            0.202 |  0.332 |     0     |                0     |
+| (0.0, 'rpool')      |         0.08  |                     0.08  |         0.085 |            0.073 |  0.075 |     0.5   |                0     |
+| (0.0, 'rpoolmean')  |         0.03  |                     0.03  |         0.082 |            0.111 |  0.249 |     0.062 |                0     |
+| (0.0, 'source')     |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |                0     |
+| (0.01, 'ctrl10')    |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |                0.607 |
+| (0.01, 'local_q')   |         0.043 |                     0.043 |         0.117 |            0.204 |  0.33  |     0     |                0.541 |
+| (0.01, 'rpool')     |         0.08  |                     0.08  |         0.085 |            0.073 |  0.074 |     0.5   |                0.541 |
+| (0.01, 'rpoolmean') |         0.031 |                     0.031 |         0.082 |            0.106 |  0.246 |     0.062 |                0.541 |
+| (0.01, 'source')    |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |                0.541 |
+| (0.02, 'ctrl10')    |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |                1.221 |
+| (0.02, 'local_q')   |         0.042 |                     0.042 |         0.116 |            0.207 |  0.328 |     0     |                1.09  |
+| (0.02, 'rpool')     |         0.081 |                     0.081 |         0.085 |            0.071 |  0.071 |     0.5   |                1.09  |
+| (0.02, 'rpoolmean') |         0.032 |                     0.032 |         0.082 |            0.106 |  0.241 |     0.062 |                1.09  |
+| (0.02, 'source')    |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |                1.09  |
+| (0.05, 'ctrl10')    |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |                3.072 |
+| (0.05, 'local_q')   |         0.038 |                     0.038 |         0.112 |            0.207 |  0.319 |     0     |                2.734 |
+| (0.05, 'rpool')     |         0.082 |                     0.082 |         0.085 |            0.068 |  0.068 |     0.5   |                2.734 |
+| (0.05, 'rpoolmean') |         0.034 |                     0.034 |         0.082 |            0.105 |  0.23  |     0.062 |                2.734 |
+| (0.05, 'source')    |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |                2.734 |
+| (0.1, 'ctrl10')     |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |                6.258 |
+| (0.1, 'local_q')    |         0.039 |                     0.039 |         0.11  |            0.212 |  0.304 |     0     |                5.567 |
+| (0.1, 'rpool')      |         0.083 |                     0.083 |         0.086 |            0.064 |  0.061 |     0.5   |                5.567 |
+| (0.1, 'rpoolmean')  |         0.041 |                     0.041 |         0.082 |            0.113 |  0.211 |     0.062 |                5.567 |
+| (0.1, 'source')     |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |                5.567 |
+| (0.2, 'ctrl10')     |         0.011 |                     0.011 |         0.099 |            0.109 |  0.275 |     0     |               12.408 |
+| (0.2, 'local_q')    |         0.048 |                     0.048 |         0.107 |            0.232 |  0.273 |     0     |               11.048 |
+| (0.2, 'rpool')      |         0.085 |                     0.085 |         0.087 |            0.058 |  0.052 |     0.5   |               11.048 |
+| (0.2, 'rpoolmean')  |         0.052 |                     0.052 |         0.083 |            0.129 |  0.176 |     0.062 |               11.048 |
+| (0.2, 'source')     |         0.184 |                     0.184 |         0.192 |            0.729 |  0.386 |     0     |               11.048 |
+
+### E2. Pool size in large cohorts (>= 150 controls; alpha 0.10). Evaluation on the remaining controls, so the share of draws with FPR > alpha includes evaluation noise.
+
+|             |   ('mean_fpr', 'ctrl10') |   ('mean_fpr', 'local_q') |   ('mean_fpr', 'rpool') |   ('mean_fpr', 'rpoolmean') |   ('mean_fpr', 'source') |   ('p_fpr_gt_a', 'ctrl10') |   ('p_fpr_gt_a', 'local_q') |   ('p_fpr_gt_a', 'rpool') |   ('p_fpr_gt_a', 'rpoolmean') |   ('p_fpr_gt_a', 'source') |   ('p_fpr_gt_a_plus_5', 'ctrl10') |   ('p_fpr_gt_a_plus_5', 'local_q') |   ('p_fpr_gt_a_plus_5', 'rpool') |   ('p_fpr_gt_a_plus_5', 'rpoolmean') |   ('p_fpr_gt_a_plus_5', 'source') |   ('sens', 'ctrl10') |   ('sens', 'local_q') |   ('sens', 'rpool') |   ('sens', 'rpoolmean') |   ('sens', 'source') |
+|:------------|-------------------------:|--------------------------:|------------------------:|----------------------------:|-------------------------:|---------------------------:|----------------------------:|--------------------------:|------------------------------:|---------------------------:|----------------------------------:|-----------------------------------:|---------------------------------:|-------------------------------------:|----------------------------------:|---------------------:|----------------------:|--------------------:|------------------------:|---------------------:|
+| (0.0, 25)   |                    0.089 |                     0.128 |                   0.037 |                       0.076 |                    0.285 |                      0.336 |                       0.634 |                     0.078 |                         0.277 |                      0.667 |                             0.207 |                              0.313 |                            0.018 |                                0.1   |                             0.507 |                0.182 |                 0.257 |               0.094 |                   0.171 |                0.421 |
+| (0.0, 50)   |                    0.083 |                     0.113 |                   0.037 |                       0.076 |                    0.285 |                      0.298 |                       0.545 |                     0.034 |                         0.241 |                      0.665 |                             0.167 |                              0.199 |                            0.004 |                                0.055 |                             0.506 |                0.175 |                 0.238 |               0.098 |                   0.177 |                0.421 |
+| (0.0, 100)  |                    0.088 |                     0.106 |                   0.058 |                       0.087 |                    0.286 |                      0.339 |                       0.528 |                     0.072 |                         0.307 |                      0.655 |                             0.186 |                              0.125 |                            0.005 |                                0.046 |                             0.528 |                0.183 |                 0.23  |               0.147 |                   0.2   |                0.421 |
+| (0.0, 200)  |                    0.087 |                     0.102 |                   0.069 |                       0.093 |                    0.096 |                      0.309 |                       0.461 |                     0.111 |                         0.349 |                      0.401 |                             0.195 |                              0.112 |                            0.019 |                                0.071 |                             0.264 |                0.196 |                 0.24  |               0.179 |                   0.223 |                0.231 |
+| (0.0, 300)  |                    0.092 |                     0.104 |                   0.074 |                       0.095 |                    0.037 |                      0.34  |                       0.53  |                     0.12  |                         0.405 |                      0     |                             0.22  |                              0.05  |                            0.002 |                                0.012 |                             0     |                0.191 |                 0.233 |               0.182 |                   0.218 |                0.104 |
+| (0.0, 500)  |                    0.09  |                     0.101 |                   0.078 |                       0.094 |                    0.036 |                      0.34  |                       0.47  |                     0.18  |                         0.372 |                      0.002 |                             0.195 |                              0.068 |                            0.008 |                                0.028 |                             0     |                0.191 |                 0.231 |               0.188 |                   0.218 |                0.104 |
+| (0.05, 25)  |                    0.089 |                     0.121 |                   0.033 |                       0.071 |                    0.285 |                      0.332 |                       0.563 |                     0.06  |                         0.247 |                      0.667 |                             0.206 |                              0.28  |                            0.01  |                                0.084 |                             0.502 |                0.182 |                 0.245 |               0.084 |                   0.161 |                0.421 |
+| (0.05, 50)  |                    0.083 |                     0.106 |                   0.035 |                       0.071 |                    0.285 |                      0.3   |                       0.5   |                     0.028 |                         0.212 |                      0.666 |                             0.167 |                              0.172 |                            0.004 |                                0.046 |                             0.51  |                0.175 |                 0.228 |               0.091 |                   0.167 |                0.421 |
+| (0.05, 100) |                    0.088 |                     0.1   |                   0.054 |                       0.082 |                    0.285 |                      0.343 |                       0.472 |                     0.068 |                         0.266 |                      0.659 |                             0.193 |                              0.102 |                            0.002 |                                0.039 |                             0.53  |                0.183 |                 0.22  |               0.138 |                   0.191 |                0.421 |
+| (0.05, 200) |                    0.087 |                     0.097 |                   0.063 |                       0.087 |                    0.097 |                      0.322 |                       0.428 |                     0.092 |                         0.311 |                      0.427 |                             0.192 |                              0.066 |                            0.006 |                                0.036 |                             0.251 |                0.196 |                 0.229 |               0.169 |                   0.213 |                0.231 |
+| (0.05, 300) |                    0.092 |                     0.098 |                   0.069 |                       0.089 |                    0.037 |                      0.348 |                       0.502 |                     0.075 |                         0.332 |                      0     |                             0.222 |                              0.03  |                            0     |                                0.01  |                             0     |                0.191 |                 0.224 |               0.173 |                   0.209 |                0.104 |
+| (0.05, 500) |                    0.091 |                     0.097 |                   0.073 |                       0.089 |                    0.036 |                      0.362 |                       0.438 |                     0.138 |                         0.32  |                      0     |                             0.205 |                              0.04  |                            0     |                                0.015 |                             0     |                0.191 |                 0.221 |               0.181 |                   0.207 |                0.104 |
+
+Per cohort (pi = 0.05, rpool vs rpoolmean vs local_q, share of draws with FPR > 0.15):
+
+|                            |   ctrl10 |   local_q |   rpool |   rpoolmean |   source |
+|:---------------------------|---------:|----------:|--------:|------------:|---------:|
+| ('MetaCardis_2020_a', 25)  |    0.198 |     0.265 |   0.008 |       0.072 |    0     |
+| ('MetaCardis_2020_a', 50)  |    0.175 |     0.175 |   0.002 |       0.045 |    0     |
+| ('MetaCardis_2020_a', 100) |    0.19  |     0.072 |   0     |       0.018 |    0     |
+| ('MetaCardis_2020_a', 200) |    0.202 |     0.028 |   0     |       0.01  |    0     |
+| ('MetaCardis_2020_a', 300) |    0.222 |     0.03  |   0     |       0.01  |    0     |
+| ('MetaCardis_2020_a', 500) |    0.205 |     0.04  |   0     |       0.015 |    0     |
+| ('QinJ_2012', 25)          |    0.195 |     0.272 |   0.005 |       0.08  |    1     |
+| ('QinJ_2012', 50)          |    0.175 |     0.182 |   0.005 |       0.052 |    1     |
+| ('QinJ_2012', 100)         |    0.18  |     0.13  |   0.008 |       0.055 |    1     |
+| ('YachidaS_2019', 25)      |    0.225 |     0.304 |   0.019 |       0.099 |    0.507 |
+| ('YachidaS_2019', 50)      |    0.152 |     0.158 |   0.004 |       0.041 |    0.53  |
+| ('YachidaS_2019', 100)     |    0.209 |     0.105 |   0     |       0.044 |    0.591 |
+| ('YachidaS_2019', 200)     |    0.182 |     0.105 |   0.012 |       0.062 |    0.502 |
+
+### E3. Pool from ANOTHER cohort of the same task (a different laboratory), alpha 0.10
+
+| method    |   pair_rmse |   median_fpr |   share_pairs_fpr_gt_15 |   max_fpr |
+|:----------|------------:|-------------:|------------------------:|----------:|
+| local_q   |       0.191 |        0.125 |                    0.48 |     0.754 |
+| rpool     |       0.111 |        0     |                    0.11 |     0.43  |
+| rpoolmean |       0.158 |        0.068 |                    0.33 |     0.691 |
+| source    |       0.173 |        0.128 |                    0.46 |     0.75  |
+
+| disease   |   local_q |   rpool |   rpoolmean |   source |
+|:----------|----------:|--------:|------------:|---------:|
+| CRC       |     0.086 |   0.073 |       0.068 |    0.12  |
+| IBD       |     0.183 |   0.094 |       0.14  |    0.146 |
+| T2D       |     0.253 |   0.138 |       0.23  |    0.204 |
+| adenoma   |     0.173 |   0.112 |       0.133 |    0.181 |
+
+### E5. Same study, different centre (MetaCardis_2020_a: one protocol and sequencer; Copenhagen, Leipzig, Paris), alpha 0.10
+
+|                                       |   local_q |   rpool |   rpoolmean |   source |
+|:--------------------------------------|----------:|--------:|------------:|---------:|
+| ('lasso', 'Copenhagen', 'Copenhagen') |     0.105 |   0.061 |       0.089 |    0.01  |
+| ('lasso', 'Copenhagen', 'Leipzig')    |     0.262 |   0.17  |       0.236 |    0.088 |
+| ('lasso', 'Copenhagen', 'Paris')      |     0.206 |   0.113 |       0.18  |    0.045 |
+| ('lasso', 'Leipzig', 'Copenhagen')    |     0.023 |   0.006 |       0.018 |    0.01  |
+| ('lasso', 'Leipzig', 'Leipzig')       |     0.106 |   0.067 |       0.094 |    0.088 |
+| ('lasso', 'Leipzig', 'Paris')         |     0.058 |   0.036 |       0.051 |    0.045 |
+| ('lasso', 'Paris', 'Copenhagen')      |     0.058 |   0.019 |       0.046 |    0.01  |
+| ('lasso', 'Paris', 'Leipzig')         |     0.163 |   0.096 |       0.143 |    0.088 |
+| ('lasso', 'Paris', 'Paris')           |     0.108 |   0.054 |       0.087 |    0.044 |
+| ('rf', 'Copenhagen', 'Copenhagen')    |     0.111 |   0.065 |       0.097 |    0.005 |
+| ('rf', 'Copenhagen', 'Leipzig')       |     0.198 |   0.115 |       0.178 |    0.026 |
+| ('rf', 'Copenhagen', 'Paris')         |     0.185 |   0.111 |       0.163 |    0.028 |
+| ('rf', 'Leipzig', 'Copenhagen')       |     0.055 |   0.033 |       0.052 |    0.005 |
+| ('rf', 'Leipzig', 'Leipzig')          |     0.107 |   0.066 |       0.096 |    0.025 |
+| ('rf', 'Leipzig', 'Paris')            |     0.107 |   0.072 |       0.1   |    0.028 |
+| ('rf', 'Paris', 'Copenhagen')         |     0.057 |   0.021 |       0.045 |    0.005 |
+| ('rf', 'Paris', 'Leipzig')            |     0.109 |   0.051 |       0.083 |    0.026 |
+| ('rf', 'Paris', 'Paris')              |     0.107 |   0.054 |       0.089 |    0.027 |
+
+| setting                     |   local_q |   rpool |   rpoolmean |   source |
+|:----------------------------|----------:|--------:|------------:|---------:|
+| pool from another centre    |     0.077 |   0.057 |       0.067 |    0.072 |
+| same centre (random halves) |     0.008 |   0.039 |       0.009 |    0.072 |

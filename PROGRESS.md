@@ -18,7 +18,7 @@ Commit + push after every phase (auto-save).
 - [x] Novelty escalation loop (D6) rounds 1-4 (experiments/novelty_escalation_log.md); RF round 3 confirmation running
 - [x] Final experiments (locked run complete 2026-11-25; results/main_tables.md; final/RUN_NOTES.md)
 - [~] Manuscript (draft v0.2, locked numbers filled; manuscript/manuscript.md)
-- [ ] Reviews 1-11
+- [~] Reviews 1-11 (round 1 done: reviews/review_r1_*.md, response in reviews/response_r1.md; manuscript v0.3)
 - [ ] Final package
 
 ## Decisions (with reasons)
@@ -64,3 +64,13 @@ Commit + push after every phase (auto-save).
 - Figures fixed (overlapping labels). Refs 15-20 now cited.
 - References renumbered in citation order (manuscript + SI). Body ~1,300 words.
 - NEXT: Reviews 1-11.
+
+## Session 3, review round 1 (2026-11-25)
+- Three reviewers (editor, statistics, domain/novelty): all major revision. Key points: rank rule is a known method
+  (NP umbrella / tolerance limit); locked result holds by construction; pi = 1% had no cases in 13/16 pairs; cross-study
+  failure unreported; Note S1 tie error.
+- User decision: ADD NEW EXPERIMENTS (post hoc, labelled exploratory). Done: E1 binomial contamination, E2 pool size,
+  E3 cross-cohort pools, E5 cross-centre pools (MetaCardis), locked re-analysis (clustered CI, TOST, no-adenoma).
+- Manuscript now built from manuscript/*_src.md with `python manuscript/build.py` (citation keys -> numbers).
+  EDIT THE *_src.md FILES, not manuscript.md / supporting_information.md.
+- NEXT: review round 2 on v0.3.
