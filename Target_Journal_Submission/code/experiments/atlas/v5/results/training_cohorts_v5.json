@@ -1,0 +1,31 @@
+{
+ "training_cohorts": 26,
+ "cohorts": [
+  "FengQ_2015",
+  "GuptaA_2019",
+  "HMP_2019_ibdmdb",
+  "HMP_2019_t2d",
+  "HallAB_2017",
+  "HanniganGD_2017",
+  "IjazUZ_2017",
+  "JieZ_2017",
+  "KarlssonFH_2013",
+  "LiJ_2017",
+  "LoombaR_2017",
+  "MetaCardis_2020_a",
+  "NagySzakalD_2017",
+  "NielsenHB_2014",
+  "QinJ_2012",
+  "QinN_2014",
+  "SankaranarayananK_2015",
+  "ThomasAM_2018a",
+  "ThomasAM_2018b",
+  "VogtmannE_2016",
+  "WirbelJ_2018",
+  "XieH_2016",
+  "YachidaS_2019",
+  "YuJ_2015",
+  "ZellerG_2014",
+  "ZhuF_2020"
+ ]
+}
