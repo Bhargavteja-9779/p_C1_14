@@ -1,0 +1,47 @@
+           cohort_rmse  mean_fpr  max_abs_err   sens  p_fpr_over_a_plus_5  abstain  units
+method                                                                                   
+ctrl10           0.027     0.086        0.100  0.240                0.199    0.062     32
+rpoolmean        0.031     0.082        0.100  0.249                0.142    0.062     32
+local_q          0.046     0.137        0.119  0.334                0.326    0.000     32
+rpool            0.080     0.025        0.100  0.075                0.010    0.500     32
+shift2           0.153     0.221        0.372  0.433                0.586    0.000     32
+source           0.185     0.162        0.635  0.387                0.392    0.000     32
+featstd          0.203     0.230        0.510  0.412                0.610    0.000     32
+gauss2           0.323     0.386        0.601  0.586                0.792    0.000     32
+mlls             0.339     0.318        0.875  0.530                0.611    0.000     32
+em               0.410     0.378        0.856  0.589                0.641    0.000     32
+disease      CRC    IBD    T2D  adenoma
+method                                 
+ctrl10     0.013  0.051  0.008    0.008
+em         0.080  0.289  0.484    0.530
+featstd    0.270  0.181  0.220    0.152
+gauss2     0.224  0.378  0.274    0.360
+local_q    0.026  0.063  0.044    0.041
+mlls       0.126  0.249  0.513    0.313
+rpool      0.071  0.093  0.075    0.078
+rpoolmean  0.016  0.055  0.009    0.019
+shift2     0.226  0.196  0.103    0.068
+source     0.122  0.151  0.306    0.086
+         comparison  n_units  mean_diff_abs_err  ci_low  ci_high  p_wilcoxon  p_holm
+ rpoolmean - gauss2       32            -0.2668 -0.3143  -0.2192      0.0000  0.0000
+rpoolmean - featstd       32            -0.1456 -0.1894  -0.1075      0.0000  0.0000
+ rpoolmean - shift2       32            -0.1013 -0.1345  -0.0717      0.0000  0.0000
+ rpoolmean - source       32            -0.1076 -0.1595  -0.0645      0.0000  0.0000
+  rpoolmean - rpool       32            -0.0560 -0.0665  -0.0454      0.0000  0.0000
+     rpoolmean - em       32            -0.2621 -0.3692  -0.1625      0.0000  0.0000
+   rpoolmean - mlls       32            -0.1991 -0.2942  -0.1121      0.0000  0.0001
+rpoolmean - local_q       32            -0.0173 -0.0255  -0.0100      0.0001  0.0001
+ rpoolmean - ctrl10       32             0.0055  0.0010   0.0100      0.0476  0.0476
+            fpr  sens  colonoscopies_per_1000  extra_vs_intended  cancers_detected_per_1000
+method                                                                                     
+ctrl10     0.09  0.44                   92.64              -9.05                       2.19
+em         0.17  0.60                  175.34              72.85                       2.99
+featstd    0.35  0.74                  352.31             249.08                       3.72
+gauss2     0.30  0.70                  303.76             200.75                       3.50
+local_q    0.12  0.53                  124.72              22.58                       2.64
+mlls       0.21  0.65                  216.61             113.87                       3.24
+rpool      0.03  0.19                   34.57             -65.87                       0.94
+rpoolmean  0.09  0.48                   89.56             -12.33                       2.40
+shift2     0.31  0.71                  307.44             204.40                       3.54
+source     0.20  0.65                  202.26              99.52                       3.23
+written /home/user/p_C1_14/Target_Journal_Submission/code/analysis/../../results

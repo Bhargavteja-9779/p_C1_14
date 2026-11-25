@@ -16,8 +16,8 @@ Commit + push after every phase (auto-save).
 - [x] Protocol pre-registration (code/experiments/protocol.md, 2026-11-24)
 - [x] First working version (src/calibrate.py; dev rounds 1-4)
 - [x] Novelty escalation loop (D6) rounds 1-4 (experiments/novelty_escalation_log.md); RF round 3 confirmation running
-- [ ] Final experiments
-- [~] Manuscript (draft v0.1 with placeholders; manuscript/manuscript.md)
+- [x] Final experiments (locked run complete 2026-11-25; results/main_tables.md; final/RUN_NOTES.md)
+- [~] Manuscript (draft v0.2, locked numbers filled; manuscript/manuscript.md)
 - [ ] Reviews 1-11
 - [ ] Final package
 
@@ -57,3 +57,9 @@ Commit + push after every phase (auto-save).
 - Fast-forwarded `claude/sharp-meitner-guez1q` to zen-planck a8509cb. data_cache rebuilt (19 cohorts) with the commands above.
 - Smoke test passed. LOCKED final test launched once for lasso and rf (code/experiments/final/run_final.py, R=200).
   Next: analyze_final.py -> make_figures.py -> fill [[...]] in manuscript + SI -> reviews.
+- Locked results (alpha 0.10, pi 0.01, 32 units): cohort-RMSE rpoolmean 0.031, ctrl10 0.027 (ctrl10 slightly better,
+  Holm P = 0.048 -> manuscript says 'came close', not 'matched'), source 0.185, featstd 0.203, shift2 0.153, em 0.41.
+  Source FPR range 0.00-0.74. CRC per 1,000: 199 vs 87 false-positive referrals. Sensitivity cost reported (CRC 0.48 vs 0.65).
+- RF run interrupted by container restart at 15/16; finished with resume_final.py (exact rng replay, verified on LASSO).
+- Figures fixed (overlapping labels). Refs 15-20 now cited.
+- NEXT: renumber references in citation order (18/19 now cited before 5), word count check, then Reviews 1-11.

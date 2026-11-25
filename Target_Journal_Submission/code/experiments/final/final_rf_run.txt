@@ -1,0 +1,17 @@
+rf CRC YachidaS_2019 auc 0.696 n0 251 n1 258
+rf CRC YuJ_2015 auc 0.854 n0 54 n1 74
+rf CRC ThomasAM_2019_c auc 0.795 n0 40 n1 40
+rf IBD HMP_2019_ibdmdb auc 0.712 n0 27 n1 103
+rf IBD HallAB_2017 auc 0.658 n0 12 n1 20
+rf IBD IjazUZ_2017 auc 0.82 n0 38 n1 12
+rf IBD NielsenHB_2014 auc 0.668 n0 59 n1 82
+rf T2D KarlssonFH_2013 auc 0.692 n0 43 n1 53
+rf T2D MetaCardis_2020_a auc 0.644 n0 642 n1 550
+rf T2D QinJ_2012 auc 0.58 n0 174 n1 170
+rf T2D SankaranarayananK_2015 auc 0.576 n0 18 n1 19
+rf adenoma FengQ_2015 auc 0.558 n0 61 n1 47
+rf adenoma HanniganGD_2017 auc 0.57 n0 28 n1 26
+rf adenoma ThomasAM_2018a auc 0.535 n0 24 n1 27
+rf adenoma YachidaS_2019 auc 0.562 n0 251 n1 67
+rf adenoma ZellerG_2014 auc 0.543 n0 61 n1 42
+FINISHED

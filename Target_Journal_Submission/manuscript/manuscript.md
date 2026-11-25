@@ -1,4 +1,4 @@
-<!-- DRAFT v0.1 (2026-11-24). Numbers marked [[...]] are filled from results/main_tables.md after the locked run.
+<!-- DRAFT v0.2 (2026-11-25). Numbers filled from results/main_tables.md (locked run, both models complete).
 Format: iMeta Letter / Short Communication, target ~2,100 words, 2 figures, ~20 references, Methods in SI. -->
 
 # Stool-metagenome classifiers miss their intended false-positive rate in new laboratories, and a label-free rank rule fixes it
@@ -8,18 +8,21 @@ Format: iMeta Letter / Short Communication, target ~2,100 words, 2 figures, ~20 
 To the Editor,
 
 Gut-microbiome classifiers can separate patients with colorectal cancer (CRC), inflammatory bowel disease (IBD) or
-type 2 diabetes (T2D) from healthy people across many cohorts [1-4]. Most studies report this as the area under the
+type 2 diabetes (T2D) from healthy people across many cohorts [1-4], and stool-based tests are proposed for CRC
+screening, a cancer with about 1.9 million new cases a year [18, 19]. Most studies report this as the area under the
 receiver operating characteristic curve (AUROC). A test that is used in practice, however, needs one fixed cut-off. The
 cut-off decides how many healthy people are sent for a colonoscopy and how many cancers are found. A laboratory that
 adopts a published classifier usually keeps the cut-off chosen on the training cohorts, for example the score that gave
-90% specificity there. Nobody has checked whether that promise holds in a new laboratory, where DNA extraction,
-sequencing and the population all differ [5, 6].
+90% specificity there. In clinical prediction it is well known that such cut-offs need local updating [15, 20], but
+microbiome benchmarks still judge transfer by AUROC [17], and recent threshold-adaptation methods need labels or
+measured covariates at the new site [16]. Nobody has checked whether the promise holds in a new laboratory, where DNA
+extraction, sequencing and the population all differ [5, 6].
 
 Here, we asked a simple question: when a microbiome classifier is moved to a new cohort, does it keep its intended
 false-positive rate (FPR)? We used 19 public studies from curatedMetagenomicData [7] across four tasks (CRC, IBD, T2D
-and colorectal adenoma; 3,626 unique stool metagenomes, 24 cohort-task pairs). We found that the training cut-off gives FPRs from [[x]] to
-[[y]] at new cohorts, although the AUROC stays good. Popular label-free fixes from machine learning make this worse at
-screening prevalence. A simple rule fixes it: set the cut-off at a fixed rank among the laboratory's own first,
+and colorectal adenoma; 3,626 unique stool metagenomes, 24 cohort-task pairs). We found that the training cut-off gives FPRs from 0.00 to
+0.74 at new cohorts, although the AUROC stays acceptable. Popular label-free fixes from machine learning do not repair
+this at screening prevalence, and most make it worse. A simple rule fixes it: set the cut-off at a fixed rank among the laboratory's own first,
 unlabelled screening samples. The rule needs no diagnoses, comes with a finite-sample guarantee, and tells a laboratory
 how many samples it must collect first (Figure 1, Figure 2).
 
@@ -30,8 +33,8 @@ We set the cut-off for 90% specificity on out-of-fold training scores, as is com
 16 test cohorts before any method was designed: three external CRC cohorts, and every cohort of IBD, T2D and adenoma
 (Supporting Information, Table S1).
 
-At the locked cohorts, the realised FPR of the training cut-off ranged from [[min]] to [[max]] (Figure 1A). The
-spread was far larger than chance: a binomial test of overdispersion gave P = [[p]] (LASSO) and P = [[p]] (random
+At the locked cohorts, the realised FPR of the training cut-off ranged from 0.00 to 0.74 (median 0.10; Figure 1A). The
+spread was far larger than chance: a binomial test of overdispersion gave P = 2 × 10^-52 (LASSO) and P = 5 × 10^-88 (random
 forest). The AUROC did not warn about this. Cohorts with similar AUROC had very different FPRs (Figure 1B). Averages
 also hide the problem. For the random forest, the mean FPR over development cohorts was close to the target (0.092),
 but single cohorts missed it in both directions (cohort root-mean-square error, RMSE, 0.125).
@@ -50,8 +53,9 @@ verification [11], our own location-scale mixture fit, and per-site feature stan
 reported to rescue fixed cut-offs in transcriptomics [12].
 
 None of these methods was reliable when the unlabelled pool contained few patients, which is the normal case in
-screening (Figure 2A). At a 1% case share, the cohort-RMSE of the FPR was [[em]] for EM, [[featstd]] for feature
-standardisation and [[shift2]] for the mixture fit, compared with [[source]] for doing nothing. The reasons are
+screening (Figure 2A). At a 1% case share, the cohort-RMSE of the FPR was 0.41 for EM, 0.34 for maximum likelihood with
+bias-corrected calibration, 0.32 for two-component calibration, 0.20 for feature standardisation and 0.15 for the
+mixture fit, compared with 0.19 for doing nothing. The reasons are
 simple. Label-shift methods assume that the scores of healthy people do not move between sites, and they do.
 Mixture fits cannot tell "the healthy scores moved up" from "there are some patients", so with few patients they
 invent them [11]. Standardising each site removes the site's average, but a screening pool and a case-control study
@@ -67,20 +71,25 @@ and conformal prediction [14]. One version guarantees that the expected FPR is a
 guarantees that the FPR exceeds the target with probability at most delta. Patients in the pool can only make the rule
 more cautious (Supporting Information, Note S1).
 
-At the locked cohorts, the expected-FPR rule had a cohort-RMSE of [[rpoolmean]] at a 1% case share, against
-[[source]] for the training cut-off (paired difference [[d]], 95% CI [[ci]], Holm-adjusted P = [[p]]; Figure 2A). It
-matched the accuracy of ten labelled local controls ([[ctrl10]]) without any diagnoses. Results were the same for both
-classifiers and all four diseases (Supporting Information, Table S2).
+At the locked cohorts, the expected-FPR rule had a cohort-RMSE of 0.031 at a 1% case share, against
+0.185 for the training cut-off (paired difference in absolute error −0.108, 95% CI −0.160 to −0.065, Holm-adjusted
+P < 0.0001; 32 cohort-model units; Figure 2A). It came close to ten labelled local controls (0.027; difference 0.006,
+95% CI 0.001 to 0.010, P = 0.048) without any diagnoses. Results were similar for both classifiers (LASSO 0.031 vs
+0.170; random forest 0.031 vs 0.199) and all four diseases (Supporting Information, Table S2). In the smallest
+cohort (six controls in the pool) the rule abstained, as designed. The price of keeping the promise is sensitivity:
+for CRC, mean sensitivity was 0.48 with the rank rule and 0.65 with the training cut-off, which bought its extra
+detections with twice the intended FPR.
 
 What does this mean for a screening programme? For CRC at 0.5% prevalence and a 10% target FPR, the training cut-off
-sent [[x]] healthy people per 1,000 screened to colonoscopy instead of the intended 100. The rank rule sent [[y]]
+sent 199 healthy people per 1,000 screened to colonoscopy instead of the intended 100. The rank rule sent 87
 (Figure 2B). The stricter version needs enough samples: about 360 screened samples if at most 1% are patients, 610 if
 at most 5%, and 1,500 if at most 10% (Figure 2C). Smaller pools make it abstain, which is the honest answer.
 
 ## CONCLUSION
 
 The cut-off of a microbiome test belongs to the laboratory, not to the published model. AUROC-based validation hides
-this, and current label-free adaptation methods fail at screening prevalence. A rank rule on a few hundred of the
+this, and current label-free adaptation methods fail at screening prevalence. This mirrors the advice to update clinical
+prediction models locally [15, 20]. A rank rule on a few hundred of the
 laboratory's own unlabelled samples restores the intended false-positive rate with a guarantee. We suggest that
 microbiome diagnostic studies report the realised FPR at each external cohort, and that deployment protocols include
 a local calibration run. Our study has limits. All data were public case-control cohorts, not prospective screening
@@ -130,4 +139,3 @@ abstract) are available online.
 18. Sung H, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2021;71:209-249. https://doi.org/10.3322/caac.21660
 19. Baxter NT, et al. Microbiota-based model improves the sensitivity of fecal immunochemical test for detecting colonic lesions. Genome Med. 2016;8:37. https://doi.org/10.1186/s13073-016-0290-3
 20. Steyerberg EW, et al. Validation and updating of predictive logistic regression models: a study on sample size and shrinkage. Stat Med. 2004;23:2567-2586. https://doi.org/10.1002/sim.1844
-<!-- TODO citation audit: refs 15-20 must be cited in text (intro/discussion) or dropped; verify volume/pages of all. -->
