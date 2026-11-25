@@ -1,0 +1,15 @@
+{
+ "tests": 14,
+ "median_axis_share": 0.1023736452509935,
+ "tests_axis_ge_020": 3,
+ "top_population_counts": {
+  "LokmerA_2019": 5,
+  "GuptaA_2019": 2,
+  "SmitsSA_2017": 2,
+  "BritoIL_2016": 1,
+  "PasolliE_2019": 1,
+  "LifeLinesDeep_2016": 1,
+  "LiuW_2016": 1,
+  "JieZ_2017": 1
+ }
+}
