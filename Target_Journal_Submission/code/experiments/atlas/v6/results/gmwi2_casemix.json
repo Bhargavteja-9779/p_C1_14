@@ -1,0 +1,78 @@
+{
+ "table": {
+  "Healthy": {
+   "False": 4450,
+   "True": 1097
+  },
+  "Non-healthy": {
+   "False": 948,
+   "True": 1574
+  }
+ },
+ "ea_share_healthy": 0.19776455741842439,
+ "ea_share_nonhealthy": 0.6241078509119746,
+ "fisher_or": 6.735188796449081,
+ "fisher_p": 5.0782934596664615e-304,
+ "nonhealthy_by_region_and_phenotype_top": [
+  [
+   true,
+   "Colorectal cancer",
+   521
+  ],
+  [
+   true,
+   "Type 2 diabetes",
+   280
+  ],
+  [
+   false,
+   "Colorectal cancer",
+   268
+  ],
+  [
+   false,
+   "Ulcerative colitis",
+   217
+  ],
+  [
+   true,
+   "Atherosclerotic cardiovascular disease",
+   214
+  ],
+  [
+   false,
+   "Crohn's disease",
+   198
+  ],
+  [
+   true,
+   "Liver Cirrhosis",
+   152
+  ],
+  [
+   true,
+   "Rheumatoid arthritis",
+   102
+  ],
+  [
+   true,
+   "Grave's disease",
+   100
+  ],
+  [
+   false,
+   "Type 2 diabetes",
+   97
+  ],
+  [
+   true,
+   "Ankylosing spondylitis",
+   95
+  ],
+  [
+   true,
+   "Crohn's disease",
+   86
+  ]
+ ]
+}
