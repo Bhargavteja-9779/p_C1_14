@@ -62,3 +62,16 @@ def test_cli(tmp_path, capsys):
     main(["cutoff", str(f), "--pi-max", "0.01"]); assert "rank 92 of 100" in capsys.readouterr().out
     main(["atlas", "IBD"]); assert "prediction interval" in capsys.readouterr().out
     main(["plan", "--json"]); assert '"N": 100' in capsys.readouterr().out
+
+
+def test_models_reproduce_atlas_scale():
+    import pandas as pd
+    from fprcal import models
+    m = models.meta(); assert len(m) == 14 and m.auroc.notna().all()
+    c = models._coef(); t = c[c.test == "CRC"]
+    # a sample at the training mean of every model taxon scores exactly the intercept
+    x = pd.DataFrame([100 * (10 ** t.mu.values - 1e-5)], columns=t.taxon.values)
+    assert abs(models.score(x, "CRC").iloc[0] - m.set_index("test").loc["CRC", "intercept"]) < 1e-6
+    full = x.copy(); full.columns = ["k__Bacteria|" + c for c in full.columns]       # full clade names accepted
+    assert abs(models.score(full, "CRC").iloc[0] - models.score(x, "CRC").iloc[0]) < 1e-12
+    assert models.score_all(x).shape == (1, 28)
