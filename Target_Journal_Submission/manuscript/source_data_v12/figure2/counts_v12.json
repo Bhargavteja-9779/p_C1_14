@@ -1,0 +1,18 @@
+{
+ "gmwi2_training_samples": 8069,
+ "gmwi2_training_studies": 54,
+ "gmwi2_healthy": 5547,
+ "gmwi2_nonhealthy": 2522,
+ "gmwi2_healthy_ea": 1097,
+ "gmwi2_nonhealthy_ea": 1574,
+ "v6b_people": 10986,
+ "v6b_columns": [
+  "Unnamed: 0",
+  "study_name",
+  "country",
+  "healthy",
+  "naive",
+  "balanced"
+ ],
+ "v6b_studies": 61
+}
