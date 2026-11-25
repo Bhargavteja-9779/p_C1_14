@@ -214,7 +214,7 @@ described in their publications. No new ethics approval was required.
 Profiles are from curatedMetagenomicData (Bioconductor ExperimentHub; release 2021-03-31; MetaCardis 2022-10-19). The
 GMWI2 model is from its public release (bioconda gmwi2 1.6, MIT licence) and the published Supplementary Data [13]. The
 exact metadata file, code, analysis plans, per-person scores, the duplicate list, the per-population FPR atlas and the
-fprcal tool are in the code repository: [GitHub repository URL and Zenodo DOI to be added]. Supplementary materials are
+fprcal tool (including the 14 LASSO atlas classifiers as coefficient tables, usable through `fprcal score`) are in the code repository: [GitHub repository URL and Zenodo DOI to be added]. Supplementary materials are
 online at the journal.
 
 ## REFERENCES
