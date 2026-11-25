@@ -1,9 +1,11 @@
 """POST HOC (review round 12, editor MAJOR 2): East Asian vs other unseen populations in the STRICT set (the set the text
 discusses), with the full set as a check. Writes results/posthoc_eastasia_strict_v15.json."""
+import os as _os
+CACHE = _os.environ.get("CMD_CACHE", _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "..", "..", "..", "..", "..", "data_cache"))
 import os, json, pandas as pd
 from scipy import stats
 H = os.path.dirname(os.path.abspath(__file__)); R = os.path.join(H, "results"); EA = {"CHN", "JPN", "KOR"}
-M = pd.read_csv("/home/user/p_C1_14/data_cache/sampleMetadata.csv", low_memory=False).groupby("study_name").country.agg(lambda x: x.mode().iloc[0])
+M = pd.read_csv(_os.path.join(CACHE, "sampleMetadata.csv"), low_memory=False).groupby("study_name").country.agg(lambda x: x.mode().iloc[0])
 o = {}
 for s in ["strict", "full"]:
     p = pd.read_csv(os.path.join(R, f"gmwi2_perpop_{s}.csv")); p = p[(~p.seen) & (p.n >= 20)].copy(); p["ea"] = p.study.map(M).isin(EA)

@@ -1,4 +1,4 @@
-"""Command line: fprcal {cutoff,verify,plan,atlas}. Scores are read from a text/CSV file (one number per line, or the
+"""Command line: fprcal {cutoff,verify,plan,atlas,score}. Scores are read from a text/CSV file (one number per line, or the
 column given by --column)."""
 from __future__ import annotations
 import argparse, json, sys

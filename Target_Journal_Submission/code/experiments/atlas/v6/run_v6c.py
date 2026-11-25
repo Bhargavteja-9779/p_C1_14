@@ -19,10 +19,10 @@ def fit(X, y, g, ids, balanced):
     w = weights(y, g, ids) if balanced else np.ones(len(y))
     oof = np.zeros(len(y)); aucs = []
     for a, b in GroupKFold(len(np.unique(g))).split(Z, y, g):
-        m = LogisticRegression(C=0.1, penalty="l1", solver="liblinear", class_weight="balanced", max_iter=2000).fit(Z[a], y[a], sample_weight=w[a])
+        m = LogisticRegression(C=0.1, penalty="l1", solver="liblinear", class_weight="balanced", max_iter=2000, random_state=0).fit(Z[a], y[a], sample_weight=w[a])
         oof[b] = m.predict_proba(Z[b])[:, 1]
         if len(np.unique(y[b])) == 2: aucs.append(roc_auc_score(y[b], oof[b]))
-    m = LogisticRegression(C=0.1, penalty="l1", solver="liblinear", class_weight="balanced", max_iter=2000).fit(Z, y, sample_weight=w)
+    m = LogisticRegression(C=0.1, penalty="l1", solver="liblinear", class_weight="balanced", max_iter=2000, random_state=0).fit(Z, y, sample_weight=w)
     oofl = logit(oof); t = np.quantile(oofl[(y == 0)], 1 - A) if not balanced else np.quantile(np.repeat(oofl[y == 0], 1), 1 - A)
     # weighted quantile for balanced cut-off
     if balanced:

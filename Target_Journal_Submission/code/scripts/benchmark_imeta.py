@@ -129,7 +129,7 @@ if __name__ == "__main__" and sys.argv[1] == "ft2":
 # could not be confirmed from main text / probably in Supplementary Information).
 # Run: python3 benchmark_imeta.py build
 # ---------------------------------------------------------------------------
-CURATED = "/home/user/p_C1_14/Target_Journal_Submission/code/scripts/benchmark_curated.json"
+CURATED = __import__("os").path.join(__import__("os").path.dirname(__import__("os").path.abspath(__file__)), "benchmark_curated.json")
 
 def build():
     import csv, statistics
@@ -153,7 +153,7 @@ def build():
             received_accepted_jats="; ".join(f"{k}={v}" for k, v in m["history"].items()) or "NA",
             _words=m["main_words"]))
     cols = [k for k in rows[0] if not k.startswith("_")]
-    with open("/home/user/p_C1_14/Target_Journal_Submission/journal_selection/journal_benchmark.csv", "w", newline="") as f:
+    with open(__import__("os").path.join(__import__("os").path.dirname(__import__("os").path.abspath(__file__)), "..", "..", "journal_selection", "journal_benchmark.csv"), "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
     # summary statistics
     def num(v):

@@ -1,5 +1,5 @@
 import json, sys, statistics, time
-sys.path.insert(0, "/home/user/p_C1_14/Target_Journal_Submission/code/scripts")
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
 from acceptance_times_pubmed import sample_ids, dates
 src = json.load(open("oa_sources.json"))
 todo = {k: v for k, v in src.items() if v["pub"] in ("Elsevier", "IEEE")}
