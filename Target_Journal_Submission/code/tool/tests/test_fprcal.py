@@ -75,3 +75,11 @@ def test_models_reproduce_atlas_scale():
     full = x.copy(); full.columns = ["k__Bacteria|" + c for c in full.columns]       # full clade names accepted
     assert abs(models.score(full, "CRC").iloc[0] - models.score(x, "CRC").iloc[0]) < 1e-12
     assert models.score_all(x).shape == (1, 28)
+
+
+def test_contamination_bound_low_scoring_patients():
+    # adversarial case: patients score far BELOW healthy people (pull the cut-off down); the rank bound must still hold
+    rng = np.random.default_rng(3); fpr = []
+    for _ in range(4000):
+        b = np.r_[rng.standard_normal(99), [-8.0]]; fpr.append(stats.norm.sf(burnin_cutoff(b, .10, pi_max=.01).cutoff))
+    assert np.mean(fpr) <= .10 + 3 * np.std(fpr) / np.sqrt(4000)

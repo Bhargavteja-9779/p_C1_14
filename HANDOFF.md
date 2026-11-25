@@ -4,14 +4,13 @@
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-Review round 11 on manuscript v13 (Target_Journal_Submission/manuscript/manuscript_v13.md, supporting_information_v13.md,
-figures_v12/): 3 fresh reviewers + blind scorecard -> reviews/review_r11_0{1,2,3}_*.md, scorecard_r11_v13.md. If missing,
-relaunch. Round 10 triage done (reviews/round10_response.md): v6c now post hoc, generalisation claim withdrawn; bootstraps
-corrected (code/experiments/atlas/v6/corrected_boot_v13.py); Holm for plan v6 (holm_v6_v13.py); refs renumbered.
-Round 10 scorecard 79/100 (>= P75 on all 10). Stop rule (USER_DIRECTIVES rule 3 + G10): all three reviewers accept/minor,
-twice in a row, and scorecard >= P75 on every dimension.
-Open: check Poyet 2026 sentence; Fig 1D annotation; si_tables_v12 -> v13 if table numbers change; fprcal `score` command
-(shipped LASSO models) should be mentioned in Data availability.
+Review round 12 on manuscript v14 (Target_Journal_Submission/manuscript/manuscript_v14.md, supporting_information_v14.md,
+figures_v14/): 3 fresh reviewers + blind scorecard -> reviews/review_r12_0{1,2,3}_*.md, scorecard_r12_v14.md. If missing,
+relaunch. Round 11: stats 6 major, novelty 8 minor (21/25), editor 8 minor, scorecard 78 (only dimension 1 significance
+below P75: 7 vs 8). Round 11 triage done (reviews/round11_response.md). Stop rule: all three accept/minor twice in a row
+and scorecard >= P75 on every dimension.
+Ideas to lift dimension 1 (significance): referral numbers per 1,000 screened from the atlas; apply the atlas to a
+classifier the field uses (GMWI2 done). Main text is ~2,540 words: trim if an editor asks.
 BLOCKED ON USER: repo URL + Zenodo DOI, author/COI/funding/AI statement; DEBIAS-M install (denied).
 
 ## One-line summary

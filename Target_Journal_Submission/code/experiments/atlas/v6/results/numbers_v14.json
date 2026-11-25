@@ -1,0 +1,41 @@
+{
+ "gmwi2_gap_top5_share": 0.389185873205212,
+ "gmwi2_gap_taxa": 95,
+ "gmwi2_gap_top5": [
+  [
+   "g__Lachnoclostridium",
+   -0.681,
+   0.681,
+   0.452,
+   -0.155
+  ],
+  [
+   "s__Bacteroides_stercoris",
+   -0.245,
+   0.788,
+   0.41,
+   -0.092
+  ],
+  [
+   "s__Bacteroides_plebeius",
+   -0.151,
+   0.724,
+   0.175,
+   -0.083
+  ],
+  [
+   "s__Clostridium_sp_CAG_167",
+   0.243,
+   0.018,
+   0.277,
+   -0.063
+  ],
+  [
+   "s__Bacteroides_coprocola",
+   -0.184,
+   0.446,
+   0.106,
+   -0.062
+  ]
+ ]
+}

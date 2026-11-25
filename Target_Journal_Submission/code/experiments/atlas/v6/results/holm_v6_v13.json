@@ -2,12 +2,12 @@
  "raw": {
   "G2": 6.055419757711732e-13,
   "G3": 0.7236285709443894,
-  "G4": 0.0005
+  "G4": 0.0002
  },
  "holm": {
   "G2": 1.8166259273135197e-12,
-  "G4": 0.001,
+  "G4": 0.0004,
   "G3": 0.7236285709443894
  },
- "note": "G4 raw P is an upper bound (0 of 2000 bootstrap draws <= 0)"
+ "note": "G4 raw P is an upper bound (0 of 5000 bootstrap draws <= 0)"
 }
