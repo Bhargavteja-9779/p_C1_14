@@ -30,14 +30,16 @@ def train_and_score(X, y, groups, tr, te, name, seed=0):
     m = make(name, seed).fit(Ztr, ytr)
     return logit(oof), ytr, logit(m.predict_proba(Zte)[:, 1]), m
 
-def train_and_score_featstd(X, y, groups, tr, te, name, seed=0):
+def train_and_score_featstd(X, y, groups, tr, te, name, seed=0, ref="all"):
     """Baseline: per-site unlabeled feature standardisation (Zheng 2026-style). Each training cohort standardised with
     its own mean/sd. Returns source OOF logit scores, labels, and a scorer f(idx_pool, idx_score) that standardises the
     target with the mean/sd of the UNLABELED POOL rows only (same pool as the score-based methods) and scores idx_score."""
     p = preprocess_fit(X[tr]); keep = p["keep"]
     L = np.log10(X[:, keep] / 100 + 1e-5); Z = np.zeros_like(L)
     for gname in np.unique(groups[tr]):
-        i = (groups == gname) & tr; Z[i] = (L[i] - L[i].mean(0)) / (L[i].std(0) + 1e-6)
+        i = (groups == gname) & tr
+        j = i & (y == 0) if ref == "controls" else i  # ref="controls" (post-hoc, review r2): standardise on controls only
+        Z[i] = (L[i] - L[j].mean(0)) / (L[j].std(0) + 1e-6)
     Ztr, ytr, gtr = Z[tr], y[tr], groups[tr]
     oof = np.zeros(len(ytr))
     for a, b in GroupKFold(len(np.unique(gtr))).split(Ztr, ytr, gtr):
