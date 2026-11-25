@@ -44,18 +44,37 @@ Let alpha be the target FPR (0.10 primary; 0.05 secondary). The rule predicts "p
 - Rank rule, high-probability version: r is the largest integer with P(Beta(r, n0 - r + 1) > alpha) <= delta
   (delta = 0.10); if no such r exists the rule abstains.
 
-### Note S1. Why the rank rule works
-Assume the controls in the pool and future controls are exchangeable (they come from the same laboratory process) and
-at most m = floor(pi_max n) pool samples are cases. Take the r-th largest pool score as t. (i) If all cases lie below t,
-then t is the r-th largest of n - m controls. For continuous scores, the probability mass of the control distribution
-above the r-th largest of n0 exchangeable controls follows Beta(r, n0 - r + 1) [19], with mean r / (n0 + 1). Choosing
-r as above bounds the mean, or the upper delta-quantile, of the FPR by alpha. (ii) Each case above t pushes t up by one
-control rank, which can only lower the FPR. (iii) Fewer than m cases gives a larger n0 and again a smaller FPR. So the
-bound holds for any case share up to pi_max. Ties (frequent with LASSO, which gives equal scores to samples that carry
-none of the selected species) make the rule more conservative because positives are called at score >= t. The rule
-needs no model of how scores shift between sites. Its cost is that a pool with fewer cases than pi_max gives a slightly
-lower FPR than alpha, which reduces sensitivity a little. The sample-size rule (Figure 2C) is the smallest n for
-which the high-probability version gives an expected FPR of at least alpha - 0.02 when the pool holds no cases.
+### Note S1. Why the rank rule works, and when it does not
+The rule is a classical one-sided tolerance limit [19] and the order-statistic step of the Neyman-Pearson umbrella
+algorithm [NEW-Tong2018], applied to an unlabelled pool that may contain a few cases, as in noise-robust Neyman-Pearson
+and conformal methods [NEW-Yao2022, NEW-Bashari2025]. We do not claim the rule as new; we test whether it serves
+microbiome laboratories.
+
+Assumption (A): conditional on the number K of cases in the pool, the n - K pool controls and a future control from the
+same laboratory are exchangeable, and K does not depend on the control scores. Let t be the r-th largest pool score
+and call a sample positive if its score is strictly above t (with ties, break them by a tiny random jitter, as in
+conformal prediction; with continuous scores `> t` and `>= t` coincide).
+
+Claim. Whatever the case scores, t is at least the r-th largest of the n - K pool controls, because removing cases can
+only lower each order statistic. Under (A) and continuous control scores, the control mass above the r-th largest of
+n - K exchangeable controls is Beta(r, n - K - r + 1). If K <= m = floor(pi_max n), then n - K >= n0 = n - m, and
+Beta(r, n - K - r + 1) is stochastically no larger than Beta(r, n0 - r + 1). Hence E[FPR] <= r / (n0 + 1) <= alpha for
+r = floor((n0 + 1) alpha), and P(FPR > alpha) <= delta for the high-probability choice of r. If K is random (in screening
+K is about Binomial(n, prevalence)), both bounds gain the term P(K > m): E[FPR] <= alpha + P(K > m) and
+P(FPR > alpha) <= delta + P(K > m). At 0.5% prevalence, pi_max = 5% and n = 360, P(K > 18) < 10^-9.
+
+Ties. The locked run called positives at `>= t`. With a block of tied scores at t this is anti-conservative, not
+conservative as an earlier draft stated. In our data ties sat at the lowest LASSO score and at discrete random-forest
+votes; re-scoring with `> t` changed the cohort-RMSE by at most [[tie_delta]] (post-hoc E1, Table S4).
+
+When the guarantee fails. (A) is violated when the pool comes from another study (E3) or another recruiting centre of
+the same study (E5), or when the laboratory process drifts after calibration. The rule then has no guarantee, and our
+post-hoc tests show FPRs well above the target (Table S4). The pool must be drawn from the population and process the
+test will serve.
+
+Sample-size rule (Figure 2C). The smallest n, on a grid of 10 below 1,000 and 100 above, for which the high-probability
+version has expected FPR at least alpha - 0.02 when the pool holds no cases. The slack 0.02 is a choice; n = 360 for
+pi_max = 0 and for 1%.
 
 ### Evaluation design
 In each test cohort, controls and cases were split at random into halves, 200 times. Half of the controls, plus cases
