@@ -106,7 +106,11 @@ people carried equal weight cut the gap to 0.06, an 88% reduction (study-cluster
 between-study heterogeneity (τ 1.16 to 0.81). It cost discrimination: pooled AUROC fell from 0.715 to 0.676 (−0.040; CI
 −0.12 to 0.02), beyond our pre-stated margin of 0.03, so that hypothesis failed. Part of the pooled AUROC came from the
 geographic shortcut itself. Within studies, where cases and controls share a geography, AUROC fell only from 0.669 to
-0.649 (−0.020; CI −0.052 to 0.013; post hoc).
+0.649 (−0.020; CI −0.052 to 0.013; post hoc). The same training-time balancing, applied to the five multi-cohort disease
+classifiers, reduced their between-population FPR heterogeneity (mean τ 0.92 → 0.78; population-clustered 95% CI of the
+difference −0.23 to −0.03; pre-specified), confirming that the mechanism is not specific to GMWI2. It was not a clean
+deployment fix, however: it did not improve the share of populations within the target band and cost 0.03 in AUROC
+(Supporting Information S6), so for deployment we turn to a site-level fix.
 
 ## A SITE CAN VERIFY AND RECALIBRATE ITS OWN CUT-OFF
 
