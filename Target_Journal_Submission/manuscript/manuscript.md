@@ -9,17 +9,17 @@ To the Editor,
 
 Gut-microbiome classifiers can separate patients with colorectal cancer (CRC), inflammatory bowel disease (IBD) or
 type 2 diabetes (T2D) from healthy people across many cohorts [1-4], and stool-based tests are proposed for CRC
-screening, a cancer with about 1.9 million new cases a year [18, 19]. Most studies report this as the area under the
+screening, a cancer with about 1.9 million new cases a year [5, 6]. Most studies report this as the area under the
 receiver operating characteristic curve (AUROC). A test that is used in practice, however, needs one fixed cut-off. The
 cut-off decides how many healthy people are sent for a colonoscopy and how many cancers are found. A laboratory that
 adopts a published classifier usually keeps the cut-off chosen on the training cohorts, for example the score that gave
-90% specificity there. In clinical prediction it is well known that such cut-offs need local updating [15, 20], but
-microbiome benchmarks still judge transfer by AUROC [17], and recent threshold-adaptation methods need labels or
-measured covariates at the new site [16]. Nobody has checked whether the promise holds in a new laboratory, where DNA
-extraction, sequencing and the population all differ [5, 6].
+90% specificity there. In clinical prediction it is well known that such cut-offs need local updating [7, 8], but
+microbiome benchmarks still judge transfer by AUROC [9], and recent threshold-adaptation methods need labels or
+measured covariates at the new site [10]. Nobody has checked whether the promise holds in a new laboratory, where DNA
+extraction, sequencing and the population all differ [11, 12].
 
 Here, we asked a simple question: when a microbiome classifier is moved to a new cohort, does it keep its intended
-false-positive rate (FPR)? We used 19 public studies from curatedMetagenomicData [7] across four tasks (CRC, IBD, T2D
+false-positive rate (FPR)? We used 19 public studies from curatedMetagenomicData [13] across four tasks (CRC, IBD, T2D
 and colorectal adenoma; 3,626 unique stool metagenomes, 24 cohort-task pairs). We found that the training cut-off gives FPRs from 0.00 to
 0.74 at new cohorts, although the AUROC stays acceptable. Popular label-free fixes from machine learning do not repair
 this at screening prevalence, and most make it worse. A simple rule fixes it: set the cut-off at a fixed rank among the laboratory's own first,
@@ -29,7 +29,7 @@ how many samples it must collect first (Figure 1, Figure 2).
 ## THE TRAINING CUT-OFF DOES NOT TRANSFER, AND AUROC HIDES THIS
 
 We trained two standard classifiers, LASSO logistic regression and random forest, on eight development CRC cohorts.
-We set the cut-off for 90% specificity on out-of-fold training scores, as is common practice [2, 8]. We then locked
+We set the cut-off for 90% specificity on out-of-fold training scores, as is common practice [2, 14]. We then locked
 16 test cohorts before any method was designed: three external CRC cohorts, and every cohort of IBD, T2D and adenoma
 (Supporting Information, Table S1).
 
@@ -42,15 +42,15 @@ but single cohorts missed it in both directions (cohort root-mean-square error, 
 The shift is tied to the study, not only to the country. In development cohorts, a cut-off set on the controls of one
 study and used in another study from the same country gave an FPR of 0.33 (two Italian studies) and 0.87 (two US
 studies) instead of 0.10 (Figure 1C). Differences in sample handling and sequencing are known to move microbiome
-profiles [5, 6]; our results show that they move the cut-off most of all.
+profiles [11, 12]; our results show that they move the cut-off most of all.
 
 ## LABEL-FREE FIXES FROM MACHINE LEARNING FAIL AT SCREENING PREVALENCE
 
 A new laboratory has many unlabelled samples but few confirmed diagnoses. We therefore tested methods that adapt a
-classifier with unlabelled data. These were label-shift correction by expectation-maximisation (EM) [9] and by maximum
-likelihood with bias-corrected calibration [10], unsupervised two-component calibration as used in speaker
-verification [11], our own location-scale mixture fit, and per-site feature standardisation, which was recently
-reported to rescue fixed cut-offs in transcriptomics [12].
+classifier with unlabelled data. These were label-shift correction by expectation-maximisation (EM) [15] and by maximum
+likelihood with bias-corrected calibration [16], unsupervised two-component calibration as used in speaker
+verification [17], our own location-scale mixture fit, and per-site feature standardisation, which was recently
+reported to rescue fixed cut-offs in transcriptomics [18].
 
 None of these methods was reliable when the unlabelled pool contained few patients, which is the normal case in
 screening (Figure 2A). At a 1% case share, the cohort-RMSE of the FPR was 0.41 for EM, 0.34 for maximum likelihood with
@@ -58,7 +58,7 @@ bias-corrected calibration, 0.32 for two-component calibration, 0.20 for feature
 mixture fit, compared with 0.19 for doing nothing. The reasons are
 simple. Label-shift methods assume that the scores of healthy people do not move between sites, and they do.
 Mixture fits cannot tell "the healthy scores moved up" from "there are some patients", so with few patients they
-invent them [11]. Standardising each site removes the site's average, but a screening pool and a case-control study
+invent them [17]. Standardising each site removes the site's average, but a screening pool and a case-control study
 have different averages because they contain different shares of patients. These methods only worked when about half
 of the pool were patients, as in the case-control studies on which they are usually tested.
 
@@ -66,8 +66,8 @@ of the pool were patients, as in the case-control studies on which they are usua
 
 In screening, almost every sample is from a healthy person. We used this fact directly. The laboratory collects its
 first n samples, scores them, and sets the cut-off at the r-th highest score. If at most a share pi_max of the pool are
-patients, a choice of r based on order statistics gives a guarantee, in the spirit of classical tolerance limits [13]
-and conformal prediction [14]. One version guarantees that the expected FPR is at most the target. A stricter version
+patients, a choice of r based on order statistics gives a guarantee, in the spirit of classical tolerance limits [19]
+and conformal prediction [20]. One version guarantees that the expected FPR is at most the target. A stricter version
 guarantees that the FPR exceeds the target with probability at most delta. Patients in the pool can only make the rule
 more cautious (Supporting Information, Note S1).
 
@@ -89,7 +89,7 @@ at most 5%, and 1,500 if at most 10% (Figure 2C). Smaller pools make it abstain,
 
 The cut-off of a microbiome test belongs to the laboratory, not to the published model. AUROC-based validation hides
 this, and current label-free adaptation methods fail at screening prevalence. This mirrors the advice to update clinical
-prediction models locally [15, 20]. A rank rule on a few hundred of the
+prediction models locally [7, 8]. A rank rule on a few hundred of the
 laboratory's own unlabelled samples restores the intended false-positive rate with a guarantee. We suggest that
 microbiome diagnostic studies report the realised FPR at each external cohort, and that deployment protocols include
 a local calibration run. Our study has limits. All data were public case-control cohorts, not prospective screening
@@ -123,19 +123,19 @@ abstract) are available online.
 2. Wirbel J, et al. Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer. Nat Med. 2019;25:679-689. https://doi.org/10.1038/s41591-019-0406-6
 3. Thomas AM, et al. Metagenomic analysis of colorectal cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation. Nat Med. 2019;25:667-678. https://doi.org/10.1038/s41591-019-0405-7
 4. Duvallet C, et al. Meta-analysis of gut microbiome studies identifies disease-specific and shared responses. Nat Commun. 2017;8:1784. https://doi.org/10.1038/s41467-017-01973-8
-5. Nearing JT, Comeau AM, Langille MGI. Identifying biases and their potential solutions in human microbiome studies. Microbiome. 2021;9:113. https://doi.org/10.1186/s40168-021-01059-0
-6. Wang Y, Le Cao KA. Managing batch effects in microbiome data. Brief Bioinform. 2020;21:1954-1970. https://doi.org/10.1093/bib/bbz105
-7. Pasolli E, et al. Accessible, curated metagenomic data through ExperimentHub. Nat Methods. 2017;14:1023-1024. https://doi.org/10.1038/nmeth.4468
-8. Wirbel J, et al. Microbiome meta-analysis and cross-disease comparison enabled by the SIAMCAT machine learning toolbox. Genome Biol. 2021;22:93. https://doi.org/10.1186/s13059-021-02306-1
-9. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Comput. 2002;14:21-41. https://doi.org/10.1162/089976602753284446
-10. Alexandari A, Kundaje A, Shrikumar A. Maximum likelihood with bias-corrected calibration is hard-to-beat at label shift adaptation. ICML 2020. https://doi.org/10.48550/arxiv.1901.06852
-11. Brummer N, Garcia-Romero D. Generative modelling for unsupervised score calibration. ICASSP 2014. https://doi.org/10.1109/icassp.2014.6853884
-12. Zheng H, Chen W. High AUROC can mask decision failure in sepsis transcriptomic classifiers: preprocessing stability outweighs post hoc calibration across cohorts. PLoS One. 2026;21:e0357585. https://doi.org/10.1371/journal.pone.0357585
-13. Wilks SS. Determination of sample sizes for setting tolerance limits. Ann Math Stat. 1941;12:91-96. https://doi.org/10.1214/aoms/1177731788
-14. Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction. Found Trends Mach Learn. 2023;16:494-591. https://doi.org/10.1561/2200000101
-15. Van Calster B, et al. Calibration: the Achilles heel of predictive analytics. BMC Med. 2019;17:230. https://doi.org/10.1186/s12916-019-1466-7
-16. Qiu J, Zhao YQ, Zheng Y. Shift-adjusted Neyman-Pearson classifiers via single index modeling (SACSIM). Biometrics. 2026;82:ujag138. https://doi.org/10.1093/biomtc/ujag138
-17. Zhang Y, et al. CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction. Front Microbiol. 2026;17:1971707. https://doi.org/10.3389/fmicb.2026.1971707
-18. Sung H, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2021;71:209-249. https://doi.org/10.3322/caac.21660
-19. Baxter NT, et al. Microbiota-based model improves the sensitivity of fecal immunochemical test for detecting colonic lesions. Genome Med. 2016;8:37. https://doi.org/10.1186/s13073-016-0290-3
-20. Steyerberg EW, et al. Validation and updating of predictive logistic regression models: a study on sample size and shrinkage. Stat Med. 2004;23:2567-2586. https://doi.org/10.1002/sim.1844
+5. Sung H, et al. Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2021;71:209-249. https://doi.org/10.3322/caac.21660
+6. Baxter NT, et al. Microbiota-based model improves the sensitivity of fecal immunochemical test for detecting colonic lesions. Genome Med. 2016;8:37. https://doi.org/10.1186/s13073-016-0290-3
+7. Van Calster B, et al. Calibration: the Achilles heel of predictive analytics. BMC Med. 2019;17:230. https://doi.org/10.1186/s12916-019-1466-7
+8. Steyerberg EW, et al. Validation and updating of predictive logistic regression models: a study on sample size and shrinkage. Stat Med. 2004;23:2567-2586. https://doi.org/10.1002/sim.1844
+9. Zhang Y, et al. CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction. Front Microbiol. 2026;17:1971707. https://doi.org/10.3389/fmicb.2026.1971707
+10. Qiu J, Zhao YQ, Zheng Y. Shift-adjusted Neyman-Pearson classifiers via single index modeling (SACSIM). Biometrics. 2026;82:ujag138. https://doi.org/10.1093/biomtc/ujag138
+11. Nearing JT, Comeau AM, Langille MGI. Identifying biases and their potential solutions in human microbiome studies. Microbiome. 2021;9:113. https://doi.org/10.1186/s40168-021-01059-0
+12. Wang Y, Le Cao KA. Managing batch effects in microbiome data. Brief Bioinform. 2020;21:1954-1970. https://doi.org/10.1093/bib/bbz105
+13. Pasolli E, et al. Accessible, curated metagenomic data through ExperimentHub. Nat Methods. 2017;14:1023-1024. https://doi.org/10.1038/nmeth.4468
+14. Wirbel J, et al. Microbiome meta-analysis and cross-disease comparison enabled by the SIAMCAT machine learning toolbox. Genome Biol. 2021;22:93. https://doi.org/10.1186/s13059-021-02306-1
+15. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. Neural Comput. 2002;14:21-41. https://doi.org/10.1162/089976602753284446
+16. Alexandari A, Kundaje A, Shrikumar A. Maximum likelihood with bias-corrected calibration is hard-to-beat at label shift adaptation. ICML 2020. https://doi.org/10.48550/arxiv.1901.06852
+17. Brummer N, Garcia-Romero D. Generative modelling for unsupervised score calibration. ICASSP 2014. https://doi.org/10.1109/icassp.2014.6853884
+18. Zheng H, Chen W. High AUROC can mask decision failure in sepsis transcriptomic classifiers: preprocessing stability outweighs post hoc calibration across cohorts. PLoS One. 2026;21:e0357585. https://doi.org/10.1371/journal.pone.0357585
+19. Wilks SS. Determination of sample sizes for setting tolerance limits. Ann Math Stat. 1941;12:91-96. https://doi.org/10.1214/aoms/1177731788
+20. Angelopoulos AN, Bates S. Conformal prediction: a gentle introduction. Found Trends Mach Learn. 2023;16:494-591. https://doi.org/10.1561/2200000101

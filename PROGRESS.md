@@ -62,4 +62,5 @@ Commit + push after every phase (auto-save).
   Source FPR range 0.00-0.74. CRC per 1,000: 199 vs 87 false-positive referrals. Sensitivity cost reported (CRC 0.48 vs 0.65).
 - RF run interrupted by container restart at 15/16; finished with resume_final.py (exact rng replay, verified on LASSO).
 - Figures fixed (overlapping labels). Refs 15-20 now cited.
-- NEXT: renumber references in citation order (18/19 now cited before 5), word count check, then Reviews 1-11.
+- References renumbered in citation order (manuscript + SI). Body ~1,300 words.
+- NEXT: Reviews 1-11.
