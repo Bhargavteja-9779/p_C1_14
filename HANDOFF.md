@@ -4,17 +4,19 @@
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-CYCLE 5 (user directive 2026-11-24, see USER_DIRECTIVES.md): v10 judged not good enough for iMeta readers.
-Done in cycle 5: 14-test atlas (H1-H4), Addendum A replication run once (H5 LASSO INCONCLUSIVE 10/14 P=0.090;
-H6 INCONCLUSIVE, only 4 non-EUNA pops -> geography stays EXPLORATORY), `fprcal` tool (code/tool, 11 tests pass),
-post hoc verification power (verify_power_v5.py: n=100 local healthy detects FPR>0.25 with power 0.98),
-Figure 1 v11 draft (manuscript/figures_v11/figure1_atlas.*; script v5/make_fig_atlas_v11.py).
-DONE: benchmark_v2 (45 iMeta papers, scorecard P75 total 69.25), manuscript_v11.md (Letter, figures_v11/), audit 82/82.
-IN PROGRESS: review round 9 on v11 (reviews/review_r9_0{1,2,3}_*.md + reviews/scorecard_r9_v11.md). If missing, relaunch.
-THEN: triage round 9 -> v12 -> repeat until USER_DIRECTIVES rule 3 (scorecard >= P75 on every dimension AND
-accept/minor) and two clean rounds. Also: Supporting Information v11 (SI numbering in v11 refers to S1-S4; regenerate).
-BLOCKED ON USER: DEBIAS-M comparator (pip install from GitHub denied by the permission system twice; CPU torch installs fine).
-Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
+CYCLE 6 (2026-11-25): added an EXTERNAL PUBLISHED-TEST audit + mechanism, the biggest novelty lift so far.
+Done: plan v6/v6b (committed before running); GMWI2 coefficients extracted (whitelisted unpickler) = SData3; QC r=0.99;
+G1,G2,G4 supported, G3 falsified; developers' own scores flag 0-84% of healthy TRAINING samples by study (I2 0.96), East
+Asian median 0.64 vs 0.12 (P=5e-7); case-mix OR 6.7; v6b retrain: country-balancing removes 88% of the gap (B1,B2,B4
+supported; B3 AUROC -0.040 failed by 0.01); within-study AUROC -0.020 (post hoc). Figure 2 v12 (figures_v12/
+figure2_published_test). manuscript_v12.md drafted (~3,400 words = OVER the Letter band; 3 figures).
+NEXT: (1) TRIM v12 to <=2,500 words OR move GMWI2 variance-decomposition detail to SI and keep Letter; decide Letter vs
+Research Article (iMeta allows both; 3 figs + mechanism may suit a short Research Article). (2) Rebuild SI as ONE v12
+document (round-9 editor MAJOR 1): S1 data/populations, S2 robustness, S3 taxa, S4 earlier CRC/IBD/T2D + cross-site
+burn-in, S5 plans/deviations, S6 GMWI2 audit + case-mix (plans v6/v6b, QC, G1-G4, B1-B4), Tables S1-S20. (3) numbers_v12
+audit script over every in-text number. (4) fill repo URL/Zenodo/back matter (needs user). (5) review round 10 (3 fresh
+reviewers + blind scorecard) on v12; target significance 8+ (dim 1) now that a deployed test is included. (6) DEBIAS-M
+still blocked (install denied). Figures 1 and 3 are reused from v11 (figure1_atlas, figure2_site->figure3_site).
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).

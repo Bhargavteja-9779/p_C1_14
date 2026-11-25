@@ -128,4 +128,130 @@ Within a site, it worked. We set the cut-off on 100 people from a non-random par
 in accession order, or the younger, leaner or one-sex half) and evaluated it on the rest. Across 13 populations and 28
 classifiers, the mean absolute FPR error fell from 0.101 to 0.038, a 62% reduction (population-clustered 95% CI 51–70%;
 better in 13/13 populations and 28/28 classifiers; Figure 3B; pre-specified). For GMWI2, with its stated FPR as target, the
-error fell from 0.
+error fell from 0.21 to 0.04 (a 79% reduction; CI 64–85%; 11/13 populations). This was a pre-specified
+hypothesis in the GMWI2 plan.
+
+Across sites, it broke. In the first-stage analysis, a burn-in from one city or country of a multi-site study, applied in
+another, was no better than the training cut-off (Supporting Information S4). The rule must be run at the site that will
+use the test, and repeated when sample handling, sequencing or the population served changes.
+
+Recalibration has a price. When 1–10% of the burn-in group were patients, the rule held the FPR near target but
+sensitivity fell from 0.46 to 0.21–0.23 (Supporting Information S4); a cut-off set on 100 labelled local controls gave a
+sensitivity of 0.245. The burn-in fits population screening, where almost everyone tested is healthy, better than tests
+for symptomatic patients. A site can also check a stated FPR directly: an exact one-sided binomial test on 100 local
+healthy people detects a true FPR above 0.25 with probability 0.98 (Figure 3C; post hoc). We release the atlas and these
+procedures as fprcal, a small Python tool with Monte-Carlo unit tests.
+
+## CONCLUSION
+
+The false-positive rate of a gut-microbiome disease test is a property of the test and the population together, and pooled
+training across geographically unbalanced studies is one reason why: it can encode a region's normal microbiome as a
+disease signal. We suggest four changes. Cross-cohort benchmarks should report the FPR at a fixed cut-off in each held-out
+population, with I² and a prediction interval, next to AUROC; STORMS-style reporting [18] could ask for this. Developers
+should balance training data by geography and report performance within studies, not only pooled. Sites should treat a
+published cut-off as provisional, verify it on local healthy people and, for screening, recalibrate it locally. Methods
+that correct processing bias or augment training controls, such as DEBIAS-M and MMUPHin [8, 19, 20], should be judged by
+the FPR they deliver at new sites.
+
+Our study has limits. All profiles came from one pipeline (MetaPhlAn3); our 28 classifiers used fixed settings, nine rest
+on one training cohort, and seven had an AUROC below 0.6. "Population" includes each study's sample handling, which we
+cannot fully separate from biology, although the GMWI2 case-mix result points to a cause that is not purely technical. We
+did not run DEBIAS-M, MMUPHin or ConQuR [21]. The strict set and the East Asian comparison were chosen after seeing
+results and are labelled post hoc; the geography and distance findings for the 14-disease atlas did not replicate at the
+stated level. Larger, geographically balanced healthy cohorts, processed together, are needed to separate biology from
+batch.
+
+## METHODS
+
+Full methods, the analysis plans and deviations, every correction we tried, including those that failed, and Tables
+S1–S20 are in the Supporting Information. In brief: MetaPhlAn3 species (or, for GMWI2, all-rank) relative abundances;
+LASSO (C = 0.1) and random forest (500 trees); cut-off = 90th percentile of out-of-fold control scores; heterogeneity by
+DerSimonian–Laird on logit FPR; crossed random effects for the variance decomposition; study-clustered bootstrap for the
+case-mix analysis.
+
+## ACKNOWLEDGMENTS
+
+We thank the authors of the cohorts in curatedMetagenomicData, and the authors of GMWI2, for making their data and models
+public. [Further acknowledgments to be completed by the authors.]
+
+## AUTHOR CONTRIBUTIONS
+
+[To be completed by the authors.]
+
+## CONFLICT OF INTEREST STATEMENT
+
+[To be completed by the authors.]
+
+## FUNDING
+
+[To be completed by the authors.]
+
+## ETHICS STATEMENT
+
+This study reanalysed public, de-identified data. The original studies obtained ethics approval and informed consent as
+described in their publications. No new ethics approval was required.
+
+## AI USE STATEMENT
+
+[To be completed by the authors: describe the use of AI assistance in analysis code and drafting.]
+
+## DATA AVAILABILITY STATEMENT
+
+Profiles are from curatedMetagenomicData (Bioconductor ExperimentHub; release 2021-03-31; MetaCardis 2022-10-19). The
+GMWI2 model is from its public release (bioconda gmwi2 1.6, MIT licence) and the published Supplementary Data [22]. The
+exact metadata file, code, analysis plans, per-person scores, the duplicate list, the per-population FPR atlas and the
+fprcal tool are in the code repository: [GitHub repository URL and Zenodo DOI to be added]. Supplementary materials are
+online at the journal.
+
+## REFERENCES
+
+1. Wirbel J, Pyl PT, Kartal E, et al. Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer. *Nat Med*. 2019;25:679–689. https://doi.org/10.1038/s41591-019-0406-6
+2. Thomas AM, Manghi P, Asnicar F, et al. Metagenomic analysis of colorectal cancer datasets identifies cross-cohort microbial diagnostic signatures and a link with choline degradation. *Nat Med*. 2019;25:667–678. https://doi.org/10.1038/s41591-019-0405-7
+3. Piccinno G, Thompson KN, Manghi P, et al. Pooled analysis of 3,741 stool metagenomes from 18 cohorts for cross-stage and strain-level reproducible microbial biomarkers of colorectal cancer. *Nat Med*. 2025;31:2416–2429. https://doi.org/10.1038/s41591-025-03693-9
+4. Mei Z, Wang F, Bhosle A, et al. Strain-specific gut microbial signatures in type 2 diabetes identified in a cross-cohort analysis of 8,117 metagenomes. *Nat Med*. 2024;30:2265–2276. https://doi.org/10.1038/s41591-024-03067-7
+5. Pasolli E, Truong DT, Malik F, Waldron L, Segata N. Machine learning meta-analysis of large metagenomic datasets: tools and biological insights. *PLoS Comput Biol*. 2016;12:e1004977. https://doi.org/10.1371/journal.pcbi.1004977
+6. Geng M, Li M, Li Y, et al. A universal oral microbiome-based signature for periodontitis. *iMeta*. 2024;3:e212. https://doi.org/10.1002/imt2.212
+7. Selby K, Jensen CD, Lee JK, et al. Influence of varying quantitative fecal immunochemical test positivity thresholds on colorectal cancer detection: a community-based cohort study. *Ann Intern Med*. 2018;169:439–447. https://doi.org/10.7326/M18-0244
+8. Wirbel J, Zych K, Essex M, et al. Microbiome meta-analysis and cross-disease comparison enabled by the SIAMCAT machine learning toolbox. *Genome Biol*. 2021;22:93. https://doi.org/10.1186/s13059-021-02306-1
+9. Zhang Y, Cidan Y, Xu J, et al. CRC-TrustBench: benchmarking cross-study and cross-country generalization in gut metagenomic colorectal cancer prediction. *Front Microbiol*. 2026;17:1971707. https://doi.org/10.3389/fmicb.2026.1971707
+10. Poyet M, Rühlemann M, Schaan AP, et al. Industrialization drives convergent microbiome and host physiological shifts in the human metaorganism. *Cell*. 2026. https://doi.org/10.1016/j.cell.2026.10.016
+11. Ozarda Y, Higgins V, Adeli K. Verification of reference intervals in routine clinical laboratories: practical challenges and recommendations. *Clin Chem Lab Med*. 2018;57:30–37. https://doi.org/10.1515/cclm-2018-0059
+12. Pasolli E, Schiffer L, Manghi P, et al. Accessible, curated metagenomic data through ExperimentHub. *Nat Methods*. 2017;14:1023–1024. https://doi.org/10.1038/nmeth.4468
+13. Beghini F, McIver LJ, Blanco-Míguez A, et al. Integrating taxonomic, functional, and strain-level profiling of diverse microbial communities with bioBakery 3. *eLife*. 2021;10:e65088. https://doi.org/10.7554/eLife.65088
+14. Lei J, G'Sell M, Rinaldo A, Tibshirani RJ, Wasserman L. Distribution-free predictive inference for regression. *J Am Stat Assoc*. 2018;113:1094–1111. https://doi.org/10.1080/01621459.2017.1307116
+15. Bates S, Candès E, Lei L, Romano Y, Sesia M. Testing for outliers with conformal p-values. *Ann Stat*. 2023;51:149–178. https://doi.org/10.1214/22-AOS2244
+16. Tong X, Feng Y, Li JJ. Neyman-Pearson classification algorithms and NP receiver operating characteristics. *Sci Adv*. 2018;4:eaao1659. https://doi.org/10.1126/sciadv.aao1659
+17. Ammer T, Schützenmeister A, Prokosch HU, Rauh M, Rank CM, Zierk J. refineR: a novel algorithm for reference interval estimation from real-world data. *Sci Rep*. 2021;11:16023. https://doi.org/10.1038/s41598-021-95301-2
+18. Mirzayi C, Renson A, Genomic Standards Consortium, et al. Reporting guidelines for human microbiome research: the STORMS checklist. *Nat Med*. 2021;27:1885–1892. https://doi.org/10.1038/s41591-021-01552-x
+19. Austin GI, Brown Kav A, ElNaggar S, et al. Processing-bias correction with DEBIAS-M improves cross-study generalization of microbiome-based prediction models. *Nat Microbiol*. 2025;10:897–911. https://doi.org/10.1038/s41564-025-01954-4
+20. Ma S, Shungin D, Mallick H, et al. Population structure discovery in meta-analyzed microbial communities and inflammatory bowel disease using MMUPHin. *Genome Biol*. 2022;23:208. https://doi.org/10.1186/s13059-022-02753-4
+21. Ling W, Lu J, Zhao N, et al. Batch effects removal for microbiome data via conditional quantile regression. *Nat Commun*. 2022;13:5418. https://doi.org/10.1038/s41467-022-33071-9
+22. Chang D, Gupta VK, Hur B, et al. Gut Microbiome Wellness Index 2 enhances health status prediction from gut microbiome taxonomic profiles. *Nat Commun*. 2024;15:7447. https://doi.org/10.1038/s41467-024-51651-9
+23. Hehemann JH, Correc G, Barbeyron T, Helbert W, Czjzek M, Michel G. Transfer of carbohydrate-active enzymes from marine bacteria to Japanese gut microbiota. *Nature*. 2010;464:908–912. https://doi.org/10.1038/nature08937
+
+## FIGURE LEGENDS
+
+**Figure 1. A false-positive-rate atlas of 14 gut-microbiome disease tests in 36 healthy populations.** (A) The 36 strict
+healthy adult populations (20 countries); circle area, number of people; colour, mean deviation in logit FPR from the test
+mean across the 14 LASSO tests. (B) Realised FPR of each LASSO test (rows, ordered by between-population τ) in each
+population (columns). Cut-off targets FPR 0.10 (white); blue below, red above, log scale. Blank cells: training cohort or
+fewer than 20 people. (C) Random-effects pooled FPR (dot) and 95% prediction interval for a new population (line), LASSO
+(blue), RF (orange); grey band 0.05–0.15. (D) Classifier AUROC (out-of-fold) against between-population τ, 28 classifiers;
+AUROC < 0.6 marked.
+
+**Figure 2. A published gut-health index (GMWI2), and why it mislabels regions.** (A) Share of healthy training samples
+labelled non-healthy by the published GMWI2 cut-off, per study, from the developers' own published scores (44 studies ≥ 20
+healthy people); orange, East Asian studies; dashed line, stated rate 0.21; bars, exact 95% intervals. (B) The same for
+healthy populations in curatedMetagenomicData, our scoring (QC against published scores r = 0.99); open symbols,
+populations that were in GMWI2's training data. (C) The eight taxa contributing most to the East Asian–other score gap;
+fitted GMWI2 weight in parentheses; dots, share of healthy people carrying the taxon, by region. (D) A GMWI2-recipe
+classifier retrained on curatedMetagenomicData, leave-one-study-out: FPR per healthy study under pooled training versus
+training with country-balanced sample weights; lines, studies (orange, East Asian); diamonds, regional medians.
+
+**Figure 3. What a site can do.** (A) Exact probability that the realised FPR exceeds 0.15 when the cut-off is the k-th
+smallest of N burn-in scores from the same population (expected-FPR rule, blue; rule bounding P(FPR > 0.10) at 0.05,
+orange). (B) Mean absolute deviation of the FPR from 0.10 within site: training cut-off (orange) versus burn-in on 100
+people from a non-random part of the same population (blue), for each of 28 classifiers (13 populations, 646 evaluations).
+(C) Probability that an exact one-sided binomial check on n local healthy people (H₀: FPR ≤ 0.15) flags a test–population
+pair with observed FPR above 0.25 (blue) or 0.15 (green); dashed, largest false-alarm probability among pairs with
+FPR ≤ 0.15. Post hoc.
