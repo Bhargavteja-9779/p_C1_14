@@ -6,21 +6,22 @@ To the Editors, *iMeta*
 
 Dear Editors,
 
-We submit our Letter, "Gut-microbiome disease tests flag 0–77% of healthy people at the same cut-off, depending on the
-population", for consideration in *iMeta*.
+We submit our Letter, "Gut-microbiome disease classifiers flag 0–87% of healthy people at the same cut-off, depending on
+the population", for consideration in *iMeta*.
 
 Gut-microbiome classifiers are validated by AUROC across cohorts, but a test in use needs one cut-off, and its
 false-positive rate decides how many healthy people are referred for follow-up, for example to colonoscopy. We measured
 that rate for 28 classifiers of 14 diseases in every eligible healthy adult population in curatedMetagenomicData
 (36 populations, 6,525 people, 20 countries). At a cut-off set for a 10% false-positive rate, the realised rate ranged
-from 0% to 77%, far beyond sampling noise for every classifier, and AUROC did not predict the spread.
+from 0% to 87% in populations of at least 100 people, far beyond sampling noise for every classifier, and AUROC did not
+predict the spread.
 
 The Letter makes three contributions:
 - **An atlas.** The first cross-disease, cohort-by-cohort map of the false-positive rate of fixed-cut-off microbiome
   tests in healthy general populations, with heterogeneity statistics and prediction intervals for a new population.
 - **An audit of a released test.** The Gut Microbiome Wellness Index 2 labelled 64% of healthy people in its own East
   Asian training studies as non-healthy, against 12% elsewhere. Retraining the published recipe reproduced the effect
-  and showed that it follows the geographic make-up of the training data; we state clearly that this is a property of
+  and linked it to the geographic make-up of the training data; we state clearly that this is a property of
   the model, not evidence about East Asian microbiomes.
 - **A practical check for sites.** A known order-statistic rule applied to 100 unlabelled local people cut the
   false-positive-rate error by 62% within sites in retrospective non-random splits, failed across sites, and costs

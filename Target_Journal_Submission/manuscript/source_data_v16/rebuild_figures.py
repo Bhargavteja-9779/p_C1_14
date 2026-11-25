@@ -1,4 +1,4 @@
-"""Redraw the v15 figures from the files in this folder only, and compare them with manuscript/figures_v15.
+"""Redraw the submitted (v16) figures; Figures 1, 3, S1 are unchanged from v15 and compared with figures_v15 (identical copies in figures_v16) from the files in this folder only, and compare them with manuscript/figures_v15.
 
 The v15 figure scripts locate their inputs relative to their own position in the repository. This script copies the four
 scripts (unchanged) and the fprcal package into a temporary mirror of the repository layout, puts the source-data copies
@@ -17,9 +17,9 @@ TJS = os.path.normpath(os.path.join(SD, "..", ".."))
 ATL = os.path.join(TJS, "code", "experiments", "atlas")
 # (script relative to code/experiments/atlas, outputs relative to Target_Journal_Submission/manuscript)
 SCRIPTS = [("v5/make_fig_atlas_v15.py", ["figures_v15/figure1_atlas.png"]),
-           ("v6/make_fig_gmwi2_v15.py", ["figures_v15/figure2_published_test.png"]),
+           ("v6/make_fig_gmwi2_v16.py", ["figures_v16/figure2_published_test.png"]),
            ("v5/make_fig_site_v15.py", ["figures_v15/figure3_site.png", "figures_v15/figureS1_site_methods.png"]),
-           ("make_graphical_abstract_v15.py", ["graphical_abstract/graphical_abstract_v15.png"])]
+           ("make_graphical_abstract_v16.py", ["graphical_abstract/graphical_abstract_v16.png"])]
 # source-data file -> where the scripts read it (relative to the mirror root = repository root)
 A = "Target_Journal_Submission/code/experiments/atlas/"
 PLACE = {
@@ -68,7 +68,7 @@ def main():
         for f in os.listdir(os.path.join(TJS, "code", "tool", "fprcal")):          # package code (not data) for Fig 3/S1
             if f.endswith(".py"): shutil.copy(os.path.join(TJS, "code", "tool", "fprcal", f), tool)
         man = os.path.join(root, "Target_Journal_Submission", "manuscript")
-        for sub in ("figures_v15", "graphical_abstract"): os.makedirs(os.path.join(man, sub), exist_ok=True)
+        for sub in ("figures_v15", "figures_v16", "graphical_abstract"): os.makedirs(os.path.join(man, sub), exist_ok=True)
         for script, outs in SCRIPTS:
             s = os.path.join(root, A, script); os.makedirs(os.path.dirname(s), exist_ok=True); shutil.copy(os.path.join(ATL, script), s)
             r = subprocess.run([sys.executable, s], cwd=os.path.dirname(s), capture_output=True, text=True)

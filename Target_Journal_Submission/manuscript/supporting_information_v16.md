@@ -1,7 +1,7 @@
-# Supporting Information (manuscript v15)
+# Supporting Information
 
-Reference numbers [n] refer to the main-text reference list. Supporting Figure S1 is `figures_v15/figureS1_site_methods.pdf`.
-All tables are in `si_tables_v15.md` (Tables S1–S25, numbered in order of first citation in the main text or here), generated from result files. Code paths are relative to
+Reference numbers [n] refer to the main-text reference list. Supporting Figure S1 is supplied as a separate file.
+All tables are in the Supporting Tables file (Tables S1–S25, numbered in order of first citation in the main text or here), generated from result files. Code paths are relative to
 `Target_Journal_Submission/code/`. Every confirmatory analysis followed an analysis plan committed to git before it was
 run (S5); everything else is labelled post hoc or exploratory.
 
@@ -51,7 +51,7 @@ random-effects model (test and population as crossed effects; Table S3).
 within each plan's confirmatory family, and across all 34 population-level P values of the earlier analysis (Table S20).
 
 
-### S2.1 Results moved from the main text (unchanged numbers)
+### S2.1 Additional results
 - **Variance decomposition, LASSO.** Population 17%, classifier 21%, sampling noise 14%, classifier–population pair 48%
   of the variance in logit FPR. The plan defines the population share as a share of total between-unit variance (17%);
   net of sampling noise it is 20.2%, exactly at the 20% threshold, so the verdict is inconclusive under either definition.
@@ -62,7 +62,7 @@ within each plan's confirmatory family, and across all 34 population-level P val
 - **Reweighting detail.** τ on the logit scale 1.16 → 0.81; pooled AUROC 0.715 → 0.676 (point estimate beyond the
   pre-stated margin; CI −0.12 to +0.02 includes values within it).
 - **Burn-in CI.** The pre-specified H4 criterion was ≥ 75% of tests improved (met, 28/28). The population-clustered CI
-  (51–70%) and the 13/13 count were added in review round 9 (post hoc). Splits used: accession order, age and BMI (646
+  (51–70%) and the 13/13 count are post hoc. Splits used: accession order, age and BMI (646
   evaluations); sex splits appear only in the three-test analysis (S4). Populations: full set, ≥ 120 people (13; 11 for
   T2D), including MetaCardis_2020_a and ShaoY_2019, which are not in the strict set.
 - **Variance decomposition, RF.** Classifier 46%, population 7.5%, classifier–population pair 25%, the rest sampling
@@ -164,8 +164,8 @@ v4:
 | v5/protocol_v5.md | 14-test atlas, H1–H4 | H1 supported (28/28), H2 inconclusive or falsified, H3 not supported, H4 supported (28/28) |
 | v5/protocol_v5.md, Addendum A | replication H5/H6 | H5 inconclusive (LASSO) / supported (RF); H6 inconclusive |
 | v6/protocol_v6.md | GMWI2 audit G1–G4 | G1, G2, G4 supported; G3 falsified |
-| v6/protocol_v6b.md | case-mix retraining B1–B4 | B1, B2, B4 supported; B3 falsified |
-| v6/protocol_v6c.md | balancing the 5 disease tests C1–C3 | written before running but committed together with its results, so treated as POST HOC; C1 logit-scale only (not on the FPR scale); C2 and C3 failed |
+| v6/protocol_v6b.md | case-mix retraining B1–B4 | B1 and B4 (logit scale) supported; B2 supported on the point estimate only (CI 41–149% includes values below the criterion); B3 falsified |
+| v6/protocol_v6c.md | balancing the 5 disease tests C1–C3 | written before running but committed together with its results, so treated as POST HOC; C1 logit-scale only (not on the FPR scale); C2 and C3 failed; C1–C3 uninterpretable because the implementation deviated from the plan (S6.6) |
 
 Deviations:
 - v4 D1–D4 are listed in v4/protocol_v4.md.
@@ -230,7 +230,7 @@ Post hoc: within-study AUROC (cases vs controls of the same study, 24 studies) f
 
 | Hypothesis | Criterion | Result | Verdict |
 |---|---|---|---|
-| C1 heterogeneity | mean τ lower when balanced | 0.92 → 0.78 (difference −0.14; corrected population-clustered 95% CI −0.22 to −0.01) | met on the logit scale only (see below) |
+| C1 heterogeneity | mean τ lower when balanced | 0.92 → 0.78 (difference −0.14; corrected population-clustered 95% CI −0.22 to −0.01) | uninterpretable: the implementation deviated from the plan (S6.6) |
 | C2 calibration | share of populations outside 0.05–0.15 lower | 0.66 → 0.82 | falsified |
 | C3 discrimination | AUROC drop ≤ 0.03 | 0.656 → 0.623 (−0.033) | falsified |
 
@@ -241,7 +241,7 @@ towards 0.5, so C1 is not evidence of more uniform FPRs. The v6c weighting also 
 equal total weight as well as balancing labels within country). We therefore do not claim that balancing generalises to the
 disease classifiers. Code: `experiments/atlas/v6/run_v6c.py`; corrections: `corrected_boot_v13.py`.
 
-### S6.6 Review round 11: what the v6b reweighting does, and why v6c is uninterpretable (post hoc)
+### S6.6 What the v6b reweighting does, and why v6c is uninterpretable (post hoc)
 The pre-specified v6b weight 1/n(country, label) gives every country × label group the same total weight. Besides balancing
 healthy and non-healthy within each country, it shrinks the weight of large countries (China, Japan) and gives small groups
 large weight. A post hoc variant that balances labels within each country but keeps each country's original share of the
@@ -255,8 +255,8 @@ In the within-country variant, countries with only one label (e.g. NLD, ISR) kee
 Note: rerunning run_v6c.py gives slightly different numbers (τ difference −0.147 vs −0.143) because liblinear was not
 seeded; the committed result files are the reported ones.
 
-### S6.7 Corrections after review round 10 (bootstrap code)
-Two cluster bootstraps in the v12 analysis were wrong and are corrected in `corrected_boot_v13.py` (original result files
+### S6.7 Corrections to two cluster bootstraps
+Two cluster bootstraps in the original analysis were wrong and are corrected in `corrected_boot_v13.py` (original result files
 kept unchanged): run_v6c.py drew populations with `set()`, which drops repeated draws (a ~63% subsample, not a bootstrap);
 analyse_v6b.py kept study names on repeated draws, so `groupby` merged duplicates into one study with doubled n. Corrected
 intervals: v6c C1 −0.22 to −0.01 (was −0.23 to −0.03); v6b B2 41–149% (was 54–121%); v6b B3 AUROC −0.12 to +0.02

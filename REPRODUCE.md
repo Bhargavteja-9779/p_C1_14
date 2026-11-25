@@ -1,4 +1,4 @@
-# Reproducing manuscript v15 (FPR atlas, GMWI2 audit, site burn-in, fprcal)
+# Reproducing the submitted manuscript (v16) (FPR atlas, GMWI2 audit, site burn-in, fprcal)
 
 Everything runs on CPU (4 cores used where parallel); no GPU. Paths below are relative to the repository root unless a
 step says `cd`. Result scripts write to their own `results/` folder; several refuse to run if their output already
@@ -82,11 +82,11 @@ Run times: not logged (each minutes on CPU). Inputs from Chang et al. 2024 are i
 ```bash
 cd Target_Journal_Submission/code/experiments/atlas
 python v5/make_fig_atlas_v15.py         # Figure 1
-python v6/make_fig_gmwi2_v15.py         # Figure 2
+python v6/make_fig_gmwi2_v16.py         # Figure 2 (v16: band shaded, italic taxa)
 python v5/make_fig_site_v15.py          # Figure 3 and Figure S1
-python make_graphical_abstract_v15.py   # graphical abstract
+python make_graphical_abstract_v16.py   # graphical abstract (v16 layout)
 ```
-Outputs: `Target_Journal_Submission/manuscript/figures_v15/` and `.../graphical_abstract/`. Panel → script → input
+Outputs: `Target_Journal_Submission/manuscript/figures_v15/` (Figures 1, 3, S1; identical copies in `figures_v16/`), `figures_v16/` (Figure 2) and `.../graphical_abstract/`. Panel → script → input
 file table and copies of every input: `Target_Journal_Submission/manuscript/source_data_v16/README.md`. To redraw from
 those copies only, without touching the repository, and compare pixel by pixel with the published PNGs:
 ```bash

@@ -1,4 +1,4 @@
-# Source data for the figures of manuscript v15
+# Source data for the figures of the submitted manuscript (v16)
 
 Every panel of the v15 figures is drawn only from the files in this folder (byte-identical copies of the repository
 files the scripts read). Scripts are in `Target_Journal_Submission/code/experiments/atlas/` (paths below are relative
@@ -36,7 +36,7 @@ Notes
 - Figure 1 needs `geopandas` (pinned in requirements.txt / environment.yml).
 - Outputs: `manuscript/figures_v15/figure1_atlas.*`, `figure2_published_test.*`, `figure3_site.*`,
   `figureS1_site_methods.*`; `manuscript/graphical_abstract/graphical_abstract_v15.*`.
-- If the v16 figure scripts (`v6/make_fig_gmwi2_v16.py`, `make_graphical_abstract_v16.py`, in progress) replace the v15
+- If the v16 figure scripts (`v6/make_fig_gmwi2_v16.py`, `make_graphical_abstract_v16.py`) replace the v15
   ones, re-check this table; as of 2026-11-25 both read the same files as their v15 counterparts.
 
 ## v16 changes (same inputs)
@@ -46,3 +46,6 @@ Manuscript v16 redraws two items with layout changes only; they read exactly the
 - Graphical abstract (no overlapping labels): `make_graphical_abstract_v16.py` →
   `manuscript/graphical_abstract/graphical_abstract_v16.{png,pdf}`.
 Figures 1, 3 and S1 are unchanged from v15 (copied to `manuscript/figures_v16/`).
+
+**Rebuild check (v16):** `rebuild_figures.py` now runs the v16 scripts for Figure 2 and the graphical abstract; all five
+submitted PNGs were pixel-identical on 2026-11-25.

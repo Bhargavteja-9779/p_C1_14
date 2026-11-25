@@ -1,13 +1,14 @@
 # Final submission package: manuscript v16, iMeta Letter (Short Communication)
 
-**Title:** Gut-microbiome disease tests flag 0–77% of healthy people at the same cut-off, depending on the population
+**Title:** Gut-microbiome disease classifiers flag 0–87% of healthy people at the same cut-off, depending on the population
 
 | File | What |
 |---|---|
-| `manuscript_v16.md` / `.docx` | Main text (~2,040 words, title to conclusion), 3 figures, 32 references, figure legends, statements |
-| `supporting_information_v16.md` + `si_tables_v16.md` / `supporting_information_v16.docx` | SI S1–S6 (methods, plans and deviations, failed attempts), Tables S1–S25, Figure S1 legend |
+| `manuscript_v16.md` / `.docx` | Main text (~2,070 words, title to conclusion), 3 figures, 32 references, figure legends, statements |
+| `supporting_information_v16.docx` (upload this; it includes the tables) — sources `supporting_information_v16.md` + `si_tables_v16.md` | SI S1–S6 (methods, plans and deviations, failed attempts), Tables S1–S25, Figure S1 legend |
 | `figures/` | Figure 1–3, Figure S1, graphical abstract (PDF vector + PNG 300 dpi) |
 | `highlights.md` | 3 highlights |
+| `SUBMISSION_REPORT.md` | What improved, comparison with published iMeta papers, acceptance assessment |
 | `cover_letter_v16.md` | Cover letter (placeholders for the corresponding author) |
 
 Supporting material in the repository: code (`Target_Journal_Submission/code/`), the `fprcal` tool (19 tests pass),

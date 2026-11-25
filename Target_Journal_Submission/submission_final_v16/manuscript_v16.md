@@ -1,12 +1,12 @@
-# Gut-microbiome disease tests flag 0–77% of healthy people at the same cut-off, depending on the population
+# Gut-microbiome disease classifiers flag 0–87% of healthy people at the same cut-off, depending on the population
 
 **Article type:** Letter, iMeta
 
 **Authors:** [to be completed by the authors]
 
 **Graphical-abstract summary.** A gut-microbiome test is published with one cut-off and one false-positive rate (FPR). In
-6,525 healthy adults from 36 populations, the same cut-offs of 28 disease classifiers flagged 0% to 77% of healthy
-people. A published gut-health index labelled 64% of healthy people in its own East Asian training studies as
+6,525 healthy adults from 36 populations, the same cut-offs of 28 disease classifiers flagged 0% to 87% of healthy
+people in populations of at least 100. A published gut-health index labelled 64% of healthy people in its own East Asian training studies as
 non-healthy, against 12% elsewhere, a model artefact traced to the geographic make-up of its training data. Within a
 site, recalibrating the cut-off on 100 unlabelled local people cut the FPR error by 62% in retrospective tests.
 
@@ -48,8 +48,10 @@ and antibiotic users; it was chosen after seeing first results, so the full set 
 reported as a check (Supporting Information S1).
 
 The FPR depended on where the classifier was used (Figure 1A, B). Of 489 LASSO classifier–population pairs, 45% had an
-FPR above 0.15 and 24% below 0.05; in populations of at least 100 people, FPRs ranged from 0 to 0.77 across tests, and
-for one test, impaired glucose tolerance (IGT), from 0.09 to 0.77. The spread exceeded sampling noise for all 28
+FPR above 0.15 and 24% below 0.05. In populations of at least 100 people, FPRs ranged from 0 to 0.87 across the 28
+classifiers (maximum: heart failure, RF, out-of-fold AUROC 0.75) and from 0 to 0.77 across the LASSO tests; a single
+test could span most of this range (impaired glucose tolerance, IGT, LASSO: 0.09–0.77, a near-chance classifier with
+AUROC 0.54). The spread exceeded sampling noise for all 28
 classifiers (I² median 0.94, range 0.64–0.97; also 28/28 in the full set). Sampling noise alone would put 15–16% of
 populations outside 0.05–0.15 (half to one and a half times the target); the observed share was 50–97%. For a new
 population, the upper end of the 95% prediction interval of the LASSO tests ranged from 0.22 (CRC) to 0.81 (IGT)
@@ -58,12 +60,12 @@ hides the problem. Here "population" includes each study's sample handling, whic
 
 AUROC did not predict the spread (Spearman ρ = −0.06, P = 0.76; Figure 1D), and restricting to the 16 classifiers with
 AUROC ≥ 0.65 changed nothing (I² median 0.94; Supporting Information S2). A better classifier was not a more portable one. No single
-factor explained the error: for LASSO the population alone explained less than a fifth of the variance in logit FPR and
-the classifier–population pair about half, so our pre-stated threshold of 20% for the population share was not met
-(inconclusive for LASSO, falsified for RF; S2.1). In the three-test analysis, adjusting for age, sex, body-mass index and
+factor explained the error: for LASSO the population explained 17% of the variance in logit FPR (20.2% net of
+sampling noise) and the classifier–population pair about half; against our pre-stated 20% threshold this is
+inconclusive for LASSO, and the threshold was clearly missed for RF (S2.1). In the three-test analysis, adjusting for age, sex, body-mass index and
 sequencing depth left a population effect (S2).
 
-## A PUBLISHED GUT-HEALTH INDEX MISLABELS HEALTHY EAST ASIAN COHORTS THROUGH ITS TRAINING DATA
+## A PUBLISHED GUT-HEALTH INDEX MISLABELS HEALTHY EAST ASIAN COHORTS, IN LINE WITH ITS TRAINING DATA
 
 To test a classifier that others use, we audited GMWI2 [20], a published L1 logistic regression on the presence of 95
 taxa, trained on 8,069 stool metagenomes from 54 studies (a score above 0 means healthy). Its released coefficients matched the
