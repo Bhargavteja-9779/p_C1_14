@@ -1,7 +1,7 @@
 """Command line: fprcal {cutoff,verify,plan,atlas,score}. Scores are read from a text/CSV file (one number per line, or the
 column given by --column)."""
 from __future__ import annotations
-import argparse, json, sys
+import argparse, json, sys, warnings
 import numpy as np
 import pandas as pd
 from . import core, atlas, models
@@ -30,6 +30,10 @@ def main(argv=None):
     sc = sp.add_parser("score", help="score samples with the shipped LASSO atlas tests (research use)")
     sc.add_argument("table", help="CSV: rows = samples, columns = taxa (relative abundance in %%); --taxa-rows if transposed")
     sc.add_argument("--test", help="one test (default: all 14)"); sc.add_argument("--taxa-rows", action="store_true"); sc.add_argument("--out")
+    sc.add_argument("--max-missing", type=float, default=.05,
+                    help="largest allowed share of a test's total |coefficient| weight on features missing from the input (default 0.05)")
+    sc.add_argument("--allow-missing", action="store_true",
+                    help="score even if more weight is missing (missing features set to their training mean; a warning is printed)")
     for s in (a, v, p, t): s.add_argument("--json", action="store_true")
     x = ap.parse_args(argv)
     if x.cmd == "cutoff":
@@ -38,11 +42,25 @@ def main(argv=None):
         r = core.verify_fpr(_read(x.scores, x.column), x.cutoff, x.alpha, x.tolerance); out = r.to_dict(); txt = str(r)
     elif x.cmd == "score":
         tab = pd.read_csv(x.table, index_col=0); tab = tab.T if x.taxa_rows else tab
-        if x.test:
-            s = models.score(tab, x.test); res = pd.DataFrame({s.name: s, "flag": (s >= s.attrs["cutoff"]).astype(int)})
-            note = f"cut-off {s.attrs['cutoff']:.4f}; {len(s.attrs['missing_taxa'])} model taxa absent from the table (treated as 0)"
-        else:
-            res = models.score_all(tab); note = "flag = score >= training cut-off (targets FPR 0.10 on training controls; see `fprcal atlas`)"
+        try:
+            with warnings.catch_warnings(record=True) as wl:
+                warnings.simplefilter("always")
+                if x.test:
+                    s = models.score(tab, x.test, x.max_missing, x.allow_missing)
+                    res = pd.DataFrame({s.name: s, "flag": (s >= s.attrs["cutoff"]).astype(int),
+                                        "missing_weight": s.attrs["missing_weight"], "absent_weight": s.attrs["absent_weight"]})
+                    mw = s.attrs["missing_weight"]
+                    note = (f"cut-off {s.attrs['cutoff']:.4f}; missing-feature share of |w| per sample: max {mw.max():.3f} "
+                            f"(limit {x.max_missing}); model clades not detected in the table (counted as 0%): "
+                            f"|w| share max {s.attrs['absent_weight'].max():.3f}")
+                else:
+                    res = models.score_all(tab, x.max_missing, x.allow_missing)
+                    mw = res.filter(like="_missing_weight").max()
+                    note = ("flag = score >= training cut-off (targets FPR 0.10 on training controls; see `fprcal atlas`); "
+                            f"largest missing-feature share of |w| over tests and samples: {mw.max():.3f} ({mw.idxmax().replace('_missing_weight', '')})")
+        except models.MissingFeaturesError as e:
+            print(f"fprcal score: error: {e}", file=sys.stderr); raise SystemExit(2)
+        for w in {str(w.message) for w in wl}: print(f"WARNING: {w}", file=sys.stderr)
         if x.out: res.to_csv(x.out)
         print(res.round(4).to_string() if not x.out else f"wrote {x.out}"); print(note, file=sys.stderr); return
     elif x.cmd == "plan":
