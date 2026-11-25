@@ -1,11 +1,11 @@
 {
  "status": "RUNNING",
  "branch": "claude/trusting-mayer-1ipvjz",
- "cycle": 5,
+ "cycle": 6,
  "pivots_used": 1,
- "phase": "CYCLE5_BENCHMARK",
- "step": "5.1 benchmark_v2 of recent iMeta papers",
- "last_action": "2026-11-24 user: rejected, improve until top-notch; directives saved",
+ "phase": "REVIEW_ROUND_10",
+ "step": "round 10 on v12",
+ "last_action": "2026-11-25 merged parallel line; single SI v12; source data; audit",
  "cycle_history": {
   "1": "case-control threshold transfer, CRC LOSO, conformal local-control threshold (manuscript v1/v2, branch kind-ramanujan)",
   "2": "RECHECK: journal re-verified, leakage bug ThomasAM_2019_c==YachidaS fixed, 85-paper prior-art map (branch quirky-mayer)",
