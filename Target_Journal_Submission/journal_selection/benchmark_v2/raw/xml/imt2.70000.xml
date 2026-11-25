@@ -1,0 +1,1110 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270000" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11865347</article-id><article-id pub-id-type="pmcid-ver">PMC11865347.1</article-id><article-id pub-id-type="pmcaid">11865347</article-id><article-id pub-id-type="pmcaiid">11865347</article-id><article-id pub-id-type="pmid">40027485</article-id><article-id pub-id-type="doi">10.1002/imt2.70000</article-id><article-id pub-id-type="publisher-id">IMT270000</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Gut microbiome and metabolome characteristics of patients with cholesterol gallstones suggest the preventive potential of prebiotics</article-title><alt-title alt-title-type="right-running-head">PREBIOTIC POTENTIAL IN CHOLESTEROL GALLSTONE PATIENTS</alt-title><alt-title alt-title-type="left-running-head">LIU <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270000-cr-0001" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="Y">Ye</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5827-5240</contrib-id><xref rid="imt270000-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270000-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270000-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270000-cr-0002" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="H">Hexin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-6357-3031</contrib-id><xref rid="imt270000-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270000-cr-0003" contrib-type="author"><name name-style="western"><surname>Sun</surname><given-names initials="T">Tianhan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0006-1301-8164</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0004" contrib-type="author"><name name-style="western"><surname>Sun</surname><given-names initials="G">Gaoyuan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0006-0250-0377</contrib-id><xref rid="imt270000-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270000-cr-0005" contrib-type="author"><name name-style="western"><surname>Jiang</surname><given-names initials="B">Boyue</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-7820-4837</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0006" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="M">Meilan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0007-4689-423X</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0007" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Q">Qing</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0005-6308-5333</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0008" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="T">Tong</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0009-1001-1110</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0009" contrib-type="author"><name name-style="western"><surname>Cao</surname><given-names initials="J">Jianfu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0007-4598-0726</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270000-cr-0010" contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="L">Li</given-names></name><xref rid="imt270000-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt270000-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Xiao</surname><given-names initials="F">Fei</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2054-901X</contrib-id><xref rid="imt270000-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270000-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270000-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>xiaofei3965@bjhmoh.cn</email></address></contrib><contrib id="imt270000-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhao</surname><given-names initials="F">Fangqing</given-names></name><xref rid="imt270000-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><xref rid="imt270000-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><address><email>zhfq@biols.ac.cn</email></address></contrib><contrib id="imt270000-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Cui</surname><given-names initials="H">Hongyuan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4930-1608</contrib-id><xref rid="imt270000-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>cuihongyuan3921@bjhmoh.cn</email></address></contrib></contrib-group><aff id="imt270000-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Peking University Fifth School of Clinical Medicine</named-content>
+<institution>Beijing Hospital, National Center of Gerontology</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<institution>Clinical Biobank, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>The Key Laboratory of Geriatrics, Beijing Institute of Geriatrics, Beijing Hospital, National Center of Gerontology, National Health Commission, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of General Surgery, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine</named-content>
+<institution>Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Gastroenterology, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine</named-content>
+<institution>Chinese Academy of Medical Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Institute of Zoology, Chinese Academy of Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270000-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Key Laboratory of Systems Biology, Hangzhou Institute for Advanced Study, Beijing Institutes of Life Science</named-content>
+<institution>Chinese Academy of Sciences</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Hongyuan Cui, Department of General Surgery, Beijing Hospital, National Center of Gerontology, Institute of Geriatric Medicine, Chinese Academy of Medical Sciences &amp; Peking Union Medical College, Beijing, 100730, China.<break/>
+Email: <email>cuihongyuan3921@bjhmoh.cn</email>
+<break/>
+Fangqing Zhao, Institute of Zoology, Chinese Academy of Sciences, Beijing 100101, China.<break/>
+Email: <email>zhfq@biols.ac.cn</email>
+<break/>
+Fei Xiao, Peking University Fifth School of Clinical Medicine, Beijing Hospital, National Center of Gerontology, Beijing, 100730, China.<break/>
+Email: <email>xiaofei3965@bjhmoh.cn</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>2</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2025</year></pub-date><volume>4</volume><issue seq="70">1</issue><issue-id pub-id-type="pmc-issue-id">483042</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v4.1</issue-id><elocation-id>e70000</elocation-id><history>
+<date date-type="rev-recd"><day>15</day><month>1</month><year>2025</year></date>
+<date date-type="received"><day>16</day><month>10</month><year>2024</year></date>
+<date date-type="accepted"><day>21</day><month>1</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>21</day><month>02</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>28</day><month>02</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-08-31 19:25:17.790"><day>31</day><month>08</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-4-e70000.pdf"><?pdf-name IMT2-4-e70000.pdf?><?pdf-size 4709945?><?pdf-md5 1304d47968096a1d7f88c2286b0b14d2?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:8648/11865347/1304d4796809/IMT2-4-e70000.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-4-e70000.pdf"/><abstract><title>Abstract</title><p>Cholesterol gallstones (CGS) still lack effective noninvasive treatment. The etiology of experimentally proven cholesterol stones remains underexplored. This cross‐sectional study aims to comprehensively evaluate potential biomarkers in patients with gallstones and assess the effects of microbiome‐targeted interventions in mice. Microbiome taxonomic profiling was conducted on 191 samples via V3−V4 16S rRNA sequencing. Next, 60 samples (30 age‐ and sex‐matched CGS patients and 30 controls) were selected for metagenomic sequencing and fecal metabolite profiling via liquid chromatography‐mass spectrometry. Microbiome and metabolite characterizations were performed to identify potential biomarkers for CGS. Eight‐week‐old male C57BL/6J mice were given a lithogenic diet for 8 weeks to promote gallstone development. The causal relationship was examined through monocolonization in antibiotics‐treated mice. The effects of short‐chain fatty acids such as sodium butyrate, sodium acetate (NaA), sodium propionate, and fructooligosaccharides (FOS) on lithogenic diet‐induced gallstones were investigated in mice. Gut microbiota and metabolites exhibited distinct characteristics, and selected biomarkers demonstrated good diagnostic performance in distinguishing CGS patients from healthy controls. Multi‐omics data indicated associations between CGS and pathways involving butanoate and propanoate metabolism, fatty acid biosynthesis and degradation pathways, taurine and hypotaurine metabolism, and glyoxylate and dicarboxylate metabolism. The incidence of gallstones was significantly higher in the <italic toggle="yes">Clostridium glycyrrhizinilyticum</italic> group compared to the control group in mice. The grade of experimental gallstones in control mice was significantly higher than in mice treated with NaA and FOS. FOS could completely inhibit the formation of gallstones in mice. This study characterized gut microbiome and metabolome alterations in CGS. <italic toggle="yes">C. glycyrrhizinilyticum</italic> contributed to gallstone formation in mice. Supplementing with FOS could serve as a potential approach for managing CGS by altering the composition and functionality of gut microbiota.</p></abstract><abstract abstract-type="graphical"><p>Alterations in gut microbial composition and fecal metabolome have been reported in patients with gallstones. The gut microbiota plays a crucial role in shaping the host's fecal metabolic profile. Specifically, metabolites of amino acids, fatty acids, and nicotinic acid may affect the synthesis, transport, or metabolism of cholesterol, thereby impacting gallstone formation. Oral administration of <italic toggle="yes">C. glycyrrhizinilyticum</italic> can promote histological liver damage and affect liver lipid metabolism, contributing to cholesterol gallstone formation. Fructooligosaccharides can be a new, cost‐effective, and relatively simple microbiota‐targeted therapeutic approach for cholesterol gallstones. Microbiome‐targeted therapies, involving the modulation of gut microbiota, should be explored as potential treatments for gallstones.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-4-e70000-g006.jpg"><?image-name IMT2-4-e70000-g006.jpg?><?image-size 100473?><?image-md5 2703ba970e5a386794111c0ce1236b19?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 569?><?image-original-width 910?><?image-scaled-height 379?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/2703ba970e5a/IMT2-4-e70000-g006.jpg?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>Metabolites of amino acids, fatty acids, and nicotinic acid may affect the synthesis, transport, or metabolism of cholesterol, thereby impacting gallstone formation.</p></list-item><list-item><p>Oral administration of <italic toggle="yes">C. glycyrrhizinilyticum</italic> can contribute to cholesterol gallstone formation.</p></list-item><list-item><p>Fructooligosaccharides could serve as an inexpensive microbiota‐targeted therapeutic option for cholesterol gallstones.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt270000-kwd-0001">cholesterol gallstone</kwd><kwd id="imt270000-kwd-0002">gut microbiota</kwd><kwd id="imt270000-kwd-0003">metabolomics</kwd><kwd id="imt270000-kwd-0004">microbiome‐targeted therapies</kwd><kwd id="imt270000-kwd-0005">transplantation</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>CAMS Innovation Fund for Medical Sciences</funding-source><award-id>2021‐I2M‐1‐050</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Fundamental Research Funds for the Central Universities
+</institution><institution-id institution-id-type="doi">10.13039/501100012226</institution-id></institution-wrap></funding-source><award-id>3332019121</award-id></award-group><award-group id="funding-0003"><funding-source>National Key Research and Development Program of China</funding-source><award-id>2018YFC2000505</award-id></award-group><award-group id="funding-0004"><funding-source>The National Key Research and Development Program</funding-source><award-id>2021YFA1301000</award-id><award-id>2022YFA1303900</award-id></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>National Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>32025009</award-id><award-id>32071463</award-id><award-id>82373426</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="1"/><page-count count="19"/><word-count count="9962"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.4 mode:remove_FC converted:27.02.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270000-cit-0046">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Ye</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hexin</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tianhan</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gaoyuan</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Boyue</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Meilan</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qing</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Gut Microbiome and Metabolome Characteristics of Patients With Cholesterol Gallstones Suggest the Preventive Potential of Prebiotics</article-title>.” <source>iMeta</source>
+<volume>4</volume>, <elocation-id>e70000</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70000</pub-id>
+</mixed-citation>
+</p></notes></front><body><sec id="imt270000-sec-0010"><title>INTRODUCTION</title><p>Gallstones are a common disease that occurs frequently. Gallstones affect around 10%–15% of adults, leading to significant discomfort [<xref rid="imt270000-bib-0001" ref-type="bibr">1</xref>]. 85%–90% of gallstones are cholesterol gallstones (CGS). Both environmental and genetic factors contribute to gallstone formation, typically due to cholesterol supersaturation and changes in the bile acid pool [<xref rid="imt270000-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270000-bib-0003" ref-type="bibr">3</xref>]. Recent studies have increasingly suggested that gut microbiota dysbiosis plays a prominent role in the emergence of these conditions [<xref rid="imt270000-bib-0004" ref-type="bibr">4</xref>]. The gut microbiota helps regulate bile acid and cholesterol metabolism by producing enzymes such as bile acid hydrolase, bile acid hydroxylase, and hydroxy‐methylglutaryl‐CoA (HMG‐CoA) [<xref rid="imt270000-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt270000-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270000-bib-0007" ref-type="bibr">7</xref>, <xref rid="imt270000-bib-0008" ref-type="bibr">8</xref>]. Only recently, a few researchers have used single bacteria transplantation techniques to analyze the gut microbiota's association with gallstone diseases. These studies have shown that <italic toggle="yes">Desulfovibrionales</italic> members are abundant in the gut of gallstone patients [<xref rid="imt270000-bib-0009" ref-type="bibr">9</xref>]. Additionally, the metabolic product of <italic toggle="yes">Desulfovibrionales</italic>, H<sub>2</sub>S, was observed to increase, inducing hepatic farnesoid X receptor (FXR) and inhibiting CYP7A1 expression. Another study demonstrated that <italic toggle="yes">Lactobacillus</italic> (<italic toggle="yes">L. reuteri</italic> and <italic toggle="yes">L. plantarum</italic>) might relieve CGS through the FXR signaling pathways [<xref rid="imt270000-bib-0010" ref-type="bibr">10</xref>]. To date, cholecystectomy remains the most effective treatment for chronic carriers with gallbladder lithiasis. Ursodeoxycholic acid has been utilized in specific cases to dissolve CGS; however, its use has declined because of the high rates of CGS recurrence [<xref rid="imt270000-bib-0011" ref-type="bibr">11</xref>, <xref rid="imt270000-bib-0012" ref-type="bibr">12</xref>]. Currently, medical options for preventing and treating CGS are not recommended, and surgical approaches are associated with a significant risk of complications [<xref rid="imt270000-bib-0013" ref-type="bibr">13</xref>, <xref rid="imt270000-bib-0014" ref-type="bibr">14</xref>]. Therefore, many researchers are focused on finding effective therapies to prevent and treat CGS.</p><p>Short‐chain fatty acids (SCFAs), including acetate, butyrate, and propionate, are primary products of dietary fiber fermentation by bacteria. SCFA‐producing bacteria play a role in disease prevention by modulating intestinal inflammation, host immunity, energy metabolism, and insulin sensitivity [<xref rid="imt270000-bib-0015" ref-type="bibr">15</xref>, <xref rid="imt270000-bib-0016" ref-type="bibr">16</xref>]. As a result, gut microbiota and its metabolites, including SCFAs, hold potential as novel therapeutic targets for gallstones. Fructooligosaccharides (FOS), a form of dietary fiber, influence the composition and function of beneficial gut bacteria, leading to positive physiological effects on the host. FOS has been reported to prevent colitis inflammation by increasing the concentration of 3‐hydroxyoctadecaenoic acid [<xref rid="imt270000-bib-0017" ref-type="bibr">17</xref>]. In addition, FOS supplementation helps regulate gut immune balance and improves glucose and lipid metabolism by promoting the growth of SCFA‐producing microbes in the gut [<xref rid="imt270000-bib-0018" ref-type="bibr">18</xref>, <xref rid="imt270000-bib-0019" ref-type="bibr">19</xref>, <xref rid="imt270000-bib-0020" ref-type="bibr">20</xref>]. However, few studies have explored the effectiveness of FOS supplementation in gallstones.</p><p>At present, the mechanism of gut microbiota in gallstone pathogenesis is still largely unknown, and the exploration of nonsurgical treatment of gallstones has not achieved significant breakthroughs. The phenotypes and diagnostic features of gut and bile microbiota, along with their metabolites, remain underexplored in the gallstone population, particularly through large‐scale multi‐omics studies. This research identifies the gut microbiome, metabolites, and KEGG orthology (KO) gene profiles associated with CGS and sex‐ and age‐matched healthy controls (HCs). Potential biomarkers were selected based on the metagenomic and metabolomic analysis of stool samples from CGS patients and healthy volunteers matched for both sex and age. Furthermore, the potential intervention effects of specific bacteria strains, SCFAs, and FOS in gallstones‐model mice were explored.</p></sec><sec sec-type="results" id="imt270000-sec-0020"><title>RESULTS</title><sec id="imt270000-sec-0030"><title>Information of the included participants</title><p>A total of 66 subjects with a clinical diagnosis of CGS (average age 56.29 ± 14.18; male: female ratio of 30:36) and 53 HCs (median age 39 [25th–75th percentile range: 29−59]; male: female ratio of 22:31) were recruited from April of 2020 to June of 2021. Meanwhile, age‐ and sex‐matched CGS (<italic toggle="yes">n</italic> = 30) and HCs (<italic toggle="yes">n</italic> = 30) were also selected. The detailed study pipeline is shown in Figure <xref rid="imt270000-fig-0001" ref-type="fig">1A</xref>. In the CGS group, compared with HCs, levels of gamma‐glutamyl transpeptidase, high‐density lipoprotein cholesterol (HDL‐C), lymphocytes, monocytes, blood platelets, red blood cells (RBCs), and white blood cells were decreased, while total bilirubin (TB) was increased (all <italic toggle="yes">p</italic> &lt; 0.05). Clinical variables were balanced between the matched groups except for glucose, neutrophils count, and HDL‐C (Table <xref rid="imt270000-tbl-0001" ref-type="table">1</xref>).</p><fig position="float" fig-type="Figure" id="imt270000-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Gut and biliary tract microbiome diversity and structure analysis between CGS and HCs groups. (A) Study design and flow diagram. A total of 191 samples of three types were collected, including 119 fecal samples, 47 bile samples, and 25 stone samples, after rigorous inclusion and exclusion criteria. Bile and fecal samples were detected using UHPLC‐MS/MS to characterize metabolites. Relative abundance of the bacterial community in both groups at the level of phylum (B) and genus (C). Alpha diversity indices of ASVs among groups, Chao1 (D) and ACE (E) index. (F) Heatmap of the relative abundances of top 20 genera for each sample in both groups. ASVs, amplicon sequence variants; CGS, cholesterol gallstone patients; HCs, healthy controls; LD, lithogenic diet; SCFAs, short‐chain fatty acids; UHPLC‐MS/MS, Ultrahigh performance liquid chromatography‐mass spectrometry/mass spectrometry.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-4-e70000-g007.jpg"><?image-name IMT2-4-e70000-g007.jpg?><?image-size 168830?><?image-md5 b2dfea772e0da5b1d6c3b44d3413bbd7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1043?><?image-original-width 910?><?image-scaled-height 695?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/b2dfea772e0d/IMT2-4-e70000-g007.jpg?><?thumb-name IMT2-4-e70000-g007.gif?><?thumb-size 6298?><?thumb-md5 6ac9ebed3f9689e7d6c6f0ff1dedbb94?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 115?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/6ac9ebed3f96/IMT2-4-e70000-g007.gif?></graphic></fig><table-wrap position="float" id="imt270000-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Summary of clinical features and laboratory results of participants.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><thead valign="bottom"><tr valign="bottom" style="border-bottom:solid 1px #000000"><th rowspan="2" align="left" valign="bottom" colspan="1">Characteristics</th><th rowspan="2" align="left" valign="bottom" colspan="1">Overall (<italic toggle="yes">n</italic> = 119)</th><th colspan="3" align="left" valign="bottom" rowspan="1">Overall (<italic toggle="yes">n</italic> = 119)</th><th colspan="3" align="left" valign="bottom" rowspan="1">Age‐ and sex‐matched (<italic toggle="yes">n</italic> = 60)</th></tr><tr valign="bottom" style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Disease (<italic toggle="yes">n</italic> = 66)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Health (<italic toggle="yes">n</italic> = 53)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">Disease (<italic toggle="yes">n</italic> = 30)</th><th align="left" valign="bottom" rowspan="1" colspan="1">Health (<italic toggle="yes">n</italic> = 30)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Age (years)</td><td align="left" valign="top" rowspan="1" colspan="1">52.00 (36.00, 63.00)</td><td align="left" valign="top" rowspan="1" colspan="1">56.29 ± 14.18</td><td align="left" valign="top" rowspan="1" colspan="1">39.00 (29.00, 59.00)</td><td align="left" valign="top" rowspan="1" colspan="1">&lt;0.001</td><td align="left" valign="top" rowspan="1" colspan="1">48.00 (37.00, 68.75)</td><td align="left" valign="top" rowspan="1" colspan="1">47.00 (36.50, 66.25)</td><td align="left" valign="top" rowspan="1" colspan="1">0.796</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Gender</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="left" valign="top" rowspan="1" colspan="1">52</td><td align="left" valign="top" rowspan="1" colspan="1">30</td><td align="left" valign="top" rowspan="1" colspan="1">22</td><td align="left" valign="top" rowspan="1" colspan="1">0.806</td><td align="left" valign="top" rowspan="1" colspan="1">16</td><td align="left" valign="top" rowspan="1" colspan="1">15</td><td align="left" valign="top" rowspan="1" colspan="1">1.000</td></tr><tr><td style="padding-left:10%" align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="left" valign="top" rowspan="1" colspan="1">67</td><td align="left" valign="top" rowspan="1" colspan="1">36</td><td align="left" valign="top" rowspan="1" colspan="1">31</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">14</td><td align="left" valign="top" rowspan="1" colspan="1">15</td><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td align="left" valign="top" rowspan="1" colspan="1">24.88 (22.13, 26.84)</td><td align="left" valign="top" rowspan="1" colspan="1">24.93 ± 3.83</td><td align="left" valign="top" rowspan="1" colspan="1">25.00 (22.23, 26.35)</td><td align="left" valign="top" rowspan="1" colspan="1">0.959</td><td align="left" valign="top" rowspan="1" colspan="1">24.81 ± 4.62</td><td align="left" valign="top" rowspan="1" colspan="1">24.45 ± 4.12</td><td align="left" valign="top" rowspan="1" colspan="1">0.752</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GLU (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">5.19 (4.90, 5.70)</td><td align="left" valign="top" rowspan="1" colspan="1">5.15 (4.80, 5.88)</td><td align="left" valign="top" rowspan="1" colspan="1">5.19 (4.90, 5.50)</td><td align="left" valign="top" rowspan="1" colspan="1">0.688</td><td align="left" valign="top" rowspan="1" colspan="1">5.00 (4.80, 5.27)</td><td align="left" valign="top" rowspan="1" colspan="1">5.20 (5.00, 5.68)</td><td align="left" valign="top" rowspan="1" colspan="1">0.037</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ALT (U/L)</td><td align="left" valign="top" rowspan="1" colspan="1">17.00 (11.50, 27.00)</td><td align="left" valign="top" rowspan="1" colspan="1">17.50 (12.00, 30.75)</td><td align="left" valign="top" rowspan="1" colspan="1">16.00 (11.00, 21.00)</td><td align="left" valign="top" rowspan="1" colspan="1">0.158</td><td align="left" valign="top" rowspan="1" colspan="1">16.50 (12.00, 30.25)</td><td align="left" valign="top" rowspan="1" colspan="1">16.50 (11.00, 20.75)</td><td align="left" valign="top" rowspan="1" colspan="1">0.510</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AST (U/L)</td><td align="left" valign="top" rowspan="1" colspan="1">18.00 (15.00, 22.00)</td><td align="left" valign="top" rowspan="1" colspan="1">18.00 (15.00, 22.00)</td><td align="left" valign="top" rowspan="1" colspan="1">19.00 (15.00, 22.00)</td><td align="left" valign="top" rowspan="1" colspan="1">0.736</td><td align="left" valign="top" rowspan="1" colspan="1">16.50 (15.00, 21.50)</td><td align="left" valign="top" rowspan="1" colspan="1">19.50 (16.00, 24.25)</td><td align="left" valign="top" rowspan="1" colspan="1">0.248</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">GGT (U/L)</td><td align="left" valign="top" rowspan="1" colspan="1">18.00 (11.00, 38.50)</td><td align="left" valign="top" rowspan="1" colspan="1">23.00 (13.25, 58.75)</td><td align="left" valign="top" rowspan="1" colspan="1">13.00 (10.00, 36.00)</td><td align="left" valign="top" rowspan="1" colspan="1">0.010</td><td align="left" valign="top" rowspan="1" colspan="1">16.50 (11.50, 31.50)</td><td align="left" valign="top" rowspan="1" colspan="1">15.50 (10.00, 40.00)</td><td align="left" valign="top" rowspan="1" colspan="1">0.554</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">HDL‐C (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">1.14 (0.93, 1.46)</td><td align="left" valign="top" rowspan="1" colspan="1">1.03 (0.92, 1.22)</td><td align="left" valign="top" rowspan="1" colspan="1">1.35 ± 0.32</td><td align="left" valign="top" rowspan="1" colspan="1">&lt;0.001</td><td align="left" valign="top" rowspan="1" colspan="1">1.04 (0.93, 1.21)</td><td align="left" valign="top" rowspan="1" colspan="1">1.31 ± 0.33</td><td align="left" valign="top" rowspan="1" colspan="1">0.026</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LDL‐C (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">2.66 (2.10, 3.59)</td><td align="left" valign="top" rowspan="1" colspan="1">2.78 (2.12, 3.43)</td><td align="left" valign="top" rowspan="1" colspan="1">2.83 ± 0.93</td><td align="left" valign="top" rowspan="1" colspan="1">0.808</td><td align="left" valign="top" rowspan="1" colspan="1">2.55 ± 0.83</td><td align="left" valign="top" rowspan="1" colspan="1">2.88 ± 1.05</td><td align="left" valign="top" rowspan="1" colspan="1">0.180</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BASO (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">0.03 (0.02, 0.04)</td><td align="left" valign="top" rowspan="1" colspan="1">0.03 (0.02, 0.04)</td><td align="left" valign="top" rowspan="1" colspan="1">0.03 (0.02, 0.04)</td><td align="left" valign="top" rowspan="1" colspan="1">0.162</td><td align="left" valign="top" rowspan="1" colspan="1">0.03 (0.02, 0.05)</td><td align="left" valign="top" rowspan="1" colspan="1">0.03 (0.02, 0.05)</td><td align="left" valign="top" rowspan="1" colspan="1">0.868</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">EOS (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">0.12 (0.07, 0.20)</td><td align="left" valign="top" rowspan="1" colspan="1">0.12 (0.07, 0.22)</td><td align="left" valign="top" rowspan="1" colspan="1">0.11 (0.07, 0.16)</td><td align="left" valign="top" rowspan="1" colspan="1">0.246</td><td align="left" valign="top" rowspan="1" colspan="1">0.14 (0.07, 0.22)</td><td align="left" valign="top" rowspan="1" colspan="1">0.11 (0.07, 0.14)</td><td align="left" valign="top" rowspan="1" colspan="1">0.304</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">LYMPH (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">1.94 (1.52, 2.40)</td><td align="left" valign="top" rowspan="1" colspan="1">1.74 (1.41, 2.34)</td><td align="left" valign="top" rowspan="1" colspan="1">2.16 ± 0.64</td><td align="left" valign="top" rowspan="1" colspan="1">0.021</td><td align="left" valign="top" rowspan="1" colspan="1">2.01 ± 0.73</td><td align="left" valign="top" rowspan="1" colspan="1">2.02 ± 0.53</td><td align="left" valign="top" rowspan="1" colspan="1">0.939</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">MONO (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">0.38 (0.32, 0.47)</td><td align="left" valign="top" rowspan="1" colspan="1">0.36 (0.30, 0.45)</td><td align="left" valign="top" rowspan="1" colspan="1">0.43 (0.34, 0.50)</td><td align="left" valign="top" rowspan="1" colspan="1">0.031</td><td align="left" valign="top" rowspan="1" colspan="1">0.40 (0.35, 0.50)</td><td align="left" valign="top" rowspan="1" colspan="1">0.44 (0.40, 0.51)</td><td align="left" valign="top" rowspan="1" colspan="1">0.274</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">NEUT (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">3.32 (2.63, 4.20)</td><td align="left" valign="top" rowspan="1" colspan="1">3.11 (2.51, 4.23)</td><td align="left" valign="top" rowspan="1" colspan="1">3.61 (2.86, 4.19)</td><td align="left" valign="top" rowspan="1" colspan="1">0.085</td><td align="left" valign="top" rowspan="1" colspan="1">3.14 (2.65, 3.72)</td><td align="left" valign="top" rowspan="1" colspan="1">3.85 ± 1.19</td><td align="left" valign="top" rowspan="1" colspan="1">0.046</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PLT (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">236.00 (190.00, 279.00)</td><td align="left" valign="top" rowspan="1" colspan="1">217.50 (169.50, 258.00)</td><td align="left" valign="top" rowspan="1" colspan="1">259.81 ± 64.56</td><td align="left" valign="top" rowspan="1" colspan="1">0.001</td><td align="left" valign="top" rowspan="1" colspan="1">225.00 (198.75, 263.00)</td><td align="left" valign="top" rowspan="1" colspan="1">260.50 ± 69.50</td><td align="left" valign="top" rowspan="1" colspan="1">0.095</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">RBC (10<sup>12</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">4.47 ± 0.47</td><td align="left" valign="top" rowspan="1" colspan="1">4.35 ± 0.42</td><td align="left" valign="top" rowspan="1" colspan="1">4.63 ± 0.49</td><td align="left" valign="top" rowspan="1" colspan="1">0.001</td><td align="left" valign="top" rowspan="1" colspan="1">4.39 ± 0.39</td><td align="left" valign="top" rowspan="1" colspan="1">4.60 ± 0.47</td><td align="left" valign="top" rowspan="1" colspan="1">0.061</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">WBC (10<sup>9</sup>/L)</td><td align="left" valign="top" rowspan="1" colspan="1">6.05 (4.88, 7.24)</td><td align="left" valign="top" rowspan="1" colspan="1">5.78 (4.62, 7.12)</td><td align="left" valign="top" rowspan="1" colspan="1">6.54 ± 1.45</td><td align="left" valign="top" rowspan="1" colspan="1">0.031</td><td align="left" valign="top" rowspan="1" colspan="1">5.93 (4.74, 6.96)</td><td align="left" valign="top" rowspan="1" colspan="1">6.40 (5.54, 7.29)</td><td align="left" valign="top" rowspan="1" colspan="1">0.167</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TB (μmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">11.40 (8.85, 15.10)</td><td align="left" valign="top" rowspan="1" colspan="1">12.25 (9.43, 17.45)</td><td align="left" valign="top" rowspan="1" colspan="1">11.00 (8.80, 13.00)</td><td align="left" valign="top" rowspan="1" colspan="1">0.029</td><td align="left" valign="top" rowspan="1" colspan="1">12.25 (9.03, 15.08)</td><td align="left" valign="top" rowspan="1" colspan="1">10.41 ± 4.90</td><td align="left" valign="top" rowspan="1" colspan="1">0.178</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TC (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">4.37 ± 0.86</td><td align="left" valign="top" rowspan="1" colspan="1">4.26 ± 0.84</td><td align="left" valign="top" rowspan="1" colspan="1">4.35 (3.77, 5.04)</td><td align="left" valign="top" rowspan="1" colspan="1">0.203</td><td align="left" valign="top" rowspan="1" colspan="1">4.02 ± 0.72</td><td align="left" valign="top" rowspan="1" colspan="1">4.26 (3.74, 4.98)</td><td align="left" valign="top" rowspan="1" colspan="1">0.119</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">TG (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">1.24 (0.82, 1.81)</td><td align="left" valign="top" rowspan="1" colspan="1">1.27 (0.95, 1.88)</td><td align="left" valign="top" rowspan="1" colspan="1">0.97 (0.75, 1.71)</td><td align="left" valign="top" rowspan="1" colspan="1">0.054</td><td align="left" valign="top" rowspan="1" colspan="1">1.28 ± 0.57</td><td align="left" valign="top" rowspan="1" colspan="1">1.00 (0.76, 1.50)</td><td align="left" valign="top" rowspan="1" colspan="1">0.408</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Urea (mmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">4.56 (3.88, 5.54)</td><td align="left" valign="top" rowspan="1" colspan="1">4.44 (3.80, 5.18)</td><td align="left" valign="top" rowspan="1" colspan="1">4.57 (4.05, 5.66)</td><td align="left" valign="top" rowspan="1" colspan="1">0.264</td><td align="left" valign="top" rowspan="1" colspan="1">4.65 (3.80, 4.91)</td><td align="left" valign="top" rowspan="1" colspan="1">5.20 ± 1.19</td><td align="left" valign="top" rowspan="1" colspan="1">0.057</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">URIC (μmol/L)</td><td align="left" valign="top" rowspan="1" colspan="1">321.00 (253.00, 397.00)</td><td align="left" valign="top" rowspan="1" colspan="1">327.00 (253.75, 417.50)</td><td align="left" valign="top" rowspan="1" colspan="1">319.92 ± 98.41</td><td align="left" valign="top" rowspan="1" colspan="1">0.506</td><td align="left" valign="top" rowspan="1" colspan="1">321.50 (261.00, 430.75)</td><td align="left" valign="top" rowspan="1" colspan="1">330.97 ± 108.78</td><td align="left" valign="top" rowspan="1" colspan="1">0.579</td></tr></tbody></table><table-wrap-foot><fn id="imt270000-tbl1-note-0001"><p>Abbreviations: ALT, alanine aminotransferase; AST, aspartate aminotransferase; BASO, basophil count; BMI, body mass index; EOS, eosinophil count; GLU, glucose; GGT, gamma‐glutamyl transpeptidase; HDL‐C, high‐density lipoprotein cholesterol; LDL‐C, low‐density lipoprotein cholesterol; LYMPH, lymphocyte count; MONO, monocyte count; NEUT, neutrophil count; PLT, platelets; RBC, red blood cell; TB, total bilirubin; TC, total cholesterol; TG, triglycerides; URIC, uric acid; WBC, white blood cell.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec><sec id="imt270000-sec-0040"><title>Biliary tract and gut microbial community</title><p>From all the bile, stone, and fecal samples, we identified a total of 3064 amplicon sequence variants (ASVs), distributed as follows: 1016 ASVs in bile, 1955 ASVs in gallstones, 747 ASVs in patient feces, and 683 ASVs in normal feces (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S1A</xref>). A Venn diagram showed that 172 ASVs were common to all groups, while 1974 ASVs were unique to the gallbladder. Further metagenomic analysis revealed 207 species in bile, 5905 species in patient feces, and 6535 species in normal feces (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S1B</xref>). At the phylum level, Bacteroidota and Firmicutes were dominant in gut, and Proteobacteria accounted for 50%–60% of the gallbladder microbiota (Figure <xref rid="imt270000-fig-0001" ref-type="fig">1B</xref>). Figure <xref rid="imt270000-fig-0001" ref-type="fig">1C</xref> displays the relative abundance of genera across the various groups. The top 20 species are shown in Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S1C</xref>. <italic toggle="yes">Escherichia coli</italic>, <italic toggle="yes">Salmonella enterica</italic>, <italic toggle="yes">Streptococcus pneumoniae</italic>, <italic toggle="yes">Klebsiella aerogenes</italic>, and <italic toggle="yes">Chlamydia trachomatis</italic> were dominant in bile. <italic toggle="yes">F. prausnitzii</italic>, <italic toggle="yes">E. coli</italic>, and <italic toggle="yes">Bacteroides vulgatus</italic> were dominant in gut. The Chao1 index was significantly lower in the gut than that in the gallbladder (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0001" ref-type="fig">1D</xref>). The ACE index was also significantly decreased in CGS fecal samples compared to HCs fecal samples. The ACE index was also significantly decreased in the bile compared to stones (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0001" ref-type="fig">1E</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S1</xref>). Our results divided 191 samples into three distinct clusters (A–C) at the genus level, characterized by gut microbiota, the crossover between gut and biliary tract microbiota, and the biliary tract microbiota (Figure <xref rid="imt270000-fig-0001" ref-type="fig">1F</xref>).</p></sec><sec id="imt270000-sec-0050"><title>16S rRNA sequencing identified notable differences between CGS group and HCs group</title><p>To further investigate the differences in bacterial communities between the CGS group and HCs, 16S rRNA sequencing was applied to fecal samples from 30 CGS patients and 30 age‐ and sex‐matched HCs. The ACE index was significantly lower in CGS fecal samples compared to HCs (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S2A</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S2</xref>). Principle coordinates analysis (PCoA) and ANOSIM test revealed significant differences in microbiome composition and abundance between the two groups (Bray–Curtis distance, <italic toggle="yes">p</italic> = 0.001) (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S2B</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S3</xref>). At the genus level, 22 genera showed significant differences in abundance between the two groups, with 12 genera being less abundant in the CGS group (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S2C</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S4</xref>). LEfSe analysis identified 49 discriminative features (LDA &gt; 2, <italic toggle="yes">p</italic> &lt; 0.05) at various taxonomic levels (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S2D–E</xref>). The linear discriminant analysis (LDA) plot revealed a distinct shift in the microbiota, with CGS individuals showing higher levels of Patescibacteria. Discriminative families in CGS were Pseudomonadaceae, Morganellaceae, Saccharimonadaceae, Vibrionaceae, and Staphylococcaceae. <italic toggle="yes">Pseudomonas</italic>, <italic toggle="yes">Morganella</italic>, <italic toggle="yes">Ruminobacter</italic>, <italic toggle="yes">Faecalibaculum</italic>, <italic toggle="yes">Turicibacter</italic>, <italic toggle="yes">Haemophilus</italic>, and <italic toggle="yes">Ruminococcus</italic> were the key genera that can distinguish CGS from HCs. These genera may serve as potential biomarkers to distinguish gallstone patients from healthy individuals. Among these significantly different genera, 10 genera were further associated with different metabolites (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S2F</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S5</xref>). For example, the relative abundance of <italic toggle="yes">Marvinbryantia</italic> was inversely associated with <sc>l</sc>‐Ascorbic acid 2‐sulfate.</p></sec><sec id="imt270000-sec-0060"><title>Metagenomic sequencing revealed potential biomarkers associated with CGS</title><p>Metagenomic sequencing was employed on fecal samples from 30 CGS patients and 30 age‐ and sex‐matched HCs to delve deeper into the variance in bacterial species and to identify different KO genes and functions. The ACE index exhibited a significant decrease in CGS fecal samples compared to those of HCs (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2A</xref>). Notably, among the CGS samples, 33 bacterial species, such as <italic toggle="yes">Clostridium perfringens</italic>, <italic toggle="yes">R. gnavus</italic>, and <italic toggle="yes">C. glycyrrhizinilyticum</italic>, showed increased abundance, while 23 bacterial species, including <italic toggle="yes">F. prausnitzii</italic>, <italic toggle="yes">Thermodesulfovibrio thiophilus</italic>, and <italic toggle="yes">Lactobacillus rogosae</italic>, exhibited decreased abundance compared to HCs (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S6</xref>), with representative species shown in Figure <xref rid="imt270000-fig-0002" ref-type="fig">2B</xref>.</p><fig position="float" fig-type="Figure" id="imt270000-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>The difference of gut microbiota in CGS and HCs according to the metagenomic data. (A) Alpha diversity ACE index of species between groups. (B) Differential abundance of gut microbiota in CGS and HCs. Green and blue represented the HCs (<italic toggle="yes">n</italic> = 30) and gallstone patients (<italic toggle="yes">n</italic> = 30), respectively. The abundance in each group was plotted as log10 scale on the <italic toggle="yes">y</italic>‐axis. The two‐tailed Wilcoxon rank‐sum test was used to calculate <italic toggle="yes">p</italic>‐values. (C) LDA scores for the bacterial taxa differentially abundant between CGS and HCs (LDA &gt; 3.5). Blue bars indicate taxa were enrichment in CGS, and green bars indicate taxa were enrichment in HCs. (D) Receiver operating characteristic analysis to discriminate CGS from HCs based on strains to be verified (<italic toggle="yes">C. glycyrrhizinilyticum</italic>, <italic toggle="yes">R. gnavus</italic>, and <italic toggle="yes">F. prausnitzii</italic>). (E) The variance of biochemical indices explained by different bacterial species. The height of each bar represented the explained variance calculated using univariate linear regression. The bar represented significant differences (<italic toggle="yes">p</italic> &lt; 0.05). (F) The significant difference relative abundance of each predicted functional category given in the KEGG pathways (level 3). (G) Plot of all alterations KO gene related representative metabolism pathway. Size of circles represents the number of KO identified with an alteration. CGS, cholesterol gallstone patients; HCs, healthy controls.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-4-e70000-g001.jpg"><?image-name IMT2-4-e70000-g001.jpg?><?image-size 164936?><?image-md5 fd1747ccf1bc14bebf409139c3c9d455?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1021?><?image-original-width 910?><?image-scaled-height 680?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/fd1747ccf1bc/IMT2-4-e70000-g001.jpg?><?thumb-name IMT2-4-e70000-g001.gif?><?thumb-size 5513?><?thumb-md5 b664dd7e73cc5441c45cf47ac60c5d79?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 112?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/b664dd7e73cc/IMT2-4-e70000-g001.gif?></graphic></fig><p>Additionally, LEfSe was used to generate a cladogram, revealing 31 discriminatory features associated with CGS. 13 discriminative features (LDA &gt; 2, <italic toggle="yes">p</italic> &lt; 0.05) were observed at the species level, including several opportunistic pathogens such as <italic toggle="yes">Escherichia coli</italic>, <italic toggle="yes">Shigella sonnei</italic>, <italic toggle="yes">R. gnavus</italic>, <italic toggle="yes">Salmonella enterica</italic>, and <italic toggle="yes">C. perfringens</italic>, all significantly overrepresented (LDA scores (1og<sub>10</sub>) ≥ 2) in CGS feces, while <italic toggle="yes">F. prausnitzii</italic> dominated in HCs (LDA scores (1og<sub>10</sub>) &gt; 4) (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2C</xref>). In the diagnosis of CGS versus HCs, <italic toggle="yes">F. prausnitzii</italic> exhibited a sensitivity of 0.633 and specificity of 0.667, <italic toggle="yes">R. gnavus</italic> had a sensitivity of 0.767 and specificity of 0.567, while <italic toggle="yes">C. glycyrrhizinilyticum</italic> showed a sensitivity of 0.833 and a specificity of 0.500 (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2D</xref>). Additionally, several different bacterial species explained a significant proportion of variation in liver function‐related biochemistry traits (e.g., <italic toggle="yes">F. prausnitzii</italic> explained 4.5% of the variance in TC, <italic toggle="yes">C. glycyrrhizinilyticum</italic> explained 6.3% of the variance in ALT) (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2E</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S7</xref>).</p><p>Using metagenome sequencing data, we conducted further annotations of functional pathways. The fecal microbiota analysis revealed 36 predictive categories within the KEGG level three functional modules (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S8</xref>). Notably, in the CGS group, activities related to the lipid metabolic pathway, including linoleic acids, arachidonic acids, alpha‐linolenic acids, and ether lipids were observed to be higher (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2F</xref>). A total of 1264 KO genes showed significant differences compared to HCs (<italic toggle="yes">p </italic>&lt; 0.05). These significant differences in KO genes were observed in selected representative pathways (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2G</xref>), with a majority of differential KO genes being enriched in butanoate and propanoate metabolism, fatty acid degradation, and glyoxylate and dicarboxylate metabolism.</p></sec><sec id="imt270000-sec-0070"><title>Metabolic profiling of CGS and HCs</title><p>PLS‐DA and OPLS‐DA analyses showed a distinct metabolic profile between CGS and HCs (Figure <xref rid="imt270000-fig-0003" ref-type="fig">3A,B</xref>). Specifically, 76 metabolites, such as indole, PC (18:3e/6:0), and LPA 16:0, were found to be elevated, while 45 metabolites, including nicotinic acid, 4‐Hydroxyisoleucine, and 13(S)‐HOTrE, were reduced in CGS (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S9</xref>). Representative differential metabolites are shown in Figure <xref rid="imt270000-fig-0003" ref-type="fig">3C</xref>, which were primarily classified into amino acids, carbohydrates, hydroxycinnamic acids, pyridine carboxylic acids, lipids, pterins and derivatives, and benzenoids. Furthermore, the top 25 enriched metabolic pathways, characterized by significantly different metabolites between CGS and HCs, were identified (Figure <xref rid="imt270000-fig-0003" ref-type="fig">3D</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S10</xref>), including histidine, taurine and hypotaurine, butanoate, and alpha‐linolenic acid metabolism.</p><fig position="float" fig-type="Figure" id="imt270000-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Aberrant metabolic patterns in CGS and HCs. (A, B) The clustering analyses of partial least‐squares discriminant analysis (PLS‐DA) and orthogonal partial least‐squares discriminant analysis (OPLS‐DA). (C) The discriminatory metabolites identified between the CGS and HCs. The <italic toggle="yes">x</italic>‐axis represents the log<sub>2</sub>FC of discriminatory metabolites. Blue and red circles denote CGS decreased and CGS enriched metabolites, respectively. (D) Summary of pathway analysis for 121 differential metabolites in MetaboAnalyst3.0, and significantly enriched pathways are displayed by a bubble plot (<italic toggle="yes">p</italic> &lt; 0.05, Fisher's exact test). (E) Receiver operating characteristic analysis to discriminate CGS from HCs based on species (orange), genus (blue), or metabolites (red) individually. (F) The variance of biochemical indices explained by different metabolites. The height of each bar represented the explained variance calculated using univariate linear regression. The bar represented significant associations (<italic toggle="yes">p</italic> &lt; 0.05). Potential biomarkers are highlighted. Red font: Increased. Blue font: Decreased. (G) Species and metabolites included are those identified as significantly different between CGS and HCs. Enrichment in either group indicated by colored bars to the top of the plot. Significant correlations denoted by white stars (<sup>+</sup>
+<italic toggle="yes">p</italic> &lt; 0.1; <sup>++</sup>
+<italic toggle="yes">p</italic> &lt; 0.05, Student's <italic toggle="yes">t</italic>‐test (two‐sided), Benjamini–Hochberg adjustment for multiple comparisons. Exact <italic toggle="yes">p</italic> values are provided in Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S13</xref>). Higher taxonomy of species (order) was indicated by colored bars. (H) Levels of D‐α‐Hydroxyglutaric acid, nicotinic acid, and indole. CGS, cholesterol gallstone patients; FC, fold change; HCs, healthy controls.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-4-e70000-g005.jpg"><?image-name IMT2-4-e70000-g005.jpg?><?image-size 177029?><?image-md5 6b502a97d84b9e005a12dcd17d2a0de3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1229?><?image-original-width 910?><?image-scaled-height 818?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/6b502a97d84b/IMT2-4-e70000-g005.jpg?><?thumb-name IMT2-4-e70000-g005.gif?><?thumb-size 7017?><?thumb-md5 cd9495a8a45cc49252238e0a429f6fdc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 135?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/cd9495a8a45c/IMT2-4-e70000-g005.gif?></graphic></fig><p>We further inspected the individual diagnostic performance of both microbiota and metabolites in distinguishing between CGS and HCs. The area under curve (AUC) values for different bacteria and metabolites ranged from 0.6 to 0.8 in the CGS versus HCs diagnosis. Next, 12 distinctive genera (AUC &gt; 0.7), 8 species (AUC &gt; 0.68), and 13 metabolites (AUC &gt; 0.68) were selected as optimal marker sets (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S11</xref>). Then, combined diagnostic performances for CGS were analyzed. When considering bacterial genus, species, or metabolites alone, AUC values of 96.7%, 86.8%, and 98.1%, respectively, were achieved in discriminating CGS patients from HCs (Figure <xref rid="imt270000-fig-0003" ref-type="fig">3E</xref>). To further pinpoint potential biomarkers, we discovered that several metabolites explained a significant proportion of variation in TC, TG, HDL‐C, LDL‐C, ALT, and AST levels. For example, 4‐Aminobenzoic acid and <sc>l</sc>‐Glutamic acid accounted for 11.0% and 14.2% of the variance in HDL‐C, respectively (Figure <xref rid="imt270000-fig-0003" ref-type="fig">3F</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S12</xref>).</p></sec><sec id="imt270000-sec-0080"><title>Correlation analysis between gut microbiota and metabolites</title><p>Spearman's correlation analysis was conducted to explore potential associations between the 124 species and 33 metabolites, aiming to uncover links between altered metabolites and gut microbiota (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S13</xref>). The correlation of potential biomarkers in metabolites and various species is shown in Figure <xref rid="imt270000-fig-0003" ref-type="fig">3G</xref>. Most of the significantly correlated bacteria belong to the genera <italic toggle="yes">Bifidobacterium</italic>, <italic toggle="yes">Clostridium</italic>, <italic toggle="yes">Shigella</italic>, and <italic toggle="yes">Enterococcus</italic>, which encode bile salt hydrolase (BSH). Several species were significantly correlated with nicotinic acid, PC (18:3e/6:0), and indole, which could originate from the diet or be produced endogenously. Nicotinic acid exhibited negative associations with certain species enriched in CGS, while several species enriched in healthy samples (e.g., <italic toggle="yes">F. prausnitzii</italic>) displayed positive associations, suggesting nicotinic acid as a possible biomarker related to the CGS versus HCs differentiation. The abundance of species such as <italic toggle="yes">Desulfitobacterium chlororespirans</italic>, <italic toggle="yes">Clostridium</italic> sp. CAG:451, <italic toggle="yes">Actinobacteria bacterium</italic> 66_15, positively correlated with the levels of PC (18:3e/6:0). In addition, the abundance of <italic toggle="yes">C. glycyrrhizinilyticum</italic> was positively correlated with the level of indole and was negatively associated with the level of D‐α‐Hydroxyglutaric acid (Figure <xref rid="imt270000-fig-0003" ref-type="fig">3G</xref>). The comparison of indole, D‐α‐Hydroxyglutaric acid, and nicotinic acid is shown in Figure <xref rid="imt270000-fig-0003" ref-type="fig">3H</xref>.</p></sec><sec id="imt270000-sec-0090"><title>Metabolic profiling of bile</title><p>A total of 921 compounds in the bile samples were successfully quantified and mapped to the Human Metabolome Database (HMDB). These included 57 lipids and lipid‐like molecules, 54 organic acids and derivatives, and 23 organoheterocyclic compounds (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S3A</xref>). The top 25 enriched KEGG pathways included steroid hormone biosynthesis and purine metabolism (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S3B</xref>). To further compare distinct bacterial species between bile and fecal samples from the same gallstone patients, we identified 17 unique species (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S3C</xref>). Next, we analyzed the correlations of these unique species and metabolites. The abundance of <italic toggle="yes">Neisseria subflava</italic> was negatively correlated with the levels of cholic acid and 7‐Ketolithocholic acid. Similarly, the level of deoxycholic acid showed negative correlations with the abundance of <italic toggle="yes">Staphylococcus saccharolyticus</italic>, <italic toggle="yes">Pseudomonas</italic> sp. 2822‐17, <italic toggle="yes">N. subflava</italic>, <italic toggle="yes">Neisseria polysaccharea</italic>, <italic toggle="yes">Conexibacter woesei</italic>, and <italic toggle="yes">Achromatium</italic> sp. WMS1 (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S3D</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S14</xref>).</p></sec><sec id="imt270000-sec-0100"><title>Integrative multi‐omics signatures of CGS and HCs</title><p>As shown in Figure <xref rid="imt270000-fig-0004" ref-type="fig">4A</xref>, we observed various metabolites such as 13(S)‐HOTrE, nicotinate, nicotinurate, <sc>l</sc>‐glutamate, N‐carbamoyl‐<sc>l</sc>‐aspartate, <sc>l</sc>‐asparagine, <sc>l</sc>‐aspartate, and 1‐methylhistidine, which are involved in alpha‐linolenic acid metabolism, alanine, aspartate, and glutamate metabolism, nicotinate and nicotinamide metabolism, and histidine metabolism. Pathway representations highlighted related differential genes (Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S15</xref>). Among the most differentially abundant KO genes, pathways such as butanoate and propanoate metabolism, fatty acid biosynthesis and degradation pathways, taurine and hypotaurine metabolism, and glyoxylate and dicarboxylate metabolism were associated with CGS.</p><fig position="float" fig-type="Figure" id="imt270000-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Overview of pathway modules and animal experimental design. (A) CGS‐associated changes in KEGG pathway modules and related different metabolites. KEGG pathway maps including “alpha‐Linolenic acid metabolism,” “Nicotinate and nicotinamide metabolism,” “Alanine, aspartate, and glutamate metabolism,” “Butanoate metabolism,” “Propanoate metabolism,” “Fatty acids metabolism,” and “Glyoxylate and dicarboxylate metabolism.” Each metabolite is marked in yellow for elevation or in gray for depletion. (B) Schematic diagram for animal experiments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IMT2-4-e70000-g004.jpg"><?image-name IMT2-4-e70000-g004.jpg?><?image-size 131385?><?image-md5 ddaf20a5291246f38f48e9b793d47369?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1115?><?image-original-width 910?><?image-scaled-height 743?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/ddaf20a52912/IMT2-4-e70000-g004.jpg?><?thumb-name IMT2-4-e70000-g004.gif?><?thumb-size 5209?><?thumb-md5 4a652846da29ac7623d5deabb898d470?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 123?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/4a652846da29/IMT2-4-e70000-g004.gif?></graphic></fig><p>Within the alpha‐linolenic acid metabolism, the gene phospholipase A1 (<italic toggle="yes">pldA</italic>), which hydrolyzes phospholipids to produce 2‐acyl‐lysophospholipids and fatty acids, was notably elevated in CGS (Figure <xref rid="imt270000-suppl-0001" ref-type="supplementary-material">S4</xref>). Genes involved in alpha‐linolenic acid metabolism, nicotinate and nicotinamide metabolism, and histidine biosynthesis were significantly elevated in CGS (<italic toggle="yes">p</italic> &lt; 0.05). Phosphate acetyltransferase (<italic toggle="yes">pta</italic>), which participates in acetate assimilation/dissimilation reactions, was significantly reduced in CGS, implicating its involvement in propanoate metabolism and taurine and hypotaurine metabolism (<italic toggle="yes">p</italic> &lt; 0.05).</p></sec><sec id="imt270000-sec-0110"><title>
+<italic toggle="yes">C. glycyrrhizinilyticum</italic> by oral gavaged aggravated gallstone formation</title><p>We selected three bacterial strains for validation, and the screening process is shown in Figure <xref rid="imt270000-fig-0004" ref-type="fig">4B</xref>. Subsequently, we subjected antibiotics‐depleted mice to an 8‐week intervention with these bacteria to assess their effects on gallstone formation (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5A</xref>). Our findings revealed that the incidence of gallstones was low (12.5%) in the control group, the presence of <italic toggle="yes">C. glycyrrhizinilyticum</italic> significantly increased gallstone formation (87.5%, <italic toggle="yes">p</italic> = 0.010), with visible leaflet crystals or cholesterol particles observed in gallbladders (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5B</xref>). Similarly, <italic toggle="yes">R. gnavus</italic> intervention also led to a notable increase in gallstone formation (50%, 4/8). However, gallstone formed in 62.5% (5/8) of the mice receiving <italic toggle="yes">F. prausnitzii</italic> compared to the control group. Real‐time PCR analysis confirmed a significant increase in the abundance of <italic toggle="yes">C. glycyrrhizinilyticum</italic> and <italic toggle="yes">R. gnavus</italic> in the intervention groups compared to the control group (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5C</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S16</xref>).</p><fig position="float" fig-type="Figure" id="imt270000-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Oral administration of selected species influenced LD‐induced cholesterol gallstones. (A) Schematic diagram for species gavage. (B) Gross appearance of the gallbladders and gallstones of mice in different groups. (C) Abundance of <italic toggle="yes">C. glycyrrhizinilyticum</italic>, <italic toggle="yes">R. gnavus</italic>, and <italic toggle="yes">F. prausnitzii</italic> quantified by qPCR with specific primers. (D) Representative images of H&amp;E‐stained and oil red‐stained liver sections (×200) in different groups. (E) The relative lipid content of each group. Each box centers on the median, with lower and upper bounds representing the first and third quartile (25th and 75th percentile), respectively (<italic toggle="yes">n</italic> = 8). (F) The ratio of liver weight to body weight in different groups. (G, H) Level of serum glucose and serum TBA. (I−L) Levels of serum ALT, AST, TC, and TG. ALT, alanine aminotransferase; AST, aspartate aminotransferase; Cg, <italic toggle="yes">Clostridium glycyrrhizinilyticum</italic>; Fp, <italic toggle="yes">Faecalibacterium prausnitzii</italic>; Rg, <italic toggle="yes">Ruminococcus gnavus</italic>; TC, total cholesterol; TG, triglycerides; TBA, total bile acid. <italic toggle="yes">p</italic>‐values were calculated using one‐way ANOVA with Dunnett's post hoc test.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="IMT2-4-e70000-g003.jpg"><?image-name IMT2-4-e70000-g003.jpg?><?image-size 141745?><?image-md5 9146c9edeae2791b324420f0159754b9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 810?><?image-original-width 1054?><?image-scaled-height 539?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/9146c9edeae2/IMT2-4-e70000-g003.jpg?><?thumb-name IMT2-4-e70000-g003.gif?><?thumb-size 6155?><?thumb-md5 0033e54eaf17c2200d64287f9fe56713?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 104?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/0033e54eaf17/IMT2-4-e70000-g003.gif?></graphic></fig><p>Further evaluation of histological and biochemical changes revealed marked liver histological damage in the <italic toggle="yes">C. glycyrrhizinilyticum</italic> and <italic toggle="yes">R. gnavus</italic> groups compared to controls (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5D</xref>). Oil red O staining confirmed increased lipid droplets in liver parenchyma, particularly in mice from <italic toggle="yes">C. glycyrrhizinilyticum</italic> and <italic toggle="yes">R. gnavus</italic> groups (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5E</xref>). Additionally, the liver weight‐to‐body weight ratio was significantly elevated in the <italic toggle="yes">R. gnavus</italic> group (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5F</xref>). Serum glucose and total bile acid (TBA) levels were increased in the <italic toggle="yes">R. gnavus</italic> group compared to controls, though not significantly (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5G,H</xref>). Serum alanine aminotransferase (ALT), aspartate aminotransferase (AST), and triglycerides (TG) did not show significant difference among groups. However, serum total cholesterol (TC) levels were significantly decreased in all intervention groups compared to controls (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0005" ref-type="fig">5I–L</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S17</xref>).</p></sec><sec id="imt270000-sec-0120"><title>FOS supplementation reduced LD‐induced cholesterol gallstones</title><p>Based on the enriched pathways of butanoate and propanoate metabolism, we focused on regulating SCFAs to explore an effective treatment for CGS (Figure <xref rid="imt270000-fig-0002" ref-type="fig">2G</xref>). The relative abundance of discriminatory microbial genes involved in the butanoate and propanoate metabolism pathways is shown in Figure <xref rid="imt270000-fig-0006" ref-type="fig">6A</xref>. When mice were fed a lithogenic diet (LD), gallstone formation was observed, with 100% incidence at 8 weeks. However, treatment with individual SCFAs, including sodium butyrate (NaB), sodium propionate (NaP), or NaA, did not eliminate cholesterol particles from the gallbladders, although they reduced leaflet crystals or stratified crystals compared to the LD group. Remarkably, mice treated with FOS showed no visible leaflet crystals or cholesterol particles in their gallbladders (0/12) (Figure <xref rid="imt270000-fig-0006" ref-type="fig">6B,C</xref>). Furthermore, all treatments protected against liver histological damage, with reduced liver parenchyma lipid accumulation compared to the control group (Figure <xref rid="imt270000-fig-0006" ref-type="fig">6D</xref>). Notably, treatment with NaA significantly reduced the relative liver lipid content (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270000-fig-0006" ref-type="fig">6E</xref>). Grading standards evaluation revealed that the grade of experimental gallstones in control mice was significantly higher than that in mice treated with NaA and FOS (Figure <xref rid="imt270000-fig-0006" ref-type="fig">6F</xref>).</p><fig position="float" fig-type="Figure" id="imt270000-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>FOS and SCFAs reduced LD‐induced cholesterol gallstones. Twelve mice were randomly assigned to each group and fed a lithogenic diet (LD) with saline, NaB, NaP, NaA, and FOS for 8 weeks (<italic toggle="yes">n</italic> = 12). (A) Relative abundance of the discriminatory microbial genes involved in the butanoate and propanoate metabolism pathways by Wilcox test. (B) Schematic diagram for intervention. (C) Gross appearance of the gallbladders and gallstones of mice in different groups. (D) Representative images of H&amp;E‐stained and oil red‐stained liver sections (×200) in different groups. (E) The relative lipid content of each group. (F) The grade of experimental cholesterol gallstones (CGSs) in the mice was based on the observed gallstone. (G) The ratio of liver weight to body weight in different groups. (H) Level of serum glucose. Each box centers on the median, with lower and upper bounds representing the first and third quartiles (25th and 75th percentile), respectively (<italic toggle="yes">n</italic> = 12). (I−M) Levels of serum ALT, AST, TC, TG, and TBA. ALT, alanine aminotransferase; AST, aspartate aminotransferase; FOS, fructooligosaccharide; NaB, sodium butyrate; NaP, sodium propionate; NaA, sodium acetate; SCFAs, short‐chain fatty acids; TC, total cholesterol; TG, triglycerides; TBA, total bile acid. <italic toggle="yes">p</italic>‐values were calculated using one‐way ANOVA with Dunnett's post hoc test.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="IMT2-4-e70000-g002.jpg"><?image-name IMT2-4-e70000-g002.jpg?><?image-size 191118?><?image-md5 5b52887ed76582507b06524a03be07f0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1193?><?image-original-width 1054?><?image-scaled-height 795?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/8648/11865347/5b52887ed765/IMT2-4-e70000-g002.jpg?><?thumb-name IMT2-4-e70000-g002.gif?><?thumb-size 7027?><?thumb-md5 c77b97d425b90e86bee299b8b3341303?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 113?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8648/11865347/c77b97d425b9/IMT2-4-e70000-g002.gif?></graphic></fig><p>Additionally, the liver‐weight to body‐weight ratio was significantly decreased in all treatment groups compared to the control group, with FOS treatment leading to a substantial decrease (<italic toggle="yes">p</italic> &lt; 0.05). Treatment with NaP and NaA significantly increased serum glucose levels (<italic toggle="yes">p</italic> &lt; 0.05). Serum TC and TBA were significantly reduced by all treatments (<italic toggle="yes">p</italic> &lt; 0.05). Moreover, compared to the control group, serum ALT was significantly reduced by NaB, NaP, and FOS treatment (<italic toggle="yes">p</italic> &lt; 0.05). Serum TG was significantly increased in mice treated with FOS (<italic toggle="yes">p</italic> &lt; 0.05), while serum AST was not affected by any treatment (Figure <xref rid="imt270000-fig-0006" ref-type="fig">6G–M</xref> and Table <xref rid="imt270000-suppl-0002" ref-type="supplementary-material">S18</xref>).</p></sec></sec><sec sec-type="discussion" id="imt270000-sec-0130"><title>DISCUSSION</title><p>Noninvasive treatments for gallstones remain a clinical challenge. It has been noted that gut microbiota interacts with the host and influences human health through metabolic changes. Multi‐omics studies have identified potential targets related to gallstone formation from various perspectives. Notably, several key bacterial strains such as <italic toggle="yes">F. prausnitzii</italic>, <italic toggle="yes">C. glycyrrhizinilyticum</italic>, and <italic toggle="yes">R. gnavus</italic> have stood out due to their associations with gut health and metabolic diseases [<xref rid="imt270000-bib-0021" ref-type="bibr">21</xref>, <xref rid="imt270000-bib-0022" ref-type="bibr">22</xref>]. Furthermore, we confirmed that oral gavage of <italic toggle="yes">C. glycyrrhizinilyticum</italic> could exacerbate gallstone formation. To evaluate effective interventions, we conducted experiments on SCFAs and, for the first time, discovered that the intake of FOS could completely inhibit the formation of gallstones induced by LD in mice. Our findings on the microbiota and metabolite profiles offer promising new therapeutic targets for CGS.</p><p>Gallstones can currently be detected using various techniques, including abdominal ultrasound, computed tomography (CT), magnetic resonance cholangiopancreatography (MRCP), and endoscopic retrograde cholangiopancreatography (ERCP). Abdominal ultrasonography is simple, cost‐effective, and noninvasive, making it the preferred method; however, it has low sensitivity for small stones and in obese patients. CT scans are expensive and involve radiation exposure. MRCP is highly sensitive but costly, requires contrast agents, and may not be suitable for all patients. ERCP is invasive and carries a risk of complications. Studies have shown that gut microbial biomarkers can differ between CGS and HCs [<xref rid="imt270000-bib-0023" ref-type="bibr">23</xref>, <xref rid="imt270000-bib-0024" ref-type="bibr">24</xref>, <xref rid="imt270000-bib-0025" ref-type="bibr">25</xref>]. However, similar studies still face limitations such as small sample sizes and insufficient control for confounding factors such as age and sex. Moreover, due to the high cost of metagenomic sequencing, most research to date has relied on 16S rRNA sequencing, which has limitations in resolving species‐level distinctions and exploring gene functions. Metabolite biomarkers have predominantly been studied in blood and bile samples, with a lack of large‐scale investigations focusing on fecal metabolites [<xref rid="imt270000-bib-0026" ref-type="bibr">26</xref>]. To address these gaps, we systematically analyzed and compared fecal microbial diversity at the species level and explored correlations with clinical indices to identify gut microbial and fecal metabolite biomarkers.</p><p>Consistent with previous studies linking phospholipase genes to GS [<xref rid="imt270000-bib-0027" ref-type="bibr">27</xref>, <xref rid="imt270000-bib-0028" ref-type="bibr">28</xref>], we observed a significant increase in the abundance of <italic toggle="yes">pldA</italic> in CGS. Phospholipase A activity disrupts bile composition by hydrolyzing essential phospholipids, leading to an imbalance that promotes the precipitation of cholesterol and other gallstone‐forming components. Enrichment analysis revealed that the abundance of alpha‐linolenic acid metabolism genes (<italic toggle="yes">pldA</italic>, <italic toggle="yes">fadA</italic>), nicotinate and nicotinamide metabolism genes (<italic toggle="yes">sthA</italic>, <italic toggle="yes">mazG</italic>), and histidine biosynthesis genes (<italic toggle="yes">hisG</italic>, <italic toggle="yes">hisl</italic>) were upregulated in all CGS. Conversely, fatty acid biosynthesis genes (<italic toggle="yes">FabG</italic>, <italic toggle="yes">ACSL</italic>) and butanoate and propanoate metabolism genes (<italic toggle="yes">madB</italic>, <italic toggle="yes">buk</italic>, <italic toggle="yes">OXCT</italic>, <italic toggle="yes">crt</italic>, <italic toggle="yes">PCCA</italic>, <italic toggle="yes">pta</italic>) were downregulated in all CGS. Phosphate acetyltransferase (<italic toggle="yes">pta</italic>), which participates in acetate assimilation/dissimilation reactions, was significantly reduced in CGS and was also involved in the taurine and hypotaurine metabolism. Variations in the gut microbiota and their enzymatic activity may account for these metabolite differences. In addition, glyoxylate and dicarboxylate metabolisms have previously been linked to atherosclerosis and obesity [<xref rid="imt270000-bib-0029" ref-type="bibr">29</xref>, <xref rid="imt270000-bib-0030" ref-type="bibr">30</xref>]. The glyoxylate cycle can metabolize fatty acids in a glutamate‐dependent manner. In summary, alterations in the gut microbiota influence the host through their metabolic products, involving pathways such as amino acid, fatty acid, and nicotinic acid metabolism. These alterations impact gallstone formation by modulating bile acid conjugation and solubility, exerting anti‐inflammatory effects, and affecting the synthesis, transport, or metabolism of cholesterol [<xref rid="imt270000-bib-0031" ref-type="bibr">31</xref>, <xref rid="imt270000-bib-0032" ref-type="bibr">32</xref>].</p><p>Considering the dominant differential bacterial species, the results of LEfSe analysis, and their contribution to clinical outcome indicators, and after excluding species that are difficult to obtain and culture, we ultimately selected three species. Among the three bacterial species identified in this study, <italic toggle="yes">R. gnavus</italic>, a well‐studied bacterium, has shown a positive association with various diseases, including inflammatory bowel disease, Crohn's disease, and metabolic disorders [<xref rid="imt270000-bib-0033" ref-type="bibr">33</xref>]. However, our results do not provide enough evidence to demonstrate that <italic toggle="yes">R. gnavus</italic> has a significant pro‐stone effect in mice. <italic toggle="yes">C. glycyrrhizinilyticum</italic>, a glycyrrhizin‐hydrolyzing bacterium derived from human feces, is considered a beneficial strain of <italic toggle="yes">Clostridium</italic> due to its various positive effects on the body. [<xref rid="imt270000-bib-0034" ref-type="bibr">34</xref>]. According to Wang et al., the presence of <italic toggle="yes">C. glycyrrhizinilyticum</italic> could elevate serum lipid levels and enhance the inflammatory response in rats with high‐fat diet‐induced nonalcoholic fatty liver disease (NAFLD) [<xref rid="imt270000-bib-0035" ref-type="bibr">35</xref>]. Moreover, liver lipid accumulation was aggravated after <italic toggle="yes">C. glycyrrhizinilyticum</italic> administration, while the levels of serum TC were significantly decreased compared to the LD group. Thus, oral administration of <italic toggle="yes">C. glycyrrhizinilyticum</italic> may promote histological damage in the liver and influence liver lipid metabolism, consequently promoting CGS formation. In addition, <italic toggle="yes">F. prausnitzii</italic> is a potential probiotic, which regulates intestinal health. Although we found improvements in AST, ALT, TC, and TBA after <italic toggle="yes">F. prausnitzii</italic> administration, it still could not significantly inhibit gallstone formation. <italic toggle="yes">F. prausnitzii</italic> typically acts on the host through the production of butyric acid, and we speculate that the level of butyric acid and the duration of the study might have been insufficient to influence the phenotype of gallstones.</p><p>In addition, we found that SCFAs metabolism disorder was associated with CGS, which was consistent with previous studies [<xref rid="imt270000-bib-0036" ref-type="bibr">36</xref>, <xref rid="imt270000-bib-0037" ref-type="bibr">37</xref>]. We found that the grade of experiment stones was significantly decreased in mice by NaA intervention, although the effects between NaP and NaB interventions were not significantly different. Ye et al. demonstrated that NaB mitigates cholesterol gallstones by modulating bile acid metabolism via the FXR‐FGF15/SHP signaling pathway [<xref rid="imt270000-bib-0036" ref-type="bibr">36</xref>]. Their research showed that administering 12 mg/day of NaB for 8 weeks reduced gallstone occurrence from 100% to 25%. The inconsistencies in our present results might be related to injection method, effective dose in vivo, and feed manufacturer, which need further study. Studies have shown that metabolites produced by the gut microbiota, particularly SCFAs, influence liver function and play a significant role in liver diseases such as NAFLD and liver cirrhosis [<xref rid="imt270000-bib-0038" ref-type="bibr">38</xref>, <xref rid="imt270000-bib-0039" ref-type="bibr">39</xref>]. More studies have explored the roles of prebiotics in regulating SCFAs in metabolic diseases [<xref rid="imt270000-bib-0019" ref-type="bibr">19</xref>, <xref rid="imt270000-bib-0040" ref-type="bibr">40</xref>, <xref rid="imt270000-bib-0041" ref-type="bibr">41</xref>]. A recent study showed that resistant starch decreases intrahepatic triglycerides in patients with NAFLD via gut microbiome alterations [<xref rid="imt270000-bib-0040" ref-type="bibr">40</xref>]. Among all prebiotics, FOS can notably increase the level of <italic toggle="yes">F. prausnitzii</italic>. We also found the effectiveness of FOS in mice with a significantly decreased level of serum TC, ALT, and TBA. Therefore, we hypothesize that FOS supplements may alleviate cholesterol gallstones by increasing SCFAs‐producing bacteria. Hu et al. reported the prepared pectin oligosaccharides (POS) exhibited hypocholesterolemic effects that were modulated by specific bacterial groups together with their metabolites [<xref rid="imt270000-bib-0041" ref-type="bibr">41</xref>]. Besides, Huang et al. recently reported that FOS attenuated NAFLD via regulating lipid metabolism [<xref rid="imt270000-bib-0019" ref-type="bibr">19</xref>]. Based on these studies, we assume that FOS may increase SCFAs levels by regulating the gut microbiota composition and that SCFAs play a beneficial role in preventing gallstones by regulating cholesterol metabolism and inhibiting the accumulation of lipids in the liver. Among the prebiotics currently recognized as safe natural food constituents, there are some concerns with the side effects, such as flatulence [<xref rid="imt270000-bib-0042" ref-type="bibr">42</xref>], jaundice, and cholestasis [<xref rid="imt270000-bib-0043" ref-type="bibr">43</xref>]. Singh et al. reported that feeding soluble fibers for 6 months caused cholestatic liver cancer in mice with an imbalance of intestinal flora [<xref rid="imt270000-bib-0044" ref-type="bibr">44</xref>]. Importantly, no significant side effects of FOS were noted in our study with mice. However, as the experiment lasted only 8 weeks, a longer duration is necessary to further validate these findings.</p><p>The innovations in our study include the use of multi‐omics data for discovery and phenotypic verification. These data helped us to expand the lithiogen species spectrum. We also have demonstrated for the first time in mice models that dietary FOS is effective in preventing stone development. Despite these meaningful findings, as a cross‐sectional study, some changes in bacterial composition and metabolites might have been caused by confounding factors (e.g., diet, medication history), which need to be clarified through mechanistic experiments in our future work. Although our research findings did not delve into the mechanisms, the current results serve as a springboard for further investigations, aiming to stimulate more research on microbial‐targeted interventions involving probiotics and prebiotics and identify effective preventive and noninvasive treatment modalities for patients with gallstones.</p><p>This study has some limitations. First, we focused primarily on the preventive rather than the therapeutic effects of FOS on CGS, examining its protective role against stones in animals. Further studies are needed to explore both the preventive and therapeutic effects of dietary fiber oligosaccharides in clinical patients. Second, the effect of SCFA interventions did not completely inhibit stones, and whether it is related to the intervention time and dose needs further research. Third, we used male mice in this study, and the potential impact of sex on the results has not been assessed. Fourth, the role of <italic toggle="yes">C. glycyrrhizinilyticum</italic> should be further explored in germ‐free mice. Finally, the molecular mechanism disturbing the cholesterol metabolism by FOS needs to be further elucidated.</p></sec><sec sec-type="conclusions" id="imt270000-sec-0140"><title>CONCLUSION</title><p>
+<italic toggle="yes">C. glycyrrhizinilyticum</italic> carriage promotes gallstone formation. FOS can be a new, cost‐effective, and relatively simple microbiota‐targeted therapeutic approach for CGS. Our findings could help deepen the understanding of CGS pathogenesis and pave the way for the development of novel microbiome‐based treatments or microbiota‐targeted foods.</p></sec><sec sec-type="methods" id="imt270000-sec-0150"><title>METHODS</title><sec id="imt270000-sec-0160"><title>Subjects and design</title><p>The study was approved by the Ethics Committees of Beijing Hospital (approval number: 2021BJYYEC‐243‐01). Informed consent forms have been collected from this study's participant, who provided their feces, bile, and stone samples. This study recruited 66 gallstone patients and 53 HCs from the Department of Surgery of Beijing Hospital affiliated from April 1, 2020, to June 1, 2021. A total of 72 samples (47 bile samples and 25 stone samples) were obtained from these 66 patients during cholecystectomy. We collected clinical metadata, including age, sex, BMI, glucose, blood routine, and biochemical indicators. HCs were recruited through advertisements and were also assessed with ultrasonography to ensure that they did not have gallstones. The inclusion criteria of the patients were as follows: (a) having undergone ultrasonography; (b) with a diagnosis of gallstone; and (c) understood the study and signed the informed consent form. The exclusion criteria included: (a) with severe gastrointestinal diseases (inflammatory bowel diseases, cancer, and/or advanced adenoma); (b) using immunosuppressive agents or antibiotics within 30 days or probiotic products within 14 days; (c) with metabolic disorders, such as obesity, diabetes mellitus, hyperlipidemia, chronic bowel disease, chronic diarrhea, and/or constipation; (d) long‐term use of contraceptive drugs; (e) pregnant women; and (f) current and ex‐smokers. Participants were supplied with a fecal collection kit and instructed to collect feces.</p></sec><sec id="imt270000-sec-0170"><title>Microbiota analysis</title><p>DNA extraction and sequencing methods are detailed in online supplementary materials. Alpha diversity index (such as observed ASVs, Chao1, Shannon, and Simpson) took into account the number and evenness of the bacteria in a sample. PCoA was used to interrogate the robustness of group‐wise clustering, and the Adonis test was used to estimate group‐wise beta diversity. Diversity and richness analyses were done with R 4.1.2 using the vegan package (V.2.6‐4). The 30 gallstone participants and their sex and aged‐matched controls were picked out to perform difference analysis. Bacterial species with a mean relative abundance of ≥0.001% combined with a prevalence of ≥10% was selected for difference analysis.</p></sec><sec id="imt270000-sec-0180"><title>Mice experiments</title><p>Male C57BL/6J mice were bought from SPF Biotechnology Co. Ltd and were used to induce a mouse model of gallbladder gallstones (20–22 g, SPF grade). Male mice (at the age of 8 weeks) were fed with LD (containing 1.25% cholesterol and 0.5% cholic acid, synthesized by Xietong Pharmaceutical Bio‐engineering Co. Ltd, Jiangsu, China) for 8 weeks before sacrifice. The mice were bred on a 12‐h light/12‐h dark cycle in a controlled temperature (22.5 ± 2.5°C) and humidity (50 ± 5%) environment. All experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) of Peking University Health Science Center (PUIRB‐LA2023004, No. BCJG0185).</p><p>In bacteria transplantation study, <italic toggle="yes">Ruminococcus gnavus</italic> (Rg, BNCC319000), <italic toggle="yes">C. glycyrrhizinilyticum</italic> (Cg, JCM‐13368), and <italic toggle="yes">Faecalibacterium prausnitzii</italic> (Fp, DSM‐107838) were purchased by BeNa Culture Collection Co. Ltd. (Beijing, China), and cultured under strict anaerobic conditions overnight. C57BL/6J mice were depleted of gut microbes by antibiotics (Abx) cocktails (containing 0.5 g/L vancomycin, 1 g/L neomycin sulfate, 1 g/L metronidazole, 1 g/L ampicillin) in drinking water for 1 week, meanwhile, oral gavaged once per day. Then, the mice were orally gavaged with 200 μL sterile normal saline or live Rg, Cg, or Fp at a dose of 10<sup>9</sup> colony‐forming units/mL in sterile PBS, respectively, four times a week for 3 weeks. Upon starting of gavage, mice were fed with LD for 8 weeks (<italic toggle="yes">n</italic> = 8 mice/group).</p><p>In SCFAs intervention study, sodium acetate (NaA, S818278, Macklin), sodium propionate (NaP, S817368, Macklin), and sodium butyrate (NaB, S817488, Macklin) have been delivered to mice via intraperitoneal (IP) injection. To determine the effect of SCFAs, the mice fed an LD received 200 μL of NaA solutions (300 mg/kg), NaP (300 mg/kg), and NaB (300 mg/kg) for 8 weeks, respectively. The LD group received an equal volume of normal saline to serve as the control (<italic toggle="yes">n</italic> = 12 mice/group).</p><p>In the FOS intervention study, the experiment group was given a standard chow diet supplemented with 10% FOS for 1 week and then given LD supplemented with 10% FOS (Quantum Hi‐Tech Biological Co. Ltd.) for 8 weeks. The control group was given the same diet without FOS (<italic toggle="yes">n</italic> = 12 mice/group).</p><p>All mice were fasted 8 h before sacrifice. The grading standards developed by Akiyoshi and colleagues based on the cholesterol content were used to evaluate the grade of gallstones [<xref rid="imt270000-bib-0045" ref-type="bibr">45</xref>]. The blood sample was obtained by heart puncture and centrifuged at 900 <italic toggle="yes">g</italic> for 10 min at 4°C for subsequent biochemical analysis. Serum biochemical indicators were measured by a Hitachi fast automatic biochemical analyzer (LABOSPECT 008 AS). Liver and cecal contents were collected and stored at −80°C under analysis.</p></sec><sec id="imt270000-sec-0190"><title>Histology</title><p>Fresh liver specimens were fixed in 4% neutral paraformaldehyde at room temperature for 24 h. Paraffin‐embedded sections (4 μm) were stained with hematoxylin and eosin (H&amp;E). Oil‐red O staining was used to measure hepatic lipid accumulation. Frozen liver sections (6 μm) were stained with oil red O lipid stain, and the relative lipid content was quantified by ImageJ.</p></sec><sec id="imt270000-sec-0200"><title>Statistical analysis</title><p>Statistical analyses were performed using R 4.1.2 software. Continuous variables were expressed as mean ± standard deviation (SD) for normally distributed data, and as median with interquartile range (IQR) for non‐normally distributed data. The Shapiro–Wilk test was used to assess normality. Differences between groups were analyzed using an unpaired Student's <italic toggle="yes">t</italic>‐test for normally distributed variables and a Wilcoxon rank‐sum test for non‐normally distributed variables. For multiple group comparisons, one‐way analysis of variance (ANOVA) was used for normally distributed data, followed by Dunnett's post hoc test, while the Kruskal‐Wallis test was applied for non‐normally distributed data, with Dunn's test for pairwise comparisons. Categorical data were analyzed by the chi‐square test or Fisher's exact test. Data process and visualization were performed by R packages including dplyr, readr, stringr, ggplot2, ggsci, aPCoA, pheatmap, ggraph, corrplot, psych, DESeq. 2, vegan, and ggsignif. Differential abundance of phyla, genera, species, and functional modules between any two groups was tested by Wilcoxon rank‐sum test, <italic toggle="yes">p</italic>‐value was corrected as false discovery rate with the Benjamini–Hochberg method. The variation of liver function‐related biochemistry traits explained by gut bacterial species and metabolites was calculated using univariate linear regression. Spearman's correlation analysis was performed to analyze the correlations between clinical index or metabolites and bacterial species. The thresholds of Spearman correlations were <italic toggle="yes">rs</italic> &gt; 0.7 and <italic toggle="yes">p</italic> ≤ 0.05 and visualized by heatmap. The univariate and multivariable logistic regression model was used to evaluate diagnostic performance, and the area under the receiver operating characteristic curve was calculated. A <italic toggle="yes">p</italic> &lt; 0.05 or <italic toggle="yes">q</italic> &lt; 0.1 was considered as statistically significant.</p></sec></sec><sec id="imt270000-sec-0210"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Ye Liu</bold>: Writing—original draft; writing—review and editing; visualization; formal analysis; data curation; software; methodology. <bold>Hexin Li</bold>: Resources; investigation; data curation. <bold>Tianhan Sun</bold>: Methodology; software. <bold>Gaoyuan Sun</bold>: Methodology; investigation; data curation. <bold>Boyue Jiang</bold>: Methodology; software. <bold>Meilan Liu</bold>: Data curation; software. <bold>Qing Wang</bold>: Data curation; investigation. <bold>Tong Li</bold>: Investigation; software. <bold>Jianfu Cao</bold>: Validation; data curation. <bold>Li Zhao</bold>: Validation; methodology; software. <bold>Fei Xiao</bold>: Conceptualization; writing—review and editing; project administration. <bold>Fangqing Zhao</bold>: Conceptualization; project administration; writing—review and editing. <bold>Hongyuan Cui</bold>: Resources; project administration; conceptualization; writing—review and editing.</p></sec><sec sec-type="COI-statement" id="imt270000-sec-0230"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270000-sec-0260"><title>ETHICS STATEMENT</title><p>The study was approved by the Ethics Committees of Beijing Hospital (approval number: 2021BJYYEC‐243‐01). All experimental procedures were approved by the Institutional Animal Care and Use Committee (IACUC) of Peking University Health Science Center (PUIRB‐LA2023004, No. BCJG0185). All subjects provided informed consent to participate.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270000-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1.</bold> Gut and biliary tract microbiome community.</p><p>
+<bold>Figure S2.</bold> The difference of gut microbiota in CGS (<italic toggle="yes">n</italic> = 30) and HCs (<italic toggle="yes">n</italic> = 30) according to the 16S rRNA data.</p><p>
+<bold>Figure S3.</bold> Conjoint analysis of microbiota and metabolites in bile samples.</p><p>
+<bold>Figure S4.</bold> Genes possibly associated with gallstones in previous studies.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70000-s002.docx" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70000-s002.docx?><?suppdata-size 6569151?><?suppdata-md5 328172da17445d6b36ff23e43c24cae8?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:8648/11865347/328172da1744/IMT2-4-e70000-s002.docx?></media></supplementary-material><supplementary-material id="imt270000-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Alpha diversity indices of ASVs among groups based on 16S rRNA sequencing.</p><p>
+<bold>Table S2.</bold> Alpha diversity indices of age‐ and sex‐matched samples' gut microbiota at ASVs levels based on 16S rRNA sequencing.</p><p>
+<bold>Table S3.</bold> Principal coordinate analysis (PCoA) of the gut microbiota based on the bray‐curtis distance metrics for CGS and matched HCs by 16S rRNA sequencing.</p><p>
+<bold>Table S4.</bold> Different bacteria of the gut microbiota at the genus level for CGS and matched HCs by 16S rRNA sequencing (Wald test, FDR‐corrected <italic toggle="yes">q</italic> &lt; 0.05, and fold change &gt; 2).</p><p>
+<bold>Table S5.</bold> Correlations between selected different metabolites and different genera (matched samples).</p><p>
+<bold>Table S6.</bold> Relative abundance of different species between CGS and HCs groups.</p><p>
+<bold>Table S7.</bold> The variance of biochemical indices explained by different bacterial species.</p><p>
+<bold>Table S8.</bold> Relative abundance of different KEEG pathways at level 3.</p><p>
+<bold>Table S9.</bold> 121 different metabolites for CGS and matched HCs.</p><p>
+<bold>Table S10.</bold> Significantly enriched pathways by 121 differential metabolites.</p><p>
+<bold>Table S11.</bold> Receiver operating characteristic (ROC) analysis to discriminate CGS from HCs individually.</p><p>
+<bold>Table S12.</bold> The variance of biochemical indices explained by different metabolites.</p><p>
+<bold>Table S13.</bold> Correlations between selected different metabolites and different species.</p><p>
+<bold>Table S14.</bold> Correlations between bile metabolites and bile unique species.</p><p>
+<bold>Table S15.</bold> CGS‐associated changes in microbial genes summarized in KO genes and KEGG pathway modules.</p><p>
+<bold>Table S16.</bold> qPCR CT values.</p><p>
+<bold>Table S17.</bold> Animal clinical indicators of single bacteria transplantation.</p><p>
+<bold>Table S18</bold>. Animal clinical indicators of FOS and SCFAs intervention groups.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70000-s001.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70000-s001.xlsx?><?suppdata-size 326543?><?suppdata-md5 f2c828dfe09f993c1775e45f8a7c225e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:8648/11865347/f2c828dfe09f/IMT2-4-e70000-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270000-sec-0220"><title>ACKNOWLEDGMENTS</title><p>This work was supported by grants from the National Key R&amp;D Program (2022YFA1303900, 2021YFA1301000), the National Natural Science Foundation of China (82373426, 32025009, 32071463), the Fundamental Research Funds for the Central Universities (3332019121), the National Key Research and Development Program of China (grants no. 2018YFC2000505), CAMS Innovation Fund for Medical Sciences (grant no. 2021‐I2M‐1‐050).</p></ack><sec sec-type="data-availability" id="imt270000-sec-0250"><title>DATA AVAILABILITY STATEMENT</title><p>The raw sequence data reported in this paper have been deposited to the China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (GSA‐Human: HRA004238) that are publicly accessible at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://bigd.big.ac.cn/gsa-human/browse/HRA004238" ext-link-type="uri" specific-use="software is-supplemented-by">https://bigd.big.ac.cn/gsa-human/browse/HRA004238</ext-link>. The metabolome data reported in this paper have been deposited in the OMIX (accession no. OMIX003481), China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://download.cncb.ac.cn/OMIX/OMIX003481/" ext-link-type="uri" specific-use="software is-supplemented-by">https://download.cncb.ac.cn/OMIX/OMIX003481/</ext-link>). The data and scripts used are saved in GitHub (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/rhyer0418/CGS-project" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/rhyer0418/CGS-project</ext-link>). Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt270000-bibl-0001"><title>REFERENCES</title><ref id="imt270000-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270000-cit-0001">
+<string-name name-style="western">
+<surname>Portincasa</surname>, <given-names>Piero</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Antonio</given-names>
+<surname>Moschetta</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Giuseppe</given-names>
+<surname>Palasciano</surname>
+</string-name>. <year>2006</year>. “<article-title>Cholesterol Gallstone Disease</article-title>.” <source>The Lancet</source>
+<volume>368</volume>: <fpage>230</fpage>–<lpage>239</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(06)69044-2</pub-id>
+<pub-id pub-id-type="pmid">16844493</pub-id></mixed-citation></ref><ref id="imt270000-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270000-cit-0002">
+<string-name name-style="western">
+<surname>Rebholz</surname>, <given-names>Charlotte</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marcin</given-names>
+<surname>Krawczyk</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Frank</given-names>
+<surname>Lammert</surname>
+</string-name>. <year>2018</year>. “<article-title>Genetics of Gallstone Disease</article-title>.” <source>European Journal of Clinical Investigation</source>
+<volume>48</volume>: <elocation-id>e12935</elocation-id>. <pub-id pub-id-type="doi">10.1111/eci.12935</pub-id>
+<pub-id pub-id-type="pmid">29635711</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270000-cit-0003">
+<string-name name-style="western">
+<surname>Di Ciaula</surname>, <given-names>Agostino</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David Q. H.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Piero</given-names>
+<surname>Portincasa</surname>
+</string-name>. <year>2018</year>. “<article-title>An Update on the Pathogenesis of Cholesterol Gallstone Disease</article-title>.” <source>Current Opinion in Gastroenterology</source>
+<volume>34</volume>: <fpage>71</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1097/MOG.0000000000000423</pub-id>
+<pub-id pub-id-type="pmid">29283909</pub-id>
+<pub-id pub-id-type="pmcid">PMC8118137</pub-id></mixed-citation></ref><ref id="imt270000-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270000-cit-0004">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Qihan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Long</given-names>
+<surname>Jiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuanqi</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haidong</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qu</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tianquan</given-names>
+<surname>Han</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Hai</given-names>
+<surname>Hu</surname>
+</string-name>. <year>2017</year>. “<article-title>Alteration of Gut Microbiota in Association With Cholesterol Gallstone Formation in Mice</article-title>.” <source>BMC Gastroenterology</source>
+<volume>17</volume>: <fpage>74</fpage>. <pub-id pub-id-type="doi">10.1186/s12876-017-0629-2</pub-id>
+<pub-id pub-id-type="pmid">28599622</pub-id>
+<pub-id pub-id-type="pmcid">PMC5466737</pub-id></mixed-citation></ref><ref id="imt270000-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270000-cit-0005">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>Jie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lulu</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Frank J.</given-names>
+<surname>Gonzalez</surname>
+</string-name>. <year>2022</year>. “<article-title>Gut Microbiota‐Derived Bile Acids in Intestinal Immunity, Inflammation, and Tumorigenesis</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>30</volume>: <fpage>289</fpage>–<lpage>300</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2022.02.004</pub-id>
+<pub-id pub-id-type="pmid">35271802</pub-id>
+<pub-id pub-id-type="pmcid">PMC8923532</pub-id></mixed-citation></ref><ref id="imt270000-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270000-cit-0006">
+<string-name name-style="western">
+<surname>Staley</surname>, <given-names>Christopher</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexa R.</given-names>
+<surname>Weingarden</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander</given-names>
+<surname>Khoruts</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Michael J.</given-names>
+<surname>Sadowsky</surname>
+</string-name>. <year>2017</year>. “<article-title>Interaction of Gut Microbiota With Bile Acid Metabolism and Its Influence on Disease States</article-title>.” <source>Applied Microbiology and Biotechnology</source>
+<volume>101</volume>: <fpage>47</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1007/s00253-016-8006-6</pub-id>
+<pub-id pub-id-type="pmid">27888332</pub-id>
+<pub-id pub-id-type="pmcid">PMC5203956</pub-id></mixed-citation></ref><ref id="imt270000-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270000-cit-0007">
+<string-name name-style="western">
+<surname>Agus</surname>, <given-names>Allison</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Karine</given-names>
+<surname>Clément</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Harry</given-names>
+<surname>Sokol</surname>
+</string-name>. <year>2021</year>. “<article-title>Gut Microbiota‐Derived Metabolites as Central Regulators in Metabolic Disorders</article-title>.” <source>Gut</source>
+<volume>70</volume>: <fpage>1174</fpage>–<lpage>1182</lpage>. <pub-id pub-id-type="doi">10.1136/gutjnl-2020-323071</pub-id>
+<pub-id pub-id-type="pmid">33272977</pub-id>
+<pub-id pub-id-type="pmcid">PMC8108286</pub-id></mixed-citation></ref><ref id="imt270000-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270000-cit-0008">
+<string-name name-style="western">
+<surname>Kenny</surname>, <given-names>Douglas J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Damian R.</given-names>
+<surname>Plichta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dmitry</given-names>
+<surname>Shungin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nitzan</given-names>
+<surname>Koppel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. Brantley</given-names>
+<surname>Hall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Beverly</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ramachandran S.</given-names>
+<surname>Vasan</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Cholesterol Metabolism by Uncultured Human Gut Bacteria Influences Host Cholesterol Level</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>28</volume>: <fpage>245</fpage>–<lpage>257.e246</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2020.05.013</pub-id>
+<pub-id pub-id-type="pmid">32544460</pub-id>
+<pub-id pub-id-type="pmcid">PMC7435688</pub-id></mixed-citation></ref><ref id="imt270000-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270000-cit-0009">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Hai</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Wentao</given-names>
+<surname>Shao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qian</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ning</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qihan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jin</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xin</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Gut Microbiota Promotes Cholesterol Gallstone Formation by Modulating Bile Acid Composition and Biliary Cholesterol Secretion</article-title>.” <source>Nature Communications</source>
+<volume>13</volume>: <fpage>252</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-021-27758-8</pub-id>
+<pub-id pub-id-type="pmcid">PMC8752841</pub-id><pub-id pub-id-type="pmid">35017486</pub-id></mixed-citation></ref><ref id="imt270000-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270000-cit-0010">
+<string-name name-style="western">
+<surname>Ye</surname>, <given-names>Xin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dan</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhixia</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoxin</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Min</given-names>
+<surname>Ning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shuang</given-names>
+<surname>Shen</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>FXR Signaling‐Mediated Bile Acid Metabolism Is Critical for Alleviation of Cholesterol Gallstones by Lactobacillus Strains</article-title>.” <source>Microbiology Spectrum</source>
+<volume>10</volume>: <fpage>e00518</fpage>–<lpage>e00522</lpage>. <pub-id pub-id-type="doi">10.1128/spectrum.00518-22</pub-id>
+<pub-id pub-id-type="pmid">36036629</pub-id>
+<pub-id pub-id-type="pmcid">PMC9603329</pub-id></mixed-citation></ref><ref id="imt270000-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270000-cit-0011">
+<string-name name-style="western">
+<surname>The British–Italian Gallstone Study Group</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>Petroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Jazrawi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Pazzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lanzini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zuin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Pigozzi</surname>
+</string-name>, et al. <year>2001</year>. “<article-title>Ursodeoxycholic Acid Alone or With Chenodeoxycholic Acid for Dissolution of Cholesterol Gallstones: A Randomized Multicentre Trial</article-title>.” <source>Alimentary Pharmacology &amp; Therapeutics</source>
+<volume>15</volume>: <fpage>123</fpage>–<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1046/j.1365-2036.2001.00853.x</pub-id>
+<pub-id pub-id-type="pmid">11136285</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270000-cit-0012">
+<string-name name-style="western">
+<surname>Hall</surname>, <given-names>Lewis</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>James</given-names>
+<surname>Halle‐Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Richard</given-names>
+<surname>Evans</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Giles</given-names>
+<surname>Toogood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tom</given-names>
+<surname>Wiggins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sheraz R.</given-names>
+<surname>Markar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Spyros</given-names>
+<surname>Kapoulas</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Ursodeoxycholic Acid in the Management of Symptomatic Gallstone Disease: Systematic Review and Clinician Survey</article-title>.” <source>BJS Open</source>
+<volume>7</volume>: <elocation-id>zrac152</elocation-id>. <pub-id pub-id-type="doi">10.1093/bjsopen/zrac152</pub-id>
+<pub-id pub-id-type="pmid">36952251</pub-id>
+<pub-id pub-id-type="pmcid">PMC10035564</pub-id></mixed-citation></ref><ref id="imt270000-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270000-cit-0013">
+<string-name name-style="western">
+<surname>Rice</surname>, <given-names>Christopher P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Krishnamurthy B.</given-names>
+<surname>Vaishnavi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Celia</given-names>
+<surname>Chao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Jupiter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>August B.</given-names>
+<surname>Schaeffer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Whitney R.</given-names>
+<surname>Jenson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lance W.</given-names>
+<surname>Griffin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>William J.</given-names>
+<surname>Mileski</surname>
+</string-name>. <year>2019</year>. “<article-title>Operative Complications and Economic Outcomes of Cholecystectomy for Acute Cholecystitis</article-title>.” <source>World Journal of Gastroenterology</source>
+<volume>25</volume>: <fpage>6916</fpage>–<lpage>6927</lpage>. <pub-id pub-id-type="doi">10.3748/wjg.v25.i48.6916</pub-id>
+<pub-id pub-id-type="pmid">31908395</pub-id>
+<pub-id pub-id-type="pmcid">PMC6938729</pub-id></mixed-citation></ref><ref id="imt270000-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270000-cit-0014">
+<string-name name-style="western">
+<surname>Feng</surname>, <given-names>Xiaoxi (Chelsea)</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Edward</given-names>
+<surname>Phillips</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Daniel</given-names>
+<surname>Shouhed</surname>
+</string-name>. <year>2021</year>. “<article-title>Management of Postcholecystectomy Complications</article-title>.” <source>Surgical Clinics of North America</source>
+<volume>101</volume>: <fpage>889</fpage>–<lpage>910</lpage>. <pub-id pub-id-type="doi">10.1016/j.suc.2021.06.012</pub-id>
+<pub-id pub-id-type="pmid">34537150</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270000-cit-0015">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Gang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yang</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu‐Zhu</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun‐Jie</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rui</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yan</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Feng</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Gao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xing‐Li</given-names>
+<surname>Fu</surname>
+</string-name>. <year>2019</year>. “<article-title>Role of SCFAs in Gut Microbiome and Glycolysis for Colorectal Cancer Therapy</article-title>.” <source>Journal of Cellular Physiology</source>
+<volume>234</volume>: <fpage>17023</fpage>–<lpage>17049</lpage>. <pub-id pub-id-type="doi">10.1002/jcp.28436</pub-id>
+<pub-id pub-id-type="pmid">30888065</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270000-cit-0016">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Yao‐Jiang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Bo</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Feng‐Chao</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Li</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuan‐Yuan</given-names>
+<surname>Lei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ya</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sheng‐Jie</given-names>
+<surname>Huang</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Parthenolide Ameliorates Colon Inflammation through Regulating Treg/Th17 Balance in a Gut Microbiota‐Dependent Manner</article-title>.” <source>Theranostics</source>
+<volume>10</volume>: <fpage>5225</fpage>–<lpage>5241</lpage>. <pub-id pub-id-type="doi">10.7150/thno.43716</pub-id>
+<pub-id pub-id-type="pmid">32373209</pub-id>
+<pub-id pub-id-type="pmcid">PMC7196297</pub-id></mixed-citation></ref><ref id="imt270000-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270000-cit-0017">
+<string-name name-style="western">
+<surname>Pujo</surname>, <given-names>Julien</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Camille</given-names>
+<surname>Petitfils</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pauline</given-names>
+<surname>Le Faouder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Venessa</given-names>
+<surname>Eeckhaut</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gaelle</given-names>
+<surname>Payros</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sarah</given-names>
+<surname>Maurel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Teresa</given-names>
+<surname>Perez‐Berezo</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Bacteria‐Derived Long Chain Fatty Acid Exhibits Anti‐Inflammatory Properties in Colitis</article-title>.” <source>Gut</source>
+<volume>70</volume>: <fpage>1088</fpage>–<lpage>1097</lpage>. <pub-id pub-id-type="doi">10.1136/gutjnl-2020-321173</pub-id>
+<pub-id pub-id-type="pmid">32978245</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270000-cit-0018">
+<string-name name-style="western">
+<surname>Liao</surname>, <given-names>Minjing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yuanfang</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yilan</given-names>
+<surname>Qiu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhengchun</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhihong</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoqi</given-names>
+<surname>Zeng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yiliang</given-names>
+<surname>Zeng</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Fructooligosaccharide Supplementation Alleviated the Pathological Immune Response and Prevented the Impairment of Intestinal Barrier in DSS‐Induced Acute Colitis Mice</article-title>.” <source>Food &amp; Function</source>
+<volume>12</volume>: <fpage>9844</fpage>–<lpage>9854</lpage>. <pub-id pub-id-type="doi">10.1039/D1FO01147B</pub-id>
+<pub-id pub-id-type="pmid">34664584</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270000-cit-0019">
+<string-name name-style="western">
+<surname>Huang</surname>, <given-names>Xiaoqing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Qiongyun</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanyun</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Renzhi</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guoyu</given-names>
+<surname>Gong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Changsheng</given-names>
+<surname>Yan</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Song</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Fructooligosaccharides Attenuate Non‐Alcoholic Fatty Liver Disease by Remodeling Gut Microbiota and Association With Lipid Metabolism</article-title>.” <source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>159</volume>: <elocation-id>114300</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.biopha.2023.114300</pub-id>
+<pub-id pub-id-type="pmid">36696803</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270000-cit-0020">
+<string-name name-style="western">
+<surname>Hughes</surname>, <given-names>Riley L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David A.</given-names>
+<surname>Alvarado</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kelly S.</given-names>
+<surname>Swanson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Hannah D.</given-names>
+<surname>Holscher</surname>
+</string-name>. <year>2022</year>. “<article-title>The Prebiotic Potential of Inulin‐Type Fructans: A Systematic Review</article-title>.” <source>Advances in Nutrition</source>
+<volume>13</volume>: <fpage>492</fpage>–<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1093/advances/nmab119</pub-id>
+<pub-id pub-id-type="pmid">34555168</pub-id>
+<pub-id pub-id-type="pmcid">PMC8970830</pub-id></mixed-citation></ref><ref id="imt270000-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt270000-cit-0021">
+<string-name name-style="western">
+<surname>Zhai</surname>, <given-names>Lixiang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chunhua</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ziwan</given-names>
+<surname>Ning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yijing</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Min</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaolei</given-names>
+<surname>Wang</surname>
+</string-name>, et al <year>2023</year>. “<article-title>Ruminococcus Gnavus Plays a Pathogenic Role in Diarrhea‐Predominant Irritable Bowel Syndrome by Increasing Serotonin Biosynthesis</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>31</volume>: <fpage>33</fpage>–<lpage>44</lpage>.<elocation-id>e5</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.chom.2022.11.006</pub-id>
+<pub-id pub-id-type="pmid">36495868</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt270000-cit-0022">
+<string-name name-style="western">
+<surname>Lopez‐Siles</surname>, <given-names>Mireia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sylvia H.</given-names>
+<surname>Duncan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. Jesús</given-names>
+<surname>Garcia‐Gil</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Margarita</given-names>
+<surname>Martinez‐Medina</surname>
+</string-name>. <year>2017</year>. “<article-title>Faecalibacterium Prausnitzii: From Microbiology to Diagnostics and Prognostics</article-title>.” <source>The ISME Journal</source>
+<volume>11</volume>: <fpage>841</fpage>–<lpage>852</lpage>. <pub-id pub-id-type="doi">10.1038/ismej.2016.176</pub-id>
+<pub-id pub-id-type="pmid">28045459</pub-id>
+<pub-id pub-id-type="pmcid">PMC5364359</pub-id></mixed-citation></ref><ref id="imt270000-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt270000-cit-0023">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Hua</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Junfeng</given-names>
+<surname>Gong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jingyi</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanjun</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Dengqun</given-names>
+<surname>Sun</surname>
+</string-name>. <year>2024</year>. “<article-title>Intestinal Microbiota and Biliary System Diseases</article-title>.” <source>Frontiers in Cellular and Infection Microbiology</source>
+<volume>14</volume>: <elocation-id>1362933</elocation-id>. <pub-id pub-id-type="doi">10.3389/fcimb.2024.1362933</pub-id>
+<pub-id pub-id-type="pmid">38558851</pub-id>
+<pub-id pub-id-type="pmcid">PMC10978682</pub-id></mixed-citation></ref><ref id="imt270000-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt270000-cit-0024">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Junqing</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jichao</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xinpeng</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kaijin</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ayan</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qin</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanjun</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yi</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Tongtong</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2023</year>. “<article-title>Landscape in the Gallbladder Mycobiome and Bacteriome of Patients Undergoing Cholelithiasis With Chronic Cholecystitis</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>14</volume>: <elocation-id>1131694</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2023.1131694</pub-id>
+<pub-id pub-id-type="pmid">37032855</pub-id>
+<pub-id pub-id-type="pmcid">PMC10073429</pub-id></mixed-citation></ref><ref id="imt270000-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt270000-cit-0025">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Qiang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chenjun</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wenchao</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Defu</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haifeng</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Long</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Biao</given-names>
+<surname>Ma</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Intestinal Flora Imbalance Affects Bile Acid Metabolism and Is Associated With Gallstone Formation</article-title>.” <source>BMC Gastroenterology</source>
+<volume>20</volume>: <fpage>59</fpage>. <pub-id pub-id-type="doi">10.1186/s12876-020-01195-1</pub-id>
+<pub-id pub-id-type="pmid">32143645</pub-id>
+<pub-id pub-id-type="pmcid">PMC7060658</pub-id></mixed-citation></ref><ref id="imt270000-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt270000-cit-0026">
+<string-name name-style="western">
+<surname>Han</surname>, <given-names>Xu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Juan</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yingnan</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hao</given-names>
+<surname>Gu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ning</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xing</given-names>
+<surname>Liao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Miao</given-names>
+<surname>Jiang</surname>
+</string-name>. <year>2024</year>. “<article-title>Predictive Value of Bile Acids as Metabolite Biomarkers for Gallstone Disease: A Systematic Review and Meta‐Analysis</article-title>.” <source>PLoS One</source>
+<volume>19</volume>: <elocation-id>e0305170</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0305170</pub-id>
+<pub-id pub-id-type="pmid">39052638</pub-id>
+<pub-id pub-id-type="pmcid">PMC11271903</pub-id></mixed-citation></ref><ref id="imt270000-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt270000-cit-0027">
+<string-name name-style="western">
+<surname>Stewart</surname>, <given-names>Lygia</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. McLeod</given-names>
+<surname>Grifiss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gary A.</given-names>
+<surname>Jarvis</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Lawrence W.</given-names>
+<surname>Way</surname>
+</string-name>. <year>2006</year>. “<article-title>Biliary Bacterial Factors Determine the Path of Gallstone Formation</article-title>.” <source>The American Journal of Surgery</source>
+<volume>192</volume>: <fpage>598</fpage>–<lpage>603</lpage>. <pub-id pub-id-type="doi">10.1016/j.amjsurg.2006.08.001</pub-id>
+<pub-id pub-id-type="pmid">17071191</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt270000-cit-0028">
+<string-name name-style="western">
+<surname>Nakano</surname>, <given-names>Toru</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jiro</given-names>
+<surname>Yanagisawa</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Fumio</given-names>
+<surname>Nakayama</surname>
+</string-name>. <year>1988</year>. “<article-title>Phospholipase Activity in Human Bile</article-title>.” <source>Hepatology</source>
+<volume>8</volume>: <fpage>1560</fpage>–<lpage>1564</lpage>. <pub-id pub-id-type="doi">10.1002/hep.1840080615</pub-id>
+<pub-id pub-id-type="pmid">3192169</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt270000-cit-0029">
+<string-name name-style="western">
+<surname>Proffitt</surname>, <given-names>Ceri</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Gholamreza</given-names>
+<surname>Bidkhori</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sunjae</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Abdellah</given-names>
+<surname>Tebani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Adil</given-names>
+<surname>Mardinoglu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mathias</given-names>
+<surname>Uhlen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David L.</given-names>
+<surname>Moyes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Saeed</given-names>
+<surname>Shoaie</surname>
+</string-name>. <year>2022</year>. “<article-title>Genome‐Scale Metabolic Modelling of the Human Gut Microbiome Reveals Changes in the Glyoxylate and Dicarboxylate Metabolism in Metabolic Disorders</article-title>.” <source>iScience</source>
+<volume>25</volume>: <elocation-id>104513</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.isci.2022.104513</pub-id>
+<pub-id pub-id-type="pmid">35754734</pub-id>
+<pub-id pub-id-type="pmcid">PMC9213702</pub-id></mixed-citation></ref><ref id="imt270000-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt270000-cit-0030">
+<string-name name-style="western">
+<surname>Beaumont</surname>, <given-names>Michelle</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Julia K.</given-names>
+<surname>Goodrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matthew A.</given-names>
+<surname>Jackson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Idil</given-names>
+<surname>Yet</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Emily R.</given-names>
+<surname>Davenport</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sara</given-names>
+<surname>Vieira‐Silva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Justine</given-names>
+<surname>Debelius</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Heritable Components of the Human Fecal Microbiome Are Associated With Visceral Fat</article-title>.” <source>Genome Biology</source>
+<volume>17</volume>: <fpage>189</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-016-1052-7</pub-id>
+<pub-id pub-id-type="pmid">27666579</pub-id>
+<pub-id pub-id-type="pmcid">PMC5036307</pub-id></mixed-citation></ref><ref id="imt270000-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt270000-cit-0031">
+<string-name name-style="western">
+<surname>Lammert</surname>, <given-names>Frank</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Kurinchi</given-names>
+<surname>Gurusamy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cynthia W.</given-names>
+<surname>Ko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Juan‐Francisco</given-names>
+<surname>Miquel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nahum</given-names>
+<surname>Méndez‐Sánchez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Piero</given-names>
+<surname>Portincasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Karel J.</given-names>
+<surname>van Erpecum</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cees J.</given-names>
+<surname>van Laarhoven</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>David Q. H.</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2016</year>. “<article-title>Gallstones</article-title>.” <source>Nature Reviews Disease Primers</source>
+<volume>2</volume>: <elocation-id>16024</elocation-id>. <pub-id pub-id-type="doi">10.1038/nrdp.2016.24</pub-id>
+<pub-id pub-id-type="pmid">27121416</pub-id></mixed-citation></ref><ref id="imt270000-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt270000-cit-0032">
+<string-name name-style="western">
+<surname>Maniscalco</surname>, <given-names>Mauro</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Debora</given-names>
+<surname>Paris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dominique J.</given-names>
+<surname>Melck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maria</given-names>
+<surname>D'Amato</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anna</given-names>
+<surname>Zedda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matteo</given-names>
+<surname>Sofia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cristiana</given-names>
+<surname>Stellato</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Andrea</given-names>
+<surname>Motta</surname>
+</string-name>. <year>2017</year>. “<article-title>Coexistence of Obesity and Asthma Determines a Distinct Respiratory Metabolic Phenotype</article-title>.” <source>Journal of Allergy and Clinical Immunology</source>
+<volume>139</volume>: <fpage>1536</fpage>–<lpage>1547.e5</lpage>. <pub-id pub-id-type="doi">10.1016/j.jaci.2016.08.038</pub-id>
+<pub-id pub-id-type="pmid">27746236</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt270000-cit-0033">
+<string-name name-style="western">
+<surname>Crost</surname>, <given-names>Emmanuelle H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Erika</given-names>
+<surname>Coletto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew</given-names>
+<surname>Bell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nathalie</given-names>
+<surname>Juge</surname>
+</string-name>. <year>2023</year>. “<article-title>Ruminococcus Gnavus: Friend or Foe for Human Health</article-title>.” <source>FEMS Microbiology Reviews</source>
+<volume>47</volume>: <elocation-id>fuad014</elocation-id>. <pub-id pub-id-type="doi">10.1093/femsre/fuad014</pub-id>
+<pub-id pub-id-type="pmid">37015876</pub-id>
+<pub-id pub-id-type="pmcid">PMC10112845</pub-id></mixed-citation></ref><ref id="imt270000-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt270000-cit-0034">
+<string-name name-style="western">
+<surname>Sakuma</surname>, <given-names>Keita</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Maki</given-names>
+<surname>Kitahara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ryoko</given-names>
+<surname>Kibe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mitsuo</given-names>
+<surname>Sakamoto</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yoshimi</given-names>
+<surname>Benno</surname>
+</string-name>. <year>2006</year>. “<article-title>
+<italic toggle="yes">Clostridium glycyrrhizinilyticum</italic> Sp. Nov., a Glycyrrhizin‐hydrolysing Bacterium Isolated From Human Faeces</article-title>.” <source>Microbiology and Immunology</source>
+<volume>50</volume>: <fpage>481</fpage>–<lpage>485</lpage>. <pub-id pub-id-type="doi">10.1111/j.1348-0421.2006.tb03818.x</pub-id>
+<pub-id pub-id-type="pmid">16858139</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt270000-cit-0035">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Yiqun</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shengxia</given-names>
+<surname>Lv</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tianbai</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Minchao</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dehe</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pan</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ying</given-names>
+<surname>Li</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2021</year>. “<article-title>Qinghua Fang Inhibits High‐Fat Diet‐Induced Non‐Alcoholic Fatty Liver Disease by Modulating Gut Microbiota</article-title>.” <source>Annals of Palliative Medicine</source>
+<volume>10</volume>: <fpage>3219</fpage>–<lpage>3234</lpage>. <pub-id pub-id-type="doi">10.21037/apm-21-448</pub-id>
+<pub-id pub-id-type="pmid">33849107</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt270000-cit-0036">
+<string-name name-style="western">
+<surname>Ye</surname>, <given-names>Xin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shuang</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhengjie</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qian</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jingxian</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jingjing</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhixia</given-names>
+<surname>Dong</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xinjian</given-names>
+<surname>Wan</surname>
+</string-name>. <year>2021</year>. “<article-title>Sodium Butyrate Alleviates Cholesterol Gallstones by Regulating Bile Acid Metabolism</article-title>.” <source>European Journal of Pharmacology</source>
+<volume>908</volume>: <elocation-id>174341</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.ejphar.2021.174341</pub-id>
+<pub-id pub-id-type="pmid">34273384</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt270000-cit-0037">
+<string-name name-style="western">
+<surname>Grigor'eva</surname>, <given-names>Irina N.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Tatyana I.</given-names>
+<surname>Romanova</surname>
+</string-name>. <year>2020</year>. “<article-title>Gallstone Disease and Microbiome</article-title>.” <source>Microorganisms</source>
+<volume>8</volume>: <elocation-id>835</elocation-id>. <pub-id pub-id-type="doi">10.3390/microorganisms8060835</pub-id>
+<pub-id pub-id-type="pmid">32498344</pub-id>
+<pub-id pub-id-type="pmcid">PMC7356158</pub-id></mixed-citation></ref><ref id="imt270000-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt270000-cit-0038">
+<string-name name-style="western">
+<surname>Rau</surname>, <given-names>Monika</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ateequr</given-names>
+<surname>Rehman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marcus</given-names>
+<surname>Dittrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Albert K.</given-names>
+<surname>Groen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Heike M.</given-names>
+<surname>Hermanns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Florian</given-names>
+<surname>Seyfried</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Niklas</given-names>
+<surname>Beyersdorf</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Fecal SCFAs and SCFA‐producing Bacteria in Gut Microbiome of Human NAFLD as a Putative Link to Systemic T‐Cell Activation and Advanced Disease</article-title>.” <source>United European Gastroenterology Journal</source>
+<volume>6</volume>: <fpage>1496</fpage>–<lpage>1507</lpage>. <pub-id pub-id-type="doi">10.1177/2050640618804444</pub-id>
+<pub-id pub-id-type="pmid">30574320</pub-id>
+<pub-id pub-id-type="pmcid">PMC6297934</pub-id></mixed-citation></ref><ref id="imt270000-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt270000-cit-0039">
+<string-name name-style="western">
+<surname>Cao</surname>, <given-names>Xinlu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Oksana</given-names>
+<surname>Zolnikova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Roman</given-names>
+<surname>Maslennikov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maria</given-names>
+<surname>Reshetova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Elena</given-names>
+<surname>Poluektova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Arina</given-names>
+<surname>Bogacheva</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maria</given-names>
+<surname>Zharkova</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Vladimir</given-names>
+<surname>Ivashkin</surname>
+</string-name>. <year>2023</year>. “<article-title>Differences in Fecal Short‐Chain Fatty Acids Between Alcoholic Fatty Liver‐Induced Cirrhosis and Non‐Alcoholic (Metabolic‐Associated) Fatty Liver‐Induced Cirrhosis</article-title>.” <source>Metabolites</source>
+<volume>13</volume>: <elocation-id>859</elocation-id>. <pub-id pub-id-type="doi">10.3390/metabo13070859</pub-id>
+<pub-id pub-id-type="pmid">37512565</pub-id>
+<pub-id pub-id-type="pmcid">PMC10383050</pub-id></mixed-citation></ref><ref id="imt270000-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt270000-cit-0040">
+<string-name name-style="western">
+<surname>Ni</surname>, <given-names>Yueqiong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Lingling</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sara Leal</given-names>
+<surname>Siliceo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoxue</given-names>
+<surname>Long</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Emmanouil</given-names>
+<surname>Nychas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yan</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marsena Jasiel</given-names>
+<surname>Ismaiah</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Resistant Starch Decreases Intrahepatic Triglycerides in Patients With NAFLD via Gut Microbiome Alterations</article-title>.” <source>Cell Metabolism</source>
+<volume>35</volume>: <fpage>1530</fpage>–<lpage>1547.e8</lpage>. <elocation-id>e1538</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.cmet.2023.08.002</pub-id>
+<pub-id pub-id-type="pmid">37673036</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt270000-cit-0041">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Haijuan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shanshan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fengxia</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peipei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zafarullah</given-names>
+<surname>Muhammad</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Siyi</given-names>
+<surname>Pan</surname>
+</string-name>. <year>2019</year>. “<article-title>Role of the Gut Microbiota and Their Metabolites in Modulating the Cholesterol‐Lowering Effects of Citrus Pectin Oligosaccharides in C57BL/6 Mice</article-title>.” <source>Journal of Agricultural and Food Chemistry</source>
+<volume>67</volume>: <fpage>11922</fpage>–<lpage>11930</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jafc.9b03731</pub-id>
+<pub-id pub-id-type="pmid">31576748</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt270000-cit-0042">
+<string-name name-style="western">
+<surname>Kaur</surname>, <given-names>Narinder</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Anil K.</given-names>
+<surname>Gupta</surname>
+</string-name>. <year>2002</year>. “<article-title>Applications of Inulin and Oligofructose in Health and Nutrition</article-title>.” <source>Journal of Biosciences</source>
+<volume>27</volume>: <fpage>703</fpage>–<lpage>714</lpage>. <pub-id pub-id-type="doi">10.1007/BF02708379</pub-id>
+<pub-id pub-id-type="pmid">12571376</pub-id>
+</mixed-citation></ref><ref id="imt270000-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="imt270000-cit-0043">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Huai</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Qing</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zeyou</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ranjit</given-names>
+<surname>Das</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanhui</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daqing</given-names>
+<surname>Mao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Yi</given-names>
+<surname>Luo</surname>
+</string-name>. <year>2020</year>. “<article-title>Colonization of Mice With Amoxicillin‐Associated Klebsiella Variicola Drives Inflammation via Th1 Induction and Treg Inhibition</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>11</volume>: <elocation-id>1256</elocation-id>. <pub-id pub-id-type="doi">10.3389/fmicb.2020.01256</pub-id>
+<pub-id pub-id-type="pmid">32670220</pub-id>
+<pub-id pub-id-type="pmcid">PMC7326774</pub-id></mixed-citation></ref><ref id="imt270000-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="imt270000-cit-0044">
+<string-name name-style="western">
+<surname>Singh</surname>, <given-names>Vishal</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Beng San</given-names>
+<surname>Yeoh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Benoit</given-names>
+<surname>Chassaing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xia</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Piu</given-names>
+<surname>Saha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rodrigo</given-names>
+<surname>Aguilera Olvera</surname>
+</string-name>, <string-name name-style="western">
+<given-names>John D.</given-names>
+<surname>Lapek</surname>, <suffix>Jr.</suffix>
+</string-name>, et al. <year>2018</year>. “<article-title>Dysregulated Microbial Fermentation of Soluble Fiber Induces Cholestatic Liver Cancer</article-title>.” <source>Cell</source>
+<volume>175</volume>: <fpage>679</fpage>–<lpage>694.e22</lpage>. <elocation-id>e622</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.cell.2018.09.004</pub-id>
+<pub-id pub-id-type="pmid">30340040</pub-id>
+<pub-id pub-id-type="pmcid">PMC6232850</pub-id></mixed-citation></ref><ref id="imt270000-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="imt270000-cit-0045">
+<string-name name-style="western">
+<surname>Akiyoshi</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Uchida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Takase</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Nomura</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Takeuchi</surname>
+</string-name>. <year>1990</year>. “<article-title>Cholesterol Gallstones in Alloxan‐Diabetic Mice</article-title>.” <source>Journal of Lipid Research</source>
+<volume>27</volume>: <fpage>915</fpage>–<lpage>924</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-2275(20)38774-5</pub-id>
+<pub-id pub-id-type="pmid">3783046</pub-id></mixed-citation></ref></ref-list></back></article>

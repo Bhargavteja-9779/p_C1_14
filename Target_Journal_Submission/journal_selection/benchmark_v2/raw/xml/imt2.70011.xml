@@ -1,0 +1,1652 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270011" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11995183</article-id><article-id pub-id-type="pmcid-ver">PMC11995183.1</article-id><article-id pub-id-type="pmcaid">11995183</article-id><article-id pub-id-type="pmcaiid">11995183</article-id><article-id pub-id-type="pmid">40236779</article-id><article-id pub-id-type="doi">10.1002/imt2.70011</article-id><article-id pub-id-type="publisher-id">IMT270011</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>iMLGAM: Integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis for pan‐cancer immunotherapy response prediction</article-title><alt-title alt-title-type="right-running-head">PAN‐CANCER IMMUNOTHERAPY PREDICTION BY IMLGAM</alt-title><alt-title alt-title-type="left-running-head">YE <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270011-cr-0001" contrib-type="author"><name name-style="western"><surname>Ye</surname><given-names initials="B">Bicheng</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0008-2729-3022</contrib-id><xref rid="imt270011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="imt270011-cr-0002" contrib-type="author"><name name-style="western"><surname>Fan</surname><given-names initials="J">Jun</given-names></name><xref rid="imt270011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270011-cr-0003" contrib-type="author"><name name-style="western"><surname>Xue</surname><given-names initials="L">Lei</given-names></name><xref rid="imt270011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270011-cr-0004" contrib-type="author"><name name-style="western"><surname>Zhuang</surname><given-names initials="Y">Yu</given-names></name><xref rid="imt270011-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="imt270011-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270011-cr-0005" contrib-type="author"><name name-style="western"><surname>Luo</surname><given-names initials="P">Peng</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8215-2045</contrib-id><xref rid="imt270011-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="imt270011-cr-0006" contrib-type="author"><name name-style="western"><surname>Jiang</surname><given-names initials="A">Aimin</given-names></name><xref rid="imt270011-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="imt270011-cr-0007" contrib-type="author"><name name-style="western"><surname>Xie</surname><given-names initials="J">Jiaheng</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4992-498X</contrib-id><xref rid="imt270011-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="imt270011-cr-0008" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="Q">Qifan</given-names></name><xref rid="imt270011-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="imt270011-cr-0009" contrib-type="author"><name name-style="western"><surname>Liang</surname><given-names initials="X">Xiaoqing</given-names></name><xref rid="imt270011-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="imt270011-cr-0010" contrib-type="author"><name name-style="western"><surname>Tan</surname><given-names initials="J">Jiaxiong</given-names></name><xref rid="imt270011-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib><contrib id="imt270011-cr-0011" contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="S">Songyun</given-names></name><xref rid="imt270011-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="imt270011-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhou</surname><given-names initials="W">Wenhang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0009-0003-8727-9162</contrib-id><xref rid="imt270011-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref><address><email>huaianzhouwenhang@163.com</email></address></contrib><contrib id="imt270011-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ren</surname><given-names initials="C">Chuanli</given-names></name><xref rid="imt270011-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref><address><email>18051061089@yzu.edu.cn</email></address></contrib><contrib id="imt270011-cr-0014" contrib-type="author" corresp="yes"><name name-style="western"><surname>Lin</surname><given-names initials="H">Haoran</given-names></name><xref rid="imt270011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>linhaoran@jsph.org.cn</email></address></contrib><contrib id="imt270011-cr-0015" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="P">Pengpeng</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1488-265X</contrib-id><xref rid="imt270011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270011-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref></contrib></contrib-group><aff id="imt270011-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Liver Disease Center of Integrated Traditional Chinese and Western Medicine, Department of Radiology, Zhongda Hospital, Medical School</named-content>
+<institution>Southeast University, Nurturing Center of Jiangsu Province for State Laboratory of AI Imaging &amp; Interventional Radiology (Southeast University)</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Thoracic Surgery</named-content>
+<institution>The First Affiliated Hospital of Nanjing Medical University</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<institution>Department of Thoracic Surgery, Nanjing Chest Hospital</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Afliated Nanjing Brain Hospital</named-content>
+<institution>Nanjing Medical University</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Oncology, Zhujiang Hospital</named-content>
+<institution>Southern Medical University</institution>
+<city>Guangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Urology, Changhai Hospital</named-content>
+<institution>Naval Medical University (Second Military Medical University)</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plastic Surgery, Xiangya Hospital</named-content>
+<institution>Central South University</institution>
+<city>Changsha</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Department of Thoracic Surgery</named-content>
+<institution>The First Affiliated Hospital of Soochow University</institution>
+<city>Suzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Chongqing Key Laboratory of Molecular Oncology and Epigenetics</named-content>
+<institution>The First Affiliated Hospital of Chongqing Medical University</institution>
+<city>Chongqing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<named-content content-type="organisation-division">Department of Lung Cancer, Tianjin Lung Cancer Center, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center for Cancer</named-content>
+<institution>Tianjin Medical University Cancer Institute and Hospital</institution>
+<city>Tianjin</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plastic Surgery</named-content>
+<institution>The First Affiliated Hospital of Wenzhou Medical University</institution>
+<city>Wenzhou</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">Department of Oncology</named-content>
+<institution>The Affiliated Huai'an Hospital of Xuzhou Medical University, the Second People's Hospital of Huai'an</institution>
+<city>Huai'an</city>
+<country country="CN">China</country>
+</aff><aff id="imt270011-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<named-content content-type="organisation-division">Department of Laboratory Medicine</named-content>
+<institution>Northern Jiangsu People's Hospital Affiliated to Yangzhou University</institution>
+<city>Yangzhou</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Wenhang Zhou, Department of Oncology, The Affiliated Huai'an Hospital of Xuzhou Medical University, the Second People's Hospital of Huai'an, Huai'an 223002, China.<break/>
+Email: <email>huaianzhouwenhang@163.com</email>
+<break/>
+Chuanli Ren, Department of Laboratory Medicine, Northern Jiangsu People's Hospital Affiliated to Yangzhou University, Yangzhou 225009, China.<break/>
+Email: <email>18051061089@yzu.edu.cn</email>
+<break/>
+Haoran Lin, Department of Thoracic Surgery, The First Affiliated Hospital of Nanjing Medical University, Nanjing 210029, China.<break/>
+Email: <email>linhaoran@jsph.org.cn</email>
+<break/>
+Pengpeng Zhang, Department of Lung Cancer, Tianjin Lung Cancer Center, National Clinical Research Center for Cancer, Key Laboratory of Cancer Prevention and Therapy, Tianjin's Clinical Research Center, Tianjin 300060, China.<break/>
+Email: <email>zpp19940120@tmu.edu.cn</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>3</month><year>2025</year></pub-date><pub-date pub-type="collection"><month>4</month><year>2025</year></pub-date><volume>4</volume><issue seq="80">2</issue><issue-id pub-id-type="pmc-issue-id">486575</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v4.2</issue-id><elocation-id>e70011</elocation-id><history>
+<date date-type="rev-recd"><day>20</day><month>2</month><year>2025</year></date>
+<date date-type="received"><day>02</day><month>1</month><year>2025</year></date>
+<date date-type="accepted"><day>21</day><month>2</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>08</day><month>03</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>15</day><month>04</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-24 15:41:15.597"><day>24</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-4-e70011.pdf"><?pdf-name IMT2-4-e70011.pdf?><?pdf-size 5272666?><?pdf-md5 2dc5707d39be1e41889fbb10ab42c240?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:419f/11995183/2dc5707d39be/IMT2-4-e70011.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-4-e70011.pdf"/><abstract><title>Abstract</title><p>To address the substantial variability in immune checkpoint blockade (ICB) therapy effectiveness, we developed an innovative R package called integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM), which establishes a comprehensive scoring system for predicting treatment outcomes through advanced multi‐omics data integration. Our research demonstrates that iMLGAM scores exhibit superior predictive performance across independent cohorts, with lower scores correlating significantly with enhanced therapeutic responses and outperforming existing clinical biomarkers. Detailed analysis revealed that tumors with low iMLGAM scores display distinctive immune microenvironment characteristics, including increased immune cell infiltration and amplified antitumor immune responses. Critically, through clustered regularly interspaced short palindromic repeats screening, we identified Centrosomal Protein 55 (<italic toggle="yes">CEP55</italic>) as a key molecule modulating tumor immune evasion, mechanistically confirming its role in regulating T cell‐mediated antitumor immune responses. These findings not only validate iMLGAM as a powerful prognostic tool but also propose <italic toggle="yes">CEP55</italic> as a promising therapeutic target, offering novel strategies to enhance ICB treatment efficacy. The iMLGAM package is freely available on GitHub (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Yelab1994/iMLGAM" ext-link-type="uri">https://github.com/Yelab1994/iMLGAM</ext-link>), providing researchers with an innovative approach to personalized cancer immunotherapy prediction.</p></abstract><abstract abstract-type="graphical"><p>We developed an integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM), an R package that combines various machine learning algorithms with genetic algorithms and multi‐omics data to predict responses to immune checkpoint blockade (ICB) therapy. Utilizing pan‐cancer tumor data, we established the iMLGAM scoring system to forecast ICB therapy outcomes. The system was validated through experimental methods and implemented as a Shiny web application. Clinical cohort validation further demonstrated its reliability in optimizing immunotherapy treatment decisions.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-4-e70011-g001.jpg"><?image-name IMT2-4-e70011-g001.jpg?><?image-size 106105?><?image-md5 b5da791e6fd1ab9741c0359d34f08a80?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 620?><?image-original-width 910?><?image-scaled-height 413?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/b5da791e6fd1/IMT2-4-e70011-g001.jpg?></graphic></boxed-text>
+</p></abstract><abstract abstract-type="highlights"><title>Highlights</title><p>
+<list list-type="bullet"><list-item><p>Developed integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM), an integrated machine learning and genetic algorithm‐driven multiomics analysis package for immunotherapy response prediction.</p></list-item><list-item><p>iMLGAM scoring system demonstrates superior performance in predicting immune checkpoint blockade (ICB) treatment outcomes across multiple cohorts.</p></list-item><list-item><p>Low iMLGAM scores associate with enhanced immune cell infiltration and amplified antitumor responses.</p></list-item><list-item><p>
+<italic toggle="yes">CEP55</italic> identified as a crucial regulator of T cell‐mediated antitumor immunity and ICB efficacy.</p></list-item></list>
+</p></abstract><kwd-group><kwd id="imt270011-kwd-0001">gene‐pair</kwd><kwd id="imt270011-kwd-0002">genetic algorithms</kwd><kwd id="imt270011-kwd-0003">immune checkpoint blockade</kwd><kwd id="imt270011-kwd-0004">immunotherapy</kwd><kwd id="imt270011-kwd-0005">pan‐cancer</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>82172345</award-id></award-group><award-group id="funding-0002"><funding-source>Crosscooperation project of Subei Peoples' Hospital of Jiangsu Province</funding-source><award-id>SBJC22003</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Natural Science Foundation of Jiangsu Province
+</institution><institution-id institution-id-type="doi">10.13039/501100004608</institution-id></institution-wrap></funding-source><award-id>BK20221281</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><page-count count="21"/><word-count count="11714"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>April 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.4 mode:remove_FC converted:14.04.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270011-cit-0069">
+<string-name name-style="western">
+<surname>Ye</surname>, <given-names>Bicheng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lei</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peng</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aimin</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jiaheng</given-names>
+<surname>Xie</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>iMLGAM: Integrated Machine Learning and Genetic Algorithm‐driven Multiomics Analysis for Pan‐Cancer Immunotherapy Response Prediction</article-title>.” <source>iMeta</source>
+<volume>4</volume>, <elocation-id>e70011</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70011</pub-id>
+<pub-id pub-id-type="pmcid">PMC11995183</pub-id><pub-id pub-id-type="pmid">40236779</pub-id></mixed-citation>
+</p><fn-group><fn id="imt270011-note-0001"><p>Bicheng Ye, Jun Fan, Lei Xue, and Yu Zhuang contributed equally to this study.</p></fn></fn-group></notes></front><body><sec id="imt270011-sec-0010"><title>INTRODUCTION</title><p>The field of cancer therapeutics was fundamentally transformed through the introduction of immune checkpoint blockade (ICB), which yielded remarkable improvements in patient survival outcomes [<xref rid="imt270011-bib-0001" ref-type="bibr">1</xref>]. Although ICB has demonstrated encouraging therapeutic effects in certain tumor types (such as melanoma [<xref rid="imt270011-bib-0002" ref-type="bibr">2</xref>], non‐small cell lung cancer (NSCLC) [<xref rid="imt270011-bib-0003" ref-type="bibr">3</xref>], and renal cell carcinoma (RCC) [<xref rid="imt270011-bib-0004" ref-type="bibr">4</xref>]), immunotherapy is not a universal solution for most cancer patients. Research indicates significant variations in immunotherapeutic responses across different cancer types, with many patients failing to achieve notable clinical benefits. For instance, patients with colorectal cancer, pancreatic cancer, and prostate cancer exhibit relatively poor responses to ICB, highlighting the importance of personalized treatment. The use of ICB among eligible cancer patients in the United States has increased dramatically, rising from 1.54% in 2011 to 43.63% by 2018 [<xref rid="imt270011-bib-0005" ref-type="bibr">5</xref>]. Despite widespread adoption, clinical efficacy remained limited, with favorable responses being observed in merely 12.46% of treated subjects [<xref rid="imt270011-bib-0005" ref-type="bibr">5</xref>]. Significant variations in therapeutic outcomes were documented across different malignancies and individual cases [<xref rid="imt270011-bib-0006" ref-type="bibr">6</xref>]. Scientific investigations identified multiple inflammation‐associated parameters as potential response predictors for ICB therapy, encompassing tumor‐infiltrating lymphocytes (TILs), tumor mutation burden (TMB), Immunoscore, and gastrointestinal oncological microbiome patterns. However, these biological markers demonstrated restricted value [<xref rid="imt270011-bib-0007" ref-type="bibr">7</xref>]. The field continues to lack a universally applicable predictive marker for accurate ICB response forecasting across various cancer types, which has hindered both optimal patient selection and the advancement of combination therapeutic strategies.</p><p>The clinical outcomes and therapeutic response to ICB were substantially influenced by the tumor immune microenvironment (TIME), which comprised diverse immunological cellular components [<xref rid="imt270011-bib-0008" ref-type="bibr">8</xref>, <xref rid="imt270011-bib-0009" ref-type="bibr">9</xref>]. Elucidating the associations between TIME characteristics and ICB therapeutic efficacy was considered crucial for enhancing patient stratification and optimizing immunotherapeutic interventions. However, the complex interactions among immune cells can result in conflicting interpretations, highlighting the need for more advanced analytical methods. Traditional analytical techniques, including immunohistochemistry (IHC) and flow cytometry, which were routinely employed for TIME examination, exhibited limitations in the concurrent evaluation of multiple cellular markers. While single‐cell RNA sequencing (scRNA‐seq) provided detailed transcriptomic analysis at high resolution, its clinical implementation was hampered by economic considerations and rigorous sample requirements [<xref rid="imt270011-bib-0010" ref-type="bibr">10</xref>, <xref rid="imt270011-bib-0011" ref-type="bibr">11</xref>]. By comparison, bulk RNA sequencing (bulk RNA‐seq) exhibited superior adaptability with suboptimal specimens and generated comprehensive transcriptional profiles from heterogeneous tissue samples. Consequently, the investigation of immune‐associated gene expression through bulk RNA‐seq emerged as a dependable approach for TIME characterization [<xref rid="imt270011-bib-0012" ref-type="bibr">12</xref>].</p><p>In the field of transcriptomic data analysis, ensemble learning methodologies have been demonstrated to provide enhanced predictive accuracy for outcomes when compared to individual machine learning approaches [<xref rid="imt270011-bib-0013" ref-type="bibr">13</xref>, <xref rid="imt270011-bib-0014" ref-type="bibr">14</xref>, <xref rid="imt270011-bib-0015" ref-type="bibr">15</xref>]. However, several technical challenges have been identified, including the risk of overfitting, handling of the heterogeneity of sequencing platforms, and the lack of automated protocols for the identification of basic learners [<xref rid="imt270011-bib-0016" ref-type="bibr">16</xref>]. To overcome these limitations, we developed integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM), an R package and its novel scoring system for predicting outcomes in cancer patients undergoing ICB therapy. This R package integrates several key components: a gene‐pairing protocol was implemented to reduce batch effects [<xref rid="imt270011-bib-0017" ref-type="bibr">17</xref>], the adaptive best subset selection (ABESS) algorithm was utilized for feature optimization, and a genetic algorithm (GA) was employed for automated basic learner optimization [<xref rid="imt270011-bib-0018" ref-type="bibr">18</xref>]. These developments culminated in the creation of a Shiny‐based online platform (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ici-theaphy-gms.shinyapps.io/my_shiny_app/" ext-link-type="uri">https://ici-theaphy-gms.shinyapps.io/my_shiny_app/</ext-link>) for iMLGAM score computation, providing a prognostic evaluation for diverse cancer patients undergoing ICB treatment. This innovative methodology was designed to establish a more robust and adaptable response prediction system, with potential implications for therapeutic outcome enhancement and clinical strategy formulation in cancer immunotherapy.</p></sec><sec sec-type="results" id="imt270011-sec-0020"><title>RESULTS</title><sec id="imt270011-sec-0030"><title>Development of iMLGAM score</title><p>To develop the iMLGAM scoring system, we implemented a comprehensive machine learning workflow integrating multiple algorithmic approaches. The construction process of the iMLGAM score was performed entirely within the training cohort. Feature processing was initially performed on the training set to minimize batch effects, yielding 187,953 immune‐related gene pairs (IRGPs). Through multivariable logistic regression with cancer type adjustment (<italic toggle="yes">p</italic> &lt; 0.001) and receiver operating characteristic (ROC) curve analysis (area under the curve (AUC) &gt; 0.6), we identified 2537 key IRGPs in the training cohort (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S1</xref>). We identified five IRGPs from 2537 key IRGPs using the ABESS algorithm, specifically the gene pairs <italic toggle="yes">BMP2</italic> and <italic toggle="yes">SELE</italic>, <italic toggle="yes">CD274</italic> and <italic toggle="yes">SH3TC1</italic>, <italic toggle="yes">CHST15</italic> and <italic toggle="yes">LAG3</italic>, <italic toggle="yes">CKLF</italic> and <italic toggle="yes">TLR7</italic>, and <italic toggle="yes">ESCO2</italic> and <italic toggle="yes">RXRA</italic>, which were used as basic features to construct the iMLGAM score. To enhance predictive performance, we employed four distinct machine learning regression algorithms: Elastic Net (Enet), Random Forest (RF), Support Vector Machine (SVM), and K‐Nearest Neighbors (KNN). Parameter optimization was conducted using 10‐fold cross‐validation (CV) and grid search, generating 50 basic learners (m1–m50) for subsequent analysis (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S2</xref>). These learners were integrated using a stacking strategy to create an ensemble model, designated as the iMLGAM score. The model's robustness was fundamentally dependent on both the diversity and accuracy of its constituent components. To streamline the traditionally manual optimization process, we implemented a GA to enhance the ensemble model's accuracy. The optimized iMLGAM score incorporated ten carefully selected models: m3, m5, m6, m16, m19, m23, m24, m29, m40, and m46. This refined ensemble demonstrated remarkable algorithmic diversity, comprising three Enet models (m3, m5, m6), two KNN models (m40, m46), two RF models (m16, m19), and three SVM models (m23, m24, m29), validating the GA's effectiveness in model selection. The final iMLGAM score was constructed using stepwise logistic regression as the ensemble learning method to combine the predicted values from these optimized learners in the training set (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1A</xref>).</p><fig position="float" fig-type="Figure" id="imt270011-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Development and validation of integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM) score for predicting immunotherapy response. (A) Comprehensive flow chart detailing the systematic process of training, testing, and validation of the iMLGAM score, highlighting the integration of genetic algorithms (GAs) and ensemble learning methods for multi‐omics data analysis. (B–D) Comparative distribution of iMLGAM scores demonstrating clear differentiation between immunotherapy responders and nonresponders across training, testing, and independent validation cohorts, revealing the score's potential for treatment response stratification. (E–G) Receiver operating characteristic (ROC) curves illustrating the predictive accuracy of iMLGAM scores in identifying potential immunotherapy benefits, showcasing the method's robust performance across different patient cohorts. (H–J) Comparative performance analysis comparing iMLGAM scores against existing published molecular signatures, evaluated through area under the curve (AUC) metrics, demonstrating the novel approach's superior predictive capabilities in multiple independent datasets.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-4-e70011-g005.jpg"><?image-name IMT2-4-e70011-g005.jpg?><?image-size 180720?><?image-md5 99a3e9a2e0802754fa30748df02e1fc6?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 855?><?image-original-width 910?><?image-scaled-height 569?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/99a3e9a2e080/IMT2-4-e70011-g005.jpg?><?thumb-name IMT2-4-e70011-g005.gif?><?thumb-size 6328?><?thumb-md5 74a0bb91bdb76d6dd7e9e14d6e272955?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 94?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/419f/11995183/74a0bb91bdb7/IMT2-4-e70011-g005.gif?></graphic></fig></sec><sec id="imt270011-sec-0040"><title>Assessment of iMLGAM score</title><p>To evaluate the iMLGAM score's efficacy in predicting clinical responses, we applied it to the training, validation, and test cohorts. The score effectively distinguished between response and nonresponse groups in all three cohorts, with lower scores indicating a greater likelihood of benefiting from ICB therapy (all <italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1B–D</xref>). ROC curve analysis revealed substantial AUC values: 0.76 for the training set (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1E</xref>), 0.70 for the testing set (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1F</xref>), and 0.72 for the validation set (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1G</xref>). Based on ROC curve analysis of the training cohort, we obtained the optimal threshold and stratified patients into high and low iMLGAM score groups. In the training set, the metrics are as follows: F1 score 0.78, true positive rate 0.71, true negative rate 0.67, false positive rate 0.33, and false negative rate 0.29. For the testing set, the metrics are: F1 score 0.74, true positive rate 0.64, true negative rate 0.70, false positive rate 0.30, and false negative rate 0.36. In the validation set, we observed: F1 score 0.68, true positive rate 0.57, true negative rate 0.76, false positive rate 0.24, and false negative rate 0.43. The high iMLGAM score group demonstrated significantly poorer overall survival (OS) across all cohorts (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S1A–C</xref>). Time‐dependent ROC curves further validated the iMLGAM score's effectiveness in predicting OS for patients receiving ICB therapy (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S1D–F</xref>). We also assessed the iMLGAM score's performance across various tumor types. In RCC, urothelial carcinoma (UC), melanoma, and gastric cancer (GC), the score was consistently lower in the response group (<italic toggle="yes">p</italic> &lt; 0.05), with ROC‐AUC values exceeding 0.6 (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S2A–J</xref>). No significant difference was found in glioblastoma multiforme (GBM) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S2K,L</xref>), likely due to the limited sample size for this tumor type. These results highlight the iMLGAM score's strong predictive capability across multiple cancers, emphasizing its potential as a valuable tool for guiding ICB therapy decisions.</p></sec><sec id="imt270011-sec-0050"><title>Comparison of iMLGAM score with other features and webtool development</title><p>Recent advancements in sequencing technologies and machine learning have facilitated the creation of predictive signatures for immunotherapy response. Various signatures, derived from distinct biological characteristics and molecular types, have demonstrated predictive value for ICB therapy. We systematically evaluated 12 published signatures alongside the iMLGAM score, finding that the iMLGAM score consistently outperformed others in predictive performance across training, testing, and validation cohorts (Figure <xref rid="imt270011-fig-0001" ref-type="fig">1H–J</xref>). Using comprehensive clinical data from the Mariathasan, Braun, OAK, and Riaz cohorts, we performed ROC curve analyses to compare the iMLGAM score's performance against PD‐L1 expression and TMB. The iMLGAM score consistently exceeded both PD‐L1 and TMB in these cohorts (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S3A–D</xref>). Multivariate logistic regression further established the iMLGAM score as an independent predictor of clinical response (all <italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S3E–H</xref>). To enhance accessibility for the research community, we developed a user‐friendly web tool for the iMLGAM score, shown in Figure <xref rid="imt270011-fig-0002" ref-type="fig">2A</xref> and available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ici-theaphy-gms.shinyapps.io/my_shiny_app/" ext-link-type="uri">https://ici-theaphy-gms.shinyapps.io/my_shiny_app/</ext-link>.</p><fig position="float" fig-type="Figure" id="imt270011-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>iMLGAM score associates with distinct immune signatures and molecular pathways. (A) The page of iMLGAM score web‐tool. (B) Volcano plot analysis depicting differential enrichment of 29 immune signatures between high and low iMLGAM score groups. Red points indicate signatures enriched in tumor tissue; blue points represent signatures enriched in normal tissue. (C) Gene set enrichment analysis (GSEA) comparing molecular pathways between high and low iMLGAM score groups. (D) Correlation matrix visualization of 29 immune signatures, comparing low iMLGAM score group (upper right panel) versus high iMLGAM score group (lower left panel). iMLGAM, integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-4-e70011-g003.jpg"><?image-name IMT2-4-e70011-g003.jpg?><?image-size 151121?><?image-md5 8b5df3d19031b16b76500b04ab5ea110?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 826?><?image-original-width 910?><?image-scaled-height 550?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/8b5df3d19031/IMT2-4-e70011-g003.jpg?><?thumb-name IMT2-4-e70011-g003.gif?><?thumb-size 5736?><?thumb-md5 4df04c52c6ce98e894f04975f2118ba2?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 91?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/419f/11995183/4df04c52c6ce/IMT2-4-e70011-g003.gif?></graphic></fig></sec><sec id="imt270011-sec-0060"><title>Comprehensive immune landscape analysis</title><p>To further explore the relationship between the immune landscape and the iMLGAM score, we conducted a multiomics analysis of the TCGA cohort. Using the formula and cutoff from the training cohort, we stratified the TCGA cohort into high and low iMLGAM score groups (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4A</xref>). Genomic analysis revealed significantly larger fractions of leukocytes, lymphocytes, and TILs in the low iMLGAM score group (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4B–D</xref>). Deep learning estimates of TIL fractions from hematoxylin and eosin (H&amp;E) stained slides corroborated these findings (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4E</xref>). The low iMLGAM score group also had a higher proportion of immune‐stimulatory cells, particularly CD8<sup>+</sup> T cells (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4F</xref>). Further analysis using immune infiltration scores from Danaher et al. (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4G</xref>) and immune signature scores (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4H</xref>) confirmed a greater abundance of immune cells in the low iMLGAM score group (all <italic toggle="yes">p</italic> &lt; 0.05). Unsupervised clustering based on immune signature scores revealed two distinct immune patterns: high and low immune infiltration, with the high infiltration group significantly enriched in cases from the low iMLGAM score group (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S4I,J</xref>). In the low iMLGAM score group, immune signature scores were significantly higher at tumor sites compared to normal sites, whereas the high iMLGAM score group showed lower scores at tumor sites than at normal sites (Figure <xref rid="imt270011-fig-0002" ref-type="fig">2B</xref>). The low iMLGAM score group exhibited stronger correlations among immune activities than the high iMLGAM score group (Figure <xref rid="imt270011-fig-0002" ref-type="fig">2D</xref> and Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S5A</xref>). Gene set enrichment analysis (GSEA) identified 33 significantly enriched pathways in the low iMLGAM score group, including 19 immune‐related pathways such as “natural killer cell‐mediated cytotoxicity” (all <italic toggle="yes">p</italic> adjust &lt; 0.05) (Figure <xref rid="imt270011-fig-0002" ref-type="fig">2C</xref>). No immune‐related pathway enrichment was observed in the high iMLGAM score group. Low iMLGAM score tumors were associated with significantly higher cytolytic activity scores (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S5B</xref>), while the high iMLGAM score group had a greater abundance of fibroblasts (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S5C</xref>). These findings indicate that the low iMLGAM score group is characterized by abundant immune cells at tumor sites, which may enhance responses to ICB therapy. In contrast, the prevalence of fibroblasts in the high iMLGAM score group could contribute to immune escape mechanisms. Additionally, the low iMLGAM score group exhibited higher chemokine expression (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S5D</xref>), suggesting that chemokine enrichment may drive the enhanced immune response observed in this group.</p></sec><sec id="imt270011-sec-0070"><title>Molecular and genomic determinants of tumor immunogenicity</title><p>We first examined key determinants of tumor immunogenicity between the low and high iMLGAM score groups. The low iMLGAM score group exhibited higher mutation rates and neoantigen burdens (<italic toggle="yes">p</italic> &lt; 0.05), along with significantly greater T cell receptor (TCR) and B cell receptor (BCR) diversity (<italic toggle="yes">p</italic> &lt; 0.001). Additionally, this group demonstrated increased CNV burden and aneuploidy (<italic toggle="yes">p</italic> &lt; 0.001), while high iMLGAM score patients displayed lower intertumoral heterogeneity (ITH) (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6A</xref>). These characteristics suggest a more immunogenic tumor microenvironment, typically associated with better responses to ICB therapy. The higher ITH may also provide a broader range of neoantigens, enhancing immune recognition and attack, indicating that low iMLGAM score patients may benefit more from immunotherapy. To further explore the mutational landscape, we analyzed somatic mutation data from the TCGA data set, identifying four distinct mutational signatures: SBS10b, SBS7a, SBS6, and SBS3 (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6B</xref>). Notably, SBS10b, SBS3, and SBS6 had significantly higher frequencies in the low iMLGAM score group (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6C</xref>). The SBS6 signature, linked to deficiencies in DNA mismatch repair, may influence immune responses [<xref rid="imt270011-bib-0019" ref-type="bibr">19</xref>]. We also calculated enrichment scores for oncogenes across 10 common oncogenic pathways. The low iMLGAM score group showed higher scores for the cell cycle and TP53 pathways, while the high iMLGAM score group had enriched pathways, including HIPPO, MYC, NOTCH, NRF2, RAS, TGF‐Beta, and WNT (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6D</xref>). The WNT pathway is known to be involved in immune exclusion [<xref rid="imt270011-bib-0020" ref-type="bibr">20</xref>]. Furthermore, the high iMLGAM score group exhibited reduced expression of MHC I‐ and II‐related antigen‐presenting molecules compared to the low iMLGAM score group (<italic toggle="yes">p</italic> &lt; 0.001), indicating intrinsic immune escape (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6E</xref>). In contrast, the low iMLGAM score group showed increased expression of most MHC genes, reflecting enhanced immunogenicity. Additionally, immune checkpoint molecules (e.g., PD‐1, PD‐L1, and CTLA4) and costimulatory molecules were more highly expressed in the low iMLGAM score group (<italic toggle="yes">p</italic> &lt; 0.001) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S6E</xref>), suggesting their role in promoting responses to ICB therapy in this group.</p></sec><sec id="imt270011-sec-0080"><title>Copy number features associated with iMLGAM score groups</title><p>Significant disparities in chromosomal aberrations were observed between the high and low iMLGAM score groups (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7A</xref>). The low iMLGAM score group exhibited focal amplifications of immune genes, including PD‐L1 and PD‐L2, located at 9p24.1, in contrast to the high iMLGAM score group (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7B,C</xref>). Venn diagram analysis identified 319 shared genes in amplified chromosomal regions, with 217 genes unique to the high iMLGAM score group and 1225 unique to the low iMLGAM score group (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7D</xref>). Gene Ontology annotation of these uniquely amplified genes revealed significant enrichment of immune‐related processes, particularly “T cell costimulation” and “B cell proliferation,” in the low iMLGAM score group (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7E</xref>). Conversely, the high iMLGAM score group was enriched in “regulation of fibroblast proliferation” but showed no enrichment in immune‐related processes. This aligns with earlier findings of increased immune cell presence in the low iMLGAM score group and higher fibroblast levels in the high iMLGAM score group. Notably, PD‐L1 and PD‐L2, located within the amplification peak at 9p24.1 specific to the low iMLGAM score group, were linked to both immune‐related biological processes, indicating their potential role in modulating immune status (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7F</xref>). mRNA expression analysis from the TCGA cohort confirmed significantly higher expression levels of PD‐L1 and PD‐L2 in the low iMLGAM score group (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S7G</xref>), supporting the CNV data. These findings suggest that tumor‐specific CNVs contribute to the differences in immune infiltration patterns.</p></sec><sec id="imt270011-sec-0090"><title>Validation of iMLGAM score's predictive value in an independent clinical cohort</title><p>We conducted multiplex immunofluorescence staining on NSCLC patient tissue samples using DAPI, CD4, CD8, and CD20 markers. Analysis revealed that specimens from the low iMLGAM score cohort had significantly higher infiltration of CD8<sup>+</sup> T cells, and B lymphocytes compared to the high iMLGAM score group (Figure <xref rid="imt270011-fig-0003" ref-type="fig">3A</xref>, Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S8A,B</xref>). Post‐immunotherapy imaging evaluated patient responses according to RECIST criteria (Figure <xref rid="imt270011-fig-0003" ref-type="fig">3B</xref>). The iMLGAM score's predictive value for neoadjuvant immunotherapy outcomes was confirmed through ROC analysis, yielding a strong AUC of 0.73 (Figure <xref rid="imt270011-fig-0003" ref-type="fig">3C,D</xref>). Although the responder group included a notable number of cases from the low iMLGAM score group (Figure <xref rid="imt270011-fig-0003" ref-type="fig">3E</xref>), this did not reach statistical significance (<italic toggle="yes">p</italic> = 0.09), likely due to the limited sample size (<italic toggle="yes">n</italic> = 14).</p><fig position="float" fig-type="Figure" id="imt270011-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Clinical validation of iMLGAM score in the in‐house cohort. (A) Representative multiplex immunofluorescence images showing DAPI, CD4, CD8, and CD20 staining in high and low iMLGAM score groups. (B) Radiological assessment comparing pre‐ and post‐immunotherapy imaging in high and low iMLGAM score groups. (C) Baseline clinical characteristics of the in‐house cohort. (D) ROC curve analysis of iMLGAM score for predicting clinical response in the in‐house cohort. (E) iMLGAM score distribution between response and nonresponse groups.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="IMT2-4-e70011-g006.jpg"><?image-name IMT2-4-e70011-g006.jpg?><?image-size 128815?><?image-md5 cc3d9dade72669f3b39da9cde1500aaf?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 658?><?image-original-width 910?><?image-scaled-height 438?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/cc3d9dade726/IMT2-4-e70011-g006.jpg?><?thumb-name IMT2-4-e70011-g006.gif?><?thumb-size 6762?><?thumb-md5 af05a0d1a8899a1ac752cd84cde1538c?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 110?><?thumb-cloudpmc-urn urn:cdn:blobs/419f/11995183/af05a0d1a889/IMT2-4-e70011-g006.gif?></graphic></fig></sec><sec id="imt270011-sec-0100"><title>Identification of therapeutic targets</title><p>We performed a comprehensive analysis of immune response data from seven clustered regularly interspaced short palindromic repeats (CRISPR) cohorts, encompassing 22,505 genes, which were stratified into 17 datasets based on cell types and treatment conditions. Genes were ranked by their mean <italic toggle="yes">z</italic> scores, identifying immune‐resistant genes at the top and immune‐sensitive genes at the bottom. Knockout of immune‐resistant genes may enhance antitumor immunity, while disruption of immune‐sensitive genes could diminish it. Figure <xref rid="imt270011-fig-0004" ref-type="fig">4A</xref> illustrates the gene ranking methodology. Next, we applied univariate Cox regression to the meta cohort, which includes the integrated training, validation, and test sets, to identify prognostic genes associated with a high iMLGAM score (<italic toggle="yes">p</italic> &lt; 0.05). <italic toggle="yes">Centrosomal Protein 55 (CEP55)</italic> was ranked first among these genes based on the CRISPR data (Figure <xref rid="imt270011-fig-0004" ref-type="fig">4B</xref>). Analysis of TCGA pan‐cancer datasets showed that <italic toggle="yes">CEP55</italic> expression was upregulated in tumor samples compared to normal tissues (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S9A</xref>). To explore <italic toggle="yes">CEP55</italic>'s biological functions, we utilized TCGA pan‐cancer datasets and scRNA‐seq data, revealing its enrichment in cell cycle‐related pathways, particularly the G2M CHECKPOINT and E2F TARGETS (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S9B</xref>). In the pan‐cancer scRNA‐seq data set, we isolated tumor epithelial cells for dimensionality reduction and clustering, demonstrating <italic toggle="yes">CEP55</italic> expression in a subset of these cells (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S9C,D</xref>). GSEA further confirmed <italic toggle="yes">CEP55</italic>'s enrichment in cell cycle‐related pathways (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S9E</xref>). In conclusion, our findings highlight <italic toggle="yes">CEP55</italic> as a promising target for enhancing ICB therapy efficacy. By addressing tumor cell proliferation and immune evasion mechanisms, <italic toggle="yes">CEP55</italic>‐targeted strategies could potentially overcome existing limitations in immunotherapy and improve patient outcomes.</p><fig position="float" fig-type="Figure" id="imt270011-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Clustered regularly interspaced short palindromic repeats (CRISPR) screening and functional analysis of centrosomal protein 55 (CEP55) based on iMLGAM score. (A) Gene ranking by antitumor immunity knockout effects from 17 CRISPR datasets. (B) Univariate Cox regression analysis of high iMLGAM score prognostic genes, with CEP55 as the top candidate from CRISPR screen data. Migration and invasion assessment of CT26 (C) and 3LL (D) cells after CEP55 knockdown using Transwell assays. (E) Colony formation assays showing inhibition of cancer cell proliferation following CEP55 knockdown. (F) Flow cytometric analysis of apoptotic cell proportions in Colon Tumor 26 (CT26) and Lewis lung cancer cell line (3LL) cells after CEP55 knockdown.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="IMT2-4-e70011-g002.jpg"><?image-name IMT2-4-e70011-g002.jpg?><?image-size 229945?><?image-md5 75c8c2c8d665475528a0db600b57b1a0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 893?><?image-original-width 910?><?image-scaled-height 595?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/75c8c2c8d665/IMT2-4-e70011-g002.jpg?><?thumb-name IMT2-4-e70011-g002.gif?><?thumb-size 8453?><?thumb-md5 0b68d99ce6413fca4581b76b3431b516?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 98?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/419f/11995183/0b68d99ce641/IMT2-4-e70011-g002.gif?></graphic></fig></sec><sec id="imt270011-sec-0110"><title>
+<italic toggle="yes">CEP55</italic> knockdown attenuates cancer cell malignant phenotypes</title><p>To investigate the role of <italic toggle="yes">CEP55</italic> in cancer cell malignancy, tumor cells were transfected with control short hairpin RNA (shNC) or <italic toggle="yes">CEP55</italic>‐targeting shRNA (sh<italic toggle="yes">CEP55</italic>‐1, sh<italic toggle="yes">CEP55</italic>‐2) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S10A</xref>). Transwell migration and invasion assays revealed that <italic toggle="yes">CEP55</italic> knockdown significantly inhibited the migration and invasion of Colon Tumor 26 (CT26) and Lewis lung cancer cell line (3LL) cells (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0004" ref-type="fig">4C,D</xref>, Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S10B,C</xref>). Colony formation assays demonstrated a significant reduction in the ability of tumor cells to form colonies following <italic toggle="yes">CEP55</italic> knockdown (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0004" ref-type="fig">4E</xref>, Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S10D</xref>). Flow cytometry analysis showed a marked increase in the proportion of apoptotic cells in CT26 and 3LL lines after <italic toggle="yes">CEP55</italic> knockdown (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0004" ref-type="fig">4F</xref>, Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S10E</xref>). These results indicate that <italic toggle="yes">CEP55</italic> knockdown significantly inhibits tumor cell migration, invasion, and colony formation while promoting apoptosis. In summary, targeting <italic toggle="yes">CEP55</italic> markedly reduces the malignant behavior of cancer cells.</p></sec><sec id="imt270011-sec-0120"><title>
+<italic toggle="yes">CEP55</italic> downregulation enhances CD8 + T cell function and augments immunotherapy efficacy</title><p>This study investigated the impact of <italic toggle="yes">CEP55</italic> knockdown on CD8<sup>+</sup> T cell immune function using coculture systems with CT26 and 3LL cancer cells. Tumor cells were transfected with either a nontargeting control shNC or <italic toggle="yes">CEP55</italic>‐targeting shRNAs and cocultured with CD8<sup>+</sup> T cells. Results showed a significant increase in the percentage of IFN‐γ<sup>+</sup> CD8<sup>+</sup> T cells in the <italic toggle="yes">CEP55</italic> knockdown groups compared to controls (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0005" ref-type="fig">5A,B</xref>). Similarly, the percentage of TNF‐α<sup>+</sup> CD8<sup>+</sup> T cells was also significantly elevated in both CT26 and 3LL cells following <italic toggle="yes">CEP55</italic> knockdown (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0005" ref-type="fig">5C,D</xref>). Flow cytometry analysis revealed that <italic toggle="yes">CEP55</italic> knockdown in tumor cells decreased the expression of exhaustion markers PD‐1 and TIM‐3 on CD8<sup>+</sup> T cells, indicating that reduced <italic toggle="yes">CEP55</italic> expression may reverse T cell exhaustion and restore functionality (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-suppl-0001" ref-type="supplementary-material">S10F,G</xref>). To assess the effects of <italic toggle="yes">CEP55</italic> knockdown on tumor growth and survival, we employed a mouse subcutaneous tumor model using 3LL cells (<italic toggle="yes">n</italic> = 5 per group). In this model, <italic toggle="yes">CEP55</italic> knockdown resulted in reduced tumor weight and volume compared to the control group (Figure <xref rid="imt270011-fig-0005" ref-type="fig">5E,F,H</xref>). Kaplan–Meier (K–M) survival analysis indicated that <italic toggle="yes">CEP55</italic> knockdown, especially in combination with anti‐programmed cell death protein 1 (anti‐PD1) therapy, significantly improved survival rates in tumor‐bearing mice (<italic toggle="yes">p</italic> &lt; 0.05) (Figure <xref rid="imt270011-fig-0005" ref-type="fig">5G</xref>). These findings suggest that targeting <italic toggle="yes">CEP55</italic> may enhance the efficacy of immunotherapy.</p><fig position="float" fig-type="Figure" id="imt270011-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Impact of CEP55 knockdown on CD8<sup>+</sup> T cell activity and tumor growth. (A) Flow cytometric analysis of IFN‐γ<sup>+</sup> CD8<sup>+</sup> T cells in CT26/3LL coculture systems with control short hairpin RNA (shNC) or <italic toggle="yes">CEP55</italic>‐targeting shRNA (sh<italic toggle="yes">CEP55</italic>) transfection. (B) Quantitative analysis of IFN‐γ<sup>+</sup> CD8<sup>+</sup> T cells in CT26 and 3LL coculture systems. (C) Flow cytometric analysis of TNF‐α<sup>+</sup> CD8<sup>+</sup> T cells in coculture systems. (D) Quantitative analysis of TNF‐α<sup>+</sup> CD8<sup>+</sup> T cells in CT26 and 3LL coculture systems. (E) Tumor images from 3LL subcutaneous mouse model under shNC, shCEP55, and shCEP55<sup>+</sup>anti‐PD1 treatments. (F) Tumor weight comparison across treatment groups in 3LL model. (G) Kaplan–Meier survival analysis of 3LL tumor‐bearing mice under shNC, shCEP55, and anti‐PD1 treatments. (H) Tumor growth curves (mm³) for different treatment groups in 3LL model.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="IMT2-4-e70011-g004.jpg"><?image-name IMT2-4-e70011-g004.jpg?><?image-size 165541?><?image-md5 21d6fcd704427814bba1f4242fed1f95?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1031?><?image-original-width 910?><?image-scaled-height 687?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/419f/11995183/21d6fcd70442/IMT2-4-e70011-g004.jpg?><?thumb-name IMT2-4-e70011-g004.gif?><?thumb-size 6455?><?thumb-md5 67df1986c0c2dfb504e650b3f2e51696?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 113?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/419f/11995183/67df1986c0c2/IMT2-4-e70011-g004.gif?></graphic></fig></sec></sec><sec sec-type="discussion" id="imt270011-sec-0130"><title>DISCUSSION</title><p>The identification of reliable predictive biomarkers remains essential for therapeutic decision‐making in immunotherapy, resource distribution optimization, and acceleration of both clinical investigations and regulatory endorsements. Although multiple biological indicators were previously investigated and implemented for immunotherapy outcome forecasting, their predictive capabilities were found to be inadequate [<xref rid="imt270011-bib-0007" ref-type="bibr">7</xref>, <xref rid="imt270011-bib-0021" ref-type="bibr">21</xref>]. These limitations emphasized the critical requirement for alternative response signatures. In this investigation, which examined 1242 subjects with various malignancies, the iMLGAM score was developed and validated as a novel five gene‐pairs model for prognostic evaluation in patients receiving ICB therapy. This methodology represents the first pan‐cancer immunotherapeutic predictive system that utilizes ensemble learning through the integration of both gene‐pair analysis and GA approaches.</p><p>Our investigation presents multiple innovative elements and clinical applications. Initially, the research scope encompassed multiple malignancy categories, including NSCLC, melanoma, and RCC, which represent the predominant cancer types receiving ICB therapy in contemporary clinical practice. Subsequently, while numerous mRNA‐based indicators emerged as potential immunotherapeutic response predictors, the implementation of multi‐biomarker predictive systems required a thorough evaluation of factors affecting high‐throughput assay precision in clinical environments. Critical considerations included preanalytical (sample‐derived) and technical (platform‐derived) variation sources. Although tissue‐specific mRNA expression variations were traditionally normalized through reference gene incorporation and relative quantification protocols, the established risk‐score algorithms and threshold values for these mRNA signatures demonstrated limited compatibility across diverse analytical platforms, restricting their broad implementation [<xref rid="imt270011-bib-0022" ref-type="bibr">22</xref>]. To address these limitations, the IRGPs methodology was implemented, effectively eliminating batch variations. A previous study [<xref rid="imt270011-bib-0012" ref-type="bibr">12</xref>] demonstrated that a more precise prognostic assessment strategy through a gene pair analysis method, using PD‐L1 and CXCL10 as an example. Although these two genes were individually associated with favorable prognosis when analyzed separately, the PD‐L1 and CXCL10 gene pair is actually associated with significantly shortened survival. This finding stems from the complex interaction network of immune cells, highlighting the limitations of traditional single‐gene analysis methods. Thus, this approach enhanced ensemble learning model performance while offering multiple advantages: mitigation of immune cell co‐infiltration‐induced prognostic bias, capture of relative immune cell abundance patterns, and improved insights into cancer progression mechanisms. Gene pair‐based prediction systems exhibited enhanced stability across various sequencing platforms and specimen types, demonstrating superior translational potential. Additionally, these systems facilitated the detection of subtle immunological cellular variations while maintaining resistance to technical expression measurement fluctuations. This methodology provided enhanced robustness, biological interpretation capability, and clinical utility compared to individual gene expression analysis, particularly valuable for TIME investigation [<xref rid="imt270011-bib-0012" ref-type="bibr">12</xref>]. Furthermore, GA implementation optimized base learner selection within the ensemble framework, enhancing predictive accuracy. This integrated analytical approach demonstrated versatility beyond therapeutic response prediction, extending to various analytical applications incorporating gene expression and clinical data, including pan‐cancer prognostic evaluation. Finally, the iMLGAM scoring system presented significant clinical advantages. The methodology potentially protected nonresponsive individuals from immune‐related complications while facilitating the rapid transition to alternative therapeutic strategies. Considering the average treatment expenditure of $120,000 [<xref rid="imt270011-bib-0023" ref-type="bibr">23</xref>], the implementation of precise biomarker strategies could generate substantial cost reductions for interventions with predicted limited efficacy.</p><p>The comprehensive TCGA database was examined to characterize immunotherapeutic response patterns across malignancies. Analysis demonstrated that specimens with reduced iMLGAM scores exhibited an inflammatory immunological profile, marked by enhanced CD8<sup>+</sup>T lymphocyte infiltration and elevated immunogenicity. Through the application of immune infiltration parameters established by Danaher et al. and ssGSEA protocols, substantially increased immune cell infiltration was documented in the low iMLGAM cohort, validating robust antineoplastic immune activity. Previous investigations established positive associations between TIL density and immunological responses across diverse cancer types [<xref rid="imt270011-bib-0024" ref-type="bibr">24</xref>]. The population exhibiting reduced iMLGAM scores demonstrated not only enhanced cytotoxic T‐cell presence but also amplified expression of immune checkpoint molecules, encompassing PD‐L1, PD‐1, and CTLA‐4, compared to their high iMLGAM counterparts. This constellation of activated antitumor immunity, upregulated checkpoint molecule expression, and enhanced tumor immunogenicity was postulated to underlie the superior ICB therapeutic responses observed in subjects with low iMLGAM scores.</p><p>The robust predictive capabilities of the iMLGAM score necessitated the identification of associated molecular targets. CRISPR datasets were analyzed, with genes prioritized according to their sgRNA read logFCs between immune‐competent and immune‐deficient conditions. Subsequently, univariate Cox regression analysis was performed on the meta cohort to identify prognostic markers associated with elevated iMLGAM scores, leading to the identification of <italic toggle="yes">CEP55</italic> as a candidate for detailed examination. <italic toggle="yes">CEP55</italic>, a centrosome protein family constituent, was documented to regulate mitotic processes and cytokinesis. Its fundamental functions encompassed microtubule anchorage, protein polymerization facilitation, and spindle assembly regulation, collectively modulating cellular proliferation. Previous investigations demonstrated <italic toggle="yes">CEP55</italic> upregulation across multiple malignancies [<xref rid="imt270011-bib-0025" ref-type="bibr">25</xref>]. Enhanced <italic toggle="yes">CEP55</italic> expression was found to interact directly with PI3K p110 catalytic components, resulting in PI3K/AKT pathway activation. This activation promoted cellular transformation, proliferative activity, epithelial‐mesenchymal transition, and metastatic potential, thereby accelerating oncogenic progression [<xref rid="imt270011-bib-0026" ref-type="bibr">26</xref>]. Significantly, earlier functional genomic screening protocols identified <italic toggle="yes">CEP55</italic> among 182 genes whose modification influenced tumor susceptibility to T cell‐mediated cytotoxicity [<xref rid="imt270011-bib-0027" ref-type="bibr">27</xref>]. Within colorectal malignancies, elevated <italic toggle="yes">CEP55</italic> expression correlated with immunological exclusion and disease advancement, while its suppression enhanced antitumor immunity and ICB responsiveness [<xref rid="imt270011-bib-0028" ref-type="bibr">28</xref>]. Our study revealed that CEP55 downregulation substantially attenuated malignant cellular phenotypes while augmenting immunotherapeutic efficacy. These findings expanded previous observations by demonstrating that CEP55 suppression not only inhibited oncogenic potential but also enhanced immunotherapeutic responses, establishing CEP55 as a promising interventional target in cancer treatment.</p><p>Our study acknowledges several limitations. First, the 11 RNA‐seq cohorts analyzed represent a limited range of six cancer types, with the iMLGAM score's pan‐cancer predictive efficacy requiring further validation through prospective ICB trials. Second, some datasets lack critical clinical annotations, hindering comprehensive biomarker analyses. Third, our research primarily focused on validating CEP55 function in lung cancer, lacking extensive verification across other cancer types. Fourth, we currently lack large‐scale, multi‐center pan‐cancer cohort validation, limiting the model's generalizability. Fifth, this study failed to fully elucidate the precise molecular mechanism by which CEP55 regulates PD‐L1 expression. The specific signal transduction pathways and transcriptional regulatory mechanisms remain incompletely understood. Future research needs to conduct detailed protein interaction and signaling pathway analyses to reveal the molecular mechanisms of CEP55 regulation of PD‐L1 and its immune response modulation.</p></sec><sec sec-type="conclusions" id="imt270011-sec-0140"><title>CONCLUSION</title><p>The iMLGAM score represents a valuable predictive tool for clinical outcomes in cancer patients receiving ICB therapy. By integrating a gene‐pairing approach with advanced machine learning algorithms, this novel scoring system demonstrates improved predictive accuracy compared to existing biomarkers. A low iMLGAM score correlates with favorable immune activation patterns, while a high score indicates immune evasion mechanisms. Through comprehensive analysis, we identified CEP55 as a promising therapeutic target, with its knockdown significantly enhancing ICB therapy responses.</p></sec><sec sec-type="methods" id="imt270011-sec-0150"><title>METHODS</title><sec id="imt270011-sec-0160"><title>Data collection and processing</title><p>We analyzed bulk transcriptomic profiles and clinical data from immunotherapy patients across 11 RNA‐seq datasets. This collection included four cohorts of melanoma (Łuksza [<xref rid="imt270011-bib-0029" ref-type="bibr">29</xref>], Gide [<xref rid="imt270011-bib-0030" ref-type="bibr">30</xref>], Riaz [<xref rid="imt270011-bib-0031" ref-type="bibr">31</xref>], and Hugo [<xref rid="imt270011-bib-0032" ref-type="bibr">32</xref>] cohorts), one data set for RCC (Bruan cohort [<xref rid="imt270011-bib-0033" ref-type="bibr">33</xref>]), one study on UC (Mariathasan cohort [<xref rid="imt270011-bib-0034" ref-type="bibr">34</xref>]), one cohort for GBM (Zhao cohort [<xref rid="imt270011-bib-0033" ref-type="bibr">33</xref>]), one data set for GC (Kim cohort [<xref rid="imt270011-bib-0035" ref-type="bibr">35</xref>]), and two cohorts of NSCLC (OAK and POPLAR [<xref rid="imt270011-bib-0036" ref-type="bibr">36</xref>] cohorts). The Hugo cohort comprised 27 pretreatment tumor specimens from 26 individuals, while the Zhao cohort [<xref rid="imt270011-bib-0033" ref-type="bibr">33</xref>] included 34 pretreatment samples from 17 patients; to maintain data independence, we randomly selected one tumor sample per patient from these datasets. We combined six ICB RNA‐seq cohorts to create a large data set (<italic toggle="yes">n</italic> = 1031), which included RCC (<italic toggle="yes">n</italic> = 172), UC (<italic toggle="yes">n</italic> = 298), melanoma (<italic toggle="yes">n</italic> = 244), and NSCLC (<italic toggle="yes">n</italic> = 317), merging Braun, Mariathasan, Łuksza, Gide, Riaz, and OAK cohorts. This data set was split into a training set (70%, <italic toggle="yes">n</italic> = 722) and a testing set (30%, <italic toggle="yes">n</italic> = 309). The remaining five ICB RNA‐seq cohorts were consolidated into an independent validation set (<italic toggle="yes">n</italic> = 211), as detailed in Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S3</xref>. To compare transcriptome signatures, we used the ComBat function from the sva R package [<xref rid="imt270011-bib-0037" ref-type="bibr">37</xref>] to adjust for batch effects.</p><p>Additionally, we obtained normalized transcriptomic and genomic data from 9,815 patients with complete survival information across 30 The Cancer Genome Atlas (TCGA) cohorts from the UCSC Xena database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://xenabrowser.net" ext-link-type="uri">https://xenabrowser.net</ext-link>) (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S4</xref>). Three cancer types—diffuse large B cell lymphoma, acute myeloid leukemia, and thymoma—were excluded due to their high intrinsic immune cell content [<xref rid="imt270011-bib-0038" ref-type="bibr">38</xref>].</p><p>We also incorporated data from a pan‐cancer scRNA‐seq study [<xref rid="imt270011-bib-0039" ref-type="bibr">39</xref>], which included samples from 31 normal tissues, 54 adjacent tissues, and 148 tumors. We processed 829,521 cells using the Seurat R package [<xref rid="imt270011-bib-0040" ref-type="bibr">40</xref>], normalizing gene expression data with the LogNormalize method and identifying the 2000 most variably expressed genes for principal component analysis (PCA). Batch effects were managed using the Harmony R package [<xref rid="imt270011-bib-0041" ref-type="bibr">41</xref>]. The analysis pipeline included key steps such as NormalizeData, FindVariableFeatures, ScaleData, RunPCA, FindNeighbors, FindClusters, and RunUMAP. Individual cell annotations were obtained from the original study to ensure a thorough analysis of the cellular landscape.</p><p>Immune‐related genes were sourced from the ImmPort [<xref rid="imt270011-bib-0042" ref-type="bibr">42</xref>] database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://immport.niaid.nih.gov" ext-link-type="uri">https://immport.niaid.nih.gov</ext-link>) and the TimiGP R package [<xref rid="imt270011-bib-0012" ref-type="bibr">12</xref>] (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S5</xref>).</p></sec><sec id="imt270011-sec-0170"><title>Clinical specimen collection and RNA sequencing</title><p>We established an in‐house ICB cohort comprising 14 patients diagnosed with metastatic or advanced NSCLC. In this study involving human subjects, informed consent has been obtained from the participants, and approval has been granted by the Ethics Committee of Changhai Hospital (No. CHEC2021091). These patients received treatment with anti‐PD‐1/PD‐L1 antibodies, either as monotherapy or in conjunction with anti‐CTLA‐4 antibodies, between January 2018 and October 2022. Ethical approval for the collection of NSCLC tissue samples before ICB therapy was obtained from the Medical Ethics Committee of Changhai Hospital. The samples were subsequently sent to Oncocare Inc. in Suzhou, China, for RNA sequencing.</p></sec><sec id="imt270011-sec-0180"><title>Clinical outcomes</title><p>The primary clinical evaluation endpoints were the objective response rate (ORR) and OS. The ORR was determined based on the response evaluation criteria in solid tumors (RECIST) v1.1 guidelines [<xref rid="imt270011-bib-0043" ref-type="bibr">43</xref>] for most cohorts, while the Hugo 2016 [<xref rid="imt270011-bib-0032" ref-type="bibr">32</xref>] was assessed using the immune‐related RECIST criteria. Patients were divided into two categories: responders, defined as those achieving complete response (CR) or partial response (PR), and non‐responders, which included individuals with stable disease (SD) or progressive disease (PD).</p></sec><sec id="imt270011-sec-0190"><title>Multicolor fluorescence IHC protocol</title><p>We utilized the Akoya OPAL Polaris 4‐Color Manual IHC Kit (NEL811001KT) for multicolor immunofluorescence staining of tissue specimens. The protocol began with baking the tissue slides to promote adhesion, followed by dewaxing to remove paraffin. Antigen retrieval was performed by heating the slides, and blocking of nonspecific antibody interactions was conducted. The slides were then incubated with primary antibodies: CD4 (1:500, Cat# <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:entrez-nucleotide" xlink:href="Ab133616">Ab133616</ext-link>; Abcam), CD8A (1:2,000, Cat# ab217344; Abcam), and CD20 (1:100, Cat# ab64088; Abcam). Following this, incubation with HRP‐conjugated secondary antibodies was carried out. Signal amplification for each antigen was achieved through tyramide signal amplification, and nuclei were counterstained with DAPI. The staining process concluded with the mounting of coverslips for microscopy analysis, thereby enabling detailed visualization of cellular and molecular architectures within the tissue specimens.</p></sec><sec id="imt270011-sec-0200"><title>The framework of the iMLGAM score</title><p>The iMLGAM score was developed to predict clinical outcomes for cancer patients undergoing ICB therapy. This study employed feature selection and engineering techniques to identify crucial IRGPs using logistic regression and ROC analysis. The ABESS algorithm was utilized for optimized feature selection. Various machine learning methods, including Enet, RF, SVM, and KNN, were implemented to construct foundational learners, which were further refined through 10‐fold CV and grid search. A GA was employed to identify the optimal combination of learners for the iMLGAM score, with the AUC serving as the fitness function. The predictive capability of the iMLGAM score was evaluated using K–M analysis and ROC‐AUC. The source code and detailed parameters for the iMLGAM score can be accessed at the following GitHub repository: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Yelab1994/iMLGAM" ext-link-type="uri">https://github.com/Yelab1994/iMLGAM</ext-link>.</p></sec><sec id="imt270011-sec-0210"><title>Evaluating iMLGAM score against other predictive gene signatures</title><p>To further evaluate the predictive capabilities of the iMLGAM score, we performed a comparative analysis with previously reported ICB signatures. This comparison encompassed 12 distinct signatures: CAF. Signature [<xref rid="imt270011-bib-0043" ref-type="bibr">43</xref>], INFγ. Sigature [<xref rid="imt270011-bib-0044" ref-type="bibr">44</xref>], chemokines. Sigature [<xref rid="imt270011-bib-0045" ref-type="bibr">45</xref>], Davoli_IS. Signature [<xref rid="imt270011-bib-0046" ref-type="bibr">46</xref>], CEP. Signature [<xref rid="imt270011-bib-0044" ref-type="bibr">44</xref>], CYT. Signature [<xref rid="imt270011-bib-0047" ref-type="bibr">47</xref>], TLS. Signature [<xref rid="imt270011-bib-0048" ref-type="bibr">48</xref>], TIDE. Signature [<xref rid="imt270011-bib-0049" ref-type="bibr">49</xref>], NLPR3. Signautre [<xref rid="imt270011-bib-0050" ref-type="bibr">50</xref>], Roh_IS. Signature [<xref rid="imt270011-bib-0051" ref-type="bibr">51</xref>], Ayers_expIS. Sigature [<xref rid="imt270011-bib-0052" ref-type="bibr">52</xref>], and IPS. Signautre [<xref rid="imt270011-bib-0053" ref-type="bibr">53</xref>]. The objective of this comprehensive comparison was to determine the relative effectiveness of the iMLGAM score among existing predictive models.</p></sec><sec id="imt270011-sec-0220"><title>Assessing tumor immune infiltration using <italic toggle="yes">CIBERSORT</italic>
+</title><p>
+<italic toggle="yes">CIBERSORT</italic> is a deconvolution algorithm that employs gene expression data alongside support vector regression to estimate the proportions of different cell types in mixed‐cell bulk cancer samples [<xref rid="imt270011-bib-0054" ref-type="bibr">54</xref>]. This method infers the relative abundances of 22 infiltrating immune cell types based on normalized gene expression profiles.</p></sec><sec id="imt270011-sec-0230"><title>Infiltration patterns of TILs and leukocytes</title><p>In the TCGA cohort, TIL levels were evaluated through two approaches: genomic assessment and analysis of H&amp;E‐stained images. Data from Thorsson et al. and Saltz et al. [<xref rid="imt270011-bib-0055" ref-type="bibr">55</xref>, <xref rid="imt270011-bib-0056" ref-type="bibr">56</xref>]. were used for these evaluations. Saltz et al. provided extensive TIL mappings for over 5000 H&amp;E‐stained whole‐slide images from TCGA, utilizing deep learning techniques with convolutional neural networks to classify lymphocytes, thereby establishing a benchmark for TIL analysis. The genomic evaluation of TIL fraction combined two components: (1) the aggregated lymphocyte proportion in the immune compartment, determined by CIBERSORT, and (2) the leukocyte fraction derived from DNA methylation. Overall, this methodology enabled a comprehensive assessment of TILs across different cancer types in the TCGA data set.</p></sec><sec id="imt270011-sec-0240"><title>Assessing tumor immune infiltration scores</title><p>Immune infiltration scores were derived from a prior TCGA pan‐cancer study conducted by Danaher et al. [<xref rid="imt270011-bib-0056" ref-type="bibr">56</xref>]. These scores were calculated based on 60 specific marker genes and <italic toggle="yes">single‐sample gene set enrichment analysis (ssGSEA)</italic> method that classifies 14 distinct immune cell populations. The scores for each immune cell type were determined from the expression levels of these marker genes. The results exhibited high reproducibility and demonstrated strong concordance with findings obtained through IHC and flow cytometry techniques.</p></sec><sec id="imt270011-sec-0250"><title>Characterization of immune signatures</title><p>We acquired twenty‐nine classical immune signatures from the study by He et al. [<xref rid="imt270011-bib-0057" ref-type="bibr">57</xref>]. To quantify the enrichment levels of these signatures in each sample, we utilized the <italic toggle="yes">GSVA</italic> R package, employing the <italic toggle="yes">ssGSEA</italic> method [<xref rid="imt270011-bib-0058" ref-type="bibr">58</xref>].</p></sec><sec id="imt270011-sec-0260"><title>Assessing the abundance of fibroblasts using <italic toggle="yes">MCPcounter</italic>
+</title><p>The abundance of fibroblasts was estimated using the <italic toggle="yes">MCPcounter</italic> algorithm, implemented through the <italic toggle="yes">MCPcounter</italic> R package [<xref rid="imt270011-bib-0059" ref-type="bibr">59</xref>]. This algorithm offers a reliable method for quantifying immune and stromal cell populations across various tissues using transcriptomic data. Validated by both in vitro and ex vivo studies, <italic toggle="yes">MCPcounter</italic> outperforms earlier techniques by providing accurate estimates of cell abundances.</p></sec><sec id="imt270011-sec-0270"><title>Characterization of immunogenomic indicator</title><p>Immunogenomic indicators were derived from Thorsson et al.'s pan‐cancer immune landscape project [<xref rid="imt270011-bib-0055" ref-type="bibr">55</xref>]. The ITH score, defined as the subclonal genome fraction, was assessed using the <italic toggle="yes">ABSOLUTE</italic> algorithm, which models tumor copy number alterations and mutations. Copy number burden scores, specifically n_segs and frac_altered, represent the total number of segments in each sample's copy number profile and the proportion of bases deviating from baseline ploidy, respectively. Aneuploidy scores were calculated as the cumulative sum of amplified or deleted chromosomal arms. TCR and BCR diversity scores, including Shannon entropy and richness, were inferred from cancer RNA‐seq data. Together, these indicators offer valuable insights into the genomic characteristics of tumors and the diversity of immune receptors across various cancer types.</p></sec><sec id="imt270011-sec-0280"><title>Unraveling genomic mutational patterns</title><p>The <italic toggle="yes">maftools</italic> R package was utilized to perform nonnegative matrix factorization analysis of mutations categorized by 96 trinucleotide contexts in pan‐cancer specimens from TCGA. The resulting mutational profile was subsequently compared to the Catalogue of Somatic Mutations in Cancer using cosine similarity.</p></sec><sec id="imt270011-sec-0290"><title>Oncogenic pathway enrichment analysis</title><p>Ten canonical oncogenic pathways, comprising 187 oncogenes, were obtained from the study by Sanchez‐Vega et al. [<xref rid="imt270011-bib-0060" ref-type="bibr">60</xref>]. To assess the activity of these pathways in each sample, we utilized the ssGSEA method within the <italic toggle="yes">GSVA</italic> R package [<xref rid="imt270011-bib-0058" ref-type="bibr">58</xref>].</p></sec><sec id="imt270011-sec-0300"><title>Deciphering the impact of copy number variations</title><p>
+<italic toggle="yes">GISTIC 2.0</italic>, an advanced computational tool [<xref rid="imt270011-bib-0061" ref-type="bibr">61</xref>], was employed to investigate significant deletion or amplification events in genomic regions. This program identifies somatic copy number alterations by analyzing both the amplitude and frequency of observed alterations. Using <italic toggle="yes">GISTIC 2.0</italic>, we were able to identify recurrent genomic changes that may be critical in the development and progression of cancer across various tumor types.</p></sec><sec id="imt270011-sec-0310"><title>Functional enrichment analysis</title><p>Functional enrichment analysis and clustering of identified biological processes were carried out using the R package <italic toggle="yes">clusterProfiler</italic> [<xref rid="imt270011-bib-0062" ref-type="bibr">62</xref>].</p></sec><sec id="imt270011-sec-0320"><title>CRISPR screening data</title><p>To investigate potential therapeutic targets of iMLGAM score, we aggregated data from seven published CRISPR/Cas9 screening studies that evaluated the individual effects of each gene knockout on tumor immunity, including Freeman [<xref rid="imt270011-bib-0063" ref-type="bibr">63</xref>], Kearney [<xref rid="imt270011-bib-0064" ref-type="bibr">64</xref>], Manguso [<xref rid="imt270011-bib-0065" ref-type="bibr">65</xref>], Pan [<xref rid="imt270011-bib-0066" ref-type="bibr">66</xref>], Patel [<xref rid="imt270011-bib-0067" ref-type="bibr">67</xref>], Vredevoogd [<xref rid="imt270011-bib-0068" ref-type="bibr">68</xref>], and Lawson [<xref rid="imt270011-bib-0027" ref-type="bibr">27</xref>] (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S6</xref>). The first six CRISPR studies were previously curated by Fu et al. [<xref rid="imt270011-bib-0049" ref-type="bibr">49</xref>]. In addition to Fu et al., we further compiled another CRISPR cohort from Lawson et al. [<xref rid="imt270011-bib-0027" ref-type="bibr">27</xref>]. To explore potential therapeutic targets related to the iMLGAM score, we aggregated data from seven CRISPR/Cas9 screening studies assessing gene knockout effects on tumor immunity (Table <xref rid="imt270011-suppl-0002" ref-type="supplementary-material">S6</xref>). The first six studies were curated by Fu et al. [<xref rid="imt270011-bib-0049" ref-type="bibr">49</xref>], and we added data from Lawson et al. [<xref rid="imt270011-bib-0027" ref-type="bibr">27</xref>]. These studies were organized into 17 datasets based on cell lines and treatment conditions, encompassing melanoma, breast, colon, and renal cancer. We aimed to identify genes that could enhance lymphocyte‐mediated cancer killing and influence immunotherapy responses. The CRISPR screening involved genome‐wide knockout in cancer cell lines, followed by RNA‐Seq to measure sgRNA abundance. Log‐fold changes of sgRNA reads assessed knockout effects on cancer fitness under immune pressure. Normalized z‐scores from these changes facilitated cross‐study comparisons, with lower <italic toggle="yes">z</italic>‐scores indicating better immune responses. Genes were ranked by average <italic toggle="yes">z</italic>‐scores across the datasets, with top‐ranked genes classified as immune resistant.</p></sec><sec id="imt270011-sec-0330"><title>Cell culture</title><p>The 3LL and CT26 cells were sourced from the China Center for Type Culture Collection. LLC cells were cultured in DMEM, whereas CT26 cells were maintained in RPMI 1640 medium. Both media were supplemented with 10% fetal bovine serum (FBS), 2 mM <sc>l</sc>‐glutamine, 1 mM pyruvate, 100 U/mL penicillin, and 100 µg/mL streptomycin.</p></sec><sec id="imt270011-sec-0340"><title>Western blot</title><p>Cells were lysed on ice for 20 min in a buffer containing 1× RIPA, 1× phosphatase inhibitor, and 1× protease inhibitor (Thermo Fisher Scientific). The lysate was centrifuged at 1200×<italic toggle="yes">g</italic> for 5 min at 4°C, and the supernatant was collected. Total protein concentration was assessed using the BCA Protein Assay Kit (Thermo Fisher Scientific), and 40 µg of protein was loaded per well for SDS gel electrophoresis. Proteins were separated at 120 V for 1 h and transferred to a PVDF membrane (Thermo Fisher Scientific) at 15 V for 30 min. The membrane was stained with Licor Revert Total Protein Stain for visualization. After washing with TBST and blocking with 5% bovine serum albumin, primary antibodies were incubated overnight at 4°C. The following day, the membrane was washed again and incubated with a secondary antibody at room temperature for 1 h. Membrane imaging was conducted using Amersham™ ECL Select (Cytiva). Primary antibodies were diluted at 1:125 for CEP55 (Santa Cruz) and 1:1500 for Beta‐Actin (Cell Signaling Technology).</p></sec><sec id="imt270011-sec-0350"><title>Lentiviral stable transfection cell line construction</title><p>Stable CEP55 knockdown cell lines were generated in 3LL and CT26 cells using lentiviral transduction. HEK293T cells were first transfected with lentiviral packaging plasmids (psPAX2 and pMD2.G) along with either CEP55‐targeting shRNA or shNC. After 48 h, the lentiviral supernatants were collected and used to infect 3LL and CT26 cells with polybrene (8 μg/mL) to enhance infection efficiency. The target sequences were: sh#1: CAGCATCAACTCTATGTGATT and sh#2: CGTTTAGAACTCGATGAATTT. Following 24 h of incubation, the medium was replaced with fresh DMEM, and the cells were allowed to recover for 48 h. Puromycin (2–10 μg/mL, optimized for each cell line) was then added for selection, maintained for 5–7 days to establish stable transfected cells. CEP55 knockdown efficiency was validated by qPCR and Western blot analysis. These stable cell lines were subsequently used in functional experiments to evaluate the role of CEP55 in tumor immunity.</p></sec><sec id="imt270011-sec-0360"><title>Clone formation</title><p>Dilute the single‐cell suspension and seed 500 cells per well in a six‐well plate. Incubate for 10 days at 37°C with 5% CO<sub>2</sub>. Afterward, wash with PBS, fix with 4% paraformaldehyde for 30 min, and stain with crystal violet for 20 min. Rinse with running water, then photograph and count the colonies formed.</p></sec><sec id="imt270011-sec-0370"><title>Transwell</title><p>To assess cell migration, dilute the tumor cells to a single‐cell suspension and add 2 × 10<sup>5</sup> cells to the upper chamber of the Transwell, with 600 μL of serum‐free medium in the lower chamber. Incubate for 36 h at 37°C with 5% CO<sub>2</sub>. After incubation, remove non‐migrated cells from the upper chamber with a cotton swab, fix the remaining cells with 4% paraformaldehyde for 30 min, and stain with 0.1% crystal violet for 20 min. Wash three times with PBS and count the cells that migrated to the lower chamber under a microscope. For the invasion assay, dilute Matrigel per the manufacturer's instructions and coat the upper chamber, incubating at 37°C for 1 h to solidify. Repeat the same procedure as above: add 2 × 10<sup>5</sup> tumor cells, incubate for 36 h, remove non‐invaded cells, fix, stain, wash, and count the cells that invaded the lower chamber.</p></sec><sec id="imt270011-sec-0380"><title>Flow cytometry apoptosis assay</title><p>After collecting and washing the cells with pre‐cooled PBS, resuspend them in Annexin V binding buffer (approximately 1 × 10<sup>6</sup> cells per experiment). Add 5 µL of Annexin V‐FITC and 5 µL of PI to the suspension, and incubate in the dark at room temperature for 15 min. Analyze the stained cells for apoptosis using a flow cytometer and <italic toggle="yes">FlowJo</italic> software.</p></sec><sec id="imt270011-sec-0390"><title>Coculture of CD8<sup>+</sup> T cells and tumor cells</title><p>Cells were isolated from the spleens of wild‐type C57BL/6 mice and filtered through a 70 µm filter to create a single‐cell suspension. After lysing red blood cells, CD8<sup>+</sup> T lymphocytes were isolated using an immune magnetic bead sorting kit (Cat # 480008, BioLegend). T cells were counted and seeded into 12‐well plates coated with 2.0 mg/mL anti‐CD3 (clone 145–2C11; BioLegend) and 3 mg/mL anti‐CD28 (clone 37N; BioLegend) antibodies in complete RPMI 1640 medium supplemented with 50 mM β‐mercaptoethanol and 10 mM HEPES. Following 48 h of activation, T cells were cocultured with tumor cells from either knockdown shNC or shCEP55. After an additional 48 h, T cells were collected for functional assays, which were analyzed using <italic toggle="yes">FlowJo</italic> software.</p></sec><sec id="imt270011-sec-0400"><title>Establishment of mouse subcutaneous tumor model</title><p>The procedure related to animal subjects was approved by the Ethics Committee of the Tianjin Medical University Cancer Institute and Hospital (No. 2023078). All mice were housed in the animal facility of Tianjin Medical University Cancer Institute and Hospital under specific‐pathogen‐free conditions. Male wild‐type C57BL/6 mice (6–8 weeks old) were placed in a sterile environment. Tumor cells were resuspended in PBS at a concentration of 5 × 10<sup>6</sup> cells/mL, and each mouse was subcutaneously inoculated with 100 μL of the suspension (5 × 10<sup>5</sup> cells) on the right dorsal flank. When tumor volumes reached approximately 100 mm³, mice were randomly grouped and treated by intraperitoneal injection with mouse PD‐1 monoclonal antibody (BioXcell; BE0146) at a dose of 100 mg per mouse dissolved in 100 μL <sc>d</sc>‐PBS buffer. Tumor size was measured with calipers every 2–3 days, and volume was calculated using the formula (volume = length × width²/2). Mice had free access to food and water and were kept in a suitable temperature environment. Upon reaching the predetermined tumor size or at the experiment's conclusion, mice were euthanized by cervical dislocation, and tumor tissues were collected for further analysis.</p></sec><sec id="imt270011-sec-0410"><title>Flow cytometry for tumor‐bearing mice</title><p>After tumor inoculation, tumor‐bearing mice were killed, and 3LL tumor samples were collected and chopped. The samples were incubated with a digestive solution at 37°C for 1 h and filtered through a 70 µm filter to obtain a single‐cell suspension. Red blood cells were lysed on ice with lysis buffer for 5 min, then washed and resuspended in pre‐cooled phosphate‐buffered saline (PBS). T cells were stimulated for 4 h at 37°C in a CO<sub>2</sub> incubator with complete RPMI 1640 medium containing 10% FBS, 1.5 μg/mL monensin, 100 ng/mL PMA, and 1 μg/mL ionomycin. The cell suspension was washed, blocked with CD16/32, and stained for viability on ice in the dark for 20 min. After washing, cells were stained for 25 min on ice with primary antibodies against CD45 (APC‐CY7), CD8 (FITC), CD3 (PE‐CY5.5), PD‐1 (PB450), and TIM‐3 (BV605). Following staining, cells were fixed with 1% paraformaldehyde for 20 min, permeabilized, and stained intracellularly with granzyme B (GZMB, PerCP‐CY5.5), interferon (IFN)‐γ (APC), and tumor necrosis factor (TNF)‐α (PE/Cyanine7). Finally, cells were analyzed using a Beckman DxFLEX flow cytometer, with data processed using <italic toggle="yes">FlowJo</italic> software.</p></sec><sec id="imt270011-sec-0420"><title>Statistical analysis</title><p>Pearson's or Spearman's coefficients assessed correlations between variables. A <italic toggle="yes">t</italic>‐test analyzed group differences for normally distributed variables; otherwise, the Mann–Whitney <italic toggle="yes">U</italic> test was used. Categorical variable differences were evaluated with Pearson's chi‐squared test or Fisher's exact test. K–M analysis generated survival curves, and the log‐rank test assessed significance. ROC analysis determined optimal threshold values, while multivariate logistic regression evaluated independent risk factors for clinical response. A <italic toggle="yes">p</italic>‐value of less than 0.05 was considered statistically significant. All analyses were two‐sided and performed using <italic toggle="yes">R</italic> software (version 4.3.1).</p></sec></sec><sec id="imt270011-sec-0430"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Bicheng Ye</bold>: Writing—original draft; writing—review and editing; methodology; software. <bold>Jun Fan</bold>: Writing—original draft; writing—review and editing; methodology. <bold>Lei Xue</bold>: Writing—original draft; writing—review and editing. <bold>Yu Zhuang</bold>: Writing—original draft; writing—review and editing. <bold>Peng Luo</bold>: Software. <bold>Aimin Jiang</bold>: Software. <bold>Jiaheng Xie</bold>: Software. <bold>Qifan Li</bold>: Methodology. <bold>Xiaoqing Liang</bold>: Methodology. <bold>Jiaxiong Tan</bold>: Methodology. <bold>Songyun Zhao</bold>: Methodology. <bold>Wenhang Zhou</bold>: Writing—review and editing; conceptualization. <bold>Chuanli Ren</bold>: Writing—review and editing; conceptualization. <bold>Haoran Lin</bold>: Conceptualization; writing—review and editing; writing—original draft. <bold>Pengpeng Zhang</bold>: Conceptualization; writing—review and editing.</p></sec><sec sec-type="COI-statement" id="imt270011-sec-0450"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270011-sec-0480"><title>ETHICS STATEMENT</title><p>The procedure related to human subjects was approved by the Ethics Committee of the Changhai Hospital (No. CHEC2021091). The procedure related to animal subjects was approved by the Ethics Committee of the Tianjin Medical University Cancer Institute and Hospital (No. 2023078).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270011-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> Survival Analysis and Predictive Performance.</p><p>
+<bold>Figure S2:</bold> Distribution and Predictive Performance of integrated Machine Learning and Genetic Algorithm‐driven Multiomics analysis (iMLGAM) Score for immune checkpoint blockade (ICB) Therapy Response Across Multiple Cancer Types.</p><p>
+<bold>Figure S3:</bold> Assessment of iMLGAM score in Multiple Independent Immunotherapy Cohorts.</p><p>
+<bold>Figure S4:</bold> Pan‐Cancer Analysis of iMLGAM Score.</p><p>
+<bold>Figure S5:</bold> Comparative Analysis of Immune Signatures, Cytolytic Activity, and Tumor Microenvironment Features Between iMLGAM Score Groups.</p><p>
+<bold>Figure S6:</bold> Molecular and Immunological Landscape Analysis.</p><p>
+<bold>Figure S7:</bold> Copy Number Alterations in High and Low iMLGAM Score Groups.</p><p>
+<bold>Figure S8:</bold> Quantitative analysis of immune cell populations.</p><p>
+<bold>Figure S9:</bold> Pan‐Cancer Analysis of Centrosomal Protein 55 (CEP55) Expression and Its Associated Molecular Signatures.</p><p>
+<bold>Figure S10:</bold> Functional Characterization of CEP55 Knockdown Effects.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70011-s002.doc" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70011-s002.doc?><?suppdata-size 54222468?><?suppdata-md5 0062614f556487676daffe1cfee85e19?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type msword?><?suppdata-cloudpmc-urn urn:app:419f/11995183/0062614f5564/IMT2-4-e70011-s002.doc?></media></supplementary-material><supplementary-material id="imt270011-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> List of bulk RNA sequencing (bulk RNA‐seq) immunotherapy datasets.</p><p>
+<bold>Table S2:</bold> List of pan‐cancer transcriptomic datasets in TCGA.</p><p>
+<bold>Table S3:</bold> List of Immune‐related genes.</p><p>
+<bold>Table S4:</bold> List of Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR) datasets.</p><p>
+<bold>Table S5:</bold> List of key immune‐related gene pairs (IRGPs).</p><p>
+<bold>Table S6:</bold> List of basic learners.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-4-e70011-s001.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-4-e70011-s001.xlsx?><?suppdata-size 245592?><?suppdata-md5 ab551d88cf31274e537225a69bb6006e?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:419f/11995183/ab551d88cf31/IMT2-4-e70011-s001.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270011-sec-0440"><title>ACKNOWLEDGMENTS</title><p>This research was supported by the National Natural Science Foundation of China (82172345), the Natural Science Foundation of Jiangsu Province (BK20221281), and Cross cooperation project of Subei Peoples' Hospital of Jiangsu Province (SBJC22003).</p></ack><sec sec-type="data-availability" id="imt270011-sec-0470"><title>DATA AVAILABILITY STATEMENT</title><p>Public data used in this study are available in TCGA and GEO. Other datasets were obtained from published literature, as described in the Methods section. The analytic processes, code and data of this study are embedded in the R package 'iMLGAM' and are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Yelab1994/iMLGAM" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/Yelab1994/iMLGAM</ext-link>. Public data used in this study are available in TCGA and GEO. Other datasets were obtained from published literature, as described in the Methods section. The analytic processes, code and data of this study are embedded in the R package “iMLGAM” and are available at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Yelab1994/iMLGAM" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/Yelab1994/iMLGAM</ext-link>. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt270011-bibl-0001"><title>REFERENCES</title><ref id="imt270011-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270011-cit-0001">
+<string-name name-style="western">
+<surname>Larkin</surname>, <given-names>James</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Vanna</given-names>
+<surname>Chiarion‐Sileni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rene</given-names>
+<surname>Gonzalez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jean Jacques</given-names>
+<surname>Grob</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. Lance</given-names>
+<surname>Cowey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Christopher D.</given-names>
+<surname>Lao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dirk</given-names>
+<surname>Schadendorf</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Combined Nivolumab and Ipilimumab or Monotherapy in Untreated Melanoma</article-title>.” <source>New England Journal of Medicine</source>
+<volume>373</volume>: <fpage>23</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1504030</pub-id>
+<pub-id pub-id-type="pmid">26027431</pub-id>
+<pub-id pub-id-type="pmcid">PMC5698905</pub-id></mixed-citation></ref><ref id="imt270011-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270011-cit-0002">
+<string-name name-style="western">
+<surname>Tawbi</surname>, <given-names>Hussein A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>F. Stephen</given-names>
+<surname>Hodi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Evan J.</given-names>
+<surname>Lipson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dirk</given-names>
+<surname>Schadendorf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Paolo A.</given-names>
+<surname>Ascierto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Luis</given-names>
+<surname>Matamala</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Erika Castillo</given-names>
+<surname>Gutiérrez</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Three‐Year Overall Survival With Nivolumab Plus Relatlimab in Advanced Melanoma From RELATIVITY‐047</article-title>.” <source>Journal of Clinical Oncology</source>: <elocation-id>JCO.24.01124</elocation-id>. <pub-id pub-id-type="doi">10.1200/jco.24.01124</pub-id>
+<pub-id pub-id-type="pmcid">PMC12054981</pub-id><pub-id pub-id-type="pmid">39671533</pub-id></mixed-citation></ref><ref id="imt270011-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270011-cit-0003">
+<string-name name-style="western">
+<surname>Ai</surname>, <given-names>Xinghao</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Bo</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhiyi</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Junping</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Minglei</given-names>
+<surname>Zhuo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jun</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhe</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Noninvasive Early Identification of Durable Clinical Benefit From Immune Checkpoint Inhibition: A Prospective Multicenter Study (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmc:clinical-trial" xlink:href="NCT04566432">NCT04566432</ext-link>)</article-title>.” <source>Signal Transduction and Targeted Therapy</source>
+<volume>9</volume>: <fpage>350</fpage>. <pub-id pub-id-type="doi">10.1038/s41392-024-02060-3</pub-id>
+<pub-id pub-id-type="pmid">39676097</pub-id>
+<pub-id pub-id-type="pmcid">PMC11646999</pub-id></mixed-citation></ref><ref id="imt270011-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270011-cit-0004">
+<string-name name-style="western">
+<surname>Yochum</surname>, <given-names>Zachary A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>David A.</given-names>
+<surname>Braun</surname>
+</string-name>. <year>2024</year>. “<article-title>Rechallenging With Anti‐PD‐1 Therapy in Advanced Renal Cell Carcinoma</article-title>.” <source>The Lancet</source>
+<volume>404</volume>: <fpage>1280</fpage>–<lpage>1282</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(24)01866-X</pub-id>
+<pub-id pub-id-type="pmid">39284326</pub-id></mixed-citation></ref><ref id="imt270011-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270011-cit-0005">
+<string-name name-style="western">
+<surname>Haslam</surname>, <given-names>Alyson</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Vinay</given-names>
+<surname>Prasad</surname>
+</string-name>. <year>2019</year>. “<article-title>Estimation of the Percentage of US Patients With Cancer Who Are Eligible for and Respond to Checkpoint Inhibitor Immunotherapy Drugs</article-title>.” <source>JAMA Network Open</source>
+<volume>2</volume>: <elocation-id>e192535</elocation-id>. <pub-id pub-id-type="doi">10.1001/jamanetworkopen.2019.2535</pub-id>
+<pub-id pub-id-type="pmid">31050774</pub-id>
+<pub-id pub-id-type="pmcid">PMC6503493</pub-id></mixed-citation></ref><ref id="imt270011-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270011-cit-0006">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Bin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hong</given-names>
+<surname>Zhao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jiaxin</given-names>
+<surname>Zhao</surname>
+</string-name>. <year>2020</year>. “<article-title>Efficacy of PD‐1/PD‐L1 Blockade Monotherapy in Clinical Trials</article-title>.” <source>Therapeutic Advances in Medical Oncology</source>
+<volume>12</volume>: <elocation-id>1758835920937612</elocation-id>. <pub-id pub-id-type="doi">10.1177/1758835920937612</pub-id>
+<pub-id pub-id-type="pmid">32728392</pub-id>
+<pub-id pub-id-type="pmcid">PMC7366397</pub-id></mixed-citation></ref><ref id="imt270011-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270011-cit-0007">
+<string-name name-style="western">
+<surname>Galon</surname>, <given-names>Jérôme</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Anne</given-names>
+<surname>Costes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fatima</given-names>
+<surname>Sanchez‐Cabo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Amos</given-names>
+<surname>Kirilovsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bernhard</given-names>
+<surname>Mlecnik</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Christine</given-names>
+<surname>Lagorce‐Pagès</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marie</given-names>
+<surname>Tosolini</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>Type, Density, and Location of Immune Cells Within Human Colorectal Tumors Predict Clinical Outcome</article-title>.” <source>Science</source>
+<volume>313</volume>: <fpage>1960</fpage>–<lpage>1964</lpage>. <pub-id pub-id-type="doi">10.1126/science.1129139</pub-id>
+<pub-id pub-id-type="pmid">17008531</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270011-cit-0008">
+<string-name name-style="western">
+<surname>Galon</surname>, <given-names>Jérôme</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Daniela</given-names>
+<surname>Bruni</surname>
+</string-name>. <year>2020</year>. “<article-title>Tumor Immunology and Tumor Evolution: Intertwined Histories</article-title>.” <source>Immunity</source>
+<volume>52</volume>: <fpage>55</fpage>–<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1016/j.immuni.2019.12.018</pub-id>
+<pub-id pub-id-type="pmid">31940273</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270011-cit-0009">
+<string-name name-style="western">
+<surname>Kim</surname>, <given-names>Seong Keun</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Sun Wook</given-names>
+<surname>Cho</surname>
+</string-name>. <year>2022</year>. “<article-title>The Evasion Mechanisms of Cancer Immunity and Drug Intervention in the Tumor Microenvironment</article-title>.” <source>Frontiers in Pharmacology</source>
+<volume>13</volume>: <elocation-id>868695</elocation-id>. <pub-id pub-id-type="doi">10.3389/fphar.2022.868695</pub-id>
+<pub-id pub-id-type="pmid">35685630</pub-id>
+<pub-id pub-id-type="pmcid">PMC9171538</pub-id></mixed-citation></ref><ref id="imt270011-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270011-cit-0010">
+<string-name name-style="western">
+<surname>Wagner</surname>, <given-names>Allon</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Aviv</given-names>
+<surname>Regev</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nir</given-names>
+<surname>Yosef</surname>
+</string-name>. <year>2016</year>. “<article-title>Revealing the Vectors of Cellular Identity With Single‐Cell Genomics</article-title>.” <source>Nature Biotechnology</source>
+<volume>34</volume>: <fpage>1145</fpage>–<lpage>1160</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.3711</pub-id>
+<pub-id pub-id-type="pmcid">PMC5465644</pub-id><pub-id pub-id-type="pmid">27824854</pub-id></mixed-citation></ref><ref id="imt270011-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270011-cit-0011">
+<string-name name-style="western">
+<surname>Lähnemann</surname>, <given-names>David</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Johannes</given-names>
+<surname>Köster</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ewa</given-names>
+<surname>Szczurek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Davis J.</given-names>
+<surname>McCarthy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stephanie C.</given-names>
+<surname>Hicks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mark D.</given-names>
+<surname>Robinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Catalina A.</given-names>
+<surname>Vallejos</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Eleven Grand Challenges in Single‐Cell Data Science</article-title>.” <source>Genome Biology</source>
+<volume>21</volume>: <fpage>31</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-020-1926-6</pub-id>
+<pub-id pub-id-type="pmid">32033589</pub-id>
+<pub-id pub-id-type="pmcid">PMC7007675</pub-id></mixed-citation></ref><ref id="imt270011-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270011-cit-0012">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Chenyang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Baoyi</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Evelien</given-names>
+<surname>Schaafsma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexandre</given-names>
+<surname>Reuben</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Linghua</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mary Jo</given-names>
+<surname>Turk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jianjun</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Chao</given-names>
+<surname>Cheng</surname>
+</string-name>. <year>2023</year>. “<article-title>TimiGP: Inferring Cell‐Cell Interactions and Prognostic Associations in the Tumor Immune Microenvironment Through Gene Pairs</article-title>.” <source>Cell Reports Medicine</source>
+<volume>4</volume>: <elocation-id>101121</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.xcrm.2023.101121</pub-id>
+<pub-id pub-id-type="pmid">37467716</pub-id>
+<pub-id pub-id-type="pmcid">PMC10394258</pub-id></mixed-citation></ref><ref id="imt270011-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270011-cit-0013">
+<string-name name-style="western">
+<surname>Tasci</surname>, <given-names>Erdal</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ying</given-names>
+<surname>Zhuge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Harpreet</given-names>
+<surname>Kaur</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kevin</given-names>
+<surname>Camphausen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Andra Valentina</given-names>
+<surname>Krauze</surname>
+</string-name>. <year>2022</year>. “<article-title>Hierarchical Voting‐Based Feature Selection and Ensemble Learning Model Scheme for Glioma Grading With Clinical and Molecular Characteristics</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>23</volume>: <elocation-id>14155</elocation-id>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mdpi.com/1422-0067/23/22/14155" ext-link-type="uri">https://www.mdpi.com/1422-0067/23/22/14155</ext-link>
+<pub-id pub-id-type="pmid">36430631</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms232214155</pub-id><pub-id pub-id-type="pmcid">PMC9697273</pub-id></mixed-citation></ref><ref id="imt270011-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270011-cit-0014">
+<string-name name-style="western">
+<surname>Su</surname>, <given-names>Yin‐Yuan</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Yu‐Ling</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hsuan‐Cheng</given-names>
+<surname>Huang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Chen‐Ching</given-names>
+<surname>Lin</surname>
+</string-name>. <year>2023</year>. “<article-title>Ensemble Learning Model for Identifying the Hallmark Genes of NFκB/TNF Signaling Pathway in Cancers</article-title>.” <source>Journal of Translational Medicine</source>
+<volume>21</volume>: <fpage>485</fpage>. <pub-id pub-id-type="doi">10.1186/s12967-023-04355-5</pub-id>
+<pub-id pub-id-type="pmid">37475016</pub-id>
+<pub-id pub-id-type="pmcid">PMC10357720</pub-id></mixed-citation></ref><ref id="imt270011-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270011-cit-0015">
+<string-name name-style="western">
+<surname>Mohammed</surname>, <given-names>Mohanad</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Henry</given-names>
+<surname>Mwambi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Innocent B.</given-names>
+<surname>Mboya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Murtada K.</given-names>
+<surname>Elbashir</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Bernard</given-names>
+<surname>Omolo</surname>
+</string-name>. <year>2021</year>. “<article-title>A Stacking Ensemble Deep Learning Approach to Cancer Type Classification Based on TCGA Data</article-title>.” <source>Scientific Reports</source>
+<volume>11</volume>: <elocation-id>15626</elocation-id>. <pub-id pub-id-type="doi">10.1038/s41598-021-95128-x</pub-id>
+<pub-id pub-id-type="pmid">34341396</pub-id>
+<pub-id pub-id-type="pmcid">PMC8329290</pub-id></mixed-citation></ref><ref id="imt270011-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270011-cit-0016">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Sujie</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Weikaixin</given-names>
+<surname>Kong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liting</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shixin</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Suzhen</given-names>
+<surname>Bi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Zhengwei</given-names>
+<surname>Xie</surname>
+</string-name>. <year>2022</year>. “<article-title>The Genetic Algorithm‐Aided Three‐Stage Ensemble Learning Method Identified a Robust Survival Risk Score in Patients With Glioma</article-title>.” <source>Briefings in Bioinformatics</source>
+<volume>23</volume>: <elocation-id>bbac344</elocation-id>. <pub-id pub-id-type="doi">10.1093/bib/bbac344</pub-id>
+<pub-id pub-id-type="pmid">36088543</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270011-cit-0017">
+<string-name name-style="western">
+<surname>Kong</surname>, <given-names>Weikaixin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jie</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Suzhen</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liting</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peng</given-names>
+<surname>Wu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Su‐Jie</given-names>
+<surname>Zhu</surname>
+</string-name>. <year>2023</year>. “<article-title>Adaptive Best Subset Selection Algorithm and Genetic Algorithm Aided Ensemble Learning Method Identified a Robust Severity Score of COVID‐19 Patients</article-title>.” <source>iMeta</source>
+<volume>2</volume>: <elocation-id>e126</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.126</pub-id>
+<pub-id pub-id-type="pmid">38867930</pub-id>
+<pub-id pub-id-type="pmcid">PMC10989835</pub-id></mixed-citation></ref><ref id="imt270011-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270011-cit-0018">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Junxian</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Canhong</given-names>
+<surname>Wen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jin</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Heping</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xueqin</given-names>
+<surname>Wang</surname>
+</string-name>. <year>2020</year>. “<article-title>A Polynomial Algorithm for Best‐Subset Selection Problem</article-title>.” <source>Proceedings of the National Academy of Sciences</source>
+<volume>117</volume>: <fpage>33117</fpage>–<lpage>33123</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.2014241117</pub-id>
+<pub-id pub-id-type="pmcid">PMC7777147</pub-id><pub-id pub-id-type="pmid">33328272</pub-id></mixed-citation></ref><ref id="imt270011-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270011-cit-0019">
+<string-name name-style="western">
+<surname>Yamaguchi</surname>, <given-names>Hirohito</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jung‐Mao</given-names>
+<surname>Hsu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Linlin</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shao‐Chun</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Mien‐Chie</given-names>
+<surname>Hung</surname>
+</string-name>. <year>2024</year>. “<article-title>Advances and Prospects of Biomarkers for Immune Checkpoint Inhibitors</article-title>.” <source>Cell Reports Medicine</source>
+<volume>5</volume>: <elocation-id>101621</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.xcrm.2024.101621</pub-id>
+<pub-id pub-id-type="pmid">38906149</pub-id>
+<pub-id pub-id-type="pmcid">PMC11293349</pub-id></mixed-citation></ref><ref id="imt270011-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270011-cit-0020">
+<string-name name-style="western">
+<surname>Luke</surname>, <given-names>Jason J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Riyue</given-names>
+<surname>Bao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Randy F.</given-names>
+<surname>Sweis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Stefani</given-names>
+<surname>Spranger</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Thomas F.</given-names>
+<surname>Gajewski</surname>
+</string-name>. <year>2019</year>. “<article-title>WNT/β‐catenin Pathway Activation Correlates With Immune Exclusion Across Human Cancers</article-title>.” <source>Clinical Cancer Research</source>
+<volume>25</volume>: <fpage>3074</fpage>–<lpage>3083</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.Ccr-18-1942</pub-id>
+<pub-id pub-id-type="pmid">30635339</pub-id>
+<pub-id pub-id-type="pmcid">PMC6522301</pub-id></mixed-citation></ref><ref id="imt270011-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="imt270011-cit-0021">
+<string-name name-style="western">
+<surname>Bruni</surname>, <given-names>Daniela</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Helen K.</given-names>
+<surname>Angell</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jérôme</given-names>
+<surname>Galon</surname>
+</string-name>. <year>2020</year>. “<article-title>The Immune Contexture and Immunoscore in Cancer Prognosis and Therapeutic Efficacy</article-title>.” <source>Nature Reviews Cancer</source>
+<volume>20</volume>: <fpage>662</fpage>–<lpage>680</lpage>. <pub-id pub-id-type="doi">10.1038/s41568-020-0285-7</pub-id>
+<pub-id pub-id-type="pmid">32753728</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="imt270011-cit-0022">
+<string-name name-style="western">
+<surname>Long</surname>, <given-names>Junyu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dongxu</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anqiang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peipei</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yu</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jin</given-names>
+<surname>Bian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xu</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>A Mutation‐Based Gene Set Predicts Survival Benefit After Immunotherapy Across Multiple Cancers and Reveals the Immune Response Landscape</article-title>.” <source>Genome Medicine</source>
+<volume>14</volume>: <fpage>20</fpage>. <pub-id pub-id-type="doi">10.1186/s13073-022-01024-y</pub-id>
+<pub-id pub-id-type="pmid">35197093</pub-id>
+<pub-id pub-id-type="pmcid">PMC8867854</pub-id></mixed-citation></ref><ref id="imt270011-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="imt270011-cit-0023">
+<string-name name-style="western">
+<surname>Lu</surname>, <given-names>Steve</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Julie E.</given-names>
+<surname>Stein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David L.</given-names>
+<surname>Rimm</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daphne W.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Michael</given-names>
+<surname>Bell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Douglas B.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeffrey A.</given-names>
+<surname>Sosman</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Comparison of Biomarker Modalities for Predicting Response to PD‐1/PD‐L1 Checkpoint Blockade: A Systematic Review and Meta‐Analysis</article-title>.” <source>JAMA Oncology</source>
+<volume>5</volume>: <fpage>1195</fpage>–<lpage>1204</lpage>. <pub-id pub-id-type="doi">10.1001/jamaoncol.2019.1549</pub-id>
+<pub-id pub-id-type="pmid">31318407</pub-id>
+<pub-id pub-id-type="pmcid">PMC6646995</pub-id></mixed-citation></ref><ref id="imt270011-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="imt270011-cit-0024">
+<string-name name-style="western">
+<surname>Long</surname>, <given-names>Junyu</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jianzhen</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anqiang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Liangcai</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yongchang</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaobo</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xueshuai</given-names>
+<surname>Wan</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>PD‐1/PD‐L Blockade in Gastrointestinal Cancers: Lessons Learned and the Road Toward Precision Immunotherapy</article-title>.” <source>Journal of Hematology &amp; Oncology</source>
+<volume>10</volume>: <fpage>146</fpage>. <pub-id pub-id-type="doi">10.1186/s13045-017-0511-2</pub-id>
+<pub-id pub-id-type="pmid">28774337</pub-id>
+<pub-id pub-id-type="pmcid">PMC5543600</pub-id></mixed-citation></ref><ref id="imt270011-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="imt270011-cit-0025">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>Guo‐Sheng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Wei</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wan‐Ying</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rong‐Quan</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhi‐Guang</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiang‐Yu</given-names>
+<surname>Gan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhen</given-names>
+<surname>Yang</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>CEP55: An Immune‐Related Predictive and Prognostic Molecular Biomarker for Multiple Cancers</article-title>.” <source>BMC Pulmonary Medicine</source>
+<volume>23</volume>: <fpage>166</fpage>. <pub-id pub-id-type="doi">10.1186/s12890-023-02452-1</pub-id>
+<pub-id pub-id-type="pmid">37173675</pub-id>
+<pub-id pub-id-type="pmcid">PMC10182662</pub-id></mixed-citation></ref><ref id="imt270011-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="imt270011-cit-0026">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Chang‐Han</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jin‐Mei</given-names>
+<surname>Lai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Teh‐Ying</given-names>
+<surname>Chou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Cheng‐Yu</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Li‐Jen</given-names>
+<surname>Su</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuan‐Chii</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tai‐Shan</given-names>
+<surname>Cheng</surname>
+</string-name>, et al. <year>2009</year>. “<article-title>VEGFA Upregulates FLJ10540 and Modulates Migration and Invasion of Lung Cancer via PI3K/AKT Pathway</article-title>.” <source>PLoS One</source>
+<volume>4</volume>: <elocation-id>e5052</elocation-id>. <pub-id pub-id-type="doi">10.1371/journal.pone.0005052</pub-id>
+<pub-id pub-id-type="pmid">19337377</pub-id>
+<pub-id pub-id-type="pmcid">PMC2659802</pub-id></mixed-citation></ref><ref id="imt270011-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="imt270011-cit-0027">
+<string-name name-style="western">
+<surname>Lawson</surname>, <given-names>Keith A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Cristovão. M.</given-names>
+<surname>Sousa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaoyu</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eiru</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rummy</given-names>
+<surname>Akthar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joseph J.</given-names>
+<surname>Caumanns</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuxi</given-names>
+<surname>Yao</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Functional Genomic Landscape of Cancer‐Intrinsic Evasion of Killing by T Cells</article-title>.” <source>Nature</source>
+<volume>586</volume>: <fpage>120</fpage>–<lpage>126</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-020-2746-2</pub-id>
+<pub-id pub-id-type="pmid">32968282</pub-id>
+<pub-id pub-id-type="pmcid">PMC9014559</pub-id></mixed-citation></ref><ref id="imt270011-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="imt270011-cit-0028">
+<string-name name-style="western">
+<surname>Wangmo</surname>, <given-names>Dechen</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Travis J.</given-names>
+<surname>Gates</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xianda</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ruping</given-names>
+<surname>Sun</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Subbaya</given-names>
+<surname>Subramanian</surname>
+</string-name>. <year>2024</year>. “<article-title>Centrosomal Protein 55 (CEP55) Drives Immune Exclusion and Resistance to Immune Checkpoint Inhibitors in Colorectal Cancer</article-title>.” <source>Vaccines</source>
+<volume>12</volume>: <elocation-id>63</elocation-id>. <pub-id pub-id-type="doi">10.3390/vaccines12010063</pub-id>. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.mdpi.com/2076-393X/12/1/63" ext-link-type="uri">https://www.mdpi.com/2076-393X/12/1/63</ext-link>
+<pub-id pub-id-type="pmid">38250876</pub-id>
+<pub-id pub-id-type="pmcid">PMC10820828</pub-id></mixed-citation></ref><ref id="imt270011-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="imt270011-cit-0029">
+<string-name name-style="western">
+<surname>Łuksza</surname>, <given-names>Marta</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nadeem</given-names>
+<surname>Riaz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vladimir</given-names>
+<surname>Makarov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vinod P.</given-names>
+<surname>Balachandran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matthew D.</given-names>
+<surname>Hellmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander</given-names>
+<surname>Solovyov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Naiyer A.</given-names>
+<surname>Rizvi</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>A Neoantigen Fitness Model Predicts Tumour Response to Checkpoint Blockade Immunotherapy</article-title>.” <source>Nature</source>
+<volume>551</volume>: <fpage>517</fpage>–<lpage>520</lpage>. <pub-id pub-id-type="doi">10.1038/nature24473</pub-id>
+<pub-id pub-id-type="pmid">29132144</pub-id>
+<pub-id pub-id-type="pmcid">PMC6137806</pub-id></mixed-citation></ref><ref id="imt270011-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="imt270011-cit-0030">
+<string-name name-style="western">
+<surname>Gide</surname>, <given-names>Tuba N.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Camelia</given-names>
+<surname>Quek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander M.</given-names>
+<surname>Menzies</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Annie T.</given-names>
+<surname>Tasker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ping</given-names>
+<surname>Shang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeff</given-names>
+<surname>Holst</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jason</given-names>
+<surname>Madore</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Distinct Immune Cell Populations Define Response to Anti‐PD‐1 Monotherapy and Anti‐PD‐1/Anti‐CTLA‐4 Combined Therapy</article-title>.” <source>Cancer Cell</source>
+<volume>35</volume>: <fpage>238</fpage>–<lpage>255.e6</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccell.2019.01.003</pub-id>
+<pub-id pub-id-type="pmid">30753825</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="imt270011-cit-0031">
+<string-name name-style="western">
+<surname>Riaz</surname>, <given-names>Nadeem</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jonathan J.</given-names>
+<surname>Havel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vladimir</given-names>
+<surname>Makarov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexis</given-names>
+<surname>Desrichard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Walter J.</given-names>
+<surname>Urba</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jennifer S.</given-names>
+<surname>Sims</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. Stephen</given-names>
+<surname>Hodi</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Tumor and Microenvironment Evolution During Immunotherapy With Nivolumab</article-title>.” <source>Cell</source>
+<volume>171</volume>: <fpage>934</fpage>–<lpage>949.e16</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2017.09.028</pub-id>
+<pub-id pub-id-type="pmid">29033130</pub-id>
+<pub-id pub-id-type="pmcid">PMC5685550</pub-id></mixed-citation></ref><ref id="imt270011-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="imt270011-cit-0032">
+<string-name name-style="western">
+<surname>Hugo</surname>, <given-names>Willy</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jesse M.</given-names>
+<surname>Zaretsky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lu</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chunying</given-names>
+<surname>Song</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Blanca Homet</given-names>
+<surname>Moreno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Siwen</given-names>
+<surname>Hu‐Lieskovan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Beata</given-names>
+<surname>Berent‐Maoz</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Genomic and Transcriptomic Features of Response to Anti‐PD‐1 Therapy in Metastatic Melanoma</article-title>.” <source>Cell</source>
+<volume>165</volume>: <fpage>35</fpage>–<lpage>44</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2016.02.065</pub-id>
+<pub-id pub-id-type="pmid">26997480</pub-id>
+<pub-id pub-id-type="pmcid">PMC4808437</pub-id></mixed-citation></ref><ref id="imt270011-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="imt270011-cit-0033">
+<string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Junfei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Robyn D.</given-names>
+<surname>Gartrell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew M.</given-names>
+<surname>Silverman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Luis</given-names>
+<surname>Aparicio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tim</given-names>
+<surname>Chu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Darius</given-names>
+<surname>Bordbar</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Immune and Genomic Correlates of Response to Anti‐PD‐1 Immunotherapy in Glioblastoma</article-title>.” <source>Nature Medicine</source>
+<volume>25</volume>: <fpage>462</fpage>–<lpage>469</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-019-0349-y</pub-id>
+<pub-id pub-id-type="pmcid">PMC6810613</pub-id><pub-id pub-id-type="pmid">30742119</pub-id></mixed-citation></ref><ref id="imt270011-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="imt270011-cit-0034">
+<string-name name-style="western">
+<surname>Mariathasan</surname>, <given-names>Sanjeev</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Shannon J.</given-names>
+<surname>Turley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dorothee</given-names>
+<surname>Nickles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alessandra</given-names>
+<surname>Castiglioni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kobe</given-names>
+<surname>Yuen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yulei</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Edward E.</given-names>
+<surname>Kadel Iii</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>TGFβ Attenuates Tumour Response to PD‐L1 Blockade by Contributing to Exclusion of T Cells</article-title>.” <source>Nature</source>
+<volume>554</volume>: <fpage>544</fpage>–<lpage>548</lpage>. <pub-id pub-id-type="doi">10.1038/nature25501</pub-id>
+<pub-id pub-id-type="pmid">29443960</pub-id>
+<pub-id pub-id-type="pmcid">PMC6028240</pub-id></mixed-citation></ref><ref id="imt270011-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="imt270011-cit-0035">
+<string-name name-style="western">
+<surname>Kim</surname>, <given-names>Seung Tae</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Razvan</given-names>
+<surname>Cristescu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Adam J.</given-names>
+<surname>Bass</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kyoung‐Mee</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Justin I.</given-names>
+<surname>Odegaard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kyung</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiao Qiao</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Comprehensive Molecular Characterization of Clinical Responses to PD‐1 Inhibition in Metastatic Gastric Cancer</article-title>.” <source>Nature Medicine</source>
+<volume>24</volume>: <fpage>1449</fpage>–<lpage>1458</lpage>. <pub-id pub-id-type="doi">10.1038/s41591-018-0101-z</pub-id>
+<pub-id pub-id-type="pmid">30013197</pub-id></mixed-citation></ref><ref id="imt270011-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="imt270011-cit-0036">
+<string-name name-style="western">
+<surname>Fehrenbacher</surname>, <given-names>Louis</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander</given-names>
+<surname>Spira</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marcus</given-names>
+<surname>Ballinger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marcin</given-names>
+<surname>Kowanetz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Johan</given-names>
+<surname>Vansteenkiste</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Julien</given-names>
+<surname>Mazieres</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Keunchil</given-names>
+<surname>Park</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Atezolizumab Versus Docetaxel for Patients With Previously Treated Non‐Small‐Cell Lung Cancer (POPLAR): A Multicentre, Open‐Label, Phase 2 Randomised Controlled Trial</article-title>.” <source>The Lancet</source>
+<volume>387</volume>: <fpage>1837</fpage>–<lpage>1846</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(16)00587-0</pub-id>
+<pub-id pub-id-type="pmid">26970723</pub-id></mixed-citation></ref><ref id="imt270011-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="imt270011-cit-0037">
+<string-name name-style="western">
+<surname>Leek</surname>, <given-names>Jeffrey T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. Evan</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hilary S.</given-names>
+<surname>Parker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew E.</given-names>
+<surname>Jaffe</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>John D.</given-names>
+<surname>Storey</surname>
+</string-name>. <year>2012</year>. “<article-title>The SVA Package for Removing Batch Effects and Other Unwanted Variation in High‐Throughput Experiments</article-title>.” <source>Bioinformatics</source>
+<volume>28</volume>: <fpage>882</fpage>–<lpage>883</lpage>. <pub-id pub-id-type="doi">10.1093/bioinformatics/bts034</pub-id>
+<pub-id pub-id-type="pmid">22257669</pub-id>
+<pub-id pub-id-type="pmcid">PMC3307112</pub-id></mixed-citation></ref><ref id="imt270011-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="imt270011-cit-0038">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Yu‐Tong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jia‐Yi</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dong‐Ping</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chen‐Fei</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rui</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pan‐Pan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jia‐Wei</given-names>
+<surname>Lv</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Identification of Cross‐Talk Between m6A and 5mC Regulators Associated With Onco‐Immunogenic Features and Prognosis Across 33 Cancer Types</article-title>.” <source>Journal of Hematology &amp; Oncology</source>
+<volume>13</volume>: <fpage>22</fpage>. <pub-id pub-id-type="doi">10.1186/s13045-020-00854-w</pub-id>
+<pub-id pub-id-type="pmid">32188475</pub-id>
+<pub-id pub-id-type="pmcid">PMC7081591</pub-id></mixed-citation></ref><ref id="imt270011-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="imt270011-cit-0039">
+<string-name name-style="western">
+<surname>Luo</surname>, <given-names>Han</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xuyang</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Li‐Bin</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hyunsu</given-names>
+<surname>An</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Minyuan</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gyeong Dae</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hai‐Ning</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Pan‐Cancer Single‐Cell Analysis Reveals the Heterogeneity and Plasticity of Cancer‐Associated Fibroblasts in the Tumor Microenvironment</article-title>.” <source>Nature Communications</source>
+<volume>13</volume>: <fpage>6619</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-022-34395-2</pub-id>
+<pub-id pub-id-type="pmcid">PMC9636408</pub-id><pub-id pub-id-type="pmid">36333338</pub-id></mixed-citation></ref><ref id="imt270011-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="imt270011-cit-0040">
+<string-name name-style="western">
+<surname>Satija</surname>, <given-names>Rahul</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jeffrey A.</given-names>
+<surname>Farrell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David</given-names>
+<surname>Gennert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexander F.</given-names>
+<surname>Schier</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Aviv</given-names>
+<surname>Regev</surname>
+</string-name>. <year>2015</year>. “<article-title>Spatial Reconstruction of Single‐Cell Gene Expression Data</article-title>.” <source>Nature Biotechnology</source>
+<volume>33</volume>: <fpage>495</fpage>–<lpage>502</lpage>. <pub-id pub-id-type="doi">10.1038/nbt.3192</pub-id>
+<pub-id pub-id-type="pmcid">PMC4430369</pub-id><pub-id pub-id-type="pmid">25867923</pub-id></mixed-citation></ref><ref id="imt270011-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="imt270011-cit-0041">
+<string-name name-style="western">
+<surname>Korsunsky</surname>, <given-names>Ilya</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nghia</given-names>
+<surname>Millard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jean</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kamil</given-names>
+<surname>Slowikowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Fan</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kevin</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yuriy</given-names>
+<surname>Baglaenko</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Fast, Sensitive and Accurate Integration of Single‐Cell Data With Harmony</article-title>.” <source>Nature Methods</source>
+<volume>16</volume>: <fpage>1289</fpage>–<lpage>1296</lpage>. <pub-id pub-id-type="doi">10.1038/s41592-019-0619-0</pub-id>
+<pub-id pub-id-type="pmid">31740819</pub-id>
+<pub-id pub-id-type="pmcid">PMC6884693</pub-id></mixed-citation></ref><ref id="imt270011-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="imt270011-cit-0042">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>, <given-names>Sanchita</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sandra</given-names>
+<surname>Andorf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Linda</given-names>
+<surname>Gomes</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Patrick</given-names>
+<surname>Dunn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Henry</given-names>
+<surname>Schaefer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joan</given-names>
+<surname>Pontius</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Patty</given-names>
+<surname>Berger</surname>
+</string-name>, et al. <year>2014</year>. “<article-title>ImmPort: Disseminating Data to the Public for the Future of Immunology</article-title>.” <source>Immunologic Research</source>
+<volume>58</volume>: <fpage>234</fpage>–<lpage>239</lpage>. <pub-id pub-id-type="doi">10.1007/s12026-014-8516-1</pub-id>
+<pub-id pub-id-type="pmid">24791905</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="imt270011-cit-0043">
+<string-name name-style="western">
+<surname>Dominguez</surname>, <given-names>Claudia X.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sören</given-names>
+<surname>Müller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shilpa</given-names>
+<surname>Keerthivasan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hartmut</given-names>
+<surname>Koeppen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeffrey</given-names>
+<surname>Hung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sarah</given-names>
+<surname>Gierke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Beatrice</given-names>
+<surname>Breart</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Single‐Cell RNA Sequencing Reveals Stromal Evolution into LRRC15<sup>+</sup> Myofibroblasts as a Determinant of Patient Response to Cancer Immunotherapy</article-title>.” <source>Cancer Discovery</source>
+<volume>10</volume>: <fpage>232</fpage>–<lpage>253</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.Cd-19-0644</pub-id>
+<pub-id pub-id-type="pmid">31699795</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="imt270011-cit-0044">
+<string-name name-style="western">
+<surname>Ayers</surname>, <given-names>Mark</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jared</given-names>
+<surname>Lunceford</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael</given-names>
+<surname>Nebozhyn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Erin</given-names>
+<surname>Murphy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrey</given-names>
+<surname>Loboda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>David R.</given-names>
+<surname>Kaufman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew</given-names>
+<surname>Albright</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>IFN‐γ‐related mRNA Profile Predicts Clinical Response to PD‐1 Blockade</article-title>.” <source>The Journal of Clinical Investigation</source>
+<volume>127</volume>: <fpage>2930</fpage>–<lpage>2940</lpage>. <pub-id pub-id-type="doi">10.1172/JCI91190</pub-id>
+<pub-id pub-id-type="pmid">28650338</pub-id>
+<pub-id pub-id-type="pmcid">PMC5531419</pub-id></mixed-citation></ref><ref id="imt270011-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="imt270011-cit-0045">
+<string-name name-style="western">
+<surname>Messina</surname>, <given-names>Jane L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David A.</given-names>
+<surname>Fenstermacher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Steven</given-names>
+<surname>Eschrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaotao</given-names>
+<surname>Qu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anders E.</given-names>
+<surname>Berglund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mark C.</given-names>
+<surname>Lloyd</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael J.</given-names>
+<surname>Schell</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>12‐Chemokine Gene Signature Identifies Lymph Node‐Like Structures in Melanoma: Potential for Patient Selection for Immunotherapy?</article-title>” <source>Scientific Reports</source>
+<volume>2</volume>: <elocation-id>765</elocation-id>. <pub-id pub-id-type="doi">10.1038/srep00765</pub-id>
+<pub-id pub-id-type="pmid">23097687</pub-id>
+<pub-id pub-id-type="pmcid">PMC3479449</pub-id></mixed-citation></ref><ref id="imt270011-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="imt270011-cit-0046">
+<string-name name-style="western">
+<surname>Davoli</surname>, <given-names>Teresa</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hajime</given-names>
+<surname>Uno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eric C.</given-names>
+<surname>Wooten</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Stephen J.</given-names>
+<surname>Elledge</surname>
+</string-name>. <year>2017</year>. “<article-title>Tumor Aneuploidy Correlates With Markers of Immune Evasion and With Reduced Response to Immunotherapy</article-title>.” <source>Science</source>
+<volume>355</volume>: <elocation-id>eaaf8399</elocation-id>. <pub-id pub-id-type="doi">10.1126/science.aaf8399</pub-id>
+<pub-id pub-id-type="pmid">28104840</pub-id>
+<pub-id pub-id-type="pmcid">PMC5592794</pub-id></mixed-citation></ref><ref id="imt270011-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="imt270011-cit-0047">
+<string-name name-style="western">
+<surname>Rooney</surname>, <given-names>Michael S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sachet A.</given-names>
+<surname>Shukla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Catherine J.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Gad</given-names>
+<surname>Getz</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Nir</given-names>
+<surname>Hacohen</surname>
+</string-name>. <year>2015</year>. “<article-title>Molecular and Genetic Properties of Tumors Associated With Local Immune Cytolytic Activity</article-title>.” <source>Cell</source>
+<volume>160</volume>: <fpage>48</fpage>–<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2014.12.033</pub-id>
+<pub-id pub-id-type="pmid">25594174</pub-id>
+<pub-id pub-id-type="pmcid">PMC4856474</pub-id></mixed-citation></ref><ref id="imt270011-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="imt270011-cit-0048">
+<string-name name-style="western">
+<surname>Cabrita</surname>, <given-names>Rita</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Martin</given-names>
+<surname>Lauss</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Adriana</given-names>
+<surname>Sanna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Donia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mathilde</given-names>
+<surname>Skaarup Larsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shamik</given-names>
+<surname>Mitra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Iva</given-names>
+<surname>Johansson</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Tertiary Lymphoid Structures Improve Immunotherapy and Survival in Melanoma</article-title>.” <source>Nature</source>
+<volume>577</volume>: <fpage>561</fpage>–<lpage>565</lpage>. <pub-id pub-id-type="doi">10.1038/s41586-019-1914-8</pub-id>
+<pub-id pub-id-type="pmid">31942071</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="imt270011-cit-0049">
+<string-name name-style="western">
+<surname>Fu</surname>, <given-names>Jingxin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Karen</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wubing</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Changxin</given-names>
+<surname>Wan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jing</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peng</given-names>
+<surname>Jiang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>X. Shirley</given-names>
+<surname>Liu</surname>
+</string-name>. <year>2020</year>. “<article-title>Large‐Scale Public Data Reuse to Model Immunotherapy Response and Resistance</article-title>.” <source>Genome Medicine</source>
+<volume>12</volume>: <fpage>21</fpage>. <pub-id pub-id-type="doi">10.1186/s13073-020-0721-z</pub-id>
+<pub-id pub-id-type="pmid">32102694</pub-id>
+<pub-id pub-id-type="pmcid">PMC7045518</pub-id></mixed-citation></ref><ref id="imt270011-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="imt270011-cit-0050">
+<string-name name-style="western">
+<surname>Ju</surname>, <given-names>Mingyi</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jia</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qian</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Longyang</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qiutong</given-names>
+<surname>Guan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ming</given-names>
+<surname>Zhang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Xinyue</given-names>
+<surname>Song</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Pan‐Cancer Analysis of NLRP3 Inflammasome With Potential Implications in Prognosis and Immunotherapy in Human Cancer</article-title>.” <source>Briefings in Bioinformatics</source>
+<volume>22</volume>: <elocation-id>bbaa345</elocation-id>. <pub-id pub-id-type="doi">10.1093/bib/bbaa345</pub-id>
+<pub-id pub-id-type="pmcid">PMC8294515</pub-id><pub-id pub-id-type="pmid">33212483</pub-id></mixed-citation></ref><ref id="imt270011-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="imt270011-cit-0051">
+<string-name name-style="western">
+<surname>Roh</surname>, <given-names>Whijae</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Pei‐Ling</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Alexandre</given-names>
+<surname>Reuben</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Christine N.</given-names>
+<surname>Spencer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peter A.</given-names>
+<surname>Prieto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>John P.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vancheswaran</given-names>
+<surname>Gopalakrishnan</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Integrated Molecular Analysis of Tumor Biopsies on Sequential CTLA‐4 and PD‐1 Blockade Reveals Markers of Response and Resistance</article-title>.” <source>Science Translational Medicine</source>
+<volume>9</volume>: <elocation-id>eaah3560</elocation-id>. <pub-id pub-id-type="doi">10.1126/scitranslmed.aah3560</pub-id>
+<pub-id pub-id-type="pmid">28251903</pub-id>
+<pub-id pub-id-type="pmcid">PMC5819607</pub-id></mixed-citation></ref><ref id="imt270011-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="imt270011-cit-0052">
+<string-name name-style="western">
+<surname>Lapuente‐Santana</surname>, <given-names>Óscar</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Maisa</given-names>
+<surname>van Genderen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peter A. J.</given-names>
+<surname>Hilbers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Francesca</given-names>
+<surname>Finotello</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Federica</given-names>
+<surname>Eduati</surname>
+</string-name>. <year>2021</year>. “<article-title>Interpretable Systems Biomarkers Predict Response to Immune‐Checkpoint Inhibitors</article-title>.” <source>Patterns</source>
+<volume>2</volume>: <elocation-id>100293</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.patter.2021.100293</pub-id>
+<pub-id pub-id-type="pmid">34430923</pub-id>
+<pub-id pub-id-type="pmcid">PMC8369166</pub-id></mixed-citation></ref><ref id="imt270011-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="imt270011-cit-0053">
+<string-name name-style="western">
+<surname>Charoentong</surname>, <given-names>Pornpimol</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Francesca</given-names>
+<surname>Finotello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mihaela</given-names>
+<surname>Angelova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Clemens</given-names>
+<surname>Mayer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mirjana</given-names>
+<surname>Efremova</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dietmar</given-names>
+<surname>Rieder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hubert</given-names>
+<surname>Hackl</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Zlatko</given-names>
+<surname>Trajanoski</surname>
+</string-name>. <year>2017</year>. “<article-title>Pan‐Cancer Immunogenomic Analyses Reveal Genotype‐Immunophenotype Relationships and Predictors of Response to Checkpoint Blockade</article-title>.” <source>Cell Reports</source>
+<volume>18</volume>: <fpage>248</fpage>–<lpage>262</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2016.12.019</pub-id>
+<pub-id pub-id-type="pmid">28052254</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="imt270011-cit-0054">
+<string-name name-style="western">
+<surname>Newman</surname>, <given-names>Aaron M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Chih Long</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael R.</given-names>
+<surname>Green</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew J.</given-names>
+<surname>Gentles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Weiguo</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yue</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Chuong D.</given-names>
+<surname>Hoang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maximilian</given-names>
+<surname>Diehn</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Ash A.</given-names>
+<surname>Alizadeh</surname>
+</string-name>. <year>2015</year>. “<article-title>Robust Enumeration of Cell Subsets From Tissue Expression Profiles</article-title>.” <source>Nature Methods</source>
+<volume>12</volume>: <fpage>453</fpage>–<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1038/nmeth.3337</pub-id>
+<pub-id pub-id-type="pmid">25822800</pub-id>
+<pub-id pub-id-type="pmcid">PMC4739640</pub-id></mixed-citation></ref><ref id="imt270011-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="imt270011-cit-0055">
+<string-name name-style="western">
+<surname>Thorsson</surname>, <given-names>Vésteinn</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David L.</given-names>
+<surname>Gibbs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Scott D.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Denise</given-names>
+<surname>Wolf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dante S.</given-names>
+<surname>Bortone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tai‐Hsien</given-names>
+<surname>Ou Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Eduard</given-names>
+<surname>Porta‐Pardo</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>The Immune Landscape of Cancer</article-title>.” <source>Immunity</source>
+<volume>48</volume>: <fpage>812</fpage>–<lpage>830.e14</lpage>. <pub-id pub-id-type="doi">10.1016/j.immuni.2018.03.023</pub-id>
+<pub-id pub-id-type="pmid">29628290</pub-id>
+<pub-id pub-id-type="pmcid">PMC5982584</pub-id></mixed-citation></ref><ref id="imt270011-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="imt270011-cit-0056">
+<string-name name-style="western">
+<surname>Saltz</surname>, <given-names>Joel</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Rajarsi</given-names>
+<surname>Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Le</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tahsin</given-names>
+<surname>Kurc</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Pankaj</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Vu</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Dimitris</given-names>
+<surname>Samaras</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Spatial Organization and Molecular Correlation of Tumor‐Infiltrating Lymphocytes Using Deep Learning on Pathology Images</article-title>.” <source>Cell Reports</source>
+<volume>23</volume>: <fpage>181</fpage>–<lpage>193.e7</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2018.03.086</pub-id>
+<pub-id pub-id-type="pmid">29617659</pub-id>
+<pub-id pub-id-type="pmcid">PMC5943714</pub-id></mixed-citation></ref><ref id="imt270011-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="imt270011-cit-0057">
+<string-name name-style="western">
+<surname>Danaher</surname>, <given-names>Patrick</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sarah</given-names>
+<surname>Warren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lucas</given-names>
+<surname>Dennis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Leonard</given-names>
+<surname>D'Amico</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew</given-names>
+<surname>White</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Mary L.</given-names>
+<surname>Disis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Melissa A.</given-names>
+<surname>Geller</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Gene Expression Markers of Tumor Infiltrating Leukocytes</article-title>.” <source>Journal for ImmunoTherapy of Cancer</source>
+<volume>5</volume>: <fpage>18</fpage>. <pub-id pub-id-type="doi">10.1186/s40425-017-0215-8</pub-id>
+<pub-id pub-id-type="pmid">28239471</pub-id>
+<pub-id pub-id-type="pmcid">PMC5319024</pub-id></mixed-citation></ref><ref id="imt270011-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="imt270011-cit-0058">
+<string-name name-style="western">
+<surname>Hänzelmann</surname>, <given-names>Sonja</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Robert</given-names>
+<surname>Castelo</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Justin</given-names>
+<surname>Guinney</surname>
+</string-name>. <year>2013</year>. “<article-title>GSVA: Gene Set Variation Analysis for Microarray and RNA‐Seq Data</article-title>.” <source>BMC Bioinformatics</source>
+<volume>14</volume>: <elocation-id>7</elocation-id>. <pub-id pub-id-type="doi">10.1186/1471-2105-14-7</pub-id>
+<pub-id pub-id-type="pmid">23323831</pub-id>
+<pub-id pub-id-type="pmcid">PMC3618321</pub-id></mixed-citation></ref><ref id="imt270011-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="imt270011-cit-0059">
+<string-name name-style="western">
+<surname>Becht</surname>, <given-names>Etienne</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Nicolas A.</given-names>
+<surname>Giraldo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Laetitia</given-names>
+<surname>Lacroix</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bénédicte</given-names>
+<surname>Buttard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nabila</given-names>
+<surname>Elarouci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Florent</given-names>
+<surname>Petitprez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Janick</given-names>
+<surname>Selves</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Estimating the Population Abundance of Tissue‐Infiltrating Immune and Stromal Cell Populations Using Gene Expression</article-title>.” <source>Genome Biology</source>
+<volume>17</volume>: <fpage>218</fpage>. <pub-id pub-id-type="doi">10.1186/s13059-016-1070-5</pub-id>
+<pub-id pub-id-type="pmid">27765066</pub-id>
+<pub-id pub-id-type="pmcid">PMC5073889</pub-id></mixed-citation></ref><ref id="imt270011-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="imt270011-cit-0060">
+<string-name name-style="western">
+<surname>Sanchez‐Vega</surname>, <given-names>Francisco</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marco</given-names>
+<surname>Mina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joshua</given-names>
+<surname>Armenia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Walid K.</given-names>
+<surname>Chatila</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Augustin</given-names>
+<surname>Luna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Konnor C.</given-names>
+<surname>La</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Sofia</given-names>
+<surname>Dimitriadoy</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Oncogenic Signaling Pathways in the Cancer Genome Atlas</article-title>.” <source>Cell</source>
+<volume>173</volume>: <fpage>321</fpage>–<lpage>337.e10</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2018.03.035</pub-id>
+<pub-id pub-id-type="pmid">29625050</pub-id>
+<pub-id pub-id-type="pmcid">PMC6070353</pub-id></mixed-citation></ref><ref id="imt270011-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="imt270011-cit-0061">
+<string-name name-style="western">
+<surname>Mermel</surname>, <given-names>Craig H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Steven E.</given-names>
+<surname>Schumacher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Barbara</given-names>
+<surname>Hill</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Matthew L.</given-names>
+<surname>Meyerson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rameen</given-names>
+<surname>Beroukhim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Gad</given-names>
+<surname>Getz</surname>
+</string-name>. <year>2011</year>. “<article-title>GISTIC2.0 Facilitates Sensitive and Confident Localization of the Targets of Focal Somatic Copy‐Number Alteration in Human Cancers</article-title>.” <source>Genome Biology</source>
+<volume>12</volume>: <elocation-id>R41</elocation-id>. <pub-id pub-id-type="doi">10.1186/gb-2011-12-4-r41</pub-id>
+<pub-id pub-id-type="pmid">21527027</pub-id>
+<pub-id pub-id-type="pmcid">PMC3218867</pub-id></mixed-citation></ref><ref id="imt270011-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="imt270011-cit-0062">
+<string-name name-style="western">
+<surname>Yu</surname>, <given-names>Guangchuang</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Li‐Gen</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yanyan</given-names>
+<surname>Han</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Qing‐Yu</given-names>
+<surname>He</surname>
+</string-name>. <year>2012</year>. “<article-title>Clusterprofiler: An R Package for Comparing Biological Themes Among Gene Clusters</article-title>.” <source>OMICS: A Journal of Integrative Biology</source>
+<volume>16</volume>: <fpage>284</fpage>–<lpage>287</lpage>. <pub-id pub-id-type="doi">10.1089/omi.2011.0118</pub-id>
+<pub-id pub-id-type="pmid">22455463</pub-id>
+<pub-id pub-id-type="pmcid">PMC3339379</pub-id></mixed-citation></ref><ref id="imt270011-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="imt270011-cit-0063">
+<string-name name-style="western">
+<surname>Freeman</surname>, <given-names>Andrew J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Stephin J.</given-names>
+<surname>Vervoort</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kelly M.</given-names>
+<surname>Ramsbottom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Madison J.</given-names>
+<surname>Kelly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jessica</given-names>
+<surname>Michie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lizzy</given-names>
+<surname>Pijpers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ricky W.</given-names>
+<surname>Johnstone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Conor J.</given-names>
+<surname>Kearney</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Jane</given-names>
+<surname>Oliaro</surname>
+</string-name>. <year>2019</year>. “<article-title>Natural Killer Cells Suppress T Cell‐Associated Tumor Immune Evasion</article-title>.” <source>Cell Reports</source>
+<volume>28</volume>: <fpage>2784</fpage>–<lpage>2794.e5</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2019.08.017</pub-id>
+<pub-id pub-id-type="pmid">31509742</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="imt270011-cit-0064">
+<string-name name-style="western">
+<surname>Kearney</surname>, <given-names>Conor J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Stephin J.</given-names>
+<surname>Vervoort</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Simon J.</given-names>
+<surname>Hogg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kelly M.</given-names>
+<surname>Ramsbottom</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Andrew J.</given-names>
+<surname>Freeman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Najoua</given-names>
+<surname>Lalaoui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lizzy</given-names>
+<surname>Pijpers</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Tumor Immune Evasion Arises Through Loss of TNF Sensitivity</article-title>.” <source>Science Immunology</source>
+<volume>3</volume>: <elocation-id>eaar3451</elocation-id>. <pub-id pub-id-type="doi">10.1126/sciimmunol.aar3451</pub-id>
+<pub-id pub-id-type="pmid">29776993</pub-id>
+</mixed-citation></ref><ref id="imt270011-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="imt270011-cit-0065">
+<string-name name-style="western">
+<surname>Manguso</surname>, <given-names>Robert T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Hans W.</given-names>
+<surname>Pope</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Margaret D.</given-names>
+<surname>Zimmer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Flavian D.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kathleen B.</given-names>
+<surname>Yates</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brian C.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Natalie B.</given-names>
+<surname>Collins</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>In Vivo CRISPR Screening Identifies Ptpn2 as a Cancer Immunotherapy Target</article-title>.” <source>Nature</source>
+<volume>547</volume>: <fpage>413</fpage>–<lpage>418</lpage>. <pub-id pub-id-type="doi">10.1038/nature23270</pub-id>
+<pub-id pub-id-type="pmid">28723893</pub-id>
+<pub-id pub-id-type="pmcid">PMC5924693</pub-id></mixed-citation></ref><ref id="imt270011-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="imt270011-cit-0066">
+<string-name name-style="western">
+<surname>Pan</surname>, <given-names>Deng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Aya</given-names>
+<surname>Kobayashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Peng</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lucas</given-names>
+<surname>Ferrari de Andrade</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rong En</given-names>
+<surname>Tay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Adrienne M.</given-names>
+<surname>Luoma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Daphne</given-names>
+<surname>Tsoucas</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>A Major Chromatin Regulator Determines Resistance of Tumor Cells to T Cell‐Mediated Killing</article-title>.” <source>Science</source>
+<volume>359</volume>: <fpage>770</fpage>–<lpage>775</lpage>. <pub-id pub-id-type="doi">10.1126/science.aao1710</pub-id>
+<pub-id pub-id-type="pmid">29301958</pub-id>
+<pub-id pub-id-type="pmcid">PMC5953516</pub-id></mixed-citation></ref><ref id="imt270011-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="imt270011-cit-0067">
+<string-name name-style="western">
+<surname>Patel</surname>, <given-names>Shashank J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Neville E.</given-names>
+<surname>Sanjana</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Rigel J.</given-names>
+<surname>Kishton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Arash</given-names>
+<surname>Eidizadeh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Suman K.</given-names>
+<surname>Vodnala</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maggie</given-names>
+<surname>Cam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jared J.</given-names>
+<surname>Gartner</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Identification of Essential Genes for Cancer Immunotherapy</article-title>.” <source>Nature</source>
+<volume>548</volume>: <fpage>537</fpage>–<lpage>542</lpage>. <pub-id pub-id-type="doi">10.1038/nature23477</pub-id>
+<pub-id pub-id-type="pmid">28783722</pub-id>
+<pub-id pub-id-type="pmcid">PMC5870757</pub-id></mixed-citation></ref><ref id="imt270011-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="imt270011-cit-0068">
+<string-name name-style="western">
+<surname>Vredevoogd</surname>, <given-names>David W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Thomas</given-names>
+<surname>Kuilman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Maarten A.</given-names>
+<surname>Ligtenberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Julia</given-names>
+<surname>Boshuizen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Kelly E.</given-names>
+<surname>Stecker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Beaunelle</given-names>
+<surname>de Bruijn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Oscar</given-names>
+<surname>Krijgsman</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Augmenting Immunotherapy Impact by Lowering Tumor TNF Cytotoxicity Threshold</article-title>.” <source>Cell</source>
+<volume>178</volume>: <fpage>585</fpage>–<lpage>599.e15</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2019.06.014</pub-id>
+<pub-id pub-id-type="pmid">31303383</pub-id>
+</mixed-citation></ref></ref-list></back></article>

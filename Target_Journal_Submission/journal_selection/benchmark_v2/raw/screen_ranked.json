@@ -1,0 +1,4541 @@
+[
+ {
+  "score": 23,
+  "cited": 1,
+  "doi": "10.1002/imt2.70123",
+  "year": 2026,
+  "title": "Two stable gut microbiome guilds predict liver tumor class and treatment responses",
+  "hits": {
+   "ml": 1,
+   "diag": 6,
+   "multicohort": 3,
+   "atlas": 2,
+   "batch": 5,
+   "geo": 0,
+   "gut": 4,
+   "disease": 2
+  }
+ },
+ {
+  "score": 18,
+  "cited": 24,
+  "doi": "10.1002/imt2.212",
+  "year": 2024,
+  "title": "A universal oral microbiome\u2010based signature for periodontitis",
+  "hits": {
+   "ml": 1,
+   "diag": 4,
+   "multicohort": 2,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 1
+  }
+ },
+ {
+  "score": 17,
+  "cited": 14,
+  "doi": "10.1002/imt2.266",
+  "year": 2025,
+  "title": "The prognostic and therapeutic significance of polyunsaturated fatty acid\u2010derived oxylipins in ST\u2010segment elevation myocardial infarction",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 3,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 17,
+  "cited": 7,
+  "doi": "10.1002/imt2.70014",
+  "year": 2025,
+  "title": "Profiling chimeric RNA in prostate cancer in Chinese cohorts reveals similarities and differences compared to Western populations",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 2,
+   "atlas": 3,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 7
+  }
+ },
+ {
+  "score": 16,
+  "cited": 4,
+  "doi": "10.1002/imt2.229",
+  "year": 2024,
+  "title": "tigeR: Tumor immunotherapy gene expression data analysis R package",
+  "hits": {
+   "ml": 5,
+   "diag": 5,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 1,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 15,
+  "cited": 72,
+  "doi": "10.1002/imt2.214",
+  "year": 2024,
+  "title": "Deep learning enhancing guide RNA design for CRISPR/Cas12a\u2010based diagnostics",
+  "hits": {
+   "ml": 4,
+   "diag": 5,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 13,
+  "cited": 152,
+  "doi": "10.1002/imt2.70011",
+  "year": 2025,
+  "title": "iMLGAM: Integrated Machine Learning and Genetic Algorithm\u2010driven Multiomics analysis for pan\u2010cancer immunotherapy response prediction",
+  "hits": {
+   "ml": 2,
+   "diag": 2,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 13,
+  "cited": 16,
+  "doi": "10.1002/imt2.70090",
+  "year": 2025,
+  "title": "The interplay between tissue\u2010resident microbiome and host proteins by integrated multi\u2010omics during progression of colorectal adenoma to carcinoma",
+  "hits": {
+   "ml": 1,
+   "diag": 5,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 4
+  }
+ },
+ {
+  "score": 13,
+  "cited": 2,
+  "doi": "10.1002/imt2.70149",
+  "year": 2026,
+  "title": "Wekemo Bioincloud 2026: An AI\u2010enabled platform for standardized multi\u2010omics data analyses",
+  "hits": {
+   "ml": 5,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 4,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 13,
+  "cited": 1,
+  "doi": "10.1002/imt2.70119",
+  "year": 2026,
+  "title": "Chromatin unwinding state for in situ identification and lineage tracing of circulating tumor cells",
+  "hits": {
+   "ml": 1,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 3,
+   "geo": 1,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 12,
+  "cited": 41,
+  "doi": "10.1002/imt2.190",
+  "year": 2024,
+  "title": "Clinical features and molecular landscape of cuproptosis signature\u2010related molecular subtype in gastric cancer",
+  "hits": {
+   "ml": 0,
+   "diag": 4,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 12,
+  "cited": 16,
+  "doi": "10.1002/imt2.70035",
+  "year": 2025,
+  "title": "Single\u2010microbe RNA sequencing uncovers unexplored specialized metabolic functions of keystone species in the human gut",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 4,
+   "geo": 2,
+   "gut": 5,
+   "disease": 1
+  }
+ },
+ {
+  "score": 12,
+  "cited": 7,
+  "doi": "10.1002/imt2.201",
+  "year": 2024,
+  "title": "MASH\u2010Ocean 1.0: Interactive platform for investigating microbial diversity, function, and biogeography with marine metagenomic data",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 1,
+   "geo": 4,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 11,
+  "cited": 0,
+  "doi": "10.1002/imt2.70192",
+  "year": 2026,
+  "title": "A decade\u2010scale audit of microbiome AI\u2010readiness",
+  "hits": {
+   "ml": 5,
+   "diag": 0,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 10,
+  "cited": 28,
+  "doi": "10.1002/imt2.70052",
+  "year": 2025,
+  "title": "RepliChrom: Interpretable machine learning predicts cancer\u2010associated enhancer\u2010promoter interactions using DNA replication timing",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 10,
+  "cited": 11,
+  "doi": "10.1002/imt2.70079",
+  "year": 2025,
+  "title": "Distinct microbial and metabolic shifts characterize acute coronary syndrome and recovery",
+  "hits": {
+   "ml": 0,
+   "diag": 8,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 3,
+   "disease": 4
+  }
+ },
+ {
+  "score": 10,
+  "cited": 5,
+  "doi": "10.1002/imt2.70068",
+  "year": 2025,
+  "title": "Quantifying cellular malignancy by tumor micro\u2010environment measurement with multimodal fusion",
+  "hits": {
+   "ml": 2,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 10,
+  "cited": 0,
+  "doi": "10.1002/imt2.70173",
+  "year": 2026,
+  "title": "Gut Enterococcus faecium derived leucic acid mediates the antiobesity effect of dietary fiber",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 5,
+   "disease": 8
+  }
+ },
+ {
+  "score": 9,
+  "cited": 189,
+  "doi": "10.1002/imt2.238",
+  "year": 2024,
+  "title": "Sangerbox 2: Enhanced functionalities and update for a comprehensive clinical bioinformatics data analysis platform",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 9,
+  "cited": 85,
+  "doi": "10.1002/imt2.70048",
+  "year": 2025,
+  "title": "Gut microbiota\u2010derived butyric acid regulates calcific aortic valve disease pathogenesis by modulating GAPDH lactylation and butyrylation",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 7,
+   "disease": 3
+  }
+ },
+ {
+  "score": 9,
+  "cited": 24,
+  "doi": "10.1002/imt2.265",
+  "year": 2024,
+  "title": "Gut microbiota in treating inflammatory digestive diseases: Current challenges and therapeutic opportunities",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 6,
+   "disease": 6
+  }
+ },
+ {
+  "score": 9,
+  "cited": 7,
+  "doi": "10.1002/imt2.70088",
+  "year": 2025,
+  "title": "Nationwide profiling of vaginal microbiota in Chinese women reveals age\u2010dependent shifts and predictive biomarkers for reproductive health",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 3,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 9,
+  "cited": 3,
+  "doi": "10.1002/imt2.256",
+  "year": 2024,
+  "title": "The long\u2010term intake of milk fat does not significantly increase the blood lipid burden in normal and high\u2010fat diet\u2010fed mice",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 8,
+  "cited": 127,
+  "doi": "10.1002/imt2.180",
+  "year": 2024,
+  "title": "The gut microbiota\u2010aromatic hydrocarbon receptor (AhR) axis mediates the anticolitic effect of polyphenol\u2010rich extracts from Sanghuangporus",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 6,
+   "disease": 2
+  }
+ },
+ {
+  "score": 8,
+  "cited": 65,
+  "doi": "10.1002/imt2.70001",
+  "year": 2025,
+  "title": "EasyMetagenome: A user\u2010friendly and flexible pipeline for shotgun metagenomic analysis in microbiome research",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 5,
+   "disease": 1
+  }
+ },
+ {
+  "score": 8,
+  "cited": 32,
+  "doi": "10.1002/imt2.254",
+  "year": 2024,
+  "title": "Comprehensive multi\u2010tissue epigenome atlas in sheep: A resource for complex traits, domestication, and breeding",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 3,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 8,
+  "cited": 27,
+  "doi": "10.1002/imt2.237",
+  "year": 2024,
+  "title": "Akkermansia muciniphila administration ameliorates streptozotocin\u2010induced hyperglycemia and muscle atrophy by promoting IGF2 secretion from mouse intestine",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 3,
+   "disease": 2
+  }
+ },
+ {
+  "score": 8,
+  "cited": 16,
+  "doi": "10.1002/imt2.70015",
+  "year": 2025,
+  "title": "Phenotyping, genome\u2010wide dissection, and prediction of maize root architecture for temperate adaptability",
+  "hits": {
+   "ml": 3,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 8,
+  "cited": 12,
+  "doi": "10.1002/imt2.70008",
+  "year": 2025,
+  "title": "Transmission of antimicrobial resistance genes from the environment to human gut is more pronounced in colorectal cancer patients than in healthy subjects",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 4
+  }
+ },
+ {
+  "score": 8,
+  "cited": 7,
+  "doi": "10.1002/imt2.70030",
+  "year": 2025,
+  "title": "Peripheral blood immune landscape and NXPE3 as a novel biomarker for hypertensive intracerebral hemorrhage risk prediction and targeted therapy",
+  "hits": {
+   "ml": 2,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 8,
+  "cited": 4,
+  "doi": "10.1002/imt2.70121",
+  "year": 2026,
+  "title": "A large\u2010scale single\u2010cell transcriptomic atlas indicates the immune panorama of influenza A infection",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 5
+  }
+ },
+ {
+  "score": 8,
+  "cited": 3,
+  "doi": "10.1002/imt2.70049",
+  "year": 2025,
+  "title": "A multi\u2010centered prospective birth cohort study in Western China",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 3,
+   "gut": 1,
+   "disease": 1
+  }
+ },
+ {
+  "score": 8,
+  "cited": 1,
+  "doi": "10.1002/imt2.70147",
+  "year": 2026,
+  "title": "Gut microbiota\u2010mediated immune and metabolic dysregulation in coronary artery disease progression and prognosis",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 6,
+   "disease": 2
+  }
+ },
+ {
+  "score": 8,
+  "cited": 0,
+  "doi": "10.1002/imt2.70182",
+  "year": 2026,
+  "title": "Maternal microbiota shapes brain and neuroendocrine development in piglets",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 79,
+  "doi": "10.1002/imt2.174",
+  "year": 2024,
+  "title": "Isolation of potentially novel species expands the genomic and functional diversity of Lachnospiraceae",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 7,
+  "cited": 44,
+  "doi": "10.1002/imt2.244",
+  "year": 2024,
+  "title": "Bioprospecting of culturable marine biofilm bacteria for novel antimicrobial peptides",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 43,
+  "doi": "10.1002/imt2.242",
+  "year": 2024,
+  "title": "The rheumatoid arthritis gut microbial biobank reveals core microbial species that associate and effect on host inflammation and autoimmune responses",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 1
+  }
+ },
+ {
+  "score": 7,
+  "cited": 26,
+  "doi": "10.1002/imt2.183",
+  "year": 2024,
+  "title": "Unraveling interindividual variation of trimethylamine N\u2010oxide and its precursors at the population level",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 3,
+   "gut": 1,
+   "disease": 1
+  }
+ },
+ {
+  "score": 7,
+  "cited": 14,
+  "doi": "10.1002/imt2.70047",
+  "year": 2025,
+  "title": "Spatio\u2010temporal characteristics of the gastrointestinal resistome in a cow\u2010to\u2010calf model and its environmental dissemination in a dairy production system",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 2,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 13,
+  "doi": "10.1002/imt2.70045",
+  "year": 2025,
+  "title": "A Hiplot\u2010based web service for cold atmospheric plasma high\u2010throughput data integration and analysis on breast cancer",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 9
+  }
+ },
+ {
+  "score": 7,
+  "cited": 9,
+  "doi": "10.1002/imt2.70043",
+  "year": 2025,
+  "title": "Gut\u2010derived Lactobacillus from exceptional responders mitigates chemoradiotherapy\u2010induced intestinal injury through methionine\u2010driven epigenetic modulation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 4,
+   "disease": 5
+  }
+ },
+ {
+  "score": 7,
+  "cited": 9,
+  "doi": "10.1002/imt2.70069",
+  "year": 2025,
+  "title": "Functional metagenomics reveals novel antibiotic resistomes in polar soils",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 1,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 11,
+  "doi": "10.1002/imt2.230",
+  "year": 2024,
+  "title": "Dietary therapies interlinking with gut microbes toward human health: Past, present, and future",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 9,
+  "doi": "10.1002/imt2.258",
+  "year": 2024,
+  "title": "Comprehensive lung microbial gene and genome catalogs assist the mechanism survey of Mesomycoplasma hyopneumoniae strains causing pig lung lesions",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 2
+  }
+ },
+ {
+  "score": 7,
+  "cited": 7,
+  "doi": "10.1002/imt2.249",
+  "year": 2024,
+  "title": "Metagenomic analysis sheds light on the mixotrophic lifestyle of bacterial phylum Zhuqueibacterota",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 2,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 5,
+  "doi": "10.1002/imt2.70139",
+  "year": 2026,
+  "title": "From prediction to actionable mechanisms: Explainable multi\u2011omics AI for farm\u2011to\u2011fork postharvest preservation",
+  "hits": {
+   "ml": 3,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 5,
+  "doi": "10.1002/imt2.162",
+  "year": 2024,
+  "title": "From mechanism to application: Decrypting light\u2010regulated denitrifying microbiome through geometric deep learning",
+  "hits": {
+   "ml": 3,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 2,
+  "doi": "10.1002/imt2.70086",
+  "year": 2025,
+  "title": "iMeta Conference 2025: Creating high\u2010impact international journals",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 7,
+  "cited": 2,
+  "doi": "10.1002/imt2.70102",
+  "year": 2026,
+  "title": "CAT\u2010BLAST: Engineered bacteria for robust targeting and elimination of cancer\u2010associated fibroblasts",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 2,
+   "geo": 0,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 7,
+  "cited": 1,
+  "doi": "10.1002/imt2.70166",
+  "year": 2026,
+  "title": "A gut microbiome\u2010lipid axis in early pregnancy is associated with metabolic dysregulation and diabetes risk",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 4,
+   "disease": 1
+  }
+ },
+ {
+  "score": 7,
+  "cited": 0,
+  "doi": "10.1002/imt2.70143",
+  "year": 2026,
+  "title": "Enviromics crosstalk between internal and external plant environments for enhanced adaptation and de novo domestication",
+  "hits": {
+   "ml": 3,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 111,
+  "doi": "10.1002/imt2.239",
+  "year": 2024,
+  "title": "ImageGP 2 for enhanced data visualization and reproducible analysis in biomedical research",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 2,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 95,
+  "doi": "10.1002/imt2.198",
+  "year": 2024,
+  "title": "Duck gut metagenome reveals the microbiome signatures linked to intestinal regional, temporal development, and rearing condition",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 6,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 55,
+  "doi": "10.1002/imt2.236",
+  "year": 2024,
+  "title": "USEARCH 12: Open\u2010source software for sequencing analysis in bioinformatics and microbiome",
+  "hits": {
+   "ml": 2,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 49,
+  "doi": "10.1002/imt2.188",
+  "year": 2024,
+  "title": "A panoramic view of the virosphere in three wastewater treatment plants by integrating viral\u2010like particle\u2010concentrated and traditional non\u2010concentrated metagenomic approaches",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 45,
+  "doi": "10.1002/imt2.70005",
+  "year": 2025,
+  "title": "Enhancement of gut barrier integrity by a Bacillus subtilis secreted metabolite through the GADD45A\u2010Wnt/\u03b2\u2010catenin pathway",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 6,
+  "cited": 44,
+  "doi": "10.1002/imt2.165",
+  "year": 2024,
+  "title": "Black rice diet alleviates colorectal cancer development through modulating tryptophan metabolism and activating AHR pathway",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 5
+  }
+ },
+ {
+  "score": 6,
+  "cited": 43,
+  "doi": "10.1002/imt2.213",
+  "year": 2024,
+  "title": "The challenge and opportunity of gut microbiota\u2010targeted nanomedicine for colorectal cancer therapy",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 4
+  }
+ },
+ {
+  "score": 6,
+  "cited": 27,
+  "doi": "10.1002/imt2.70029",
+  "year": 2025,
+  "title": "A panoramic view of cotton resistance to Verticillium dahliae: From genetic architectures to precision genomic selection",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 6,
+  "cited": 23,
+  "doi": "10.1002/imt2.169",
+  "year": 2024,
+  "title": "Infant age inversely correlates with gut carriage of resistance genes, reflecting modifications in microbial carbohydrate metabolism during early life",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 7,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 15,
+  "doi": "10.1002/imt2.70061",
+  "year": 2025,
+  "title": "A gut microbiota\u2010bile acid axis inhibits the infection of an emerging coronavirus by targeting its cellular receptor aminopeptidase N",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 1
+  }
+ },
+ {
+  "score": 6,
+  "cited": 14,
+  "doi": "10.1002/imt2.70000",
+  "year": 2025,
+  "title": "Gut microbiome and metabolome characteristics of patients with cholesterol gallstones suggest the preventive potential of prebiotics",
+  "hits": {
+   "ml": 0,
+   "diag": 5,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 7,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 13,
+  "doi": "10.1002/imt2.70004",
+  "year": 2025,
+  "title": "Linking dietary fiber to human malady through cumulative profiling of microbiota disturbance",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 2,
+   "geo": 0,
+   "gut": 1,
+   "disease": 16
+  }
+ },
+ {
+  "score": 6,
+  "cited": 9,
+  "doi": "10.1002/imt2.70135",
+  "year": 2026,
+  "title": "A spatiotemporal single\u2010cell atlas of porcine development reveals regulatory dynamics and cellular targets of domestication",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 7,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 8,
+  "doi": "10.1002/imt2.70017",
+  "year": 2025,
+  "title": "Gut microbiota in cancer: From molecular mechanisms to precision medicine applications",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 3
+  }
+ },
+ {
+  "score": 6,
+  "cited": 10,
+  "doi": "10.1002/imt2.195",
+  "year": 2024,
+  "title": "GutUDB: A comprehensive multiomics database for intestinal diseases",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 5
+  }
+ },
+ {
+  "score": 6,
+  "cited": 5,
+  "doi": "10.1002/imt2.216",
+  "year": 2024,
+  "title": "Genetic manipulations of nonmodel gut microbes",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 2,
+   "disease": 3
+  }
+ },
+ {
+  "score": 6,
+  "cited": 5,
+  "doi": "10.1002/imt2.70019",
+  "year": 2025,
+  "title": "MDIPID: Microbiota\u2010drug interaction and disease phenotype interrelation database",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 6,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 6,
+  "cited": 5,
+  "doi": "10.1002/imt2.70087",
+  "year": 2025,
+  "title": "High\u2010throughput generic single\u2010entity sequencing using droplet microfluidics",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 3,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 4,
+  "doi": "10.1002/imt2.70108",
+  "year": 2026,
+  "title": "Climate factors drive the local adaptation of Old World cattle",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 3,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 0,
+  "doi": "10.1002/imt2.70105",
+  "year": 2026,
+  "title": "Fast bootstrap and reliable readout using hidden references for DNA data storage",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 1,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 0,
+  "doi": "10.1002/imt2.70131",
+  "year": 2026,
+  "title": "Integrative host\u2013microbiome modeling uncovers the implication of oral\u2013gut translocation in advanced cirrhosis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 5
+  }
+ },
+ {
+  "score": 6,
+  "cited": 0,
+  "doi": "10.1002/imt2.70191",
+  "year": 2026,
+  "title": "Urban avian viromes reveal viral diversity of potential public health relevance across China",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 3,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 6,
+  "cited": 0,
+  "doi": "10.1002/imt2.70196",
+  "year": 2026,
+  "title": "Strain level variation in pathogenic invaders alters rhizosphere communities",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 1,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 5,
+  "cited": 58,
+  "doi": "10.1002/imt2.185",
+  "year": 2024,
+  "title": "Vaginal microbiota are associated with in vitro fertilization during female infertility",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 33,
+  "doi": "10.1002/imt2.176",
+  "year": 2024,
+  "title": "Photoaffinity probe\u2010based antimalarial target identification of artemisinin in the intraerythrocytic developmental cycle of Plasmodium falciparum",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 23,
+  "doi": "10.1002/imt2.70013",
+  "year": 2025,
+  "title": "Two telomere\u2010to\u2010telomere pig genome assemblies and pan\u2010genome analyses provide insights into genomic structural landscape and genetic adaptations",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 23,
+  "doi": "10.1002/imt2.70040",
+  "year": 2025,
+  "title": "Gut microbiota\u2010derived butyrate mediates the anticolitic effect of indigo supplementation through regulating CD4+ T cell differentiation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 4
+  }
+ },
+ {
+  "score": 5,
+  "cited": 21,
+  "doi": "10.1002/imt2.70077",
+  "year": 2025,
+  "title": "Geographic containment and virulence\u2010resistance trade\u2010offs drive the evolution of hypervirulent Klebsiella pneumoniae",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 7,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 19,
+  "doi": "10.1002/imt2.70065",
+  "year": 2025,
+  "title": "Gut microbial\u2010derived 3,4\u2010dihydroxyphenylacetic acid ameliorates reproductive phenotype of polycystic ovary syndrome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 37,
+  "doi": "10.1002/imt2.187",
+  "year": 2024,
+  "title": "Arbuscular mycorrhizal fungal interactions bridge the support of root\u2010associated microbiota for slope multifunctionality in an erosion\u2010prone ecosystem",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 31,
+  "doi": "10.1002/imt2.171",
+  "year": 2024,
+  "title": "A comprehensive analysis of antibiotic resistance genes in the giant panda gut",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 23,
+  "doi": "10.1002/imt2.268",
+  "year": 2025,
+  "title": "Non\u2010differential gut microbes contribute to hypertension and its severity through co\u2010abundances: A multi\u2010regional prospective cohort study",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 13,
+  "doi": "10.1002/imt2.70042",
+  "year": 2025,
+  "title": "Phage\u2010mediated horizontal transfer of Salmonella enterica virulence genes with regulatory feedback from the host",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 13,
+  "doi": "10.1002/imt2.70050",
+  "year": 2025,
+  "title": "Single\u2010cell sequencing reveals the role of IL\u201033 + endothelial subsets in promoting early gastric cancer progression",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 6
+  }
+ },
+ {
+  "score": 5,
+  "cited": 8,
+  "doi": "10.1002/imt2.70091",
+  "year": 2025,
+  "title": "Whole microbiota transplantation restores gut homeostasis throughout the gastrointestinal tract",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 2
+  }
+ },
+ {
+  "score": 5,
+  "cited": 6,
+  "doi": "10.1002/imt2.70071",
+  "year": 2025,
+  "title": "Bavachalcone targets transferrin receptor and sensitizes gemcitabine to affect bladder cancer progression",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 5
+  }
+ },
+ {
+  "score": 5,
+  "cited": 5,
+  "doi": "10.1002/imt2.70107",
+  "year": 2026,
+  "title": "Construction of a clickable probe\u2010based protein chip platform for discovering covalent mIDH1 inhibitors from natural medicinal extracts",
+  "hits": {
+   "ml": 0,
+   "diag": 3,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 6,
+  "doi": "10.1002/imt2.70026",
+  "year": 2025,
+  "title": "QSCNAS: A platform for quorum sensing and quenching bacteria analysis in global wastewater treatment plants",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 4,
+  "doi": "10.1002/imt2.70093",
+  "year": 2025,
+  "title": "Single\u2010nucleus RNA sequencing reveals RUNX1 regulation of muscle hypertrophy through PI3K/AKT/mTOR pathway",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 3,
+  "doi": "10.1002/imt2.70099",
+  "year": 2025,
+  "title": "Single\u2010cell spatial transcriptomics reveals potential molecular mechanisms of Abelmoschus manihot (L.) medic in treating diabetic kidney disease",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 5,
+  "cited": 2,
+  "doi": "10.1002/imt2.70128",
+  "year": 2026,
+  "title": "Spinal cord injury induces acute microbiome shock and system\u2010wide transcriptomic reprogramming",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 1,
+  "doi": "10.1002/imt2.70106",
+  "year": 2026,
+  "title": "BIOME cohort: Multi\u2010system microbiome dynamics and clinical outcomes in massive burn injury patients",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 1,
+  "doi": "10.1002/imt2.70163",
+  "year": 2026,
+  "title": "Spatial multi\u2010omics unveils sphingolipid metabolic reprogramming within the retinal pathological niche",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 5,
+  "cited": 0,
+  "doi": "10.1002/imt2.70172",
+  "year": 2026,
+  "title": "Monocyte inflammation and adaptive immune dysfunction in severe Klebsiella pneumoniae pneumonia",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 5,
+  "cited": 0,
+  "doi": "10.1002/imt2.70179",
+  "year": 2026,
+  "title": "Domesticated bacterial origin genes regulate homeostasis of the insect gut microbiome and empower adaptation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 0,
+  "doi": "10.1002/imt2.70183",
+  "year": 2026,
+  "title": "Integrative genomics and regulomics reveal the molecular architecture of complex traits in domestic chickens",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 5,
+  "cited": 0,
+  "doi": "10.1002/imt2.70193",
+  "year": 2026,
+  "title": "High\u2010risk Klebsiella pneumoniae shows hospital\u2010centered genomic connectivity with divergent sublineage dissemination",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 3,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 186,
+  "doi": "10.1002/imt2.184",
+  "year": 2024,
+  "title": "Visualizing set relationships: EVenn's comprehensive approach to Venn diagrams",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 2,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 76,
+  "doi": "10.1002/imt2.235",
+  "year": 2024,
+  "title": "iNAP 2.0: Harnessing metabolic complementarity in microbial network analysis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 68,
+  "doi": "10.1002/imt2.231",
+  "year": 2024,
+  "title": "TCellSI: A novel method for T cell state assessment and its applications in immune environment prediction",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 66,
+  "doi": "10.1002/imt2.70006",
+  "year": 2025,
+  "title": "Time\u2010restricted feeding mitigates Alzheimer's disease\u2010associated cognitive impairments via a B. pseudolongum \u2010propionic acid\u2010FFAR3 axis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 2
+  }
+ },
+ {
+  "score": 4,
+  "cited": 47,
+  "doi": "10.1002/imt2.226",
+  "year": 2024,
+  "title": "Single\u2010cell landscape revealed immune characteristics associated with disease phases in brucellosis patients",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 43,
+  "doi": "10.1002/imt2.271",
+  "year": 2025,
+  "title": "Comammox Nitrospira act as key bacteria in weakly acidic soil via potential cobalamin sharing",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 37,
+  "doi": "10.1002/imt2.70033",
+  "year": 2025,
+  "title": "Efficacy and biomarker analysis of neoadjuvant disitamab vedotin (RC48\u2010ADC) combined immunotherapy in patients with muscle\u2010invasive bladder cancer: A multi\u2010center real\u2010world study",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 4,
+  "cited": 35,
+  "doi": "10.1002/imt2.272",
+  "year": 2025,
+  "title": "Cross\u2010tissue multi\u2010omics analyses reveal the gut microbiota's absence impacts organ morphology, immune homeostasis, bile acid and lipid metabolism",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 29,
+  "doi": "10.1002/imt2.70022",
+  "year": 2025,
+  "title": "HLF and PPAR\u03b1 axis regulates metabolic\u2010associated fatty liver disease through extracellular vesicles derived from the intestinal microbiota",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 2
+  }
+ },
+ {
+  "score": 4,
+  "cited": 21,
+  "doi": "10.1002/imt2.70027",
+  "year": 2025,
+  "title": "Integrative cross\u2010tissue analysis unveils complement\u2010immunoglobulin augmentation and dysbiosis\u2010related fatty acid metabolic remodeling during mammalian aging",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 5,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 24,
+  "doi": "10.1002/imt2.70002",
+  "year": 2025,
+  "title": "MicrobiomeStatPlots: Microbiome statistics plotting gallery for meta\u2010omics and bioinformatics",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 23,
+  "doi": "10.1002/imt2.168",
+  "year": 2024,
+  "title": "Storage\u2010D: A user\u2010friendly platform that enables practical and personalized DNA data storage",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 22,
+  "doi": "10.1002/imt2.158",
+  "year": 2024,
+  "title": "Daily occupational exposure in swine farm alters human skin microbiota and antibiotic resistome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 21,
+  "doi": "10.1002/imt2.70051",
+  "year": 2025,
+  "title": "Age\u2010specific reference intervals for plasma amino acids and their associations with nutrient intake in the Chinese pediatric population",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 2,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 20,
+  "doi": "10.1002/imt2.70012",
+  "year": 2025,
+  "title": "Preconception maternal gut dysbiosis affects enteric nervous system development and disease susceptibility in offspring via the GPR41\u2013GDNF/RET/SOX10 signaling pathway",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 6,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 19,
+  "doi": "10.1002/imt2.199",
+  "year": 2024,
+  "title": "A new evaluation system for drug\u2013microbiota interactions",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 16,
+  "doi": "10.1002/imt2.70066",
+  "year": 2025,
+  "title": "Akkermansia muciniphila\u2010derived hypoacylated rough\u2010type lipopolysaccharides alleviate diet\u2010induced obesity via activation of TLR4\u2212IL\u201023\u2212IL\u201022 immune axis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 4
+  }
+ },
+ {
+  "score": 4,
+  "cited": 14,
+  "doi": "10.1002/imt2.70046",
+  "year": 2025,
+  "title": "Temporal response patterns of human gut microbiota to dietary fiber",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 13,
+  "doi": "10.1002/imt2.70038",
+  "year": 2025,
+  "title": "Comprehensive analysis of multi\u2010omics single\u2010cell data using the single\u2010cell analyst",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 13,
+  "doi": "10.1002/imt2.70032",
+  "year": 2025,
+  "title": "Leveraging core enzyme structures for microbiota targeted functional regulation: Urease as an example",
+  "hits": {
+   "ml": 0,
+   "diag": 2,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 12,
+  "doi": "10.1002/imt2.70130",
+  "year": 2026,
+  "title": "Patient\u2010derived organoid\u2010immune co\u2010cultures integrated with multi\u2010omics reveal immunotherapy resistance mechanisms in urothelial carcinoma",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 1,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 8,
+  "doi": "10.1002/imt2.70132",
+  "year": 2026,
+  "title": "microeco 2: A comprehensive R package for downstream analysis of microbiome omics data",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 7,
+  "doi": "10.1002/imt2.70089",
+  "year": 2025,
+  "title": "Homoharringtonine suppresses acute myeloid leukemia progression by orchestrating EWSR1 phase separation in an m 6 A\u2010YTHDF2\u2010dependent mechanism",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 10,
+  "doi": "10.1002/imt2.179",
+  "year": 2024,
+  "title": "Deciphering unique and shared interactions between the human gut microbiota and oral antidiabetic drugs",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 4,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 6,
+  "doi": "10.1002/imt2.70037",
+  "year": 2025,
+  "title": "Maternal gut microbiota\u2010derived daidzein prevents osteoporosis in female offspring following prenatal prednisone exposure",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 5,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 3,
+  "doi": "10.1002/imt2.70096",
+  "year": 2025,
+  "title": "Genome\u2010wide CRISPR screen reveals an uncharacterized spliceosome regulator as new candidate immunotherapy target",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 4,
+  "cited": 3,
+  "doi": "10.1002/imt2.70126",
+  "year": 2026,
+  "title": "Intratumoral Enterobacter hormaechei drives gemcitabine resistance in pancreatic cancer via cdd L \u2010mediated drug inactivation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 3
+  }
+ },
+ {
+  "score": 4,
+  "cited": 2,
+  "doi": "10.1002/imt2.70074",
+  "year": 2025,
+  "title": "Metformin Administration Protects Against Deltoid Tendon Damage Through Activation of Notch Signaling",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 4,
+  "cited": 1,
+  "doi": "10.1002/imt2.70120",
+  "year": 2026,
+  "title": "Targeting DGK\u03b1/PA axis inhibits tumor immune evasion and augments sensitivity to immunotherapy in gastrointestinal cancers",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 4,
+  "cited": 0,
+  "doi": "10.1002/imt2.70169",
+  "year": 2026,
+  "title": "Soil\u2010derived, gut\u2010dominant generalist bacteria shape the fitness of folivorous larvae",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 0,
+  "doi": "10.1002/imt2.70175",
+  "year": 2026,
+  "title": "Different gut microbiome dysbioses impact the evolutionary fate of hypervirulent Klebsiella pneumoniae",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 4,
+  "cited": 0,
+  "doi": "10.1002/imt2.70174",
+  "year": 2026,
+  "title": "Infection mechanisms of Rhizoctonia cerealis in wheat",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 373,
+  "doi": "10.1002/imt2.228",
+  "year": 2024,
+  "title": "OmicShare tools: A zero\u2010code interactive online platform for biological data analysis and visualization",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 325,
+  "doi": "10.1002/imt2.175",
+  "year": 2024,
+  "title": "Wekemo Bioincloud: A user\u2010friendly platform for meta\u2010omics data analyses",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 99,
+  "doi": "10.1002/imt2.163",
+  "year": 2024,
+  "title": "Glucomannan promotes Bacteroides ovatus to improve intestinal barrier function and ameliorate insulin resistance",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 1
+  }
+ },
+ {
+  "score": 3,
+  "cited": 92,
+  "doi": "10.1002/imt2.194",
+  "year": 2024,
+  "title": "Long\u2010term nitrogen input reduces soil bacterial network complexity by shifts in life history strategy in temperate grassland",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 90,
+  "doi": "10.1002/imt2.197",
+  "year": 2024,
+  "title": "Cardiovascular disease therapeutics via engineered oral microbiota: Applications and perspective",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 5
+  }
+ },
+ {
+  "score": 3,
+  "cited": 63,
+  "doi": "10.1002/imt2.246",
+  "year": 2024,
+  "title": "MetOrigin 2.0: Advancing the discovery of microbial metabolites and their origins",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 60,
+  "doi": "10.1002/imt2.70041",
+  "year": 2025,
+  "title": "ggClusterNet 2: An R package for microbial co\u2010occurrence networks and associated indicator correlation patterns",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 3,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 54,
+  "doi": "10.1002/imt2.164",
+  "year": 2024,
+  "title": "PHGD: An integrative and user\u2010friendly database for plant hormone\u2010related genes",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 9,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 51,
+  "doi": "10.1002/imt2.192",
+  "year": 2024,
+  "title": "SIDERITE: Unveiling hidden siderophore diversity in the chemical space through digital exploration",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 30,
+  "doi": "10.1002/imt2.253",
+  "year": 2024,
+  "title": "Short\u2010term probiotic supplementation affects the diversity, genetics, growth, and interactions of the native gut microbiome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 7,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 29,
+  "doi": "10.1002/imt2.70060",
+  "year": 2025,
+  "title": "scRiskCell: A single\u2010cell framework for quantifying islet risk cells and their adaptive dynamics in type 2 diabetes",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 7
+  }
+ },
+ {
+  "score": 3,
+  "cited": 24,
+  "doi": "10.1002/imt2.70003",
+  "year": 2025,
+  "title": "Hypertriglyceridemia\u2010modulated gut microbiota promotes lysophosphatidylcholine generation to aggravate acute pancreatitis in a TLR4\u2010dependent manner",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 22,
+  "doi": "10.1002/imt2.70109",
+  "year": 2026,
+  "title": "Majorbio Cloud 2026 provides comprehensive analysis workflows for microbiome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 21,
+  "doi": "10.1002/imt2.70025",
+  "year": 2025,
+  "title": "Serum metabolic and microbial profiling yields insights into promoting effect of tryptophan\u2010related metabolites for health longevity in centenarians",
+  "hits": {
+   "ml": 0,
+   "diag": 3,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 21,
+  "doi": "10.1002/imt2.70072",
+  "year": 2025,
+  "title": "Discovery of a novel tetrapeptide as glucose homeostasis modulator with bifunctionalities of targeting DPP\u2010IV and microbiota",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 31,
+  "doi": "10.1002/imt2.245",
+  "year": 2024,
+  "title": "The crop mined phosphorus nutrition via modifying root traits and rhizosphere micro\u2010food web to meet the increased growth demand under elevated CO 2",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 26,
+  "doi": "10.1002/imt2.222",
+  "year": 2024,
+  "title": "Intestinal microbiota by angiotensin receptor blocker therapy exerts protective effects against hypertensive damages",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 9,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 23,
+  "doi": "10.1002/imt2.248",
+  "year": 2024,
+  "title": "Targeting SLC7A11 /xCT improves radiofrequency ablation efficacy of HCC by dendritic cells mediated anti\u2010tumor immune response",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 3,
+  "cited": 21,
+  "doi": "10.1002/imt2.70007",
+  "year": 2025,
+  "title": "Gut microbiota\u2010derived tryptophan metabolites improve total parenteral nutrition\u2010associated infections by regulating Group 3 innate lymphoid cells",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 7,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 18,
+  "doi": "10.1002/imt2.232",
+  "year": 2024,
+  "title": "Role of respiratory system microbiota in development of lung cancer and clinical application",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 6
+  }
+ },
+ {
+  "score": 3,
+  "cited": 15,
+  "doi": "10.1002/imt2.263",
+  "year": 2024,
+  "title": "EGDB: A comprehensive multi\u2010omics database for energy grasses and the epigenomic atlas of pearl millet",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 4,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 15,
+  "doi": "10.1002/imt2.70075",
+  "year": 2025,
+  "title": "Unveiling soil microbial diversity through ultra\u2010deep short\u2010read metagenomic sequencing and co\u2010assembly",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 14,
+  "doi": "10.1002/imt2.70076",
+  "year": 2025,
+  "title": "Multi\u2010omics identifies microbiota\u2010derived deoxycholic acid as a key mediator of blood\u2010brain barrier dysfunction in Parkinson's disease",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 2
+  }
+ },
+ {
+  "score": 3,
+  "cited": 13,
+  "doi": "10.1002/imt2.70094",
+  "year": 2025,
+  "title": "Soil\u2010borne legacy facilitates the dissemination of antibiotic resistance genes in soil\u2013plant continua",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 1
+  }
+ },
+ {
+  "score": 3,
+  "cited": 12,
+  "doi": "10.1002/imt2.247",
+  "year": 2024,
+  "title": "A comprehensive atlas of endogenous peptides in maize",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 3,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 12,
+  "doi": "10.1002/imt2.70028",
+  "year": 2025,
+  "title": "Enhancing human gut health: Global innovations in dysbiosis management",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 9,
+  "doi": "10.1002/imt2.70084",
+  "year": 2025,
+  "title": "A comprehensive benchmarking for spatially resolved transcriptomics clustering methods across variable technologies, organs, and replicates",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 4,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 9,
+  "doi": "10.1002/imt2.70103",
+  "year": 2025,
+  "title": "Nano\u2010plastics disrupt systemic metabolism by remodeling the bile acid\u2013microbiota axis and driving hepatic\u2013intestinal dysfunction",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 8,
+  "doi": "10.1002/imt2.70116",
+  "year": 2026,
+  "title": "Accu16S/AccuITS: Accurate and broadly applicable amplicon sequencing for absolute microbiome quantification",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 8,
+  "doi": "10.1002/imt2.70140",
+  "year": 2026,
+  "title": "Synthetic microbial communities for engineering climate\u2010smart biofertilizers",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 7,
+  "doi": "10.1002/imt2.70112",
+  "year": 2026,
+  "title": "Oral proton\u2010reprogrammed nanomedicine to break the inflammatory bowel disease\u2010 Clostridium difficile infection vicious cycle",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 4
+  }
+ },
+ {
+  "score": 3,
+  "cited": 13,
+  "doi": "10.1002/imt2.221",
+  "year": 2024,
+  "title": "Cell\u2010type\u2010specific expression analysis of liver transcriptomics with clinical parameters to decipher the cause of intrahepatic inflammation in chronic hepatitis B",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 5,
+  "doi": "10.1002/imt2.70082",
+  "year": 2025,
+  "title": "Metagenomics and digital cell modeling facilitate targeted high\u2010throughput sorting of anaerobic hydrogen\u2010producing microorganisms",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 6,
+  "doi": "10.1002/imt2.267",
+  "year": 2025,
+  "title": "The HTIRDB: A resource containing a transcriptional atlas for 105 different tissues from each of seven species of domestic herbivore",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 5,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 4,
+  "doi": "10.1002/imt2.70021",
+  "year": 2025,
+  "title": "The impact of school heavy metal exposure on children's gut microbiota: The mediating role of environmental microorganisms",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 4,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 4,
+  "doi": "10.1002/imt2.70081",
+  "year": 2025,
+  "title": "Characterizing the microbiome of \u201csterile\u201d organs in experimental mice and evidence of translocation of bacteria from the gut to other internal organs",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 4,
+  "doi": "10.1002/imt2.70134",
+  "year": 2026,
+  "title": "Microbial keystone taxa and metabolic signatures in centenarians regulate intestinal homeostasis during aging",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 1
+  }
+ },
+ {
+  "score": 3,
+  "cited": 4,
+  "doi": "10.1002/imt2.70185",
+  "year": 2026,
+  "title": "Artificial intelligence models Traditional Chinese Medicine principles to integrate with biomedicine",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 3,
+  "doi": "10.1002/imt2.70104",
+  "year": 2026,
+  "title": "The role of the gut microbiome in the regulation of high\u2010altitude adaptation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 3,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 2,
+  "doi": "10.1002/imt2.70113",
+  "year": 2026,
+  "title": "Inhibition of ferroptosis by microbiota\u2010derived lithocholic acid underlies the intestinal radioprotection of a host defensin\u2010derived oligopeptide",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 5,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 2,
+  "doi": "10.1002/imt2.70142",
+  "year": 2026,
+  "title": "The role of human microbiota in breast cancer pathogenesis and treatment",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 3
+  }
+ },
+ {
+  "score": 3,
+  "cited": 1,
+  "doi": "10.1002/imt2.70158",
+  "year": 2026,
+  "title": "Dietary fiber\u2010based oral nanovaccine promotes gut\u2010to\u2010nose trafficking of regulatory cells and drives antigen\u2010specific tolerance to relieve airway allergy",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 3,
+  "cited": 0,
+  "doi": "10.1002/imt2.70161",
+  "year": 2026,
+  "title": "Beyond omics: From descriptive profiling to causal and scalable design of fermentation microbiomes",
+  "hits": {
+   "ml": 1,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 0,
+  "doi": "10.1002/imt2.70170",
+  "year": 2026,
+  "title": "Decoding sequence recognition code of nucleic acid\u2010binding proteins of human\u2010infecting DNA viruses",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 3,
+  "cited": 0,
+  "doi": "10.1002/imt2.70177",
+  "year": 2026,
+  "title": "Gut virome orchestrates nitrogen partitioning between the host and microbiome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 1,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 667,
+  "doi": "10.1002/imt2.191",
+  "year": 2024,
+  "title": "SeqKit2: A Swiss army knife for sequence and alignment processing",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 2,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 153,
+  "doi": "10.1002/imt2.70095",
+  "year": 2025,
+  "title": "PhyloSuite v2: The development of an all\u2010in\u2010one, efficient and visualization\u2010oriented suite for molecular dating analysis and other advanced features",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 109,
+  "doi": "10.1002/imt2.160",
+  "year": 2024,
+  "title": "Clostridium butyricum and carbohydrate active enzymes contribute to the reduced fat deposition in pigs",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 60,
+  "doi": "10.1002/imt2.241",
+  "year": 2024,
+  "title": "Interaction between intestinal mycobiota and microbiota shapes lung inflammation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 55,
+  "doi": "10.1002/imt2.215",
+  "year": 2024,
+  "title": "BioLadder: A bioinformatic platform primarily focused on proteomic data analysis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 42,
+  "doi": "10.1002/imt2.261",
+  "year": 2024,
+  "title": "Gut Bifidobacterium pseudocatenulatum protects against fat deposition by enhancing secondary bile acid biosynthesis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 37,
+  "doi": "10.1002/imt2.220",
+  "year": 2024,
+  "title": "Prophylactic supplementation with Bifidobacterium infantis or its metabolite inosine attenuates cardiac ischemia/reperfusion injury",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 1
+  }
+ },
+ {
+  "score": 2,
+  "cited": 33,
+  "doi": "10.1002/imt2.250",
+  "year": 2024,
+  "title": "Multiomics analysis reveals signatures of selection and loci associated with complex traits in pigs",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 25,
+  "doi": "10.1002/imt2.233",
+  "year": 2024,
+  "title": "LTBR acts as a novel immune checkpoint of tumor\u2010associated macrophages for cancer immunotherapy",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 2,
+  "cited": 19,
+  "doi": "10.1002/imt2.260",
+  "year": 2024,
+  "title": "Unraveling the diversity dynamics and network stability of alkaline phosphomonoesterase\u2010producing bacteria in modulating maize yield",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 18,
+  "doi": "10.1002/imt2.240",
+  "year": 2024,
+  "title": "Multi\u2010level insights into the immuno\u2010oncology\u2010microbiome axis: From biotechnology to novel therapies",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 1
+  }
+ },
+ {
+  "score": 2,
+  "cited": 17,
+  "doi": "10.1002/imt2.186",
+  "year": 2024,
+  "title": "Bacmethy: A novel and convenient tool for investigating bacterial DNA methylation pattern and their transcriptional regulation effects",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 12,
+  "doi": "10.1002/imt2.264",
+  "year": 2024,
+  "title": "Integrating gut and IgA\u2010coated microbiota to identify Blautia as a probiotic for enhancing feed efficiency in chickens",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 9,
+  "doi": "10.1002/imt2.70117",
+  "year": 2026,
+  "title": "Spatial multi\u2010omics identifies a NOTCH3\u2010mediated capillary\u2013mCAF crosstalk driving immune exclusion in hepatocellular carcinoma",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 2
+  }
+ },
+ {
+  "score": 2,
+  "cited": 16,
+  "doi": "10.1002/imt2.218",
+  "year": 2024,
+  "title": "MASS cohort: Multicenter, longitudinal, and prospective study of the role of microbiome in severe pneumonia and host susceptibility",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 14,
+  "doi": "10.1002/imt2.70009",
+  "year": 2025,
+  "title": "Specificity landscapes of 40 R2R3\u2010MYBs reveal how paralogs target different cis\u2010elements by homodimeric binding",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 10,
+  "doi": "10.1002/imt2.166",
+  "year": 2024,
+  "title": "Changes in seminal plasma microecological dynamics and the mechanistic impact of core metabolite hexadecanamide in asthenozoospermia patients",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 6,
+  "doi": "10.1002/imt2.70127",
+  "year": 2026,
+  "title": "FluNexus: A versatile web platform for antigenic prediction and visualization of influenza A viruses",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 2,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 4,
+  "doi": "10.1002/imt2.70097",
+  "year": 2025,
+  "title": "A vast stem\u2010progenitor cell pool, richly vascular system, and hybrid ossification drive the daily centimeter\u2010scale elongation of bony antlers",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 3,
+  "doi": "10.1002/imt2.70124",
+  "year": 2026,
+  "title": "Single\u2010cell transcriptomics reveals cellular heterogeneity and phenotypic transitions of smooth muscle cells in aortic dissection",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 2,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 3,
+  "doi": "10.1002/imt2.227",
+  "year": 2024,
+  "title": "Efficient and easy\u2010to\u2010use capturing three\u2010dimensional metagenome interactions with GutHi\u2010C",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 1,
+  "doi": "10.1002/imt2.70118",
+  "year": 2026,
+  "title": "Chondroitin sulfate restores muscle mass via gut\u2013muscle axis remodeling through sugar\u2013bile acid metabolism reprogramming",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 0,
+  "doi": "10.1002/imt2.70137",
+  "year": 2026,
+  "title": "Early gut microbial and metabolic dysregulation with subclinical cardiac alterations in a nonhuman primate model of Rett syndrome",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 2,
+  "cited": 0,
+  "doi": "10.1002/imt2.70184",
+  "year": 2026,
+  "title": "Lactobacillus derived small RNAs protect against Klebsiella pneumoniae infection",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 2,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 406,
+  "doi": "10.1002/imt2.217",
+  "year": 2024,
+  "title": "Majorbio Cloud 2024: Update single\u2010cell and multiomics workflows",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 72,
+  "doi": "10.1002/imt2.70018",
+  "year": 2025,
+  "title": "Tidyplots empowers life scientists with easy code\u2010based data visualization",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 68,
+  "doi": "10.1002/imt2.70024",
+  "year": 2025,
+  "title": "Butyrate alleviates food allergy by improving intestinal barrier integrity through suppressing oxidative stress\u2010mediated Notch signaling",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 46,
+  "doi": "10.1002/imt2.70058",
+  "year": 2025,
+  "title": "SynCom\u2010mediated herbicide degradation activates microbial carbon metabolism in soils",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 33,
+  "doi": "10.1002/imt2.70129",
+  "year": 2026,
+  "title": "Navigating the future of nano\u2010pesticides: A perspective on design, efficacy, mechanisms, and environmental stewardship",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 23,
+  "doi": "10.1002/imt2.70080",
+  "year": 2025,
+  "title": "Lactobacillus reuteri \u2010mediated dietary xylooligosaccharides enhance jejunal cell survival via suppression of oxygen\u2010dependent apoptotic processes in a pig model",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 22,
+  "doi": "10.1002/imt2.70067",
+  "year": 2025,
+  "title": "RRM2\u2010targeted nanocarrier enhances radiofrequency ablation efficacy in hepatocellular carcinoma through ferroptosis amplification and immune remodeling",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 30,
+  "doi": "10.1002/imt2.209",
+  "year": 2024,
+  "title": "Robust CRISPR/Mb2Cas12a genome editing tools in cotton plants",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 29,
+  "doi": "10.1002/imt2.196",
+  "year": 2024,
+  "title": "Intestinal linoleic acid contributes to the protective effects of Akkermansia muciniphila against Listeria monocytogenes infection in mice",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 26,
+  "doi": "10.1002/imt2.70044",
+  "year": 2025,
+  "title": "Soyasaponin and vertical microbial transmission: Maternal effect on the intestinal development and health of early chicks",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 21,
+  "doi": "10.1002/imt2.224",
+  "year": 2024,
+  "title": "Probio\u2010M9, a breast milk\u2010originated probiotic, alleviates mastitis and enhances antibiotic efficacy: Insights into the gut\u2013mammary axis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 18,
+  "doi": "10.1002/imt2.70010",
+  "year": 2025,
+  "title": "T2T genome, pan\u2010genome analysis, and heat stress response genes in Rhododendron species",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 14,
+  "doi": "10.1002/imt2.223",
+  "year": 2024,
+  "title": "Immune\u2010enriched phyllosphere microbiome in rice panicle exhibits protective effects against rice blast and rice false smut diseases",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 1,
+  "cited": 14,
+  "doi": "10.1002/imt2.70101",
+  "year": 2025,
+  "title": "Host\u2010driven hepatic conversion of gut microbiota\u2010derived putrescine to spermidine mediates mannose's protective effects against hepatic steatosis in zebrafish",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 8,
+  "doi": "10.1002/imt2.173",
+  "year": 2024,
+  "title": "Bacterial load in meconium",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 5,
+  "doi": "10.1002/imt2.70063",
+  "year": 2025,
+  "title": "Neoadjuvant immunotherapy driven bladder preservation for muscle invasive bladder cancer",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 1,
+  "cited": 5,
+  "doi": "10.1002/imt2.70062",
+  "year": 2025,
+  "title": "Probiotics restore enteric HDL3 secretion and improve prognosis in patients with end\u2010stage renal disease",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 1,
+  "cited": 4,
+  "doi": "10.1002/imt2.70098",
+  "year": 2025,
+  "title": "Cultivar\u2010specific preference of bacterial communities and host immune receptor kinase modulate the outcomes of rice\u2013microbiota interactions",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 3,
+  "doi": "10.1002/imt2.70100",
+  "year": 2025,
+  "title": "Antioxidants promote metabolic remodeling in cattle rumen epithelium revealed by single\u2010cell resolution",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 1,
+  "cited": 3,
+  "doi": "10.1002/imt2.70016",
+  "year": 2025,
+  "title": "New insights into genome assembly at the chromosome\u2010level of Prunus tomentosa in evolution and cold tolerance",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 2,
+  "doi": "10.1002/imt2.70020",
+  "year": 2025,
+  "title": "Histamine: A key compound in red light\u2010enhanced Fusarium verticillioides resistance in maize",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 1
+  }
+ },
+ {
+  "score": 1,
+  "cited": 2,
+  "doi": "10.1002/imt2.70036",
+  "year": 2025,
+  "title": "Potential pitfalls in claiming novel taxa",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 1,
+  "doi": "10.1002/imt2.70145",
+  "year": 2026,
+  "title": "Antiviral defense systems drive persistence of antimicrobial\u2010resistant bacteria but limit the transfer of antimicrobial resistance genes in anaerobic digestion",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 0,
+  "doi": "10.1002/imt2.70153",
+  "year": 2026,
+  "title": "Microbial DNA methylation links rumen transcriptional activity to methane emission divergence in dairy cows",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 1,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 0,
+  "doi": "10.1002/imt2.70180",
+  "year": 2026,
+  "title": "Vitamin K2 ameliorates pregnancy\u2010 and lactation\u2010associated osteopenia and postpartum depression",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 1,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 0,
+  "doi": "10.1002/imt2.70187",
+  "year": 2026,
+  "title": "Asia\u2010enriched survey of spatial biology and three\u2010dimensional pathology",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 1,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 1,
+  "cited": 0,
+  "doi": "10.1002/imt2.70190",
+  "year": 2026,
+  "title": "Hepatic sinusoidal obstruction syndrome and the search for a modifiable endothelial state",
+  "hits": {
+   "ml": 0,
+   "diag": 1,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 576,
+  "doi": "10.1002/imt2.211",
+  "year": 2024,
+  "title": "JCVI: A versatile toolkit for comparative genomics analysis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 435,
+  "doi": "10.1002/imt2.70078",
+  "year": 2025,
+  "title": "fastp 1.0: An ultra\u2010fast all\u2010round tool for FASTQ data quality control and preprocessing",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 158,
+  "doi": "10.1002/imt2.177",
+  "year": 2024,
+  "title": "ggVennDiagram: Intuitive Venn diagram software extended",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 83,
+  "doi": "10.1002/imt2.70053",
+  "year": 2025,
+  "title": "Bacterial social interactions in synthetic Bacillus consortia enhance plant growth",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 47,
+  "doi": "10.1002/imt2.181",
+  "year": 2024,
+  "title": "Lactobacillus rhamnosus GG triggers intestinal epithelium injury in zebrafish revealing host dependent beneficial effects",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 45,
+  "doi": "10.1002/imt2.243",
+  "year": 2024,
+  "title": "Novel microbial modifications of bile acids and their functional implications",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 44,
+  "doi": "10.1002/imt2.161",
+  "year": 2024,
+  "title": "Soil enzyme profile analysis for indicating decomposer micro\u2010food web",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 43,
+  "doi": "10.1002/imt2.189",
+  "year": 2024,
+  "title": "Microbiome\u2010mediated alleviation of tobacco replant problem via autotoxin degradation after long\u2010term continuous cropping",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 41,
+  "doi": "10.1002/imt2.225",
+  "year": 2024,
+  "title": "Deciphering functional groups of rumen microbiome and their underlying potentially causal relationships in shaping host traits",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 40,
+  "doi": "10.1002/imt2.234",
+  "year": 2024,
+  "title": "Integrating genome\u2010 and transcriptome\u2010wide association studies to uncover the host\u2013microbiome interactions in bovine rumen methanogenesis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 30,
+  "doi": "10.1002/imt2.210",
+  "year": 2024,
+  "title": "Ms gene and Mr gene: Microbial\u2010mediated spatiotemporal communication between plants",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 29,
+  "doi": "10.1002/imt2.257",
+  "year": 2024,
+  "title": "Pangenome and genome variation analyses of pigs unveil genomic facets for their adaptation and agronomic characteristics",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 22,
+  "doi": "10.1002/imt2.70064",
+  "year": 2025,
+  "title": "PMAT2: An efficient graphical assembly toolkit for comprehensive organellar genomes",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 19,
+  "doi": "10.1002/imt2.70111",
+  "year": 2026,
+  "title": "Curcuminoids amplify host innate antiviral immunity via the CRYAB\u2010RBM26 axis in viral infection",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 39,
+  "doi": "10.1002/imt2.193",
+  "year": 2024,
+  "title": "Complete telomere\u2010to\u2010telomere assemblies of two sorghum genomes to guide biological discovery",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 32,
+  "doi": "10.1002/imt2.182",
+  "year": 2024,
+  "title": "The Microbiome Protocols eBook initiative: Building a bridge to microbiome research",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 21,
+  "doi": "10.1002/imt2.219",
+  "year": 2024,
+  "title": "Smaller microorganisms outcompete larger ones in resistance and functional effects under disturbed agricultural ecosystems",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 13,
+  "doi": "10.1002/imt2.70059",
+  "year": 2025,
+  "title": "Macrophage\u2010derived reactive oxygen species promote Salmonella aggresome formation contributing to bacterial antibiotic persistence",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 11,
+  "doi": "10.1002/imt2.70055",
+  "year": 2025,
+  "title": "METTL5\u2010mediated 18S rRNA m6A modification enhances ribosome assembly and ABA response in Arabidopsis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 10,
+  "doi": "10.1002/imt2.70125",
+  "year": 2026,
+  "title": "Microbial synthetic community ARC prevents aflatoxin and increases rhizobia\u2010legume nodulation couplingly",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 9,
+  "doi": "10.1002/imt2.269",
+  "year": 2025,
+  "title": "Scalable method for exploring phylogenetic placement uncertainty with custom visualizations using treeio and ggtree",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 8,
+  "doi": "10.1002/imt2.70073",
+  "year": 2025,
+  "title": "PSOSP uncovers pervasive SOS\u2010independent prophages with distinct genomic and host traits in bacterial genomes",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 12,
+  "doi": "10.1002/imt2.70056",
+  "year": 2025,
+  "title": "Multi\u2010omics insights into surface charge effects to decode the interplay of nanoplastics and bacterial antibiotic resistance",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 10,
+  "doi": "10.1002/imt2.252",
+  "year": 2024,
+  "title": "Polyploidy drives autophagy to participate in plant\u2010specific functions",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 6,
+  "doi": "10.1002/imt2.202",
+  "year": 2024,
+  "title": "The feasibility of using pathobiome strains as live biotherapeutic products for human use",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 6,
+  "doi": "10.1002/imt2.70023",
+  "year": 2025,
+  "title": "Spaceflight redefines ageing\u2010associated microbiota",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 3,
+  "doi": "10.1002/imt2.70167",
+  "year": 2026,
+  "title": "Single\u2010cell profiling of peripheral blood reveals acute\u2010phase immune dysregulation in human scrub typhus",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 4,
+  "doi": "10.1002/imt2.262",
+  "year": 2024,
+  "title": "Transcriptome\u2010wide association identifies KLC1 as a regulator of mitophagy in non\u2010syndromic cleft lip with or without palate",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 3,
+  "doi": "10.1002/imt2.70034",
+  "year": 2025,
+  "title": "Agriculture increases potential health risks of vertebrate viruses in soils",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 2,
+  "doi": "10.1002/imt2.70138",
+  "year": 2026,
+  "title": "Decidual macrophage\u2010mediated ferroptosis in trophoblasts leads to recurrent spontaneous abortion",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 2,
+  "doi": "10.1002/imt2.70155",
+  "year": 2026,
+  "title": "Two near\u2010complete assemblies reveal R\u2010subgenome structural and centromeric divergence associated with reproductive isolation in hexaploid triticale",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 1,
+  "doi": "10.1002/imt2.70114",
+  "year": 2026,
+  "title": "A bioactive ginsenoside alleviates hepatocellular ferroptosis induced by oxidized phospholipid accumulation in nonalcoholic steatohepatitis",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 1,
+  "doi": "10.1002/imt2.70150",
+  "year": 2026,
+  "title": "Hyperoside alleviates endometrial stromal cell senescence in unexplained recurrent spontaneous abortion via DHX9\u2010mediated R\u2010loop resolution",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 1,
+  "doi": "10.1002/imt2.70156",
+  "year": 2026,
+  "title": "Exposure to micro\u2010 and nano\u2010plastics: From human internal burden to systems\u2010level health\u2010risk interpretation",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.255",
+  "year": 2024,
+  "title": "EXPRESSION OF CONCERN: Intratumoral Microbiota is Associated with Prognosis in Patients with Adrenocortical Carcinoma",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70160",
+  "year": 2026,
+  "title": "Environmental chemicals and the tumor immune microenvironment",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70154",
+  "year": 2026,
+  "title": "Bazi Bushen Capsule restores fertility by targeting mitochondrial health in aging endometrium",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70164",
+  "year": 2026,
+  "title": "Limosilactobacillus reuteri enhances ovarian function and female fertility",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70176",
+  "year": 2026,
+  "title": "Dissecting the angiogenic mechanism of pachychoroid polypoidal choroidal vasculopathy",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70178",
+  "year": 2026,
+  "title": "Decoding ferroptosis via integrated multi\u2010omics analyses in rice blast",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ },
+ {
+  "score": 0,
+  "cited": 0,
+  "doi": "10.1002/imt2.70186",
+  "year": 2026,
+  "title": "Cross species metabolic complementation of vitamin K2 biosynthesis determines emergent suppression of tomato Fusarium wilt",
+  "hits": {
+   "ml": 0,
+   "diag": 0,
+   "multicohort": 0,
+   "atlas": 0,
+   "batch": 0,
+   "geo": 0,
+   "gut": 0,
+   "disease": 0
+  }
+ }
+]

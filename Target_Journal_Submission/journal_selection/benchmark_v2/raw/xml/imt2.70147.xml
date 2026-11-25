@@ -1,0 +1,535 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="imt270147" xml:lang="en" article-type="letter" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Imeta</journal-id><journal-id journal-id-type="iso-abbrev">Imeta</journal-id><journal-id journal-id-type="pmc-domain-id">4576</journal-id><journal-id journal-id-type="pmc-domain">imeta</journal-id><journal-id journal-id-type="nlm-id">9918350383706676</journal-id><journal-id journal-id-type="publisher-id">IMT2</journal-id><journal-title-group><journal-title>iMeta</journal-title></journal-title-group><issn pub-type="ppub">2770-5986</issn><issn pub-type="epub">2770-596X</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13519092</article-id><article-id pub-id-type="pmcid-ver">PMC13519092.1</article-id><article-id pub-id-type="pmcaid">13519092</article-id><article-id pub-id-type="pmcaiid">13519092</article-id><article-id pub-id-type="pmid">42662061</article-id><article-id pub-id-type="doi">10.1002/imt2.70147</article-id><article-id pub-id-type="publisher-id">IMT270147</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Correspondence</subject></subj-group><subj-group subj-group-type="heading"><subject>Correspondence</subject></subj-group></article-categories><title-group><article-title>Gut microbiota‐mediated immune and metabolic dysregulation in coronary artery disease progression and prognosis</article-title><alt-title alt-title-type="right-running-head">GUT MICROBIOTA AND CORONARY ARTERY DISEASE</alt-title><alt-title alt-title-type="left-running-head">LIU <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="imt270147-cr-0001" contrib-type="author"><name name-style="western"><surname>Liu</surname><given-names initials="H">Honghong</given-names></name><xref rid="imt270147-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270147-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270147-cr-0002" contrib-type="author"><name name-style="western"><surname>Feng</surname><given-names initials="S">Siqin</given-names></name><xref rid="imt270147-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270147-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270147-cr-0003" contrib-type="author"><name name-style="western"><surname>Liang</surname><given-names initials="L">Lifeng</given-names></name><xref rid="imt270147-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="imt270147-cr-0004" contrib-type="author"><name name-style="western"><surname>Tang</surname><given-names initials="M">Muyun</given-names></name><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270147-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="imt270147-cr-0005" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yifei</given-names></name><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270147-cr-0006" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yiyang</given-names></name><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270147-cr-0007" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="Z">Zhiyu</given-names></name><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270147-cr-0008" contrib-type="author"><name name-style="western"><surname>Xing</surname><given-names initials="H">Haiping</given-names></name><xref rid="imt270147-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="imt270147-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="C">Chenhong</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4462-892X</contrib-id><xref rid="imt270147-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="imt270147-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>zhangchenhong@sjtu.edu.cn</email></address></contrib><contrib id="imt270147-cr-0010" contrib-type="author" corresp="yes"><name name-style="western"><surname>Tian</surname><given-names initials="R">Ran</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-2292-4247</contrib-id><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>ron_tian@163.com</email></address></contrib><contrib id="imt270147-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="S">Shuyang</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1532-0029</contrib-id><xref rid="imt270147-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="imt270147-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>shuyangzhang103@nrdrs.org</email></address></contrib></contrib-group><aff id="imt270147-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Internal Medicine, Peking Union Medical College Hospital</named-content>
+<institution>Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270147-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Cardiology, Peking Union Medical College Hospital</named-content>
+<institution>Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270147-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Complex Severe and Rare Diseases, Peking Union Medical College Hospital</named-content>
+<institution>Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>
+<city>Beijing</city>
+<country country="CN">China</country>
+</aff><aff id="imt270147-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<institution>01Life Institute</institution>
+<city>Shenzhen</city>
+<country country="CN">China</country>
+</aff><aff id="imt270147-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology</named-content>
+<institution>Shanghai Jiao Tong University</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><aff id="imt270147-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Joint International Research Laboratory of Metabolic &amp; Developmental Science</named-content>
+<institution>Shanghai Jiao Tong University</institution>
+<city>Shanghai</city>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Shuyang Zhang and Ran Tian, Department of Cardiology, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences &amp; Peking Union Medical College, Beijing, 100730, China.<break/>
+Email: <email>shuyangzhang103@nrdrs.org</email>, and <email>ron_tian@163.com</email>
+<break/>
+Chenhong Zhang, State Key Laboratory of Microbial Metabolism, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.<break/>
+Email: <email>zhangchenhong@sjtu.edu.cn</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>01</day><month>7</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2026</year></pub-date><volume>5</volume><issue seq="120">4</issue><issue-id pub-id-type="pmc-issue-id">520307</issue-id><issue-id pub-id-type="doi">10.1002/imt2.v5.4</issue-id><elocation-id>e70147</elocation-id><history>
+<date date-type="rev-recd"><day>10</day><month>6</month><year>2026</year></date>
+<date date-type="received"><day>26</day><month>4</month><year>2026</year></date>
+<date date-type="accepted"><day>10</day><month>6</month><year>2026</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>01</day><month>07</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>28</day><month>08</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-25 23:54:55.687"><day>25</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">iMeta</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of <italic toggle="yes">iMeta</italic> Science.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="IMT2-5-e70147.pdf"><?pdf-name IMT2-5-e70147.pdf?><?pdf-size 4276250?><?pdf-md5 6d3545b2b792ffb74f5d508b0f11e4ff?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:5e0b/13519092/6d3545b2b792/IMT2-5-e70147.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:IMT2-5-e70147.pdf"/><abstract abstract-type="graphical"><p>The gut microbiota has emerged as a metabolically active endocrine‐like organ with a crucial role in coronary artery disease (CAD), yet its contribution to adverse clinical outcomes remains incompletely understood. In this prospective cohort of 319 participants, we integrated metagenomic and metabolomic profiling with longitudinal follow‐up over a median of 1.85 years. Fecal microbiota transplantation from patients with CAD transmitted susceptibility to atherosclerosis in antibiotic‐treated <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice, accompanied by microbiota‐induced vascular inflammation mediated through LPS–TLR4 signaling. Gut microbiota‐derived aromatic amino acid metabolism was associated with thrombotic risk and major adverse cardiac events (MACE). Machine learning identified gut microbial features that improved prospective prediction of MACE. Together, these findings implicate the gut microbiome in CAD progression and support the development of microbiome‐based strategies for cardiovascular risk prediction and prevention.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="IMT2-5-e70147-g002.webp"><?image-name IMT2-5-e70147-g002.webp?><?image-size 74176?><?image-md5 3037739ab3e1246d91f1d2bedef58c7b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 642?><?image-original-width 1054?><?image-scaled-height 642?><?image-scaled-width 1054?><?image-cloudpmc-urn urn:cdn:blobs/5e0b/13519092/3037739ab3e1/IMT2-5-e70147-g002.webp?></graphic></boxed-text>
+</p></abstract><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>China Postdoctoral Science Foundation</institution><institution-id institution-id-type="doi">10.13039/501100002858</institution-id></institution-wrap>
+</funding-source><award-id>2021TQ0050</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>CAMS Innovation Fund for Medical Sciences (CIFMS)</institution></institution-wrap>
+</funding-source><award-id>2016‐I2M‐1‐011</award-id><award-id>2021‐I2M‐1‐003</award-id></award-group><award-group id="funding-0003"><funding-source>
+<institution-wrap><institution>National Key Research and Development Program of China</institution></institution-wrap>
+</funding-source><award-id>2022YFC2703100</award-id></award-group><award-group id="funding-0004"><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source><award-id>81670329</award-id><award-id>82300382</award-id><award-id>82170486</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="0"/><page-count count="10"/><word-count count="5142"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.6 mode:remove_FC converted:27.08.2026</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="imt270147-cit-0021">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Honghong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Siqin</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lifeng</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Muyun</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yifei</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Yiyang</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zhiyu</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2026</year>. “<article-title>Gut Microbiota‐Mediated Immune and Metabolic Dysregulation in Coronary Artery Disease Progression and Prognosis</article-title>.” <source>iMeta</source>
+<volume>5</volume>, <elocation-id>e70147</elocation-id>. <pub-id pub-id-type="doi">10.1002/imt2.70147</pub-id>
+<pub-id pub-id-type="pmcid">PMC13519092</pub-id><pub-id pub-id-type="pmid">42662061</pub-id></mixed-citation>
+</p><fn-group><fn id="imt270147-note-0001"><p>Honghong Liu, Siqin Feng, and Lifeng Liang contributed equally to this study.</p></fn></fn-group></notes></front><body><sec id="imt270147-sec-0090"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Honghong Liu</bold>: Conceptualization; methodology; investigation; funding acquisition; writing—original draft; visualization; project administration. <bold>Siqin Feng</bold>: Methodology; data curation. <bold>Lifeng Liang</bold>: Software; formal analysis. <bold>Muyun Tang</bold>: Data curation; methodology. <bold>Yifei Wang</bold>: Investigation; methodology. <bold>Yiyang Wang</bold>: Investigation; methodology. <bold>Zhiyu Zhang</bold>: Validation; data curation. <bold>Haiping Xing</bold>: Validation; data curation. <bold>Chenhong Zhang</bold>: Formal analysis; project administration; writing—review and editing; supervision. <bold>Ran Tian</bold>: Project administration; conceptualization. <bold>Shuyang Zhang</bold>: Resources; supervision; project administration; funding acquisition; writing—review and editing.</p></sec><sec sec-type="COI-statement" id="imt270147-sec-0110"><title>CONFLICT OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec id="imt270147-sec-0140"><title>ETHICS STATEMENT</title><p>This metagenomics CAD cohort was a single‐center, prospective study approved by the Peking Union Medical College Hospital Board. The study was approved by local ethics committees (JS‐1195, Peking Union Medical College Hospital, Beijing), and informed consent was obtained from all subjects. All mice in our study were generated and provided by the Institute of Laboratory Animal Sciences (ILAS) at the Chinese Academy of Medical Sciences and Peking Union Medical College [research license no. SYXK (Beijing) 2015‐0035], which is a member of (and accredited by) the American Association for the Accreditation of Laboratory Animal Care. All animal protocols were approved by the Ethics Committee for Animal Care and Use at the Institute Laboratory Animal Science (IACUC No. NHT17002).</p></sec><sec><p>
+<named-content content-type="salutation">To the Editor,</named-content>
+</p></sec><sec sec-type="opening-section" id="imt270147-sec-0010"><p>Coronary artery disease (CAD) remains a leading contributor to the global burden of disease, accounting for approximately 9.1 million deaths annually. CAD is a chronic and dynamic pathological process in which clinically stable coronary plaque may progress to acute myocardial infarction (MI) or sudden cardiac death through occlusive thrombosis [<xref rid="imt270147-bib-0001" ref-type="bibr">1</xref>]. Despite advances in cardiovascular prevention and treatment, early identification of individuals at heightened risk of adverse thrombotic events remains challenging, largely because sensitive biomarkers and predictive strategies for early‐stage disease are still limited.</p><p>Accumulating evidence implicates the gut microbiome as a non‐traditional contributor to CAD pathogenesis [<xref rid="imt270147-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270147-bib-0003" ref-type="bibr">3</xref>]. Microbial influences on cardiovascular disease are thought to be mediated through both direct metabolic pathways and indirect mechanisms involving microorganism‐associated molecular patterns [<xref rid="imt270147-bib-0004" ref-type="bibr">4</xref>]. Microbial‐dependent metabolites, including trimethylamine N‐oxide, short‐chain fatty acids, and aromatic amino acids, have been extensively investigated in cardiovascular disease, with emerging roles in vascular homeostasis, immune regulation, and platelet aggregation [<xref rid="imt270147-bib-0005" ref-type="bibr">5</xref>, <xref rid="imt270147-bib-0006" ref-type="bibr">6</xref>, <xref rid="imt270147-bib-0007" ref-type="bibr">7</xref>]. In parallel, gut microbiota‐derived lipopolysaccharide (LPS) may promote metabolic endotoxemia, thereby contributing to vascular inflammation, atherogenesis, and ischemic events [<xref rid="imt270147-bib-0008" ref-type="bibr">8</xref>].</p><p>Although several cross‐sectional studies have characterized gut microbiota alterations in patients with CAD [<xref rid="imt270147-bib-0002" ref-type="bibr">2</xref>, <xref rid="imt270147-bib-0009" ref-type="bibr">9</xref>], longitudinal evidence linking the gut microbiome to cardiovascular prognosis remains limited. Building on our previously established PUMCH‐CAD cohort, a registered prospective cohort study (ChiCTR2000033897, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.chictr.org.cn" ext-link-type="uri">http://www.chictr.org.cn</ext-link>), we integrated metagenomic, metabolomic, and clinical approaches to evaluate the prognostic relevance of CAD‐associated microbial features. We further investigated whether disease‐associated microbiota may contribute causally to atherosclerosis progression using fecal microbiota transplantation. Together, these analyses aimed to define a microbiome‐based signature of CAD severity and prognosis, and to establish a translational framework for incorporating metagenomic profiling into cardiovascular risk stratification.</p></sec><sec id="imt270147-sec-0020"><title>CLINICAL CHARACTERISTICS OF THE CAD COHORT</title><p>We enrolled 59 control individuals and 260 patients with CAD according to predefined selection criteria described in the Methods. To quantify atherosclerotic burden and disease severity, all patients underwent coronary angiography and were stratified by at least two blinded cardiologists according to the number of stenosed vessels, defined as &gt;50% luminal stenosis: one‐vessel disease (1‐VD, <italic toggle="yes">n</italic> = 66), two‐vessel disease (2‐VD, <italic toggle="yes">n</italic> = 71), or three‐vessel disease (3‐VD, <italic toggle="yes">n</italic> = 123). Consistent with this stratification, both the Gensini score [<xref rid="imt270147-bib-0010" ref-type="bibr">10</xref>] and SYNTAX score [<xref rid="imt270147-bib-0011" ref-type="bibr">11</xref>] increased progressively with the number of stenosed vessels, indicating a graded increase in atherosclerotic burden (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S1</xref>). The proportion of patients with myocardial infarction also increased across CAD subgroups (1‐VD 12.1%; 2‐VD 28.2%; 3‐VD 26.0%), accompanied by higher circulating levels of cardiac troponin (cTnI), a conventional biomarker of myocardial injury (1‐VD 0.004, 0–0.0223 μg/L; 3‐VD 0.009, 0–0.072 μg/L; <italic toggle="yes">p</italic> = 0.037). In total, 39 clinical variables were collected, including demographics, comorbidities, medication history, and laboratory parameters (Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S1</xref>). Compared with patients with CAD, control individuals had lower levels of established cardiovascular risk factors, including age, smoking exposure, blood pressure, and body mass index. Information on gastrointestinal status, physical activity, and dietary patterns was also collected to account for potential microbiome‐related confounders (Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S2</xref>).</p><sec id="imt270147-sec-0030"><title>MICROBIAL VARIATION SHIFTS WITH CAD SEVERITY AS REFLECTED IN CO‐ABUNDANCE GROUPS</title><p>Shotgun metagenomic sequencing generated an average of 8.2 Gb of high‐quality reads per sample, yielding a total of 49.054 × 10<sup>9</sup> bp assembled into 5,858,411 contigs (Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S4</xref>). These contigs were further clustered into 1046 metagenome‐assembled genomes (MAGs), representing distinct bacterial populations within the gut microbiome (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S2</xref>, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S5</xref>). Across the cohort, exploratory univariable PerManova/Adonis screening identified 16 clinical variables, including disease status, demographic characteristics, medication use, inflammatory markers, and lipid parameters, that were associated with variations in gut microbiome composition. Among these variables, the number of stenosed vessels showed a statistically significant but modest association with MAG‐level Bray–Curtis dissimilarity (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1A</xref>, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S6</xref>). Consistently, the global structure of the gut microbiota differed markedly between the control individuals and patients across CAD stages, with a significant difference also observed between the 2‐VD and 3‐VD subgroups (<italic toggle="yes">p</italic> = 0.048, PerManova test, Figure <xref rid="imt270147-fig-0001" ref-type="fig">1B</xref>).</p><fig position="float" fig-type="Figure" id="imt270147-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Gut microbiota features associated with coronary artery disease severity and prognostic microbial signatures for major adverse cardiac events (MACE). (A) Bar plot illustrating the host factors significantly associated with variations in gut microbiome composition, calculated from between‐sample Bray–Curtis distances. Effect sizes and statistical significance were assessed using PerManova/Adonis, with significance defined as <italic toggle="yes">p</italic> &lt; 0.05. Bars were colored according to metadata categories. No. of SV, Number of stenosed coronary vessels; IL‐18, interleukin‐18; T2DM, type 2 diabetes mellitus; HDL‐C, High‐density lipoprotein cholesterol; NYHA, New York Heart Association class for cardiac function. (B) Principal coordinates analysis (PCoA) based on MAG‐level Bray–Curtis dissimilarity. Differences in beta‐diversity were tested using PerManova with 9999 permutations. Con, Control; Patients were stratified by the number of stenosed coronary arteries on angiography into single‐vessel disease (1‐VD), double‐vessel disease (2‐VD), and triple‐vessel disease (3‐VD). (C) Co‐abundance groups (CAGs) that differed significantly across four study groups or between CAD subgroups. <italic toggle="yes">p</italic> values were adjusted across the tested CAGs within each comparison using the Benjamini–Hochberg false discovery rate (FDR) method. Only CAGs with FDR‐adjusted <italic toggle="yes">q</italic> &lt; 0.05 in at least one indicated comparison are shown. (D) Spearman correlation analysis between CAGs and major CAD‐related clinical indicators. Color indicates the direction and magnitude of the correlation, with red denoting positive correlations and blue denoting negative correlations. Statistical significance after FDR corrections is indicated as follows: ++ <italic toggle="yes">q</italic> &lt; 0.05. GGT, gamma‐glutamyl transferase; AKP, alkaline phosphatase; AST, aspartate aminotransferase; FFA, free fatty acids; ApoA1, apolipoprotein A1; ApoB, apolipoprotein B; LDH, lactate dehydrogenase. (E) MAG‐level co‐abundance network showing MAG enrichment across different stages within significantly altered CAGs. Node size indicates the mean relative abundance of each MAG. Taxonomic labels indicate the lowest confidently assigned taxonomic level. Lines between nodes represent correlations between MAGs. Only correlations with an absolute coefficient &gt;0.4 are shown. (F) Fine‐grained correlation profile integrating microbial functional modules, CAGs, and clinical traits across 319 individuals. The left panel shows associations between microbial functional modules and clinical phenotypes, with color indicating the direction of association. The middle panel shows associations between the same modules and CAGs, with color representing Spearman correlation coefficients. Statistical significance after FDR correction is indicated as follows: + <italic toggle="yes">q</italic> &lt; 0.1, # <italic toggle="yes">q</italic> &lt; 0.01, * <italic toggle="yes">q</italic> &lt; 0.001. (G) Construction and internal evaluation of the random survival forest (RSF) model using ensemble permutation importance—guided forward selection of candidate microbial prognostic features. C‐index values were computed using out‐of‐bag (OOB)‐predicted MACE risk scores from 1000 iterations of RSF modeling. The blue line indicates local regression fitting, and the dotted line marks the selected predictor set with the highest median OOB C‐index. (H) Kaplan–Meier curves of MACE risk groups dichotomized according to OOB‐predicted microbial risk scores derived from the final RSF model. (I) and (J) Relative abundance of <italic toggle="yes">Bacteroides thetaiotaomicron</italic> CAD. MAG212 or <italic toggle="yes">Prevotella sp</italic>. in CAD patients with or without MACE. MACE‐Y and MACE‐N indicate patients with and without major adverse cardiac events, respectively. Boxes represent the inter‐quartile ranges, and lines inside the boxes denote medians. Kaplan–Meier curves show event‐free survival according to high versus low abundance quartiles of the corresponding bacterial taxa. Kaplan–Meier estimates of MACE‐free survival according to high versus low serum level quartiles of phenylacetic acid (K) and indole‐3‐carboxylic acid (L). (M) Spearman correlation analysis between serum phenylacetic acid level and the abundance of <italic toggle="yes">B. thetaiotaomicron</italic> CAD.MAG212 in CAD patients with or without MACE.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="IMT2-5-e70147-g001.webp"><?image-name IMT2-5-e70147-g001.webp?><?image-size 130056?><?image-md5 2dba874d1bf1c3c884f6c26f6a4fa4d8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1170?><?image-original-width 911?><?image-scaled-height 1170?><?image-scaled-width 911?><?image-cloudpmc-urn urn:cdn:blobs/5e0b/13519092/2dba874d1bf1/IMT2-5-e70147-g001.webp?><?thumb-name IMT2-5-e70147-g001.gif?><?thumb-size 16834?><?thumb-md5 8dfdab0bd5d152fb214986938ff7261b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 156?><?thumb-cloudpmc-urn urn:cdn:blobs/5e0b/13519092/8dfdab0bd5d1/IMT2-5-e70147-g001.gif?></graphic></fig><p>Because bacterial taxa often function collectively within ecological networks, we constructed a co‐abundance network of MAGs based on SparCC correlation coefficients [<xref rid="imt270147-bib-0012" ref-type="bibr">12</xref>]. The MAGs were subsequently organized into 36 co‐abundant groups (CAGs) across all individuals (Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S7</xref>). Fifteen CAGs were enriched in control individuals (Wilcoxon's test, <italic toggle="yes">p</italic> &lt; 0.05), and these groups were predominantly composed of MAGs assigned to <italic toggle="yes">Faecalibacterium</italic> and <italic toggle="yes">Ruminococcus</italic>, accounting for 38.84% and 11.79% of MAGs, respectively. Consistent with observations from diverse healthy cohorts, <italic toggle="yes">Faecalibacterium</italic> spp. showed a dominant pattern in the gut microbiota of healthy adults (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S3</xref>) [<xref rid="imt270147-bib-0013" ref-type="bibr">13</xref>]. By contrast, CAG4, CAG12, CAG15, CAG33, and CAG35 were significantly enriched in patients with CAD. CAG12 and CAG4, which were mainly composed of <italic toggle="yes">Bacteroides</italic> spp., were elevated from the early stages of CAD, whereas CAG15, characterized by <italic toggle="yes">Alistipes</italic> sp., increased specifically in the 3‐VD subgroup (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1C,E</xref>).</p><p>Moreover, the CAGs enriched in patients with CAD were positively associated with atherosclerotic burden, cTnI levels, and additional cardiovascular risk indicators, including NYHA class, uric acid, free fatty acids, and TRS 2°P risk score [<xref rid="imt270147-bib-0014" ref-type="bibr">14</xref>] (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1D</xref>). Together, these findings indicate that CAD progression is accompanied by coordinated shifts in gut microbial co‐abundance networks, providing a rationale for identifying stage‐specific microbial features as potential targets for prevention, risk stratification, and intervention.</p></sec><sec id="imt270147-sec-0040"><title>GUT MICROBIOTA CONTRIBUTE TO CAD THROUGH INFLAMMATORY AND METABOLIC PATHWAYS</title><p>Since circulating metabolites often act as intermediaries between the gut microbial ecosystem and host cardiovascular biology, we performed untargeted metabolome profiling on fasting serum samples from a subset of participants (<italic toggle="yes">N</italic> = 152). To identify metabolic features associated with CAD severity, we applied a cross‐comparison strategy across disease strata. This approach yielded an integrated set of 562 metabolite features, which were further clustered into 35 co‐abundance metabotypes (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S4A</xref>, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S8</xref>). Among these metabotypes, 19 of 35 clusters (54%) showed positive or negative associations with CAD severity indices and cardiovascular risk factors (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S4B,C</xref>), highlighting broad metabolic remodeling along CAD progression.</p><p>To further characterize functional alterations in the CAD‐associated gut microbiome, we constructed a catalog of 1,907,752 non‐redundant microbial genes and annotated them into 279 Kyoto Encyclopedia of Genes and Genomes functional modules, as previously described [<xref rid="imt270147-bib-0015" ref-type="bibr">15</xref>]. Cross‐domain association analysis integrating CAD phenotypes, microbial functional modules, and the CAGs revealed coordinated relationships between microbial ecology and host disease features (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1F</xref>, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S9</xref>). Functional modules positively associated with CAD severity included biosynthesis of LPS, cofactors and vitamins, carbohydrate metabolism, and multiple pathogenicity‐related systems. Notably, microbial LPS biosynthesis pathways showed a strong positive correlation with CAD‐enriched CAGs, including CAG4, CAG12, and CAG35. Consistent with these microbial functional changes, serum levels of LPS‐binding protein (LBP) increased progressively with CAD severity (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S5</xref>), suggesting enhanced exposure to microbial endotoxin along disease progression.</p><p>Additionally, microbial tryptophan biosynthesis, a pathway implicated in vascular homeostasis [<xref rid="imt270147-bib-0005" ref-type="bibr">5</xref>], was positively correlated with serum metabotype M06, which comprised benzoate and D‐proline‐related metabolites, and was significantly enriched in MI events (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S6</xref>). Collectively, these multi‐omics analyses indicate that CAD progression is accompanied by coordinated alterations in microbial inflammatory pathways, particularly LPS biosynthesis and aromatic amino acid metabolism, implicating these microbial functions as potential contributors to disease severity and cardiovascular risk.</p></sec><sec id="imt270147-sec-0050"><title>CAD‐SEVERITY‐SPECIFIC MICROBIAL FEATURES PREDICT CARDIOVASCULAR EVENTS DURING FOLLOW‐UP</title><p>During a median follow‐up of 1.85 years (interquartile range, 1.5–2.15 years), 43 major adverse cardiac events (MACE, including primary and secondary events with 10 overlaps) occurred among 226 patients with CAD who completed follow‐up, corresponding to a missing follow‐up rate of 13.1% (Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S3</xref>). To determine whether gut microbial features provide prognostic information, we constructed random survival forest models using CAGs and microbial functional modules ranked by variable importance. A set of seven predictors yielded optimal model performance (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1G</xref>), comprising CAD‐enriched CAGs and the aromatic amino acid metabolism module. These microbial features were integrated into an out‐of‐bag MACE score. Patients with higher microbial risk scores had a significantly increased risk of subsequent cardiac events (log‐rank <italic toggle="yes">p</italic> = 0.00059, Figure <xref rid="imt270147-fig-0001" ref-type="fig">1H</xref>, Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S7A</xref>). Moreover, microbial predictors provided additional prognostic value when combined with conventional cardiovascular risk factors (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S7B,C</xref>).</p><p>Among the discriminatory microbial features, CAG35 and CAG15 were further prioritized because of their high prevalence in the CAD population. <italic toggle="yes">Bacteroides thetaiotaomicron</italic> CAD.MAG212, the dominant MAG in CAG 35, was enriched in patients who subsequently developed cardiac events. CAD patients in the higher quartile of <italic toggle="yes">B. thetaiotaomicron</italic> CAD.MAG212 had an increased risk of cardiac event (HR 1.82; 1.06–3.14; <italic toggle="yes">p</italic> = 0.032; Figure <xref rid="imt270147-fig-0001" ref-type="fig">1I</xref>). By contrast, CAG8 was significantly depleted in patients with CAD who experienced MACE, and a higher abundance of <italic toggle="yes">Prevotella</italic> sp., a component of CAG8, was associated with a reduced risk of cardiovascular events (HR, 0.57; 0.44–0.98; <italic toggle="yes">p</italic> = 0.047; Figure <xref rid="imt270147-fig-0001" ref-type="fig">1J</xref>). Iterative correlation analysis further indicated that CAG35 was a major contributor to variation in the tryptophan pathway, as this association was largely attenuated after the corresponding MAGs were removed from the analysis (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S7D</xref>, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S10</xref>).</p><p>Given the prognostic relevance of microbiota‐associated aromatic amino acid metabolism, we next performed targeted metabolomic analysis. Baseline serum levels of phenylacetic acid and indole‐3‐carboxylic acid were predictive of subsequent MACE (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1K,L</xref>). In patients without baseline MI, higher concentrations of phenylacetic acid and indole‐3‐carboxylic acid were also associated with increased MACE risk (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S8A</xref>). In contrast, circulating levels of the aromatic amino acid precursor tyrosine and the downstream indole‐3‐acetamide were lower in patients who experienced MACE than in those who did not (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S8B</xref>). While, fecal microbiota transplantation experiments showed that colonization with CAD‐associated microbiota induced higher fecal tyrosine levels (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S10C</xref>).</p><p>We further re‐constructed microbial genes involved in phenylalanine and tryptophan biosynthesis in <italic toggle="yes">B. thetaiotaomicron</italic> CAD.MAG212, and found significant enrichment of the <italic toggle="yes">aat</italic> and <italic toggle="yes">fldH</italic> genes in patients with CAD (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S9A,B</xref>). The positive correlation between <italic toggle="yes">B. thetaiotaomicron</italic> CAD.MAG212 abundance and serum phenylacetic acid levels among individuals who developed MACE further supports the potential importance of this bacterium and its associated aromatic amino acid metabolic capacity in cardiovascular event prediction (Figure <xref rid="imt270147-fig-0001" ref-type="fig">1M</xref>).</p></sec><sec id="imt270147-sec-0060"><title>TRANSMISSION OF ATHEROSCLEROSIS SUSCEPTIBILITY TO MICE VIA GUT MICROBIOTA TRANSPLANTATION</title><p>To investigate whether CAD‐associated microbiota can contribute causally to atherosclerosis, fecal samples from control donors (<italic toggle="yes">n</italic> = 5) and patients with 3‐VD (<italic toggle="yes">n</italic> = 5) were transplanted into antibiotic‐treated specific pathogen‐free (SPF) <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice. After 20 weeks of colonization under a high‐fat diet, the gut microbiome profiles of recipient mice showed overall similarity to those of the corresponding human donor, indicating successful microbiota engraftment (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2A</xref>). Notably, Oil Red O staining of whole aorta and aortic root sections exhibited markedly increased atherosclerotic lesion formation in mice colonized with microbiota from patients with 3‐VD (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2B</xref>). Masson's trichrome staining further indicated features consistent with reduced plaque stability in these mice (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2C</xref>). In parallel, fecal LPS levels and serum LBP concentrations were elevated in the 3‐VD microbiota‐recipient mice, mirroring the patterns observed in human donors (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2D,E</xref>). Circulating proatherogenic cytokines, including interleukin‐2 (IL‐2), IL‐6, and tumor necrosis factor (TNF‐α), were also increased in the 3‐VD group (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2F</xref>).</p><fig position="float" fig-type="Figure" id="imt270147-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Fecal microbiota transplantation demonstrates that CAD‐associated gut microbiota promotes systemic and vascular inflammation and accelerates atherosclerotic lesion formation. (A) Principal coordinates analysis (PCoA) of the fecal microbiota from human donors with 3‐Vessel Disease (3‐VD) or control (Con) individuals and corresponding Abx‐treated SPF <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mouse recipients. Differences in beta diversity were assessed using PerManova with 9999 permutations. (B) Representative Oil Red O‐staining of atherosclerotic plaques in en face aortas (<italic toggle="yes">n</italic> = 3 per group) and aortic root sections (<italic toggle="yes">n</italic> = 6–8 per group). The black bar represents 200 μm. (C) Representative Masson's trichrome staining of the aortic sinus showing collagen content within atherosclerotic plaques. Collagen area was quantified as a percentage of the total aortic sinus lesion area (<italic toggle="yes">n</italic> = 5–7 per group). (D) Fecal lipopolysaccharide (LPS) levels in Abx‐treated SPF <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice gavaged with fecal microbiota from the Con or 3‐VD donors (<italic toggle="yes">n</italic> = 7–9 per group). Serum levels of LPS‐binding protein (LBP) (E) and inflammatory cytokines (F) in mice receiving fecal microbiota from Con or 3‐VD donors (<italic toggle="yes">n</italic> = 9–11 per group). Cytokines include interleukin‐2 (IL‐2), IL‐6, tumor necrosis factor (TNF‐α) and IL‐4. (G) Representative immunostaining and quantitative analysis of Toll‐like receptor 4 (TLR4) and CD14 expression in the aortic sinus (<italic toggle="yes">n</italic> = 5–7 per group). (H) and (I) Flow‐cytometric analysis of neutrophils (CD11b<sup>+</sup> Ly6G<sup>+</sup>) and CD4<sup>+</sup> T cells in the aortas of germ‐free <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice gavaged with fecal microbiota from Con or 3‐VD donors (<italic toggle="yes">n</italic> = 6–10 per group). Cell populations are presented as percentages of CD45<sup>+</sup> immune cells. (J) Flow‐cytometric analysis of CD4<sup>+</sup> T cell populations in the spleen (<italic toggle="yes">n</italic> = 12–17 per group). (K) Representative flow‐cytometry plots and quantification of cytotoxic T cells, defined as CD8a<sup>+</sup> IFN‐γ<sup>+</sup> IL17a<sup>−</sup> cells, in the spleen. (L) and (M) Representative flow‐cytometry plots and quantification of Th1<sup>+</sup> (L) and Th2<sup>+</sup> (M) cells within the splenic CD4<sup>+</sup> T cell compartment (<italic toggle="yes">n</italic> = 12–17 per group). Normality was assessed by the Kolmogorov–Smirnov test, for (B), (C), (D), (F), and (H)–(M), data are presented as mean ± s.e.m. For (E) and (G), data are presented as median with interquartile range. Statistical significance was determined using a two‐tailed Student's <italic toggle="yes">t</italic>‐test or Mann–Whitney <italic toggle="yes">U</italic>‐test. *<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, ***<italic toggle="yes">p</italic> &lt; 0.001, ****<italic toggle="yes">p</italic> &lt; 0.0001.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="IMT2-5-e70147-g003.webp"><?image-name IMT2-5-e70147-g003.webp?><?image-size 108554?><?image-md5 25f60c24b8fc383314e24c406a6c485b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1179?><?image-original-width 910?><?image-scaled-height 1179?><?image-scaled-width 910?><?image-cloudpmc-urn urn:cdn:blobs/5e0b/13519092/25f60c24b8fc/IMT2-5-e70147-g003.webp?><?thumb-name IMT2-5-e70147-g003.gif?><?thumb-size 16403?><?thumb-md5 a18ab950baf0d53fe7fad2033fbbc4f5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 154?><?thumb-cloudpmc-urn urn:cdn:blobs/5e0b/13519092/a18ab950baf0/IMT2-5-e70147-g003.gif?></graphic></fig><p>Consistent with enhanced endotoxin‐associated inflammatory signaling, vascular expression of Toll‐like receptor 4 (TLR4), the principal pattern‐recognition receptor for LPS, and its co‐receptor CD14 [<xref rid="imt270147-bib-0016" ref-type="bibr">16</xref>] was significantly elevated in mice receiving 3‐VD microbiota (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2G</xref>). Downstream proatherogenic mediators, including monocyte chemoattractant protein‐1 (MCP‐1) and matrix metalloproteinase‐9 (MMP‐9), were similarly increased (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S10B</xref>). Together, these findings demonstrate that CAD‐associated microbiota can transmit susceptibility to accelerated atherosclerosis in <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice, potentially through enhanced LPS production and activation of vascular inflammatory pathways.</p></sec><sec id="imt270147-sec-0070"><title>CAD‐ASSOCIATED MICROBIOTA EXACERBATE VASCULAR INFLAMMATION AND SYSTEMIC TH1/TH2 IMBALANCE</title><p>We next performed transcriptome profiling of aortic tissues to define the immune programs activated by CAD‐associated microbiota. Gene‐expression analysis revealed enrichment of pathways related to T‐cell activation and leukocyte proliferation in 3‐VD mice (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S10D</xref>). To further dissect these immune alterations, pooled fecal microbiota from control individuals and patients with 3‐VD were transplanted into germ‐free <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice.</p><p>Flow‐cytometric analysis (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S11</xref>) showed that mice receiving 3‐VD microbiota showed an increasing trend of CD4<sup>+</sup> T cells and neutrophils in the aorta compared with mice receiving the control microbiota (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2H,I</xref>, Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S12B</xref>). Given that LPS can modulate CD4<sup>+</sup> T cell responses, especially Th1 polarization [<xref rid="imt270147-bib-0017" ref-type="bibr">17</xref>], we further examined systemic T‐cell subsets. Mice colonized with 3‐VD microbiota exhibited expansion of CD4<sup>+</sup> T cells and pronounced immune activation, characterized by elevated Th1 cells (CD4<sup>+</sup> CD8a<sup>−</sup> IFN‐γ<sup>+</sup>) and reduced Th2 cells (CD4<sup>+</sup> CD8a<sup>−</sup> IL4<sup>+</sup>) in the spleen (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2J,L,M</xref>). In addition, effector cytotoxic T cell activity was increased in the 3‐VD group (Figure <xref rid="imt270147-fig-0002" ref-type="fig">2K</xref>).</p><p>These results suggest that CAD‐associated microbiota promote vascular immune activation and skew systemic adaptive immunity toward a proatherogenic Th1‐dominant state (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S12C</xref>). By contrast, no significant difference in the Th17/Treg ratio was observed (Figure <xref rid="imt270147-suppl-0001" ref-type="supplementary-material">S12D</xref>). Collectively, these results support a causal role for CAD‐associated gut microbiota in enhancing vascular inflammation and accelerating the immunopathological process underlying atherosclerosis.</p></sec></sec><sec id="imt270147-sec-0080"><title>POTENTIAL APPLICATION AND LIMITATIONS</title><p>This study highlighted the need to elucidate CAD stage‐specific microbial profiles that may be useful for modeling disease progression and demonstrated the transmission of atherosclerosis susceptibility through gut microbiota transplantation. By integrating longitudinal follow‐up with multi‐omics profiling and experimental validation, we extend previous cross‐sectional observations and link disrupted microbial homeostasis to cardiovascular risk.</p><p>Microbial co‐abundance networks changed progressively with increasing CAD severity and were accompanied by distinct metabolic alterations. These disease‐associated microbial profiles reflected functional alterations relevant to CAD pathophysiology. In particular, <italic toggle="yes">Bacteroides spp</italic>. were significantly enriched across CAD stages, consistent with their capacity to produce LPS [<xref rid="imt270147-bib-0018" ref-type="bibr">18</xref>], and may contribute to MACE risk through both endotoxin‐mediated inflammation and aromatic amino acid metabolism.</p><p>To explore causality, we transplanted fecal microbiota from patients with CAD into mice and showed that CAD‐associated microbiota accelerated atherosclerosis. This phenotype was accompanied by enhanced vascular immune activation, including increased neutrophil recruitment and CD4<sup>+</sup> T cell activation. Furthermore, microbial LPS‐associated signaling appeared to skew systemic immunity toward a Th1‐dominant state, a process implicated in the initiation and progression of atherosclerosis.</p><p>Our study also establishes a microbiome‐based framework for cardiovascular event prediction. Although the prognostic model showed modest discriminatory performance, combining microbial features with conventional cardiovascular risk factors may improve early risk stratification for MACE. These findings are consistent with emerging evidence linking gut microbiota and microbial metabolites to arterial thrombosis [<xref rid="imt270147-bib-0019" ref-type="bibr">19</xref>], as well as our complementary work showing that the gut commensal <italic toggle="yes">Bacteroides thetaiotaomicron</italic> promotes atherothrombosis by regulating tryptophan metabolism [<xref rid="imt270147-bib-0020" ref-type="bibr">20</xref>].</p><p>Several limitations should be acknowledged. First, validation in larger, independent, and multicentre cohorts is required to assess the generalizability of these findings. Second, residual confounding by factors, such as age and smoking, cannot be fully excluded, despite extensive clinical annotation. Third, the effects of drugs on the gut microbiome could not be systematically evaluated because most patients received guideline‐directed therapy. Fourth, the relatively limited follow‐up duration precluded robust subgroup analyses of specific hard endpoints, such as cardiac death. Fifth, the SPF and germ‐free <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> FMT experiments differed in sex composition (all male vs. sex‐matched, respectively), which may have contributed to the immune phenotypes observed and should be examined in future sex‐stratified studies. Finally, although fecal microbiota transplantation experiments support a causal contribution of CAD‐associated microbiota to atherosclerosis, the mechanistic chain connecting specific microbial taxa, metabolites, immune pathways, and cardiovascular events requires further investigation.</p><p>Identifying microbiome‐derived prognostic biomarkers may facilitate the development of non‐invasive diagnostic tools that complement existing cardiovascular screening and prevention strategies. Collectively, our findings provide a translational framework for mapping microbiome‐host interactions across CAD stages.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="imt270147-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Figure S1:</bold> Distribution of Gensini and Syntax score representing atherosclerosis severity in each subgroup of coronary artery disease (CAD).</p><p>
+<bold>Figure S2:</bold> The pipeline of metagenomic sequencing data analysis.</p><p>
+<bold>Figure S3:</bold> MAG‐level network diagram showing the enrichments of MAGs in Con group.</p><p>
+<bold>Figure S4:</bold> Correlation profile of fasting serum metabotypes and physiological traits in partial 152 subjects.</p><p>
+<bold>Figure S5:</bold> LBP and LPS levels in the serum of CAD cohort.</p><p>
+<bold>Figure S6:</bold> Fine‐grained correlation profile of microbial functional modules, serum metabotypes, and clinical physiological traits.</p><p>
+<bold>Figure S7:</bold> Supplementary data from random survival forest for identifying microbial prognostic features for major adverse cardiac events (MACE).</p><p>
+<bold>Figure S8:</bold> Aromatic amino acids abundance test and Kaplan–Meier analysis.</p><p>
+<bold>Figure S9:</bold> Partial microbial‐dependent aromatic amino acids pathways and key microbial genes abundance test.</p><p>
+<bold>Figure S10:</bold> Supplementary experimental data of fecal microbiota transplantation experiment.</p><p>
+<bold>Figure S11:</bold> Gating strategy for the flow cytometric analyses and schematic of the screening procedure.</p><p>
+<bold>Figure S12:</bold> Supplementary flow cytometry data from fecal microbiota transplantation of germ free <italic toggle="yes">ApoE</italic>
+<sup>−/−</sup> mice.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70147-s001.pdf" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70147-s001.pdf?><?suppdata-size 2157533?><?suppdata-md5 733adf56936c2edee72a9277efbc457a?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:5e0b/13519092/733adf56936c/IMT2-5-e70147-s001.pdf?></media></supplementary-material><supplementary-material id="imt270147-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Table S1:</bold> Clinical characteristics of CAD cohort at baseline.</p><p>
+<bold>Table S2:</bold> Supplementary clinical characteristics including dietary intake, Bristol score, and physical exercise in CAD cohort.</p><p>
+<bold>Table S3:</bold> Follow‐up outcomes of CAD cohort.</p><p>
+<bold>Table S4:</bold> Statistics for the metagenomic shotgun sequencing data of 319 individuals.</p><p>
+<bold>Table S5:</bold> The assembly results of metagenome‐assembled genomes (MAGs).</p><p>
+<bold>Table S6:</bold> Univariable PerManova/Adonis analysis of host factors associated with MAG‐level Bray–Curtis dissimilarity.</p><p>
+<bold>Table S7:</bold> Co‐abundance groups (CAGs) and the list of MAGs in each cluster.</p><p>
+<bold>Table S8:</bold> Description of serum metabotypes and their associations with CAD severity phenotypes.</p><p>
+<bold>Table S9:</bold> Associations between gut microbial functional modules and CAD severity phenotypes.</p><p>
+<bold>Table S10:</bold> Main microbial driver CAGs for the associations between microbial functional modules and CAD severity phenotypes.</p><p>
+<bold>Table S11:</bold> Strengthening The Organization and Reporting of Microbiome Studies (STORMS) checklist.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="IMT2-5-e70147-s002.xlsx" position="float" orientation="portrait"><?suppdata-name IMT2-5-e70147-s002.xlsx?><?suppdata-size 282666?><?suppdata-md5 4bba97aec4708a65bcf6484be261024d?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.spreadsheetml.sheet?><?suppdata-cloudpmc-urn urn:app:5e0b/13519092/4bba97aec470/IMT2-5-e70147-s002.xlsx?></media></supplementary-material></sec></body><back><ack id="imt270147-sec-0100"><title>ACKNOWLEDGMENTS</title><p>This work was supported by National Natural Science Foundation of China (grant 82300382 to HH. L.; 82170486 and 81670329 to SY.Z.); National Key Research and Development Program of China (grant 2022YFC2703100 to SY.Z.); CAMS Innovation Fund for Medical Sciences (CIFMS) (grant 2021‐I2M‐1‐003, to SY.Z.; grant 2016‐I2M‐1‐011, to R. T.); China Postdoctoral Science Foundation (2021TQ0050 to HH. L.). We thank Professor Haitao Niu and Dr. Yiyangzi Ma for technical assistance.</p></ack><sec sec-type="data-availability" id="imt270147-sec-0130"><title>DATA AVAILABILITY STATEMENT</title><p>The raw sequence data reported in this paper have been deposited in the Genome Sequence Archive in the National Genomics Data Center, China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (GSA: HRA010791) <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://ngdc.cncb.ac.cn/gsa-human/browse/HRA010791" ext-link-type="uri" specific-use="software is-supplemented-by">https://ngdc.cncb.ac.cn/gsa-human/browse/HRA010791</ext-link>. Due to ethical and legal restrictions, deidentified individual participant data and the data dictionary cannot be made publicly available. All data are available upon request to the corresponding author and subject to local rules and regulations. The data and scripts used in this study can be found on GitHub: (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/LiangLifeng/CHD-iMeta-2026" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/LiangLifeng/CHD-iMeta-2026</ext-link>). STORMS (Strengthening The Organization and Reporting of Microbiome Studies, Table <xref rid="imt270147-suppl-0002" ref-type="supplementary-material">S11</xref>) checklist was provided for concise and complete reporting of human microbiome study. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.imeta.science/" ext-link-type="uri" specific-use="software is-supplemented-by">http://www.imeta.science/</ext-link>.</p></sec><ref-list content-type="cited-references" id="imt270147-bibl-0001"><title>REFERENCES</title><ref id="imt270147-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="imt270147-cit-0001">
+<string-name name-style="western">
+<surname>Roth</surname>, <given-names>Gregory A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>George A.</given-names>
+<surname>Mensah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Catherine O.</given-names>
+<surname>Johnson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Giovanni</given-names>
+<surname>Addolorato</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Enrico</given-names>
+<surname>Ammirati</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Larry M.</given-names>
+<surname>Baddour</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Noël C.</given-names>
+<surname>Barengo</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Global Burden of Cardiovascular Diseases and Risk Factors, 1990–2019</article-title>: Update From the GBD 2019 Study.” <source>Journal of the American College of Cardiology</source>
+<volume>76</volume>: <fpage>2982</fpage>–<lpage>3021</lpage>. <pub-id pub-id-type="doi">10.1016/j.jacc.2020.11.010</pub-id>
+<pub-id pub-id-type="pmid">33309175</pub-id>
+<pub-id pub-id-type="pmcid">PMC7755038</pub-id></mixed-citation></ref><ref id="imt270147-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="imt270147-cit-0002">
+<string-name name-style="western">
+<surname>Jie</surname>, <given-names>Zhuye</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Huihua</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shi‐Long</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Qiang</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Shenghui</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Suisha</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Huanzi</given-names>
+<surname>Zhong</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>The Gut Microbiome in Atherosclerotic Cardiovascular Disease</article-title>.” <source>Nature Communications</source>
+<volume>8</volume>: <fpage>845</fpage>. <pub-id pub-id-type="doi">10.1038/s41467-017-00900-1</pub-id>
+<pub-id pub-id-type="pmcid">PMC5635030</pub-id><pub-id pub-id-type="pmid">29018189</pub-id></mixed-citation></ref><ref id="imt270147-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="imt270147-cit-0003">
+<string-name name-style="western">
+<surname>Kazemian</surname>, <given-names>Negin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Morteza</given-names>
+<surname>Mahmoudi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Frank</given-names>
+<surname>Halperin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Joseph C.</given-names>
+<surname>Wu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Sepideh</given-names>
+<surname>Pakpour</surname>
+</string-name>. <year>2020</year>. “<article-title>Gut Microbiota and Cardiovascular Disease: Opportunities and Challenges</article-title>.” <source>Microbiome</source>
+<volume>8</volume>: <fpage>36</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-020-00821-0</pub-id>
+<pub-id pub-id-type="pmid">32169105</pub-id>
+<pub-id pub-id-type="pmcid">PMC7071638</pub-id></mixed-citation></ref><ref id="imt270147-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="imt270147-cit-0004">
+<string-name name-style="western">
+<surname>Brown</surname>, <given-names>J. Mark</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Stanley L.</given-names>
+<surname>Hazen</surname>
+</string-name>. <year>2018</year>. “<article-title>Microbial Modulation of Cardiovascular Disease</article-title>.” <source>Nature Reviews Microbiology</source>
+<volume>16</volume>: <fpage>171</fpage>–<lpage>181</lpage>. <pub-id pub-id-type="doi">10.1038/nrmicro.2017.149</pub-id>
+<pub-id pub-id-type="pmid">29307889</pub-id>
+<pub-id pub-id-type="pmcid">PMC5885760</pub-id></mixed-citation></ref><ref id="imt270147-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="imt270147-cit-0005">
+<string-name name-style="western">
+<surname>Nitz</surname>, <given-names>Katrin</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Michael</given-names>
+<surname>Lacy</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Dorothee</given-names>
+<surname>Atzler</surname>
+</string-name>. <year>2019</year>. “<article-title>Amino Acids and Their Metabolism in Atherosclerosis</article-title>.” <source>Arteriosclerosis, Thrombosis, and Vascular Biology</source>
+<volume>39</volume>: <fpage>319</fpage>–<lpage>330</lpage>. <pub-id pub-id-type="doi">10.1161/atvbaha.118.311572</pub-id>
+<pub-id pub-id-type="pmid">30650999</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="imt270147-cit-0006">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Zeneng</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Elizabeth</given-names>
+<surname>Klipfell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brian J.</given-names>
+<surname>Bennett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Robert</given-names>
+<surname>Koeth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Bruce S.</given-names>
+<surname>Levison</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Brandon</given-names>
+<surname>Dugar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ariel E.</given-names>
+<surname>Feldstein</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Gut Flora Metabolism of Phosphatidylcholine Promotes Cardiovascular Disease</article-title>.” <source>Nature</source>
+<volume>472</volume>: <fpage>57</fpage>–<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1038/nature09922</pub-id>
+<pub-id pub-id-type="pmid">21475195</pub-id>
+<pub-id pub-id-type="pmcid">PMC3086762</pub-id></mixed-citation></ref><ref id="imt270147-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="imt270147-cit-0007">
+<string-name name-style="western">
+<surname>Agus</surname>, <given-names>Allison</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Julien</given-names>
+<surname>Planchais</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Harry</given-names>
+<surname>Sokol</surname>
+</string-name>. <year>2018</year>. “<article-title>Gut Microbiota Regulation of Tryptophan Metabolism in Health and Disease</article-title>.” <source>Cell Host &amp; Microbe</source>
+<volume>23</volume>: <fpage>716</fpage>–<lpage>724</lpage>. <pub-id pub-id-type="doi">10.1016/j.chom.2018.05.003</pub-id>
+<pub-id pub-id-type="pmid">29902437</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="imt270147-cit-0008">
+<string-name name-style="western">
+<surname>Bowman</surname>, <given-names>John D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Salim</given-names>
+<surname>Surani</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Michael A.</given-names>
+<surname>Horseman</surname>
+</string-name>. <year>2017</year>. “<article-title>Endotoxin, Toll‐Like Receptor‐4, and Atherosclerotic Heart Disease</article-title>.” <source>Current Cardiology Reviews</source>
+<volume>13</volume>: <fpage>86</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.2174/1573403x12666160901145313</pub-id>
+<pub-id pub-id-type="pmid">27586023</pub-id>
+<pub-id pub-id-type="pmcid">PMC5452150</pub-id></mixed-citation></ref><ref id="imt270147-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="imt270147-cit-0009">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Honghong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Xi</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Xiaomin</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haitao</given-names>
+<surname>Niu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ran</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hui</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Haiyu</given-names>
+<surname>Pang</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Alterations in the Gut Microbiome and Metabolism With Coronary Artery Disease Severity</article-title>.” <source>Microbiome</source>
+<volume>7</volume>: <fpage>68</fpage>. <pub-id pub-id-type="doi">10.1186/s40168-019-0683-9</pub-id>
+<pub-id pub-id-type="pmid">31027508</pub-id>
+<pub-id pub-id-type="pmcid">PMC6486680</pub-id></mixed-citation></ref><ref id="imt270147-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="imt270147-cit-0010">
+<string-name name-style="western">
+<surname>Gensini</surname>, <given-names>Goffredo G</given-names>
+</string-name>. <year>1983</year>. “<article-title>A More Meaningful Scoring System for Determining the Severity of Coronary Heart Disease</article-title>.” <source>The American Journal of Cardiology</source>
+<volume>51</volume>: <fpage>606</fpage>. <pub-id pub-id-type="doi">10.1016/S0002-9149(83)80105-2</pub-id>
+<pub-id pub-id-type="pmid">6823874</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="imt270147-cit-0011">
+<string-name name-style="western">
+<surname>Sianos</surname>, <given-names>Georgios</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Marie‐Angèle</given-names>
+<surname>Morel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Arie</given-names>
+<surname>Pieter Kappetein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marie‐Claude</given-names>
+<surname>Morice</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Antonio</given-names>
+<surname>Colombo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Keith</given-names>
+<surname>Dawkins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Marcel</given-names>
+<surname>van den Brand</surname>
+</string-name>, et al. <year>2005</year>. “<article-title>The SYNTAX Score: An Angiographic Tool Grading the Complexity of Coronary Artery Disease</article-title>.” <source>EuroIntervention</source>
+<volume>1</volume>: <fpage>219</fpage>–<lpage>227</lpage>.<pub-id pub-id-type="pmid">19758907</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="imt270147-cit-0012">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Chenhong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Aihua</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Hongde</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ruirui</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Guojun</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jian</given-names>
+<surname>Shen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Menghui</given-names>
+<surname>Zhang</surname>
+</string-name>, et al. <year>2015</year>. “<article-title>Dietary Modulation of Gut Microbiota Contributes to Alleviation of Both Genetic and Simple Obesity in Children</article-title>.” <source>EBioMedicine</source>
+<volume>2</volume>: <fpage>968</fpage>–<lpage>984</lpage>. <pub-id pub-id-type="doi">10.1016/j.ebiom.2015.07.007</pub-id>
+<pub-id pub-id-type="pmid">26425705</pub-id>
+<pub-id pub-id-type="pmcid">PMC4563136</pub-id></mixed-citation></ref><ref id="imt270147-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="imt270147-cit-0013">
+<string-name name-style="western">
+<surname>Lordan</surname>, <given-names>Cathy</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Dinesh</given-names>
+<surname>Thapa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R Paul</given-names>
+<surname>Ross</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Paul D.</given-names>
+<surname>Cotter</surname>
+</string-name>. <year>2020</year>. “<article-title>Potential for Enriching Next‐Generation Health‐Promoting Gut Bacteria Through Prebiotics and Other Dietary Components</article-title>.” <source>Gut Microbes</source>
+<volume>11</volume>: <fpage>1</fpage>–<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1080/19490976.2019.1613124</pub-id>
+<pub-id pub-id-type="pmid">31116628</pub-id>
+<pub-id pub-id-type="pmcid">PMC6973326</pub-id></mixed-citation></ref><ref id="imt270147-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="imt270147-cit-0014">
+<string-name name-style="western">
+<surname>Bohula</surname>, <given-names>Erin A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>David A.</given-names>
+<surname>Morrow</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Robert P.</given-names>
+<surname>Giugliano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Michael A.</given-names>
+<surname>Blazing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ping</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jeong‐Gun</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sabina A.</given-names>
+<surname>Murphy</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Atherothrombotic Risk Stratification and Ezetimibe for Secondary Prevention</article-title>.” <source>Journal of the American College of Cardiology</source>
+<volume>69</volume>: <fpage>911</fpage>–<lpage>921</lpage>. <pub-id pub-id-type="doi">10.1016/j.jacc.2016.11.070</pub-id>
+<pub-id pub-id-type="pmid">28231942</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="imt270147-cit-0015">
+<string-name name-style="western">
+<surname>Pedersen</surname>, <given-names>Helle Krogh</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Sofia K.</given-names>
+<surname>Forslund</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Valborg</given-names>
+<surname>Gudmundsdottir</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Anders Østergaard</given-names>
+<surname>Petersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Falk</given-names>
+<surname>Hildebrand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Tuulia</given-names>
+<surname>Hyötyläinen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Trine</given-names>
+<surname>Nielsen</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>A Computational Framework to Integrate High‐Throughput ‘‐Omics’ Datasets for the Identification of Potential Mechanistic Links</article-title>.” <source>Nature Protocols</source>
+<volume>13</volume>: <fpage>2781</fpage>–<lpage>2800</lpage>. <pub-id pub-id-type="doi">10.1038/s41596-018-0064-z</pub-id>
+<pub-id pub-id-type="pmid">30382244</pub-id>
+</mixed-citation></ref><ref id="imt270147-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="imt270147-cit-0016">
+<string-name name-style="western">
+<surname>Vasudevan</surname>, <given-names>Swathy O.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Ashley J.</given-names>
+<surname>Russo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Puja</given-names>
+<surname>Kumari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sivapriya Kailasan</given-names>
+<surname>Vanaja</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Vijay A.</given-names>
+<surname>Rathinam</surname>
+</string-name>. <year>2022</year>. “<article-title>A TLR4‐Independent Critical Role for CD14 in Intracellular LPS Sensing</article-title>.” <source>Cell Reports</source>
+<volume>39</volume>: <elocation-id>110755</elocation-id>. <pub-id pub-id-type="doi">10.1016/j.celrep.2022.110755</pub-id>
+<pub-id pub-id-type="pmid">35508125</pub-id>
+<pub-id pub-id-type="pmcid">PMC9376664</pub-id></mixed-citation></ref><ref id="imt270147-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="imt270147-cit-0017">
+<string-name name-style="western">
+<surname>Vella</surname>, <given-names>Anthony T.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>Jeremy P.</given-names>
+<surname>McAleer</surname>
+</string-name>. <year>2008</year>. “<article-title>Understanding How Lipopolysaccharide Impacts CD4 T‐Cell Immunity</article-title>.” <source>Critical Reviews™ in Immunology</source>
+<volume>28</volume>: <fpage>281</fpage>–<lpage>299</lpage>. <pub-id pub-id-type="doi">10.1615/critrevimmunol.v28.i4.20</pub-id>
+<pub-id pub-id-type="pmcid">PMC3549535</pub-id><pub-id pub-id-type="pmid">19166381</pub-id></mixed-citation></ref><ref id="imt270147-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="imt270147-cit-0018">
+<string-name name-style="western">
+<surname>Choi</surname>, <given-names>Vivian M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Julien</given-names>
+<surname>Herrou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Aaron L.</given-names>
+<surname>Hecht</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Wei Ping</given-names>
+<surname>Teoh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jerrold R.</given-names>
+<surname>Turner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Sean</given-names>
+<surname>Crosson</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Juliane Bubeck</given-names>
+<surname>Wardenburg</surname>
+</string-name>. <year>2016</year>. “<article-title>Activation of <italic toggle="yes">Bacteroides Fragilis</italic> Toxin by a Novel Bacterial Protease Contributes to Anaerobic Sepsis in Mice</article-title>.” <source>Nature Medicine</source>
+<volume>22</volume>: <fpage>563</fpage>–<lpage>567</lpage>. <pub-id pub-id-type="doi">10.1038/nm.4077</pub-id>
+<pub-id pub-id-type="pmcid">PMC4860040</pub-id><pub-id pub-id-type="pmid">27089515</pub-id></mixed-citation></ref><ref id="imt270147-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="imt270147-cit-0019">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>Weifei</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Jill C.</given-names>
+<surname>Gregory</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Elin</given-names>
+<surname>Org</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Jennifer A.</given-names>
+<surname>Buffa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Nilaksh</given-names>
+<surname>Gupta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Zeneng</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Lin</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2016</year>. “<article-title>Gut Microbial Metabolite TMAO Enhances Platelet Hyperreactivity and Thrombosis Risk</article-title>.” <source>Cell</source>
+<volume>165</volume>: <fpage>111</fpage>–<lpage>124</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2016.02.011</pub-id>
+<pub-id pub-id-type="pmid">26972052</pub-id>
+<pub-id pub-id-type="pmcid">PMC4862743</pub-id></mixed-citation></ref><ref id="imt270147-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="imt270147-cit-0020">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Honghong</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Siqin</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Muyun</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Ran</given-names>
+<surname>Tian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Shuyang</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2024</year>. “<article-title>Gut Commensal <italic toggle="yes">Bacteroides Thetaiotaomicron</italic> Promote Atherothrombosis via Regulating L‐Tryptophan Metabolism</article-title>.” <source>Reviews in Cardiovascular Medicine</source>
+<volume>25</volume>: <elocation-id>395</elocation-id>. <pub-id pub-id-type="doi">10.31083/j.rcm2511395</pub-id>
+<pub-id pub-id-type="pmid">39618850</pub-id>
+<pub-id pub-id-type="pmcid">PMC11607515</pub-id></mixed-citation></ref></ref-list></back></article>

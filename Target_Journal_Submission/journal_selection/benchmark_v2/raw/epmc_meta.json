@@ -1,0 +1,493 @@
+[
+ {
+  "key": "imt2.70123",
+  "pmcid": "PMC13147943",
+  "pmid": "42099457",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.212",
+  "pmcid": "PMC11316925",
+  "pmid": "39135686",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70192",
+  "pmcid": "PMC13780379",
+  "pmid": "43054892",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70088",
+  "pmcid": "PMC12747552",
+  "pmid": "41472856",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.268",
+  "pmcid": "PMC11865328",
+  "pmid": "40027484",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70004",
+  "pmcid": "PMC11865338",
+  "pmid": "40027480",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70008",
+  "pmcid": "PMC11995172",
+  "pmid": "40236771",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70079",
+  "pmcid": "PMC12528003",
+  "pmid": "41112052",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70147",
+  "pmcid": "PMC13519092",
+  "pmid": "42662061",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70166",
+  "pmcid": "PMC13455838",
+  "pmid": "42577959",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.183",
+  "pmcid": "PMC11183189",
+  "pmid": "38898991",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.242",
+  "pmcid": "PMC11487554",
+  "pmid": "39429876",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70134",
+  "pmcid": "PMC13377416",
+  "pmid": "42491419",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70104",
+  "pmcid": "PMC13726630",
+  "pmid": "42974155",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70131",
+  "pmcid": "PMC13377410",
+  "pmid": "42491347",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70106",
+  "pmcid": "PMC13726635",
+  "pmid": "42974459",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.218",
+  "pmcid": "PMC11316923",
+  "pmid": "39135692",
+  "pubtypes": [
+   "letter",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70049",
+  "pmcid": "PMC12130564",
+  "pmid": "40469506",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70023",
+  "pmcid": "PMC12130553",
+  "pmid": "40469505",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.169",
+  "pmcid": "PMC11170968",
+  "pmid": "38882494",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.185",
+  "pmcid": "PMC11183179",
+  "pmid": "38898981",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70000",
+  "pmcid": "PMC11865347",
+  "pmid": "40027485",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70021",
+  "pmcid": "PMC11995171",
+  "pmid": "40236768",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70046",
+  "pmcid": "PMC12371261",
+  "pmid": "40860439",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70090",
+  "pmcid": "PMC12747540",
+  "pmid": "41472855",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.195",
+  "pmcid": "PMC11183169",
+  "pmid": "38898990",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70019",
+  "pmcid": "PMC11995188",
+  "pmid": "40236778",
+  "pubtypes": [
+   "letter",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70001",
+  "pmcid": "PMC11865343",
+  "pmid": "40027489",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70132",
+  "pmcid": "PMC13377413",
+  "pmid": "42491666",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70149",
+  "pmcid": "PMC13519085",
+  "pmid": "42662055",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.175",
+  "pmcid": "PMC10989175",
+  "pmid": "38868508",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70002",
+  "pmcid": "PMC11865346",
+  "pmid": "40027478",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.236",
+  "pmcid": "PMC11487603",
+  "pmid": "39429875",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.201",
+  "pmcid": "PMC11183159",
+  "pmid": "38898978",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": false
+ },
+ {
+  "key": "imt2.70026",
+  "pmcid": "PMC12130577",
+  "pmid": "40469523",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70011",
+  "pmcid": "PMC11995183",
+  "pmid": "40236779",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70052",
+  "pmcid": "PMC12371266",
+  "pmid": "40860444",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70084",
+  "pmcid": "PMC12747554",
+  "pmid": "41472857",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70116",
+  "pmcid": "PMC13147958",
+  "pmid": "42099459",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70036",
+  "pmcid": "PMC12130575",
+  "pmid": "40469514",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.174",
+  "pmcid": "PMC11170972",
+  "pmid": "38882499",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.246",
+  "pmcid": "PMC11683456",
+  "pmid": "39742299",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.199",
+  "pmcid": "PMC11183188",
+  "pmid": "38898986",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70191",
+  "pmcid": "PMC13776754",
+  "pmid": "43048550",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70077",
+  "pmcid": "PMC12528002",
+  "pmid": "41112046",
+  "pubtypes": [
+   "research-article",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70139",
+  "pmcid": "PMC13377414",
+  "pmid": "42491397",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.229",
+  "pmcid": null,
+  "pmid": null,
+  "pubtypes": null,
+  "has_xml": false
+ },
+ {
+  "key": "imt2.70014",
+  "pmcid": "PMC11995180",
+  "pmid": "40236781",
+  "pubtypes": [
+   "letter",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70068",
+  "pmcid": null,
+  "pmid": null,
+  "pubtypes": null,
+  "has_xml": false
+ },
+ {
+  "key": "imt2.70081",
+  "pmcid": "PMC12527995",
+  "pmid": "41112047",
+  "pubtypes": [
+   "article-commentary",
+   "Journal Article"
+  ],
+  "has_xml": true
+ },
+ {
+  "key": "imt2.70128",
+  "pmcid": "PMC13147949",
+  "pmid": "42099462",
+  "pubtypes": [
+   "Letter"
+  ],
+  "has_xml": true
+ }
+]

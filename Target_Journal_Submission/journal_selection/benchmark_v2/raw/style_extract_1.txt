@@ -1,0 +1,72 @@
+========== imt2.212 article-commentary words 2013 methods 0 figs 2 panels [5, 4] refs 20
+abstracts: [('graphical', 85)]
+title: A universal oral microbiome‐based signature for periodontitis
+  H: RESULTS AND DISCUSSION | Collection and analysis of oral metagenome data sets for periodontitis; Identification of cross‐cohort species biomarkers for periodontitis; Taxonomy‐based classifiers have high classification performance and cross‐cohort generaliz; Network analysis reveals predominantly positive interactions among biomarkers of health‐ o; Function‐based classifiers have low classification performance for periodontitis
+  H: CONCLUSION | 
+  H:  | 
+OPEN: Periodontitis stands as one of the prevailing dental conditions, its prevalence steadily rising at a global age‐standardized incidence of 8.44% (6.62%–10.59%) from 1990 to 2019 [1]. Although certain genetic mutations predispose patients to higher disease risks, the pathogenic bacteria in the oral cavity, are believed to play important roles in the pathogenesis of the disease [2]. Notably, the species Porphyromonas gingivalis, Tannerella forsythia, and Treponema denticola are known as the “red complex.” They are the main pathogens of periodontitis and are positively correlated with the severity of periodontitis [3]. Significantly, patients suffering from severe periodontitis face heightened r
+LIM: 
+  Fig1 [5 panels] Identification of cross‐cohort biomarkers and performance of oral microbiome‐based classifier across multiple periodontitis cohorts. (A) Flowchart shows the glo -> ['overview', 'flowchart', 'map', 'heatmap', 'forest', 'AUC', 'box']
+  Fig2 [4 panels] Network analysis of cross‐cohort microbial biomarkers. (A) A network plot shows the correlations within and between the 12 health‐enriched and 42 disease‐enrich -> ['network', 'box']
+STATS: {'p <': 3, 'Wilcoxon': 3, 'AUC': 17, 'random forest': 2}
+========== imt2.70123 research-article words 7249 methods 1729 figs 6 panels [5, 7, 8, 6, 19, 6] refs 61
+abstracts: [(None, 313), ('graphical', 95), ('highlights', 57)]
+title: Two stable gut microbiome guilds predict liver tumor class and treatment responses
+  H: INTRODUCTION | 
+  H: RESULTS | Two stably competing microbiome guilds identified in patients with liver tumors; Distinct genetic functional profiles of the two guilds in HCC‐TCG; HCC‐TCG as a microbiome signature to classify hepatic tumors; HCC‐TCG predicts recurrence or treatment responses; HCC‐associated clinical parameters enhance treatment prediction; External validation of HCC–TCG for anti‐PD‐1 response in advanced stage HCC cohorts
+  H: DISCUSSION | 
+  H: CONCLUSION | 
+  H: METHODS | Local clinical cohorts; Clinical endpoints; Fecal sample collection; Metagenomic sequencing; Data quality control; De novo assembly, abundance calculation, and taxonomic assignment of genomes; Gut microbiome network construction and analysis; Identification of the TCGs; External cohorts and data; Gut microbiome functional analysis; Statistics
+  H:  | 
+OPEN: INTRODUCTIONHepatocellular carcinoma (HCC) is a leading cause of cancer‐related death worldwide, and China bears the heaviest global burden, accounting for nearly 50% of all new cases [1, 2]. Most patients are diagnosed at an advanced stage, and many experience early recurrence even after curative‐intent surgery, resulting in a 5‐year overall survival rate of less than 14.4% in China [3]. Even among patients who undergo potentially curative resection, postoperative recurrence remains a major unmet clinical challenge, with recurrence or metastasis occurring in approximately 60%–70% of patients within 5 years [4]. Despite advances in surgical techniques, locoregional therapies, and the introdu
+LIM: These issues stem from several inherent limitations. || These limitations make it difficult to extract reproducible or mechanistically interpretable microbial patterns relevant to HCC.To overcome these challenges, we developed a genome‐resolved, Guild‐based analytical framework that focuses on microbial genomes and || However, given the limited sample size in the CRLM, analyses involving this group should be interpreted with caution.Figure 3HCC‐TCG as a signature to classify patients with different hepatic tumors. || Future studies incorporating healthy and chronic liver disease cohorts will be valuable for dissecting mechanistic specificity; however, such comparisons are not required for evaluating structural transferability within a clinically relevant diagnostic context || This inconsistency reflects the limitations of taxon‐based approaches: reliance on database classification, loss of strain‐level functional diversity, and a failure to account for microbial interactions [11, 15].
+  Fig1 [5 panels] Overall variations in the gut microbial composition and the two competing guilds (TCG) associated with hepatocarcinogenesis. (A) Study flow chart and sample inc -> ['PCoA', 'network']
+  Fig2 [7 panels] Distinct functional genetic profiles between C1A and C1B. (A) PCoA plot based on the Euclidean distance among KOs (KEGG Orthologs) showed significant separation -> ['heatmap', 'PCoA']
+  Fig3 [8 panels] HCC‐TCG as a signature to classify patients with different hepatic tumors. (A) Overview of study design showing three datasets used for classification: two inte -> ['overview', 'forest', 'ROC', 'PCoA', 'box', 'study design']
+  Fig4 [6 panels] HCC‐TCG as a biomarker to predict recurrence risk in resectable HCC patients. (A) Study design on the capacity of HCC‐TCG to predict recurrence risk in surgical -> ['forest', 'study design']
+  Fig5 [19 panels] HCC associated clinical parameters enhance treatment prediction. (A, B) Bar plot showed the values of (A) gamma‐glutamyl transferase (GGT) and (B) Tumor number  -> ['forest']
+  Fig6 [6 panels] External validation of the HCC–TCG‐based response prediction model in two independent anti‐PD‐1‐treated HCC cohorts. (A) Predictive modeling workflow using HCC‐ -> ['workflow', 'ROC']
+STATS: {'p <': 13, 'PERMANOVA': 6, 'AUROC': 24, 'AUC': 1, 'permutation': 2, 'Benjamini': 1}
+========== imt2.70192 letter words 1847 methods 0 figs 2 panels [0, 6] refs 18
+abstracts: [('graphical', 105)]
+title: A decade‐scale audit of microbiome AI‐readiness
+  H: MOST HUMAN MICROBIOME STUDIES LACK REUSABLE PER‐SAMPLE METADATA | 
+  H: DATA REUSABILITY IS NECESSARY FOR FUTURE LARGE‐SCALE MICROBIOME ANALYSES | 
+  H: TOWARD ON‐DEMAND SCALABLE MICROBIOME FOUNDATIONAL MODELS FOR AI‐LED DISCOVERIES | 
+  H:  | 
+OPEN: To the Editor, Artificial intelligence (AI) is rapidly being adopted in biology. In the last 2 years, biological foundation models, including DNA language models such as Evo 2 [1], have moved from proof‐of‐concept to routine tools for prediction and design across proteins, genomes, and cells. Each successive generation has required an order‐of‐magnitude increase in training data [2]. This has been feasible largely because DNA sequence deposition is required by journal and funding agency mandates, ensuring access to a large amount of public genomic data for training purposes.Microbiome science could follow a similar trajectory, but while large‐scale analyses exist [3], leveraging the entirety
+LIM: These limitations contribute to persistent gaps in FAIR (Findable, Accessible, Interoperable, and Reusable) compliance [12]. || AI, artificial intelligence; BHAM, Biological Host‐Associated AI‐Ready Metadata; DDBJ, DNA Data Bank of Japan; ENA, European Nucleotide Archive; SRA, Sequence Read Archive.MOST HUMAN MICROBIOME STUDIES LACK REUSABLE PER‐SAMPLE METADATATo quantify the impact of
+  Fig1 [1 panels] Reusability tiers for human microbiome sequence data and metadata. The Biological Host‐Associated AI‐Ready Metadata (BHAM) framework classifies each study by wh -> []
+  Fig2 [6 panels] Human microbiome data reusability from 2012 to 2025. (A) Studies stacked by reusability tier (n = 2896); the inset shows the number of studies in which accessio -> ['Sankey', 'geograph']
+STATS: {'95% CI': 1, 'p <': 1, 'bootstrap': 1}
+========== imt2.268 research-article words 5151 methods 1259 figs 6 panels [0, 5, 5, 3, 5, 6] refs 74
+abstracts: [(None, 131), ('graphical', 128), ('highlights', 34)]
+title: Non‐differential gut microbes contribute to hypertension and its severity through co‐abundances: A multi‐regional prospective cohort study
+  H: INTRODUCTION | 
+  H: RESULTS | Inter‐microbial interactions as reflected by co‐abundances in hypertension; Hundreds of interactions among gut microbes vary in hypertension; Hypertension‐related microbial interactions remain unaffected by comorbidities and exhibit; Nearly half of the gut microbes display non‐significance in abundance but dominate hyperte; Microbial interactions vary across different grades of hypertension; The microbial interaction strength associated with hypertension severity; Microbial interactions may influence hypertension severity through jointly contributing to
+  H: DISCUSSION | 
+  H: CONCLUSION | 
+  H: METHODS | Study cohort; Microbiome data generation and processing; Co‐abundance network inference; Meta‐analysis of co‐abundance networks from different regions; Heterogeneity of microbial co‐abundances; Differential microbial abundances; Influence of comorbidities on hypertension‐related microbial co‐abundances; Replication of hypertension‐related microbial co‐abundances; Hypertension severity related microbial co‐abundances; Estimating the variance of hypertension severity‐related pathways with microbes involved i
+  H:  | 
+OPEN: INTRODUCTIONHypertension is one of the most prevalent chronic cardiovascular diseases, contributing significantly to mortality rates and inducing target‐organ damage such as stroke, heart failure, chronic kidney disease, and other associated conditions [1, 2, 3]. With over 1.2 billion adults affected worldwide, hypertension poses a considerable burden on public health [4, 5]. The pathogenesis of hypertension is multifaceted, involving a complex interplay of genetic and environmental factors. In recent years, mounting evidence has underscored the intricate relationship between gut microbiota and hypertension, demonstrating their capacity to influence blood pressure through diverse mechanistic
+LIM: These findings on hypertension‐related microbial interactions deepen our understanding of the role of the microbiome in hypertension and its severity.We acknowledge several limitations in the present study.
+  Fig1 [1 panels] Overview of the study design and analysis workflow. This study involves a total of 2355 hypertensive and 4644 non‐hypertensive participants from 14 regions of t -> ['workflow', 'overview', 'network', 'study design']
+  Fig2 [5 panels] Microbial co‐abundances in hypertension. (A) Interindividual variations of gut microbial composition based on the abundance of all microbial genus detected in t -> []
+  Fig3 [5 panels] Differential microbial co‐abundances in hypertension. (A) Overlap of significant microbial co‐abundances characterized in hypertensive and non‐hypertensive part -> []
+  Fig4 [3 panels] Non‐differential microbial genera involved in hypertension‐related co‐abundances. (A) Differential microbial genera at the abundance level. Red dots denote micr -> []
+  Fig5 [5 panels] Microbial co‐abundance strength associated with hypertension severity. (A) Number of participants across different hypertension grades. The bar chart displays t -> ['network', 'Sankey', 'box']
+  Fig6 [6 panels] Extra metabolic pathway variances contributed by interaction terms of genera from hypertension severity‐related co‐abundances and their association with hyperte -> ['heatmap', 'box']
+STATS: {'FDR': 26, 'p <': 14, 'P <': 2, 'Wilcoxon': 6, 'bootstrap': 1, 'Benjamini': 1}
+========== imt2.70088 letter words 2060 methods 0 figs 2 panels [3, 12] refs 19
+abstracts: [('graphical', 186)]
+title: Nationwide profiling of vaginal microbiota in Chinese women reveals age‐dependent shifts and predictive biomarkers for reproductive health
+  H:  | 
+  H: ASSOCIATIONS OF HOST FACTORS WITH THE VAGINAL MICROBIOME | 
+  H: SIGNIFICANT SHIFT IN THE VAGINAL MICROBIOTA OCCURS AROUND 40 YEARS OLD | 
+  H: A MICROBIOME BALANCE SCORE INDICATING VAGINAL HEALTH | 
+  H:  | 
+OPEN: To the Editor, The vaginal microbiome plays a critical role in women's reproductive health, with dysbiosis linked to adverse outcomes such as sexually transmitted infections (STIs) [1], spontaneous preterm birth [2], and even cervical lesions [3]. Even among healthy women, its composition exhibits substantial variability, influenced by factors including ethnicity, menstrual cycle, and lifestyle [4, 5]. Such variability may contribute to inconsistencies in reported determinants and clinical implications across different populations [6, 7]. However, most studies conducted in East Asian women, including those in China, have been limited in scale and rarely examined a broad spectrum of host fact
+LIM: Limitations include the lack of hormonal measurements, preventing full separation of age‐versus hormone‐related microbial changes, and the observational design, which precludes causal inference between host factors and microbiome alterations. || We apologize for not being able to cite additional work owing to space limitations.
+  Fig1 [3 panels] Associations between vaginal microbiome features and host factors. (A) Each panel displays associations of different levels of microbiome: beta diversity (by mu -> ['heatmap']
+  Fig2 [12 panels] Vaginal microbiome balance score indicates health outcomes. (A) The definition of vaginal microbiome balance score. (B) Violin plots for balance score among ind -> ['violin', 'box']
+STATS: {'FDR': 12, 'p <': 8, 'Wilcoxon': 2, 'PERMANOVA': 2, 'AUC': 3, 'permutation': 1}

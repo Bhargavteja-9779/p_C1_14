@@ -1,0 +1,90 @@
+[
+ {
+  "n": 25,
+  "model": "lasso",
+  "k_crit": 8,
+  "units": 489,
+  "units_over015": 218,
+  "mean_power_over015": 0.49828825340612126,
+  "units_over025": 127,
+  "mean_power_over025": 0.7710536509279455,
+  "max_false_alarm_le015": 0.02299697430647683
+ },
+ {
+  "n": 25,
+  "model": "rf",
+  "k_crit": 8,
+  "units": 489,
+  "units_over015": 137,
+  "mean_power_over015": 0.4397323756428718,
+  "units_over025": 79,
+  "mean_power_over025": 0.6906679070732276,
+  "max_false_alarm_le015": 0.023588112883204324
+ },
+ {
+  "n": 50,
+  "model": "lasso",
+  "k_crit": 13,
+  "units": 489,
+  "units_over015": 218,
+  "mean_power_over015": 0.6130305608593446,
+  "units_over025": 127,
+  "mean_power_over025": 0.9077771858874509,
+  "max_false_alarm_le015": 0.026235752475642322
+ },
+ {
+  "n": 50,
+  "model": "rf",
+  "k_crit": 13,
+  "units": 489,
+  "units_over015": 137,
+  "mean_power_over015": 0.5680607501783322,
+  "units_over025": 79,
+  "mean_power_over025": 0.8644401802823528,
+  "max_false_alarm_le015": 0.02714108169737929
+ },
+ {
+  "n": 100,
+  "model": "lasso",
+  "k_crit": 22,
+  "units": 489,
+  "units_over015": 218,
+  "mean_power_over015": 0.7180663523904494,
+  "units_over025": 127,
+  "mean_power_over025": 0.982125237918556,
+  "max_false_alarm_le015": 0.03281963604767944
+ },
+ {
+  "n": 100,
+  "model": "rf",
+  "k_crit": 22,
+  "units": 489,
+  "units_over015": 137,
+  "mean_power_over015": 0.6827508668934327,
+  "units_over025": 79,
+  "mean_power_over025": 0.9719812412927905,
+  "max_false_alarm_le015": 0.034328212791274376
+ },
+ {
+  "n": 200,
+  "model": "lasso",
+  "k_crit": 39,
+  "units": 489,
+  "units_over015": 218,
+  "mean_power_over015": 0.7985136387599338,
+  "units_over025": 127,
+  "mean_power_over025": 0.9990262775055635,
+  "max_false_alarm_le015": 0.039177954421386586
+ },
+ {
+  "n": 200,
+  "model": "rf",
+  "k_crit": 39,
+  "units": 489,
+  "units_over015": 137,
+  "mean_power_over015": 0.767784689068816,
+  "units_over025": 79,
+  "mean_power_over025": 0.9985561109595371,
+  "max_false_alarm_le015": 0.04161474177362432
+ }
+]

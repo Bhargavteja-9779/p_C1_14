@@ -1,19 +1,19 @@
-"""Headline numbers for manuscript v11 -> results/numbers_v11.json (all derived from v5 result files)."""
+"""Derived numbers quoted in manuscript_v11 that are not already in a result file. Writes results/numbers_v11.json."""
 import os, json, numpy as np, pandas as pd
-from common_v5 import OUT5
-R = lambda f: os.path.join(OUT5, f)
-per = pd.read_csv(R("v5_perpop_strict.csv")); het = pd.read_csv(R("v5_het_strict.csv")); T = pd.read_csv(R("tests_v5.csv"))
-o = {}
-o["pairs"] = len(per); o["pairs_lasso"] = int((per.model == "lasso").sum())
-o["share_out_of_band"] = float(((per.fpr < .05) | (per.fpr > .15)).mean()); o["share_above_020"] = float((per.fpr > .20).mean()); o["share_below_005"] = float((per.fpr < .05).mean())
-o["share_above_030"] = float((per.fpr > .30).mean())
-big = per[per.n >= 100]; o["pairs_n100"] = len(big); o["share_out_of_band_n100"] = float(((big.fpr < .05) | (big.fpr > .15)).mean())
-o["I2_min"], o["I2_max"], o["I2_median"] = float(het.I2.min()), float(het.I2.max()), float(het.I2.median())
-o["pi_hi_max"], o["pi_hi_min"] = float(het.pi_hi.max()), float(het.pi_hi.min())
-o["pi_width_median"] = float((het.pi_hi - het.pi_lo).median())
-o["auroc_min"], o["auroc_max"] = float(T.auroc.min()), float(T.auroc.max()); o["tests_auroc_ge_070"] = int((T.auroc >= .70).sum())
-o["cases_total"] = int(T.drop_duplicates("test").n_cases.sum())
-for t in ["CRC", "IBD", "cirrhosis", "ACVD"]:
-    for m in ["lasso"]:
-        h = het[(het.test == t) & (het.model == m)].iloc[0]; o[f"{t}_{m}"] = dict(pooled=float(h.pooled), pi_lo=float(h.pi_lo), pi_hi=float(h.pi_hi), auroc=float(h.auroc))
-json.dump(o, open(R("numbers_v11.json"), "w"), indent=1); print(json.dumps(o, indent=1))
+from scipy import stats
+R = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results"); o = {}
+p = pd.read_csv(os.path.join(R, "v5_perpop_strict.csv"))
+def po(n): k = np.arange(n + 1); f = k / n; return stats.binom.pmf(k, n, .1)[(f < .05) | (f > .15)].sum()
+p["exp"] = p.n.map(po); g = p.groupby(["test", "model"]).agg(exp=("exp", "mean"), obs=("fpr", lambda x: ((x < .05) | (x > .15)).mean()))
+o["outside_band_expected_by_chance"] = [float(g.exp.min()), float(g.exp.max())]; o["outside_band_observed_median"] = float(g.obs.median()); o["outside_band_observed_range"] = [float(g.obs.min()), float(g.obs.max())]
+L = p[p.model == "lasso"]; o["lasso_units"] = len(L); o["lasso_share_gt015"] = float((L.fpr > .15).mean()); o["lasso_share_gt025"] = float((L.fpr > .25).mean()); o["lasso_share_lt005"] = float((L.fpr < .05).mean())
+B = L[L.n >= 100]; o["lasso_n100_fpr_range"] = [float(B.fpr.min()), float(B.fpr.max())]
+s = json.load(open(os.path.join(R, "v5_summary.json")))
+for m in ["lasso", "rf"]:
+    h = s[f"H2_strict_{m}"]; o[f"H2_{m}_resid_share"] = h["var_resid"] / (h["var_test"] + h["var_pop"] + h["var_resid"])
+u = pd.read_csv(os.path.join(R, "v5_h4_units.csv")); pt = u.groupby(["test", "model"])[["src", "burn"]].mean()
+o["H4_exact_wilcoxon_p"] = float(stats.wilcoxon(pt.burn - pt.src, method="exact").pvalue); o["H4_reduction"] = float(1 - pt.burn.mean() / pt.src.mean())
+o["H4_units"] = len(u); o["H4_populations"] = int(u["pop"].nunique()); o["H4_unit_share_better"] = float((u.burn < u.src).mean())
+T = pd.read_csv(os.path.join(R, "tests_v5.csv")); o["auroc_range_lasso"] = [float(T[T.model == "lasso"].auroc.min()), float(T[T.model == "lasso"].auroc.max())]
+o["auroc_range_all"] = [float(T.auroc.min()), float(T.auroc.max())]; o["single_cohort_tests"] = int((T[T.model == "lasso"].cohorts == 1).sum())
+json.dump(o, open(os.path.join(R, "numbers_v11.json"), "w"), indent=1); print(json.dumps(o, indent=1))

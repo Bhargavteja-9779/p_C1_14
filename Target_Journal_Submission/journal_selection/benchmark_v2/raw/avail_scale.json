@@ -1,0 +1,515 @@
+{
+ "imt2.169": {
+  "data_availability": "Data Availability StatementThe raw sequencing reads for the metagenomic samples used in this study were downloaded from previously published projects, including: B\u00e4ckhed et al. (2015) (BioProject #PRJEB6456), Raveh\u2010Sadka et al. (2015) (BioProject #PRJNA273761), Raveh\u2010Sadka et al. (2016) (BioProject #PRJNA294605), Gibson et al. (2016) (BioProject #PRJNA301903), Ward et al. (2016) (BioProject #PRJNA63661), Vatanen et al. (2016) (BioProject #PRJNA290380), Yassour et al. (2016) (BioProject #PRJNA290381), Asnicar et al. (2017) (BioProject #PRJNA339914), Brooks et al. (2017) (BioProject #PRJNA376580 and PRJNA376566), Chu et al. (2017) (BioProject #PRJNA322188), Olm et al. (2017) (BioProject #PRJNA327106), P\u00e4rn\u00e4nen et al. (2018) (BioProject #PRJNA384716), Ferretti et al. (2018) (BioProject #PRJNA352475), Baumann\u2010Dudenhoeffer et al. (2018) (BioProject #PRJNA473126), Casaburi et al. (2019) (BioProject #PRJNA390646), Gasparrini et al. (2019) (BioProject #PRJNA489090), and Yassour et al. (2019) (BioProject #PRJNA475246). The python custom scripts used in the upstream metagenomics analysis workflow, including the normalization of resistome, and bacterial origin of resistance, were freely available at https://github.com/cookiemonsterxxm/infantresistome. Supporting Information (figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "This led us to 17 studies with data available for this work.",
+   "These 17 studies had data on 4132 metagenomes from 963 infants and 19 cohorts available across multiple data depositories (i.e., the Sequence Read Archive, the European Nucleotide Archive, and local servers; Table S1)."
+  ],
+  "limitation_sents": [
+   "This was likely a result of the microbial community changing with increased exposure to the environment and a more complex diet as the infants aged, consistent with a recent study that found an elevated rate of gene transfer in the industrialized human microbiome [44].Although informative, combining metagenome data from different studies without experimental validation consistent across cohorts was a major limitation of this work.",
+   "Future studies employing greater consistency and validation across cohorts are needed to decipher further the relationship between dietary transitions and the infant gut resistome.",
+   "Despite the limitations of this work, this study still provides insight into the changes that occur in the gut resistome as infants age and suggests a role for diet in shaping the infant resistome.CONCLUSIONSIn conclusion, this study provided valuable insights into the natural assembly of the healthy infant gut resistome and the factors that influence the resistome."
+  ]
+ },
+ "imt2.174": {
+  "data_availability": "Data Availability StatementAll the genomes used in this study are available in public repositories, and the accession numbers or references are provided in Table S1. For all public metagenomic data used in this study, the web links or references are provided in the Materials and Methods Section. The data and scripts used are saved in GitHub https://github.com/Linxiaoqianv/Lachnospiraceae_iMeta. Supplementary materials (figures, tables, graphical abstract, and source data) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Strains were isolated from multiple sources, including humans, animals, and the environment from a total of 32 countries across six continents (Africa, Asia, Europe, North America, Oceania, and South America), which highlights the prevalence of Lachnospiraceae in different regions and countries (Figure 1B and Table S1).",
+   "We carried out extensive mining of secondary metabolite biosynthetic gene clusters (SMBG) using antiSMASH (V6.0.0) and explored 6688 regions (7373 SMBGs) from 1856 genomes, with a total of 32 types (Table S4).",
+   "We searched for these gene names in the prokka annotation results to obtain the distribution of the characteristic genes in each genome.Identification of disease\u2010associated markers of LachnospiraceaeThe clean data of 385 metagenomes (171 from healthy control individuals and 214 from individuals with ACVD) were downloaded from the European Bioinformatics Institute (EBI) database with the accession number ERP023788 of one study of human gut microbiome association with ACVD [7]."
+  ],
+  "limitation_sents": [
+   "To circumvent this limitation, we used cultured genome collection to identify potential associations between health and disease.By exploiting our genome collection for analysis of strains associated with ACVD in a Chinese cohort [7], we unveiled remarkable disparities in the abundance of bacterial strains.",
+   "Our future studies can indeed build upon the findings and focus on isolating specific strains within the Lachnospiraceae family to characterize their secondary metabolites more comprehensively."
+  ]
+ },
+ "imt2.175": {
+  "data_availability": "Data Availability StatementData sharing does not applicable to this article as no data sets were generated or analyzed during the current study. All demonstration data for visualization purposes are available on the Wekemo Bioincloud website (https://www.bioincloud.tech/). Supplementary materials (tables, scripts, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.183": {
+  "data_availability": "Data Availability StatementThe data are available from the author on request.All relevant data supporting the key findings of this study are available within the article and its supplementary information files. Other data are available from the corresponding author upon reasonable request. Due to ethical and legal restrictions, individual\u2010level data from the Rotterdam Study (RS) cannot be made publicly available. Data are available upon request to the data manager of the Rotterdam Study Frank van Rooij (f.vanrooij@erasmusmc.nl) and subject to local rules and regulations. This includes submitting a proposal to the management team of RS, where upon approval, analysis needs to be done on a local server with protected access, complying with GDPR regulations.The use of Lifelines data and materials must comply with the informed consent signed by Lifelines participants specifying that their collected data will not be used for commercial purposes. The raw 16S amplicon sequencing, metabolomics, and basic phenotype data (age, sex, and BMI) are deposited in the EGA database with the study ID EGAS00001001704 (https://ega-archive.org/studies/EGAS00001001704), which includes Data set ID EGAD00001003453 for raw sequencing data and data set for metabolomics data. There is a minimal access procedure for the access of the EGA data set that includes a contact address and an online data access form https://goo.gl/forms/TWHlrmbXaXNqWnnl2, which is very simple and is only intended to ensure that t",
+  "scale_sents": [
+   "In contrast to much of the existing research conducted within clinical cohorts, our approach involves the utilization of population data derived from 7834 participants enrolled in five prospective Dutch cohorts.",
+   "Our study population included 7834 participants from five Dutch prospective cohort studies including the Rotterdam Study I\u20104, Rotterdam Study III\u20102, Leiden Longevity Study (LLS), LifeLines\u2010DEEP (LLD), and 300\u2010Obese cohort (300\u2010OB).",
+   "In total, 571 incident CVD events and 1440 mortality events were observed among up to 5011 participants with available covariates from Rotterdam Study I\u20104, Rotterdam Study III\u20102, and LLS (Supporting Information S2: Tables S2 and S3).",
+   "However, we failed to find any significant association (Supporting Information S2: Table S19).Diet is associated with plasma levels of TMAO and its precursorsUsing 4685 samples with food frequency questionnaires (FFQs) belonging to all but 300\u2010OB studies, we ran correlations between metabolites and dietary data categorized into 13 major food groups while adjusting for age, sex, and BMI (Supporting Information S1: Figure S8, Supporting Information S2: Table S20).",
+   "Overall, our findings are in line with previous work [14, 26, 38].DISCUSSIONWe have performed an in\u2010depth study to identify the potential relationship between plasma levels of TMAO and its precursors (betaine, carnitine, deoxycarnitine, and choline) and various factors including clinical outcomes, host genetics, gut microbiota composition, and diet in up to 7834 participants from five prospective cohort studies mainly based on the general Dutch population.We observed a significant association between plasma choline concentrations and higher CVD risk.",
+   "Diet and microbes offer an ethical and effective intervention target that shall be further investigated in follow\u2010up interventional studies.METHODSStudy populationOur study population included 7834 participants from five cohort studies.",
+   "We trained a model for each metabolite (or metabolite ratio) using two different training sets, a training set consisting of the LLD cohort (784 samples) and a training set consisting of the Rotterdam Study III\u20102 cohort (772 samples).",
+   "We used the GWAS summary statistics for metabolites produced in this work, while for microbial taxa we obtained summary statistics from a large 16S meta\u2010analysis comprising 18,340 individuals from 24 cohorts including both Rotterdam Study III\u20102 and LLD[88]."
+  ],
+  "limitation_sents": [
+   "Future studies should focus on improving the strength of the instrumental variables for plasma levels of choline.In contrast to circulating choline, we did not find an association between plasma TMAO levels and CVD risk or mortality in our population\u2010based cohorts.",
+   "To discover genetic determinants of TMAO, future studies should further increase sample size and focus on complex genetic effects.",
+   "However, our study also has limitations.",
+   "To complement our findings and advance our understanding, future studies should focus on assessing longitudinal changes."
+  ]
+ },
+ "imt2.185": {
+  "data_availability": "Data Availability StatementAll the sequencing data have been deposited in the Genome Sequence Archive (GSA, https://ngdc.cncb.ac.cn/gsa) with accession number: HRA002649 and in the Sequence Read Archive (accession code PRJNA908820 and PRJNA908815). The data and scripts used are available on GitHub (https://github.com/Xuebai2819/Human_Vaginal_microbiome_code). Supplementary materials (figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Thus, we retained these vaginal samples with similarity scores greater than 0.3 (1391 samples) for further analysis (Table S5).",
+   "The five community types here designated as I, II, III, IV, and V, contain 467, 11, 653, 240, and 20 samples, respectively.",
+   "(A) Principal coordinates analysis (PCoA) of the 1391 samples based on unweighted UniFrac distances at the genus level according to community types of the vaginal microbiota.",
+   "(E) Four biochemical and seven clinical observations for each of the 1391 samples.",
+   "(F) Shannon diversity indices were calculated for 1391 vaginal samples.Differences in the vaginal microbiomes of women suffering various types of infertilityFor all 1411 samples, we recorded whether the patients were diagnosed with any symptoms (PCOS, premature ovarian insufficiency, chronic salpingitis, endometritis, pelvic inflammatory disease [PID], endometriosis, intrauterine adhesion, scarred uterus, ovulation failure, hydrosalpinx, fallopian tube obstruction, or salpingectomy).",
+   "The 180 samples from patients without any female infertility symptoms and with a sex partner diagnosed with azoospermia, oligozoospermia, asthenospermia, or sperm deformity were considered the \u201cmale factor\u201d group (control group).",
+   "Moreover, a meta\u2010analysis of 12 studies in an IVF setting concluded that bacterial vaginosis (BV) did not significantly impact the live birth rate [48].",
+   "Principal coordinates analysis (PCoA) of relative abundance profiles for all 1411 samples at the genus level was conducted.",
+   "LEfSe (Linear discriminant analysis Effect Size) identifies different features (such as ASVs, genus, or genes) most likely to explain differences between classes by combining standard tests for statistical significance with additional tests encoding biological consistency and effect relevance.Identification of microbiome composition related to clinical and biochemical factorsAge, height, body weight, body mass index, and seven hormone levels of the 1411 individuals were then compared with the microbiome composition.",
+   "Table S5: Metagenome data summary of 71 samples.",
+   "\u201cGlobal, Regional, and National Prevalence and Disability\u2010Adjusted Life\u2010Years for Infertility in 195 Countries and Territories, 1990\u20132017: Results From a Global Burden of Disease Study, 2017.\u201d Aging 11: 10952\u201310991.",
+   "Table S5: Metagenome data summary of 71 samples."
+  ],
+  "limitation_sents": []
+ },
+ "imt2.195": {
+  "data_availability": "DATA AVAILABILITY STATEMENTAll data sources analyzed in this study are included in the Supporting Information (Table S1). GutUDB is freely available at https://intestine.splicedb.net. The code involved in this research and the data tables corresponding to the figures in the article have been uploaded to GitHub https://github.com/Ansanqi/GutUDB. Supporting Information (methods, figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.199": {
+  "data_availability": "DATA AVAILABILITY STATEMENTNo new data was generated in this study. Supplementary materials (graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science (http://www.imeta.science/).",
+  "scale_sents": [
+   "For instance, a 2022 cohort study published in Nature involving 8208 participants found that various environmental factors, both during early life and present times, significantly affect gut microbial composition and function."
+  ],
+  "limitation_sents": [
+   "However, current research faces limitations due to the complex interplay between gut microbiota and drugs in vivo."
+  ]
+ },
+ "imt2.212": {
+  "data_availability": "Data Availability StatementMetagenome sequencing data can be freely accessed in NCBI Sequence Read Archive (SRA) under the study accession number PRJDB11203 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJDB11203), PRJNA230363 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA230363), PRJNA396840 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA396840), PRJNA678453 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA678453), PRJNA717815 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA717815), PRJNA932553 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA932553), PRJDB6966 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJDB6966), PRJNA552294 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA552294). The data and scripts used are saved in GitHub (https://github.com/whchenlab/Oral-Microbiome-Based-Signature-for-Periodontitis). Supplementary materials (methods, figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Consequently, these models hold promise for facilitating early risk assessment and intervention strategies.To estimate the minimal sample size for our classifiers, we did a sample\u2010cumulation modeling (SCM) [19] and found that only 40 samples (i.e., 20 cases and 20 controls; Figure S4A) were needed to obtain external validation AUCs of 0.81, far below the total number of samples in our six case\u2010control cohorts (117 patients and 106 controls; Tables S1 and S2), suggesting adequate sample size for robust model training in this study."
+  ],
+  "limitation_sents": []
+ },
+ "imt2.218": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions. No new data and scripts were generated in this study. Supporting Information: (methods, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "In addition, the multicenter observational study may serve as a surveillance tool for emerging respiratory infectious diseases, laying a solid foundation for subsequent validation studies and clinical interventions for severe pneumonia.STUDY DESIGNMASS is designed as a prospective, multicenter cohort comprising 26 ICUs across 19 medical centers, spanning 10 cities of three provinces, with a total of more than 800 ICU beds (Figure 1A and Table S1).",
+   "(A) Geographical distributions of the 19 medical centers across 10 cities (red) in three provinces of China."
+  ],
+  "limitation_sents": [
+   "The BALF specimens were sent to the National Institute of Pathogen Biology, CAMS & PUMC for aliquoting, using phosphate\u2010buffered saline as a negative control during this process.DISCUSSIONThis study aims to utilize a multicenter, large\u2010cohort, longitudinal approach to robustly characterize the severe pneumonia microbiome across Chinese ICU settings, integrating deep sequencing and advanced analytics to explore the lung microbiome's diversity and its role in respiratory diseases.The study's limitations include the potential lack of generalizability beyond Chinese ICU patients.",
+   "Future studies should include diverse demographics [12], control groups, and experimental validation."
+  ]
+ },
+ "imt2.236": {
+  "data_availability": "Data Availability StatementAll the impact and citations of USEARCH are statistics of Google Scholar by August 1, 2024. The open\u2010source USEARCH 12 is available on GitHub https://github.com/rcedgar/usearch12. The Chinese manual, amplicon pipeline and backup download links are available in GitHub https://github.com/YongxinLiu/UsearchChineseManual. Supporting Informations (graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Generally, the memory limitation of all the 32\u2010bit USEARCH is 4 GB, which should be extremely fit for running amplicon data under circumstances of dozens of samples.",
+   "However, the mature USEARCH v11 may increase the limitation of data size."
+  ]
+ },
+ "imt2.242": {
+  "data_availability": "Data Availability StatementThe datasets generated and analyzed in this study are available as the following: The descriptive information and data of 601 isolates of RAGMB, representing 280 different species from seven phyla, were available at the RAGMB homepage (https://www.nmdc.cn/ragmb/). The 16S rRNA gene sequences of the 601 were deposited in China National Microbiology Data Center (NMDC) with accession numbers NMDCN0001EL0 \u2010 NMDCN0001F7O. 43 novel species assembled genomes in this study were available at NMDC under Project NMDC10018517 (https://nmdc.cn/resource/genomics/project/detail/NMDC10018517). Fecal metagenomics data of 20 RA patients in this study were available at NMDC under Project NMDC10018632 (https://nmdc.cn/resource/genomics/project/detail/NMDC10018632). The data and scripts used are saved in GitHub: https://github.com/hhj00123/2024_RAGMB. Supplementary materials (methods, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Nevertheless, the defined RA\u2010core microbial species might be expanded in the future studies."
+  ]
+ },
+ "imt2.246": {
+  "data_availability": "DATA AVAILABILITY STATEMENTAll data should have been uploaded to GSA (https://ngdc.cncb.ac.cn/gsa/). All the sequencing data have been deposited in GSA under accession number CRA013297 (metagenome sequencing), BioProject accession number PRJCA020992 (https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA020992). The data and scripts used are saved in GitHub (https://github.com/yanni617/MetOrigin_V2). Supplementary materials (figures, tables, scripts, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Each tool has its distinct strengths and limitations in terms of scalability and underlying principles."
+  ]
+ },
+ "imt2.268": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are openly available in the European Nucleotide Archive at https://www.ebi.ac.uk/ena/, reference number PRJEB18535. The gut microbiome sequencing data of the Guangdong Gut Microbiome Project is deposited at the European Nucleotide Archive (https://www.ebi.ac.uk/ena/) with accession number PRJEB18535. The metadata of the GGMP cohort is available in the supplementary information of the original publication [32]. Analysis codes are available via: https://github.com/MicrobiomeCardioMetaLab/HypertensionNetwork_project. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "It is noteworthy that, as of present, the systematic exploration of ecological interactions among microbes in prospective populations with regard to hypertension, as well as their associations with hypertension severity, remains lacking.In this study, we utilized data from our Guangdong Gut Microbiome Project (GGMP) [32], a large\u2010scale population\u2010based cohort encompassing 14 regions in south of China.",
+   "This study involves a total of 2355 hypertensive and 4644 non\u2010hypertensive participants from 14 regions of the Guangdong Gut Microbiome Project (GGMP).",
+   "We then employed the CCLasso method [34] to infer the co\u2010abundance network separately for 14 regions (Figure 2B), which has been validated for inferring correlations among latent variables from raw compositional data through Lasso regularization, effectively mitigating overfitting due to collinearity or high dimensionality of variables [34, 35].",
+   "Subsequently, a random\u2010effect meta\u2010analysis of microbial co\u2010abundance networks from 14 regions was conducted based on the effect size of co\u2010abundance (see Methods).Figure 2Microbial co\u2010abundances in hypertension.",
+   "Each dot represents a participant, with colors indicating participants from the 14 regions, as denoted by their respective postcodes.",
+   "(B) Summary of hypertensive and non\u2010hypertensive participants from 14 regions.",
+   "The Y\u2010axis represents the number of participants, while the X\u2010axis corresponds to the postcodes of the 14 regions in the GGMP cohort.",
+   "Utilizing a large\u2010scale, population\u2010based prospective cohort from 14 regions, we constructed an inter\u2010microbial interaction network in hypertension via co\u2010abundance analysis.",
+   "We believe that our study will offer new insights into the etiology of hypertension, as well as the design of microbiome\u2010based hypertension therapies.METHODSStudy cohortThe Guangdong Gut Microbiome Project (GGMP) is a large population\u2010based cross\u2010sectional study conducted between 2015 and 2016 from 14 regions within Guangdong Province, China.",
+   "In total, we constructed 28 interaction networks, representing distinct microbial co\u2010abundance patterns for hypertensive and non\u2010hypertensive cohorts across the studied regions.Meta\u2010analysis of co\u2010abundance networks from different regionsTo combine microbial co\u2010abundance networks from 14 regions, we applied the metacor() function from the R package meta (v.6.5.0) [72]."
+  ],
+  "limitation_sents": [
+   "These findings on hypertension\u2010related microbial interactions deepen our understanding of the role of the microbiome in hypertension and its severity.We acknowledge several limitations in the present study."
+  ]
+ },
+ "imt2.70000": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe raw sequence data reported in this paper have been deposited to the China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (GSA\u2010Human: HRA004238) that are publicly accessible at https://bigd.big.ac.cn/gsa-human/browse/HRA004238. The metabolome data reported in this paper have been deposited in the OMIX (accession no. OMIX003481), China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (https://download.cncb.ac.cn/OMIX/OMIX003481/). The data and scripts used are saved in GitHub (https://github.com/rhyer0418/CGS-project). Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Furthermore, the potential intervention effects of specific bacteria strains, SCFAs, and FOS in gallstones\u2010model mice were explored.RESULTSInformation of the included participantsA total of 66 subjects with a clinical diagnosis of CGS (average age 56.29 \u00b1 14.18; male: female ratio of 30:36) and 53 HCs (median age 39 [25th\u201375th percentile range: 29\u221259]; male: female ratio of 22:31) were recruited from April of 2020 to June of 2021.",
+   "A total of 191 samples of three types were collected, including 119 fecal samples, 47 bile samples, and 25 stone samples, after rigorous inclusion and exclusion criteria.",
+   "Our results divided 191 samples into three distinct clusters (A\u2013C) at the genus level, characterized by gut microbiota, the crossover between gut and biliary tract microbiota, and the biliary tract microbiota (Figure 1F).16S rRNA sequencing identified notable differences between CGS group and HCs groupTo further investigate the differences in bacterial communities between the CGS group and HCs, 16S rRNA sequencing was applied to fecal samples from 30 CGS patients and 30 age\u2010 and sex\u2010matched HCs.",
+   "A total of 72 samples (47 bile samples and 25 stone samples) were obtained from these 66 patients during cholecystectomy."
+  ],
+  "limitation_sents": [
+   "However, similar studies still face limitations such as small sample sizes and insufficient control for confounding factors such as age and sex.",
+   "Moreover, due to the high cost of metagenomic sequencing, most research to date has relied on 16S rRNA sequencing, which has limitations in resolving species\u2010level distinctions and exploring gene functions.",
+   "Although our research findings did not delve into the mechanisms, the current results serve as a springboard for further investigations, aiming to stimulate more research on microbial\u2010targeted interventions involving probiotics and prebiotics and identify effective preventive and noninvasive treatment modalities for patients with gallstones.This study has some limitations."
+  ]
+ },
+ "imt2.70001": {
+  "data_availability": "DATA AVAILABILITY STATEMENTEasyMetagenome is freely available, implemented in Shell and R, and is easy to install. Step\u2010by\u2010step protocols are provided on GitHub https://github.com/YongxinLiu/EasyMetagenome. All figure data and supplementary tables can be accessed via GitHub https://github.com/YongxinLiu/EasyMetagenome/tree/master/appendix. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Although the development of third\u2010generation long\u2010read sequencing has helped address some limitations of short\u2010read sequencing, its higher error rate and lower throughput mean that most studies still rely on hybrid approaches (combining long\u2010read and short\u2010read data) for error correction [13, 14, 15, 16]."
+  ]
+ },
+ "imt2.70002": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe data that supports the findings of this study are available in the supplementary material of this article. MicrobiomeStatPlots is freely available, implemented in Shell and R, and is easy to download and use. This project is provided on GitHub https://github.com/YongxinLiu/MicrobiomeStatPlot. All figure data can be accessed via GitHub or in the supplementary tables. All the R packages currently in use can be accessed via https://pan.baidu.com/s/1wKSPuOZueJ0H_EsNsnjBYg?pwd=ze7q. Supplementary materials (tables, graphical abstract, slides, videos, Chinese translated version and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "These tools have limitations in covering a wide range of omics technologies and adapting to rapid iterations in the field.",
+   "These limitations prevent researchers from efficiently analyzing, visualizing, and interpreting their data.To address these challenges, we present MicrobiomeStatPlots, a comprehensive resource platform for microbiome data analysis and visualization.",
+   "However, these platforms still have limitations, such as restricted functionalities for paying to access for some features in some platforms, limited interpretative support, and the lack of customizable, reproducible code.",
+   "It offers significant advantages in these areas, making it a valuable complement to existing tools.Although this study provides numerous examples of microbiome visualization and interpretation, several limitations remain.",
+   "One limitation is the absence of user\u2010friendly graphical interfaces or interactive tools for adjusting visualizations."
+  ]
+ },
+ "imt2.70004": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe data that support the findings of this study are available from the corresponding author upon reasonable request. We provided a Code Ocean capsule including executable programming scripts, input and output data at https://doi.org/10.24433/CO.1754986.v1. Code Ocean is a cloud\u2010based platform designed to enable reproducible research and collaboration. It allows users to create, share, and run computational environments, providing a containerized space where code can be executed alongside its dependencies, data, and results. Certainly, we have also released the code and data on GitHub at https://github.com/zhangxiner2/Cumulative-Profiling-of-Microbiota-Disturbance. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "For example, some databases (Human Microbe\u2010Disease Association Database (HMDAD) [28], Disbiome database [29], MicroPhenoDB [30]) on microbe\u2010disease interactions have limitations, such as including non\u2010healthy controls, inconsistent identification systems, and insufficient utilization of multi\u2010dimensional microbial disturbances data.",
+   "Translating these findings into practice necessitates a personalized approach considering each patient's condition.Additionally, our data rely on published research, which may have limitations such as publication bias and incomplete results.",
+   "While we recognize that this is a limitation, we hope that our study can serve as a foundation for future research."
+  ]
+ },
+ "imt2.70008": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe human stool sequencing data has been deposited in the Genome Sequence Archive (GSA) at https://ngdc.cncb.ac.cn/gsa/, with accession number CRA022416 (https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022416). The environmental sequencing data has been deposited in the GSA, with accession number CRA022431 (https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA022431). The data and scripts used are saved in GitHub https://github.com/WilsonYangLiu/Environmental-ARGs-in-CRC-resistome.git. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Moreover, we discovered that the transmission efficiency of ARGs from the environment to human gut was increased in CRC, and the abundance of pathobionts carrying mobile ARGs was significantly enriched in CRC patients compared to healthy subjects.RESULTSCRC patients have a higher ARG burden compared to healthy subjectsA total of 1,605 individuals (748 CRC patients and 857 healthy subjects) and 1,035 environmental samples with shotgun metagenomic sequencing data were analyzed (Figure 1 and Tables S1\u20133).",
+   "Altogether, our work provides new insights into the association of environmental resistome with CRC patients.METHODSHuman stool samplesA total of 1,605 individuals comprising 748 CRC patients and 857 healthy subjects from our in\u2010house cohort (n = 220) and published fecal metagenomic datasets from 9 different countries/cities (n = 1,382) were included in this study (Figure 1 and Tables S1, 2).",
+   "Sludge samples were collected from the hybrid moving bed biofilm reactor (HMBBR; a type of wastewater treatment process) in Hong Kong in 2021.Additionally, to improve the representativeness of the environmental data, we collected more public available environmental samples including air (n = 81), soil (n = 198), water (n = 64), wastewater treatment plants (WWTP, n = 303), landfill (n = 26), and sediment (n = 261) from 65 countries/regions worldwide (Table S3 and Figure S1G).Shotgun metagenomic sequencingTotal DNA was extracted from fecal samples and sludge samples by QIAamp DNA Stool Mini Kit (Qiagen) and DNeasy PowerSoil Kit (Qiagen) according to the manufacturer's instructions, respectively."
+  ],
+  "limitation_sents": [
+   "Collectively, we identified ARG\u2010carrying pathobionts that might underline the increased transmission efficiency of ARGs from the environment into the gut of CRC patients.This study has several limitations."
+  ]
+ },
+ "imt2.70011": {
+  "data_availability": "DATA AVAILABILITY STATEMENTPublic data used in this study are available in TCGA and GEO. Other datasets were obtained from published literature, as described in the Methods section. The analytic processes, code and data of this study are embedded in the R package 'iMLGAM' and are available at https://github.com/Yelab1994/iMLGAM. Public data used in this study are available in TCGA and GEO. Other datasets were obtained from published literature, as described in the Methods section. The analytic processes, code and data of this study are embedded in the R package \u201ciMLGAM\u201d and are available at https://github.com/Yelab1994/iMLGAM. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "(E) iMLGAM score distribution between response and nonresponse groups.Identification of therapeutic targetsWe performed a comprehensive analysis of immune response data from seven clustered regularly interspaced short palindromic repeats (CRISPR) cohorts, encompassing 22,505 genes, which were stratified into 17 datasets based on cell types and treatment conditions.",
+   "In this investigation, which examined 1242 subjects with various malignancies, the iMLGAM score was developed and validated as a novel five gene\u2010pairs model for prognostic evaluation in patients receiving ICB therapy.",
+   "The Hugo cohort comprised 27 pretreatment tumor specimens from 26 individuals, while the Zhao cohort [33] included 34 pretreatment samples from 17 patients; to maintain data independence, we randomly selected one tumor sample per patient from these datasets.",
+   "These studies were organized into 17 datasets based on cell lines and treatment conditions, encompassing melanoma, breast, colon, and renal cancer."
+  ],
+  "limitation_sents": [
+   "Traditional analytical techniques, including immunohistochemistry (IHC) and flow cytometry, which were routinely employed for TIME examination, exhibited limitations in the concurrent evaluation of multiple cellular markers.",
+   "To overcome these limitations, we developed integrated Machine Learning and Genetic Algorithm\u2010driven Multiomics analysis (iMLGAM), an R package and its novel scoring system for predicting outcomes in cancer patients undergoing ICB therapy.",
+   "By addressing tumor cell proliferation and immune evasion mechanisms, CEP55\u2010targeted strategies could potentially overcome existing limitations in immunotherapy and improve patient outcomes.Figure 4Clustered regularly interspaced short palindromic repeats (CRISPR) screening and functional analysis of centrosomal protein 55 (CEP55) based on iMLGAM score.",
+   "These limitations emphasized the critical requirement for alternative response signatures.",
+   "To address these limitations, the IRGPs methodology was implemented, effectively eliminating batch variations.",
+   "This finding stems from the complex interaction network of immune cells, highlighting the limitations of traditional single\u2010gene analysis methods.",
+   "These findings expanded previous observations by demonstrating that CEP55 suppression not only inhibited oncogenic potential but also enhanced immunotherapeutic responses, establishing CEP55 as a promising interventional target in cancer treatment.Our study acknowledges several limitations."
+  ]
+ },
+ "imt2.70014": {
+  "data_availability": "DATA AVAILABILITY STATEMENTProstate cancer RNA\u2010Seq data of TCGA were downloaded at https://portal.gdc.cancer.gov/, while the data for CPGEA are controlled available at the Genome Sequence Archive for Human at http://bigd.big.ac.cn/gsa-human/under the accession number PRJCA001124 (https://ngdc.cncb.ac.cn/gsa-human/browse/HRA000099). Due to ethical and legal restrictions, raw RNA\u2010seq data from the CPGEA are only available upon request to the data manager of the CPGEA Li Jing (ljing@smmu.edu.cn) and subject to local rules and regulations. This includes submitting a proposal to the management team of CPGEA, where upon approval, analysis needs to be done on a local server with protected access, complying with the Personal Information Protection Law of the People's Republic of China (PIPL) and Regulations on the Administration of Human Genetic Resources of the People's Republic of China. The data and scripts used are saved in GitHub https://github.com/vacation2008/iMETA-2025-126. The Ericscript, Ugrep and Agrep in this study are freely available at https://github.com/databio/ericscript, https://github.com/Genivia/ugrep/, and https://www.tgries.de/agrep/. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) can be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70019": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are available from the corresponding author upon reasonable request. MDIPID can be freely accessed at: https://idrblab.org/mdipid/. Supplementary materials (materials, methods, and figures) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70021": {
+  "data_availability": "Data Availability StatementThe data that supports the findings of this study are available in the supplementary material of this article. All the sequencing data have been deposited in the Genome Sequence Archive in the Beijing Institute of Genomics Data Center (https://ngdc.cncb.ac.cn/gsa/browse/CRA007292; https://ngdc.cncb.ac.cn/gsa/browse/CRA007303). The data and scripts used are saved in GitHub (https://github.com/HuLab908/iMeta2025-024). Heavy metal concentrations and microbial community profiles are provided within the main text and Supplementary materials. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "The interaction of environmental heavy metals and microorganisms jointly affects the stability and diversity of the gut microbiota of the exposed children.This study has two limitations.",
+   "In future, these limitations can be addressed by expanding the sampling locations, incorporating equipment to collect airborne particulate matter, and including children's lifestyle covariates in the analysis.CONCLUSIONThis study indicates the presence of heavy metal pollution in schools, and its significant impact on the structure of the environmental microbial community.",
+   "We regret that space limitations prevent us from citing additional works."
+  ]
+ },
+ "imt2.70023": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are openly available in space at https://github.com/liusai118/space. All original code has been deposited at https://github.com/liusai118/space. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Collectively, these results provide new insights into how spaceflight influences ageing\u2010associated microbiota, offering potential targets for intervention to protect astronaut health during extended space missions.Our study has some limitations.",
+   "Although we controlled for known confounding factors using DESeq.2, we cannot exclude the influence of other potential confounders (e.g., diet, environment, and drug use), which may have impacted the results.",
+   "Future studies with more precise experimental designs, larger cohorts, other diseases (cancer, diabetes, and other chronic diseases), and functional validations are necessary to strengthen our findings."
+  ]
+ },
+ "imt2.70026": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe global microbiome database of activated sludge can be obtained in NCBI with accession number PRJNA509305 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA509305). The representative sequences of the global activated sludge microbiome are available at the website (http://gwmc.ou.edu/data-disclose.html). More details about the quorum sensing communication network can be found on the online platform (http://www.qscnas.cn). The data and scripts used are saved in GitHub https://github.com/basswilson/Canlab-QSCNAS. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "This data set includes samples from 269 WWTPs across 23 countries, all sequenced uniformly on the same MiSeq instrument.",
+   "Subsequently, the 1186 samples collected from global WWTPs were analyzed to obtain the microbiome information, and QS/QQ bacteria were identified using the local QS/QQ bacterial database."
+  ],
+  "limitation_sents": []
+ },
+ "imt2.70036": {
+  "data_availability": "Data Availability StatementData sharing is not applicable to this article as no new data were created or analyzed in this study. The data included in the analysis and as a reference are stored in Table S1. Supplementary materials (tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70046": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe metagenomic sequencing data have been deposited under accession number PRJCA026382 and are publicly available (https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA026382). The metabolomics data have been deposited in the OMIX database under accession number OMIX009789 (https://ngdc.cncb.ac.cn/omix/release/OMIX009789). The Methods section shows the parameters of the bioinformatic tools applied in the study. The data and scripts used are available at GitHub (https://github.com/linlin0026/imeta_1208/). Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "All 10 participants in the Overweight group and nine in the T2D group completed the study (Figure S1A).",
+   "A total of 23 participants with obesity or overweight (BMI 24.0\u201335.0 kg/m2, body weight changes < 15% over past 3 months), aged 25\u201360 years, blood pressure < 180/110 mmHg, and triglyceride < 8 mmol/L were screened.",
+   "On Day 56, samples collected post\u2010waking were immediately placed on dry ice, brought to the hospital, and then transported to the lab for freezing at \u221280\u00b0C.Anthropometry data collectionPhysical examinations were conducted on Day 0, Day 14, Day 28, and Day 56 in Shanghai Pudong Hospital.",
+   "Sequencing for 433 samples generated a total of 26.84 billion raw reads, averaging 62.00 million paired\u2010end raw reads per sample.",
+   "Significant correlations (positive/negative) across \u2265 6 participants within the group were included in the group's co\u2010abundance network."
+  ],
+  "limitation_sents": [
+   "Furthermore, while the inherent high dimensionality and sparsity of microbiome datasets pose significant challenges for applying various statistical models, guild\u2010based analysis provides an alternative approach to address these limitations.",
+   "By focusing on stable inter\u2010member interactions, this approach partially addresses the limitations of conventional taxon\u2010based and gene\u2010centric methods.",
+   "Thus, comprehensive multi\u2010omics analysis and experimental validation are essential to determine the metabolic characteristics of microbiota members.Limitations and future directionsOur study has several limitations."
+  ]
+ },
+ "imt2.70049": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are available from the corresponding author upon reasonable request. The datasets generated during the WCBC study have been securely deposited at the Children's Hospital of Chongqing Medical University (http://wcbc.chcmu.com/), in full compliance with ethical regulations and patient confidentiality agreements. Due to ethical and legal restrictions, participant\u2010level data are available for research and scientific purposes only upon request, subject to approval by the Ethics Committee of the Children's Hospital of Chongqing Medical University and execution of appropriate data transfer agreements. This includes submitting a research proposal to the corresponding author or sent to chcmu_wcbc@163.com, where upon approval, all data analysis need to be done on a local server with protected access, in compliance with Personal Information Protection Law of the People's Republic of China (PIPL) and Regulations on the Administration of Human Genetic Resources of the People's Republic of China. The aggregated data and scripts used in the study are saved in Github (https://github.com/WenZhong-Lab/BirthCohort). Supplementary materials (figures, methods, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "The China Birth Cohort study later recruited pregnant women across 17 provinces to investigate factors related to birth defects, but ended follow\u2010up at birth [6].",
+   "On average, 77 participants were recruited per month in WCBC (Figure 2B and Table S2)."
+  ],
+  "limitation_sents": [
+   "Additionally, the timing of WCBC recruitment during the COVID\u201019 pandemic presented a unique opportunity to investigate the impact of SARS\u2010CoV\u20102 infection on pregnancy outcomes, fetal development, and early childhood immunity.Some limitations of this cohort study must be acknowledged."
+  ]
+ },
+ "imt2.70052": {
+  "data_availability": "DATA AVAILABILITY STATEMENTSource code of RepliChrom can be accessed at: https://github.com/DaoFuying/RepliChrom. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/. The data that support the findings of this study are openly available in Zenodo at https://zenodo.org/records/11398547.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70077": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe data that support the findings of this study are openly available in GenBank BioProject at https://www.ncbi.nlm.nih.gov/bioproject/, reference number PRJNA1236717. All the sequenced data were deposited in NCBI GenBank under BioProject accession: PRJNA1236717 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1236717). The assembled genomes were also accessible at: https://github.com/puff0916/ST23_kle. The data and scripts used are saved in GitHub: https://github.com/Zhou-lab-SUDA/Wu_iMeta_ST23_Figure_sources. A detailed list of the sample accession numbers for all samples is available in Table S2. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "pneumoniae ST23 isolates, encompassing samples from 50 countries and spanning 90 years.",
+   "We sequenced 151 CC23 isolates from six provinces in China (1999\u20132024) and integrated them with publicly available data to form a comprehensive data set of 2563 isolates from 62 countries, spanning from 1932 to 2024 (Figure 1A).Figure 1Global distribution and evolutionary dynamics of Klebsiella pneumoniae (K.",
+   "pneumoniae CC23 genomes from the NCBI GenBank, resulting in a total of 2563 genomes from 62 countries spanning from 1932 to 2024."
+  ],
+  "limitation_sents": [
+   "However, cgLINcode, and other cgMLST\u2010based approaches lack the allelic resolution needed to distinguish deeper, century\u2010scale sublineages within CC23\u2010K1, a limitation inherent to distance\u2010based allele schemes.",
+   "This geographic divergence in antimicrobial stewardship may have created distinct evolutionary trajectories for hvCRKP.Our study has limitations."
+  ]
+ },
+ "imt2.70079": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions. Metagenomic sequencing data associated with this study are deposited in the BioProject database of the National Genomics Data Center (NGDC, https://ngdc.cncb.ac.cn/bioproject/) under the accession number PRJCA017875 (https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA017875) and are available under controlled access. Due to ethical and legal restrictions, participant\u2010level data are available for research purposes only upon request, subject to approval by the Ethics Committee of Fuwai Hospital and the execution of appropriate data transfer agreements. This includes submitting a research proposal to the corresponding author Yuejin Yang (yangyjfw@126.com), where upon approval, all data analysis need to be done on a local server with protected access, in compliance with Personal Information Protection Law of the People's Republic of China (PIPL) and Regulations on the Administration of Human Genetic Resources of the People's Republic of China. Computational analyses were performed using the bioBakery suite of tools; species\u2010level microbial abundances were computed using MetaPhlAn v.4.0 (https://github.com/biobakery/MetaPhlAn). Functional potential profiling was carried out with HUMAnN v.3.0 (https://github.com/biobakery/humann; Methods). The aggregated data and scripts used in th",
+  "scale_sents": [
+   "Untargeted polar and lipidomic metabolome analysis using ultra\u2010performance liquid chromatography coupled with high\u2010resolution mass spectrometry (UPLC\u2010HRMS) was first performed on a subset of 271 individuals (91 NCA, 78 primary sCAD, and 102 ACS) (see Methods and Tables S6, 7 for details).",
+   "Future studies should aim to validate these biomarkers in larger, diverse cohorts and assess the efficacy of microbiota\u2010modulating interventions in modifying disease risk.METHODSParticipants and study designBetween March 2018 and December 2018, we continuously recruited 600 participants for whom there is complete information on medical history and clinical and biochemical parameters from Fuwai Hospital, National Center for Cardiovascular Diseases of China.",
+   "To monitor data quality and instrument stability, QC samples containing aliquots of plasma samples from all participating subjects were processed in parallel, and a QC sample was inserted every 10 samples throughout the sequences.",
+   "To discover the potential differential metabolites, global metabolic profiling was performed on a training set of 287 human plasma samples (91 NCA, 78 primary sCAD, 102 ACS, and 16 recovery sCAD, 13 samples not available to be measured) using UPLC\u2010HRMS.",
+   "The scan range was m/z 70\u20131000 (polar metabolites)/80\u20131200 (lipid metabolites).Another 285 human plasma samples (73 NCA, 77 primary sCAD, 106 ACS, and 29 recovery sCAD, 15 samples not available to be measured) were used for targeted analysis as a test set to quantify differential metabolites.",
+   "The data set comprised 285 samples with corresponding targeted metabolomics quantification."
+  ],
+  "limitation_sents": [
+   "Together, these observations from a cross\u2010sectional multi\u2010omics approach provide insights into the potential involvement of the gut microbial composition and circulating metabolites in CAD progression, providing a basis for future studies to elucidate causality and to explore strategies for early detection and targeted prevention of ACS.RESULTStudy design and baseline characteristics of the cohortBetween March 2018 and December 2018, we recruited 548 middle\u2010aged participants (45\u201366 years old), including 175 NCA controls, 161 primary sCAD patients, and 212 ACS subjects, at the National Center for Cardiovascular Diseases of China, Fuwai Hospital.",
+   "The enrichment of these enzymatic functions aligns with the observed metabolic shifts, providing mechanistic insights into how microbial metabolism may contribute to metabolic disturbances in CAD.Given the limitations in the current early warning systems for ACS, there is an urgent need to improve risk prediction and prognosis at the individual, family, community, and pre\u2010hospital levels.",
+   "In contrast, the superior performance of metagenomic and metabolomic models highlights the potential importance of gut microbial and metabolic alterations in the pathogenesis and progression of CAD [60].Our study has several limitations.",
+   "First, although our findings revealed strong associations and suggested potential links between specific microbes, metabolites, and ACS by including unique disease recovery group, some causal relationships remain to be validated and should be addressed in future studies using experimental approaches, such as through fecal microbiota transplantation and metabolite supplementation, in both preclinical and clinical settings.",
+   "Future studies with larger, multi\u2010center cohorts are needed to validate our results and to explore potential differences across ACS subtypes.",
+   "In future studies, incorporating standardized tools such as food frequency questionnaires or 24\u2010h dietary recalls could enable more precise adjustment for potential confounders.",
+   "Future studies should aim to validate these biomarkers in larger, diverse cohorts and assess the efficacy of microbiota\u2010modulating interventions in modifying disease risk.METHODSParticipants and study designBetween March 2018 and December 2018, we continuously recruited 600 participants for whom there is complete information on medical history and clinical and biochemical parameters from Fuwai Hospital, National Center for Cardiovascular Diseases of China."
+  ]
+ },
+ "imt2.70081": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe authors declare that the data supporting the findings of this study are included in the article and its Supporting Information files. All raw sequencing data generated in this study have been deposited in the NCBI Sequence Read Archive under accession number PRJNA1193792 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1193792). Source data for Figures 2, S2, S3, S4, S8, S9, and S11 are provided in the Supporting Information. Supplementary materials (methods, figures, tables, additional results and discussion, graphical abstract) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "For colonies that could not be accurately identified due to technical limitations, molecular identification through amplicon sequencing was performed.",
+   "The presence and variation of microbes in different mouse individuals may exert physiological effects and confound experimental outcomes, raising a caveat about the interpretation of results.AUTHOR CONTRIBUTIONS Ming Xu: Methodology; software; writing\u2014original draft; formal analysis; validation; conceptualization; resources."
+  ]
+ },
+ "imt2.70084": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe data that support the findings of this study are available in the supplementary material of this article. The datasets used in this study are publicly accessible as described above, as well as in Table S1. The data and scripts used are saved in GitHub (https://github.com/ZJUFanLab/SRTBenchmark). Supplementary materials (figures, methods, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "We generated 25 datasets by varying these parameters on the same scRNA\u2010seq reference (Figure 5E)."
+  ],
+  "limitation_sents": [
+   "To address this limitation, a growing number of computational methods have been developed specifically for SRT data.",
+   "Additional evaluation metrics were included to balance their complementary strengths and limitations (Figure S8).",
+   "Higher spatial resolution increases the number of sampling spots within a given area but also introduces technical limitations in transcript capture, reflected as differences in matrix dimensions and sparsity.",
+   "However, the factors underlying these limitations remained underexplored.",
+   "For example, SpatialGlue [58] combines spatial multi\u2010omics data to improve spatial domain identification, suggesting that incorporating complementary modalities could enhance clustering accuracy and biological interpretability.Our study has limitations.",
+   "Collectively, these findings delineate the strengths and limitations of current spatial clustering approaches, provide actionable guidance for their application, and establish a framework for building a more reliable and consistent analytical pipeline in SRT.METHODSDatasetsThe human DLPFC 10\u00d7 Visium data set [50] was downloaded from http://spatial.libd.org/spatialLIBD/, containing 12 tissue slices from 3 donors.",
+   "Due to computing memory limitations, most methods returned \u201cout of memory\u201d errors on large\u2010scale datasets."
+  ]
+ },
+ "imt2.70088": {
+  "data_availability": "Data Availability StatementThe full summary statistics to support the findings of this study are included within the supplementary information files. The microbiome sequencing data and limited metadata generated in this study have been deposited in the Genome Sequence Archive under study accession ID: HRA010936 (https://ngdc.cncb.ac.cn/gsa-human/browse/HRA010936). Due to ethical and legal restrictions, deidentified individual participant data and the data dictionary cannot be made publicly available. All data are available upon request to the corresponding author and subject to local rules and regulations. The data used for the main figures and scripts used in this study can be found on GitHub: https://github.com/ZJJY-Bioinformatics/CALM2004_landscape/. Supplementary materials (figures, methods, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Our objectives were to quantify the relative contributions of these factors to microbiota variation, explore how specific vaginal bacterial communities are shaped by host factors, and provide a more comprehensive understanding of the role of vaginal microbiome in reproductive health among Chinese women.ASSOCIATIONS OF HOST FACTORS WITH THE VAGINAL MICROBIOMEA total of 7467 individuals were initially enrolled, of whom 6423 participants from 38 study centers across 18 provinces of China were included (Figure S1)."
+  ],
+  "limitation_sents": [
+   "Limitations include the lack of hormonal measurements, preventing full separation of age\u2010versus hormone\u2010related microbial changes, and the observational design, which precludes causal inference between host factors and microbiome alterations.",
+   "We apologize for not being able to cite additional work owing to space limitations."
+  ]
+ },
+ "imt2.70090": {
+  "data_availability": "Data Availability StatementThe metagenomic sequencing data of the study cohort are deposited in both the NCBI SRA under accession no. PRJNA956300 (https://dataview.ncbi.nlm.nih.gov/object/PRJNA956300?reviewer=gvsa4n7anpjtnd0tvi3jv7s8jt). The source data are not publicly available now due to restrictions in the informed consent and data protection regulations. Reasonable requests for data access can be directed to the principal investigator, Prof. Ning\u2010Ning Liu (liuningning@shsmu.edu.cn). If data access is approved, the data users are bound by a data access agreement. This includes responsibilities with respect to third\u2010party data sharing and maintaining participant privacy. Further responsibilities include a responsibility to acknowledge data sharing. Deidentified genomic and associated data from this study are available for ethically approved research. The mass spectrometry proteomics data have been presented in Table S20. All public transcriptomic datasets used to assess the model's generalizability can be found at GEO (https://www.ncbi.nlm.nih.gov/geo/), including: GSE164541, GSE41657, GSE22598, GSE37364, and GSE100179. This paper does not report original code. The data and scripts used are saved in GitHub https://github.com/FunGuyGroup/imt2025987. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/. The data that support the",
+  "scale_sents": [
+   "\u201cGlobal Cancer Statistics 2022: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries.\u201d CA: A Cancer Journal for Clinicians 74: 229\u2013263."
+  ],
+  "limitation_sents": [
+   "Future studies should incorporate metabolomics with spatial transcriptomics or proteomics to map host\u2013microbiome interactions and microbial metabolite\u2013host pathway crosstalk (e.g., short\u2010chain fatty acids, deoxycholic acid) in the TME, providing mechanistic depth to metabolic alterations in CRC and aiding novel therapeutic target discovery [154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166].",
+   "In addition, microbial contributions to treatment resistance and the role of phages and tumor\u2010associated viruses warrant systematic exploration [107, 108].Finally, relying on transcriptomic data for external validation of protein biomarkers is a limitation, as the correlation between transcripts and proteins can vary depending on biological context and posttranslational regulation."
+  ]
+ },
+ "imt2.70104": {
+  "data_availability": "Data Availability StatementThe raw data associated with this project are deposited in the NCBI database (Accession Numbers: PRJNA1299708 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1299708), PRJNA1291843 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1291843), PRJNA1279085 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1279085), PRJNA1280711 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1279085)). The data and scripts used are saved in GitHub (https://github.com/XinyuZhang001/iMeta_1040). Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/. The data that support the findings of this study are available in the supplementary material of this article.",
+  "scale_sents": [
+   "Rumen fluid from all animals was collected before the morning feeding and was subjected to metagenomic analysis, and 10 samples from yaks and Holstein cows were subjected to meta\u2010transcriptomic analysis."
+  ],
+  "limitation_sents": [
+   "The canonical view of hypoxia\u2010induced metabolism emphasizes the switch from oxidative phosphorylation to increased anaerobic glycolysis in the host as a strategy for coping with oxygen limitation [34].",
+   "Pathway scoring further confirmed that ketone body synthesis and fatty acid beta\u2010oxidation were significantly upregulated in yaks, whereas VFA catabolism was stronger in Holstein cows.This differential gene expression indicates that yak optimizes metabolic energy generation via fatty acid beta\u2010oxidation metabolism and ketone cycling, a strategy well\u2010suited to sustaining energy supply and maintaining redox balance under chronic hypoxia and nutrient limitation at high altitudes.",
+   "A limitation of our experimental designs is that it was not possible to disentangle the influence of the microbiome from a possible additional influence of host genetics, going beyond the microbiome's influence.METHODSExperimental designs and samplingThis study was conducted on yaks and Holstein cows born and housed at the Lhasa Jingtu Company in Tibet."
+  ]
+ },
+ "imt2.70106": {
+  "data_availability": "Data Availability StatementThe data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions. The datasets generated during the BIOME study have been securely deposited at the First Affiliated Hospital of Naval Medical University, in full compliance with ethical regulations and patient confidentiality agreements. Due to ethical and legal restrictions, participant\u2010level data are not publicly available. The data that support the findings of this study are available from the corresponding authors for research and scientific purposes upon submission of a research proposal. Upon approval, all data analysis must be conducted on a local server with protected access, in compliance with Personal Information Protection Law of the People's Republic of China (PIPL) and Regulations on the Administration of Human Genetic Resources of the People's Republic of China. Additionally, the aggregated data and scripts used in the study are saved in GitHub (https://github.com/runzhihuang2022/Huang_20251224_iMeta). Supplementary materials (methods, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "The BIOME cohort is a multicenter, prospective, longitudinal study conducted across 50 hospitals spanning 28 provinces, autonomous regions, and municipalities in China (red panels).",
+   "To mitigate regional bias, the BIOME cohort has been expanded to include 50 leading burn centers across 28 provinces, with ongoing efforts to increase recruitment from underrepresented western and northern regions.",
+   "\u201cGlobal Burden of 288 Causes of Death and Life Expectancy Decomposition in 204 Countries and Territories and 811 Subnational Locations, 1990\u20132021: A Systematic Analysis for the Global Burden of Disease Study 2021.\u201d The Lancet 403: 2100\u20132132."
+  ],
+  "limitation_sents": [
+   "Collectively, the BIOME project provides an unprecedented clinical resource for elucidating microbiome\u2010mediated mechanisms underlying post\u2010burn complications, including sepsis, and for identifying microbial biomarkers with diagnostic and prognostic potential.Despite these strengths, we acknowledge certain limitations."
+  ]
+ },
+ "imt2.70116": {
+  "data_availability": "Data Availability StatementThe data used in this study are available in the Accu16S_ITS directory of GitHub https://github.com/YongxinLiu/EasyAmplicon. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Instead, the fundamental limitation of relative abundance data lies in its compositional nature, where the closed\u2010sum constraint can induce spurious correlations and misleading ecological interpretations [8].",
+   "By offering both an online platform and flexible shell scripts, Accu16S/AccuITS accommodates diverse user needs and offers greater flexibility.Although the Accu16S/AccuITS method demonstrates broad applicability and achieves accuracy comparable to qPCR, it also has several limitations.",
+   "Despite the limitations mentioned above, the main advantage of Accu16S/AccuITS lies in its high\u2010throughput, versatility (it can be applied to different research directions) and its suitability for large\u2010scale sample analysis."
+  ]
+ },
+ "imt2.70123": {
+  "data_availability": "Data Availability StatementThe metagenomic sequencing data generated from the local study cohorts in this work have been deposited in the NCBI Sequence Read Archive under accession number PRJNA1372073, https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1372073&o=acc_s%3Aa and PRJNA1372070, https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1372070&o=acc_s%3Aa. Clinical metadata were not publicly available due to legal and informed consent restrictions. Reasonable requests to access the data sets should be directed to the corresponding authors, Yunwei Wei and Xinrong Yang. The external validation datasets used in this study are publicly available: Thai cohort including HCC, iCCA, and healthy controls: NCBI SRA accession PRJNA932948, https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA932948&o=acc_s%3Aa. Chinese cohort of HCC patients receiving anti\u2013PD\u20101 therapy: NCBI SRA accession PRJNA1142390, https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA1142390&o=acc_s%3Aa. Additional immunotherapy cohorts were obtained from previously published studies. The data and scripts used in this study are hosted on GitHub at https://github.com/nightkid03/HCC-TCG. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science (http://www.imeta.science).The data that support the findings of this study are openly available in NCBI SRA at https://www.ncbi.nlm.nih.gov/sra, reference nu",
+  "scale_sents": [
+   "In the earlier work, stable genome\u2013genome correlations across diet interventions and 15 disease stages across 38 datasets revealed a universal TCG backbone associated with health [18]."
+  ],
+  "limitation_sents": [
+   "These issues stem from several inherent limitations.",
+   "These limitations make it difficult to extract reproducible or mechanistically interpretable microbial patterns relevant to HCC.To overcome these challenges, we developed a genome\u2010resolved, Guild\u2010based analytical framework that focuses on microbial genomes and their ecological relationships rather than on disease\u2010associated taxa [18].",
+   "However, given the limited sample size in the CRLM, analyses involving this group should be interpreted with caution.Figure 3HCC\u2010TCG as a signature to classify patients with different hepatic tumors.",
+   "Future studies incorporating healthy and chronic liver disease cohorts will be valuable for dissecting mechanistic specificity; however, such comparisons are not required for evaluating structural transferability within a clinically relevant diagnostic context.",
+   "This inconsistency reflects the limitations of taxon\u2010based approaches: reliance on database classification, loss of strain\u2010level functional diversity, and a failure to account for microbial interactions [11, 15].",
+   "Our study addresses these limitations by shifting the analytic unit from taxa to genomes and from abundance shifts to stability of relationships.To our knowledge, no previous study has reconstructed prevalent HQMAGs de novo, systematically screened them for stable correlations shared across benign and malignant hepatic tumor states, and then derived a structural Guild backbone from these persistent interactions.",
+   "However, given the limited sample size in the CRLM cohort (n = 7), analyses involving this group were defined as exploratory, and results should be interpreted with caution.",
+   "However, adjuvant treatment assignment was not randomized in these cohorts, these findings should be interpreted as associative risk stratification rather than causal evidence of treatment benefit.A key clinically practical strength of this work is that HCC\u2010TCG features were derived from preoperative stool samples."
+  ]
+ },
+ "imt2.70128": {
+  "data_availability": "Data Availability StatementResearch data are not shared. The SCIGAMA website is available at http://58.247.16.28:30080/SCIGAMA/index/homePage. The SCIGAMA database will be maintained and regularly updated by our research team to ensure its continued accessibility. For usage instructions and additional details, please refer to the SCIGAMA Help page (http://58.247.16.28:30080/SCIGAMA/help/1/helpPage). The data and figure\u2010related codes are stored at https://github.com/Magetutor/Microbiome-shock-in-spinal-cord-injury. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) can be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "This platform contains in\u2010house and public sequencing data, supporting the investigation of systemic SCI responses (Figure S4A,B), including 2077 samples: 270 gut metagenomic, 840 multi\u2010organ transcriptomic, and 967 public samples (Figure S4C\u2013F)."
+  ],
+  "limitation_sents": [
+   "For instance, probiotics that are depleted during specific phases could be supplemented, pathogenic bacteria selectively suppressed, or stage\u2010specific genes modulated to promote spinal cord repair and multi\u2010organ functional recovery.This study has several limitations.",
+   "Additionally, only female mice were included to reduce variability, and future studies should include both sexes.",
+   "We apologize for not being able to cite additional work owing to space limitations."
+  ]
+ },
+ "imt2.70131": {
+  "data_availability": "Data Availability StatementThe shotgun metagenomic raw data used in this study are publicly available from the European Nucleotide Archive (ENA) under the project accessions PRJEB52891 (GLA cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB52891) and PRJEB38481 (RIFSYS cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB38481), and from https://www.microbiomeatlas.org under the project accession PRJEB38483 (healthy cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB38483). Metagenomic and metabolomic data for the TIPS cohort from the NEPTUN study (NCT03628807, https://clinicaltrials.gov/study/NCT03628807) can be available upon request via the European Association for the Study of the Liver (EASL). Genome\u2010scale metabolic models corresponding to the MSPs can be obtained from the Microbiome Atlas website (https://www.microbiomeatlas.org). The full summary statistics to support the findings of this study are included within the supplementary information files. The data used for the figures and scripts used in this study can be found on GitHub: https://github.com/sysbiomelab/Oral-gut-liver. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/. The data that support the findings of this study are available in the supplementary material of this article.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "Future studies combining longitudinal sampling, targeted metabolomics, experimental microbiome models, and therapeutic modulation will allow confirmation of the causal contribution of oral\u2013gut translocation to hyperammonemia in cirrhosis.AUTHOR CONTRIBUTIONS Yi Jin: Conceptualization; investigation; writing\u2014original draft; methodology; visualization; formal analysis.",
+   "We apologize for not being able to cite additional work owing to space limitations.DATA AVAILABILITY STATEMENTThe shotgun metagenomic raw data used in this study are publicly available from the European Nucleotide Archive (ENA) under the project accessions PRJEB52891 (GLA cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB52891) and PRJEB38481 (RIFSYS cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB38481), and from https://www.microbiomeatlas.org under the project accession PRJEB38483 (healthy cohort, https://www.ebi.ac.uk/ena/browser/view/PRJEB38483)."
+  ]
+ },
+ "imt2.70132": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe code of microeco package is deposited in GitHub repository (https://github.com/ChiLiubio/microeco) and Gitee repository (https://gitee.com/chiliubio/microeco). The reference analytical workflow released in sync with the microeco package update includes an online tutorial (https://chiliubio.github.io/microeco_tutorial) and a published protocol (https://github.com/ChiLiubio/microeco_protocol_v1). Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science (http://www.imeta.science). The data that support the findings of this study are openly available in GitHub repository (https://github.com/ChiLiubio/microeco_protocol_v1).",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70134": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions. Due to ethical and legal restrictions, raw sequencing data of the human intestinal microbiotal and metabolomics datasets cannot be made publicly available. Human metadata information is available in Table S6. The other relevant data generated during the current study are available from the corresponding author upon reasonable request, subject to applicable ethical and legal approvals. The raw microbiota data and mouse intestinal RNA sequencing data have been deposited in the National Center for Biotechnology Information GenBank repository under BioProject accession numbers PRJNA1456507 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1456507) and PRJNA1344669 (https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1344669), respectively. The data and scripts used are saved in GitHub https://github.com/WeichuanLin6688/Microbial-keystone-taxa-contribute-to-intestinal-homeostasis. Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) can be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": []
+ },
+ "imt2.70139": {
+  "data_availability": "DATA AVAILABILITY STATEMENTData sharing is not applicable to this article as no datasets were generated or analyzed during the current study. No new data were generated in this review. Supplementary materials (XAI tutorial for absolute beginners, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "This lack of interpretability limits actionable decision\u2010making, as effective intervention depends on understanding the drivers of deterioration rather than prediction alone.Explainable artificial intelligence (XAI) addresses this limitation by making model reasoning interpretable and translating complex outputs into actionable knowledge [5, 6].",
+   "XAI helps address this limitation by identifying influential wavelengths, genes, metabolites, or microbial features and linking them to biologically coherent modules."
+  ]
+ },
+ "imt2.70147": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe raw sequence data reported in this paper have been deposited in the Genome Sequence Archive in the National Genomics Data Center, China National Center for Bioinformation/Beijing Institute of Genomics, Chinese Academy of Sciences (GSA: HRA010791) https://ngdc.cncb.ac.cn/gsa-human/browse/HRA010791. Due to ethical and legal restrictions, deidentified individual participant data and the data dictionary cannot be made publicly available. All data are available upon request to the corresponding author and subject to local rules and regulations. The data and scripts used in this study can be found on GitHub: (https://github.com/LiangLifeng/CHD-iMeta-2026). STORMS (Strengthening The Organization and Reporting of Microbiome Studies, Table S11) checklist was provided for concise and complete reporting of human microbiome study. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "(F) Fine\u2010grained correlation profile integrating microbial functional modules, CAGs, and clinical traits across 319 individuals.",
+   "Figure S4: Correlation profile of fasting serum metabotypes and physiological traits in partial 152 subjects.",
+   "Table S4: Statistics for the metagenomic shotgun sequencing data of 319 individuals."
+  ],
+  "limitation_sents": [
+   "Collectively, these results support a causal role for CAD\u2010associated gut microbiota in enhancing vascular inflammation and accelerating the immunopathological process underlying atherosclerosis.POTENTIAL APPLICATION AND LIMITATIONSThis study highlighted the need to elucidate CAD stage\u2010specific microbial profiles that may be useful for modeling disease progression and demonstrated the transmission of atherosclerosis susceptibility through gut microbiota transplantation.",
+   "These findings are consistent with emerging evidence linking gut microbiota and microbial metabolites to arterial thrombosis [19], as well as our complementary work showing that the gut commensal Bacteroides thetaiotaomicron promotes atherothrombosis by regulating tryptophan metabolism [20].Several limitations should be acknowledged."
+  ]
+ },
+ "imt2.70149": {
+  "data_availability": "DATA AVAILABILITY STATEMENTData sharing not applicable to this article as no datasets were generated or analysed during the current study.No new data or code were generated in this study. All demonstration data for visualization purposes are available on the Wekemo Bioincloud website (https://www.bioincloud.tech/). Supplementary materials (tables, graphical abstract, slides, videos, Chinese translated version and update materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [],
+  "limitation_sents": [
+   "These limitations collectively hinder efficient data exploration and downstream biological interpretation.Recent years have seen the rapid emergence of diverse computational ecosystems for multi\u2010omics analysis, ranging from command\u2010line frameworks to graphical user interface (GUI)\u2010based and web\u2010accessible platforms [15, 16, 17, 18]."
+  ]
+ },
+ "imt2.70166": {
+  "data_availability": "DATA AVAILABILITY STATEMENTAll metagenomics and lipidomics data generated in this study have been deposited in NODE under the project accession number OEP00003504 (https://www.biosino.org/node/project/detail/OEP00003504) and are available upon approved access. Clinical metadata were not publicly available due to legal and informed consent restrictions. Reasonable requests to access the datasets should be directed to the corresponding authors, Xiong\u2010Fei Pan and Yan Zheng. The data and scripts used are available on GitHub (https://github.com/ChangHe005/SL-GDM). Supplementary materials (figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) are available via the article DOI or on iMeta Science (http://www.imeta.science).",
+  "scale_sents": [
+   "These findings indicate that metabolic differences were already detectable in early pregnancy, before clinical diagnosis of GDM.Alterations of the early\u2010pregnancy gut microbiome were associated with later GDM developmentAt baseline (T1), all 784 participants provided fecal samples for whole\u2010genome shotgun metagenomic sequencing, yielding an average of 58.7 million high\u2010quality reads per sample (~8.5 Gb).",
+   "A total of 689 participants provided genomic data in the current analysis.Replication populationTo explore whether GDM and T2DM shared microbial features, we further compared our results with a recent meta\u2010analysis including 8117 shotgun metagenomes from 10 cohorts of participants with T2D and normoglycemic status in the United States, Europe, Israel, and China [16].Statistical analysisBaseline characteristics of the study population were presented as mean \u00b1 standard deviation (SD) for continuous variables and as n (%) for categorical variables."
+  ],
+  "limitation_sents": [
+   "Several limitations should also be acknowledged.",
+   "Given the close relationships among diet, gut microbiome, and host meta\u2010metabolomic profiles, future studies with more comprehensive dietary assessment are needed to better disentangle dietary, microbial, and lipidomic contributions to GDM risk [35].",
+   "Therefore, the reported AUROC values should be interpreted as internally cross\u2010validated estimates of risk stratification performance rather than evidence of clinical generalizability.",
+   "Future studies using higher\u2010resolution lipid structural characterization and targeted LC\u2010MS/MS validation in clinical samples are needed to determine the exact isomeric composition of this feature and to evaluate whether different DHC 24:1 isomers exert distinct metabolic effects.",
+   "Thus, the animal experiment should be interpreted as a functional plausibility assessment under insulin resistance\u2010related metabolic dysfunction, rather than as a pregnancy\u2010specific model of GDM.CONCLUSIONIn conclusion, our study supports a role of the gut microbiome in metabolic dysregulation during pregnancy, particularly through its links with host lipid metabolism.",
+   "This procedure should be interpreted as internal cross\u2010validation rather than independent external validation.To uncover synergistic interactions between fecal microbiota, plasma lipidome, and genetic predisposition, their additive interaction effects were estimated by adding an interaction term into the regression model, which consisted of microbial risk score (MRS) and lipid risk score (LRS)/genetic risk score (GRS) (categorical: lower or higher classified by median value)."
+  ]
+ },
+ "imt2.70191": {
+  "data_availability": "DATA AVAILABILITY STATEMENTThe raw sequence data reported in this paper have been deposited in the Genome Sequence Archive (GSA) [82] at the National Genomics Data Center (NGDC) [83], China National Center for Bioinformation, Beijing Institute of Genomics, Chinese Academy of Sciences, under BioProject accession number PRJCA039727 and GSA accession number CRA025461, and are publicly accessible at https://ngdc.cncb.ac.cn/gsa/search?searchTerm=CRA025461. The sequences reported in this paper have also been deposited in GenBase [84] at NGDC and are freely accessible at https://ngdc.cncb.ac.cn/genbase without any access restrictions. Detailed accession numbers can be found in Table S8. The data and scripts used are saved on GitHub https://github.com/lux9612/urban-bird-virome. Supplementary materials (figures, tables, scripts, graphical abstract, slides, Chinese translated version, and updated materials) may be found via the online DOI or iMeta Science http://www.imeta.science.",
+  "scale_sents": [
+   "In total, 985 samples were obtained from 22 cities spanning 18 provincial\u2010level administrative regions, with sampling conducted in densely populated areas within each city (Figure 1A).",
+   "Only host orders represented by more than 10 samples were included in the analysis.",
+   "All four families were detected in all 22 cities and in 16\u201321 of the 22 assigned avian orders, with low city\u2010level Berger\u2013Parker dominance values (0.066\u20130.118) and high standardized Levins breadth values (0.659\u20130.923), indicating broad and relatively even distributions.",
+   "In comparison, Astroviridae, Anelloviridae, Coronaviridae, and Adenoviridae were detected in 19\u201321 cities but showed less even spatial distributions and were classified as widespread but uneven.",
+   "Tobaniviridae and Orthoherpesviridae were each detected in only one city, whereas Rhabdoviridae and Smacoviridae were detected in 14 and 16 cities, respectively, but were strongly concentrated in Xi'an and Chifeng, with city\u2010level dominance values of 0.551 and 0.785, respectively.",
+   "Torbevirus was the most frequently detected genus, occurring in 53 of 985 libraries (5.4%) across 5 of 22 cities, with a mean RPKM of 2757.4 across all libraries.",
+   "This was followed by Alphatorquevirus, detected in 22 libraries (2.2%) across 4 cities (mean RPKM, 1076.6), and Orthopicobirnavirus, detected in 17 libraries (1.7%) across 4 cities (mean RPKM, 647.1).",
+   "Detection frequency differed among the 22 cities (Pearson's \u03c7 2 = 330.33, df = 21, p = 2.05 \u00d7 10\u221257), with 123 of 231 city pairs significant after BH correction of two\u2010sided Fisher exact tests (q < 0.05; Table S14).",
+   "Among the positive libraries from 20 cities, AMG abundance differed in the omnibus Kruskal\u2013Wallis test (H = 40.14, df = 19, p = 0.00314; permutation p = 0.00134), but none of the 190 Dunn pairwise comparisons remained significant after correction (all q \u2265 0.0623).",
+   "However, mean annotated AMG gene density per Mbp of detected phage sequence was not significantly associated with mean background phage richness across the 22 cities (\u03c1 = 0.306, q = 0.187).",
+   "Lower panel: total AMG abundance (summed AMG\u2010associated KO abundance) in the 266 positive libraries from 20 cities, shown on a log10 scale.",
+   "Together, our findings support the value of incorporating urban bird virome surveillance into broader One Health surveillance frameworks and provide a basis for targeted longitudinal monitoring, molecular validation, and early identification of viral signals with potential public health relevance.METHODSStudy design and sample collectionBetween November 2024 and January 2025, sampling was conducted across 22 cities in 18 provincial\u2010level administrative regions of China."
+  ],
+  "limitation_sents": [
+   "This pattern may be driven by differences in ecological niche and dietary preferences, which may influence exposure to distinct viral communities and limit overlap with other avian groups.Several limitations should be considered when interpreting these findings."
+  ]
+ },
+ "imt2.70192": {
+  "data_availability": "Data Availability StatementThe curated study\u2010level data, metadata classifications, and accession\u2010code records that support the findings of this study are available at https://github.com/samd1993/MMC along with our analysis scripts, including a standalone tool that takes an accession and reports which BHAM tier the deposit satisfies, so that authors, reviewers, and editors can check a submission against the criteria used here before it is published. The list of studies along with all the variables collected is available as Data S1, and the harmonized per\u2010sample metadata file is provided as Data S2. Data S2 keeps each study's disease as a study\u2010level column and records each sample's case or control status separately, from the sample's own repository value. An earlier build of this file attributed the study's disease to samples whose records reported no disease or did not name one; the version provided here corrects that error. Supplementary materials (methods, figures, tables, graphical abstract, slides, videos, Chinese translated version, and updated materials) may be found in the online DOI or iMeta Science http://www.imeta.science/.",
+  "scale_sents": [
+   "Our resulting dataset consisted of articles from 2012 to 2025, spanning more than 50 countries, 6 continents, and a range of host body sites and disease groups (Figure S2; Tables S1 and S2).",
+   "Tier 2 studies at minimum included host disease status either as a metadata column or interpretable within the sample names (case1, control2, case3, etc.) (Figure S3).",
+   "Tier 3 studies provided accession codes but lacked our defined host biological metadata of interest.",
+   "Tier 4 studies lacked sample identifiers and annotations entirely or provided no accessible accession code in the manuscript.FIGURE 2Human microbiome data reusability from 2012 to 2025.",
+   "(E) Sample\u2010level view of the dataset (about 720,000 samples); one block represents 5000 samples, colored by the tier of the study they belong to.",
+   "OR, odds ratio; RRR, relative risk ratio.Of the 2896 studies analyzed, 1157 (40.0%) cited a public sequence accession code, and 1069 (36.9%) led to usable sequence data (Tiers 1\u20133; Figure 2A).",
+   "Across all 2,896 studies, 170 studies (5.9%) met Tier 1 criteria, 360 (12.4%) met Tier 2, 539 (18.6%) met Tier 3, and 1827 (63.1%) did not have accessible sequencing data and were thus labeled Tier 4 (Figure 2A).",
+   "Across the four tiers, study sample sizes summed to 36,503 samples in Tier 1 (170 studies), 67,855 in Tier 2 (360 studies), 163,569 in Tier 3 (539 studies), and 452,170 in Tier 4 (1827 studies; calculated by Tiers 1\u20133 sample size averages).",
+   "A natural\u2010spline year term fit no better than a linear one for any outcome (likelihood\u2010ratio p \u2265 0.20), and excluding the 888 studies from 2024 to 2025, whose deposits may have been incomplete when we curated them, strengthened rather than reversed these trends (Table S4).Where studies were published was only weakly related to reusability.",
+   "Modeling the probability that a study reached Tier 1 or Tier 2 as a function of journal impact factor, across the 53 journals with a Clarivate Journal Impact Factor and at least 10 studies represented, showed no association (OR = 1.08 per log10 unit, 95% confidence interval [CI] 0.72\u20131.61, p = 0.711, n = 1474; Figure 2B, Figure S5, and Table S3).",
+   "Reusability tiers did not differ significantly across continents with at least 20 studies (\u03c7 2 = 25.5, df = 18, p = 0.112; Figures S6B and S7A), and the year trend is unchanged when disease group, sequencing type, body site, and continent are added to the model or when standard errors are clustered by journal or disease group (Table S4).By quantifying study sample size via ENA, we show the number of microbiome samples that are lost due to a lack of metadata (Figure 2E).",
+   "Tier 1 and Tier 2 studies together contribute 104,358 of the 720,097 samples in our dataset, leaving approximately 615,739 samples (85.5%) that are lost due to a lack of structured metadata (Tier 4 study sample sizes calculated by taking the Tiers 1\u20133 average)."
+  ],
+  "limitation_sents": [
+   "These limitations contribute to persistent gaps in FAIR (Findable, Accessible, Interoperable, and Reusable) compliance [12].",
+   "AI, artificial intelligence; BHAM, Biological Host\u2010Associated AI\u2010Ready Metadata; DDBJ, DNA Data Bank of Japan; ENA, European Nucleotide Archive; SRA, Sequence Read Archive.MOST HUMAN MICROBIOME STUDIES LACK REUSABLE PER\u2010SAMPLE METADATATo quantify the impact of these limitations, we manually screened 23,781 articles following Preferred Reporting Items for Systematic Reviews and Meta\u2010Analyses (PRISMA) guidelines (Figure S1; see Methods in the Supporting Information), to procure 2896 human microbiome publications that involved DNA sequencing."
+  ]
+ }
+}
