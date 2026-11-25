@@ -1,0 +1,11 @@
+[project]
+name = "fprcheck"
+version = "0.1.0"
+description = "Set and check the false-positive-rate cut-off of a microbiome disease classifier at a new site (burn-in rule + 14-test atlas)"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy"]
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+[tool.setuptools.package-data]
+fprcheck = ["atlas_v5.csv"]

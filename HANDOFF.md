@@ -1,20 +1,19 @@
 # HANDOFF — read this first
 
-**Branch:** `claude/festive-cori-jft724` (fast-forward of `claude/trusting-mayer-1ipvjz`, which contains `claude/beautiful-goldberg-37nqmw`).
+**Branch:** `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-CYCLE 5 (user directive 2026-11-24, see USER_DIRECTIVES.md): v10 judged not good enough for iMeta readers.
-Done in cycle 5: 14-test atlas (H1-H4), Addendum A replication run once (H5 LASSO INCONCLUSIVE 10/14 P=0.090;
-H6 INCONCLUSIVE, only 4 non-EUNA pops -> geography stays EXPLORATORY), `fprcal` tool (code/tool, 11 tests pass),
-post hoc verification power (verify_power_v5.py: n=100 local healthy detects FPR>0.25 with power 0.98),
-Figure 1 v11 draft (manuscript/figures_v11/figure1_atlas.*; script v5/make_fig_atlas_v11.py).
-DONE: benchmark_v2 (45 iMeta papers, scorecard P75 total 69.25), manuscript_v11.md (Letter, figures_v11/), audit 82/82.
-IN PROGRESS: review round 9 on v11 (reviews/review_r9_0{1,2,3}_*.md + reviews/scorecard_r9_v11.md). If missing, relaunch.
-THEN: triage round 9 -> v12 -> repeat until USER_DIRECTIVES rule 3 (scorecard >= P75 on every dimension AND
-accept/minor) and two clean rounds. Also: Supporting Information v11 (SI numbering in v11 refers to S1-S4; regenerate).
-BLOCKED ON USER: DEBIAS-M comparator (pip install from GitHub denied by the permission system twice; CPU torch installs fine).
-Author/COI/funding/AI-statement placeholders, GitHub/Zenodo deposit.
+CYCLE 6, review round 10 on manuscript v12 (running 2026-11-25): reports -> Target_Journal_Submission/reviews/
+review_r10_0{1,2,3}_*.md + scorecard_r10_v12.md (blind, benchmark_v2 anchors). If missing, relaunch 3 fresh reviewers.
+Done since round 9: v12 (GMWI2 published-test audit, case-mix mechanism, v6c balancing); single SI
+(manuscript/supporting_information_v12.md + si_tables_v12.md, Tables S1-S25); figure source data (source_data_v12/);
+v12 number audit 143/143 (counts_v12.json). Then: triage r10 -> v13; target every scorecard dimension >= benchmark P75
+(USER_DIRECTIVES rule 3) and accept/minor from all reviewers, twice in a row.
+Parallel lines: this branch merged beautiful-goldberg (other session) on 2026-11-25; duplicate files of the parallel
+work are suffixed _alt_trusting. A background agent may write journal_selection/benchmark_v3/ (extra benchmark papers);
+benchmark_v2/ stays the scoring reference.
+BLOCKED ON USER: repo URL + Zenodo DOI, author/COI/funding/AI statement; DEBIAS-M install (denied).
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).
