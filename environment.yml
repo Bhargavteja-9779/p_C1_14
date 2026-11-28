@@ -1,6 +1,6 @@
 # Conda environment for the whole analysis (atlas, deployment, GMWI2 audit, figures, fprcal tests).
 # Create: conda env create -f environment.yml && conda activate fprcal-atlas
-# Versions are those of the runs reported in manuscript v15 (Python 3.13.18; packages as in
+# Versions are those of the runs reported in the submitted manuscript (v21) (Python 3.13.18; packages as in
 # Target_Journal_Submission/code/requirements.txt). Indirect dependencies are pinned to the versions used.
 name: fprcal-atlas
 channels:

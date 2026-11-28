@@ -1,0 +1,162 @@
+IBD lasso
+adenoma lasso
+T2D lasso
+CRC lasso
+IBD rf
+IGT lasso
+adenoma rf
+CAD lasso
+T2D rf
+HF lasso
+IGT rf
+ACVD lasso
+CAD rf
+cirrhosis lasso
+HF rf
+ACVD rf
+hypertension lasso
+schizophrenia lasso
+CRC rf
+ME/CFS lasso
+cirrhosis rf
+migraine lasso
+hypertension rf
+fatty_liver lasso
+schizophrenia rf
+ME/CFS rf
+fatty_liver rf
+migraine rf
+{
+ "reproduction": {
+  "rows": 219274,
+  "matched": 219274,
+  "max_abs_score_diff": 8.881784197001252e-16,
+  "max_abs_thr_diff": 1.1102230246251565e-16
+ },
+ "refit": {
+  "I2_median": 0.9365117458546425,
+  "I2_ge_050": 28,
+  "share_pairs_gt025": {
+   "lasso": 0.25971370143149286,
+   "rf": 0.16155419222903886
+  },
+  "share_pairs_gt025_all": 0.21063394683026584,
+  "range_n100": [
+   0.0,
+   0.8727272727272727
+  ],
+  "range_n100_lasso_max": 0.7697368421052632,
+  "pooled": {
+   "ACVD|lasso": 0.10013579568604508,
+   "ACVD|rf": 0.08927083520615878,
+   "CAD|lasso": 0.11505190198350687,
+   "CAD|rf": 0.10776368489926412,
+   "CRC|lasso": 0.05792987544786673,
+   "CRC|rf": 0.04983096475671624,
+   "HF|lasso": 0.19402027959481197,
+   "HF|rf": 0.20504460392229484,
+   "IBD|lasso": 0.18664726545192556,
+   "IBD|rf": 0.1322471260242015,
+   "IGT|lasso": 0.4188871793266135,
+   "IGT|rf": 0.007959387887352464,
+   "ME/CFS|lasso": 0.13812592822263828,
+   "ME/CFS|rf": 0.16052173743369696,
+   "T2D|lasso": 0.1303835991564349,
+   "T2D|rf": 0.07121524296547482,
+   "adenoma|lasso": 0.13134154478211585,
+   "adenoma|rf": 0.021815637333856767,
+   "cirrhosis|lasso": 0.12357604857075023,
+   "cirrhosis|rf": 0.17369384906689955,
+   "fatty_liver|lasso": 0.2562343124632921,
+   "fatty_liver|rf": 0.06328908962569546,
+   "hypertension|lasso": 0.13713520023052544,
+   "hypertension|rf": 0.01757318798286844,
+   "migraine|lasso": 0.09021591546183337,
+   "migraine|rf": 0.08217885327524331,
+   "schizophrenia|lasso": 0.2276302578209688,
+   "schizophrenia|rf": 0.24712490958086242
+  },
+  "pooled_range": {
+   "lasso": [
+    0.05792987544786673,
+    0.4188871793266135
+   ],
+   "rf": [
+    0.007959387887352464,
+    0.24712490958086242
+   ]
+  },
+  "pi_hi_lasso_range": [
+   0.21785632977591632,
+   0.8093946702067254
+  ],
+  "spearman_auroc_tau": [
+   -0.059660645867542425,
+   0.7629799320040598
+  ]
+ },
+ "fold": {
+  "I2_median": 0.9242941317928395,
+  "I2_ge_050": 26,
+  "share_pairs_gt025": {
+   "lasso": 0.15337423312883436,
+   "rf": 0.130879345603272
+  },
+  "share_pairs_gt025_all": 0.14212678936605316,
+  "range_n100": [
+   0.0,
+   0.8272727272727273
+  ],
+  "range_n100_lasso_max": 0.6454545454545455,
+  "pooled": {
+   "ACVD|lasso": 0.08085569697654538,
+   "ACVD|rf": 0.07965804968486376,
+   "CAD|lasso": 0.10188322134463619,
+   "CAD|rf": 0.0883785367177347,
+   "CRC|lasso": 0.05066662156143624,
+   "CRC|rf": 0.04449790528281177,
+   "HF|lasso": 0.13891553292847958,
+   "HF|rf": 0.1873258898512094,
+   "IBD|lasso": 0.16275706909573562,
+   "IBD|rf": 0.12539106662626676,
+   "IGT|lasso": 0.2890848427654691,
+   "IGT|rf": 0.004931171949873123,
+   "ME/CFS|lasso": 0.11987646719539655,
+   "ME/CFS|rf": 0.16457841869913362,
+   "T2D|lasso": 0.09662172494640964,
+   "T2D|rf": 0.05503756022652752,
+   "adenoma|lasso": 0.11928277488981805,
+   "adenoma|rf": 0.015616822572492957,
+   "cirrhosis|lasso": 0.10648374702565995,
+   "cirrhosis|rf": 0.17063071728983387,
+   "fatty_liver|lasso": 0.005270145570579465,
+   "fatty_liver|rf": 0.032160177527454405,
+   "hypertension|lasso": 0.04141271981300125,
+   "hypertension|rf": 0.013043744001130111,
+   "migraine|lasso": 0.0686683495802416,
+   "migraine|rf": 0.06485075679172592,
+   "schizophrenia|lasso": 0.14052343987069574,
+   "schizophrenia|rf": 0.2494838625830722
+  },
+  "pooled_range": {
+   "lasso": [
+    0.005270145570579465,
+    0.2890848427654691
+   ],
+   "rf": [
+    0.004931171949873123,
+    0.2494838625830722
+   ]
+  },
+  "pi_hi_lasso_range": [
+   0.008496792228237534,
+   0.704359275677669
+  ],
+  "spearman_auroc_tau": [
+   0.23347475242590693,
+   0.23180640060223315
+  ]
+ },
+ "pair_spearman_refit_vs_fold": 0.8530411266450096,
+ "pair_median_abs_diff": 0.01793758043758046
+}
