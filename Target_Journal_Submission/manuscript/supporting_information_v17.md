@@ -1,7 +1,7 @@
 # Supporting Information
 
 Reference numbers [n] refer to the main-text reference list. Supporting Figures S1 and S2 are supplied as separate files.
-All tables are in the Supporting Tables file (Tables S1–S25; Table S26 is in S7 below; numbered in order of first citation in the main text or here), generated from result files. Code paths are relative to
+All tables are in the Supporting Tables file (Tables S1–S25; Tables S26–S27 are in S7 below; numbered in order of first citation in the main text or here), generated from result files. Code paths are relative to
 `Target_Journal_Submission/code/`. Every confirmatory analysis followed an analysis plan committed to git before it was
 run (S5); everything else is labelled post hoc or exploratory.
 
@@ -265,32 +265,36 @@ intervals: v6c C1 −0.22 to −0.01 (was −0.23 to −0.03); v6b B2 41–149% 
 ## S7. Audit of a second published index: GMHI (plan v7)
 Plan `code/experiments/atlas/v7/protocol_v7_gmhi.md`, committed before any GMHI score was computed. GMHI (Gupta et al.
 2020) was re-implemented in Python from the developers' released script `GMHI.R` (repository jaeyunsung/GMHI_2020,
-commit 87fe9f6); the R script was not executed. Code: `v7/run_gmhi.py`; post hoc name check: `v7/posthoc_gmhi_names.py`.
+commit 87fe9f6); the R script was not executed. Code: `v7/run_gmhi.py`; post hoc: `v7/posthoc_gmhi_matching.py`,
+`v7/posthoc_gmhi_names.py`.
 
-**QC.** Q1: on the developers' example, our GMHI equals their output (max |difference| 4.9e-15). Q2: on
-101 samples present in both curatedMetagenomicData (MetaPhlAn3) and the developers' profiles
-(MetaPhlAn2), r = 0.80 (criterion ≥ 0.80; passed narrowly), sign agreement 85%.
-Four of the seven health-prevalent species (Alistipes senegalensis, Bacteroidales bacterium ph8, Lachnospiraceae
-bacterium 8_1_57FAA, Sutterella wadsworthensis) and 13 of the 43 health-scarce species do not occur under these names in
-any of the 61 curatedMetagenomicData studies. Post hoc, four health-scarce species have clear MetaPhlAn3 names
-(Hungatella hathewayi, Erysipelatoclostridium ramosum, Streptococcus anginosus group, Streptococcus mitis); renaming
-them changed little (r = 0.81; population ranking ρ = 0.996). On the overlapping
-samples, the share flagged was 70% with the developers' profiles and 85% with curatedMetagenomicData
-profiles, so flag levels in curatedMetagenomicData are inflated by the profiler version.
+**Q1 (passed).** On the developers' example our GMHI equals their output (max |difference| 4.9e-15).
 
 **Training FPR.** alpha_GMHI = 0.236: share of the 2,636 healthy samples in the developers' data with GMHI < 0
-(20 ties at exactly 0 counted as not flagged).
+(20 exact zeros counted as not flagged).
 
-| Hypothesis | Criterion | Result | Verdict |
-|---|---|---|---|
-| H1 heterogeneity, developers' data | I² ≥ 0.5 | I² 0.96 over 21 studies; range 0.03–0.90 | supported |
-| H2 East Asian excess, developers' data | one-sided MW P < 0.05 | median 0.67 (8 studies) vs 0.21 (13); P = 0.0007, Holm 0.0007 | supported |
-| H3 heterogeneity, unseen strict cMD | I² ≥ 0.5 | I² 0.96 over 34 populations | supported (level confounded by profiler, see QC) |
-| H4 miscalibration beyond noise | excess ≥ 20 pp, P < 0.05 | 26/34 outside 0.12–0.35 (23 above, 3 below) vs 4% expected; Holm P = 9.9e-43 | criterion met, not interpreted as a population effect (profiler version) |
-| H5 shared population effect with GMWI2 | Spearman ρ > 0, one-sided P < 0.05 | ρ = 0.70, 36 populations; Holm P = 2.3e-06 | supported |
-| H6 within-site burn-in | clustered 95% CI < 0 | mean error 0.257 → 0.054 (-79%); difference -0.252, CI -0.387 to -0.133; 12/13 populations; P < 0.0002 | supported |
+**Developers' own data (pre-specified; not affected by the issues below).**
+- H1 heterogeneity: I² 0.96 over 21 studies with ≥ 20 healthy people (share flagged 0.03–0.90). Supported.
+- H2 East Asian excess: median 0.67 (8 studies) vs 0.21 (13); one-sided Mann–Whitney
+  P = 0.0007, Holm-adjusted 0.0007. Supported.
 
-Full set (sensitivity): 53 unseen populations, I² 0.96; East Asian unseen median 0.84 vs 0.48.
+**curatedMetagenomicData part: Q2 failed; H3–H6 not interpreted.** Deviation found in review: the plan matched samples
+by accession, but the developers record BioSample accessions and curatedMetagenomicData records sample names and run
+accessions, so the original run matched only 2 studies (101 samples; r = 0.80) and misclassified at least 10
+"unseen" strict populations as unseen (corrected: 24 of 36 unseen). Matching also through the developers'
+sample titles and subject IDs (post hoc) gives 2,190 samples in 19 studies: Pearson r = 0.795 (gate ≥ 0.80: failed),
+within-study r = 0.71. Following the plan, H3–H6 are reported only for completeness and are not interpreted
+(original run: H3 I² 0.96; H4 26/34 outside the band; H5 Spearman ρ with GMWI2 0.70; H6 burn-in error
+0.26 → 0.05). Exact zeros (no MH or MN species detected) were counted as not flagged; there are
+137 in the strict set, concentrated in non-industrialised populations (e.g. SmitsSA_2017 29/31, PasolliE_2019 17/111, RubelMA_2020 17/76, RampelliS_2015 16/33),
+which the plan required to be reported separately.
+
+**Why Q2 fails (post hoc).** Four of the seven health-prevalent species (Alistipes senegalensis, Bacteroidales bacterium
+ph8, Lachnospiraceae bacterium 8_1_57FAA, Sutterella wadsworthensis) and 13 of the 43 health-scarce species do not occur
+under these names in any of the 61 curatedMetagenomicData studies (MetaPhlAn3); four health-scarce species have clear
+new names, and renaming them changed little. On the 2,190 matched samples the share flagged was 23% with the
+developers' MetaPhlAn2 profiles and 43% with curatedMetagenomicData MetaPhlAn3 profiles; per study the shift ranged from
+0 to 74 percentage points (Spearman ρ of study flag rates across versions 0.69; Figure S2B).
 
 ### Table S26. GMHI in the developers' own healthy data, by study
 
@@ -317,3 +321,20 @@ Full set (sensitivity): 53 unseen populations, I² 0.96; East Asian unseen media
 | V-8                         | Qin (2012)                                            | Chinese                                      | yes          |  61 |        48 |           0.787 |
 | V-2                         | Jie (2017)                                            | Chinese                                      | yes          |  75 |        62 |           0.827 |
 | S-7                         | He (2017)                                             | Chinese                                      | yes          |  39 |        35 |           0.897 |
+
+### Table S27. The same samples scored from two profiler versions (studies with ≥ 20 matched healthy samples)
+
+| study               |   n |   flag_dev |   flag_cmd | country   |   shift |
+|:--------------------|----:|-----------:|-----------:|:----------|--------:|
+| HMP_2012            |  85 |      0.294 |      0.647 | USA       |   0.353 |
+| JieZ_2017           |  85 |      0.824 |      0.941 | CHN       |   0.118 |
+| LeChatelierE_2013   | 217 |      0.194 |      0.382 | DNK       |   0.189 |
+| LiJ_2017            |  35 |      0.314 |      0.857 | CHN       |   0.543 |
+| Obregon-TitoAJ_2015 |  29 |      0.655 |      0.655 | PER       |   0     |
+| QinJ_2012           | 115 |      0.809 |      0.948 | CHN       |   0.139 |
+| QinN_2014           | 100 |      0.41  |      0.94  | CHN       |   0.53  |
+| RaymondF_2016       |  23 |      0.174 |      0.913 | CAN       |   0.739 |
+| SchirmerM_2016      | 451 |      0.102 |      0.146 | NLD       |   0.044 |
+| VogtmannE_2016      |  51 |      0.588 |      0.824 | USA       |   0.235 |
+| ZeeviD_2015         | 883 |      0.088 |      0.322 | ISR       |   0.233 |
+| ZellerG_2014        |  61 |      0.459 |      0.59  | FRA       |   0.131 |

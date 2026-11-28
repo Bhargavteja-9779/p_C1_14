@@ -1,0 +1,40 @@
+{
+ "n_overlap": 2190,
+ "studies": 19,
+ "pearson": 0.7950423121379722,
+ "within_study_pearson": 0.7085039835564652,
+ "flag_dev_profiles": 0.2273972602739726,
+ "flag_cmd_profiles": 0.4328767123287671,
+ "Q2_pass": false,
+ "shift_studies": 12,
+ "shift_range": [
+  0.0,
+  0.7391304347826086
+ ],
+ "rank_spearman_dev_vs_cmd": 0.6853146853146854,
+ "strict_pops": 36,
+ "strict_unseen_corrected": 24,
+ "strict_ties_total": 137,
+ "ties_top": [
+  [
+   "SmitsSA_2017",
+   29,
+   31
+  ],
+  [
+   "PasolliE_2019",
+   17,
+   111
+  ],
+  [
+   "RubelMA_2020",
+   17,
+   76
+  ],
+  [
+   "RampelliS_2015",
+   16,
+   33
+  ]
+ ]
+}

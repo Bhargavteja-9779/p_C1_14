@@ -4,9 +4,9 @@
 
 | File | What |
 |---|---|
-| `manuscript_v17.md` / `.docx` | Main text (~2,290 words, title to conclusion), 3 figures + 2 supporting figures, 32 references, figure legends, statements |
-| `supporting_information_v17.docx` (upload this; it includes the tables) — sources `supporting_information_v17.md` + `si_tables_v16.md` | SI S1–S7 (methods, plans and deviations, failed attempts, GMHI audit), Tables S1–S26 |
-| `figures/` | Figure 1–3, Figures S1–S2, graphical abstract (PDF vector + PNG 300 dpi) |
+| `manuscript_v17.md` / `.docx` | Main text (~2,300 words, title to conclusion), 3 figures + 2 supporting figures, 32 references, figure legends, statements |
+| `supporting_information_v17.docx` (upload this; it includes the tables) — sources `supporting_information_v17.md` + `si_tables_v16.md` | SI S1–S7 (methods, plans and deviations, failed attempts, GMHI audit), Tables S1–S27 |
+| `figures/` | Figure 1–3, Figures S1–S2, graphical abstract v17 (PDF vector + PNG 300 dpi) |
 | `highlights.md` | 3 highlights |
 | `SUBMISSION_REPORT.md` | What improved, comparison with published iMeta papers, acceptance assessment |
 | `cover_letter_v17.md` | Cover letter (placeholders for the corresponding author) |

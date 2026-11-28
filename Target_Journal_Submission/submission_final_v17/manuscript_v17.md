@@ -5,11 +5,11 @@
 **Authors:** [to be completed by the authors]
 
 **Graphical-abstract summary.** A gut-microbiome test is published with one cut-off and one false-positive rate (FPR). In
-6,525 healthy adults from 36 populations, the same cut-offs of 28 disease classifiers flagged 0% to 87% of healthy
-people in populations of at least 100. Two published gut-health indices, GMWI2 and GMHI, each labelled most healthy
-people in their own East Asian training studies as non-healthy. A published gut-health index labelled 64% of healthy people in its own East Asian training studies as
-non-healthy, against 12% elsewhere, a model artefact traced to the geographic make-up of its training data. Within a
-site, recalibrating the cut-off on 100 unlabelled local people cut the FPR error by 62% in retrospective tests.
+36 healthy populations (6,525 adults), the same cut-offs of 28 disease classifiers flagged 0% to 87% of healthy people,
+depending on the population. Two published gut-health indices labelled a median of 64% (GMWI2) and 67% (GMHI) of healthy
+people in their own East Asian training studies as non-healthy, against 12% and 21% elsewhere; for GMWI2, retraining
+linked this to the geographic make-up of its training data. Within a site, recalibrating the cut-off on 100 unlabelled
+local people cut the FPR error by 62% in retrospective tests.
 
 ---
 
@@ -89,11 +89,12 @@ To test whether this was specific to GMWI2, we audited its predecessor, the Gut 
 under a second pre-specified plan (Figure S2). Our re-implementation reproduced the developers' script exactly. In the
 developers' own data, GMHI labelled 3% to 90% of healthy people as non-healthy across 21 studies (I² = 0.96; 24%
 overall), and the eight East Asian studies had a median of 0.67 against 0.21 in the 13 others (one-sided P = 0.0007,
-Holm-adjusted). In curatedMetagenomicData, the GMHI and GMWI2 flag rates of the same populations were correlated
-(Spearman ρ = 0.70, 36 populations), although the two indices use different algorithms and markers. The level of GMHI
-there is not interpretable on its own: four of its seven health-prevalent species do not exist under the MetaPhlAn3
-names that curatedMetagenomicData uses, and on 101 samples profiled with both versions this raised the share flagged
-from 70% to 85% (post hoc). A released cut-off therefore depends on the profiling software as well as on the population.
+Holm-adjusted), so the East Asian excess replicated in an index built with a different algorithm and different
+markers. The plan's second part, scoring GMHI on curatedMetagenomicData, failed its pre-specified reproducibility gate
+(r = 0.80 required; 0.795 on 2,190 samples profiled both ways), and we do not interpret it. The reason is itself a
+warning: four of GMHI's seven health-prevalent species do not exist under the MetaPhlAn3 names that
+curatedMetagenomicData uses, and on the same samples the share flagged rose from 23% to 43%, by 0 to 74 points
+depending on the study (post hoc; Figure S2B). A released cut-off therefore also depends on the profiling software.
 
 ## WHY: THE GEOGRAPHIC MAKE-UP OF THE TRAINING DATA
 
@@ -141,14 +142,13 @@ It did, in retrospective tests; no prospective test was run. In the 13 populatio
 people, setting the cut-off on 100 people from a non-random part of each population (the first 100 in accession order,
 or the younger or leaner half) and evaluating on the rest cut the mean absolute FPR error from 0.101 to 0.038 (−62%;
 28/28 classifiers improved, meeting the pre-specified criterion; post hoc population-clustered 95% CI 51–70%, 13/13
-populations; Figure 3A). For GMWI2, in the same populations, the error fell from 0.21 to 0.04 (−79%, CI 64–85%), and for
-GMHI from 0.26 to 0.05 (−79%; 12 of 13 populations; Figure S2C), which also removed the shift caused by the profiling
-software. Across
+populations; Figure 3A). For GMWI2, in the same populations, the error fell from 0.21 to 0.04 (−79%, CI 64–85%). Across
 sites, the rule broke: a burn-in from one city or country, applied in another, was no better than the training cut-off
 (S4). It must be run at the site that uses the test and repeated when sample handling or the population served changes.
 
-Recalibration costs sensitivity. In three case–control cohorts where the training cut-off flagged 29% of controls,
-reaching the 10% target cut sensitivity from 0.46 to 0.21–0.23 (100 labelled local controls: 0.25; Figure 3B). The rule
+Recalibration costs sensitivity, because lowering the FPR to its target moves the test along its ROC curve. In three
+case–control cohorts where the training cut-off flagged 29% of controls, reaching the 10% target cut sensitivity from
+0.46 to 0.21–0.23 (100 labelled local controls: 0.25; Figure 3B). The rule
 therefore suits screening, where almost everyone tested is healthy, not tests of referred patients. A site can also
 check a stated FPR: an exact binomial test on 100 local healthy people flags, on average, 98% of atlas pairs whose FPR
 exceeds 0.25 (Figure S1B; post hoc). We release the atlas and these procedures as fprcal, a small Python tool.
@@ -165,14 +165,14 @@ FPR they deliver at new sites.
 
 Our study has limits. All profiles came from one pipeline (MetaPhlAn3); our classifiers used fixed settings, and seven
 had an AUROC below 0.6. "Population" includes each study's sample handling, which we cannot separate from biology. We did
-not run DEBIAS-M, MMUPHin or ConQuR [32]. GMHI could be scored on curatedMetagenomicData only with four of its seven
-health-prevalent species missing. The strict set and the East Asian comparisons were chosen after seeing results.
+not run DEBIAS-M, MMUPHin or ConQuR [32]. GMHI could not be transferred to curatedMetagenomicData profiles (four of its seven
+health-prevalent species missing), so its audit rests on the developers' own data. The strict set and the East Asian comparisons were chosen after seeing results.
 All site-level results are retrospective; a prospective deployment is needed.
 
 ## METHODS
 
 Full methods, analysis plans and deviations, every correction we tried (including those that failed), Supporting
-Figures S1–S2 and Tables S1–S26 are in the Supporting Information. In brief: MetaPhlAn3 relative abundances of all clades
+Figures S1–S2 and Tables S1–S27 are in the Supporting Information. In brief: MetaPhlAn3 relative abundances of all clades
 (kingdom to species) present in > 5% of training samples (GMWI2: presence of its 95 taxa); one sample per person, and
 samples duplicated across studies removed (119); strict set = general-population healthy adults without antibiotic use
 (hospital, pregnancy, trial and colonoscopy-referral control groups excluded); LASSO (C = 0.1) and random forest (500
@@ -284,9 +284,8 @@ in the burn-in group (blue), and a cut-off set on 100 labelled local controls (g
 **Supporting Figure S2. Audit of a second published index, GMHI (plan v7).** (A) Share of healthy people labelled
 non-healthy (GMHI < 0) in the developers' own data, per study (21 studies with ≥ 20 healthy people; GMHI recomputed with
 the developers' script on their profiles); orange, East Asian studies; bars, exact 95% intervals; dashed line, overall
-training rate 0.24. (B) GMHI against GMWI2 flag rates in 36 strict curatedMetagenomicData populations (n ≥ 20). (C)
-Within-site burn-in (N = 100) against the published cut-off, mean absolute deviation from 0.24 per population (13
-populations with ≥ 120 people).
+training rate 0.24. (B) The same samples scored from two profiles (post hoc): share flagged with the developers' MetaPhlAn2 profiles
+against curatedMetagenomicData MetaPhlAn3 profiles, per study (12 studies with ≥ 20 matched healthy samples).
 
 **Supporting Figure S1.** (A) Exact probability that the realised FPR exceeds 0.15 when the cut-off is the k-th smallest
 of N burn-in scores (expected-FPR rule, blue; rule bounding P(FPR > 0.10) at 0.05, violet). (B) Probability that an exact

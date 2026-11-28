@@ -49,3 +49,9 @@ Figures 1, 3 and S1 are unchanged from v15 (copied to `manuscript/figures_v16/`)
 
 **Rebuild check (v16):** `rebuild_figures.py` now runs the v16 scripts for Figure 2 and the graphical abstract; all five
 submitted PNGs were pixel-identical on 2026-11-25.
+
+## v17 additions
+- Figure 3 (rows labelled): `v5/make_fig_site_v17.py` → `manuscript/figures_v17/` (same inputs as v15).
+- Graphical abstract (panel 2 note reads "linked by retraining to …"): `make_graphical_abstract_v17.py` (same inputs).
+- Figure S2 (GMHI audit, plan v7): `v7/make_fig_gmhi_v17.py`; inputs `v7/results/gmhi_results.json`,
+  `gmhi_dev_perstudy.csv`, `gmhi_profiler_shift_perstudy.csv`, `posthoc_gmhi_matching.json`.

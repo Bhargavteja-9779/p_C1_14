@@ -13,18 +13,18 @@ Gut-microbiome classifiers are validated by AUROC across cohorts, but a test in 
 false-positive rate decides how many healthy people are referred for follow-up, for example to colonoscopy. We measured
 that rate for 28 classifiers of 14 diseases in every eligible healthy adult population in curatedMetagenomicData
 (36 populations, 6,525 people, 20 countries). At a cut-off set for a 10% false-positive rate, the realised rate ranged
-from 0% to 87% in populations of at least 100 people, far beyond sampling noise for every classifier, and AUROC did not
+from 0% to 87% (populations of at least 100 people), far beyond sampling noise for every classifier, and AUROC did not
 predict the spread.
 
 The Letter makes three contributions:
-- **An atlas.** The first cross-disease, cohort-by-cohort map of the false-positive rate of fixed-cut-off microbiome
+- **An atlas.** A cross-disease, cohort-by-cohort map of the false-positive rate of fixed-cut-off microbiome
   tests in healthy general populations, with heterogeneity statistics and prediction intervals for a new population.
-- **An audit of two released indices.** The Gut Microbiome Wellness Index 2 labelled 64% of healthy people in its own
-  East Asian training studies as non-healthy, against 12% elsewhere, and a pre-specified audit of its predecessor, the
-  Gut Microbiome Health Index, replicated the pattern (67% vs 21%). Retraining the published GMWI2 recipe reproduced
+- **An audit of two released indices.** In its own East Asian training studies, the Gut Microbiome Wellness Index 2
+  labelled a median of 64% of healthy people per study as non-healthy, against 12% elsewhere, and a pre-specified audit
+  of its predecessor, the Gut Microbiome Health Index, replicated the pattern in the developers' own data (67% vs 21%). Retraining the published GMWI2 recipe reproduced
   the effect and linked it to the geographic make-up of the training data; we state clearly that this is a property of
-  the models, not evidence about East Asian microbiomes. GMHI also showed that a released cut-off shifts with the
-  profiling software version.
+  the models, not evidence about East Asian microbiomes. GMHI could not be transferred to newer profiles, which
+  shows that a released cut-off also depends on the profiling software version.
 - **A practical check for sites.** A known order-statistic rule applied to 100 unlabelled local people cut the
   false-positive-rate error by 62% within sites in retrospective non-random splits, failed across sites, and costs
   sensitivity. We release the atlas, the 14 LASSO classifiers and these procedures as a tested Python tool (fprcal).
