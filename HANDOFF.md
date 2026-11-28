@@ -1,17 +1,16 @@
 # HANDOFF — read this first
 
 **Branch:** `claude/bold-clarke-qsp9pf` (2026-11-28: fast-forwarded onto `claude/sharp-meitner-guez1q`, the most recent line, v17; bold-clarke's own earlier commits were already ancestors). Earlier lines: sharp-meitner <- zen-planck <- festive-cori <- trusting-mayer <- beautiful-goldberg.
-**Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** final polishing (USER_DIRECTIVES rule 3: every scorecard dimension >= benchmark P75)
+**Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** final package v22 (USER_DIRECTIVES rule 3: 9/10 dimensions >= P75; clarity borderline)
 
 ## NEXT ACTION
-Current package: Target_Journal_Submission/submission_final_v19/ (manuscript v19 + SI docx, figures incl. Figure 1 v19,
-graphical abstract v18, highlights, cover letter v19). History this session: v17 r16 77/100 (clarity 7 < P75 7.25) ->
-v18 clarity pass -> blind r17 73/100 (clarity, reproducibility below P75; 9 wording items) -> v19 -> blind r18 (see
-reviews/review_r18_editor_blind_v19.md). If r18 leaves required items, fix them (text only; no new confirmatory
-analyses) and re-review once more. Reproducibility cannot reach P75 until the repo is public (author-only).
-BLOCKED ON USER (author-only): author list/affiliations, CRediT, COI, funding, AI-use statement, public repo + Zenodo
-DOI + tagged fprcal release, right of reply to GMWI2 and GMHI developers, suggested reviewers, iMeta guideline check,
-Poyet 2026 full-text check for GMHI.
+Package ready: Target_Journal_Submission/submission_final_v22/ (see FINAL_REPORT.md). G10 met (blind panels r19 7/8/7
+and r20 7.5/8/7, all minor). Only open quality item: clarity scored 7/8/6 vs P75 7.25 in r20; v22 cut main-text
+numerals to 134 but was not re-scored. Optional next step: one blind editor check of v22 for clarity. Open technical
+items (not required): Fig 1A marker overlap, single build entry point, fail-hard on missing studies.
+BLOCKED ON USER (author-only): author list/affiliations, CRediT, COI, funding, AI-use statement (must mention simulated
+review rounds named in plans v6/v7), public repo + Zenodo DOI + tagged fprcal release, right of reply to GMWI2 and GMHI
+developers, suggested reviewers, iMeta guideline check, Poyet 2026 full-text check.
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).

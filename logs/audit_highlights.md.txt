@@ -1,1 +1,1 @@
-checked 10 numbers, unmatched 0
+checked 5 numbers, unmatched 0

@@ -1,0 +1,8 @@
+{
+ "oob_all": 0.6983640081799591,
+ "oob_auroc_ge_065": 0.6487455197132617,
+ "pairs_auroc_ge_065": 558,
+ "oob_auroc_lt_06": 0.854251012145749,
+ "expected_oob_if_true_fpr_010": 0.15700282567073323,
+ "meanlogit_fold_share_below_005_all": 0.43047034764826175
+}
