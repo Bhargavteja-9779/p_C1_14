@@ -25,7 +25,8 @@ The Letter makes three contributions:
   same studies (67% vs 21%). Retraining the published GMWI2 recipe reproduced
   the effect and linked it to the geographic make-up of the training data; we state clearly that this is a property of
   the models, not evidence about East Asian microbiomes. GMHI could not be transferred to newer profiles, which
-  shows that a released cut-off also depends on the profiling software version.
+  shows that a released cut-off also depends on the profiling pipeline (MetaPhlAn version and
+  reference database).
 - **A practical check for sites.** A known order-statistic rule applied to 100 unlabelled local people cut the
   false-positive-rate error by 62% within sites in retrospective non-random splits, failed across sites, and costs
   sensitivity. We release the atlas, the 14 LASSO classifiers and these procedures as a tested Python tool (fprcal).

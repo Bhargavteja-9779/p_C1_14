@@ -79,7 +79,7 @@ within each plan's confirmatory family, and across all 34 population-level P val
   Within-study AUROC fell only from 0.669 to 0.649 (−0.020; CI −0.052 to 0.013; post hoc).
 - **Burn-in sensitivity.** With no patients in the burn-in group, sensitivity was about 0.25 (100 labelled local
   controls: 0.245); 1–10% patients cost a further 0.02–0.04.
-- **Binomial check.** n = 100: 98% power for pairs with observed FPR > 0.25 and 72% for > 0.15 (average over the atlas);
+- **Binomial check.** n = 100: 98% power for pairs with observed FPR > 0.25 and 72% for > 0.15 (average over the LASSO atlas pairs; 97% for RF);
   lower at an FPR of exactly 0.25.
 
 ## S3. Taxa behind the false alarms

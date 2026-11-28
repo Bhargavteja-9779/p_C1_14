@@ -91,13 +91,14 @@ under a second pre-specified plan (Figure S2). Our re-implementation reproduced 
 developers' own data, GMHI labelled 3% to 90% of healthy people as non-healthy across 21 studies (I² = 0.96; 24%
 overall), and the eight East Asian studies had a median of 0.67 against 0.21 in the 13 others (one-sided P = 0.0007,
 Holm-adjusted). GMHI uses a different algorithm and different markers, but its training data largely overlap with
-GMWI2's (82% of its healthy samples; 15 of 21 studies), so this is a replication in a second model rather than in
+GMWI2's (83% of its healthy samples; 15 of 21 studies), so this is a replication in a second model rather than in
 independent data; in the six studies not shared with GMWI2 the direction was the same (median 0.63 vs 0.17, three
-studies each; post hoc). The plan's second part, scoring GMHI on curatedMetagenomicData, failed its pre-specified reproducibility gate
-(r = 0.80 required; 0.795 on 2,190 samples profiled both ways), and we do not interpret it. The reason is itself a
+studies each; one-sided P = 0.10; post hoc). The plan's second part, scoring GMHI on curatedMetagenomicData, failed its pre-specified reproducibility gate
+(r = 0.80 required; 0.795 on 2,190 samples profiled both ways, after we corrected a sample-matching error in the planned
+analysis; S7), and we do not interpret it. The reason is itself a
 warning: four of GMHI's seven health-prevalent species do not exist under the MetaPhlAn3 names that
 curatedMetagenomicData uses, and on the same samples the share flagged rose from 23% to 43%, by 0 to 74 points
-depending on the study (post hoc; Figure S2B). A released cut-off therefore also depends on the profiling software.
+depending on the study (post hoc; Figure S2B). A released cut-off therefore also depends on the profiling pipeline (MetaPhlAn version and reference database).
 
 ## WHY: THE GEOGRAPHIC MAKE-UP OF THE TRAINING DATA
 
@@ -153,7 +154,7 @@ Recalibration costs sensitivity, because lowering the FPR to its target moves th
 case–control cohorts where the training cut-off flagged 29% of controls, reaching the 10% target cut sensitivity from
 0.46 to 0.21–0.23 (100 labelled local controls: 0.25; Figure 3B). The rule
 therefore suits screening, where almost everyone tested is healthy, not tests of referred patients. A site can also
-check a stated FPR: an exact binomial test on 100 local healthy people flags, on average, 98% of atlas pairs whose FPR
+check a stated FPR: an exact binomial test on 100 local healthy people flags, on average, 98% of LASSO atlas pairs (97% for RF) whose FPR
 exceeds 0.25 (Figure S1B; post hoc). We release the atlas and these procedures as fprcal, a small Python tool.
 
 ## CONCLUSION

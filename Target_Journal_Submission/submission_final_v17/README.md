@@ -25,3 +25,4 @@ figure source data (`manuscript/source_data_v16/`, pixel-identical rebuild), `RE
 7. Check the current iMeta author guidelines in the submission system (the Wiley author page could not be read from
    the build environment): Letter length and figure limits, highlights, graphical abstract size, keyword count,
    structured abstract (published Letters have none).
+8. Check the full text of Poyet et al. (Cell 2026) for GMHI results in non-industrialised populations; cite in the GMHI paragraph if present.

@@ -7,4 +7,4 @@
   Asian training studies as non-healthy, against 12% and 21% elsewhere (the two share most training studies); for
   GMWI2, retraining linked this to the geographic make-up of the training data.
 - Recalibrating the cut-off on 100 unlabelled local people cut the false-positive-rate error by 62% within sites in
-  retrospective tests, but not across sites; a released cut-off also shifted with the profiling software version.
+  retrospective tests, but not across sites; a released cut-off also shifted with the profiling pipeline.

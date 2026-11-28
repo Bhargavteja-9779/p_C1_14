@@ -4,12 +4,13 @@
 **Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
 
 ## NEXT ACTION
-FINAL PACKAGE READY: Target_Journal_Submission/submission_final_v16/ (manuscript v16 + SI docx, figures, graphical
-abstract, highlights, cover letter, SUBMISSION_REPORT.md). Round 13 triaged into v16; final blind editor check r14
-(reviews/review_r14_editor_final_v16.md): 75/100, send to review; its required text items are fixed. Work happens on
-branch `claude/sharp-meitner-guez1q` (contains zen-planck v15 line).
+FINAL PACKAGE: Target_Journal_Submission/submission_final_v17/ (manuscript v17 + SI docx, figures incl. S2 GMHI,
+graphical abstract v17, highlights, cover letter, SUBMISSION_REPORT.md). Final blind check r16: 77/100, ready after
+minor changes (fixed). Plan v7 (GMHI) in code/experiments/atlas/v7 (results/README.md says which outputs are
+authoritative). Branch `claude/sharp-meitner-guez1q`.
 BLOCKED ON USER (author-only): author list/affiliations, CRediT, COI, funding, AI-use statement, public repo + Zenodo
-DOI + tagged fprcal release, right of reply to GMWI2 developers, suggested reviewers, check of current iMeta guidelines.
+DOI + tagged fprcal release, right of reply to GMWI2 and GMHI developers, suggested reviewers, iMeta guideline check,
+Poyet 2026 full-text check for GMHI.
 
 ## One-line summary
 - **Journal:** iMeta (Wiley), Short Communication; Letter received→accepted median 33 d / P75 52 d (n=67, verified via PubMed). JIF/quartile Q1 per secondary sources only (JCR not reachable: UNVERIFIED). Fallback: Frontiers in Microbiology (59/79 d).
