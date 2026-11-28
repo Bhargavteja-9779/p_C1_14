@@ -274,7 +274,8 @@ offset sideways for legibility (other regions 0.19 → 0.22, so part of the gap 
 dashed line, training FPR 0.21.
 
 **Figure 3. What a site can do.** (A) Mean absolute deviation of the FPR from 0.10 within a site: training cut-off
-(ochre) versus burn-in on 100 people from a non-random part of the same population (blue), for each of 28 classifiers.
+(ochre) versus burn-in on 100 people from a non-random part of the same population (blue), for each of 28 classifiers
+(rows labelled by test and model).
 Each classifier is evaluated in 11–13 populations of the full set with ≥ 120 people × non-random splits (accession
 order, age, body-mass index); 646 evaluations in total (Table S5). (B) Sensitivity against FPR at N = 100, averaged over three case–control cohorts (one
 CRC, two T2D): training cut-off (ochre; does not depend on the burn-in), expected-FPR burn-in with 1%, 5% or 10% patients
