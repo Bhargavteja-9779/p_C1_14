@@ -1,0 +1,35 @@
+{
+ "H4_as_reported": {
+  "units": 646,
+  "populations": 13,
+  "tests": 28,
+  "tests_burn_better": 28,
+  "mean_src": 0.1007564654757984,
+  "mean_burn": 0.0382399211461547,
+  "rel_reduction": 0.6204717884298959,
+  "wilcoxon_two_sided_p": 7.450580596923828e-09
+ },
+ "H4_cov_n_ge_150": {
+  "units": 646,
+  "populations": 13,
+  "tests": 28,
+  "tests_burn_better": 28,
+  "mean_src": 0.1007564654757984,
+  "mean_burn": 0.0382399211461547,
+  "rel_reduction": 0.6204717884298959,
+  "wilcoxon_two_sided_p": 7.450580596923828e-09
+ },
+ "cov_units_dropped": 0,
+ "cov_units_n_min": 251,
+ "binomial_check": {
+  "n": 100,
+  "h0_fpr": 0.15,
+  "level": 0.05,
+  "critical_count": 22,
+  "power": {
+   "0.2": 0.3459667819753413,
+   "0.25": 0.7885649618266249,
+   "0.3": 0.9711687468793933
+  }
+ }
+}
