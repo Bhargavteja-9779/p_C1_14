@@ -1,0 +1,159 @@
+{
+ "source": "jaeyunsung/GMHI_2020 commit 87fe9f6eb96b154683c454067456be48a96bbd9c (cloned 2026-11-28)",
+ "Q1_max_abs_diff": 4.884981308350689e-15,
+ "alpha_gmhi": 0.23634294385432472,
+ "n_healthy_dev": 2636,
+ "ties_dev": 20,
+ "H1": {
+  "k": 21,
+  "pooled": 0.3803646119369064,
+  "tau": 1.3127722236231747,
+  "I2": 0.9622272995554254,
+  "Q_p": 1.926812349987813e-99,
+  "pi_lo": 0.035394195917568115,
+  "pi_hi": 0.9112642305262647,
+  "verdict": "supported"
+ },
+ "H2": {
+  "n_ea": 8,
+  "n_other": 13,
+  "median_ea": 0.6734265734265734,
+  "median_other": 0.20512820512820512,
+  "p": 0.0006683375104427736,
+  "verdict": "supported"
+ },
+ "Q2": {
+  "n_overlap": 101,
+  "pearson": 0.8033365648730312,
+  "sign_agreement": 0.8514851485148515,
+  "missing_species_in_cMD": {
+   "MH": [
+    "s__Alistipes_senegalensis",
+    "s__Bacteroidales_bacterium_ph8",
+    "s__Lachnospiraceae_bacterium_8_1_57FAA",
+    "s__Sutterella_wadsworthensis"
+   ],
+   "MN": [
+    "s__Atopobium_parvulum",
+    "s__candidate_division_TM7_single_cell_isolate_TM7c",
+    "s__Clostridium_hathewayi",
+    "s__Clostridium_nexile",
+    "s__Clostridium_ramosum",
+    "s__Erysipelotrichaceae_bacterium_2_2_44A",
+    "s__Granulicatella_adiacens",
+    "s__Lachnospiraceae_bacterium_1_4_56FAA",
+    "s__Lachnospiraceae_bacterium_2_1_58FAA",
+    "s__Lachnospiraceae_bacterium_3_1_57FAA_CT1",
+    "s__Lachnospiraceae_bacterium_5_1_57FAA",
+    "s__Lachnospiraceae_bacterium_9_1_43BFAA",
+    "s__Streptococcus_anginosus",
+    "s__Streptococcus_mitis_oralis_pneumoniae",
+    "s__Subdoligranulum_sp_4_3_54A2FAA"
+   ]
+  },
+  "pass": true
+ },
+ "strict": {
+  "unseen_pops": 34,
+  "unseen_people": 6383,
+  "seen_pops": 2,
+  "fpr_unseen_range": [
+   0.03333333333333333,
+   0.9595375722543352
+  ],
+  "fpr_unseen_median": 0.46569548872180455,
+  "ea_unseen_median": 0.8449864498644987,
+  "other_unseen_median": 0.4128580323785803,
+  "n_ea_unseen": 6,
+  "H3": {
+   "k": 34,
+   "pooled": 0.4922961259831063,
+   "tau": 0.9073025843517194,
+   "I2": 0.9649939161585696,
+   "Q_p": 1.0785835325158383e-176,
+   "pi_lo": 0.1291005821373261,
+   "pi_hi": 0.8638096408054189,
+   "verdict": "supported"
+  },
+  "H4": {
+   "band": [
+    0.11817147192716236,
+    0.35451441578148707
+   ],
+   "n_out": 26,
+   "n": 34,
+   "out_observed": 0.7647058823529411,
+   "out_expected": 0.04031644102019893,
+   "n_below": 3,
+   "n_above": 23,
+   "excess_pp": 72.43894413327422,
+   "p": 3.2841835084391693e-43,
+   "verdict": "supported"
+  }
+ },
+ "full": {
+  "unseen_pops": 53,
+  "unseen_people": 8018,
+  "seen_pops": 2,
+  "fpr_unseen_range": [
+   0.03333333333333333,
+   0.9595375722543352
+  ],
+  "fpr_unseen_median": 0.5230769230769231,
+  "ea_unseen_median": 0.8444444444444444,
+  "other_unseen_median": 0.481171679197995,
+  "n_ea_unseen": 7,
+  "H3": {
+   "k": 53,
+   "pooled": 0.5343522608529236,
+   "tau": 0.8688789065067676,
+   "I2": 0.9557453574675856,
+   "Q_p": 7.973680668364667e-212,
+   "pi_lo": 0.16446686386816112,
+   "pi_hi": 0.8699608461491316,
+   "verdict": "supported"
+  },
+  "H4": {
+   "band": [
+    0.11817147192716236,
+    0.35451441578148707
+   ],
+   "n_out": 42,
+   "n": 53,
+   "out_observed": 0.7924528301886793,
+   "out_expected": 0.05555317510923563,
+   "n_below": 3,
+   "n_above": 39,
+   "excess_pp": 73.68996550794436,
+   "p": 1.2250434247765863e-60,
+   "verdict": "supported"
+  }
+ },
+ "H5": {
+  "n": 36,
+  "rho": 0.697470881166265,
+  "p_one_sided": 1.13809096582216e-06,
+  "verdict": "supported"
+ },
+ "H6": {
+  "pops": 13,
+  "units": 24,
+  "src_mean": 0.2567315692492869,
+  "burn_mean": 0.05396294449499478,
+  "rel_change": -0.7898079123935217,
+  "diff": -0.25196834882633984,
+  "ci": [
+   -0.38700057863648607,
+   -0.13270254109599205
+  ],
+  "p": 0.0,
+  "pops_improved": 12,
+  "verdict": "supported"
+ },
+ "holm": {
+  "H6": 0,
+  "H4": 9.852550525317508e-43,
+  "H5": 2.27618193164432e-06,
+  "H2": 0.0006683375104427736
+ }
+}
