@@ -1,0 +1,56 @@
+{
+ "Q2_point_r": 0.7950423121379722,
+ "Q2_n": 2190,
+ "Q2_studies": 19,
+ "Q2_cluster_boot": {
+  "B": 2000,
+  "seed": 100,
+  "ci95": [
+   0.6944173339126533,
+   0.864127495149749
+  ],
+  "share_at_or_above_0p80": 0.3695
+ },
+ "GMWI2_training": {
+  "as_reported": {
+   "n_ea": 13,
+   "n_other": 31,
+   "median_ea": 0.6363636363636364,
+   "median_other": 0.1242603550295858,
+   "p": 5.268157575977888e-07
+  },
+  "mongolia_as_east_asian": {
+   "n_ea": 14,
+   "n_other": 30,
+   "median_ea": 0.6050670640834575,
+   "median_other": 0.12751479289940826,
+   "p": 4.795720442587838e-06
+  },
+  "mongolia_studies": 1,
+  "mongolia_fpr": [
+   0.0545454545454545
+  ],
+  "test": "two-sided"
+ },
+ "GMHI_developers": {
+  "as_reported": {
+   "n_ea": 8,
+   "n_other": 13,
+   "median_ea": 0.6734265734265734,
+   "median_other": 0.2051282051282051,
+   "p": 0.0006683375104427736
+  },
+  "mongolia_as_east_asian": {
+   "n_ea": 9,
+   "n_other": 12,
+   "median_ea": 0.6545454545454545,
+   "median_other": 0.22869022869022865,
+   "p": 0.010453092817339395
+  },
+  "mongolia_studies": 1,
+  "mongolia_fpr": [
+   0.0747663551401869
+  ],
+  "test": "greater"
+ }
+}

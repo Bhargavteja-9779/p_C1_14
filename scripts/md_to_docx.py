@@ -31,8 +31,9 @@ for b in blocks:
         lvl = len(first) - len(first.lstrip("#")); doc.add_heading(first.lstrip("#").strip(), level=min(lvl, 3)); continue
     if first.startswith("---"): continue
     if first.startswith("|"):
-        rows = [[c.strip() for c in r.strip("|").split("|")] for r in b if not re.match(r"^\|[\s\-|]+\|$", r)]
-        t = doc.add_table(rows=len(rows), cols=len(rows[0])); t.style = "Table Grid"
+        rows = [[c.strip().replace("\\|", "|") for c in re.split(r"(?<!\\)\|", r.strip().strip("|"))] for r in b if not re.match(r"^\|[\s\-|:]+\|$", r)]
+        ncol = max(len(r) for r in rows)
+        t = doc.add_table(rows=len(rows), cols=ncol); t.style = "Table Grid"
         for i, r in enumerate(rows):
             for j, c in enumerate(r): t.cell(i, j).text = c
         continue
