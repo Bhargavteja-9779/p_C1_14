@@ -278,6 +278,11 @@ commit 87fe9f6); the R script was not executed. Code: `v7/run_gmhi.py`; post hoc
 - H2 East Asian excess: median 0.67 (8 studies) vs 0.21 (13); one-sided Mann–Whitney
   P = 0.0007, Holm-adjusted 0.0007. Supported.
 
+**Overlap with GMWI2 (post hoc).** 83% of GMHI's 2,636 healthy training samples are also GMWI2 training samples
+(BioSample accessions; `v7/posthoc_gmhi_gmwi2_overlap.py`), and 15 of the 21 studies are mostly shared. H2 is therefore a
+replication in a second model on largely shared data. In the 6 studies not shared with GMWI2: East Asian median
+0.63 (3 studies) vs 0.17 (3); one-sided P = 0.10 (underpowered).
+
 **curatedMetagenomicData part: Q2 failed; H3–H6 not interpreted.** Deviation found in review: the plan matched samples
 by accession, but the developers record BioSample accessions and curatedMetagenomicData records sample names and run
 accessions, so the original run matched only 2 studies (101 samples; r = 0.80) and misclassified at least 10

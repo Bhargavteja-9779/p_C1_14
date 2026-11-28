@@ -31,7 +31,7 @@ operating-point metrics drift between sites even when AUROC holds [14]. What has
 at a fixed cut-off varies across diseases and healthy populations. Cross-cohort evaluations across many diseases report
 AUROC [15], best-practice guides focus on discrimination [16], and an audit in this journal found that most studies do
 not deposit the metadata needed to re-test them [17]. Laboratory medicine verifies reference limits on local healthy
-people before use [18]; microbiome diagnostics have no such step.
+people before use [18]; microbiome diagnostic studies rarely report such a step.
 
 Here we measured the FPR of 28 classifiers for 14 diseases in every eligible healthy adult population in
 curatedMetagenomicData [19] (36 populations, 6,525 people, 20 countries). We then audited a published, released
@@ -75,7 +75,8 @@ cut-off; we use this training FPR as the rate the index should deliver elsewhere
 
 Within its own training data, the cut-off labelled 0% to 84% of healthy people as non-healthy, depending on the study
 (44 studies with ≥ 20 healthy people; I² = 0.96; Figure 2A; post hoc, developers' scores only). All eight studies above
-50% were from China or Japan: median 0.64 across the 13 East Asian studies against 0.12 across the 31 others (two-sided
+50% were from China or Japan: median 0.64 across the 13 East Asian studies (China, Japan, South Korea; Mongolia counted
+as other) against 0.12 across the 31 others (two-sided
 Mann–Whitney P = 5 × 10⁻⁷). Healthy people in rural Africa were almost never mislabelled (0–7%).
 
 In 15 healthy populations GMWI2 never saw (strict set, 1,914 people; our scoring reproduced the published scores,
@@ -89,8 +90,10 @@ To test whether this was specific to GMWI2, we audited its predecessor, the Gut 
 under a second pre-specified plan (Figure S2). Our re-implementation reproduced the developers' script exactly. In the
 developers' own data, GMHI labelled 3% to 90% of healthy people as non-healthy across 21 studies (I² = 0.96; 24%
 overall), and the eight East Asian studies had a median of 0.67 against 0.21 in the 13 others (one-sided P = 0.0007,
-Holm-adjusted), so the East Asian excess replicated in an index built with a different algorithm and different
-markers. The plan's second part, scoring GMHI on curatedMetagenomicData, failed its pre-specified reproducibility gate
+Holm-adjusted). GMHI uses a different algorithm and different markers, but its training data largely overlap with
+GMWI2's (82% of its healthy samples; 15 of 21 studies), so this is a replication in a second model rather than in
+independent data; in the six studies not shared with GMWI2 the direction was the same (median 0.63 vs 0.17, three
+studies each; post hoc). The plan's second part, scoring GMHI on curatedMetagenomicData, failed its pre-specified reproducibility gate
 (r = 0.80 required; 0.795 on 2,190 samples profiled both ways), and we do not interpret it. The reason is itself a
 warning: four of GMHI's seven health-prevalent species do not exist under the MetaPhlAn3 names that
 curatedMetagenomicData uses, and on the same samples the share flagged rose from 23% to 43%, by 0 to 74 points
@@ -158,14 +161,15 @@ exceeds 0.25 (Figure S1B; post hoc). We release the atlas and these procedures a
 The false-positive rate of a gut-microbiome test is a property of the test, the population and the profiling pipeline
 together. Two published health indices labelled healthy East Asian cohorts as non-healthy, and for one of them
 retraining linked this to the geographic make-up of pooled training data. Cross-cohort benchmarks should report the FPR at a fixed cut-off in each held-out population, with I² and a
-prediction interval, next to AUROC, as STORMS-style reporting [29] could require. Developers should check the geographic
+prediction interval, next to AUROC, as is standard for clinical prediction models [29, 30] and as STORMS-style
+reporting [31] could require. Developers should check the geographic
 case mix of training data and state the profiler version their cut-off assumes. Sites should treat a published cut-off as provisional, verify it on local healthy people and,
-for screening, recalibrate it. Processing-bias corrections such as DEBIAS-M and MMUPHin [30, 31] should be judged by the
+for screening, recalibrate it. Processing-bias corrections such as DEBIAS-M and MMUPHin [32, 33] should be judged by the
 FPR they deliver at new sites.
 
 Our study has limits. All profiles came from one pipeline (MetaPhlAn3); our classifiers used fixed settings, and seven
 had an AUROC below 0.6. "Population" includes each study's sample handling, which we cannot separate from biology. We did
-not run DEBIAS-M, MMUPHin or ConQuR [32]. GMHI could not be transferred to curatedMetagenomicData profiles (four of its seven
+not run DEBIAS-M, MMUPHin or ConQuR [34]. GMHI could not be transferred to curatedMetagenomicData profiles (four of its seven
 health-prevalent species missing), so its audit rests on the developers' own data. The strict set and the East Asian comparisons were chosen after seeing results.
 All site-level results are retrospective; a prospective deployment is needed.
 
@@ -245,10 +249,12 @@ online at the journal.
 26. Saerens M, Latinne P, Decaestecker C. Adjusting the outputs of a classifier to new a priori probabilities: a simple procedure. *Neural Comput*. 2002;14:21–41. https://doi.org/10.1162/089976602753284446
 27. Tong X, Feng Y, Li JJ. Neyman-Pearson classification algorithms and NP receiver operating characteristics. *Sci Adv*. 2018;4:eaao1659. https://doi.org/10.1126/sciadv.aao1659
 28. Ammer T, Schützenmeister A, Prokosch HU, Rauh M, Rank CM, Zierk J. refineR: a novel algorithm for reference interval estimation from real-world data. *Sci Rep*. 2021;11:16023. https://doi.org/10.1038/s41598-021-95301-2
-29. Mirzayi C, Renson A, Genomic Standards Consortium, et al. Reporting guidelines for human microbiome research: the STORMS checklist. *Nat Med*. 2021;27:1885–1892. https://doi.org/10.1038/s41591-021-01552-x
-30. Austin GI, Brown Kav A, ElNaggar S, et al. Processing-bias correction with DEBIAS-M improves cross-study generalization of microbiome-based prediction models. *Nat Microbiol*. 2025;10:897–911. https://doi.org/10.1038/s41564-025-01954-4
-31. Ma S, Shungin D, Mallick H, et al. Population structure discovery in meta-analyzed microbial communities and inflammatory bowel disease using MMUPHin. *Genome Biol*. 2022;23:208. https://doi.org/10.1186/s13059-022-02753-4
-32. Ling W, Lu J, Zhao N, et al. Batch effects removal for microbiome data via conditional quantile regression. *Nat Commun*. 2022;13:5418. https://doi.org/10.1038/s41467-022-33071-9
+29. Riley RD, Ensor J, Snell KIE, et al. External validation of clinical prediction models using big datasets from e-health records or IPD meta-analysis: opportunities and challenges. *BMJ*. 2016;353:i3140. https://doi.org/10.1136/bmj.i3140
+30. Debray TPA, Damen JAAG, Snell KIE, et al. A guide to systematic review and meta-analysis of prediction model performance. *BMJ*. 2017;356:i6460. https://doi.org/10.1136/bmj.i6460
+31. Mirzayi C, Renson A, Genomic Standards Consortium, et al. Reporting guidelines for human microbiome research: the STORMS checklist. *Nat Med*. 2021;27:1885–1892. https://doi.org/10.1038/s41591-021-01552-x
+32. Austin GI, Brown Kav A, ElNaggar S, et al. Processing-bias correction with DEBIAS-M improves cross-study generalization of microbiome-based prediction models. *Nat Microbiol*. 2025;10:897–911. https://doi.org/10.1038/s41564-025-01954-4
+33. Ma S, Shungin D, Mallick H, et al. Population structure discovery in meta-analyzed microbial communities and inflammatory bowel disease using MMUPHin. *Genome Biol*. 2022;23:208. https://doi.org/10.1186/s13059-022-02753-4
+34. Ling W, Lu J, Zhao N, et al. Batch effects removal for microbiome data via conditional quantile regression. *Nat Commun*. 2022;13:5418. https://doi.org/10.1038/s41467-022-33071-9
 
 ## FIGURE LEGENDS
 

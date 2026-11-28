@@ -1,0 +1,22 @@
+study_no,n,k,ea,region,author,fpr,share_in_gmwi2
+S-7,39,35,True,Chinese,He (2017),0.8974358974358975,1.0
+S-8,107,8,False,Mongolian Population,Liu (2016),0.0747663551401869,1.0
+V-1,30,5,False,HADZA,Rampeli (2015),0.1666666666666666,0.0
+V-10,92,37,True,China,Qin (2014),0.4021739130434782,1.0
+V-12,101,64,True,Chinese,Liu (2017),0.6336633663366337,0.0
+V-15,33,1,False,USA,Petersen (2017),0.0303030303030303,0.0
+V-16,58,24,False,danish,Nielsen (2014),0.4137931034482758,0.8103448275862069
+V-18,20,13,False,Tunapuco,Obregon-Tito (2015),0.65,0.85
+V-19,21,8,False,Samples collected from a hospital of Austria,Feng (2015),0.3809523809523809,0.0
+V-2,75,62,True,Chinese,Jie (2017),0.8266666666666667,1.0
+V-22,467,46,False,Netherlands,Schirmer (2016),0.0985010706638115,0.8179871520342612
+V-23 & V-24 (HMP1 and HMP2),222,56,False,USA,HMP1: Huttenhower (2012) and HMP2: Lloyd-Price (2017),0.2522522522522522,0.9144144144144144
+V-25,883,78,False,Israel,Zeevi (2015),0.088335220838052,1.0
+V-29,55,36,True,China,Zhang (2015),0.6545454545454545,1.0
+V-32,26,18,True,Japanese,Nishijima (2016),0.6923076923076923,0.0
+V-38,35,11,True,China,Li (2017),0.3142857142857143,0.0
+V-43,30,15,False,White not Hispanic,Vogtmann (2016),0.5,1.0
+V-44,89,14,False,danish,Backhed (2015),0.1573033707865168,1.0
+V-46,39,8,False,Danish population,Le Chatelier (2013),0.2051282051282051,1.0
+V-6,42,17,False,France,Zeller (2014),0.4047619047619047,1.0
+V-8,61,48,True,Chinese,Qin (2012),0.7868852459016393,1.0

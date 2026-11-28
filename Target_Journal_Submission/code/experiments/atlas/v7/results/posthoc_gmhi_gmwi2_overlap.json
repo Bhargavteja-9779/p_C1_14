@@ -1,0 +1,12 @@
+{
+ "healthy_samples": 2636,
+ "share_samples_in_gmwi2": 0.825113808801214,
+ "studies": 21,
+ "studies_mostly_in_gmwi2": 15,
+ "independent_studies": 6,
+ "independent_ea": 3,
+ "independent_other": 3,
+ "independent_median_ea": 0.6336633663366337,
+ "independent_median_other": 0.1666666666666666,
+ "independent_p_one_sided": 0.1
+}

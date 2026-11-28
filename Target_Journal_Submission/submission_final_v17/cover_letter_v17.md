@@ -21,7 +21,8 @@ The Letter makes three contributions:
   tests in healthy general populations, with heterogeneity statistics and prediction intervals for a new population.
 - **An audit of two released indices.** In its own East Asian training studies, the Gut Microbiome Wellness Index 2
   labelled a median of 64% of healthy people per study as non-healthy, against 12% elsewhere, and a pre-specified audit
-  of its predecessor, the Gut Microbiome Health Index, replicated the pattern in the developers' own data (67% vs 21%). Retraining the published GMWI2 recipe reproduced
+  of its predecessor, the Gut Microbiome Health Index, found the same pattern in a second model trained largely on the
+  same studies (67% vs 21%). Retraining the published GMWI2 recipe reproduced
   the effect and linked it to the geographic make-up of the training data; we state clearly that this is a property of
   the models, not evidence about East Asian microbiomes. GMHI could not be transferred to newer profiles, which
   shows that a released cut-off also depends on the profiling software version.

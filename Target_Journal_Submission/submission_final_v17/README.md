@@ -4,7 +4,7 @@
 
 | File | What |
 |---|---|
-| `manuscript_v17.md` / `.docx` | Main text (~2,300 words, title to conclusion), 3 figures + 2 supporting figures, 32 references, figure legends, statements |
+| `manuscript_v17.md` / `.docx` | Main text (~2,370 words, title to conclusion), 3 figures + 2 supporting figures, 34 references, figure legends, statements |
 | `supporting_information_v17.docx` (upload this; it includes the tables) — sources `supporting_information_v17.md` + `si_tables_v16.md` | SI S1–S7 (methods, plans and deviations, failed attempts, GMHI audit), Tables S1–S27 |
 | `figures/` | Figure 1–3, Figures S1–S2, graphical abstract v17 (PDF vector + PNG 300 dpi) |
 | `highlights.md` | 3 highlights |
