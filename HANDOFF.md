@@ -1,13 +1,14 @@
 # HANDOFF — read this first
 
-**Branch:** `claude/zen-planck-p60lrt` (2026-11-25: adopted the festive-cori-jft724 tree unchanged via an ours-merge; zen-planck's own earlier exploration is superseded). Before that: `claude/festive-cori-jft724` (merged `claude/trusting-mayer-1ipvjz` 2026-11-25), previously `claude/trusting-mayer-1ipvjz` (contains `claude/beautiful-goldberg-37nqmw` cycle-6 work, merged 2026-11-25; parallel duplicate files kept with suffix `_alt_trusting`).
-**Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** cycle 5 — upgrade after rejection (USER_DIRECTIVES.md)
+**Branch:** `claude/bold-clarke-qsp9pf` (2026-11-28: fast-forwarded onto `claude/sharp-meitner-guez1q`, the most recent line, v17; bold-clarke's own earlier commits were already ancestors). Earlier lines: sharp-meitner <- zen-planck <- festive-cori <- trusting-mayer <- beautiful-goldberg.
+**Cycle:** 5 of 12 · **Pivots used:** 1 of 3 · **Phase:** final polishing (USER_DIRECTIVES rule 3: every scorecard dimension >= benchmark P75)
 
 ## NEXT ACTION
-FINAL PACKAGE: Target_Journal_Submission/submission_final_v17/ (manuscript v17 + SI docx, figures incl. S2 GMHI,
-graphical abstract v17, highlights, cover letter, SUBMISSION_REPORT.md). Final blind check r16: 77/100, ready after
-minor changes (fixed). Plan v7 (GMHI) in code/experiments/atlas/v7 (results/README.md says which outputs are
-authoritative). Branch `claude/sharp-meitner-guez1q`.
+Current package: Target_Journal_Submission/submission_final_v19/ (manuscript v19 + SI docx, figures incl. Figure 1 v19,
+graphical abstract v18, highlights, cover letter v19). History this session: v17 r16 77/100 (clarity 7 < P75 7.25) ->
+v18 clarity pass -> blind r17 73/100 (clarity, reproducibility below P75; 9 wording items) -> v19 -> blind r18 (see
+reviews/review_r18_editor_blind_v19.md). If r18 leaves required items, fix them (text only; no new confirmatory
+analyses) and re-review once more. Reproducibility cannot reach P75 until the repo is public (author-only).
 BLOCKED ON USER (author-only): author list/affiliations, CRediT, COI, funding, AI-use statement, public repo + Zenodo
 DOI + tagged fprcal release, right of reply to GMWI2 and GMHI developers, suggested reviewers, iMeta guideline check,
 Poyet 2026 full-text check for GMHI.
