@@ -25,13 +25,15 @@
 | r18 (v19) | — | — | minor | 76 | clarity below P75 |
 | r19 (v20) | 7 minor | 8 minor | 7 minor | 72 / 77 / 73 | fold-model issue found |
 | **r20 (v21)** | **7.5 minor** | **8 minor (no MAJOR)** | **7 minor** | **75 / 78 / 74** | second clean panel in a row |
+| r21 (v22 draft) | — | — | minor (clarity check) | 75 | 4 required wording items, all done in final v22 |
 
-v22 answers the r20 items (see `reviews/round_20_triage.md`).
+v22 answers the r20 and r21 items (see `reviews/round_20_triage.md` and `reviews/round_21_triage.md`).
 
 ## 3. Against the benchmark (P75 of 12 published iMeta papers on the same 10 dimensions)
 In r20, all three reviewers put 9 of 10 dimensions at or above P75. **Clarity** was scored 7, 8 and 6 against a P75 of
-7.25: one reviewer above, two at or below. v22 cuts main-text numerals from 225 (v17) to 134 and moves second-tier
-statistics to the SI; it has not been re-scored. Reproducibility is held back mainly by the private repository.
+7.25: one reviewer above, two at or below. A blind clarity check of the v22 draft (r21) again gave 7; its four required items
+(highlight wording, a "Here we" opening with both headline numbers, percent notation, fewer numbers in the burn-in
+section) are done in the final v22 and have not been re-scored. Reproducibility is held back mainly by the private repository.
 
 ## 4. Acceptance assessment
 Reviewers' estimates: about 45% (range 35–55%) if the repository is public and the developers have had a right of

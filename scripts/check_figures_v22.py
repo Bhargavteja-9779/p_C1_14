@@ -10,7 +10,7 @@ jobs = [("v5/make_fig_atlas_v21.py", "figures_v21/figure1_atlas.png", "figure1_a
         ("v5/make_fig_site_v22.py", "figures_v22/figure3_site.png", "figure3_site.png"),
         ("v5/make_fig_site_v22.py", "figures_v22/figureS1_site_methods.png", "figureS1_site_methods.png"),
         ("v7/make_fig_gmhi_v17.py", None, "figureS2_gmhi.png"),
-        ("make_graphical_abstract_v21.py", "graphical_abstract/graphical_abstract_v21.png", "graphical_abstract_v21.png")]
+        ("make_graphical_abstract_v22.py", "graphical_abstract/graphical_abstract_v22.png", "graphical_abstract_v22.png")]
 out = []; ok = True
 for script, built, pkg in jobs:
     sp = os.path.join(A, script); subprocess.run([sys.executable, os.path.basename(sp)], cwd=os.path.dirname(sp), check=True, capture_output=True)

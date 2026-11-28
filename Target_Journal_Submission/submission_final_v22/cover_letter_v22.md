@@ -39,10 +39,10 @@ papers should report (the false-positive rate per held-out population, next to A
 All data are public. Confirmatory analyses followed time-stamped plans committed before they were run; we report the
 hypotheses that failed and label every post hoc analysis. Code, plans, per-person scores, figure source data and the
 tool are available at [GitHub URL; Zenodo DOI]. A logged fresh-clone rerun reproduced the earlier three-disease
-pipeline file for file, and a later refit of all 28 atlas classifiers reproduced the atlas scores exactly;
-REPRODUCE.md gives every step. One post hoc script (v6c) gives slightly different numbers on rerun
-(Supporting Information S6).
-[Before submission: confirm that the GMWI2 and GMHI developers were sent the audits and given the opportunity to comment.]
+pipeline file for file, a later refit of all 28 atlas classifiers reproduced the atlas scores exactly, and every
+submitted figure rebuilds pixel for pixel from its script. One post hoc analysis gives slightly different numbers on
+rerun because its solver was unseeded (Supporting Information S6).
+[Authors: state here that the GMWI2 and GMHI developers were sent the audits and given the opportunity to comment.]
 
 This manuscript has not been published and is not under consideration elsewhere. All authors approved the submission.
 [Competing interests: authors to confirm.]

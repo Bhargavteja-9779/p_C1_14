@@ -23,11 +23,16 @@ fixes how many healthy people are flagged, and in CRC screening every false posi
 Clinical epidemiology has long known that a test's specificity depends on the population it is used in (the "spectrum
 effect") [8, 9]. Microbiome studies have shown this too. Most directly, the SIAMCAT benchmark set cut-offs for an FPR
 of 10% and found that controls from other studies roughly doubled the false positives across many case–control tasks
-[10]. Reference ranges also did not transfer between districts of one province [11], predictors trained on
-industrialised populations were uninformative elsewhere [12], although without a per-population FPR, and CRC models lost calibration across countries [13]. In medical
-imaging, the operating point drifts between sites even when AUROC holds [14]. Cross-cohort benchmarks report AUROC or
-transfer of discrimination [13, 15, 16], not the FPR at a fixed cut-off, and an audit in this journal found that most studies do not deposit the metadata needed to re-test them
-[17]. Laboratory medicine, by contrast, verifies a reference limit on local healthy people before use [18].
+[10]. Reference ranges did not transfer between districts of one province [11]. Predictors trained on industrialised
+populations were uninformative elsewhere, although no per-population FPR was reported [12]. CRC models lost
+calibration across countries [13], and in medical imaging the operating point drifts between sites even when AUROC
+holds [14]. Yet cross-cohort benchmarks report discrimination, not the FPR at a fixed cut-off [13, 15, 16], and an
+audit in this journal found that most studies do not deposit the metadata needed to re-test them [17]. Laboratory
+medicine, by contrast, verifies a reference limit on local healthy people before use [18].
+
+Here we scored 28 disease classifiers in 36 groups of healthy adults (6,525 people, 20 countries). In 70% of
+classifier–population pairs the FPR missed the 5–15% band around its 10% target, and resetting the cut-off on 100
+unlabelled local people cut the error by 62%.
 
 We extend the SIAMCAT observation in four ways. We score healthy adult groups rather than the controls of other
 case–control studies; we measure the spread across populations with heterogeneity statistics and prediction intervals;
@@ -36,25 +41,24 @@ retraining. We also test a local fix. Confirmatory analyses followed time-stampe
 committed to the code repository before they were run ("pre-specified"). Several of these hypotheses failed or were
 inconclusive, and Supporting Information S5 lists them all. Analyses that were not pre-specified are marked †.
 
-## THE SAME CUT-OFF GIVES A DIFFERENT FALSE-POSITIVE RATE IN EVERY POPULATION
+## THE SAME CUT-OFF GIVES A DIFFERENT FALSE-POSITIVE RATE FROM POPULATION TO POPULATION
 
 We trained 28 classifiers (LASSO and random forest, RF, for 14 diseases) on MetaPhlAn3 profiles [21] from 26
 case–control cohorts. As in [1], each cut-off was the 90th percentile of out-of-fold control scores, which targets an
-FPR of 0.10. We then scored one sample per healthy adult in every population of the curatedMetagenomicData resource [19] not
+FPR of 10%. We then scored one sample per healthy adult in every population of the curatedMetagenomicData resource [19] not
 used in training. Our main ("strict") set has 36 groups with 6,525 people from 20 countries: population cohorts and the
 healthy controls of case–control studies, without hospital, pregnancy, trial or colonoscopy-referral groups. Because
 this set was defined after first results, we repeated every analysis on all 55 populations (S1, data and populations).
 
 The FPR depended on where the classifier was used (Figure 1A, B). In 70% of classifier–population pairs it fell outside
-0.05–0.15 (65% among classifiers with AUROC ≥ 0.65), against about 15% expected from sampling noise if each cut-off
-were exactly calibrated, and the spread exceeded sampling noise for every classifier
-(I² median 0.94). In populations of at least 100 people it ranged from 0 to 0.77 for LASSO and from 0 to 0.87 for RF.
-For a new population, the 95% prediction interval of some classifiers reached 0.81 (Figure 1C). Pooled over
-populations, some classifiers looked well calibrated, so a pooled FPR can hide the problem.
+5–15%, against about 15% expected from sampling noise if each cut-off were exactly calibrated. The spread exceeded
+sampling noise for every classifier, and in populations of at least 100 people the FPR reached 87% (S2.2). For a new
+population, the 95% prediction interval of some classifiers reached 81% (Figure 1C). Pooled over populations, some
+classifiers looked well calibrated, so a pooled FPR can hide the problem.
 
 A released model is usually refitted on all training data, while its cut-off comes from cross-validation, and this
 mismatch adds to the error. When each cross-validation model flagged people at the cut-off and we averaged the flags,
-65% of pairs still fell outside 0.05–0.15 and all 28 classifiers kept large heterogeneity, but the most extreme LASSO
+65% of pairs still fell outside 5–15% and all 28 classifiers kept large heterogeneity, but the most extreme LASSO
 values shrank (S2.3, fold-model check)†.
 
 A higher AUROC did not mean a smaller spread (Spearman ρ = −0.06, 95% CI −0.42 to 0.32; Figure 1D). With fold-model
@@ -69,15 +73,15 @@ regression on 95 taxa trained on 8,069 stool metagenomes. For an index, the FPR 
 labels non-healthy; by the developers' own scores this is 21% in their healthy training samples.
 
 Within its own training data, GMWI2 labelled 0% to 84% of healthy people as non-healthy, depending on the study
-(Figure 2A)†. All eight studies above 50% were from China or Japan. The median was 0.64 across the 13 East Asian
-studies and 0.12 across the 31 others (P = 5 × 10⁻⁷).
+(Figure 2A)†. All eight studies above 50% were from China or Japan. The median was 64% across the 13 East Asian
+studies and 12% across the 31 others (P = 5 × 10⁻⁷).
 
-In 15 healthy populations GMWI2 never saw, 12 fell outside the pre-specified band of 0.10–0.31, against 9% expected by
+In 15 healthy populations GMWI2 never saw, 12 fell outside the pre-specified band of 10–31%, against 9% expected by
 chance (P = 2 × 10⁻¹²; Figure 2B); eight were below the band and four above it. The four unseen East Asian populations were among the more over-flagged, which is
 suggestive only (S2.2, unseen populations)†.
 
 We then audited its predecessor, the Gut Microbiome Health Index (GMHI) [22], under a second pre-specified plan. In the
-developers' own data the pattern recurred: a median of 0.67 in eight East Asian studies against 0.21 in 13 others
+developers' own data the pattern recurred: a median of 67% in eight East Asian studies against 21% in 13 others
 (P = 0.0007; Figure S2A). GMHI uses a different algorithm and markers, but 83% of its healthy samples are also in
 GMWI2's training data, so this is a replication in a second model, not in independent data.
 
@@ -102,7 +106,7 @@ evidence that East Asian microbiomes are less healthy. Country also travels with
 
 We retrained the GMWI2 recipe on 10,986 people in 61 studies, leaving one study out at a time (pre-specified). Pooled
 training reproduced the effect (Figure 2D). Giving every country × label group the same total weight cut the East
-Asian–other gap from 0.52 to 0.06. This met our pre-stated 50% reduction on the point estimate but not on its confidence interval. The weighting also
+Asian–other gap from 52 to 6 percentage points. This met our pre-stated 50% reduction on the point estimate but not on its confidence interval. The weighting also
 shrinks the largest countries, and balancing labels within countries removed less of the gap†, so case mix and country
 size cannot be fully separated. Reweighting also cost discrimination; it is a check of the training data, not a
 deployment fix (S6, retraining).
@@ -113,29 +117,25 @@ The error in Figure 1 is specific to each classifier–population pair, so it ne
 other cohorts failed, whether from a large pooled reference, the most similar populations or the same country, and
 adding external controls to training did not help (S4, corrections that failed).
 
-A site that tests mostly healthy people can reset the cut-off without labels. It scores its first N tests and takes
-the k-th smallest score as the cut-off, k = ⌈(N + 1)(1 − α(1 − π_max))⌉, where α is the target FPR and π_max the
-highest expected share of patients among those tested. For example, with N = 100, α = 0.10 and no patients, the cut-off
-is the 91st smallest score.
-
-If later healthy people resemble this burn-in group, the expected FPR is at most α by a split-conformal argument
-[24, 25]; π_max is a conservative allowance for patients (cf. prior-shift corrections [26]). The realised FPR has an
-exact Beta distribution (N = 100, no patients: P(FPR > 0.15) = 0.055; Figure S1A), and a stricter rank bounds
-P(FPR > α) [27]. The rule is not new: medical imaging corrects operating points from unlabelled site data [14], and
+A site that tests mostly healthy people can reset the cut-off without labels. It scores its first 100 tests and uses
+the 91st smallest score as the cut-off for a 10% target; a slightly higher rank allows for some patients among those
+tested (S4, burn-in rules). If later healthy people resemble this burn-in group, the expected FPR is then at most 10%
+by a split-conformal argument [24, 25], and the chance that it exceeds 15% is about 5% (Figure S1A). Prior-shift
+corrections [26] and stricter Neyman–Pearson ranks [27] are close relatives. The rule is not new: medical imaging corrects operating points from unlabelled site data [14], and
 laboratories set reference limits from routine results [28].
 
 We asked whether it survives a non-random split within a site. In 13 healthy populations of at least 120 people, we set
 the cut-off on 100 people from a non-random part of each population (the first 100 in accession order, or the younger
-or leaner half) and evaluated it on the rest. The mean absolute FPR error (distance from the 0.10 target) fell from 0.101 to 0.038 (−62%; population-clustered
-95% CI 51–70%†). All 28 classifiers and 75% of the individual population splits improved, meeting the pre-specified
+or leaner half) and evaluated it on the rest. The FPR error, the mean distance from the 10% target, fell from 10.1 to 3.8 percentage points (−62%;
+population-clustered 95% CI 51–70%†). All 28 classifiers and 75% of the individual population splits improved, meeting the pre-specified
 criterion (Figure 3A); GMWI2 improved similarly (S2.2). A split within one study keeps the laboratory and protocol fixed, so it is close to the conditions the rule
 assumes. Across sites the rule failed: a burn-in from one city or country did no better than the training cut-off
 elsewhere (S4). It must therefore be run where the test is used, and repeated when sample handling or the population
 served changes.
 
 Resetting the cut-off costs sensitivity, because the test moves along its ROC curve. In three case–control cohorts
-where the training cut-off flagged 29% of controls, bringing the FPR to or below the target cut sensitivity from 0.46 to
-about 0.25, and a little more when patients are in the burn-in group (Figure 3B; three cohorts, no interval). The rule therefore suits screening, where almost everyone tested is healthy, not tests of
+where the training cut-off flagged 29% of controls, bringing the FPR to or below the target cut sensitivity from 46% to
+about 25%, and a little more when patients are in the burn-in group (Figure 3B; three cohorts, no interval). The rule therefore suits screening, where almost everyone tested is healthy, not tests of
 referred patients. Lower sensitivity also means more missed cases, a trade-off each programme must weigh against fewer
 needless follow-ups. A site can also check a stated FPR with an exact binomial test on 100 local healthy people
 (Figure S1B)†. We release the atlas and these procedures as fprcal, a tested Python tool for research use; it is not a
@@ -276,8 +276,8 @@ dashed line, training FPR 0.21.
 Each classifier is evaluated in 11–13 populations of the full set with ≥ 120 people × non-random splits (accession
 order, age, body-mass index); 646 evaluations in total (Table S5). (B) Sensitivity against FPR at N = 100, averaged over three case–control cohorts (one
 CRC, two T2D): training cut-off (ochre; does not depend on the burn-in), expected-FPR burn-in with 1%, 5% or 10% patients
-in the burn-in group (blue), and a cut-off set on 100 labelled local controls (grey); dashed line, target FPR. The
-burn-in point with no patients lies under the labelled-controls marker. The three cohorts are the held-out
+in the burn-in group (blue), and a cut-off set on 100 labelled local controls (grey); dashed line, target FPR. With no
+patients the burn-in cut-off equals the labelled-controls cut-off (ring). The three cohorts are the held-out
 case–control cohorts of the earlier three-disease analysis, fixed before testing (S4), not chosen by their FPR.
 
 **Supporting Figure S1. Statistics of the site rules.** (A) Exact probability that the realised FPR exceeds 0.15 when the cut-off is the k-th smallest

@@ -31,8 +31,9 @@ sites and costs sensitivity; it is released as `fprcal`.
 | G11 Number audit | pass (lenient) | v22: main text 70/70, SI 428/428, cover letter 13/13, highlights 5/5 numbers match result files. |
 
 **User directive (top-notch = at or above P75 on every scorecard dimension):** met on 9 of 10 dimensions by all r20
-reviewers. Clarity: 7, 8, 6 against a P75 of 7.25. v22 cuts main-text numerals from 225 (v17) to 134 and has not been
-re-scored.
+reviewers. Clarity: 7, 8, 6 against a P75 of 7.25 (r20), and 7 in a blind clarity check of the v22 draft (r21, total
+75/100). Its required items are done in the final v22, which has not been re-scored. Clarity is the one dimension not
+shown to be at P75.
 
 ## This session (2026-11-28)
 v17 → v22 over five blind review rounds (r16–r20). Main changes: clarity rewrite (2,400 → ~2,030 words); a post hoc

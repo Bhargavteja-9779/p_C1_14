@@ -94,7 +94,7 @@ python v5/make_fig_atlas_v21.py         # Figure 1 (v21: panel D)  -> manuscript
 python v6/make_fig_gmwi2_v21.py         # Figure 2 (v21: top-five taxa marked, panel D legend)
 python v5/make_fig_site_v22.py          # Figure 3 and Figure S1 (v22 wording)
 python v7/make_fig_gmhi_v17.py          # Figure S2 (GMHI)
-python make_graphical_abstract_v21.py   # graphical abstract (v21)
+python make_graphical_abstract_v22.py   # graphical abstract (v22)
 ```
 The v22 package `figures/` folder holds the exact files submitted. `python scripts/check_figures_v22.py` reruns every figure script and compares each
 PNG pixel by pixel with the package copy (2026-11-28: 6/6 identical; `logs/check_figures_v22.txt`). The pixel-identical rebuild below covers the v16

@@ -101,6 +101,8 @@ This section gives numbers behind the main-text statements; each is traceable to
   of at least 100 people is one RF pair (heart failure, AUROC 0.75, LiuW_2016, n = 110).
 - **GMWI2 reference FPR.** 20.8% of the developers' healthy training samples fall below the published cut-off (their
   own scores). The developers published a cut-off, not a target rate; we use this training-implied FPR as the reference.
+- **Atlas, by AUROC.** Among classifiers with AUROC ≥ 0.65, 65% of pairs fell outside 0.05–0.15 (558 pairs); among
+  those with AUROC < 0.6, 85% (`v5/posthoc_r20_numbers.py`). I² median 0.94 (range 0.64–0.97; 28/28 also in the full set).
 - **Atlas, sampling noise.** Sampling noise alone would put 15–16% of populations outside 0.05–0.15 (half to one and a
   half times the target); the observed share was 50–97%.
 - **Atlas, covariates.** In the three-test analysis (S2), adjusting for age, sex, body-mass index and sequencing depth

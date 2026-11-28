@@ -1,4 +1,4 @@
-# v22: "patients" instead of "cases"; rule names match the legends (review r20).
+# v22: "patients" instead of "cases"; rule names match the legends (review r20); burn-in with 0% patients drawn as a ring (review r21).
 """v17: classifier labels on Fig 3A rows. Figure 3 (v15, two panels) and Supporting Figure S1 (v15). Same data and code as make_fig_deploy_v11.py, re-laid out:
 Fig 3A = within-site burn-in vs training cut-off (v5_h4_units.csv, H4); Fig 3B = sensitivity price (deploy_v4_cc_summary.csv).
 Fig S1A = exact law of the burn-in FPR vs N (fprcal); Fig S1B = power of local verification (verify_power_v5.csv, post hoc)."""
@@ -24,6 +24,8 @@ for meth, c, mk, lab in [("BURN", BLUE, "o", "burn-in, expected-FPR rule"), ("LA
     d.scatter(x.fpr, x.sens, s=16, color=c, marker=mk, edgecolor="white", lw=.6, label=lab, zorder=3)
     if meth == "BURN":
         for (_, r), dy in zip(x.iterrows(), (14, -4, -22)): d.annotate(f"{r.pi:.0%} patients in burn-in", (r.fpr, r.sens), xytext=(32, dy), textcoords="offset points", fontsize=5, color=MUT, ha="left", va="center", arrowprops=dict(arrowstyle="-", color=GRID, lw=.5))
+c0 = pd.read_csv(os.path.join(H, "..", "v4", "results", "deploy_v4_cc_summary.csv")); c0 = c0[(c0.N == 100) & (c0.pi == 0) & (c0.pimax == 0) & (c0.method == "BURN")][["fpr", "sens"]].mean()
+d.scatter([c0.fpr], [c0.sens], s=70, facecolor="none", edgecolor=BLUE, lw=.9, zorder=4); d.annotate("0% patients (same as labelled controls)", (c0.fpr, c0.sens), xytext=(32, 30), textcoords="offset points", fontsize=5, color=MUT, ha="left", va="center", arrowprops=dict(arrowstyle="-", color=GRID, lw=.5))
 d.axvline(.10, color=MUT, lw=.8, ls="--"); d.set_xlabel("FPR (mean of 3 case–control cohorts)"); d.set_ylabel("sensitivity"); d.set_xlim(0, .32); d.set_ylim(0, .5)
 d.legend(frameon=False, fontsize=5.5, loc="lower right"); d.set_title("B  The price: sensitivity", loc="left", color=TXT)
 for e in ["pdf", "png"]: fig.savefig(os.path.join(O, f"figure3_site.{e}"), dpi=300, bbox_inches="tight", facecolor="white")

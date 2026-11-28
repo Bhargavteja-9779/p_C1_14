@@ -3,4 +3,4 @@ figure2_published_test.png       IDENTICAL  (v6/make_fig_gmwi2_v21.py -> figures
 figure3_site.png                 IDENTICAL  (v5/make_fig_site_v22.py -> figures_v22/figure3_site.png)
 figureS1_site_methods.png        IDENTICAL  (v5/make_fig_site_v22.py -> figures_v22/figureS1_site_methods.png)
 figureS2_gmhi.png                IDENTICAL  (v7/make_fig_gmhi_v17.py -> figures_v17/figureS2_gmhi.png)
-graphical_abstract_v21.png       IDENTICAL  (make_graphical_abstract_v21.py -> graphical_abstract/graphical_abstract_v21.png)
+graphical_abstract_v22.png       IDENTICAL  (make_graphical_abstract_v22.py -> graphical_abstract/graphical_abstract_v22.png)

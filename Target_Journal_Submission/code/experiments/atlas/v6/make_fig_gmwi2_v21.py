@@ -42,5 +42,5 @@ d.set_title("D  Retraining with reweighted data", loc="left", color=TXT); d.axhl
 d.text(1.08, res["balanced"]["ea_median"], f"{res['balanced']['ea_median']:.2f}", color=ORA, fontsize=6, va="center"); d.text(1.08, res["balanced"]["other_median"] - .06, f"{res['balanced']['other_median']:.2f}", color=BLUE, fontsize=6, va="center")
 from matplotlib.lines import Line2D
 d.legend(handles=[Line2D([], [], marker="D", ls="", color=ORA, label="East Asian median"), Line2D([], [], marker="D", ls="", color=BLUE, label="other median")], frameon=False, fontsize=6, loc="upper center", bbox_to_anchor=(.5, .95), ncol=2)
-d.text(.5, .985, f"East Asian − other: {res['naive']['gap']:.2f} → {res['balanced']['gap']:.2f}", transform=d.transAxes, ha="center", fontsize=6, color=TXT)
+d.text(.5, .985, f"East Asian − other gap: {res['naive']['gap']:.2f} → {res['balanced']['gap']:.2f} (unrounded medians)", transform=d.transAxes, ha="center", fontsize=6, color=TXT)
 for e in ["png", "pdf"]: fig.savefig(os.path.join(O, f"figure2_published_test.{e}"), dpi=300, bbox_inches="tight")
